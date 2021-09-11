@@ -3,6 +3,10 @@
 
 @import "{{ site.theme }}";
 
+header {
+  display: none;
+}
+
 .container {
   max-width: 90%;
   max-width: 3456px;
