@@ -21,6 +21,10 @@ header ul li {
   justify-content: space-between;
 }
 
+header ul li + header ul li:before {
+    content: "|";
+}
+
 .container {
   max-width: 90%;
   max-width: 3456px;
