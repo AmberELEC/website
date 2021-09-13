@@ -3,8 +3,8 @@
 
 @import "{{ site.theme }}";
 
-header {
-  //display: none;
+header h1:before {
+  display: none;
 }
 
 .container {

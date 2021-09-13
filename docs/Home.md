@@ -2,13 +2,13 @@
 title: 351ELEC
 ---
 
-# Welcome to the 351ELEC wiki!
+## Welcome to the 351ELEC wiki!
 
 351ELEC is an open source firmware developed for the Anbernic RG351P/M/V.
 
 _Join Our Community:_ [https://discord.gg/bmXtCt88Tz](https://discord.gg/bmXtCt88Tz)
 
-## Features
+### Features
 * A 64bit Firmware optimized for the RG351P/M/V.
 * Fully Open Source with a wonderful community of users, contributors and helpers.
 * An up-to-date and fresh [user interface](https://github.com/anthonycaccese/es-theme-art-book-3-2).
@@ -18,11 +18,11 @@ _Join Our Community:_ [https://discord.gg/bmXtCt88Tz](https://discord.gg/bmXtCt8
 * Package manager to install and update games and themes made by our community.
 * An EXFAT games partition easily accessible from Linux, Windows and MacOS.
 
-## [Installation](Installation#overview)
+### [Installation](Installation#overview)
 
 Please visit the wiki [Installation](Installation#overview) page for installation instructions.
 
-## Getting Help
+### Getting Help
 
 If you have general questions or if you need help, join us on Discord: [https://discord.gg/bmXtCt88Tz](https://discord.gg/bmXtCt88Tz)
 
