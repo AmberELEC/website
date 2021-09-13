@@ -14,7 +14,7 @@ _Join Our Community:_ https://discord.gg/bmXtCt88Tz
 * Package manager to install and update games and themes made by our community.
 * An EXFAT games partition easily accessible from Linux, Windows and MacOS.
 
-## [Installation](https://github.com/351ELEC/351ELEC/wiki/Installation#overview)
+## [Installation](Installation#overview)
 
 Please visit the wiki [Installation](https://github.com/351ELEC/351ELEC/wiki/Installation#overview) page for installation instructions.
 
