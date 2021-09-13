@@ -8,7 +8,7 @@ If you want a better understanding of how arcade emulation works, the MAME [Abou
   
 # Emulator Specific Documentation
 
-- [MAME](https://github.com/351ELEC/351ELEC/wiki/System-MAME)
-- [FBNeo](https://github.com/351ELEC/351ELEC/wiki/System-FBNeo)
-- [Daphne](https://github.com/351ELEC/351ELEC/wiki/System-Daphne)
-- [Neo Geo](https://github.com/351ELEC/351ELEC/wiki/System-Neo-Geo)
+- [MAME](System-MAME)
+- [FBNeo](System-FBNeo)
+- [Daphne](System-Daphne)
+- [Neo Geo](System-Neo-Geo)

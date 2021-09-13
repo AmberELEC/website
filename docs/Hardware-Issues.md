@@ -22,4 +22,4 @@ If you do open an issue with AliExpress or Amazon, please do not close the issue
 
 # RG351V Black Lines
 
-Some recent RG351V handhelds have shipped with a different screen that forms black lines and smears on the screen as the device heats up. Fortunately, there is a solution to this issue. It's implemented in the current [Beta build](https://github.com/351ELEC/351ELEC/wiki/Contributing-to-351ELEC#beta-builds), and will be incorporated into the next stable release of 351ELEC.
+Some recent RG351V handhelds have shipped with a different screen that forms black lines and smears on the screen as the device heats up. Fortunately, there is a solution to this issue. It's implemented in the current [Beta build](Contributing-to-351ELEC#beta-builds), and will be incorporated into the next stable release of 351ELEC.

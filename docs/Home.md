@@ -16,7 +16,7 @@ _Join Our Community:_ https://discord.gg/bmXtCt88Tz
 
 ## [Installation](Installation#overview)
 
-Please visit the wiki [Installation](https://github.com/351ELEC/351ELEC/wiki/Installation#overview) page for installation instructions.
+Please visit the wiki [Installation](Installation#overview) page for installation instructions.
 
 ## Getting Help
 

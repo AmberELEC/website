@@ -12,7 +12,7 @@
 
 **Q:** Controls and/or rumble are not working on PlayStation.
 
-**A:** [Solution](https://github.com/351ELEC/351ELEC/wiki/System-Sony-PlayStation#controls-and-rumble-not-working-in-games).
+**A:** [Solution](System-Sony-PlayStation#controls-and-rumble-not-working-in-games).
 
 ***
 
@@ -42,7 +42,7 @@
 
 **Q:** I flashed 351ELEC but it won't initialize, or initialization takes forever.
 
-**A:** The most likely cause of this is using the wrong image for your device. Please make sure that you're using the RG351P/M image for a P or M device, and the RG351V image for a V device. Other possible causes include corrupted flashes (some computers seem incapable of producing a good flash), or a corrupted/bad/fake MicroSD card. Most of the SD cards that these systems come with are low quality and fail quickly. See the [Installation](https://github.com/351ELEC/351ELEC/wiki/Installation#initialization-never-finishestakes-forever) page for more info on this issue.
+**A:** The most likely cause of this is using the wrong image for your device. Please make sure that you're using the RG351P/M image for a P or M device, and the RG351V image for a V device. Other possible causes include corrupted flashes (some computers seem incapable of producing a good flash), or a corrupted/bad/fake MicroSD card. Most of the SD cards that these systems come with are low quality and fail quickly. See the [Installation](Installation#initialization-never-finishestakes-forever) page for more info on this issue.
 
 ***
 
@@ -68,8 +68,8 @@
 
 **A:** You have many options to do that depending on the system you're playing, but generally those are the main ways:
 - **NATIVELY**: Saving from inside the game if it's supported, varies depending on the game/system.
-- **SAVESTATE**: Saving a save state SELECT+R1 (load with SELECT+L2), you can check all the hotkeys [here](https://github.com/351ELEC/351ELEC/wiki/Getting-to-Know-351ELEC#controls-and-hotkeys), however I would not rely on 100% on this solution: a good idea is to use the save state AND the native saves (see above).
-- **AUTO SAVE**: Enabling auto save/load game inside the system/game options, that will save the game when you quit and reload it when you open it the next time. Please be aware that if you force quit (turn off, reset, [kill the game process](https://github.com/351ELEC/351ELEC/wiki/Getting-to-Know-351ELEC#killing-the-game-process)) will not save your game. The best way is to use the [correct hotkey](https://github.com/351ELEC/351ELEC/wiki/Getting-to-Know-351ELEC#retroarch-hotkeys) to quit.
+- **SAVESTATE**: Saving a save state SELECT+R1 (load with SELECT+L2), you can check all the hotkeys [here](Getting-to-Know-351ELEC#controls-and-hotkeys), however I would not rely on 100% on this solution: a good idea is to use the save state AND the native saves (see above).
+- **AUTO SAVE**: Enabling auto save/load game inside the system/game options, that will save the game when you quit and reload it when you open it the next time. Please be aware that if you force quit (turn off, reset, [kill the game process](Getting-to-Know-351ELEC#killing-the-game-process)) will not save your game. The best way is to use the [correct hotkey](Getting-to-Know-351ELEC#retroarch-hotkeys) to quit.
 
 ***
 
@@ -81,7 +81,7 @@
 
 **Q:** Is it possible to backup before re-flashing?
 
-**A:** Yes, take a look [here](https://github.com/351ELEC/351ELEC/wiki/Getting-to-Know-351ELEC#backups-and-identity).
+**A:** Yes, take a look [here](Getting-to-Know-351ELEC#backups-and-identity).
 
 ***
 
