@@ -1,38 +1,29 @@
-<br />
-## Welcome to GitHub Pages
+---
+title: 351ELEC
+---
 
-You can use the [editor on GitHub](https://github.com/351ELEC/351ELEC-pages/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Welcome to the 351ELEC wiki!
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+351ELEC is an open source firmware developed for the Anbernic RG351P/M/V.
 
-### Markdown
+_Join Our Community:_ [https://discord.gg/bmXtCt88Tz](https://discord.gg/bmXtCt88Tz)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Features
+* A 64bit Firmware optimized for the RG351P/M/V.
+* Fully Open Source with a wonderful community of users, contributors and helpers.
+* An up-to-date and fresh [user interface](https://github.com/anthonycaccese/es-theme-art-book-3-2).
+* Pre-configured optimized defaults allowing you to pick up and play.
+* Integrated scraper for getting images, videos, manuals and maps.
+* Native support for [RetroAchievements](https://retroachievements.org/) on supported emulators.
+* Package manager to install and update games and themes made by our community.
+* An EXFAT games partition easily accessible from Linux, Windows and MacOS.
 
-```markdown
-Syntax highlighted code block
+### [Installation](Installation#overview)
 
-# Header 1
-## Header 2
-### Header 3
+Please visit the wiki [Installation](Installation#overview) page for installation instructions.
 
-- Bulleted
-- List
+### Getting Help
 
-1. Numbered
-2. List
+If you have general questions or if you need help, join us on Discord: [https://discord.gg/bmXtCt88Tz](https://discord.gg/bmXtCt88Tz)
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/351ELEC/351ELEC-pages/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+For bug reports and feature requests, use one of the templates on the issues tab.  The more information you provide, the easier it will be to assist.  Please note that issues opened without using a form will be closed.  Please do not use the issue tracker for technical support, or your issue will be closed.

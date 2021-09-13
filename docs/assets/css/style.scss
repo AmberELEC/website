@@ -2,6 +2,7 @@
 ---
 
 @import "{{ site.theme }}";
+@import 'bootstrap/bootstrap';
 
 header h1:before {
   display: none;
