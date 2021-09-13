@@ -1,8 +1,8 @@
 ---
 ---
 
-@import "{{ site.theme }}";
 @import 'bootstrap/bootstrap';
+@import "{{ site.theme }}";
 
 header h1 {
   margin: 0;
