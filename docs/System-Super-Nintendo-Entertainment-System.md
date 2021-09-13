@@ -1,3 +1,5 @@
+# Super Nintendo Entertainment System
+
 ## Paths
 - Super Nintendo: `/roms/snes`
 - Super Famicom: `/roms/sfc`

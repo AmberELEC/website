@@ -1,8 +1,10 @@
-# ROMs
+# MAME
+
+## ROMs
 
 The 'MAME 2003-Plus' core correlates to 'MAME Plus!', version 0.73.  To avoid issues with loading failures and missing ROMs, use the appropriate tools to construct a 'reference' ROM set against this exact version of 'MAME Plus!'.
 
-# Seamless Integration of 'MAME 2003-Plus' Vertical Games on 351ELEC
+## Seamless Integration of 'MAME 2003-Plus' Vertical Games on 351ELEC
 
 **NOTE**: Rotation of the device for playing of vertical games really only makes sense for the RG351P/M.
 

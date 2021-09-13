@@ -1,12 +1,14 @@
-# BIOS
+# Sony PSP
+
+## BIOS
 
 WIP
 
-# Emulator Availability
+## Emulator Availability
 
 PPSSPP (libretro Core) and PPSSPPSDL (standalone)
 
-# Community Maintained Game Compatibility Table
+## Community Maintained Game Compatibility Table
 
 Please update this table with your findings and any settings you applied *beyond the usual frameskip* to make a game playable.  No need to document games that are already working well.
 

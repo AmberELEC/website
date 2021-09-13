@@ -1,3 +1,5 @@
+# MS-DOS
+
 ## Overview
 
 - Cores:
@@ -7,7 +9,7 @@
 - Supported Extensions: `.dosz`, disk images (iso, cue, img, ima, vhd) can be put into the .dosz
 - **MS-DOS is hidden by default:** To display it, please go to `Start > Game Collection Settings > Systems Displayed` and enable MS-DOS
 
-# Setup
+## Setup
 
 The default DOS emulator is now DOSBox Pure.  The process of adding games that you own to DOSBox Pure is very simple, here is an example with One Must Fall 2097:
 

@@ -1,3 +1,5 @@
+# Game Boy Advance
+
 ## Paths
 - `/roms/gba`
 - `/roms/gbah` - Hacks
