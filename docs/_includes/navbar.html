@@ -1,5 +1,5 @@
 <ul class="navbar-nav mr-auto">
-  {% for item in site.data.nav.nav %}
+  {% for item in include.nav %}
     <li class="nav-item">
       <a class="nav-link" href="{{ item.url }}">{{ item.title }}</a>
     </li>
