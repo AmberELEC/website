@@ -21,7 +21,7 @@ header ul li {
   justify-content: space-between;
 }
 
-header ul li + header ul li:before {
+header ul li + li:before {
     content: "|";
 }
 
