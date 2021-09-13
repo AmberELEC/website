@@ -1,3 +1,7 @@
+---
+title: 351ELEC
+---
+
 # Welcome to the 351ELEC wiki!
 
 351ELEC is an open source firmware developed for the Anbernic RG351P/M/V.
