@@ -14,7 +14,7 @@
 
 ## Setup
 
-1) Download the PICO-8 binary for Raspberry Pi from https://www.lexaloffle.com/games.php?page=updates
+1) Download the PICO-8 binary for Raspberry Pi from [https://www.lexaloffle.com/games.php?page=updates](https://www.lexaloffle.com/games.php?page=updates)
 2) Un-zip that file and copy the following files to `/roms/pico-8`:
    - pico8
    - pico8_dyn
