@@ -1,3 +1,5 @@
+# Wolfenstein 3D
+
 ## Overview
 
 - Emulators: 
@@ -6,14 +8,14 @@
   - ecwolf
 - Supported Extensions: `.ecwolf`
 
-# Setup
+## Setup
 
-## Introduction
+### Introduction
 351ELEC supports the Doom engine trough ecwolf (standalone).
 
 Savefiles will be put into `/roms/gamedata/ecwolf/*.zds`
 
-## How to create a .ecwolf file
+### How to create a .ecwolf file
 The file is simple and self explaining:
 
 ```

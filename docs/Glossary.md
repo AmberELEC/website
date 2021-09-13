@@ -1,3 +1,5 @@
+# Glossary
+
 **Custom Firmware** - A general term for community created and supported operating systems for retro handhelds. While not all of these are technically "firmware", the term comes from an earlier time when the OS and firmware were the same thing for most handhelds.
 
 **EmulationStation (ES)** - The frontend for 351ELEC. When you're in the main menu, the options menu, or selecting a rom, you're using EmulationStation.

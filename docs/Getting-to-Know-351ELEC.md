@@ -1,3 +1,5 @@
+# Getting to Know 351ELEC
+
 * [Controls and Hot Keys](#controls-and-hot-keys)
 * [Adding Games](#adding-games)
 * [Accessing the handheld over a network](#accessing-the-handheld-over-a-network)
@@ -10,11 +12,11 @@
 * [Backups and Indentity](#backups-and-identity) - Learn how to backup your settings
 * [Using the Movie Player](#using-the-movie-player)
 
-# Controls and Hot Keys
+## Controls and Hot Keys
 
 EmulationStation Controls are active when you're in 351ELEC's rom selection menu, and RetroArch Hotkeys are active while you're playing (most) games.
 
-## RetroArch Hotkeys
+### RetroArch Hotkeys
 Every hotkey is commanded by combining the SELECT button with the desired function key as shown in the image below. For example, to do a savestate the hotkey is SELECT + R1. Brightness is an exception; it uses L3. The hotkeys for the 351V are the same as the ones for the P and M, with the exception that R3 on the P/M is the F (function) button on the V instead.
 
 <img src="https://github.com/351ELEC/351ELEC/blob/8ba9800f028700374f9a2ace9a80cefd2d6269c7/metadata/images/rg351p%20Hotkeys%20351ELEC%20purple.jpg?raw=true" alt="RG351P/M graphical hotkey map" width="1000"/>
@@ -37,7 +39,7 @@ Every hotkey is commanded by combining the SELECT button with the desired functi
 
 ** Rewind is currently disabled by default because enabling it can cause significant slowdown in games. It needs to be enabled before the hotkey will work.
 
-## Retrorun Hotkeys
+### Retrorun Hotkeys
 
 Retrorun is a separate emulator from RetroArch, with its own cores. It's included because there are some games it can play that RetroArch fails at. Retrorun is very barebones. There is no menu, there are no configuration files, and there is no controller configuration. What you see is what you get.
 
@@ -47,7 +49,7 @@ Following is a list of all the Retrorun hotkeys:
 |----|----|
 | Quit | SELECT + START |
 
-## EmulationStation Controls
+### EmulationStation Controls
 
 | Key | Function |
 |----|----|
@@ -58,15 +60,15 @@ Following is a list of all the Retrorun hotkeys:
 | X | Game Options |
 | Y | Filter Games |
 
-## Killing the Game Process
+### Killing the Game Process
 
 Game crashes are rare, but if you find that you cannot leave an emulator using the menu system, you can press **L2 + Select + Start** to kill the game process and return to EmulationStation.
 
-# Adding Games
+## Adding Games
 
 Games may be added by copying them over the network (rsync, sftp), or by moving the microSD card to your PC. It is important to follow the existing directory structure or your games may not be discovered by 351ELEC.  Be sure to always properly eject the microSD or power off the handheld before removing it.
 
-# Accessing the handheld over a network
+## Accessing the handheld over a network
 
 When connected to a network, the handheld listens for connections on port 22 (SSH).  If your local network supports DHCP naming the host should appear on your network as '351ELEC'.
 
@@ -76,7 +78,7 @@ When connected to a network, the handheld listens for connections on port 22 (SS
 
 It is recommended that you change the root password or disable ssh while not in use using the Network Settings menu.  To change the root password type 'passwd' while connected to the handheld over ssh.
 
-# Installing Drastic
+## Installing Drastic
 
 Due to licensing concerns, the Drastic emulator must be installed separately. To do so, you will need to connect to WIFI or Ethernet.  Once connected follow the steps below.
 * From the main interface, press Start.
@@ -86,7 +88,7 @@ Due to licensing concerns, the Drastic emulator must be installed separately. To
 
 Drastic will be downloaded and installed.  Restart EmulationStation when complete.
 
-# Default Performance Settings
+## Default Performance Settings
 
 N64, PSP, and Dreamcast emulators default to the maximum performance option. This is the best mode for most games, but if you are experiencing issues you can change the setting back to on demand performance (auto) for the system or on a game-by-game basis.  All other emulators and ports default to on demand performance.
 
@@ -97,11 +99,11 @@ N64, PSP, and Dreamcast emulators default to the maximum performance option. Thi
 * Scroll to Enable Maximum Performance, and set to your preference
 * Press B repeatedly to back out to the main menu
 
-# ScummVM, Ports, and MS-DOS
+## ScummVM, Ports, and MS-DOS
 
 ScummVM, Ports, and MS-DOS are hidden by default in the collections menu. To enable press Start at the main menu screen. Scroll to Game Collection Settings, and press A. Select Systems Displayed, and press A. Scroll to the system you wish to enable and press A. Press B repeatedly to back out to the main menu and EmulationStation will restart automatically.
 
-# How to Update 351ELEC
+## How to Update 351ELEC
 
 *NOTE*: OTA updates are returning in the next stable release.
 
@@ -109,7 +111,7 @@ To perform an update, download the .tar file from the latest version of 351ELEC.
 
 Alternately, you can scp the .tar file to ~/.update and reboot the handheld to perform an offline update as well.
 
-# Adding Background Music to EmulationStation
+## Adding Background Music to EmulationStation
 
 EmulationStation will playback any `.flac`, `.ogg` or `.mp3` files (and maybe others?) from the `/storage/roms/bgm` directory.  Simply add them, enable background music from EmulationStation's Main Menu > Sound Settings, and ensure the System Volume is not muted.
 
@@ -119,7 +121,7 @@ EmulationStation adds one second long fades to the beginning and end of each tra
 
 When compressing audio, `.ogg` creates significantly smaller and better sounding files at even lower bitrates than `.mp3`.  For example, VBR 128kbps or 160kbps is normally as low as you want to go with `.mp3`, while `.ogg` at 80kbps and 96kbps very listenable.  At 96kbps, you can get over two hours of music in under 100MB in `.ogg`.  This is a great way to save space while getting more music on your device.
 
-# Netplay
+## Netplay
 
 351ELEC enables you to use retroarch's Netplay, for more information please visit the [RetroArch Netplay Section](https://www.retroarch.com/?page=netplay).
 
@@ -128,7 +130,7 @@ Unfortunately you cannot use it to trade Pokémon, more info [here](https://docs
 
 Link to the [online lobby](http://lobby.libretro.com/).
 
-# Backups and Identity
+## Backups and Identity
 
 Found in: ES Menu > System Settings > Danger Zone! > Backup Identity
 
@@ -160,17 +162,17 @@ Steps:
 9) Insert your card and start the device
 10) During reboot it will restore identity.tar.gz and your ES set up will be restored
 
-# Using the Movie Player
+## Using the Movie Player
 351ELEC includes a movie player that can play a variety of file formats, and use the handheld controls to skip forward, skip backwards, pause, and exit.
 
-## Movie Path
+### Movie Path
 If the path is not created by default, it is ok to create it as below.  The directory name is case sensitive.
 * /storage/roms/mplayer
 
-## Supported Formats
+### Supported Formats
 * .mp4 .MP4 .mkv .MKV .avi .AVI .mov .MOV .wmv .WMV .m3u .M3U .mpg .MPG .ytb .YTB .twi .TWI
 
-## Control Keys
+### Control Keys
 | HotKey | Action |
 |----|----|
 | Play/Pause | A |

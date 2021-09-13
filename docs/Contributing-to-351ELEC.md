@@ -1,3 +1,5 @@
+# Contributing to 351ELEC
+
 * [Reporting Bugs](#reporting-bugs)
 * [Beta Builds](#beta-builds)
 * [Development / PR Builds](#development--pr-builds)

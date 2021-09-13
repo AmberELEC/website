@@ -1,3 +1,5 @@
+# Supported Emulators and Ports
+
 This is a list of supported systems and the emulators/cores to run them, it will be updated regularly.
 
 Note that because of lack of time, not all of these systems have been thoroughly tested, help is always appreciated if you want to test them and report back!

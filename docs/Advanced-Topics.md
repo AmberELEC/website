@@ -1,8 +1,10 @@
+# Advanced Topics
+
 * [Buttons reference](#buttons-reference)
 * [File Management](#file-management)
 * [How to work with es_systems.cfg on 351ELEC](#how-to-work-with-es_systemscfg-on-351elec)
 
-# Buttons reference
+## Buttons reference
 
 |Button|RetroArch Ref|Mupen Ref|
 |----|----|----|
@@ -42,11 +44,11 @@
 |Right Stick<br>X Axis<br>(P/M Only)| |axis(2+,2-)|
 |Right Stick<br>Y Axis<br>(P/M Only)| |axis(3+,3-)|
 
-# File Management
+## File Management
 
 351ELEC includes a basic file manager called Dingux Commander.  This file manager allows you to manipulate files that are local or on a connected thumb drive.
 
-## File Manager Button Configuration
+### File Manager Button Configuration
 
 | Button | Action |
 |----|----|
@@ -57,7 +59,7 @@
 | L1: | Top of file selection |
 | L2: | Bottom of file selection |
 
-# How to work with es_systems.cfg on 351ELEC
+## How to work with es_systems.cfg on 351ELEC
 
 In 351ELEC there is a global `es_systems.cfg` file that is located in `/usr/config/emulationstation/es_systems.cfg`. This file can not be altered to make sure that future updates can still add new features to the system. However, there is still the possibility to add your own extensions.
 

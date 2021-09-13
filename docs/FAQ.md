@@ -1,3 +1,5 @@
+# FAQ
+
 **Q:** When is the next release?  Why are you still on an old version of RetroArch/$MyFavoriteEmulator/$MyFavoriteCore?
 
 **A:** 351ELEC is developed to be a curated, stable firmware.  We update RetroArch, libretro cores and standalone emulators at the time we compose a new release.  As a small team, we are mostly focused on improvements to the environment (fixes, implementing new features, expanding supported systems), and we only release when those features are ready.  You can expect us to skip multiple RetroArch updates at a time; most of the core improvements do not actually benefit our device and so it is unnecessary for us to iterate so quickly or burden our users with constant updates that only fix one or two games out of tens of thousands of supported titles.
