@@ -16,6 +16,10 @@ header h1:before {
   display: none;
 }
 
+header ul li {
+  list-style-image: none;
+}
+
 .container {
   max-width: 90%;
   max-width: 3456px;
