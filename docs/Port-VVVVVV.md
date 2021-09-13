@@ -12,7 +12,7 @@ There are 2 ways to get the required `data.zip` file for VVVVVV
 
 - **Option 1 - From the "Make & Play Edition"**
   - _This option includes community created levels only. It does not include the original levels from the game._
-  - Download the Windows version from this url: https://thelettervsixtim.es/makeandplay/
+  - Download the Windows version from this url: [https://thelettervsixtim.es/makeandplay/](https://thelettervsixtim.es/makeandplay/)
   - Unzip the downloaded file and copy the `data.zip` file
 - **Option 2 - From your purchased copy**
   - _This option includes the original levels from the game._
@@ -43,6 +43,6 @@ There are 2 ways to get the required `data.zip` file for VVVVVV
 ## Player Created Levels
 
 - VVVVVV also supports player created levels (some are already included with the required files noted above)  
-- You can download additional levels from https://distractionware.com/blog/category/vvvvvv-levels/
+- You can download additional levels from [https://distractionware.com/blog/category/vvvvvv-levels/](https://distractionware.com/blog/category/vvvvvv-levels/)
 - To install your downloaded levels, copy the .vvvvvv files to this folder on your sd card: `/roms/ports/VVVVVV/levels`
 - To play your downloaded levels, choose the `player levels` menu option from within the game

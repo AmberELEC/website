@@ -87,7 +87,7 @@ The **bold** one is the default one.
 |SINCLAIR<br />ZX81|**81**|zx81|.tzx .p .zip .7z|
 |SINCLAIR<br />ZX SPECTRUM|**fuse**|zxspectrum| .tzx .tap .z80 .rzx .scl .trd .zip .7z|
 
-You can also view this (WIP) spreadsheet with information for each core, as well as if it requires bios or not: https://docs.google.com/spreadsheets/d/1T962LmL0ci7Hs88TZT3iMtqdvzug4tL3ayTb0uoxijQ
+You can also view this (WIP) spreadsheet with information for each core, as well as if it requires bios or not: [https://docs.google.com/spreadsheets/d/1T962LmL0ci7Hs88TZT3iMtqdvzug4tL3ayTb0uoxijQ](https://docs.google.com/spreadsheets/d/1T962LmL0ci7Hs88TZT3iMtqdvzug4tL3ayTb0uoxijQ)
 
 Please Note that MAME and FBA screen ratio are not optimized as they should have been optimized on game basis (some are 4:3, some alre 3:2 some are vertical), so we decided to leave the default options.
 
@@ -195,7 +195,7 @@ You can check which bios you’re missing directly on your device by pressing ST
 * ANYTHING NEWER
 
 ## Ending Notes
-You can also view this (WIP) spreadsheet with information for each core, as well as if it requires bios or not: https://docs.google.com/spreadsheets/d/1T962LmL0ci7Hs88TZT3iMtqdvzug4tL3ayTb0uoxijQ
+You can also view this (WIP) spreadsheet with information for each core, as well as if it requires bios or not: [https://docs.google.com/spreadsheets/d/1T962LmL0ci7Hs88TZT3iMtqdvzug4tL3ayTb0uoxijQ](https://docs.google.com/spreadsheets/d/1T962LmL0ci7Hs88TZT3iMtqdvzug4tL3ayTb0uoxijQ)
 
 ## Credit
 Thank you to @XargonWan, and the 351ELEC community for putting this page together.
