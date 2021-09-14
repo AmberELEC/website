@@ -2,7 +2,7 @@
   {% for item in include.nav %}
     {% assign itemdata = item[1] %}
     <li class="nav-item">
-      <a class="nav-link" href="{{ item.url }}">{{ item.title }}</a>
+      <a class="nav-link" href="{{ itemdata.url }}">{{ itemdata.title }}</a>
     </li>
   {% endfor %}
 </ul>
