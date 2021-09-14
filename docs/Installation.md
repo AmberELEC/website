@@ -8,6 +8,7 @@ category: Installation
 - [Overview](#overview)
 - [Applications](#applications)
 - [Chrome OS](#chrome-os)
+- [Upgrading](#upgrading)
 - [Issues](#issues)
 
 ## Overview
@@ -64,7 +65,7 @@ While Chrome OS is a Linux distribution, the usual image writers don't work on i
 * Run the Chromebook Recovery Utility application. Click the settings button in the upper right, and select "Use Local Image"
 * Select your Micro SD card as the target, and continue through the process. The card will be flashed, and you'll be ready to put it into your console to initialize.
 
-### Upgrading
+## Upgrading
 
 To upgrade from a previous release:
 
