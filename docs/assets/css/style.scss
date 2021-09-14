@@ -4,6 +4,10 @@
 @import 'bootstrap/bootstrap';
 @import "{{ site.theme }}";
 
+#main_content {
+  width: auto;
+}
+
 header {
   background: none;
 }
