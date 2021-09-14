@@ -1,3 +1,8 @@
+---
+title: PC-98
+category: Supported Systems
+---
+
 # PC-98
 
 ## Overview

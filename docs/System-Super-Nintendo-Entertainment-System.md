@@ -1,3 +1,8 @@
+---
+title: Super Nintendo
+category: Supported Systems
+---
+
 # Super Nintendo Entertainment System
 
 ## Paths

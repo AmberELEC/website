@@ -1,3 +1,8 @@
+---
+title: Magnavox Odyssey²
+category: Supported Systems
+---
+
 # Magnavox Odyssey²
 
 ## Add Support for The Voice Speech Synthesis Module

@@ -1,3 +1,8 @@
+---
+title: MAME
+category: Supported Systems
+---
+
 # MAME
 
 ## ROMs

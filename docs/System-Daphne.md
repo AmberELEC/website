@@ -1,3 +1,8 @@
+---
+title: Daphne
+category: Supported Systems
+---
+
 # Daphne
 
 ## Overview

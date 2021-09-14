@@ -1,3 +1,8 @@
+---
+title: Advanced Topics
+category: User Guides
+---
+
 # Advanced Topics
 
 * [Buttons reference](#buttons-reference)

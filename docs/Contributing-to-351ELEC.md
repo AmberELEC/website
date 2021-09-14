@@ -1,3 +1,8 @@
+---
+title: Contributing to 351ELEC
+category: User Guides
+---
+
 # Contributing to 351ELEC
 
 * [Reporting Bugs](#reporting-bugs)

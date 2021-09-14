@@ -1,3 +1,8 @@
+---
+title: Arcade
+category: Supported Systems
+---
+
 # Arcade Emulation
 
 ## Overview

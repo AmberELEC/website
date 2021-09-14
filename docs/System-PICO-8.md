@@ -1,3 +1,8 @@
+---
+title: PICO-8
+category: Supported Systems
+---
+
 # PICO-8
 
 ## Overview

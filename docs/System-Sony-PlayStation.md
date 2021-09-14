@@ -1,3 +1,8 @@
+---
+title: Sony Playstation
+category: Supported Systems
+---
+
 # Sony PlayStation
 
 ## Core Availability

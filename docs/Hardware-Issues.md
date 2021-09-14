@@ -1,3 +1,8 @@
+---
+title: Hardware Issues
+category: Misc
+---
+
 # Hardware Issues
 
 While these issues are not specific to 351ELEC, there are a few issues with the RG351 hardware that come up a lot during support.

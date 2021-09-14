@@ -1,3 +1,8 @@
+---
+title: Installation
+category: Installation
+---
+
 # Installation
 
 - [Overview](#overview)

@@ -1,3 +1,8 @@
+---
+title: Wolfenstein 3D
+category: Supported Systems
+---
+
 # Wolfenstein 3D
 
 ## Overview

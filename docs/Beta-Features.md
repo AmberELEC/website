@@ -1,3 +1,8 @@
+---
+title: Beta Features
+category: User Guides
+---
+
 # Beta Features
 
 Please note that all beta features are subject to change without notice.
