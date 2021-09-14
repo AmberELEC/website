@@ -16,9 +16,18 @@ header h1:before {
   display: none;
 }
 
+header ul {
+  flex-grow: 1;
+}
+
 header ul li {
   list-style-image: none;
   justify-content: space-between;
+  flex-grow: 1;
+}
+
+header .navbar-brand {
+  margin-right: 3rem;
 }
 
 .container {
