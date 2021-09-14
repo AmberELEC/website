@@ -12,10 +12,10 @@
           {% endfor %}
         </ul>
       </li>
-    <% else %>
+    {% else %}
       <li class="nav-item">
         <a class="nav-link" href="{{ itemdata.url }}">{{ itemdata.title }}</a>
       </li>
-    <% endif %>
+    {% endif %}
   {% endfor %}
 </ul>
