@@ -30,6 +30,15 @@ header .navbar-brand {
   margin-right: 3rem;
 }
 
+thead, tbody, tfoot, tr, td, th {
+  border-color: white;
+  border-width: 1px;
+}
+
+thead {
+  border-bottom 1px dashed #b5e853;
+}
+
 .container {
   max-width: 90%;
   max-width: 3456px;
