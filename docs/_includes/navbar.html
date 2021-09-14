@@ -4,7 +4,7 @@
     {% if itemdata.topnavpages %}
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="userguidesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">{{ itemdata.title }}</a>
-        <ul class="dropdown-menu" aria-labelledby="userguidesDropdown">
+        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="userguidesDropdown">
           {% for page in itemdata.pages %}
             <li>
               <a class="dropdown-item" href="{{ page.url }}">{{ page.title }}</a>
