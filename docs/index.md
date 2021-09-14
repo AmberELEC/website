@@ -2,7 +2,7 @@
 title: 351ELEC
 ---
 
-<img src="images/351ELEC-logo.svg" alt="351ELEC Logo" style="width: 100%;"/>
+<img src="images/351ELEC-logo.svg" class="mx-auto d-block" alt="351ELEC Logo" style="width: 100%;max-width: 1024;"/>
 
 ## Welcome to the 351ELEC wiki!
 
