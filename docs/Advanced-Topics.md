@@ -1,6 +1,7 @@
 ---
 title: Advanced Topics
 category: User Guides
+layout: withsidenav
 ---
 
 # Advanced Topics
