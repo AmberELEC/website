@@ -25,9 +25,14 @@
         </nav>
       </header>
 
-      <section id="main_content">
-        {{ content }}
-      </section>
+      <div class="row">
+        <nav class="col-4">
+          {% include sidenav.html category=page.category %}
+        </nav>
+        <section id="main_content" class="col-8">
+          {{ content }}
+        </section>
+      </div>
 
       <footer>&copy; 351ELEC Team, 2021</footer>
     </div>

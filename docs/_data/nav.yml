@@ -4,25 +4,22 @@ categories:
   Installation:
     title: Installation
     url: Installation
+    pages:
+      - title: Installation
+        url: Installation
   User Guides:
     title: User Guides
     url: Getting-to-Know-351ELEC
+    pages:
+      - title: Getting to Know 351ELEC
+        url: Getting-to-Know-351ELEC
+      - title: Advanced Topics
+        url: Advanced-Topics
+      - title: Contributing to 351ELEC
+        url: Contributing-to-351ELEC
   Supported Systems:
     title: Supported Systems
     url: Supported-Emulators-and-Ports
   FAQ:
     title: FAQ
     url: FAQ
-
-
-# - title: Installation
-#   url: Installation
-
-# - title: User Guides
-#   url: Getting-to-Know-351ELEC
-
-# - title: Supported Systems
-#   url: Supported-Emulators-and-Ports
-
-# - title: FAQ
-#   url: FAQ

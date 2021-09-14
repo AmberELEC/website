@@ -1,0 +1,8 @@
+<ul>
+  {% assign category = site.data.nav.categories[include.category] %}
+  {% for page in category.pages %}
+    <li>
+      <a href="{{ page.url }}">{{ page.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
