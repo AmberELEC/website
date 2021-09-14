@@ -2,7 +2,7 @@
 title: 351ELEC
 ---
 
-<img src="https://raw.githubusercontent.com/351ELEC/351ELEC/main/distributions/351ELEC/splash/splash-1080.png" alt="351ELEC Logo" style="width: 100%; max-width: 1080px;"/>
+<img src="images/351ELEC-logo.png" alt="351ELEC Logo" style="width: 100%;"/>
 
 ## Welcome to the 351ELEC wiki!
 
