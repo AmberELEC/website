@@ -10,6 +10,7 @@ categories:
   User Guides:
     title: User Guides
     url: Getting-to-Know-351ELEC
+    topnavpages: true
     pages:
       - title: Getting to Know 351ELEC
         url: Getting-to-Know-351ELEC
