@@ -1,13 +1,28 @@
 ---
 
-- title: Installation
-  url: Installation
+categories:
+  Installation:
+    title: Installation
+    url: Installation
+  User Guides:
+    title: User Guides
+    url: Getting-to-Know-351ELEC
+  Supported Systems:
+    title: Supported Systems
+    url: Supported-Emulators-and-Ports
+  FAQ:
+    title: FAQ
+    url: FAQ
 
-- title: User Guides
-  url: Getting-to-Know-351ELEC
 
-- title: Supported Systems
-  url: Supported-Emulators-and-Ports
+# - title: Installation
+#   url: Installation
 
-- title: FAQ
-  url: FAQ
+# - title: User Guides
+#   url: Getting-to-Know-351ELEC
+
+# - title: Supported Systems
+#   url: Supported-Emulators-and-Ports
+
+# - title: FAQ
+#   url: FAQ
