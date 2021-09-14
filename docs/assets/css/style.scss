@@ -4,6 +4,18 @@
 @import 'bootstrap/bootstrap';
 @import "{{ site.theme }}";
 
+@font-face {
+    font-family: 'DREAMS';
+    src: url('assets/fonts/DREAMS.eot');
+    src: url('assets/fonts/DREAMS.eot?#iefix') format('embedded-opentype'),
+        url('assets/fonts/DREAMS.woff2') format('woff2'),
+        url('assets/fonts/DREAMS.woff') format('woff'),
+        url('assets/fonts/DREAMS.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 header {
   background: none;
 }
