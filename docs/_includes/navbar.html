@@ -1,7 +1,7 @@
 <ul class="navbar-nav mr-auto">
   {% for item in include.nav %}
     {% assign itemdata = item[1] %}
-    <li class="nav-item{% if itemdata.topnavpages == true %} dropdown{% endif %}">
+    <li class="nav-item{% if itemdata.topnavpages %} dropdown{% endif %}">
       <a class="nav-link" href="{{ itemdata.url }}">{{ itemdata.title }}</a>
     </li>
   {% endfor %}
