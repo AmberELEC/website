@@ -1,4 +1,5 @@
 <ul>
+  {% if category contains categories %}
     {% for subcategory in category.categories %}
       <li>
         {% if subcategory contains url %}
@@ -9,9 +10,12 @@
         {% include sidenav.html category=subcategory %}
       </li>
     {% endfor %}
+  {% endif %}
+  {% if category contains pages %}
     {% for page in category.pages %}
       <li>
         <a href="{{ page.url }}">{{ page.title }}</a>
       </li>
     {% endfor %}
+  {% endif %}
 </ul>
