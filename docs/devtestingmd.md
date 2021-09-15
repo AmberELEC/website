@@ -2,6 +2,4 @@
 layout: default
 ---
 
-Debug data
-
-{{ page }}
+<p>{{ page }}</p>
