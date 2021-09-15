@@ -28,6 +28,57 @@ categories:
   Supported Systems:
     title: Supported Systems
     url: Supported-Emulators-and-Ports
+    subcategories:
+      - title: Full List
+        url: Supported-Emulators-and-Ports
+      - title: Arcade
+        url: Arcade
+        pages:
+          - title: MAME
+            url: System-MAME
+          - title: FBNeo
+            url: System-FBNeo
+          - title: Daphne
+            url: System-Daphne
+          - title: Neo Geo
+            url: System-Neo-Geo
+      - title: Consoles
+        pages:
+          - title: Pico-8
+            url: System-PICO-8
+          - title: Super Nintendo Entertainment System
+            url: System-Super-Nintendo-Entertainment-System
+          - title: Game Boy Advance
+            url: System-Game-Boy-Advance
+          - title: Sony PlayStation
+            url: System-Sony-PlayStation
+          - title: Sony PlayStation Portable
+            url: System-Sony-PlayStation-Portable
+      - title: Computers
+        pages:
+          - title: x68000
+            url: System-X68000
+          - title: MS-DOS
+            url: System-MS-DOS
+          - title: PC-98
+            url: System-PC-98
+      - title: Game Engines
+        pages:
+          - title: ScummVM
+            url: System-ScummVM
+          - title: Doom
+            url: System-Doom
+          - title: Wolfenstein 3D
+            url: System-Wolfenstein-3D
+      - title: Ports
+        url: Supported-Emulators-and-Ports#ports
+        pages:
+          - title: Anberports
+            url: Anberports
+          - title: Cannonball
+            url: Port-Cannonball
+          - title: VVVVVV
+            url: Port-VVVVVV
   FAQ:
     title: FAQ
     url: FAQ
