@@ -2,4 +2,4 @@
 layout: default
 ---
 
-<p>{{ page }}</p>
+{{ page }}
