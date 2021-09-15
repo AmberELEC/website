@@ -1,8 +1,21 @@
 <ul>
-  {% if include.category.categories %}
-    {% for subcategory in include.category.categories %}
-      {{subcategory}}
-      {% include sidenav.html category=subcategory %}
+  {% if includes.category.categories %}
+    {% for subcategory in includes.category.categories %}
+      <li>
+        {% if subcategory.url %}
+          <a href="{{ subcategory.url }}">{{ subcategory.title }}</a>
+        {% else %}
+          {{ subcategory.title }}
+        {% endif %}
+        {% include sidenav.html category=subcategory %}
+      </li>
+    {% endfor %}
+  {% endif %}
+  {% if includes.category.pages %}
+    {% for page in includes.category.pages %}
+      <li>
+        <a href="{{ page.url }}">{{ page.title }}</a>
+      </li>
     {% endfor %}
   {% endif %}
 </ul>
