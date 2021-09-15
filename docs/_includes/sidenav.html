@@ -6,7 +6,9 @@
   {% endif %}
   {% if category.pages %}
     {% for page in category.pages %}
-      {{ page }}
+      <li>
+        <a href="{{ page.url }}">{{ page.title }}</a>
+      </li>
     {% endfor %}
   {% endif %}
 </ul>
