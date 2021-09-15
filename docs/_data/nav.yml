@@ -28,7 +28,7 @@ categories:
   Supported Systems:
     title: Supported Systems
     url: Supported-Emulators-and-Ports
-    subcategories:
+    categories:
       - title: Full List
         url: Supported-Emulators-and-Ports
       - title: Arcade
