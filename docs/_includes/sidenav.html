@@ -6,6 +6,7 @@
       {% else %}
         {{ subcategory.title }}
       {% endif %}
+      {% include sidenav.html category=subcategory %}
     {% endfor %}
   {% endif %}
   {% if category.pages %}
