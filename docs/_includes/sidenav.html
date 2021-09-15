@@ -1,7 +1,11 @@
 <ul>
   {% if category.categories %}
     {% for subcategory in category.categories %}
-      {{ subcategory }}
+      {% if subcategory.url %}
+        <a href="{{ subcategory.url }}">{{ subcategory.title }}</a>
+      {% else %}
+        {{ subcategory.title }}
+      {% endif %}
     {% endfor %}
   {% endif %}
   {% if category.pages %}
