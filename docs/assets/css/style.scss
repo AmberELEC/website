@@ -61,7 +61,22 @@ code.highlighter-rouge {
 }
 
 .btn.btn-light {
-    color: #000;
-    background-color: #f8f9fa;
-    border-color: #f8f9fa;
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  border-radius: .25rem;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  color: #000;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
 }
