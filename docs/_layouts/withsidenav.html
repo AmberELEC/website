@@ -29,7 +29,7 @@
         <nav class="col-12 col-lg-3">
           {% assign category=site.data.nav.categories[page.category] %}
           {{category}}
-          <!-- {% include sidenav.html category=category %} -->
+          {% include sidenav.html category=category %}
         </nav>
         <section class="col-12 col-lg-9">
           {{ content }}
