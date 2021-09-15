@@ -1,21 +1,8 @@
 <ul>
   {% if category.categories %}
-    {% for subcategory in category.categories %}
-      <li>
-        {% if subcategory.url %}
-          <a href="{{ subcategory.url }}">{{ subcategory.title }}</a>
-        {% else %}
-          {{ subcategory.title }}
-        {% endif %}
-        {% include sidenav.html category=subcategory %}
-      </li>
-    {% endfor %}
+    {{ category.categories }}
   {% endif %}
   {% if category.pages %}
-    {% for page in category.pages %}
-      <li>
-        <a href="{{ page.url }}">{{ page.title }}</a>
-      </li>
-    {% endfor %}
+    {{ category.pages }}
   {% endif %}
 </ul>
