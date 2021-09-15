@@ -179,6 +179,7 @@ If the path is not created by default, it is ok to create it as below.  The dire
 * .mp4 .MP4 .mkv .MKV .avi .AVI .mov .MOV .wmv .WMV .m3u .M3U .mpg .MPG .ytb .YTB .twi .TWI
 
 ### Control Keys
+
 | HotKey | Action |
 |----|----|
 | Play/Pause | A |
