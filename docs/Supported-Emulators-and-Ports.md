@@ -1,6 +1,7 @@
 ---
 title: Supported Emulators and Ports
 category: Supported Systems
+layout: withsidenav
 ---
 
 # Supported Emulators and Ports
