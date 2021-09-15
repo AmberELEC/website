@@ -1,8 +1,12 @@
 <ul>
   {% if category.categories %}
-    {{ category.categories }}
+    {% for subcategory in category.categories %}
+      {{ subcategory }}
+    {% endfor %}
   {% endif %}
   {% if category.pages %}
-    {{ category.pages }}
+    {% for page in category.pages %}
+      {{ page }}
+    {% endfor %}
   {% endif %}
 </ul>
