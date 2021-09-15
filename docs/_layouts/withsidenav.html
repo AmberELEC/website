@@ -30,7 +30,7 @@
           {% assign category=site.data.nav.categories[page.category] %}
           {{category}}
             {{ category.url }}
-          {% if category contains pages %}
+          {% if category.pages %}
             {{ category.pages }}
           {% endif %}
           {% if category contains categories %}
