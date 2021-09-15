@@ -16,8 +16,15 @@ categories:
         url: Getting-to-Know-351ELEC
       - title: Advanced Topics
         url: Advanced-Topics
+  Contributing:
+    title: Contributing
+    url: Contributing-to-351ELEC
+    topnavpages: true
+    pages:
       - title: Contributing to 351ELEC
         url: Contributing-to-351ELEC
+      - title: Beta Features
+        url: Beta-Features
   Supported Systems:
     title: Supported Systems
     url: Supported-Emulators-and-Ports

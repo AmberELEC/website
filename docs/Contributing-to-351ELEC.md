@@ -1,6 +1,6 @@
 ---
 title: Contributing to 351ELEC
-category: User Guides
+category: Contributing
 layout: withsidenav
 ---
 
