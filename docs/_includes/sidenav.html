@@ -1,6 +1,6 @@
 <ul>
-  {% if category.categories %}
-    {% for subcategory in category.categories %}
+  {% if include.category.categories %}
+    {% for subcategory in include.category.categories %}
       {{subcategory}}
       {% include sidenav.html category=subcategory %}
     {% endfor %}
