@@ -87,13 +87,12 @@ code.highlighter-rouge {
   border-color: #f8f9fa;
 }
 
-.btn.btn-light:hover {
-  background: auto;
-  color: #000;
-  background-color: #f9fafb;
-  border-color: #f9fafb;
-}
+// .btn.btn-light:hover {
+//   color: #000;
+//   background-color: #f9fafb;
+//   border-color: #f9fafb;
+// }
 
 .btn:hover {
-    background: -webkit-linear-gradient(top, rgba(40,40,40,0.6), rgba(35,35,35,0.6) 50%, rgba(10,10,10,0.8) 50%, rgba(0,0,0,0.8));
+    background: auto;
 }
