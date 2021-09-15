@@ -11,11 +11,9 @@
       </li>
     {% endfor %}
   {% endif %}
-  {% if category contains pages %}
     {% for page in category.pages %}
       <li>
         <a href="{{ page.url }}">{{ page.title }}</a>
       </li>
     {% endfor %}
-  {% endif %}
 </ul>
