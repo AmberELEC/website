@@ -1,6 +1,7 @@
 ---
 title: MAME
 category: Supported Systems
+layout: withsidenav
 ---
 
 # MAME

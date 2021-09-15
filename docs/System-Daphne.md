@@ -1,6 +1,7 @@
 ---
 title: Daphne
 category: Supported Systems
+layout: withsidenav
 ---
 
 # Daphne

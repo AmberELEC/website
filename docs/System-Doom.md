@@ -1,6 +1,7 @@
 ---
 title: Doom
 category: Supported Systems
+layout: withsidenav
 ---
 
 # Doom

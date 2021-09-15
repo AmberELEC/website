@@ -1,6 +1,7 @@
 ---
 title: PICO-8
 category: Supported Systems
+layout: withsidenav
 ---
 
 # PICO-8

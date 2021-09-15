@@ -1,6 +1,7 @@
 ---
 title: VVVVVV
 category: Supported Systems
+layout: withsidenav
 ---
 
 # VVVVVV

@@ -1,6 +1,7 @@
 ---
 title: Sony PSP
 category: Supported Systems
+layout: withsidenav
 ---
 
 # Sony PSP

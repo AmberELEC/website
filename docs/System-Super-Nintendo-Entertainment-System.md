@@ -1,6 +1,7 @@
 ---
 title: Super Nintendo
 category: Supported Systems
+layout: withsidenav
 ---
 
 # Super Nintendo Entertainment System
