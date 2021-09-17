@@ -1,5 +1,6 @@
 <ul>
   {{ site.data.nav.categories }}
+  {{ include.category }}
   {% assign subcategories = site.data.nav.categories | where: "parent", include.category.title %}
   {{ subcategories }}
 </ul>
