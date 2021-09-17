@@ -1,11 +1,12 @@
 <ul class="navbar-nav mr-auto">
-  {% for item in include.nav %}
-    {% assign itemdata = item[1] %}
-    {% if itemdata.topnavpages %}
+  {% assign rootcategories = site.data.nav.categories | where: "parent", nil %}
+  {% for category in rootcategories %}
+    {% if category.topnavpages %}
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="userguidesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">{{ itemdata.title }}</a>
+        <a class="nav-link dropdown-toggle" href="#" id="userguidesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">{{ category.title }}</a>
         <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="userguidesDropdown">
-          {% for page in itemdata.pages %}
+          {% assign pages = site.data.nav.pages | where: "category", category.title %}
+          {% for page in pages %}
             <li>
               <a class="dropdown-item" href="{{ page.url }}">{{ page.title }}</a>
             </li>
@@ -14,7 +15,7 @@
       </li>
     {% else %}
       <li class="nav-item">
-        <a class="nav-link" href="{{ itemdata.url }}">{{ itemdata.title }}</a>
+        <a class="nav-link" href="{{ category.url }}">{{ category.title }}</a>
       </li>
     {% endif %}
   {% endfor %}

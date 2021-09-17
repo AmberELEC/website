@@ -1,98 +1,165 @@
 ---
 
-categories:
-  Installation:
+# Array: pages
+# An array of page objects that are accessible on the website
+#
+# Object: page
+# An object representing a page
+#
+#   file - The filename of the page [required]
+#   title - The display title of the page [required]
+#   category - The category that the page should be displayed in [required]
+#   url - The url of the page (the filename without the extension) [required]
+pages:
+  - file: Installation.md
     title: Installation
+    category: Installation
     url: Installation
-    pages:
-      - title: Installation
-        url: Installation
-  User Guides:
-    title: User Guides
+  - file: Getting-to-Know-351ELEC.md
+    title: Getting to Know 351ELEC
+    category: User Guides
+    url: Getting-to-Know-351ELEC
+  - file: Advanced-Topics.md
+    title: Advanced Topics
+    category: User Guides
+    url: Advanced-Topics
+  - file: Contributing-to-351ELEC.md
+    title: Contributing to 351ELEC
+    category: Contributing
+    url: Contributing-to-351ELEC
+  - file: Beta-Features.md
+    title: Beta Features
+    category: Contributing
+    url: Beta-Features
+  - file: System-MAME.md
+    title: MAME
+    category: Arcade
+    url: System-MAME
+  - file: System-FBNeo.md
+    title: FBNeo
+    category: Arcade
+    url: System-FBNeo
+  - file: System-Daphne.md
+    title: Daphne
+    category: Arcade
+    url: System-Daphne
+  - file: System-Neo-Geo.md
+    title: Neo Geo
+    category: Arcade
+    url: System-Neo-Geo
+  - file: System-PICO-8.md
+    title: Pico-8
+    category: Consoles
+    url: System-PICO-8
+  - file: System-Super-Nintendo-Entertainment-System.md
+    title: Super Nintendo Entertainment System
+    category: Consoles
+    url: System-Super-Nintendo-Entertainment-System
+  - file: System-Game-Boy-Advance.md
+    title: Game Boy Advance
+    category: Consoles
+    url: System-Game-Boy-Advance
+  - file: System-Sony-PlayStation.md
+    title: Sony PlayStation
+    category: Consoles
+    url: System-Sony-PlayStation
+  - file: System-Sony-PlayStation-Portable.md
+    title: Sony PlayStation Portable
+    category: Consoles
+    url: System-Sony-PlayStation-Portable
+  - file: System-X68000.md
+    title: x68000
+    category: Computers
+    url: System-X68000
+  - file: System-MS-DOS.md
+    title: MS-DOS
+    category: Computers
+    url: System-MS-DOS
+  - file: System-PC-98.md
+    title: PC-98
+    category: Computers
+    url: System-PC-98
+  - file: System-ScummVM.md
+    title: ScummVM
+    category: Game Engines
+    url: System-ScummVM
+  - file: System-Doom.md
+    title: Doom
+    category: Game Engines
+    url: System-Doom
+  - file: System-Wolfenstein-3D.md
+    title: Wolfenstein 3D
+    category: Game Engines
+    url: System-Wolfenstein-3D
+  - file: Anberports.md
+    title: Anberports
+    category: Ports
+    url: Anberports
+  - file: Port-Cannonball.md
+    title: Cannonball
+    category: Ports
+    url: Port-Cannonball
+  - file: Port-VVVVVV.md
+    title: VVVVVV
+    category: Ports
+    url: Port-VVVVVV
+  - file: FAQ.md
+    title: FAQ
+    category: FAQ
+    url: FAQ
+  - file: Hardware-Issues.md
+    title: Hardware Issues
+    category: Misc
+    url: Hardware-Issues
+  - file: Glossary.md
+    title: Glossary
+    category: Misc
+    url: Glossary
+
+# Array: categories
+# An array of category objects that pages are organized into
+#
+# Object: category
+# An object representing a category
+#
+#   title - The display title of the category [required]
+#   url - The url the category name links to [optional]
+#   topnavpages - Whether to display pages in a dropdown
+#     on the top nav [optional]
+#   sidenav - Whether to display a sidenav on category pages [optional]
+#   parent - If this is a subcategory, the category's parent [optional]
+#     note: Nesting categories more than one level is not currently supported
+categories:
+  - title: Installation
+    url: Installation
+  - title: User Guides
     url: Getting-to-Know-351ELEC
     topnavpages: true
     sidenav: true
-    pages:
-      - title: Getting to Know 351ELEC
-        url: Getting-to-Know-351ELEC
-      - title: Advanced Topics
-        url: Advanced-Topics
-  Contributing:
-    title: Contributing
+  - title: Contributing
     url: Contributing-to-351ELEC
     topnavpages: true
     sidenav: true
-    pages:
-      - title: Contributing to 351ELEC
-        url: Contributing-to-351ELEC
-      - title: Beta Features
-        url: Beta-Features
-  Supported Systems:
-    title: Supported Systems
+  - title: Supported Systems
     url: Supported-Emulators-and-Ports
     sidenav: true
-    categories:
-      - title: Full List
-        url: Supported-Emulators-and-Ports
-      - title: Arcade
-        url: Arcade
-        pages:
-          - title: MAME
-            url: System-MAME
-          - title: FBNeo
-            url: System-FBNeo
-          - title: Daphne
-            url: System-Daphne
-          - title: Neo Geo
-            url: System-Neo-Geo
-      - title: Consoles
-        pages:
-          - title: Pico-8
-            url: System-PICO-8
-          - title: Super Nintendo Entertainment System
-            url: System-Super-Nintendo-Entertainment-System
-          - title: Game Boy Advance
-            url: System-Game-Boy-Advance
-          - title: Sony PlayStation
-            url: System-Sony-PlayStation
-          - title: Sony PlayStation Portable
-            url: System-Sony-PlayStation-Portable
-      - title: Computers
-        pages:
-          - title: x68000
-            url: System-X68000
-          - title: MS-DOS
-            url: System-MS-DOS
-          - title: PC-98
-            url: System-PC-98
-      - title: Game Engines
-        pages:
-          - title: ScummVM
-            url: System-ScummVM
-          - title: Doom
-            url: System-Doom
-          - title: Wolfenstein 3D
-            url: System-Wolfenstein-3D
-      - title: Ports
-        url: Supported-Emulators-and-Ports#ports
-        pages:
-          - title: Anberports
-            url: Anberports
-          - title: Cannonball
-            url: Port-Cannonball
-          - title: VVVVVV
-            url: Port-VVVVVV
-  FAQ:
-    title: FAQ
+  - title: Full List
+    url: Supported-Emulators-and-Ports
+    parent: Supported Systems
+  - title: Arcade
+    url: Arcade
+    parent: Supported Systems
+  - title: Consoles
+    parent: Supported Systems
+  - title: Computers
+    parent: Supported Systems
+  - title: Game Engines
+    parent: Supported Systems
+  - title: Ports
+    url: Supported-Emulators-and-Ports#ports
+    parent: Supported Systems
+  - title: FAQ
     url: FAQ
-  Misc:
-    title: Misc
+  - title: Misc
     topnavpages: true
     sidenav: true
-    pages:
-      - title: Hardware Issues
-        url: Hardware-Issues
-      - title: Glossary
-        url: Glossary
-      - title: (Dev Testing)
-        url: devtesting.html
