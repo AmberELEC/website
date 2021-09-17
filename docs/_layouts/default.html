@@ -20,17 +20,24 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            {% include navbar.html nav=site.data.nav.categories %}
+            {% include navbar.html %}
           </div>
         </nav>
       </header>
 
-      {% assign category=site.data.nav.categories[page.category] %}
-      {% if category.sidenav %}
+      {% assign pagerecord = site.data.nav.pages | where: "file", page.name | first %}
+      {% if pagerecord %}
+        {% assign category = site.data.nav.categories | where: "title", pagerecord.category | first %}
+        {% assign rootcategory = category %}
+        {% if rootcategory.parent %}
+          {% assign rootcategory = site.data.nav.categories | where: "title", rootcategory.parent | first %}
+        {% endif %}
+      {% endif %}
+
+      {% if rootcategory and rootcategory.sidenav %}
         <div class="row">
           <nav class="col-12 col-lg-3">
-            {% assign category=site.data.nav.categories[page.category] %}
-            {% include sidenav.html category=category %}
+            {% include sidenav.html category=rootcategory %}
           </nav>
           <section class="col-12 col-lg-9">
             {{ content }}
