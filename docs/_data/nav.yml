@@ -10,6 +10,7 @@
 #   title - The display title of the page [required]
 #   category - The category that the page should be displayed in [required]
 #   url - The url of the page (the filename without the extension) [required]
+#   hidepage - Whether the page should be hidden from the sidenav [optional]
 pages:
   - file: Installation.md
     title: Installation
@@ -31,6 +32,11 @@ pages:
     title: Beta Features
     category: Contributing
     url: Beta-Features
+  - file: Arcade.md
+    title: Arcade
+    category: Supported Systems
+    url: Arcade
+    hidepage: true
   - file: System-MAME.md
     title: MAME
     category: Arcade

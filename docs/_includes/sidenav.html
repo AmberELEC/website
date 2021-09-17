@@ -12,8 +12,10 @@
   {% endfor %}
   {% assign pages = site.data.nav.pages | where: "category", include.category.title %}
   {% for page in pages %}
-    <li>
-      <a href="{{ page.url }}">{{ page.title }}</a>
-    </li>
+    {% unless page.hidepage %}
+      <li>
+        <a href="{{ page.url }}">{{ page.title }}</a>
+      </li>
+    {% endunless %}
   {% endfor %}
 </ul>
