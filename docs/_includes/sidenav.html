@@ -10,4 +10,10 @@
       {% include sidenav.html category=subcategory %}
     </li>
   {% endfor %}
+  {% assign pages = site.data.nav.pages | where "category", include.category.title %}
+  {% for page in pages %}
+    <li>
+      <a href="{{ page.url }}">{{ page.title }}</a>
+    </li>
+  {% endfor %}
 </ul>
