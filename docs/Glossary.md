@@ -1,7 +1,6 @@
 ---
 title: Glossary
 category: Misc
-layout: withsidenav
 ---
 
 # Glossary

@@ -1,7 +1,6 @@
 ---
 title: Contributing to 351ELEC
 category: Contributing
-layout: withsidenav
 ---
 
 # Contributing to 351ELEC

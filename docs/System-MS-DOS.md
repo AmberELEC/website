@@ -1,7 +1,6 @@
 ---
 title: MS-DOS
 category: Supported Systems
-layout: withsidenav
 ---
 
 # MS-DOS

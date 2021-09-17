@@ -1,7 +1,6 @@
 ---
 title: Cannonball
 category: Supported Systems
-layout: withsidenav
 ---
 
 # Cannonball

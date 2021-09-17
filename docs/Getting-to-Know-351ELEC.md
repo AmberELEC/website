@@ -1,7 +1,6 @@
 ---
 title: Getting to Know 351ELEC
 category: User Guides
-layout: withsidenav
 ---
 
 # Getting to Know 351ELEC

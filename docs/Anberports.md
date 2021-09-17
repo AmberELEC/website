@@ -1,7 +1,6 @@
 ---
 title: Anberports
 category: Supported Systems
-layout: withsidenav
 ---
 
 # Anberports

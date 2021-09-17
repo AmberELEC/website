@@ -1,7 +1,6 @@
 ---
 title: Sony Playstation
 category: Supported Systems
-layout: withsidenav
 ---
 
 # Sony PlayStation

@@ -1,7 +1,6 @@
 ---
 title: Beta Features
 category: Contributing
-layout: withsidenav
 ---
 
 # Beta Features

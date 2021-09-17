@@ -1,7 +1,6 @@
 ---
 title: ScummVM
 category: Supported Systems
-layout: withsidenav
 ---
 
 # ScummVM

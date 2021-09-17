@@ -1,7 +1,6 @@
 ---
 title: Hardware Issues
 category: Misc
-layout: withsidenav
 ---
 
 # Hardware Issues

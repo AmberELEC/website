@@ -1,7 +1,6 @@
 ---
 title: PC-98
 category: Supported Systems
-layout: withsidenav
 ---
 
 # PC-98

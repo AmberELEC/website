@@ -1,7 +1,6 @@
 ---
 title: Game Boy Advance
 category: Supported Systems
-layout: withsidenav
 ---
 
 # Game Boy Advance

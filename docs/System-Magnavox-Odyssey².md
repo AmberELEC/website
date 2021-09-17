@@ -1,7 +1,6 @@
 ---
 title: Magnavox Odyssey²
 category: Supported Systems
-layout: withsidenav
 ---
 
 # Magnavox Odyssey²

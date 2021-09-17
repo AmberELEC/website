@@ -1,7 +1,6 @@
 ---
 title: Arcade
 category: Supported Systems
-layout: withsidenav
 ---
 
 # Arcade Emulation

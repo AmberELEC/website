@@ -1,7 +1,6 @@
 ---
 title: Wolfenstein 3D
 category: Supported Systems
-layout: withsidenav
 ---
 
 # Wolfenstein 3D
