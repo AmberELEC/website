@@ -101,6 +101,6 @@ code.highlighter-rouge {
   text-align: right;
 }
 
-.navbar-collapse:not(.collapse) {
+.navbar-collapse:not(.collapse):not(.collapsing) {
   text-align: center;
 }
