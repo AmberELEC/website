@@ -84,6 +84,7 @@ categories:
     url: FAQ
   Misc:
     title: Misc
+    topnavpages: true
     pages:
       - title: Hardware Issues
         url: Hardware-Issues
