@@ -32,6 +32,11 @@ pages:
     title: Beta Features
     category: Contributing
     url: Beta-Features
+  - file: Supported-Emulators-and-Ports.md
+    title: Supported Emulators and Ports
+    category: Supported Systems
+    url: Supported-Emulators-and-Ports
+    hidepage: true
   - file: Arcade.md
     title: Arcade
     category: Supported Systems
