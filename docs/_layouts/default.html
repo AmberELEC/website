@@ -26,9 +26,11 @@
 
       {% assign pagerecord = site.data.nav.pages | where: "file", page.name | first %}
       {% assign categoryname = pagerecord.category %}
-      {% assign category = site.data.nav.categories | where "title", categoryname | first %}
-      {{ category }}
-      
+      {% if categoryname %}
+        {% assign category = site.data.nav.categories | where "title", categoryname | first %}
+        {{ category }}
+      {% endif %}
+
       {% if false %}
         <div class="row">
           <nav class="col-12 col-lg-3">
