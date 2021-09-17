@@ -1,8 +1,3 @@
----
-title: Doom
-category: Supported Systems
----
-
 # Doom
 
 ## Overview

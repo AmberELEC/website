@@ -1,8 +1,3 @@
----
-title: Supported Emulators and Ports
-category: Supported Systems
----
-
 # Supported Emulators and Ports
 
 This is a list of supported systems and the emulators/cores to run them, it will be updated regularly.

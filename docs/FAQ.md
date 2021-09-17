@@ -1,8 +1,3 @@
----
-title: FAQ
-category: FAQ
----
-
 # FAQ
 
 **Q:** When is the next release?  Why are you still on an old version of RetroArch/$MyFavoriteEmulator/$MyFavoriteCore?

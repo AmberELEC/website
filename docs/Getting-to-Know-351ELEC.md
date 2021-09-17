@@ -1,8 +1,3 @@
----
-title: Getting to Know 351ELEC
-category: User Guides
----
-
 # Getting to Know 351ELEC
 
 * [Controls and Hot Keys](#controls-and-hot-keys)

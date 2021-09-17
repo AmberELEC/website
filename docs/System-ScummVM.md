@@ -1,8 +1,3 @@
----
-title: ScummVM
-category: Supported Systems
----
-
 # ScummVM
 
 ## Overview

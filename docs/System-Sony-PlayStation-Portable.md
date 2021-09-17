@@ -1,8 +1,3 @@
----
-title: Sony PSP
-category: Supported Systems
----
-
 # Sony PSP
 
 ## BIOS

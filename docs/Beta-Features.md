@@ -1,8 +1,3 @@
----
-title: Beta Features
-category: Contributing
----
-
 # Beta Features
 
 Please note that all beta features are subject to change without notice.

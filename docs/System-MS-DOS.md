@@ -1,8 +1,3 @@
----
-title: MS-DOS
-category: Supported Systems
----
-
 # MS-DOS
 
 ## Overview

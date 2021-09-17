@@ -1,8 +1,3 @@
----
-title: Contributing to 351ELEC
-category: Contributing
----
-
 # Contributing to 351ELEC
 
 * [Reporting Bugs](#reporting-bugs)

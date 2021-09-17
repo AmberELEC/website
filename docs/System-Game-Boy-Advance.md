@@ -1,8 +1,3 @@
----
-title: Game Boy Advance
-category: Supported Systems
----
-
 # Game Boy Advance
 
 ## Paths

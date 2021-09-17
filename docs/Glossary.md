@@ -1,8 +1,3 @@
----
-title: Glossary
-category: Misc
----
-
 # Glossary
 
 **Custom Firmware** - A general term for community created and supported operating systems for retro handhelds. While not all of these are technically "firmware", the term comes from an earlier time when the OS and firmware were the same thing for most handhelds.
