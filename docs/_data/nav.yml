@@ -11,6 +11,7 @@ categories:
     title: User Guides
     url: Getting-to-Know-351ELEC
     topnavpages: true
+    sidenav: true
     pages:
       - title: Getting to Know 351ELEC
         url: Getting-to-Know-351ELEC
@@ -20,6 +21,7 @@ categories:
     title: Contributing
     url: Contributing-to-351ELEC
     topnavpages: true
+    sidenav: true
     pages:
       - title: Contributing to 351ELEC
         url: Contributing-to-351ELEC
@@ -28,6 +30,7 @@ categories:
   Supported Systems:
     title: Supported Systems
     url: Supported-Emulators-and-Ports
+    sidenav: true
     categories:
       - title: Full List
         url: Supported-Emulators-and-Ports
@@ -85,6 +88,7 @@ categories:
   Misc:
     title: Misc
     topnavpages: true
+    sidenav: true
     pages:
       - title: Hardware Issues
         url: Hardware-Issues
