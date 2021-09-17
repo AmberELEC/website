@@ -1,4 +1,13 @@
 <ul>
   {% assign subcategories = site.data.nav.categories | where: "parent", include.category.title %}
-  {{ subcategories }}
+  {% for subcategory in subcategories %}
+    <li>
+      {% if subcategory.url %}
+        <a href="{{ subcategory.url }}">{{ subcategory.title }}</a>
+      {% else %}
+        {{ subcategory.title }}
+      {% endif %}
+      {% include sidenav.html category=subcategory %}
+    </li>
+  {% endfor %}
 </ul>
