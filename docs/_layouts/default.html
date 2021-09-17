@@ -27,7 +27,6 @@
 
       {% assign pagerecord = site.data.nav.pages | where: "file", page.name | first %}
       {% if pagerecord %}
-        {% assign categoryname = pagerecord.category %}
         {% assign category = site.data.nav.categories | where: "title", pagerecord.category | first %}
         {% assign rootcategory = category %}
         {% if rootcategory.parent %}
