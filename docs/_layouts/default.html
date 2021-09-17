@@ -24,11 +24,11 @@
         </nav>
       </header>
 
-      {% assign pagerecords = site.data.nav.pages | where: "file", page.name %}
-      {% if pagerecords %}
-        {% assign pagerecord = pagerecord | first %}
-        {% assign categories = site.data.nav.categories | where "title", pagerecord.category %}
-        {{ categories }}
+      {% assign pagerecord = site.data.nav.pages | where: "file", page.name | first %}
+      {% if pagerecord %}
+        {{ pagerecord }}
+      {% else %}
+        {{ "No pagerecord" }}
       {% endif %}
 
       {% if false %}
