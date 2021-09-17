@@ -25,8 +25,8 @@
       </header>
 
       {% assign pagerecord = site.data.nav.pages | where: "file", page.name | first %}
-      {% assign categoryname = pagerecord.category %}
-      {% if categoryname %}
+      {% if pagerecord.category %}
+        {% assign categoryname = pagerecord.category %}
         {% assign category = site.data.nav.categories | where "title", categoryname | first %}
         {{ category }}
       {% endif %}
