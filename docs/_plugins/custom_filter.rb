@@ -1,6 +1,6 @@
 module Jekyll::CustomFilter
 
-	def root_category_for_page(page, categories)
+	def root_category_for_page(input, categories)
 		return "This is a test"
 		categories.each do | label, category |
 			if page_in_category(page, category)

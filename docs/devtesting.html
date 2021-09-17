@@ -2,4 +2,4 @@
 layout: default
 ---
 
-<p>{{ page.name | root_category_for_page }}</p>
+<p>{{ page.name | root_category_for_page: site.data.nav.categories }}</p>
