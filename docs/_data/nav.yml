@@ -82,3 +82,10 @@ categories:
   FAQ:
     title: FAQ
     url: FAQ
+  Misc:
+    title: Misc
+    pages:
+      - title: Hardware Issues
+        url: Hardware-Issues
+      - title: Glossary
+        url: Glossary
