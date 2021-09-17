@@ -31,6 +31,7 @@
         {% assign rootcategory = category %}
         {% if rootcategory.parent %}
           {% assign rootcategory = site.data.nav.categories | where: "title", rootcategory.parent | first %}
+          {{ rootcategory }}
         {% endif %}
       {% else %}
         {{ "No pagerecord" }}
