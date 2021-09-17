@@ -1,22 +1,23 @@
 <ul class="navbar-nav mr-auto">
-  {% assign rootcategories = site.data.nav.categories | where: "parent", false %}
-  {% for category in rootcategories %}
-    {% if category.topnavpages %}
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="userguidesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">{{ category.title }}</a>
-        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="userguidesDropdown">
-          {% assign pages = site.data.nav.pages | where: "category", category.title %}
-          {% for page in pages %}
-            <li>
-              <a class="dropdown-item" href="{{ page.url }}">{{ page.title }}</a>
-            </li>
-          {% endfor %}
-        </ul>
-      </li>
-    {% else %}
-      <li class="nav-item">
-        <a class="nav-link" href="{{ category.url }}">{{ category.title }}</a>
-      </li>
-    {% endif %}
+  {% for category in site.data.nav.categories %}
+    {% unless category.parent %}
+      {% if category.topnavpages %}
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="userguidesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">{{ category.title }}</a>
+          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="userguidesDropdown">
+            {% assign pages = site.data.nav.pages | where: "category", category.title %}
+            {% for page in pages %}
+              <li>
+                <a class="dropdown-item" href="{{ page.url }}">{{ page.title }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+        </li>
+      {% else %}
+        <li class="nav-item">
+          <a class="nav-link" href="{{ category.url }}">{{ category.title }}</a>
+        </li>
+      {% endif %}
+    {% endunless %}
   {% endfor %}
 </ul>
