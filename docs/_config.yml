@@ -4,3 +4,6 @@ github.repository_url: https://github.com/351ELEC/351ELEC
 
 sass:
   sass_dir: assets/css
+
+plugins:
+  - custom_filter
