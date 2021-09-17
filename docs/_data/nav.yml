@@ -33,10 +33,9 @@ pages:
     category: Contributing
     url: Beta-Features
   - file: Supported-Emulators-and-Ports.md
-    title: Supported Emulators and Ports
+    title: Full List
     category: Supported Systems
     url: Supported-Emulators-and-Ports
-    hidepage: true
   - file: Arcade.md
     title: Arcade
     category: Supported Systems
@@ -154,9 +153,6 @@ categories:
   - title: Supported Systems
     url: Supported-Emulators-and-Ports
     sidenav: true
-  - title: Full List
-    url: Supported-Emulators-and-Ports
-    parent: Supported Systems
   - title: Arcade
     url: Arcade
     parent: Supported Systems
