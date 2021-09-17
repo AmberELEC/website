@@ -29,10 +29,8 @@
       {% assign categoryname=pages.category %}
       {% assign category=site.data.nav.categories | where "title", categoryname | first %}
       {% assign rootcategory=category %}
-      {% if rootcategory.parent %}
-        {% assign rootcategory=site.data.nav.categories | where "title", rootcategory.parent | first %}
-      {% endif %}
-      {% if rootcategory.sidenav %}
+      
+      {% if false %}
         <div class="row">
           <nav class="col-12 col-lg-3">
           </nav>
