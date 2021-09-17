@@ -93,6 +93,18 @@ code.highlighter-rouge {
   border-color: #f9fafb;
 }
 
+.btn-success {
+    color: #fff;
+    background-color: #198754;
+    border-color: #198754;
+}
+
+.btn.btn-success:hover {
+    color: #fff;
+    background-color: #157347;
+    border-color: #146c43;
+}
+
 .btn:hover {
     background: inherit;
 }
