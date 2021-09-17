@@ -1,5 +1,5 @@
 <ul class="navbar-nav mr-auto">
-  {% assign rootcategories = site.data.nav.categories | where: "parent", nil %}
+  {% assign rootcategories = site.data.nav.categories | where: "parent", false %}
   {% for category in rootcategories %}
     {% if category.topnavpages %}
       <li class="nav-item dropdown">
