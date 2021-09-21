@@ -10,8 +10,6 @@
 
 ### Video Overview
 
-[![](http://i3.ytimg.com/vi/3uHuuJ3WZBY/hqdefault.jpg)](https://www.youtube.com/watch?v=3uHuuJ3WZBY)
-
 [https://www.youtube.com/watch?v=3uHuuJ3WZBY](https://www.youtube.com/watch?v=3uHuuJ3WZBY)
 
 > (credit to [Retro Game Corps](https://www.youtube.com/channel/UCoZQiN0o7f36H7PaW4fVhFw) for creating this video)
