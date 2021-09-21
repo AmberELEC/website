@@ -10,7 +10,7 @@
 
 ### Video Overview
 
-While Retro Game Corps' video is for a very old version of 351ELEC, the steps in the video are still correct. Following them should get you a working version of the latest 351ELEC release.
+While Retro Game Corps' video is for a very old version of 351ELEC, the steps in the video are still correct. Following them will get you a working version of the latest 351ELEC release.
 
 [https://www.youtube.com/watch?v=3uHuuJ3WZBY](https://www.youtube.com/watch?v=3uHuuJ3WZBY)
 
