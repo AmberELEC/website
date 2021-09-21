@@ -48,6 +48,20 @@ OSX can unzip .gz files natively. You should be able to double click on the .gz 
 
 Most Linux distributions can unzip .gz files natively. If you have any trouble, you can probably find an answer by searching for your distro name + .gz.
 
+### Writing the Image
+
+#### Windows
+
+There ara many image writers that work fine on Windows. [Win32 Disk Imager](https://win32diskimager.org/), [USB Image Tool](https://www.bytesin.com/software/Download-USB-Image-Tool/) and [balenaEtcher](https://www.balena.io/etcher/) are all known to be able to flash the image successfully.
+
+#### OSX
+
+On OSX, [balenaEtcher](https://www.balena.io/etcher/) is known to work. You may also have success with the [rpi-imager](https://github.com/raspberrypi/rpi-imager).
+
+#### Linux
+
+Users have reported issues using the standard tools (mkfs, Gnome Disk Utility), so the preferred SD writing tool on Linux is the [rpi-imager](https://github.com/raspberrypi/rpi-imager).
+
 ## Chrome OS
 
 While Chrome OS is a Linux distribution, the usual image writers don't work on it. Chrome OS has normal SD functions disabled on purpose for security reasons. The solution is to use the Chromebook Recovery Utility application. This application was made specifically to flash a Chrome OS image to an SD card, but it can be used to flash any image in a recognized format.
