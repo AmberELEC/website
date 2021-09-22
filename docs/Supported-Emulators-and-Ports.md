@@ -45,9 +45,9 @@ The **bold** one is the default one.
 |NEC<br />SUPERGRAFX|**beetle_supergrafx**<br />beetle_pce_fast|sgfx| .pce .sgx .cue .ccd .chd .zip .7z|
 |NEC<br />TURBOGRAFX 16|**beetle_pce_fast**<br />beetle_supergrafx|tg16| .pce .bin .zip .7z|
 |NEC<br />TURBOGRAFX CD|**beetle_pce_fast**<br />beetle_supergrafx|tg16cd| .pce .cue .ccd .iso .img .bin .chd .zip .7z|
-|NINTENDO<br />ENTERTAINMENT SYSTEM|**fceumm**<br />nestopia|nes| .nes .unif .unf .zip .7z|
-|NINTENDO<br />FAMICOM|**nestopia**<br />fceumm|famicom| .nes .unif .unf .zip .7z|
-|NINTENDO<br />FAMICOM DISK SYSTEM|**nestopia**<br />fceumm|fds| .fds .zip .7z|
+|NINTENDO<br />ENTERTAINMENT SYSTEM|**nestopia**<br />fceumm<br />quicknes|nes| .nes .unif .unf .zip .7z|
+|NINTENDO<br />FAMICOM|**nestopia**<br />fceumm<br />quicknes|famicom| .nes .unif .unf .zip .7z|
+|NINTENDO<br />FAMICOM DISK SYSTEM|**nestopia**<br />fceumm<br />quicknes|fds| .fds .zip .7z|
 |NINTENDO<br />GAME BOY|**gambatte**<br />sameboy<br />gearboy<br />tgbdual<br />mgba<br />vbam|gb| .gb .gbc .zip .7z|
 |[NINTENDO<br />GAME BOY ADVANCE](System-Game-Boy-Advance)|**mgba**<br />beetle_gba<br />gpsp<br />vbam<br />vba_next|gba| .gba .zip .7z|
 |NINTENDO<br />GAME BOY COLOR|**gambatte**<br />sameboy<br />gearboy<br />tgbdual<br />mgba<br />vbam|gbc| .gbc .gb .zip .7z|
@@ -172,7 +172,7 @@ You can even [contribute](Contributing-to-351ELEC) and port your favorite game.
 |NINTENDO<br />GAME BOY HACKS|**gambatte**<br />sameboy<br />mgba<br />tgbdual<br />gearboy<br />vbam|gbh|.gb .gbc .zip .7z|
 |NINTENDO<br />GAME BOY COLOR HACKS|**gambatte**<br />sameboy<br />mgba<br />tgbdual<br />gearboy<br />vbam|gbch|.gbc .gb .zip .7z|
 |NINTENDO<br />GAME BOY ADVANCE HACKS|**mgba**<br />gpsp<br />vba_next<br />vbam|gbah| 	.gba .zip .7z|
-|NINTENDO<br />ENTARTAINMENT SYSTEM HACKS|fceumm<br />**nestopia**|nesh|.nes .unif .unf .zip .7z|
+|NINTENDO<br />ENTARTAINMENT SYSTEM HACKS|**nestopia**<br />fceumm<br />quicknes|nesh|.nes .unif .unf .zip .7z|
 |NINTENDO<br />SUPER NINTENDO HACKS|**snes9x**<br />snes9x2010<br />snes9x2002<br />snes9x2005_plus<br />beetle_supafaust|snesh|.smc .sfc .swc .fig .bs .st .gd3 .gd7 .dx2 .bsx .zip .7z|
 |SEGA<br />GAME GEAR HACKS|**gearsystem**<br />genesis_plus_gx<br />picodrive<br />smsplus|gamegearh|.gg .bin .gg .zip .7z|
 |SEGA<br />GENESIS HACKS|**genesis_plus_gx**<br />genesis_plus_gx_wide<br />picodrive|genh|.gen .md .sg .smd .bin .zip .7z|
