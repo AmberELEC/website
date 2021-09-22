@@ -147,3 +147,12 @@ code.highlighter-rouge {
 .navbar-collapse:not(.collapse):not(.collapsing) {
   text-align: center;
 }
+
+.download-warning {
+  display: flex;
+  align-items: center;
+}
+
+.download-warning svg {
+  margin-right: 1rem;
+}
