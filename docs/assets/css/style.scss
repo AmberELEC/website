@@ -172,6 +172,13 @@ code.highlighter-rouge {
     @extend .btn-dark:hover;
     border: 3px solid white;
   }
+
+  &::before {
+    content: url('../../images/download-arrow.svg');
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+  }
 }
 
 a.nav-link.nav-download {
