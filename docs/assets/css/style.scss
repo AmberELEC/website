@@ -182,6 +182,12 @@ code.highlighter-rouge {
   }
 }
 
+.nav-link {
+  padding: 1.5rem .5rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
 a.nav-link.nav-download {
   color: white !important;
   font-weight: bold;
