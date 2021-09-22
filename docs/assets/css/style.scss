@@ -170,7 +170,7 @@ code.highlighter-rouge {
 
   &:hover {
     @extend .btn-dark:hover;
-    border: 3px solid white;
+    border: none;
     background-color: rgba(235, 50, 35, 1);
   }
 
@@ -188,4 +188,5 @@ a.nav-link.nav-download {
   display: inline-flex;
   align-items: center;
   height: 100%;
+  width: 100%;
 }
