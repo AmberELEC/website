@@ -28,9 +28,7 @@ header ul li {
 
 header .navbar-nav > li {
   text-align: center;
-  border-left: 2px solid black;
-  border-top-left-radius: 1rem;
-  border-bottom-left-radius: 1rem;
+  border: 1px solid #222;
   background-image: linear-gradient(180deg, #242424, transparent)
 }
 
@@ -208,7 +206,6 @@ a.nav-link.nav-download {
   justify-content: center;
   height: 100%;
   width: 100%;
-  border-left: 1px solid black;
   background-image: linear-gradient(180deg, #930000, transparent);
 }
 
