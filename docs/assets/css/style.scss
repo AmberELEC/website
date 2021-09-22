@@ -175,7 +175,6 @@ code.highlighter-rouge {
 
   &::before {
     content: url('../../images/download-arrow.svg');
-    display: inline-block;
     width: 18px;
     height: 18px;
     margin-right: 1rem;
@@ -185,4 +184,5 @@ code.highlighter-rouge {
 a.nav-link.nav-download {
   color: white !important;
   font-weight: bold;
+  display: flow;
 }
