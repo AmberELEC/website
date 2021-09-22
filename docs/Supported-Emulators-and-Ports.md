@@ -28,7 +28,7 @@ The **bold** one is the default one.
 |SAMMY<br />ATOMISWAVE|**flycast**|atomiswave| .lst .bin .dat .zip .7z|
 |BANDAI<br />WONDERSWAN|**beetle_wswan**|wonderswan| .ws .zip .7z |
 |BANDAI<br />WONDERSWAN COLOR|**beetle_wswan**|wonderswancolor| .wsc .zip .7z|
-|COLECOVISION|**bluemsx**|coleco| .bin .col .rom .zip .7z|
+|COLECOVISION|**bluemsx**<br />gearcoleco<br />smsplus|coleco| .bin .col .rom .zip .7z|
 |COMMODORE 16<br />(PLUS/4)|**vice_xplus4**|c16| .d(64, 71, 80, 81, 82, 6z, 7z, 8z) .g(64, 41, 6z, 4z) .x64 .t64 .tap .prg .p00 .crt .bin .gz  x6z .cmd .m3u .vsf .nib .nbz|
 |COMMODORE 64|**vice_x64**|c64| .d(64, 71, 80, 81, 82, 6z, 7z, 8z) .g(64, 41, 6z, 4z) .x64 .t64 .tap .prg .p00 .crt .bin .gz .x6z .cmd .m3u .vsf .nib .nbz|
 |COMMODORE 128|**vice_x128**|c128| .d(64, 71, 80, 81, 82, 6z, 7z, 8z) .g(64, 41, 6z, 4z) .x64 .t64 .tap .prg .p00 .crt .bin .gz .x6z .cmd .m3u .vsf .nib .nbz|
