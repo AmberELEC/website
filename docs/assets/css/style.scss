@@ -28,6 +28,17 @@ header ul li {
 
 header .navbar-nav > li {
   text-align: center;
+  border-left: 2px solid black;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  background-image: linear-gradient(90deg, #272727, transparent);
+}
+
+.navbar-nav {
+  border: 1px solid black;
+  border-left: none;
+  border-bottom-left-radius: 1rem;
+  border-top-left-radius: 1rem;
 }
 
 header .navbar {
@@ -197,6 +208,7 @@ a.nav-link.nav-download {
   justify-content: center;
   height: 100%;
   width: 100%;
+  background-image: none;
 }
 
 header .bg-dark.show, header .bg-dark.collapsing {
