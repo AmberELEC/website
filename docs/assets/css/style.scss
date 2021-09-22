@@ -144,10 +144,6 @@ code.highlighter-rouge {
   text-align: right;
 }
 
-.navbar-collapse:not(.collapse):not(.collapsing) {
-  text-align: center;
-}
-
 .download-warning {
   display: flex;
   align-items: center;
@@ -182,7 +178,11 @@ code.highlighter-rouge {
   }
 }
 
-.nav-link {
+.navbar-collapse:not(.collapse):not(.collapsing) {
+  text-align: center;
+}
+
+.navbar-collapse:not(.collapse):not(.collapsing) .nav-link {
   padding: 1.5rem .5rem;
   border-top-left-radius: 1rem;
   border-bottom-left-radius: 1rem;
