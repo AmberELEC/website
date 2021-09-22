@@ -161,7 +161,22 @@ code.highlighter-rouge {
   @extend .btn;
   @extend .btn-dark;
 
+  background-color: black;
+  border: 2px solid red;
+  border-radius: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-color: red;
+
   &:hover {
     @extend .btn-dark:hover;
+  }
+
+  &::before {
+    content: '';
+    background: url('images/download-arrow.svg');
+    width: 16px;
+    height: 16px;
+    display: block;
   }
 }
