@@ -184,5 +184,6 @@ code.highlighter-rouge {
 a.nav-link.nav-download {
   color: white !important;
   font-weight: bold;
-  display: flow !important;
+  display: inline-flex;
+  height: 100%;
 }
