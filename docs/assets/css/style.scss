@@ -198,3 +198,7 @@ a.nav-link.nav-download {
   height: 100%;
   width: 100%;
 }
+
+.navbar-collapse.collapse .nav-link, .navbar-collapse.collapsing .nav-link {
+  border-radius: 0;
+}
