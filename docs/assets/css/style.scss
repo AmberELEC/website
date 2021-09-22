@@ -163,6 +163,7 @@ code.highlighter-rouge {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-weight: bold;
+  width: 100%;
 
   &:hover {
     @extend .btn-dark:hover;
@@ -180,21 +181,20 @@ code.highlighter-rouge {
 
 .navbar-collapse:not(.collapse):not(.collapsing) {
   text-align: center;
+}
 
-    .nav-link {
-      padding: 1.5rem .5rem;
-      border-top-left-radius: 1rem;
-      border-bottom-left-radius: 1rem;
-    }
+.navbar-collapse:not(.collapse):not(.collapsing) .nav-link {
+  padding: 1.5rem .5rem;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
 
-    a.nav-link.nav-download {
-      color: white !important;
-      font-weight: bold;
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      height: 100%;
-      width: 100%;
-    }
-
+.navbar-collapse:not(.collapse):not(.collapsing) a.nav-link.nav-download {
+  color: white !important;
+  font-weight: bold;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
 }
