@@ -26,8 +26,17 @@ header ul li {
   flex-grow: 1;
 }
 
+header .navbar {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 18px;
+}
+
 header .navbar-brand {
   margin-right: 3rem;
+}
+
+header .bg-dark {
+  border-radius: 15px;
 }
 
 thead, tbody, tfoot, tr, td, th {
