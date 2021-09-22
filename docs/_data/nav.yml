@@ -146,10 +146,8 @@ categories:
     url: Getting-to-Know-351ELEC
     topnavpages: true
     sidenav: true
-  - title: Contributing
-    url: Contributing-to-351ELEC
-    topnavpages: true
-    sidenav: true
+  - title: FAQ
+    url: FAQ
   - title: Supported Systems
     url: Supported-Emulators-and-Ports
     sidenav: true
@@ -165,8 +163,10 @@ categories:
   - title: Ports
     url: Supported-Emulators-and-Ports#ports
     parent: Supported Systems
-  - title: FAQ
-    url: FAQ
+  - title: Contributing
+    url: Contributing-to-351ELEC
+    topnavpages: true
+    sidenav: true
   - title: Misc
     topnavpages: true
     sidenav: true
