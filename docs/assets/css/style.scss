@@ -199,6 +199,10 @@ a.nav-link.nav-download {
   width: 100%;
 }
 
+header.bg-dark.collapse, header.bg-dark.collapsing {
+  border-radius: 0;
+}
+
 .navbar-collapse.collapse .nav-link, .navbar-collapse.collapsing .nav-link {
   border-radius: 0;
 }
