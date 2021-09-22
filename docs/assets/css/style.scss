@@ -31,7 +31,7 @@ header .navbar-nav > li {
   border-left: 2px solid black;
   border-top-left-radius: 1rem;
   border-bottom-left-radius: 1rem;
-  background-image: linear-gradient(90deg, #272727, transparent);
+  background-image: linear-gradient(180deg, #242424, transparent)
 }
 
 .navbar-nav {
@@ -208,7 +208,8 @@ a.nav-link.nav-download {
   justify-content: center;
   height: 100%;
   width: 100%;
-  background-image: none;
+  border-left: 1px solid black;
+  background-image: linear-gradient(180deg, #930000, transparent);
 }
 
 header .bg-dark.show, header .bg-dark.collapsing {
