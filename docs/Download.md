@@ -22,7 +22,7 @@ To install 351ELEC, please follow the instructions on the [Installation page](In
 
 ### Updating from a previous version
 
-To update from a previous version of 351ELEC, download the update .tar file below for your device and place it in your `GAMES/update` folder. For more detailed instructions, please see the [Upload Instructions](Installation#upgrading).
+To update from a previous version of 351ELEC, download the update .tar file below for your device and place it in your `GAMES/update` folder. For more detailed instructions, please see the [Upgrade Instructions](Installation#upgrading).
 
 <a class="btn btn-download" href="https://github.com/351ELEC/351ELEC/releases/download/20210603/351ELEC-RG351P.aarch64-20210603.tar">
 	<img src="images/download-arrow.svg" alt="Download Upgrade Arrow" style="width: 24px; height: 24px"/>
