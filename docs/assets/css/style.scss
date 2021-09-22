@@ -161,7 +161,7 @@ code.highlighter-rouge {
   @extend .btn;
   @extend .btn-dark;
 
-  background-color: red;
+  background-color: rgba(235, 50, 35, 1);
   border: 3px solid white;
   border-radius: 0;
   font-family: Helvetica, Arial, sans-serif;
@@ -175,6 +175,6 @@ code.highlighter-rouge {
 }
 
 a.nav-link.nav-download {
-  color: rgba(235, 50, 35, 1) !important;
+  color: white !important;
   font-weight: bold;
 }
