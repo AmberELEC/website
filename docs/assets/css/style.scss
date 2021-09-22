@@ -171,13 +171,14 @@ code.highlighter-rouge {
   &:hover {
     @extend .btn-dark:hover;
     border: 3px solid white;
+    background-color: rgba(235, 50, 35, 1);
   }
 
   &::before {
     content: url('../../images/download-arrow.svg');
     width: 18px;
     height: 18px;
-    margin-right: 0;
+    margin-right: .5rem;
   }
 }
 
