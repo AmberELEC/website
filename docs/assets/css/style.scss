@@ -161,25 +161,19 @@ code.highlighter-rouge {
   @extend .btn;
   @extend .btn-dark;
 
-  background-color: black;
-  border: 2px solid red;
+  background-color: red;
+  border: 3px solid white;
   border-radius: 0;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 18px;
-  font-color: red;
+  font-weight: bold;
 
   &:hover {
     @extend .btn-dark:hover;
-  }
-
-  &::before {
-    content: url('images/download-arrow.svg');
-    width: 24px;
-    height: 24px;
-    display: inline-block;
+    border: 3px solid white;
   }
 }
 
-.nav-download a {
+a.nav-download {
   color: white;
 }
