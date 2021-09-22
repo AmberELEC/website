@@ -156,3 +156,12 @@ code.highlighter-rouge {
 .download-warning svg {
   margin-right: 1rem;
 }
+
+.nav-download {
+  @extend .btn;
+  @extend .btn-dark;
+
+  &:hover {
+    @extend .btn-dark:hover;
+  }
+}
