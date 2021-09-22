@@ -175,8 +175,12 @@ code.highlighter-rouge {
   &::before {
     content: '';
     background: url('images/download-arrow.svg');
-    width: 16px;
-    height: 16px;
+    width: 24px;
+    height: 24px;
     display: inline-block;
   }
+}
+
+.nav-download a {
+  color: white;
 }
