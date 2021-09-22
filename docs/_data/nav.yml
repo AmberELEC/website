@@ -18,12 +18,24 @@ pages:
     url: Installation
   - file: Getting-to-Know-351ELEC.md
     title: Getting to Know 351ELEC
-    category: User Guides
+    category: Guides
     url: Getting-to-Know-351ELEC
   - file: Advanced-Topics.md
     title: Advanced Topics
-    category: User Guides
+    category: Guides
     url: Advanced-Topics
+  - file: Hardware-Issues.md
+    title: Hardware Issues
+    category: Guides
+    url: Hardware-Issues
+  - file: Glossary.md
+    title: Glossary
+    category: Guides
+    url: Glossary
+  - file: FAQ.md
+    title: FAQ
+    category: FAQ
+    url: FAQ
   - file: Contributing-to-351ELEC.md
     title: Contributing to 351ELEC
     category: Contributing
@@ -113,18 +125,10 @@ pages:
     title: VVVVVV
     category: Ports
     url: Port-VVVVVV
-  - file: FAQ.md
-    title: FAQ
-    category: FAQ
-    url: FAQ
-  - file: Hardware-Issues.md
-    title: Hardware Issues
-    category: Misc
-    url: Hardware-Issues
-  - file: Glossary.md
-    title: Glossary
-    category: Misc
-    url: Glossary
+  - file: Download.md
+    title: Download
+    category: Download
+    url: Download
 
 # Array: categories
 # An array of category objects that pages are organized into
@@ -142,7 +146,7 @@ pages:
 categories:
   - title: Installation
     url: Installation
-  - title: User Guides
+  - title: Guides
     url: Getting-to-Know-351ELEC
     topnavpages: true
     sidenav: true
@@ -167,6 +171,5 @@ categories:
     url: Contributing-to-351ELEC
     topnavpages: true
     sidenav: true
-  - title: Misc
-    topnavpages: true
-    sidenav: true
+  - title: Download
+    url: Download
