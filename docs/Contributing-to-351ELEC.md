@@ -9,6 +9,7 @@
 * [Building Your Contribution](#building-your-contribution)
 * [Contributing Community Built Packages](#contributing-community-built-packages)
 * [Docker usage](#docker-usage)
+* [Debugging](#debugging)
 
 ## Reporting Bugs
 * Check you are using latest released version, only released versions are supported.  
@@ -205,3 +206,8 @@ By standardizing the build environment into Docker, it would be possible to cach
 
 One idea  would be if we built the toolchain in the docker build and then stored the toolchain in another standard directory (/opt/toolchain/aarch64, etc), the Makefile could be updated to populate the build* directories from the /opt/toolchain if the toolchain didn't exist, etc.  I'm also not sure if only the `toolchain` directory is needed to be saved or the other dependent packages too (FYI: I saw some errors with `libltdl` which I think is part of `libtool` that indicate just the `toolchain` directory may not be enough.)
 
+## Debugging
+
+The build scripts automatically strip debug symbols from binaries before installation. If you need to debug on device, you can use the `DEBUG` environment variable to list the packages, comma separated, that you'd like to debug. You can also set the variable to `all` or `yes`, but it is **strongly recommended that you do not do this***
+
+For example, if I wanted to debug the packages `mupenplussa-core` and `mupenplussa-ui-console` while building an RG351V image, I'd use the command `DEBUG=mupenplussa-core,mupenplussa-ui-console make docker-RG351V`.
