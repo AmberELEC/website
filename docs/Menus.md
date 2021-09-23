@@ -24,11 +24,13 @@ Accessed through [Main Menu](#main-menu) > System Settings
 - Timezone - Set the system's timezone
 - Language - Set the system language
 - UI Mode - Switch to Kiosk or Kid mode
+
 **Hardware**
 - Brightness - Adjust the brightness
 - Video Output - N/A
 - Audio Output - N/A
 - Enable Overclock - Enable or disable overclock on the system. Overclocking can give a slight performance boost, but can cause errors on some systems
+
 **Advanced**
 - [Danger Zone!](#danger-zone) - A number of advanced options including backups and config resets
 
@@ -48,6 +50,7 @@ Accessed through [Main Menu](#main-menu) > Games Settings
 
 **Tools**
 - Update Games Lists - Refresh the list of roms and scraped data
+
 **Default Settings** - Change the emulation defaults for the entire system. It's usually better to change these settings on a per-system basis
 - Game Ratio - 
 - Smooth Games
@@ -62,6 +65,7 @@ Accessed through [Main Menu](#main-menu) > Games Settings
 - Latency Reduction
 - AI Game Translation
 - Per System Advanced Configuration
+
 **System Settings**
 - [Retroachievements Settings](#retroachievements-settings)
 - [Netplay Settings](#netplay-settings)
@@ -81,6 +85,7 @@ Accessed through the [Main Menu](#main-menu) > [Games Settings](#games-settings)
 - Username - Your username on [retroachievements.org](https://retroachievements.org/)
 - Password - Your password for [retroachievements.org](https://retroachievements.org/). Special characters can cause login issues
 - Show in Main Menu
+
 **Game Indexes**
 - Find All Games
 - Find New Games
@@ -94,6 +99,7 @@ Accessed through the [Main Menu](#main-menu) > [Games Settings](#games-settings)
 - Nickname
 - Port
 - Use Relay Server
+
 **Game Indexes**
 - Check Missing Indexes At Startup
 - Find All Games
@@ -119,6 +125,7 @@ Accessed through the [Main Menu](#main-menu) > UI Settings
 **Appearence**
 - Theme Set
 - Theme Configuration
+
 **Display Options**
 - Popup Notification Timeout
 - Screensaver Settings
@@ -128,7 +135,8 @@ Accessed through the [Main Menu](#main-menu) > UI Settings
 - Show Clock
 - On-Screen Help
 - Show Battery Status
-** Gamelist Options**
+
+**Gamelist Options**
 - Show Favorites on Top
 - Show Hidden Files
 - Show Folders
@@ -142,9 +150,11 @@ Accessed through the [Main Menu](#main-menu) > Game Collection Settings
 **Collections To Display**
 - Systems Displayed
 - Automatic Game Collections
+
 **Create Custom Collection**
 - Create New Editable Collection
 - Create New Dynamic Collection
+
 **Options**
 - Sort Systems
 - Start on System
@@ -161,12 +171,14 @@ Accessed through the [Main Menu](#main-menu) > Sound Settings
 - System Volume
 - Music Volume
 - Show Overlay When Volume Changes
+
 **Music**
 - Frontend Music
 - Display Song Titles
 - Only Play System-Specific Music Folder
 - Play Theme Musics
 - Lower Music When Playing Video
+
 **Sounds**
 - Enable Navigation Sounds
 - Enable Video Audio
@@ -179,6 +191,7 @@ Accessed through the [Main Menu](#main-menu) > Network Settings
 - IP Address
 - Internet Status
 - Show Network Indicator
+
 **Settings**
 - Enable Bluetooth
 - Enable SSH
