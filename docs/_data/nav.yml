@@ -20,6 +20,10 @@ pages:
     title: Getting to Know 351ELEC
     category: Guides
     url: Getting-to-Know-351ELEC
+  - file: Menus.md
+    title: Menus
+    category: Guides
+    url: Menus
   - file: Advanced-Topics.md
     title: Advanced Topics
     category: Guides
