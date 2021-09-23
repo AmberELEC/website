@@ -70,6 +70,7 @@ Accessed by pressing the `X` button or from [View Options](#view-options) > Game
 ## Emulator Options
 
 For Individual Systems: Accessed from [View Options](#view-options) > Advanced System Options
+
 For Individual Games: Accessed from [Game Options](#game-options) > Advanced Game Options
 
 - Emulator
