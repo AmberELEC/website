@@ -9,12 +9,6 @@ There are two cores provided by 351ELEC for PlayStation emulation:
 
 PCSX ReARMed is our default core for performance reasons.  DuckStation(/SwanStation) should only be needed for supporting some games that do not run correctly with PCSX ReARMed; it may be more accurate, but the performance on this hardware will often be worse.
 
-## Recommendations for Disc Images
-### Recommended Disc Image Formats
-The simplest solution for users who just want to use the default core (PCSX-ReARMed) is to use CloneCD-format disc images (`.ccd`,. `.img`, and `.sub`).  You won't encounter issues with copy protection, crashes or other oddities that you might with other formats, and you'll retain compatibility with RetroAchievements.
-
-The DuckStation and SwanStation cores currently only support CDRWIN-format disc images (`.cue` and `.bin`).  Because these disc images do not provide subchannel data (which PlayStation software commonly uses for copy protection), you will need to extract and provide the additional subchannel sidecar (`.sbi`) from your original game media.
-
 ### Compressed Disc Images
 We've received enough complaints about compressed disc images that we generally recommend against using them.
 
