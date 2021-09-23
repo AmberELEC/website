@@ -9,13 +9,6 @@ There are two cores provided by 351ELEC for PlayStation emulation:
 
 PCSX ReARMed is our default core for performance reasons.  DuckStation(/SwanStation) should only be needed for supporting some games that do not run correctly with PCSX ReARMed; it may be more accurate, but the performance on this hardware will often be worse.
 
-### Compressed Disc Images
-We've received enough complaints about compressed disc images that we generally recommend against using them.
-
-Archived disc images (`.zip`, `.7z`) have been disabled (it requires full extraction prior to execution, leading to a usually multiple minute decompress time before launching the game, usually crashing as the 351's RAM was overflowed).  You will need to unzip your archived disc images.
-
-Compressed disc images (`.chd`, `.pbp`) are not recommended, especially if you cannot verify the source they were generated from.  These may or may not work well; some users have their entire collections in these formats and report no issues, others report performance and compatibility issues; they may seem to work at first but you may see dropped frames later in game (usually from the game trying to load level data and stream music, effectively running two decompression tasks on top of the emulation, at the same time).  Feel free to test and use as you see fit, but do not bring performance questions to the Discord if you are using a compressed disc image.
-
 ## Issues
 ### Controls and Rumble Not Working in Games
 
