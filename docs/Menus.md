@@ -5,7 +5,7 @@ Accessed by pressing the `Start` button in EmulationStation
 - [System Settings](#system-settings)
 - Retroachievements - A list of completed Retroachievements. Only appears if you turn on Show in Main Menu in the [Retroachievements Settings](#retroachievements-settings)
 - [Games Settings](#games-settings)
-- [Controller Settings](#controller-settings) - Not worth messing with
+- [Controllers Settings](#controllers-settings) - Not worth messing with
 - [UI Settings](#ui-settings)
 - [Game Collection Settings](#game-collection-settings)
 - [Sound Settings](#sound-settings)
@@ -72,9 +72,9 @@ Accessed through [Main Menu](#main-menu) > Games Settings
 - Diablo Server
 - Missing Bios - Scan for missing BIOS files
 
-### Retroachievement Settings
+### Retroachievements Settings
 
-Accessed through the [Main Menu](#main-menu) > [Games Settings](#games-settings) > Retroachievement Settings
+Accessed through the [Main Menu](#main-menu) > [Games Settings](#games-settings) > Retroachievements Settings
 
 **Settings**
 - Retroachievements - Toggle Retroachievements on or off
