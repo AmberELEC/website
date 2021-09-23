@@ -15,6 +15,75 @@ Accessed by pressing the `Start` button in EmulationStation
 - [Emulationstation Settings](#emulationstation-settings) - Not worth messing with
 - [Quit](#quit)
 
+# Quick Access
+
+Accessed by pressing the `Select` button on the top level of the EmulationStation menu
+
+**Quick Access**
+- Launch Screensaver
+- Restart EmulationStation
+- Start RetroArch
+
+**Quit**
+- Restart System
+- Shutdown System
+
+# View Options
+
+Accessed by pression the `Select` button while in a System menu in EmulationStation
+
+**Navigation**
+- Filter Games By Text
+- Jump To Letter
+- Select Random Game
+- Sort Games By
+- Other Filters
+
+**View Options**
+- Gamelist View Style
+- View Customization
+
+**Options**
+- [Game Options](#game-options)
+- [Advanced System Options](#emulator-options)
+
+## Game Options
+
+Accessed by pressing the `X` button or from [View Options](#view-options) > Game Options while highlighting a game
+
+**Game Medias**
+- View Game Manual
+- View Game Achievements
+
+**Game**
+- Save Snapshots
+
+**Collections**
+- Add to Favorites
+- Add to {Editable Collection}
+
+**Options**
+- Scrape
+- [Advanced Game Options](#emulator-options)
+- Edit This Game's Metadata
+
+## Emulator Options
+
+For Individual Systems: Accessed from [View Options](#view-options) > Advanced System Options
+For Individual Games: Accessed from [Game Options](#game-options) > Advanced Game Options
+
+- Emulator
+- Game Ratio
+- Video Mode
+- Smooth Games
+- Rewind - Enable rewind for compatible systems. This can cause serious performance problems, and should be enabled as needed on a per system or game basis
+- Auto Save/Load
+- Shaders Set
+- Integer Scale (for most handhelds)
+- RGA Scale (for most consoles)
+- Enable Max Performance - Forces the system to always run at full clockspeed. This can drain the battery very quickly, and should be set on individual games only when needed
+- Latency Reduction
+
 ## System Settings
 
 Accessed through [Main Menu](#main-menu) > System Settings
@@ -26,7 +95,7 @@ Accessed through [Main Menu](#main-menu) > System Settings
 - UI Mode - Switch to Kiosk or Kid mode
 
 **Hardware**
-- Brightness - Adjust the brightness
+- Brightness - Adjust the system brightness
 - Video Output - N/A
 - Audio Output - N/A
 - Enable Overclock - Enable or disable overclock on the system. Overclocking can give a slight performance boost, but can cause errors on some systems
@@ -56,8 +125,8 @@ Accessed through [Main Menu](#main-menu) > Games Settings
 - Smooth Games
 - Show Retroarch Fps
 - Enable Game Splash
-- Enable Max Performance - Forces the system to always run at full clockspeed. This can drain the battery very quickly, and should never be set globally.
-- Rewind - Enable rewind for compatible systems. This can cause serious performance problems, and should be enabled as needed on a per system or game basis.
+- Enable Max Performance - Forces the system to always run at full clockspeed. This can drain the battery very quickly, and should never be set globally
+- Rewind - Enable rewind for compatible systems. This can cause serious performance problems, and should be enabled as needed on a per system or game basis
 - Auto Save/Load
 - Shaders Set
 - Integer Scale (for most handhelds)
