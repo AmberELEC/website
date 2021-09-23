@@ -134,3 +134,9 @@
 **A:** Reference the directory `~/.config/distribution/modules` via Secure Shell or by navigating the SD card itself. The files there are Bash shell scripts (see [The Shell Scripting Tutorial website](https://www.shellscript.sh/) for a primer). Note that the Tools directory is fixed and will be written over on reboot. This is to protect system integrity and basic 351ELEC functions. Your custom scripts can be placed in the `/roms/ports` folder.  Make sure to set the executable mode flag (`chmod +x` or similar) before running it.
 
 351ELEC is like a console.  Everything, except games (your GAMES partition/ROMs), are locked down to prevent corruption from an errant reset or power off, which these devices are unfortunately prone to.
+
+***
+
+**Q:** Retroachievements Hardcoremode is not working
+
+**A:** Disable the netplay option, hardcore mode does not run with netplay. For fbneo disable patched romsets in the Options as well.
