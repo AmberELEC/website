@@ -22,7 +22,6 @@ Accessed by pressing the `Select` button on the top level of the EmulationStatio
 **Quick Access**
 - Launch Screensaver
 - Restart EmulationStation
-- Start RetroArch
 
 **Quit**
 - Restart System
