@@ -75,7 +75,7 @@ For Individual Games: Accessed from [Game Options](#game-options) > Advanced Gam
 - Emulator
 - Game Ratio
 - Video Mode
-- Smooth Games
+- Smooth Games - Turns Bilinear Filtering on or off
 - Rewind - Enable rewind for compatible systems. This can cause serious performance problems, and should be enabled as needed on a per system or game basis
 - Auto Save/Load
 - Shaders Set
@@ -122,7 +122,7 @@ Accessed through [Main Menu](#main-menu) > Games Settings
 
 **Default Settings** - Change the emulation defaults for the entire system. It's usually better to change these settings on a per-system basis
 - Game Ratio - 
-- Smooth Games
+- Smooth Games - Turns Bilinear Filtering on or off
 - Show Retroarch Fps
 - Enable Game Splash
 - Enable Max Performance - Forces the system to always run at full clockspeed. This can drain the battery very quickly, and should never be set globally
