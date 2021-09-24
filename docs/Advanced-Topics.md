@@ -1,8 +1,23 @@
 # Advanced Topics
 
+* [RetroArch Overrides](#retroarch-overrides)
 * [Buttons reference](#buttons-reference)
 * [File Management](#file-management)
 * [How to work with es_systems.cfg on 351ELEC](#how-to-work-with-es_systemscfg-on-351elec)
+
+## RetroArch Overrides
+
+RetroArch overrides are disabled by default. This was done because overrides can cancel out options set in EmulationStation in ways that can cause confusion if the person doesn't remember they set up the override. That said, enabling overrides is fine, and can allow you to save settings that aren't available in the EmulationStation options. If you do, though, please remember to check your overrides before asking for help if your ES options aren't working.
+
+Overrides are stored in `/storage/roms/gamedata/retroarch/config`.
+
+To enable Overrides you have to start the RetroArch directly (from Tools or the [Quick Access Menu](Menus#quick-access)).
+
+Main Menu -> Settings -> User Interface -> Menu Item Visibility -> Quick Menu -> Show Save Game Overrides -> On
+Back to Main Menu -> Configuration File -> Save Current Configuration
+
+#### Finding Overrides
+
 
 ## Buttons reference
 
