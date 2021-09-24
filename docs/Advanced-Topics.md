@@ -16,9 +16,6 @@ To enable Overrides you have to start the RetroArch directly (from Tools or the 
 Main Menu -> Settings -> User Interface -> Menu Item Visibility -> Quick Menu -> Show Save Game Overrides -> On
 Back to Main Menu -> Configuration File -> Save Current Configuration
 
-#### Finding Overrides
-
-
 ## Buttons reference
 
 |Button|RetroArch Ref|Mupen Ref|
