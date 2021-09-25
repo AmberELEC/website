@@ -4,7 +4,6 @@
 
 - A native emulator for [ScummVM](https://www.scummvm.org)
 - Emulator/Core: ScummVM (Stand Alone)
-  - Current Package Version: [49053f2b9bbf691c88a5b6485f9d942c750851d3](https://github.com/scummvm/scummvm/commit/49053f2b9bbf691c88a5b6485f9d942c750851d3)
 - Path(s): 
   - games should be stored in `/roms/scummvm/games`
   - settings will be stored in `/roms/gamedata/scummvm`
