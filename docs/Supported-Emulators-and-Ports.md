@@ -16,7 +16,7 @@ The **bold** one is the default one.
 |&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;System&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;|&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;Core/Emu&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;|ROM Path|Extension| 
 |---|---|---|---|
 |AMIGA|**puae**<br />amiberry<br />uae4arm|amiga| .zip .uae .adf .dms .fdi .ipf .adz .lha .hdf .hdz|
-|AMIGA CD32|**puae**<br />uae4arm|amigacd32| .iso .cue .zip .lha|
+|AMIGA CD32|**puae**<br />uae4arm|amigacd32| .iso .cue .chd .lha|
 |AMSTRAD CPC|**crocods**<br />cap32|amstradcpc| .dsk .sna .tap .cdt .kcr .voc .m3u .zip .7z|
 |[ARCADE](Arcade)|**mame2003_plus**<br />mame2000<br />mame2010<br />mame2015<br />fbneo<br />fbalpha2012<br />AdvanceMame|arcade| .zip .7z|
 |ATARI 800|**atari800**|atari800| .rom .xfd .atr .atx .cdm .cas .bin .a52 .xex .zip .7z|
