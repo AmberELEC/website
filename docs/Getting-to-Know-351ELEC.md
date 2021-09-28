@@ -143,7 +143,6 @@ Specifically the following files:
 - EmulationStation config from - /storage/.config/emulationstation/es_settings.cfg
 - root password from /storage/.cache/shadow
 - user ssh keys from /storage/.ssh
-global config from 
 - host ssh keys from /storage/.cache/ssh
 - network configuration from /storage/.cache/connman
 
