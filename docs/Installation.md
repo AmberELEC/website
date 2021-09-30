@@ -52,7 +52,7 @@ Most Linux distributions can unzip .gz files natively. If you have any trouble, 
 
 #### Windows
 
-There ara many image writers that work fine on Windows. [Win32 Disk Imager](https://win32diskimager.org/), [USB Image Tool](https://www.bytesin.com/software/Download-USB-Image-Tool/) and [balenaEtcher](https://www.balena.io/etcher/) are all known to be able to flash the image successfully.
+There ara many image writers that work fine on Windows. [Win32 Disk Imager](https://win32diskimager.org/), [balenaEtcher](https://www.balena.io/etcher/), [Rufus](https://rufus.ie/en/), and [USB Image Tool](https://www.bytesin.com/software/Download-USB-Image-Tool/)  are all known to be able to flash the image successfully.
 
 #### OSX
 
