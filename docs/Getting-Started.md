@@ -52,28 +52,6 @@ You can change shaders in the game options. While there are many to choose from,
 
 Curretly, bezels and overlays have to be set in the RetroArch. Because of that, it's a little bit more complicated to set it up. If you'd like to add bezels or overlays, check out the [RetrArch Overrides](Advanced-Topics#retroarch-overrides) section.
 
-<!-- ## Playing Games
-
-
-
-### Saving
-
-#### Ingame
-
-#### Savestate
-
-#### Autosaves -->
-
 ## Sleep
 
 While using EmulationStation (the main menu) or a RetroArch emulator, you can put the system to sleep by pressing and releasing the power button. You can wake the console by pressing the power button again. Please be aware that if you sleep while using standalone emulators or ports, your gamepad may stop working upon waking. This is due to a [hardware issue](Hardware-Issues#sleep), and you'll probably have to restart your console if this happens.
-
-<!-- ## Screensaver
-
-## Achievements
-
-## Netplay
-
-## Updates
-
-## Background Music -->
