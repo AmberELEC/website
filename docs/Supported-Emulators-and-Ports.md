@@ -140,9 +140,15 @@ Some ports may be part of RetroArch as a core, but in this section is made to re
 |RICK DANGEROUS|xrick|ports/xrick/|Content of data.zip|
 |[VVVVVV](Port-VVVVVV)|VVVVVV|ports/VVVVVV/|data.zip|
 
-If a game is not listed here you can check the community contribution section.
+If a game is not listed here you can check the [community contribution](#community-built-packages) section.
 
-However we evaluate every user port contribution, for more information check here: Contributing-to-351ELEC#contributing-community-built-packages
+However we evaluate every user port contribution, for more information check here: [Contributing Community Built Packages](Contributing-to-351ELEC#contributing-community-built-packages)
+
+### Unsupported ports
+
+While 351ELEC has a number of [official ports](#ports) and [official packages](#community-built-packages), it is possible to get some other ports running on the system. These usually take considerably more effort to get running, though, and if you run into problems it's unlikely that any 351ELEC team members will know how to help you get it running.
+
+If you'd still like to try to get these ports running, please visit the [Unsupported Ports](Unsupported-Ports) page for instructions that have been written up.
 
 ## Community built packages
 
