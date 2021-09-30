@@ -12,8 +12,6 @@ Wifi opens up a lot of features on 351ELEC. With wifi, you can install packages 
 
 To enable Wifi, press `Start` to access the [Main Menu](Menus#main-menu), and then go into [Network Settings](Menus#network-settings). In that menu, toggle `Enable Wifi` to on, and enter your wifi network and password into `Wifi SSID` and `Wifi Key`.
 
-### RG351P Wifi Adapters
-
 ## Install Drastic
 
 This step is only necessary on version 20210603 (Crazy Hedgehog) and below.
