@@ -286,9 +286,9 @@ Accessed through the [Main Menu](#main-menu) > Scrape
 - Username
 - Password
 
-## Downloads
+## Updates & Downloads
 
-Accessed through the [Main Menu](#main-menu) > Downloads
+Accessed through the [Main Menu](#main-menu) > Updates & Downloads
 
 **Downloads**
 - Themes
