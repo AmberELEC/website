@@ -133,6 +133,10 @@ pages:
     title: VVVVVV
     category: Ports
     url: Port-VVVVVV
+  - file: Unsupported-Ports.md
+    title: Unsupported Ports
+    category: Ports
+    url: Unsupported-Ports
   - file: Download.md
     title: Download
     category: Download
