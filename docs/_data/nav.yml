@@ -19,7 +19,7 @@ pages:
   - file: Getting-Started.md
     title: Getting Started
     category: Guides
-    url: Guides
+    url: Getting-Started
   - file: Getting-to-Know-351ELEC.md
     title: Getting to Know 351ELEC
     category: Guides
