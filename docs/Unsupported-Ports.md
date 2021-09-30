@@ -10,10 +10,10 @@ Feel free to add ports that you've gotten running here, or even better to put th
 
 ## Freedom Planet
 
-1. Download https://github.com/christianhaitian/PortMaster/blob/main/Freedom%20Planet.zip (Credit to Johnny on Flame for porting, and to Christian's [PortMaster](https://github.com/christianhaitian/arkos/wiki/PortMaster) for packaging)
+1. Download the [Freedom Planet PortMaster Package](https://github.com/christianhaitian/PortMaster/blob/main/Freedom%20Planet.zip) (Credit to Johnny on Flame for porting, and to Christian's [PortMaster](https://github.com/christianhaitian/arkos/wiki/PortMaster) for packaging)
 2. Unzip in your ports directory
 3. Add the linux gamedata to the freedomplanet/gamedata folder created by step 2
 4. Delete the "Freedom Planet.sh" from your ports directory
-4. Download https://retrogamecorps.files.wordpress.com/2021/09/freedom_planet.zip (Credit to Discord user Gibz for the patch, and to [Retro Game Corps](https://retrogamecorps.com/2021/09/21/guide-portmaster-on-retro-handheld-devices/) for distrobution and for the PortMaster guide)
+4. Download the [Freedom Planet Patch for 351ELEC](https://retrogamecorps.files.wordpress.com/2021/09/freedom_planet.zip) (Credit to Discord user Gibz for the patch, and to [Retro Game Corps](https://retrogamecorps.com/2021/09/21/guide-portmaster-on-retro-handheld-devices/) for distrobution and for the PortMaster guide)
 5. Unzip the file from step 5 into your ports directory
 6. The game should now be ready to play
