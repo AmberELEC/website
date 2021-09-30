@@ -16,6 +16,10 @@ pages:
     title: Installation
     category: Installation
     url: Installation
+  - file: Getting-Started.md
+    title: Getting Started
+    category: Guides
+    url: Guides
   - file: Getting-to-Know-351ELEC.md
     title: Getting to Know 351ELEC
     category: Guides
