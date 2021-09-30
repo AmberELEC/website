@@ -1,5 +1,13 @@
 # Getting Started
 
+- [Transferring Bios](#transferring-bios)
+- [Enable Wifi](#enable-wifi)
+- [Install Drastic](#install-drastic)
+- [Update Themes](#update-themes)
+- [Scraping](#scraping)
+- [Game Options](#game-options)
+- [Sleep](#sleep)
+
 ## Transferring Bios
 
 While we recommend sourcing your own rom files, the simplest way to have a fully functioning handheld is to copy the bios files from the stock OS. You can find these bios files by plugging your stock SD card into your computer (probably with a USB adapter) and looking in the `GAMES` partition for the `bios` folder. After you've installed 351ELEC, you can simply drop these files into 351ELEC's bios folder.
