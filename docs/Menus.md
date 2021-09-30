@@ -11,7 +11,7 @@ Accessed by pressing the `Start` button in EmulationStation
 - [Sound Settings](#sound-settings)
 - [Network Settings](#network-settings)
 - [Scrape](#scraper)
-- [Downloads](#downloads)
+- [Updates & Downloads](#updates--downloads)
 - [Emulationstation Settings](#emulationstation-settings) - Not worth messing with
 - [Quit](#quit)
 
