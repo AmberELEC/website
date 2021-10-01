@@ -7,7 +7,7 @@ That said, this page lists some other ports that have been known to run, and giv
 Feel free to add ports that you've gotten running here, or even better to put them together into a [Community Package](Contributing-to-351ELEC#contributing-community-built-packages) so that other people have an easier time installing them in the future.
 
 - [Freedom Planet](#freedom-planet)
-- [Deltarune Chapter 1 & 2(#deltarune-chapter-1--2)
+- [Deltarune Chapter 1 & 2](#deltarune-chapter-1--2)
 
 ## Freedom Planet
 
