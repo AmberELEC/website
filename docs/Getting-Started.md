@@ -6,6 +6,7 @@
 - [Update Themes](#update-themes)
 - [Scraping](#scraping)
 - [Game Options](#game-options)
+- [Playing Games](#playing-games)
 - [Sleep](#sleep)
 
 ## Transferring Bios
