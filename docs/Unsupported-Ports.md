@@ -18,3 +18,15 @@ Feel free to add ports that you've gotten running here, or even better to put th
 6. Download the [Freedom Planet Patch for 351ELEC](https://retrogamecorps.files.wordpress.com/2021/09/freedom_planet.zip) (Credit to Discord user Gibz for the patch, and to [Retro Game Corps](https://retrogamecorps.com/2021/09/21/guide-portmaster-on-retro-handheld-devices/) for distrobution and for the PortMaster guide)
 7. Unzip the file from step 5 into your ports directory
 8. The game should now be ready to play
+
+## Deltarune Chapter 1 & 2
+
+All credit to Johnny on Flame for the port and installation instructions
+
+- download [https://drive.google.com/file/d/19_VJPQOrpuoPrWdPN-XS3a2kGi4cLtNv/view?usp=sharing](https://drive.google.com/file/d/19_VJPQOrpuoPrWdPN-XS3a2kGi4cLtNv/view?usp=sharing)
+- download [https://tobyfox.itch.io/deltarune](https://tobyfox.itch.io/deltarune) (windows version)
+- rename the original deltarune zip as DR_DATA.zip
+- extract the ports zip to your ports folder (/storage/roms/ports)
+- copy DR_DATA.zip to the deltarune folder
+- run and wait for the first install
+- have fun!
