@@ -58,6 +58,22 @@ You can change shaders in the game options. While there are many to choose from,
 
 Curretly, bezels and overlays have to be set in the RetroArch. Because of that, it's a little bit more complicated to set it up. If you'd like to add bezels or overlays, check out the [RetrArch Overrides](Advanced-Topics#retroarch-overrides) section.
 
+## Playing Games
+
+When you start up a rom, you'll usually be playing that rom using RetroArch. RetroArch is a program that combines a lot of emulators into a single interface. Under RetroArch, each emulator is called a "core".
+
+Once you get into RetroArch, there are a few hotkey combinations that you should know about. The most important is pressing SELECT + START twice to exit the game (this hotkey is nearly universal, even in standalone emulators and games). The other really important hotkey is SELECT + X, which is used to open the RetroArch Quick Menu. You can find the other hotkeys listed in the [RetroArch Hotkeys](Getting-to-Know-351ELEC#retroarch-hotkeys).
+
+### Saving
+
+There are two main ways to save your game. The first is to use normal in-game saves. In-game saves function the same way they would have in the original game.
+
+The second way to save is to use save states. You can save and load your state in the RetroArch Quick Menu. There are also hotkeys for saving and loading state. You can save your state by pressing SELECT + R1, and load your save state by pressing SELECT + L1.
+
+### Changing Controls
+
+You can change your controls in the RetroArch Quick Menu. Scroll down and select `Controls`, and then change your controls under `Port 1 Controls`. If you want to save your control changes, you can save them for the current game by choosing `Save Game Remap File`, or for the current system by choosing `Save Core Remap File`.
+
 ## Sleep
 
 While using EmulationStation (the main menu) or a RetroArch emulator, you can put the system to sleep by pressing and releasing the power button. You can wake the console by pressing the power button again. Please be aware that if you sleep while using standalone emulators or ports, your gamepad may stop working upon waking. This is due to a [hardware issue](Hardware-Issues#sleep), and you'll probably have to restart your console if this happens.
