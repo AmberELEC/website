@@ -23,12 +23,6 @@ Feel free to add ports that you've gotten running here, or even better to put th
 ## Deltarune Chapter 1 & 2
 **(BETA!!!)**
 
-All credit to Johnny on Flame for the port and installation instructions. This port is currently in beta, so it may not work perfectly.
+Credit to Johnny on Flame for the port. This port is currently in beta, so it may not work perfectly.
 
-- download [https://drive.google.com/file/d/19_VJPQOrpuoPrWdPN-XS3a2kGi4cLtNv/view?usp=sharing](https://drive.google.com/file/d/19_VJPQOrpuoPrWdPN-XS3a2kGi4cLtNv/view?usp=sharing)
-- download [https://tobyfox.itch.io/deltarune](https://tobyfox.itch.io/deltarune) (windows version)
-- rename the original deltarune zip as DR_DATA.zip
-- extract the ports zip to your ports folder (/storage/roms/ports)
-- copy DR_DATA.zip to the deltarune folder
-- run and wait for the first install
-- have fun!
+[Download and installation instrucions](https://github.com/JohnnyonFlame/droidports/releases/tag/dr_wrapper_b0.1)
