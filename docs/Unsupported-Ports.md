@@ -7,6 +7,7 @@ That said, this page lists some other ports that have been known to run, and giv
 Feel free to add ports that you've gotten running here, or even better to put them together into a [Community Package](Contributing-to-351ELEC#contributing-community-built-packages) so that other people have an easier time installing them in the future.
 
 - [Freedom Planet](#freedom-planet)
+- [Deltarune Chapter 1 & 2(#deltarune-chapter-1--2)
 
 ## Freedom Planet
 
@@ -19,7 +20,8 @@ Feel free to add ports that you've gotten running here, or even better to put th
 7. Unzip the file from step 5 into your ports directory
 8. The game should now be ready to play
 
-## Deltarune Chapter 1 & 2 (BETA!!!)
+## Deltarune Chapter 1 & 2
+**(BETA!!!)**
 
 All credit to Johnny on Flame for the port and installation instructions. This port is currently in beta, so it may not work perfectly.
 
