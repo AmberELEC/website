@@ -19,9 +19,9 @@ Feel free to add ports that you've gotten running here, or even better to put th
 7. Unzip the file from step 5 into your ports directory
 8. The game should now be ready to play
 
-## Deltarune Chapter 1 & 2
+## Deltarune Chapter 1 & 2 (BETA!!!)
 
-All credit to Johnny on Flame for the port and installation instructions
+All credit to Johnny on Flame for the port and installation instructions. This port is currently in beta, so it may not work perfectly.
 
 - download [https://drive.google.com/file/d/19_VJPQOrpuoPrWdPN-XS3a2kGi4cLtNv/view?usp=sharing](https://drive.google.com/file/d/19_VJPQOrpuoPrWdPN-XS3a2kGi4cLtNv/view?usp=sharing)
 - download [https://tobyfox.itch.io/deltarune](https://tobyfox.itch.io/deltarune) (windows version)
