@@ -25,4 +25,4 @@ Feel free to add ports that you've gotten running here, or even better to put th
 
 Credit to Johnny on Flame for the port. This port is currently in beta, so it may not work perfectly.
 
-[Download and installation instrucions](https://github.com/JohnnyonFlame/droidports/releases/tag/dr_wrapper_b0.1)
+[Download and installation instrucions](https://github.com/JohnnyonFlame/droidports/releases/tag/dr_wrapper_b0.2)
