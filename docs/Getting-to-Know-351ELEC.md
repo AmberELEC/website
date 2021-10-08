@@ -36,6 +36,7 @@ Every hotkey is commanded by combining the SELECT button with the desired functi
 | Save State Slot - | SELECT + Down | SELECT + Down |
 | Brightness + | L3 + R1 | L3 + R1 |
 | Brightness - | L3 + L1 | L3 + L1 |
+| Kill Process | L2 + Select + Start | L2 + Select + Start |
 
 ** Rewind is currently disabled by default because enabling it can cause significant slowdown in games. It needs to be enabled before the hotkey will work.
 
@@ -48,6 +49,7 @@ Following is a list of all the Retrorun hotkeys:
 | Command | Key |
 |----|----|
 | Quit | SELECT + START |
+| Kill Process | L2 + Select + Start |
 
 ### EmulationStation Controls
 
@@ -181,3 +183,4 @@ If the path is not created by default, it is ok to create it as below.  The dire
 | Back 5s | L1 |
 | Back 60s | Select + L1 |
 | Quit | Select + Start |
+| Kill Process | L2 + Select + Start |
