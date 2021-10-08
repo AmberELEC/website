@@ -41,6 +41,11 @@ header .navbar-brand {
   margin-right: 3rem;
 }
 
+h3 {
+  color: #D0EC9C;
+  font-size: calc(1.1rem + .6vw);
+}
+
 thead, tbody, tfoot, tr, td, th {
   border-color: white;
   border-width: 1px;
