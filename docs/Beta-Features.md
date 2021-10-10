@@ -50,6 +50,7 @@ A: Maybe, not tested with all ports, if you think that some extensions can be ad
 
 
 ## How to use Bezels (!BETA ONLY!)
+Bezel support allows filling up empty space ("black bars") that occurs in many systems that don't exactly match the screen aspect ratio.
 
 ### Supported Systems
 351ELEC supports bezels for these systems:
@@ -64,65 +65,45 @@ A: Maybe, not tested with all ports, if you think that some extensions can be ad
 * Wonderswan 
 * Wonderswan Color
 
-**Attention:** Do not enable decorations for other systems as this will break exisiting overrides for these systems.
+### Bezel ov
+Bezels are activated by choosing a folder for _Decorations_ in _Advanced System Options_ or _Advanced Game Options_. You can either use the pre-configured folder that come with the system (`DEFAULT`) or create your own folder in `/roms/bezels/` - you can use the folders in `/tmp/overlays/bezels/` as a blueprint.
 
-### Activating Bezels
-Bezels are activated by choosing a folder for _Decorations_ in _Advanced System Options_ or _Advanced Game Options_. You can either use the pre-configured folder that come with the system or create your own folder in `/roms/bezels/` - you can use the folders in `/tmp/overlays/bezels/` as a blueprint.
+At the _Advanced System Options_ or _Advanced Game Options_ screen, you can also adjust _Decoration Options_.  This allows:
+
+- Overriding **System**.  This allows choosing a different **system*.  For example, gameboy color (`gbc`) instead of game boy (`gb`)
+- Overriding **Game**.  This allows specifying a specific game bezel.  Setting `NONE` will disable any game specific logic.
+- `OVERLAYS` - allows setting the overlays provided by the system.  This overlays are automatically detected from `.png` files in the `<system>/overlays` directory. 
+
+### Bezel Structure
+System bezels directly use `.png` files.  Game specific bezels use `.cfg` files.  The `.cfg` file simply contains a relative reference to the `.png` file to use.  This is done as often multiple games should reference the same `.png` bezel.  
+
+If you have more than one bezel for a game you can create more than one .cfg file. They have to be named with an additional number before the .cfg part like _Tetris.1.cfg_, _Tetris.2.cfg_ etc.
+
+The structure looks as follows:
+```
+<system>.png                            #System bezel
+<system>/games/<rom name>.cfg           #Exact rom match - game specific bezel
+<system>/games/<rom name>.<number>.cfg  #Exact rom match - random game specific bazel
+<system>/overlays/<overlay name>.png    #System overlay (shadow/grid)
+```
 
 ### Name matching
-The bezels will be loaded in this order (if available):
-1. Random bezels that match the full romname _Tetris (World) (rev. 1).1.cfg_
-1. Single bezels that match the full romname _Tetris (World) (rev. 1).cfg_
-1. Random bezels that match the full romname without parentheses _Tetris.1.cfg_
-1. Single bezels that match the full romname without parentheses _Tetris.cfg_
-1. Default random bezel _default.1.cfg_
-1. Default single bezel _default.cfg_
+The bezels will be looked for in the following order.  The first matched will be used.
 
-### Random Bezels
-If you have more than one bezel you can create more than one .cfg file. They have to be named with an additional number before the .cfg part like _Tetris.1.cfg_, _Tetris.2.cfg_ etc.
+NOTE: The `<system name>` can be overriden in `Decoration Options` at the _Advanced System Options_ or the _Advanced Game Options_ level.  All following rules still apply.  If `<game>` override is set to none, none of the game specific options will be evaluated and only the `<system name>.png` will be checked.
+
+1. A game specific override has been set in `Decoration Options` in the UI.
+1. `<system name>/games/<full rom name>.cfg` The rom name matches exactly.  NOTE: `.cfg` is used instead of `.png`. Ex:  _Tetris (World) (rev. 1).cfg_
+1. `<system name>/games/<full rom name>.<number>.cfg` The rom name matches exactly plus a number.  This is used for multiple bezels that should be selected randomly. Ex:  _Tetris (World) (rev. 1).1.cfg_
+1. `<system name>/games/<rom name w/o parens>.cfg`.  Match the full romname without parentheses  Ex:  _Tetris.cfg_
+1. `<system name>/games/<rom name w/o parens>.<number>.cfg`.  Match the full romname without parentheses plus a number plus a number.  This is is used for multiple bezels that should be selected randomly.  Ex:  _Tetris.1.cfg_
+1. `<system name>.png`.  The system name matches the folder name in `roms`.  Ex: `gb.png`
+
 
 ### Add Grids, Shadows or other overlays to a bezel
-The .cfg files already support additional layers on top of a bezel. You can edit the .cfg files individually and configure shadow and grid in there.
-
-```
-overlays = 1
-## The Bezel
-overlay0_overlay = "default.png"
-overlay0_full_screen = true
-overlay0_normalized = true
-## How many Overlays are active on top of the bezel
-overlay0_descs = 2
-## First Overlay for the bezel (Grid)
-overlay0_desc0_overlay = "grid.png"
-overlay0_desc0 = "nul,0.5,0.5,rect,0.5,0.5"
-## Second Overlay for the bezel (Shadow)
-overlay0_desc1_overlay = "shadow.png"
-overlay0_desc1 = "nul,0.5,0.5,rect,0.5,0.5"
-```
-
-You can configure the additional number of overlays with `overlay0_descs = 2` and the type of the additional overlay with `overlay0_desc0_overlay = "grid.png"`.
-In this config there are two additional layer active: grid and shadow. You can disable them by changing overlay0_descs = 2 to 1 for grid only, or to 0 for no additional layers.
+Overlays can be added at the system level to add optional features such as shadows/grids/etc to the bezel.  Overlays will all default to on, but can be turned off in the UI
 
 For most standard-systems a shadow and grid png-file is included.
-
-#### Use `generate-bezel-cfg.sh` to generate your own .cfg files
-In `/usr/bin/` is a shell-scrip `generate-bezel-cfg.sh` to generate the .cfg files more easily:
-In the folder where you want the .cfg to be created, just enter:
-```
-generate-bezel-cfg.sh -r"Tetris DX.gbc" -p"tetris-bezel.png" 
-```
-To generate a bezel.cfg for _Tetris DX.gbc_ that uses tetris-bezel.png in this folder.
-
-Or you enter 
-```
-generate-bezel-cfg.sh -r"Tetris DX.gbc" -p"tetris-bezel1.png" -n1
-generate-bezel-cfg.sh -r"Tetris DX.gbc" -p"tetris-bezel2.png" -n2
-generate-bezel-cfg.sh -r"Tetris DX.gbc" -p"tetris-bezel3.png" -n3
-```
-To generate a random bezel set that displays tetris-bezel1.png, tetris-bezel2.png and tetris-bezel3.png randomly on every new start of the game.
-
-You can add the toggles `-g`and `-s` to enable grid and shadows for each bezel as well.
-
 ## Mupen64Plus SA
 
 351ELEC includes the Mupen64Plus standalone emulator as mupen64plussa. In order to use it, go into the Advanced Game Options or Advanced System Options and change the Emulator to either mupen64plussa/m64p_gl64mk2 or mupen64plussa/m64p_rice.
