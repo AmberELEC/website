@@ -115,3 +115,16 @@ Mupen64Plus SA supports two different video plugins: Glide64mk2 and Rice. These 
 ### Control Configuration
 
 The controller configuration file for mupen64plussa is stored in `GAMES/gamedata/mupen64plussa/InputAutoCfg.ini`. This file will only exist if you've started up mupen64plussa at least once. It's a big file, but the relevant section is the last one, called `[OpenSimHardware OSH PB Controller]`. By editing this section, you can change the button assignments that Mupen uses. To find out the button codes, please see the [Buttons Reference](Advanced-Topics#buttons-reference).
+
+## Volume Hotkeys
+Unlike the RG351P, the RG351V and RG351MP have volume buttons instead of a volume wheel.
+- Volume can be changed by holding down the volume buttons.
+- As you hold longer, the speed of volume change increases.
+- `L3 + R1/L1` serve as 'backup' hotkeys for adjusting volume on all devices. They cannot be held down and must be pressed repeatedly
+
+## Brightness Hotkeys
+On devices which have volume buttons (RG351V and RG351MP), brightness can be changed by holding down the `Fn` (RG351V) or `R3` (RG351MP) buttons along with the volume buttons.
+- `Vol +` increases brightness and `Vol -` decreases.
+- As you hold longer, the speed of brightness change increases.
+- `L3 + R2/L2` serve as 'backup' hotkeys for adjusting brightness on all devices. They cannot be held down and must be pressed repeatedly.
+
