@@ -40,7 +40,7 @@ The **bold** one is the default one.
 |[MAME](System-MAME)|**mame2003_plus**<br />AdvanceMame<br />mame2000<br />mame2010<br />mame2015<br />fbneo<br />fbalpha2012|mame| .zip .7z|
 |MSX|**bluemsx**<br />fmsx|msx| .dsk .mx1 .mx2 .rom .zip .7z|
 |MSX2|**bluemsx**<br />fmsx|msx2| .dsk .mx1 .mx2 .rom .zip .7z|
-|NEC<br />PC 8800|**quasi88**|pc88| .d88 .u88|
+|[NEC<br />PC 8800](System-PC-88)|**quasi88**|pc88| .d88 .u88|
 |[NEC<br />PC 9800](System-PC-98)|**np2kai**<br />nekop2|pc98| .d98 .zip .98d .fdi .fdd .2hd .tfd .d88 .88d .hdm .xdf .dup .hdi .thd .nhd .hdd .hdn|
 |NEC<br />PC ENGINE|**beetle_pce_fast**<br />beetle_supergrafx|pcengine| .7z .ccd .chd .cue .pce .zip|
 |NEC<br />PC ENGINE CD|**beetle_pce_fast**<br />beetle_supergrafx|pcenginecd| .pce .cue .ccd .iso .img .bin .chd .zip .7z|
