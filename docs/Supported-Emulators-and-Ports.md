@@ -26,8 +26,9 @@ The **bold** one is the default one.
 |ATARI LYNX|**handy**<br />beetle_lynx|atarilynx|.lnx .zip .7z|
 |ATARI ST|**hatari**<br />HATARISA|atarist|.st .msa .stx .dim .ipf .m3u .zip .7z|
 |SAMMY<br />ATOMISWAVE|**flycast**|atomiswave| .lst .bin .dat .zip .7z|
-|BANDAI<br />WONDERSWAN|**beetle_wswan**|wonderswan| .ws .zip .7z |
+|BANDAI<br />WONDERSWAN|**beetle_wswan**|wonderswan| .ws .zip .7z|
 |BANDAI<br />WONDERSWAN COLOR|**beetle_wswan**|wonderswancolor| .wsc .zip .7z|
+|FAIRCHILD<br />CHANNEL F|**fairchaf**|channelf| .bin .chf .zip .7z|
 |COLECOVISION|**bluemsx**<br />gearcoleco<br />smsplus|coleco| .bin .col .rom .zip .7z|
 |COMMODORE 16<br />(PLUS/4)|**vice_xplus4**|c16| .d(64, 71, 80, 81, 82, 6z, 7z, 8z) .g(64, 41, 6z, 4z) .x64 .t64 .tap .prg .p00 .crt .bin .gz  x6z .cmd .m3u .vsf .nib .nbz|
 |COMMODORE 64|**vice_x64**|c64| .d(64, 71, 80, 81, 82, 6z, 7z, 8z) .g(64, 41, 6z, 4z) .x64 .t64 .tap .prg .p00 .crt .bin .gz .x6z .cmd .m3u .vsf .nib .nbz|
@@ -39,6 +40,7 @@ The **bold** one is the default one.
 |[MAME](System-MAME)|**mame2003_plus**<br />AdvanceMame<br />mame2000<br />mame2010<br />mame2015<br />fbneo<br />fbalpha2012|mame| .zip .7z|
 |MSX|**bluemsx**<br />fmsx|msx| .dsk .mx1 .mx2 .rom .zip .7z|
 |MSX2|**bluemsx**<br />fmsx|msx2| .dsk .mx1 .mx2 .rom .zip .7z|
+|NEC<br />PC 8800|**quasi88**|pc88| .d88 .u88|
 |[NEC<br />PC 9800](System-PC-98)|**np2kai**<br />nekop2|pc98| .d98 .zip .98d .fdi .fdd .2hd .tfd .d88 .88d .hdm .xdf .dup .hdi .thd .nhd .hdd .hdn|
 |NEC<br />PC ENGINE|**beetle_pce_fast**<br />beetle_supergrafx|pcengine| .7z .ccd .chd .cue .pce .zip|
 |NEC<br />PC ENGINE CD|**beetle_pce_fast**<br />beetle_supergrafx|pcenginecd| .pce .cue .ccd .iso .img .bin .chd .zip .7z|
@@ -53,10 +55,11 @@ The **bold** one is the default one.
 |NINTENDO<br />GAME BOY COLOR|**gambatte**<br />sameboy<br />gearboy<br />tgbdual<br />mgba<br />vbam|gbc| .gbc .gb .zip .7z|
 |NINTENDO<br />GAME & WATCH|**gw**|gameandwatch| .mgw .zip .7z|
 |NINTENDO<br />POKÉMON MINI|**pokemini**|pokemini| .min .zip .7z|
-|[NINTENDO<br />SUPER NINTENDO](System-Super-Nintendo-Entertainment-System)|**snes9x**<br />snes9x2002<br />snes9x2005_plus<br />snes9x2010<br />beetle_supafaust|snes| .smc .sfc .swc .fig .bs .st .gd3 .gd7 .dx2 .bsx .zip .7z|
-|[NINTENDO<br />SUPER FAMICOM](System-Super-Nintendo-Entertainment-System)|**snes9x**<br />snes9x2002<br />snes9x2005_plus<br />snes9x2010<br />beetle_supafaust|sfc| .smc .sfc .swc .fig .bs .st .gd3 .gd7 .dx2 .bsx .zip .7z|
-|[NINTENDO<br />SUPER NINTENDO MSU-1](System-Super-Nintendo-Entertainment-System)|**snes9x**<br />beetle_supafaust|snesmsu1| .smc .fig .bs .st .sfc .gd3 .gd7 .dx2 .bsx .swc .zip .7z|
-|[NINTENDO<br />SATELLAVIEW](System-Super-Nintendo-Entertainment-System)|**snes9x**<br />snes9x2002<br />snes9x2005_plus<br />snes9x2010|satellaview| .smc .sfc .swc .fig .bs .st .gd3 .gd7 .dx2 .bsx .zip .7z|
+|[NINTENDO<br />SUPER NINTENDO](System-Super-Nintendo-Entertainment-System)|**snes9x**<br />snes9x2002<br />snes9x2005_plus<br />snes9x2010<br />beetle_supafaust|snes| .smc .sfc .swc .fig .zip .7z|
+|[NINTENDO<br />SUPER FAMICOM](System-Super-Nintendo-Entertainment-System)|**snes9x**<br />snes9x2002<br />snes9x2005_plus<br />snes9x2010<br />beetle_supafaust|sfc| .smc .sfc .swc .fig .zip .7z|
+|[NINTENDO<br />SUPER NINTENDO MSU-1](System-Super-Nintendo-Entertainment-System)|**snes9x**<br />beetle_supafaust|snesmsu1| .smc .fig .sfc .swc .zip .7z|
+|[NINTENDO<br />SATELLAVIEW](System-Super-Nintendo-Entertainment-System)|**snes9x**<br />snes9x2002<br />snes9x2005_plus<br />snes9x2010|satellaview| .smc .sfc .swc .fig .bs .bsx .zip .7z|
+|BANDAI<br />SUFAMI TURBO|**snes9x**|sufami| .st .zip .7z|
 |NINTENDO<br />VIRTUAL BOY|**beetle_vb**|virtualboy| .vb .zip .7z|
 |MAGNAVOX<br />ODYSSEY 2|**o2em**|odyssey| .bin .BIN .zip .7z|
 |PHILIPS<br />VIDEOPAC|**o2em**|videopac| .bin .BIN .zip .7z|
@@ -83,6 +86,7 @@ The **bold** one is the default one.
 |TIC-80|**tic-80**|tic-80|.tic|
 |UZEBOX|**uzem**|uzebox|.uze|
 |GCE<br />VECTREX|**vecx**|vectrex| .bin .gam .vec .zip .7z|
+|SHARP<br />X1|**x1**|x1| .dx1 .2d .2hd .tfd .d88 .88d .hdm .xdf .dup .tap .cmd .zip .7z|
 |[SHARP<br />X68000](System-X68000)|**px68k**|x68000| .dim .img .d88 .88d .hdm .dup .2hd .xdf .hdf .cmd .m3u .zip .7z|
 |SINCLAIR<br />ZX81|**81**|zx81|.tzx .p .zip .7z|
 |SINCLAIR<br />ZX SPECTRUM|**fuse**|zxspectrum| .tzx .tap .z80 .rzx .scl .trd .zip .7z|
