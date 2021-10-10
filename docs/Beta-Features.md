@@ -49,7 +49,7 @@ A: Maybe, not tested with all ports, if you think that some extensions can be ad
 - [cloud-sync-rules.conf](https://github.com/351ELEC/351ELEC/blob/main/packages/sysutils/rclone/cloud-sync-rules.conf)
 
 
-## How to use Bezels (!BETA ONLY!)
+## How to use Bezels
 Bezel support allows filling up empty space ("black bars") that occurs in many systems that don't exactly match the screen aspect ratio.
 
 ### Supported Systems
@@ -65,17 +65,17 @@ Bezel support allows filling up empty space ("black bars") that occurs in many s
 * Wonderswan 
 * Wonderswan Color
 
-### Bezel ov
+### Bezel UI Overview
 Bezels are activated by choosing a folder for _Decorations_ in _Advanced System Options_ or _Advanced Game Options_. You can either use the pre-configured folder that come with the system (`DEFAULT`) or create your own folder in `/roms/bezels/` - you can use the folders in `/tmp/overlays/bezels/` as a blueprint.
 
 At the _Advanced System Options_ or _Advanced Game Options_ screen, you can also adjust _Decoration Options_.  This allows:
 
-- Overriding **System**.  This allows choosing a different **system*.  For example, gameboy color (`gbc`) instead of game boy (`gb`)
+- Overriding **System**.  This allows choosing a different *system*.  For example, gameboy color (`gbc`) instead of game boy (`gb`)
 - Overriding **Game**.  This allows specifying a specific game bezel.  Setting `NONE` will disable any game specific logic.
 - `OVERLAYS` - allows setting the overlays provided by the system.  This overlays are automatically detected from `.png` files in the `<system>/overlays` directory. 
 
 ### Bezel Structure
-System bezels directly use `.png` files.  Game specific bezels use `.cfg` files.  The `.cfg` file simply contains a relative reference to the `.png` file to use.  This is done as often multiple games should reference the same `.png` bezel.  
+System bezels directly use `.png` files.  Game specific bezels use `.cfg` files.  The `.cfg` file simply contains a relative reference to the `.png` file to use.  This is done as often multiple games should reference the same `.png` bezel.
 
 If you have more than one bezel for a game you can create more than one .cfg file. They have to be named with an additional number before the .cfg part like _Tetris.1.cfg_, _Tetris.2.cfg_ etc.
 
