@@ -157,7 +157,6 @@ This is an incomplete list of the community contributed packages, the full raw l
 |Game name|port name|Notes|
 |---|---|---|
 |Cave Story|cavestory|
-|Drastic|drastic|See the [systems section](Supported-Emulators-and-Ports#low-performance-systems)|
 |Block Attack|blockattack|
 |Return to Castle Wolfenstein|iortcw|[Guide](https://github.com/JohnnyonFlame/handheld-iortcw/wiki/Installation---ArkOS)|
 |The Ur-Quan Masters|uqm|
