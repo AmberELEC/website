@@ -73,13 +73,19 @@ Back to Main Menu -> Configuration File -> Save Current Configuration
 
 ## How to work with es_systems.cfg on 351ELEC
 
-In 351ELEC there is a global `es_systems.cfg` file that is located in `/usr/config/emulationstation/es_systems.cfg`. This file can not be altered to make sure that future updates can still add new features to the system. However, there is still the possibility to add your own extensions.
+In 351ELEC there is a global `es_systems.cfg` file that is located in `/usr/config/emulationstation/es_systems.cfg`. This file can not be altered to make sure that future updates can still add new features to the system. However, there is still the possibility to add your own extensions. You can create your own extensions to the standard `es_systems.cfg`.
 
-The directory for custom config files is `/storage/.config/emulationstation/`
+### Adding systems config extensions
 
-You can either take care for all changes on your own or - the preferred option - just change the settings you want to change and leave the rest to the system. To do so create one or more files named `es_systems_ID.cfg` where _ID_ can be any identifier you like.
+The directory for custom config files is `/storage/.config/emulationstation/`. You can create an extension to `es_systems.cfg` by putting a file named `es_systems_{custom}.cfg`, where `{custom}` is whatever you want, usually a description of what the extension does.
 
-Let's assume you want to place your _Playstation One_ games in another directory (`/storage/roms/playstationone/`). To do so, you can create a file `es_systems_playstation.cfg` that only holds this information:
+You can also name your file `es_systems.cfg`, but be aware that it will automatically be renamed to `es_systems.oldcfg-rename-to:es_systems_custom.cfg-if-needed` to make sure there is no old configuration file left from an old install. The renaming takes place on every system update. If you need this file or want to maintain your own `es_systems.cfg`, be sure to give it a custom tag `es_systems_custom.cfg`.
+
+### Writing extension files
+
+Extension files should be kept as small as possible. While you can copy and paste the entire default `es_systems.cfg` file, this is strongly discouraged, as it's more likely to break with future updates.
+
+Anything not specified in your extension file will be read from the global `es_systems.cfg` file, even additional contents of a specific tag. For example, if you want to alter the path that the _Playstation One_ emulator uses for its roms to `/storage/roms/playstationone/`, you only need to specify the following:
 
 ```xml
 <systemList>
@@ -89,7 +95,3 @@ Let's assume you want to place your _Playstation One_ games in another directory
   </system>
 </systemList>
 ```
-
-That's all there is to do.
-
-**Please note:** If there is a `es_systems.cfg` file in the `/storage/.config/emulationstation/` directory it will automatically be renamed to `es_systems.oldcfg-rename-to:es_systems_custom.cfg-if-needed` to make sure there is no old configuration file left from an old install. The renaming takes place on every system update. If you need this file or want to maintain your own `es_systems.cfg` please name it `es_systems_custom.cfg`.
