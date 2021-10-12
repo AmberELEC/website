@@ -133,6 +133,10 @@ pages:
     title: VVVVVV
     category: Ports
     url: Port-VVVVVV
+  - file: PortMaster.md
+    title: PortMaster
+    category: Ports
+    url: PortMaster
   - file: Unsupported-Ports.md
     title: Unsupported Ports
     category: Ports
