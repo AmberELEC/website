@@ -13,7 +13,7 @@
 Below is a list of the ports and whether they're known to work, along with links to the instructions for individual games. That said, this list is likely to get out of date relatively quickly, so check out the [PortMaster Wiki Page](https://github.com/christianhaitian/arkos/wiki/PortMaster) and the [Port Installation Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#ports) for updates and installation instructions.
 
 | Game | Compatibility | Installation Instructions |
-----------------------------------------------------
+|----|----|----|
 | 2048 | <p class="text-warning">Unknown</p> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#2048-available-through-portmaster) |
 | AM2R | <p class="text-warning">Unknown</p> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#am2r-available-through-portmaster) |
 | Blood | <p class="text-warning">Unknown</p> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#blood-available-through-portmaster) |
