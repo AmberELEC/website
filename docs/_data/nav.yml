@@ -117,6 +117,10 @@ pages:
     title: ScummVM
     category: Game Engines
     url: System-ScummVM
+  - file: System-EasyRPG.md
+    title: EasyRPG
+    category: Game Engines
+    url: System-EasyRPG
   - file: System-Doom.md
     title: Doom
     category: Game Engines
