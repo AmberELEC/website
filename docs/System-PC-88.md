@@ -2,6 +2,7 @@
 
 ## BIOS
 While this core technically supports loading ROMs from the top level of the BIOS folder, this causes a conflict with MSX emulation also requiring a file named "disk.rom" there, so you should create a `quasi88` subfolder inside `/roms/bios` and put them there instead.
+
 |Filename | MD5 |
 |---------|-----|
 |quasi88/disk.rom | 793f86784e5608352a5d7f03f03e0858|
