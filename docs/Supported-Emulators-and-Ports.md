@@ -107,7 +107,7 @@ Some games/systems work almost perfectly, some others they may never work smooth
 |SEGA<br />NAOMI|Some games run well, others are unplayable|**flycast**|naomi| .lst .bin .dat .zip .7z|
 |SEGA DREAMCAST|Some games run well, others are unplayable|**flycast**|dreamcast| .cdi .gdi .chd .zip .7z|
 |SEGA SATURN|Most games are unplayable|**yabasanshiro**|saturn|.bin .cue .iso .chd .mdf|
-|SONY PSP|Many games run well, especially with frameskip. Some games are unplayable |**PPSSPPSDL**<br />ppsspp|psp| .cso .iso .pbp|
+|[SONY PSP](System-Sony-PlayStation-Portable)|Many games run well, especially with frameskip. Some games are unplayable |**PPSSPPSDL**<br />ppsspp|psp| .cso .iso .pbp|
 |[SONY<br />PSP MINIS](System-Sony-PlayStation-Portable)|Most games are less demanding than PSP, and run well, though a few may run badly|**PPSSPPSDL**<br />ppsspp| pspminis | .iso .cso .pbp|
 
 \*Games can also run internally from the gamedata/ppsspp/psp/GAMEDATA folder, this also allows DLC and custom textures to be added.
