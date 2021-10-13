@@ -1,6 +1,5 @@
----
-layout: default
----
+{:.testing}
+| Test | Test |
+|------|------|
+| Testing | Testing |
 
-<p>{{ page }}</p>
-<p>{{ site.github }}</p>
