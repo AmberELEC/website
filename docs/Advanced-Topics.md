@@ -95,3 +95,28 @@ Anything not specified in your extension file will be read from the global `es_s
   </system>
 </systemList>
 ```
+
+### Examples
+
+#### Changing System Display Order
+
+One easy way of changing the system display order is to assign order numbers to the console release fields, and then order by release.
+
+```xml
+<systemList>
+  <system>
+    <name>arcade</name>
+    <release>0001</release>
+  </system>
+  
+    <system>
+    <name>mame</name>
+    <release>0002</release>
+  </system>
+  
+    <system>
+    <name>fbn</name>
+    <release>0003</release>
+  </system>
+</systemList>
+```
