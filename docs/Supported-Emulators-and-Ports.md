@@ -66,17 +66,15 @@ The **bold** one is the default one.
 |[PC (DOS x86)](System-MS-DOS)|**dosbox_pure**<br />dosbox_svn|pc| .dosz, disk images (iso, cue, img, ima, vhd) can be put into the .dosz|
 |[PICO-8](System-Pico-8)|**pico8**|pico-8|.png .p8|
 |[SONY<br />PLAYSTATION](System-Sony-PlayStation)|**pcsx_rearmed**<br />duckstation<br />swanstation|psx| .iso .bin .cue .img .pbp .mdf .toc .cbn .m3u .ccd .chd|
-|SONY<br />PSP MINIS|**PPSSPPSDL**<br />ppsspp| pspminis | .iso .cso .pbp|
+|SEGA<br />SG-1000|**gearsystem**<br />genesis_plus_gx<br />picodrive|sg-1000|.7z .bin .sg .zip|
+|SEGA<br />SC-3000|**bluemsx**|sc-3000| .sg .bin .zip .7z|
 |SEGA<br />GAMEGEAR|**gearsystem**<br />genesis_plus_gx<br />picodrive<br />smsplus|gamegear| .gg .bin .gg .zip .7z|
-|SEGA<br />GENESIS|**genesis_plus_gx**<br />genesis_plus_gx_wide<br />picodrive|genesis| .gen .md .sg .smd .bin .zip .7z|
-|SEGA<br />NAOMI|**flycast**|naomi| .lst .bin .dat .zip .7z|
 |SEGA<br />MASTER SYSTEM|**gearsystem**<br />genesis_plus_gx<br />picodrive<br />smsplus|mastersystem| .sms .bin .zip .7z|
+|SEGA<br />GENESIS|**genesis_plus_gx**<br />genesis_plus_gx_wide<br />picodrive|genesis| .gen .md .sg .smd .bin .zip .7z|
 |SEGA<br />MEGA DRIVE|**genesis_plus_gx**<br />genesis_plus_gx_wide<br />picodrive|megadrive<br />megadrive-japan| .gen .bin .md .sg .smd .zip .7z|
 |SEGA 32X|**picodrive**|sega32x|.32x .7z .bin .md .smd .zip|
 |SEGA CD|**genesis_plus_gx**<br />picodrive|segacd| .bin .chd .cue .iso|
 |SEGA MEGA CD|**genesis_plus_gx**<br />picodrive|megacd| .bin .chd .cue .iso|
-|SEGA<br />SG-1000|**gearsystem**<br />genesis_plus_gx<br />picodrive|sg-1000|.7z .bin .sg .zip|
-|SEGA<br />SC-3000|**bluemsx**|sc-3000| .sg .bin .zip .7z|
 |SNK<br />NEO-GEO|**fbneo**<br />mame2003<br />fbalpha2012|neogeo| .neo .7z .zip|
 |SNK<br />NEO-GEO CD|**neocd**<br />fbneo|neocd| .chd .cue .iso|
 |SNK<br />NEO-GEO POCKET|**beetle_ngp**<br />race|ngp| .ngp .ngc .zip .7z|
@@ -106,11 +104,13 @@ Some games/systems work almost perfectly, some others they may never work smooth
 |NEC<br />PC-FX|Only low performance|**beetle_pcfx**|pcfx| .img .iso .ccd .cue| .img .iso .ccd .cue|
 |NINTENDO N64|Some games run well, others are unplayable|mupen64plus<br />mupen64plus_next<br />**parallel_n64**<br />parallel_n64_gln64|n64| .z64 .n64 .v64|
 |NINTENDO DS|2D Games almost fully playable|**drastic**|nds| .nds .zip|
+|SEGA<br />NAOMI|Some games run well, others are unplayable|**flycast**|naomi| .lst .bin .dat .zip .7z|
 |SEGA DREAMCAST|Some games run well, others are unplayable|**flycast**|dreamcast| .cdi .gdi .chd .zip .7z|
 |SEGA SATURN|Most games are unplayable|**yabasanshiro**|saturn|.bin .cue .iso .chd .mdf|
 |SONY PSP|Many games run well, especially with frameskip. Some games are unplayable |**PPSSPPSDL**<br />ppsspp|psp| .cso .iso .pbp|
+|[SONY<br />PSP MINIS](System-Sony-PlayStation-Portable)|Most games are less demanding than PSP, and run well, though a few may run badly|**PPSSPPSDL**<br />ppsspp| pspminis | .iso .cso .pbp|
 
-*Games can also run internally from the gamedata/ppsspp/psp/GAMEDATA folder, this also allows DLC and custom textures to be added.
+\*Games can also run internally from the gamedata/ppsspp/psp/GAMEDATA folder, this also allows DLC and custom textures to be added.
 
 ## Game Engines
 
