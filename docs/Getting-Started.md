@@ -23,7 +23,7 @@ To enable Wifi, press `Start` to access the [Main Menu](Menus#main-menu), and th
 
 ## Install Drastic
 
-This step is only necessary on version 20210603 (Crazy Hedgehog) and below.
+This step is only necessary on version 20210603 (Crazy Hedgehog) and below. YOU DO NOT NEED TO DO THIS IF YOU'RE USING THE BETA, AND DOING IT COULD BREAK YOUR INSTALL.
 
 Once you've [enabled wifi](#enable-wifi), you can install Drastic by pressing `Start` to access the [Main Menu](Menus#main-menu), go to [Updates & Downloads](Menus#updates--downloads), then `Packages`, and finally select `Drastic`.
 
