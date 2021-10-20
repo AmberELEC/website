@@ -129,10 +129,10 @@ pages:
     title: Wolfenstein 3D
     category: Game Engines
     url: System-Wolfenstein-3D
-  - file: Anberports.md
-    title: Anberports
+  - file: PortMaster.md
+    title: PortMaster
     category: Ports
-    url: Anberports
+    url: PortMaster
   - file: Port-Cannonball.md
     title: Cannonball
     category: Ports
@@ -141,14 +141,14 @@ pages:
     title: VVVVVV
     category: Ports
     url: Port-VVVVVV
-  - file: PortMaster.md
-    title: PortMaster
-    category: Ports
-    url: PortMaster
   - file: Unsupported-Ports.md
     title: Unsupported Ports
     category: Ports
     url: Unsupported-Ports
+  - file: Anberports.md
+    title: Anberports
+    category: Ports
+    url: Anberports
   - file: Download.md
     title: Download
     category: Download
