@@ -82,7 +82,7 @@ It is recommended that you change the root password or disable ssh while not in 
 
 ## Installing Drastic
 
-This is only necessary on version 20210603 (Crazy Hedgehog) and below. YOU DO NOT NEED TO DO THIS IF YOU'RE USING THE BETA, AND DOING IT COULD BREAK YOUR INSTALL.
+This is only necessary on version 20210603 (Crazy Hedgehog) and below. If you are using the beta you already have Drastic installed, and doing this will fail and may mess up your installation!
 
 Due to licensing concerns, the Drastic emulator must be installed separately. To do so, you will need to connect to WIFI or Ethernet.  Once connected follow the steps below.
 * From the main interface, press Start.
