@@ -34,7 +34,7 @@ Below is a list of the ports and whether they're known to work, along with links
 | Mr. Boom | <span class="text-warning">Unknown</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#mr-boom-available-through-portmaster) |
 | NAM | <span class="text-warning">Unknown</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#nam-available-through-portmaster) |
 | OpenJazz | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#openjazz-jazz-jackrabbitavailable-through-portmaster) |
-| OpenTyrian | <span class="text-warning">Unknown</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#opentyrian-available-through-portmaster) |
+| OpenTyrian | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#opentyrian-available-through-portmaster) |
 | Prehistorik 2 | <span class="text-warning">Unknown</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#prehistorik-2-available-through-portmaster) |
 | Quake | <span class="text-warning">Unknown</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#quake-1-available-through-portmaster) |
 | Quake 2 | <span class="text-warning">Unknown</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#quake-2-available-through-portmaster) |
