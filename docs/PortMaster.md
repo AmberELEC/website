@@ -58,5 +58,5 @@ Below is a list of the ports and whether they're known to work, along with links
 | Tomb Raider 1 | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#tomb-raider-1-available-through-portmaster) |
 | Undertale | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#undertale-available-through-portmaster) |
 | Ur-Quan Masters | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#ur-quan-masters-available-through-portmaster) |
-| VVVVVV | <span class="text-warning">Unknown</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#vvvvvv-available-through-portmaster) |
+| VVVVVV | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#vvvvvv-available-through-portmaster) |
 | World War II GI | <span class="text-warning">Unknown</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#world-war-ii-gi-available-through-portmaster) |
