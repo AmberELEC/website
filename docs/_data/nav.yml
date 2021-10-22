@@ -97,6 +97,10 @@ pages:
     title: Sony PlayStation Portable
     category: Consoles
     url: System-Sony-PlayStation-Portable
+  - file: System-Amstrad-CPC.md
+    title: Amstrad CPC
+    category: Computers
+    url: System-Amstrad-CPC
   - file: System-X68000.md
     title: x68000
     category: Computers
