@@ -60,7 +60,7 @@ The **bold** one is the default one.
 |[NINTENDO<br />SUPER NINTENDO MSU-1](System-Super-Nintendo-Entertainment-System)|**snes9x**<br />beetle_supafaust|snesmsu1| .smc .fig .sfc .swc .zip .7z|
 |[NINTENDO<br />SATELLAVIEW](System-Super-Nintendo-Entertainment-System)|**snes9x**<br />snes9x2002<br />snes9x2005_plus<br />snes9x2010|satellaview| .smc .sfc .swc .fig .bs .bsx .zip .7z|
 |BANDAI<br />SUFAMI TURBO|**snes9x**|sufami| .st .zip .7z|
-|NINTENDO<br />VIRTUAL BOY|**beetle_vb**|virtualboy| .vb .zip .7z|
+|[NINTENDO<br />VIRTUAL BOY](System-Virtual-Boy)|**beetle_vb**|virtualboy| .vb .zip .7z|
 |MAGNAVOX<br />ODYSSEY 2|**o2em**|odyssey| .bin .BIN .zip .7z|
 |PHILIPS<br />VIDEOPAC|**o2em**|videopac| .bin .BIN .zip .7z|
 |[PC (DOS x86)](System-MS-DOS)|**dosbox_pure**<br />dosbox_svn|pc| .dosz, disk images (iso, cue, img, ima, vhd) can be put into the .dosz|
