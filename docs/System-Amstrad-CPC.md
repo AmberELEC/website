@@ -31,4 +31,4 @@ The default controls for the emulators are:
 | L2                 | 6                 | 1                 |
 | Start + Select*    | N/A               | Onscreen Keyboard |
 
-* This can cause issues, since the quit command for 351Elec is pressing Start+Select twice
+\* This can cause issues, since the quit command for 351Elec is pressing Start+Select twice
