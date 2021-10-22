@@ -97,6 +97,10 @@ pages:
     title: Sony PlayStation Portable
     category: Consoles
     url: System-Sony-PlayStation-Portable
+  - file: System-Bandai-Wonderswan.md
+    title: Bandai Wonderswan
+    category: Consoles
+    url: System-Bandai-Wonderswan
   - file: System-Amstrad-CPC.md
     title: Amstrad CPC
     category: Computers
