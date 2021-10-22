@@ -42,11 +42,11 @@ The **bold** one is the default one.
 |MSX2|**bluemsx**<br />fmsx|msx2| .dsk .mx1 .mx2 .rom .zip .7z|
 |[NEC<br />PC 8800](System-PC-88)|**quasi88**|pc88| .d88 .u88|
 |[NEC<br />PC 9800](System-PC-98)|**np2kai**<br />nekop2|pc98| .d98 .zip .98d .fdi .fdd .2hd .tfd .d88 .88d .hdm .xdf .dup .hdi .thd .nhd .hdd .hdn|
-|NEC<br />PC ENGINE|**beetle_pce_fast**<br />beetle_supergrafx|pcengine| .7z .ccd .chd .cue .pce .zip|
-|NEC<br />PC ENGINE CD|**beetle_pce_fast**<br />beetle_supergrafx|pcenginecd| .pce .cue .ccd .iso .img .bin .chd .zip .7z|
+|NEC<br />PC ENGINE|**beetle_pce_fast**<br />beetle_supergrafx|pcengine| .pce .bin .zip .7z |
+|NEC<br />PC ENGINE CD|**beetle_pce_fast**<br />beetle_supergrafx|pcenginecd| .cue .ccd .chd .toc .m3u |
 |NEC<br />SUPERGRAFX|**beetle_supergrafx**<br />beetle_pce_fast|sgfx| .pce .sgx .cue .ccd .chd .zip .7z|
 |NEC<br />TURBOGRAFX 16|**beetle_pce_fast**<br />beetle_supergrafx|tg16| .pce .bin .zip .7z|
-|NEC<br />TURBOGRAFX CD|**beetle_pce_fast**<br />beetle_supergrafx|tg16cd| .pce .cue .ccd .iso .img .bin .chd .zip .7z|
+|NEC<br />TURBOGRAFX CD|**beetle_pce_fast**<br />beetle_supergrafx|tg16cd| .cue .ccd .chd .toc .m3u |
 |NINTENDO<br />ENTERTAINMENT SYSTEM|**nestopia**<br />fceumm<br />quicknes|nes| .nes .unif .unf .zip .7z|
 |NINTENDO<br />FAMICOM|**nestopia**<br />fceumm<br />quicknes|famicom| .nes .unif .unf .zip .7z|
 |NINTENDO<br />FAMICOM DISK SYSTEM|**nestopia**<br />fceumm<br />quicknes|fds| .fds .zip .7z|
