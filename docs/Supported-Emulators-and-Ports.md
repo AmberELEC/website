@@ -59,7 +59,7 @@ The **bold** one is the default one.
 |[NINTENDO<br />SUPER FAMICOM](System-Super-Nintendo-Entertainment-System)|**snes9x**<br />snes9x2002<br />snes9x2005_plus<br />snes9x2010<br />beetle_supafaust|sfc| .smc .sfc .swc .fig .zip .7z|
 |[NINTENDO<br />SUPER NINTENDO MSU-1](System-Super-Nintendo-Entertainment-System)|**snes9x**<br />beetle_supafaust|snesmsu1| .smc .fig .sfc .swc .zip .7z|
 |[NINTENDO<br />SATELLAVIEW](System-Super-Nintendo-Entertainment-System)|**snes9x**<br />snes9x2002<br />snes9x2005_plus<br />snes9x2010|satellaview| .smc .sfc .swc .fig .bs .bsx .zip .7z|
-|BANDAI<br />SUFAMI TURBO|**snes9x**|sufami| .st .zip .7z|
+|BANDAI<br />SUFAMI TURBO|**snes9x**|sufami| .st|
 |[NINTENDO<br />VIRTUAL BOY](System-Virtual-Boy)|**beetle_vb**|virtualboy| .vb .zip .7z|
 |MAGNAVOX<br />ODYSSEY 2|**o2em**|odyssey| .bin .BIN .zip .7z|
 |PHILIPS<br />VIDEOPAC|**o2em**|videopac| .bin .BIN .zip .7z|
