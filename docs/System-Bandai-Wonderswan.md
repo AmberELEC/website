@@ -11,8 +11,12 @@
   - wonderswan: `.ws .zip .7z`
   - wonderswancolor: `.wsc .zip .7z`
 
-## Screen Rotation
+## Display Rotation
 
-The Bandai Wonderswan was a unique handheld that had three sets of buttons, allowing games to be made for either portrait or landscape mode. The easiest way to accomodate this in emulation is to reorient portrait games so that they are vertical on the screen. This leaves large black bars on the left and right side of the game, but it's probably ergonomically easier.
+The Bandai Wonderswan was made so that games could be created in either portrait or landscape mode. To accomodate this, the emulator supports changing the display orientation by pressing `SELECT` (or by going into RA Quick Menu > Options > Display Rotation and selecting your desired rotation manually).
+
+### Playing games vertically
+
+While there's no way to hold the RG351V sideways that isn't awkward, it's possible to set up the RG351M, P, and MP to play in portrait orientation (although getting a good experience is a little bit complicated). By default, portrait games are set up so that  you rotate the console counter-clockwise, and the L and R buttons are the arrow keys and D-Pad down and left are A and B.
 
 _WIP_
