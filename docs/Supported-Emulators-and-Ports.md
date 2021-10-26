@@ -167,7 +167,7 @@ This is an incomplete list of the community contributed packages, the full raw l
 |SuperTux|supertux|
 |C-Dogs|cdogs-sdl|
 
-This packages are releases as-it-is, however you may join our [Discord](https://discord.gg/6XH8Q8RS) to have a chance to discuss them.
+This packages are releases as-it-is, however you may join our [Discord](https://discord.gg/R9Er7hkRMe) to have a chance to discuss them.
 You may also request a port however your request may also be turned down so please do not be upset if this does happen.
 You can even [contribute](Contributing-to-351ELEC) and port your favorite game.
 
