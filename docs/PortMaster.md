@@ -14,17 +14,17 @@ Below is a list of the ports and whether they're known to work, along with links
 
 | Game | Compatibility | Installation Instructions |
 |----|----|----|
-| 2048 | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#2048-available-through-portmaster) |
+| 2048 | <span class="text-success">Working</span> (Unconfirmed) | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#2048-available-through-portmaster) |
 | AM2R | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#am2r-available-through-portmaster) |
 | Blood | <span class="text-warning">Unknown</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#blood-available-through-portmaster) |
 | Blues Brothers | <span class="text-warning">Unknown</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#blues-brothers-available-through-portmaster) |
 | C-Dogs | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#c-dogs-available-through-portmaster) |
 | Cannonball | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#cannonball-outrun-available-through-portmaster) |
-| Cave Story | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#cave-story-evo-available-through-portmaster) |
+| Cave Story | <span class="text-success">Working</span> (Unconfirmed) | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#cave-story-evo-available-through-portmaster) |
 | Cave Story-evo | <span class="text-warning">Unknown</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#cave-story-evo-available-through-portmaster) |
 | Commander Genius | <span class="text-warning">Unknown</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#commander-genius-commander-keen-available-through-portmaster) |
 | Devilutionx | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#devilutionx-diablo-1-available-through-portmaster) |
-| Dinothawr | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#dinothawr-available-through-portmaster) |
+| Dinothawr | <span class="text-success">Working</span> (Unconfirmed) | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#dinothawr-available-through-portmaster) |
 | Duke Nukem 3D | <span class="text-warning">Unknown</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#duke-nukem-3d-available-through-portmaster) |
 | Exhumed | <span class="text-warning">Unknown</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#exhumed-aka-powerslave-available-through-portmaster) |
 | Free Heroes of Might and Magic II | <span class="text-warning">Unknown</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#free-heroes-of-might-and-magic-ii-available-through-portmaster) |
@@ -34,12 +34,12 @@ Below is a list of the ports and whether they're known to work, along with links
 | Hydra Castle Labyrinth | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#hydra-castle-labyrinth-available-through-portmaster) |
 | Maldita Castilla | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#maldita-castilla-available-through-portmaster) |
 | Moonlight | <span class="text-danger">Not Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#moonlight-nvidia-gamestreaming-app-available-through-portmaster) |
-| Mr. Boom | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#mr-boom-available-through-portmaster) |
+| Mr. Boom | <span class="text-success">Working</span> (Unconfirmed) | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#mr-boom-available-through-portmaster) |
 | NAM | <span class="text-warning">Unknown</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#nam-available-through-portmaster) |
 | OpenJazz | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#openjazz-jazz-jackrabbitavailable-through-portmaster) |
 | OpenTyrian | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#opentyrian-available-through-portmaster) |
 | Prehistorik 2 | <span class="text-warning">Unknown</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#prehistorik-2-available-through-portmaster) |
-| Quake | <span class="text-success">Working</span> (Untested) | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#quake-1-available-through-portmaster) |
+| Quake | <span class="text-success">Working</span> (Unconfirmed) | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#quake-1-available-through-portmaster) |
 | Quake 2 | <span class="text-warning">Unknown</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#quake-2-available-through-portmaster) |
 | RAWGL | <span class="text-warning">Unknown</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#rawgl-available-through-portmaster) |
 | Redneck Rampage | <span class="text-warning">Unknown</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#redneck-rampage-1-available-through-portmaster) |
