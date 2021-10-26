@@ -4,7 +4,7 @@
 
 351ELEC is an open source firmware developed for the Anbernic RG351P/M/V.
 
-_Join Our Community:_ [https://discord.gg/bmXtCt88Tz](https://discord.gg/bmXtCt88Tz)
+_Join Our Community:_ [https://discord.gg/R9Er7hkRMe](https://discord.gg/R9Er7hkRMe)
 
 ### Features
 * A 64bit Firmware optimized for the RG351P/M/V.
