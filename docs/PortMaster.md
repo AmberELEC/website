@@ -51,8 +51,8 @@ Below is a list of the ports and whether they're known to work, along with links
 | SDLPoP | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#sdlpop-prince-of-persia-available-through-portmaster) |
 | Shadow Warrior | <span class="text-warning">Unknown</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#) |
 | Shovel Knight | <span class="text-info">Requires Tweaks</span> | [Install Instructions](#shovel-knight) |
-| Sonic 1 | <span class="text-warning">Unknown</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#sonic-1-available-through-portmaster) |
-| Sonic 2 | <span class="text-warning">Unknown</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#sonic-2-available-through-portmaster) |
+| Sonic 1 | <span class="text-info">Requires Tweaks</span> | [Install Instructions](#sonic-1--2) |
+| Sonic 2 | <span class="text-info">Requires Tweaks</span> | [PortMaster Instructions](#sonic-1--2) |
 | Sonic CD | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#sonic-cd-available-through-portmaster) |
 | SorR (Streets of Rage Remake)| <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#sorr-streets-of-rage-remakeavailable-through-portmaster) |
 | Spelunky | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#spelunky-available-through-portmaster) |
@@ -68,3 +68,22 @@ Below is a list of the ports and whether they're known to work, along with links
 
 1. Install the game following the [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#shovel-knight---treasure-trove-available-through-portmaster)
 2. Edit the `Shovel Knight.sh` file to add `:/usr/lib32` at the end of the `LD_LIBRARY_PATH` line
+
+### Sonic 1 & 2
+
+Sonic 1 and 2 are missing a large number of libraries. The missing libraries are:
+
+```
+libX11.so.6,libXrandr.so.2,libwayland-client.so.0,libXau.so.6
+libXrender.so.1,libwayland-cursor.so.0, libXcursor.so.1,libXss.so.1
+libwayland-egl.so,libXdmcp.so.6,libXxf86vm.so.1,libwayland-server.so.0
+libXext.so.6libbsd.so.0,libxcb.so.1,libXfixes.so.3,libffi.so.6
+libxkbcommon.so.0l,ibXi.so.6,libogg.so.0, libXinerama.so.1libsndio.so.7.0
+```
+
+1. Install [Sonic 1](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#sonic-1-available-through-portmaster) or [Sonic 2](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#sonic-2-available-through-portmaster) using PortMaster, and follow the PortMaster instructions.
+2. Copy the missing libraries into `/storage/roms/ports/soniclibs/`
+3. Add this line to the shell script a few lines before the game is run: `LD_LIBRARY_PATH=/$directory/ports/soniclibs:/usr/lib`
+
+
+
