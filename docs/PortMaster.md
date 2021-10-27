@@ -52,7 +52,7 @@ Below is a list of the ports and whether they're known to work, along with links
 | Shadow Warrior | <span class="text-warning">Unknown</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#) |
 | Shovel Knight | <span class="text-info">Requires Tweaks</span> | [Install Instructions](#shovel-knight) |
 | Sonic 1 | <span class="text-info">Requires Tweaks</span> | [Install Instructions](#sonic-1--2) |
-| Sonic 2 | <span class="text-info">Requires Tweaks</span> | [PortMaster Instructions](#sonic-1--2) |
+| Sonic 2 | <span class="text-info">Requires Tweaks</span> | [Install Instructions](#sonic-1--2) |
 | Sonic CD | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#sonic-cd-available-through-portmaster) |
 | SorR (Streets of Rage Remake)| <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#sorr-streets-of-rage-remakeavailable-through-portmaster) |
 | Spelunky | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#spelunky-available-through-portmaster) |
