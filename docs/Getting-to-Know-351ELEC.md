@@ -38,6 +38,8 @@ Every hotkey is commanded by combining the SELECT button with the desired functi
 | Brightness - | L3 + L1 | L3 + L1 |
 | Kill Process | L2 + Select + Start | L2 + Select + Start |
 
+(As a note, L3 and R3 are the buttons for pressing in the left or right analog stick)
+
 ** Rewind is currently disabled by default because enabling it can cause significant slowdown in games. It needs to be enabled before the hotkey will work.
 
 ### Retrorun Hotkeys
