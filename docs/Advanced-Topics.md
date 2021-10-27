@@ -1,6 +1,7 @@
 # Advanced Topics
 
 * [RetroArch Overrides](#retroarch-overrides)
+* [Minimizing Input Lag](#minimizing-input-lag)
 * [Buttons reference](#buttons-reference)
 * [File Management](#file-management)
 * [How to work with es_systems.cfg on 351ELEC](#how-to-work-with-es_systemscfg-on-351elec)
@@ -15,6 +16,14 @@ To enable Overrides you have to start the RetroArch directly (from Tools or the 
 
 Main Menu -> Settings -> User Interface -> Menu Item Visibility -> Quick Menu -> Show Save Game Overrides -> On
 Back to Main Menu -> Configuration File -> Save Current Configuration
+
+## Minimizing Input Lag
+
+The following RetroArch settings have been recommended by Vanfanel to minimize input lag. Please note that while these settings will reduce input lag, they may be more difficult for the system and cause some performance penalties on harder to emulate systems.
+
+- `RetroArch Main Menu` > `Settings` > `Video` > `Synchronization`, set `Vertical Sync (VSync)` to off
+- `RetroArch Main Menu` > `Settings` > `Video` > `Synchronization`, set `Max swapchain images` to 1
+- `RetroArch Main Menu` > `Settings` > `Audio` > `Output`, set `Audio Latency (ms)` to 32
 
 ## Buttons reference
 
