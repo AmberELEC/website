@@ -35,4 +35,4 @@ To update from a previous version of 351ELEC, download the update .tar file belo
 
 ### Beta
 
-All downloads on this page are for the current stable version of 351ELEC. If you'd like to test out the latest changes and give feedback, you can download the beta version of 351ELEC. Please note that the beta is unstable and may crash and break. Because of that, you shouldn't use the beta for daily use unless you're comfortable taking that risk. For more information and instructions on how to install the beta, please see the [Beta Build Instructions](#beta-builds).
+All downloads on this page are for the current stable version of 351ELEC. If you'd like to test out the latest changes and give feedback, you can download the beta version of 351ELEC. Please note that the beta is unstable and may crash and break. Because of that, you shouldn't use the beta for daily use unless you're comfortable taking that risk. For more information and instructions on how to install the beta, please see the [Beta Build Instructions](Contributing-to-351ELEC#beta-builds).
