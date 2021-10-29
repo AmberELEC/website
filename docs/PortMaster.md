@@ -2,6 +2,8 @@
 
 [PortMaster](https://github.com/christianhaitian/PortMaster) is a project by Christian Haitian that's designed to make installing ports on rk3326 devices easy. PortMaster currently has partial compatibility with 351ELEC, but the developers are working toward full compatibility.
 
+Currently, games MUST be installed using the PortMaster port. Downloading the zip files will result in incompatible launch scripts. If you can't use the PortMaster port because you don't have an internet connection, you'll have to modify the scripts after downloading them. To do that, open the launch script in a text editor and remove all instances of the word `sudo` from the script.
+
 ## Installation
 
 - [Download PortMaster](https://github.com/christianhaitian/PortMaster/raw/main/PortMaster.zip)
