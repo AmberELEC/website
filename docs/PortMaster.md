@@ -52,7 +52,7 @@ Below is a list of the ports and whether they're known to work, along with links
 | Rocks 'N' Diamonds | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#rocks-n-diamonds-available-through-portmaster) |
 | SDLPoP | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#sdlpop-prince-of-persia-available-through-portmaster) |
 | Shadow Warrior | <span class="text-warning">Unknown</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#) |
-| Shovel Knight | <span class="text-info">Requires Tweaks</span> | [Install Instructions](#shovel-knight) |
+| Shovel Knight | <span class="text-success">Working</span> (Unconfirmed) | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#shovel-knight---treasure-trove-available-through-portmaster) |
 | Sonic 1 | <span class="text-info">Requires Tweaks</span> | [Install Instructions](#sonic-1--2) |
 | Sonic 2 | <span class="text-info">Requires Tweaks</span> | [Install Instructions](#sonic-1--2) |
 | Sonic CD | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#sonic-cd-available-through-portmaster) |
@@ -65,11 +65,6 @@ Below is a list of the ports and whether they're known to work, along with links
 | Ur-Quan Masters | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#ur-quan-masters-available-through-portmaster) |
 | VVVVVV | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#vvvvvv-available-through-portmaster) |
 | World War II GI | <span class="text-warning">Unknown</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#world-war-ii-gi-available-through-portmaster) |
-
-### Shovel Knight
-
-1. Install the game following the [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#shovel-knight---treasure-trove-available-through-portmaster)
-2. Edit the `Shovel Knight.sh` file to add `:/usr/lib32` at the end of the `LD_LIBRARY_PATH` line
 
 ### Sonic 1 & 2
 
