@@ -84,14 +84,14 @@ libxkbcommon.so.0l,ibXi.so.6,libogg.so.0, libXinerama.so.1libsndio.so.7.0
 
 ### Requiring Tweaks:
 
-Blood - remove sudo from sh
-Cave-Store Evo - missing lib libjpeg.so.62 & ln error with error [15:08:56.180] [error] [settings.cpp:33 tryload]: Couldn't open file /storage/.local/share/nxengine/settings.dat.
-Commander Genius - remove sudo
-Duke Nukem 3d - remove sudo | libatomic.so.1 & libogg.so.0 missing
-Exhumed - remove sudo | libatomic.so.1 & libogg.so.0 missing
-Nam - remove sudo | libatomic.so.1 & libogg.so.0 missing 
-Quake 2 - Won't run as root
-Redneck Rampage - remove sudo | libatomic.so.1 & libogg.so.0 missing  
-Redneck Rampage 2 - remove sudo | libatomic.so.1 & libogg.so.0 missing 
-World War II GI - libatomic.so.1 & libogg.so.0 missing
+* Blood - remove sudo from sh
+* Cave-Store Evo - missing lib libjpeg.so.62 & ln error with error [15:08:56.180] [error] [settings.cpp:33 tryload]: Couldn't open file /storage/.local/share/nxengine/settings.dat.
+* Commander Genius - remove sudo
+* Duke Nukem 3d - remove sudo | libatomic.so.1 & libogg.so.0 missing
+* Exhumed - remove sudo | libatomic.so.1 & libogg.so.0 missing
+* Nam - remove sudo | libatomic.so.1 & libogg.so.0 missing 
+* Quake 2 - Won't run as root
+* Redneck Rampage - remove sudo | libatomic.so.1 & libogg.so.0 missing  
+* Redneck Rampage 2 - remove sudo | libatomic.so.1 & libogg.so.0 missing 
+* World War II GI - libatomic.so.1 & libogg.so.0 missing
 
