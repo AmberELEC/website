@@ -60,6 +60,7 @@ Below is a list of the ports and whether they're known to work, along with links
 | Sonic 2 | <span class="text-info">Requires Tweaks</span> | [Install Instructions](#sonic-1--2) |
 | Sonic CD | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#sonic-cd-available-through-portmaster) |
 | SorR (Streets of Rage Remake)| <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#sorr-streets-of-rage-remakeavailable-through-portmaster) |
+| Space Cadett Pinball | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#space-cadet-pinball-available-through-portmaster) |
 | Spelunky | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#spelunky-available-through-portmaster) |
 | Super Mario War | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#super-mario-war-available-through-portmaster) |
 | SuperTux | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#supertux-available-through-portmaster) |
