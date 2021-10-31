@@ -54,7 +54,7 @@ Below is a list of the ports and whether they're known to work, along with links
 | Rise of the Triad | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#rise-of-the-triad-available-through-portmaster) |
 | Rocks 'N' Diamonds | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#rocks-n-diamonds-available-through-portmaster) |
 | SDLPoP | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#sdlpop-prince-of-persia-available-through-portmaster) |
-| Shadow Warrior | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#) |
+| Shadow Warrior | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#shadow-warrior-available-through-portmaster) |
 | Shovel Knight | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#shovel-knight---treasure-trove-available-through-portmaster) |
 | Sonic 1 | <span class="text-info">Requires Tweaks</span> | [Install Instructions](#sonic-1--2) |
 | Sonic 2 | <span class="text-info">Requires Tweaks</span> | [Install Instructions](#sonic-1--2) |
