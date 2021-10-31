@@ -18,6 +18,7 @@ Below is a list of the ports and whether they're known to work, along with links
 |----|----|----|
 | 2048 | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#2048-available-through-portmaster) |
 | AM2R | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#am2r-available-through-portmaster) |
+| Blockattack | <span class="text-white">Coming Soons</span> |
 | Blood | <span class="text-info">Requires Tweaks</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#blood-available-through-portmaster) |
 | Blues Brothers | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#blues-brothers-available-through-portmaster) |
 | C-Dogs | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#c-dogs-available-through-portmaster) |
@@ -29,6 +30,7 @@ Below is a list of the ports and whether they're known to work, along with links
 | Dinothawr | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#dinothawr-available-through-portmaster) |
 | Duke Nukem 3D | <span class="text-info">Requires Tweaks</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#duke-nukem-3d-available-through-portmaster) |
 | Exhumed | <span class="text-info">Requires Tweaks</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#exhumed-aka-powerslave-available-through-portmaster) |
+| Fade to Black GL | <span class="text-white">Coming Soon</span> |
 | Free Heroes of Might and Magic II | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#free-heroes-of-might-and-magic-ii-available-through-portmaster) |
 | Freedom Planet | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#freedom-planet-available-through-portmaster) |
 | Heart of Darkness | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#heart-of-darkness-available-through-portmaster) |
@@ -39,6 +41,7 @@ Below is a list of the ports and whether they're known to work, along with links
 | Mr. Boom | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#mr-boom-available-through-portmaster) |
 | NAM | <span class="text-info">Requires Tweaks</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#nam-available-through-portmaster) |
 | OpenJazz | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#openjazz-jazz-jackrabbitavailable-through-portmaster) |
+| OpenOMF - One Must Fall 2097 Remake Project | <span class="text-white">Coming Soon</span> |
 | OpenTyrian | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#opentyrian-available-through-portmaster) |
 | Prehistorik 2 | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#prehistorik-2-available-through-portmaster) |
 | Quake | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#quake-1-available-through-portmaster) |
@@ -85,7 +88,7 @@ libxkbcommon.so.0l,ibXi.so.6,libogg.so.0, libXinerama.so.1libsndio.so.7.0
 ### Requiring Tweaks:
 
 * Blood - remove sudo from sh
-* Cave-Store Evo - missing lib libjpeg.so.62 & ln error with error [15:08:56.180] [error] [settings.cpp:33 tryload]: Couldn't open file /storage/.local/share/nxengine/settings.dat.
+* Cave-Store Evo - missing lib libjpeg.so.62 & ln error 
 * Commander Genius - remove sudo
 * Duke Nukem 3d - remove sudo | libatomic.so.1 & libogg.so.0 missing
 * Exhumed - remove sudo | libatomic.so.1 & libogg.so.0 missing
