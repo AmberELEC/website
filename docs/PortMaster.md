@@ -24,7 +24,7 @@ Below is a list of the ports and whether they're known to work, along with links
 | C-Dogs | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#c-dogs-available-through-portmaster) |
 | Cannonball | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#cannonball-outrun-available-through-portmaster) |
 | Cave Story | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#cave-story-evo-available-through-portmaster) |
-| Cave Story-evo | <span class="text-info">Requires Tweaks</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#cave-story-evo-available-through-portmaster) |
+| Cave Story-evo | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#cave-story-evo-available-through-portmaster) |
 | Commander Genius | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#commander-genius-commander-keen-available-through-portmaster) |
 | Devilutionx | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#devilutionx-diablo-1-available-through-portmaster) |
 | Dinothawr | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#dinothawr-available-through-portmaster) |
@@ -89,8 +89,6 @@ libxkbcommon.so.0l,ibXi.so.6,libogg.so.0, libXinerama.so.1libsndio.so.7.0
 ### Requiring Tweaks:
 
 * Blood - remove sudo from sh
-* Cave-Store Evo - missing lib libjpeg.so.62 & ln error 
-* Commander Genius - remove sudo
 * Duke Nukem 3d - remove sudo, libatomic.so.1 & libogg.so.0 missing
 * Exhumed - remove sudo, libatomic.so.1 & libogg.so.0 missing
 * Nam - remove sudo, libatomic.so.1 & libogg.so.0 missing 
