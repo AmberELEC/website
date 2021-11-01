@@ -17,6 +17,7 @@ Below is a list of the ports and whether they're known to work, along with links
 | Game | Compatibility | Installation Instructions |
 |----|----|----|
 | 2048 | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#2048-available-through-portmaster) |
+| Abuse | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#abuse-available-through-portmaster) |
 | AM2R | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#am2r-available-through-portmaster) |
 | Blockattack | <span class="text-white">Coming Soons</span> |
 | Blood | <span class="text-info">Requires Tweaks</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#blood-available-through-portmaster) |
@@ -40,6 +41,7 @@ Below is a list of the ports and whether they're known to work, along with links
 | Moonlight | <span class="text-danger">Not Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#moonlight-nvidia-gamestreaming-app-available-through-portmaster) |
 | Mr. Boom | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#mr-boom-available-through-portmaster) |
 | NAM | <span class="text-info">Requires Tweaks</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#nam-available-through-portmaster) |
+| nKaruga | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#nkaruga) |
 | OpenJazz | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#openjazz-jazz-jackrabbitavailable-through-portmaster) |
 | OpenOMF - One Must Fall 2097 Remake Project | <span class="text-white">Coming Soon</span> |
 | OpenTyrian | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#opentyrian-available-through-portmaster) |
