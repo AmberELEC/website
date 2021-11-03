@@ -20,7 +20,7 @@ Below is a list of the ports and whether they're known to work, along with links
 | Abuse | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#abuse-available-through-portmaster) |
 | AM2R | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#am2r-available-through-portmaster) |
 | Blockattack | <span class="text-white">Coming Soons</span> |
-| Blood | <span class="text-info">Requires Tweaks</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#blood-available-through-portmaster) |
+| Blood | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#blood-available-through-portmaster) |
 | Blues Brothers | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#blues-brothers-available-through-portmaster) |
 | C-Dogs | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#c-dogs-available-through-portmaster) |
 | Cannonball | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#cannonball-outrun-available-through-portmaster) |
@@ -91,7 +91,6 @@ libxkbcommon.so.0l,ibXi.so.6,libogg.so.0, libXinerama.so.1libsndio.so.7.0
 
 ### Requiring Tweaks:
 
-* Blood - remove sudo from sh
 * Duke Nukem 3d - remove sudo, libatomic.so.1 & libogg.so.0 missing
 * Exhumed - remove sudo, libatomic.so.1 & libogg.so.0 missing
 * Nam - remove sudo, libatomic.so.1 & libogg.so.0 missing 
