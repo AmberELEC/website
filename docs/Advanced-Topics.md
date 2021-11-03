@@ -21,9 +21,12 @@ Back to Main Menu -> Configuration File -> Save Current Configuration
 
 The following RetroArch settings have been recommended by Vanfanel to minimize input lag. Please note that while these settings will reduce input lag, they may be more difficult for the system and cause some performance penalties on harder to emulate systems.
 
+- `RetroArch Main Menu` > `Settings` > `Video`, set `Threaded Video` to off
 - `RetroArch Main Menu` > `Settings` > `Video` > `Synchronization`, set `Vertical Sync (VSync)` to off
 - `RetroArch Main Menu` > `Settings` > `Video` > `Synchronization`, set `Max swapchain images` to 1
+- `RetroArch Main Menu` > `Settings` > `Audio` > `Output`, set `Audio` to alsa
 - `RetroArch Main Menu` > `Settings` > `Audio` > `Output`, set `Audio Latency (ms)` to 32
+- `RetroArch Main Menu` > `Settings` > `Audio` > `Synchronization`, set `Synchronization` to on (should be on by default)
 
 ## Buttons reference
 
