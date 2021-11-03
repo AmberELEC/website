@@ -95,7 +95,6 @@ libxkbcommon.so.0l,ibXi.so.6,libogg.so.0, libXinerama.so.1libsndio.so.7.0
 * Duke Nukem 3d - remove sudo, libatomic.so.1 & libogg.so.0 missing
 * Exhumed - remove sudo, libatomic.so.1 & libogg.so.0 missing
 * Nam - remove sudo, libatomic.so.1 & libogg.so.0 missing 
-* Quake 2 - Won't run as root
 * Redneck Rampage - remove sudo, libatomic.so.1 & libogg.so.0 missing  
 * Redneck Rampage 2 - remove sudo, libatomic.so.1 & libogg.so.0 missing 
 * World War II GI - libatomic.so.1 & libogg.so.0 missing
