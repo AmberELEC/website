@@ -19,6 +19,7 @@ Below is a list of the ports and whether they're known to work, along with links
 | 2048 | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#2048-available-through-portmaster) |
 | Abuse | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#abuse-available-through-portmaster) |
 | AM2R | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#am2r-available-through-portmaster) |
+| Blobby Volley 2 | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#blobby-volley-2-available-through-portmaster) |
 | Blockattack | <span class="text-white">Coming Soon</span> |
 | Blood | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#blood-available-through-portmaster) |
 | Blues Brothers | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#blues-brothers-available-through-portmaster) |
