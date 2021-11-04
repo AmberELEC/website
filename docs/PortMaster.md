@@ -98,4 +98,3 @@ libxkbcommon.so.0l,ibXi.so.6,libogg.so.0, libXinerama.so.1libsndio.so.7.0
 * Redneck Rampage - remove sudo, libatomic.so.1 & libogg.so.0 missing  
 * Redneck Rampage 2 - remove sudo, libatomic.so.1 & libogg.so.0 missing 
 * World War II GI - libatomic.so.1 & libogg.so.0 missing
-
