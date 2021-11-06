@@ -30,8 +30,8 @@ Below is a list of the ports and whether they're known to work, along with links
 | CorsixTH (Theme Hospital) | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#corsixth-theme-hospital-available-through-portmaster) |
 | Devilutionx (Diablo 1) | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#devilutionx-diablo-1-available-through-portmaster) |
 | Dinothawr | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#dinothawr-available-through-portmaster) |
-| Duke Nukem 3D | <span class="text-info">Requires Tweaks</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#duke-nukem-3d-available-through-portmaster) |
-| Exhumed | <span class="text-info">Requires Tweaks</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#exhumed-aka-powerslave-available-through-portmaster) |
+| Duke Nukem 3D | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#duke-nukem-3d-available-through-portmaster) |
+| Exhumed | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#exhumed-aka-powerslave-available-through-portmaster) |
 | Fade to Black GL | <span class="text-white">Coming Soon</span> |
 | Free Heroes of Might and Magic II | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#free-heroes-of-might-and-magic-ii-available-through-portmaster) |
 | Freedom Planet | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#freedom-planet-available-through-portmaster) |
@@ -76,8 +76,4 @@ Below is a list of the ports and whether they're known to work, along with links
 
 ### Requiring Tweaks:
 
-* Duke Nukem 3d - remove sudo, libatomic.so.1 & libogg.so.0 missing
-* Exhumed - remove sudo, libatomic.so.1 & libogg.so.0 missing
 * Nam - remove sudo, libatomic.so.1 & libogg.so.0 missing 
-* Redneck Rampage - remove sudo, libatomic.so.1 & libogg.so.0 missing  
-* Redneck Rampage 2 - remove sudo, libatomic.so.1 & libogg.so.0 missing 
