@@ -50,8 +50,8 @@ Below is a list of the ports and whether they're known to work, along with links
 | Quake | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#quake-1-available-through-portmaster) |
 | Quake 2 | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#quake-2-available-through-portmaster) |
 | RAWGL (Another World) | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#rawgl-available-through-portmaster) |
-| Redneck Rampage | <span class="text-info">Requires Tweaks</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#redneck-rampage-1-available-through-portmaster) |
-| Redneck Rampage Rides Again | <span class="text-info">Requires Tweaks</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#redneck-rampage-2-available-through-portmaster) |
+| Redneck Rampage | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#redneck-rampage-1-available-through-portmaster) |
+| Redneck Rampage Rides Again | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#redneck-rampage-2-available-through-portmaster) |
 | Return to Castle Wolfenstein | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#return-to-castle-wolfenstein-available-through-portmaster) |
 | Rick Dangerous | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#rick-dangerous-available-through-portmaster) |
 | Rise of the Triad | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#rise-of-the-triad-available-through-portmaster) |
@@ -71,7 +71,7 @@ Below is a list of the ports and whether they're known to work, along with links
 | Undertale | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#undertale-available-through-portmaster) |
 | Ur-Quan Masters | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#ur-quan-masters-available-through-portmaster) |
 | VVVVVV | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#vvvvvv-available-through-portmaster) |
-| World War II GI | <span class="text-info">Requires Tweaks</span>  | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#world-war-ii-gi-available-through-portmaster) |
+| World War II GI | <span class="text-success">Working</span>  | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#world-war-ii-gi-available-through-portmaster) |
 
 
 ### Requiring Tweaks:
@@ -81,4 +81,3 @@ Below is a list of the ports and whether they're known to work, along with links
 * Nam - remove sudo, libatomic.so.1 & libogg.so.0 missing 
 * Redneck Rampage - remove sudo, libatomic.so.1 & libogg.so.0 missing  
 * Redneck Rampage 2 - remove sudo, libatomic.so.1 & libogg.so.0 missing 
-* World War II GI - libatomic.so.1 & libogg.so.0 missing
