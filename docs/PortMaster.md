@@ -19,8 +19,9 @@ Below is a list of the ports and whether they're known to work, along with links
 | 2048 | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#2048-available-through-portmaster) |
 | Abuse | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#abuse-available-through-portmaster) |
 | AM2R | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#am2r-available-through-portmaster) |
+| Blake Stone | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#blake-stone-aliens-of-gold-available-through-portmaster) |
 | Blobby Volley 2 | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#blobby-volley-2-available-through-portmaster) |
-| Blockattack | <span class="text-white">Coming Soon</span> |
+| Blockattack | <span class="text-white">Coming Soon</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#block-attack-available-through-portmaster) |
 | Blood | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#blood-available-through-portmaster) |
 | Blues Brothers | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#blues-brothers-available-through-portmaster) |
 | C-Dogs | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#c-dogs-available-through-portmaster) |
@@ -45,7 +46,7 @@ Below is a list of the ports and whether they're known to work, along with links
 | NAM | <span class="text-info">Requires Tweaks</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#nam-available-through-portmaster) |
 | nKaruga | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#nkaruga) |
 | OpenJazz | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#openjazz-jazz-jackrabbitavailable-through-portmaster) |
-| OpenOMF - One Must Fall 2097 Remake Project | <span class="text-white">Coming Soon</span> |
+| OpenOMF - One Must Fall 2097 Remake Project | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#openomf-available-through-portmaster) |
 | OpenTyrian | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#opentyrian-available-through-portmaster) |
 | Prehistorik 2 | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#prehistorik-2-available-through-portmaster) |
 | Quake | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#quake-1-available-through-portmaster) |
@@ -60,8 +61,8 @@ Below is a list of the ports and whether they're known to work, along with links
 | SDLPoP | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#sdlpop-prince-of-persia-available-through-portmaster) |
 | Shadow Warrior | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#shadow-warrior-available-through-portmaster) |
 | Shovel Knight | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#shovel-knight---treasure-trove-available-through-portmaster) |
-| Sonic 1 | <span class="text-info">Requires Tweaks</span> | [Install Instructions](#sonic-1--2) |
-| Sonic 2 | <span class="text-info">Requires Tweaks</span> | [Install Instructions](#sonic-1--2) |
+| Sonic 1 | <span class="text-success">Working</span> | [Install Instructions](#sonic-1--2) |
+| Sonic 2 | <span class="text-success">Working</span> | [Install Instructions](#sonic-1--2) |
 | Sonic CD | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#sonic-cd-available-through-portmaster) |
 | SorR (Streets of Rage Remake)| <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#sorr-streets-of-rage-remakeavailable-through-portmaster) |
 | Space Cadett Pinball | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#space-cadet-pinball-available-through-portmaster) |
@@ -74,21 +75,6 @@ Below is a list of the ports and whether they're known to work, along with links
 | VVVVVV | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#vvvvvv-available-through-portmaster) |
 | World War II GI | <span class="text-info">Requires Tweaks</span>  | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#world-war-ii-gi-available-through-portmaster) |
 
-### Sonic 1 & 2
-
-Sonic 1 and 2 are missing a large number of libraries. The missing libraries are:
-
-```
-libX11.so.6,libXrandr.so.2,libwayland-client.so.0,libXau.so.6
-libXrender.so.1,libwayland-cursor.so.0, libXcursor.so.1,libXss.so.1
-libwayland-egl.so,libXdmcp.so.6,libXxf86vm.so.1,libwayland-server.so.0
-libXext.so.6libbsd.so.0,libxcb.so.1,libXfixes.so.3,libffi.so.6
-libxkbcommon.so.0l,ibXi.so.6,libogg.so.0, libXinerama.so.1libsndio.so.7.0
-```
-
-1. Install [Sonic 1](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#sonic-1-available-through-portmaster) or [Sonic 2](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#sonic-2-available-through-portmaster) using PortMaster, and follow the PortMaster instructions.
-2. Copy the missing libraries into `/storage/roms/ports/soniclibs/`
-3. Add this line to the shell script a few lines before the game is run: `LD_LIBRARY_PATH=/$directory/ports/soniclibs:/usr/lib`
 
 ### Requiring Tweaks:
 
