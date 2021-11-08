@@ -3,4 +3,4 @@
 |------|------|
 | Testing | Testing |
 
-{% include navbar.html %}
+{% include search.html %}
