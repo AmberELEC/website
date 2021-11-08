@@ -3,3 +3,4 @@
 |------|------|
 | Testing | Testing |
 
+{% include navbar.html %}
