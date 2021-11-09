@@ -16,11 +16,11 @@ RG351 systems use an internal USB hub to connect to their gamepad. If USB isn't 
 
 Before continuing on with this section, please read the [Low Battery](#low-battery) and the [Sleep](#sleep) section to make sure that neither of those matches the issues you are having.
 
-While all consoles will give the "No Gamepads Detected" error at certain times, there are reports of some P and M devices that display this message the first time they are turned on, and where the issue is not solved by charging the console. We've had a report that one person has solved this issue by completely discharging the console (running the console out of battery and then continuing to turn the console back on until it stops responding), but other people have tried this solution and not had any luck.
-
-With the possible exception of draining the console, this problem doesn't currently have any known solution. If you have this issue, you will probably need to exchange your console for a new one. If you've gotten the device from a questionable seller, it may be best to try to get your money back and order it from Anbernic's official site or AliExpress page, or to find a distributor with a very high seller rating.
+While all consoles will give the "No Gamepads Detected" error at certain times, there are reports of some P and M devices that display this message the first time they are turned on, and where the issue is not solved by charging the console. Thanks to the work of Keltron3030, we now know that this problem is caused by a faulty USB controller chip. It's strongly recommended that if you have this issue, you exchange your console for a new one. If you’ve gotten the device from a questionable seller, it may be best to try to get your money back and order it from Anbernic’s official site or AliExpress page, or to find a distributor with a very high seller rating.
 
 If you do open an issue with AliExpress or Amazon, please do not close the issue until your console is replaced or you get your money back. Some sellers will try to get you to close the issue preemptively, and then not follow through with the agreed fix.
+
+If you know how to solder, you may be able to replace this chip on your own. The chip you want is the GL852G.
 
 ## RG351V Black Lines
 
