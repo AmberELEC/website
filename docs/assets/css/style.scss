@@ -26,15 +26,16 @@ header ul li {
   flex-grow: 1;
 }
 
+header .navbar-nav > li {
+  border: 1px solid #222;
+  text-align: left;
+}
+
 @media (min-width: 992px) {
   header .navbar-nav > li {
     text-align: center;
     background-image: linear-gradient(180deg, #242424, transparent)
   }
-}
-
-header .navbar-nav > li {
-  border: 1px solid #222;
 }
 
 header .navbar {
