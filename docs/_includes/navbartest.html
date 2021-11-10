@@ -1,0 +1,29 @@
+<ul class="navbar-nav mr-auto">
+  {% for category in site.data.nav.categories %}
+    {% unless category.parent %}
+      {% if category.topnavpages %}
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="userguidesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">{{ category.title }}</a>
+          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="userguidesDropdown">
+            {% assign pages = site.data.nav.pages | where: "category", category.title %}
+            {% for page in pages %}
+              <li>
+                <a class="dropdown-item" href="{{ page.url }}">{{ page.title }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+        </li>
+      {% else %}
+        <li class="nav-item">
+          <a class="nav-link nav-{{ category.title | downcase }}" href="{{ category.url }}">{{ category.title }}</a>
+        </li>
+      {% endif %}
+    {% endunless %}
+  {% endfor %}
+</ul>
+<form class="form-inline ml-2" role="search" action="/search/" method="post">
+    <div class="form-group">
+        <input type="text" name="request" class="form-control" placeholder="Search Documents">
+    </div>
+    <button type="submit" class="btn search-button">Search</button>
+</form>

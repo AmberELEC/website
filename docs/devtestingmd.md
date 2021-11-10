@@ -1,3 +1,7 @@
+---
+layout: test
+---
+
 {:.testing}
 | Test | Test |
 |------|------|
