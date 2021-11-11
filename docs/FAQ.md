@@ -119,7 +119,7 @@
 
 **Q:** Where can I download games?
 
-**A:** You can [find many community-developed homebrew titles here](https://www.romhacking.net/homebrew/).  Many commercial games are available on GOG, Steam.  For physical products, you are responsible for providing ROM or disc images and is outside the scope of our project (there is nothing different about it just because your target is a RG351-family device); use Google to find resources and information.  We do not condone piracy; please do not discuss piracy or link to commercial software in our Discord or on our wiki.
+**A:** You can [find many community-developed homebrew titles here](https://www.romhacking.net/homebrew/).  Many commercial games are available on GOG, Steam.  For physical products, you are responsible for providing ROM or disc images and is outside the scope of our project (there is nothing different about it just because your target is a RG351-family device); use Google to find resources and information.  We do not condone piracy; please do not discuss piracy or link to commercial software in our Discord.
 
 ***
 
