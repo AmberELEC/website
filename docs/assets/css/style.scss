@@ -249,3 +249,7 @@ header .bg-dark.show, header .bg-dark.collapsing {
     top: -10px;
   }
 }
+
+.nav-search .input-group-text, .nav-search .form-control {
+  border-color: black;
+}
