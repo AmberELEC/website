@@ -12,10 +12,10 @@
 
 Below is a list of the ports and whether they're known to work, along with links to the instructions for individual games. That said, this list is likely to get out of date relatively quickly, so check out the [PortMaster Wiki Page](https://github.com/christianhaitian/arkos/wiki/PortMaster) and the [Port Installation Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#ports) for updates and installation instructions.
 
-| Cover | Game | Compatibility | Installation Instructions |
-|----|----|----|----|
-| ![2048](https://user-images.githubusercontent.com/77732736/140623762-f528a765-c65f-4f54-85b3-9155e0454977.jpg)| 2048 | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#2048-available-through-portmaster) |
-| ![abuse](https://user-images.githubusercontent.com/77732736/140623942-4666b551-0a78-4773-b77b-da5f086dff44.jpg)| Abuse | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#abuse-available-through-portmaster) |
+| Game | Compatibility | Installation Instructions |
+|----|----|----|
+| ![2048](assets/previews/2048.jpg) 2048 | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#2048-available-through-portmaster) |
+| ![abuse](assets/previews/Abuse.jpg)| Abuse | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#abuse-available-through-portmaster) |
 | ![AM2R](https://user-images.githubusercontent.com/77732736/140624064-50e64bff-0ff9-4876-8455-bf0e9b24b951.jpg)| AM2R | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#am2r-available-through-portmaster) |
 | ![Blake Stone](https://user-images.githubusercontent.com/77732736/140624085-842bd7b1-f888-4729-a69c-0ce9c0f89407.jpg)| Blake Stone | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#blake-stone-aliens-of-gold-available-through-portmaster) |
 | ![Blobby Volley 2](https://user-images.githubusercontent.com/77732736/140624142-e4982e56-54e4-460f-8b4c-2533a5d7fa95.jpg)| Blobby Volley 2 | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#blobby-volley-2-available-through-portmaster) |
