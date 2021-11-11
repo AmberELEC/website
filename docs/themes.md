@@ -1,4 +1,4 @@
-# Installation
+# Themes
 
 - [Art Book 3:2](#art-book-3:2)
 - [Art Book 4:3](#art-book-4:3)
