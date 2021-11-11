@@ -1,7 +1,7 @@
 # Themes
 
-- [Art Book 3:2](#themes#art-book-32)
-- [Art Book 4:3](#themes#art-book-43)
+- [Art Book 3:2](themes#art-book-32)
+- [Art Book 4:3](themes#art-book-43)
 
 ## Art Book 3:2
 
