@@ -77,7 +77,3 @@ Below is a list of the ports and whether they're known to work, along with links
 ### Requiring Tweaks:
 
 * Nam - remove sudo, libatomic.so.1 & libogg.so.0 missing 
-
-### Template 
-![NOART](https://user-images.githubusercontent.com/77732736/140623965-b880ae63-2de8-494a-bc47-aca27777a232.jpg)
-
