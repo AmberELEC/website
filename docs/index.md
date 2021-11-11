@@ -18,7 +18,7 @@ _Join Our Community:_ [https://discord.gg/R9Er7hkRMe](https://discord.gg/R9Er7hk
 
 ### [Installation](Installation#overview)
 
-Please visit the wiki [Installation](Installation#overview) page for installation instructions.
+Please visit the [Installation](Installation#overview) page for installation instructions.
 
 ### Getting Help
 
