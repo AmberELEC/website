@@ -241,3 +241,11 @@ header .bg-dark.show, header .bg-dark.collapsing {
 .tipue_search_content_bold {
   color: #b5e853;
 }
+
+@media (min-width: 992px) {
+  .nav-search {
+    position: absolute;
+    right: 0;
+    top: -10px;
+  }
+}
