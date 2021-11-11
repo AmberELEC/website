@@ -9,7 +9,7 @@ _Join Our Community:_ [https://discord.gg/R9Er7hkRMe](https://discord.gg/R9Er7hk
 ### Features
 * A 64bit Firmware optimized for the RG351P/M/V.
 * Fully Open Source with a wonderful community of users, contributors and helpers.
-* An up-to-date and fresh [user interface](https://github.com/anthonycaccese/es-theme-art-book-3-2).
+* An up-to-date and fresh [user interface](themes).
 * Pre-configured optimized defaults allowing you to pick up and play.
 * Integrated scraper for getting images, videos, manuals and maps.
 * Native support for [RetroAchievements](https://retroachievements.org/) on supported emulators.
