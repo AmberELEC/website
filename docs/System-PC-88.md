@@ -19,7 +19,14 @@ While this core technically supports loading ROMs from the top level of the BIOS
 There is a "pseudo BIOS" if you do not provide these files, but there is a 99% chance that it won't work.
 
 ## Controls
-At this point in time, you can only map the Z, X, I, space, and enter keys, and 2/4/6/8 from the numeric keypad. In the likely event that you want to play a game which uses any more than this, you will need a USB keyboard plugged in.
+
+The controller defaults to the "Retro Joypad" device, which defaults to the numerical pad + Z & X layout. You can also map the I, space, and enter keys for games that deviate from it slightly.
+
+For the many games that use other control systems, you'll need to either switch to the "Retro Keyboard" and build your own layout from scratch, or plug in a USB keyboard and use that.
+
+To use the Retro Keyboard layout, enter the RA Quick Menu, select `Controls` and then `Port 1 Controls`, and change `Device Type` to `Retro Keyboard`. Controls for the PC88 were highly game dependent, so you'll need to either find a guide to the controls for the game in question or do a lot of experimenting.
+
+There are some adventure games on the system that use text input and require you to type full words. Since there's no onscreen keyboard for quasi88 at the moment, the only reasonable way to play these games is with a USB keyboard.
 
 ## Compatibility
 If you see a screen saying "how many files?" this is fine, wait for a bit, as the disk should soon autoboot.
