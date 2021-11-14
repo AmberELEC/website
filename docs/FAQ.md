@@ -76,6 +76,8 @@
 
 **A:** Anbernic uses a wide variety of screens, some of which reach max brightness at 35%. If you have one of these screens, you'll have to turn the brightness down a lot to see any change in the actual brightness of the screen. Also because of this, our brightness step size is set to 1% so that people with these screens can have a decent range of brightness options. You'll just need to get past that top 65%, and then the brightness hotkey should work fine.
 
+The easiest way to get the brightness set up if you have this issue is to change the brightness to 30% in the [ES System Settings Menu](Menus#system-settings). From there you should be able to adjust the brightness to your desired level pretty easily.
+
 ***
 
 {: #saving }
@@ -126,7 +128,7 @@
 {: #anberports }
 [![link](images/link-45deg.svg)](#anberports)**Q:** I installed Anberports and have a problem with one of the ports.
 
-**A:** The project has appears to have been abandoned for many months now.  It is unaffiliated with 351ELEC.  You can find more info [here](https://github.com/krishenriksen/AnberPorts).  If you must discuss it, we recommend the RGHandhelds Discord server as it will probably have more users who are familiar with it.
+**A:** Anberports is now considered abandoned. Please use [PortMaster](PortMaster) instead.
 
 ***
 
