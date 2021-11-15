@@ -25,12 +25,10 @@ While Retro Game Corps' video is for a very old version of 351ELEC, the steps in
 * Click on "flash", make yourself a coffee, wait a bit and you're set!
 Pop your MicroSD card into your RG351P/M/V/MP, 351ELEC should create your games partition and reboot. You're good to go.
 
-> #### Notes
-> * **Initialization**: As previously mentioned, 351ELEC will expand the storage and games partitions on first boot and then reboot to configure the firmware.
-> It's normal for this process to take a minute or two.  After setting up for the first time, subsequent boots will be much faster.
-> RG351V users may use a large MicroSD in the first socket, or a smaller MicroSD with a larger card in the second socket. The second card must have a single partition or whole card formatted with EXFAT, or EXT4. FAT filesystems are not supported as it lacks support for filesystem features in use by 351ELEC. NTFS is not currently supported and may be added in a future release.
->
-> * **RG351V/MP Second SD Card**: RG351V/MP users may use a large MicroSD in the first socket, or a smaller MicroSD with a larger card in the second socket. The second card must have a single partition or whole card formatted with exFAT or ext4. FAT filesystems are not supported as it lacks support for filesystem features in use by 351ELEC. NTFS is not currently supported and may be added in a future release.
+#### Notes
+* **Initialization**: As previously mentioned, 351ELEC will expand the storage and games partitions on first boot and then reboot to configure the firmware.
+It's normal for this process to take a minute or two.  After setting up for the first time, subsequent boots will be much faster.
+* **RG351V/MP Second SD Card**: RG351V/MP users may use a large MicroSD in the first socket, or a smaller MicroSD with a larger card in the second socket. The second card must have a single partition or whole card formatted with exFAT or ext4. FAT filesystems are not supported as it lacks support for filesystem features in use by 351ELEC. NTFS is not currently supported and may be added in a future release.
 
 ## Applications
 
