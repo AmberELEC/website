@@ -14,7 +14,7 @@ _Join Our Community:_ [https://discord.gg/R9Er7hkRMe](https://discord.gg/R9Er7hk
 * Integrated scraper for getting images, videos, manuals and maps.
 * Native support for [RetroAchievements](https://retroachievements.org/) on supported emulators.
 * Package manager to install and update games and themes made by our community.
-* An EXFAT games partition easily accessible from Linux, Windows and MacOS.
+* An exFAT games partition easily accessible from Linux, Windows and MacOS.
 
 ### Installation
 
