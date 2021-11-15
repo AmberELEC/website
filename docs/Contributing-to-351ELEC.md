@@ -3,7 +3,6 @@
 * [Reporting Bugs](#reporting-bugs)
 * [Beta Builds](#beta-builds)
 * [Development / PR Builds](#development--pr-builds)
-* [Building 351ELEC from Source](#building-351elec-from-source)
 * [Contributing Code](#contributing-code)
 * [Setting up the environment](#setting-up-the-environment)
 * [Building Your Contribution](#building-your-contribution)
@@ -56,23 +55,6 @@ Pull Request ([PR](../../pulls)) builds are very similar to development builds a
 * Feedback specific to the PR can be left as comments on the PR itself.  Please keep any feedback short and constructive or it may be deleted.  If you have the same comment as another user, use a 'reaction' on that comment to help keep the comments clean and easy to navigate for the developer and others.
 * Build zip only includes the `.tar` file to keep build speed faster.
 * Builds are found on the 'Checks' tab of the PR.  Then click on 'Artifacts' link in the upper right.
-
-## Building 351ELEC from Source
-Building 351ELEC from source is a fairly simple process. It is recommended to have a minimum of 4 cores, 16GB of RAM, and an SSD with 200GB of free space. The build environment used to develop 351ELEC is Ubuntu 20.04, your mileage may vary when building on other distributions.  Building using Docker is also supported.
-```
-sudo apt update && sudo apt upgrade
-
-sudo apt install gcc make git unzip wget xz-utils libsdl2-dev libsdl2-mixer-dev libfreeimage-dev libfreetype6-dev libcurl4-openssl-dev rapidjson-dev libasound2-dev libgl1-mesa-dev build-essential libboost-all-dev cmake fonts-droid-fallback libvlc-dev libvlccore-dev vlc-bin texinfo premake4 golang libssl-dev curl patchelf xmlstarlet patchutils gawk gperf xfonts-utils default-jre python xsltproc libjson-perl lzop libncurses5-dev device-tree-compiler u-boot-tools rsync p7zip unrar libparse-yapp-perl zip binutils-aarch64-linux-gnu dos2unix p7zip-full
-
-git clone https://github.com/351ELEC/351ELEC.git 351ELEC  
-
-cd 351ELEC
-
-make clean
-
-make world
-```
-The make world process will build a 32bit and 64bit userland and generate a 64bit image which will be located in 351ELEC/release. Follow the installation steps to write your image to a microSD for testing.
 
 ## Contributing Code
 First, thank you.  As a volunteer project, maintaining a project like this can be difficult.  Any contributions are greatly appreciated.  If you are contributing there are a few guidelines that need to be followed for your contribution to be accepted.
