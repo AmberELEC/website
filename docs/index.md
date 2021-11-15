@@ -16,7 +16,7 @@ _Join Our Community:_ [https://discord.gg/R9Er7hkRMe](https://discord.gg/R9Er7hk
 * Package manager to install and update games and themes made by our community.
 * An EXFAT games partition easily accessible from Linux, Windows and MacOS.
 
-### [Installation](Installation#overview)
+### Installation
 
 Please visit the [Installation](Installation#overview) page for installation instructions.
 
