@@ -13,9 +13,7 @@
 ## Reporting Bugs
 * Check you are using latest released version, only released versions are supported.  
 * If you are using a beta build, do not open an issue in [351ELEC](https://github.com/351ELEC/351ELEC).  Instead, report the findings in the `#beta-feedback` channel in [discord](https://discord.gg/R9Er7hkRMe) (Under "Community Contribution").
-
 * Before reporting an issue with the beta build, try reproducing the issue on the current release.  Please mention the results up front when you bring your issue to Discord.  For example: `When I try xyz in beta build ABC, something bad happens.  However, when I try xyz in in the latest release, I do not see this problem.  Is this a known issue?`.  Try and keep comments concise and constructive.
-
 * Check the existing issues to see if your bug has already reported.  If it has been reported, do not open another bug report.  If it is not reported, use a template and fill it out completely.  Issues opened without using the templates will be closed.
 * Be patient, as we are volunteers and working on the project in our spare time.
 
