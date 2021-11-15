@@ -12,7 +12,7 @@
 
 ## Reporting Bugs
 * Check you are using latest released version, only released versions are supported.  
-* If you are using a beta build, do not open an issue in [351ELEC](https://github.com/351ELEC/351ELEC).  Instead, report the findings in the `#beta-feedback` channel in [discord](https://discord.gg/R9Er7hkRMe) (Under "Community Contribution").  After submitting and discussing your issue in Discord, an issue can be filed under the *351ELEC-beta* [issues](https://github.com/351ELEC/351ELEC-beta/issues) section.
+* If you are using a beta build, do not open an issue in [351ELEC](https://github.com/351ELEC/351ELEC).  Instead, report the findings in the `#beta-feedback` channel in [discord](https://discord.gg/R9Er7hkRMe) (Under "Community Contribution").
 
   * Before reporting an issue with the beta build, try reproducing the issue on the current release.  Please mention the results up front when you bring your issue to Discord.  For example: `When I try xyz in beta build ABC, something bad happens.  However, when I try xyz in in the latest release, I do not see this problem.  Is this a known issue?`.  Try and keep comments concise and constructive.
 
