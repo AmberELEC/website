@@ -7,7 +7,6 @@
 - Path(s): 
   - games should be stored in `/roms/easyrpg`
 - Supported Extensions: `.zip .ldb`
-- **EasyRPG is hidden by default:** To display it, please go to `Start > Game Collection Settings > Systems Displayed` and enable EasyRPG
 
 ## Games
 
