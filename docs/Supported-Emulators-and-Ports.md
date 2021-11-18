@@ -18,7 +18,7 @@ The **bold** one is the default one.
 |AMIGA|**puae**<br />amiberry<br />uae4arm|amiga| .zip .uae .adf .dms .fdi .ipf .adz .lha .hdf .hdz|
 |AMIGA CD32|**puae**<br />uae4arm|amigacd32| .iso .cue .chd .lha|
 |[AMSTRAD CPC](System-Amstrad-CPC)|**crocods**<br />cap32|amstradcpc| .dsk .sna [crocods: .kcr]<br/>[cap32: .tap .cdt .voc .m3u .zip .7z]|
-|[ARCADE](Arcade)|**mame2003_plus**<br />mame2000<br />mame2010<br />mame2015<br />fbneo<br />fbalpha2012<br />AdvanceMame|arcade| .zip .7z|
+|[ARCADE](Arcade)|**mame2003_plus**<br />mame2000<br />mame2010<br />mame2015<br />mame<br />fbneo<br />fbalpha2012<br />AdvanceMame|arcade| .zip .7z|
 |ATARI 800|**atari800**|atari800| .rom .xfd .atr .atx .cdm .cas .bin .a52 .xex .zip .7z|
 |ATARI 2600|**stella-2014**<br />stella|atari2600| .a26 .bin .zip .7z|
 |ATARI 5200|**atari800**|atari5200| .rom .xfd .atr .atx .cdm .cas .bin .a52 .xex .zip .7z|
@@ -35,9 +35,9 @@ The **bold** one is the default one.
 |COMMODORE 128|**vice_x128**|c128| .d(64, 71, 80, 81, 82, 6z, 7z, 8z) .g(64, 41, 6z, 4z) .x64 .t64 .tap .prg .p00 .crt .bin .gz .x6z .cmd .m3u .vsf .nib .nbz|
 |COMMODORE VIC-20|**vice_xvic**|vic20| .20 .40 .60 .a0 .b0 .d(64, 71, 80, 81, 82, 6z, 7z, 8z) .g(64, 41, 6z, 4z) .x64 .t64 .tap .prg .p00 .crt .bin .gz .x6z .cmd .m3u .vsf .nib .nbz|
 |[DAPHNE](System-Daphne)|**Hypseus**<br />daphne|daphne| no extension|
-|[FINALBURN NEO](System-FBNeo)|**fbneo**<br />mame2003_plus<br />fbalpha2012|fbneo| .zip .7z|
+|[FINALBURN NEO](System-FBNeo)|**fbneo**<br />mame2003_plus<br />fbalpha2012<br />mame2010<br />mame2015<br />mame|fbneo| .zip .7z|
 |MATTEL<br />INTELLIVISION|**freeintv**|intellivision| .int .bin .rom .zip .7z|
-|[MAME](System-MAME)|**mame2003_plus**<br />AdvanceMame<br />mame2000<br />mame2010<br />mame2015<br />fbneo<br />fbalpha2012|mame| .zip .7z|
+|[MAME](System-MAME)|**mame2003_plus**<br />AdvanceMame<br />mame2000<br />mame2010<br />mame2015<br />mame<br />fbneo<br />fbalpha2012|mame| .zip .7z|
 |MSX|**bluemsx**<br />fmsx|msx| .dsk .mx1 .mx2 .rom .zip .7z|
 |MSX2|**bluemsx**<br />fmsx|msx2| .dsk .mx1 .mx2 .rom .zip .7z|
 |[NEC<br />PC 8800](System-PC-88)|**quasi88**|pc88| .d88 .u88|
@@ -175,9 +175,6 @@ You can even [contribute](Contributing-to-351ELEC) and port your favorite game.
 
 |&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;Platform&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;|&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;Core/Emu&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;|ROM Path|Extensions|
 |---|---|---|---|
-|CPS1|fbalpha2012<br />**fbneo**<br />mame2003_plus<br />mame2010<br />mame2015<br />AdvanceMame|cps1|.zip .7z|
-|CPS2|fbalpha2012<br />**fbneo**<br />mame2003_plus<br />mame2010<br />mame2015<br />AdvanceMame|cps2|.zip .7z|
-|CPS3|fbalpha2012<br />**fbneo**<br />mame2003_plus<br />mame2010<br />mame2015<br />AdvanceMame|cps3|.zip .7z|
 |NINTENDO<br />GAME BOY HACKS|**gambatte**<br />sameboy<br />mgba<br />tgbdual<br />gearboy<br />vbam|gbh|.gb .gbc .zip .7z|
 |NINTENDO<br />GAME BOY COLOR HACKS|**gambatte**<br />sameboy<br />mgba<br />tgbdual<br />gearboy<br />vbam|gbch|.gbc .gb .zip .7z|
 |NINTENDO<br />GAME BOY ADVANCE HACKS|**mgba**<br />gpsp<br />vba_next<br />vbam|gbah| 	.gba .zip .7z|
