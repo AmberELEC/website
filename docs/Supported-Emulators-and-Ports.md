@@ -18,7 +18,7 @@ The **bold** one is the default one.
 |AMIGA|**puae**<br />amiberry<br />uae4arm|amiga| .zip .uae .adf .dms .fdi .ipf .adz .lha .hdf .hdz|
 |AMIGA CD32|**puae**<br />uae4arm|amigacd32| .iso .cue .chd .lha|
 |[AMSTRAD CPC](System-Amstrad-CPC)|**crocods**<br />cap32|amstradcpc| .dsk .sna [crocods: .kcr]<br/>[cap32: .tap .cdt .voc .m3u .zip .7z]|
-|[ARCADE](Arcade)|**mame2003_plus**<br />mame2000<br />mame2010<br />mame2015<br />mame<br />fbneo<br />fbalpha2012<br />AdvanceMame|arcade| .zip .7z|
+|[ARCADE](Arcade)|**mame2003_plus**<br />mame2000<br />mame2010<br />mame2015<br />mame<br />fbneo<br />fbalpha2012<br />fbalpha2019<br />AdvanceMame|arcade| .zip .7z|
 |ATARI 800|**atari800**|atari800| .rom .xfd .atr .atx .cdm .cas .bin .a52 .xex .zip .7z|
 |ATARI 2600|**stella-2014**<br />stella|atari2600| .a26 .bin .zip .7z|
 |ATARI 5200|**atari800**|atari5200| .rom .xfd .atr .atx .cdm .cas .bin .a52 .xex .zip .7z|
@@ -35,9 +35,9 @@ The **bold** one is the default one.
 |COMMODORE 128|**vice_x128**|c128| .d(64, 71, 80, 81, 82, 6z, 7z, 8z) .g(64, 41, 6z, 4z) .x64 .t64 .tap .prg .p00 .crt .bin .gz .x6z .cmd .m3u .vsf .nib .nbz|
 |COMMODORE VIC-20|**vice_xvic**|vic20| .20 .40 .60 .a0 .b0 .d(64, 71, 80, 81, 82, 6z, 7z, 8z) .g(64, 41, 6z, 4z) .x64 .t64 .tap .prg .p00 .crt .bin .gz .x6z .cmd .m3u .vsf .nib .nbz|
 |[DAPHNE](System-Daphne)|**Hypseus**<br />daphne|daphne| no extension|
-|[FINALBURN NEO](System-FBNeo)|**fbneo**<br />mame2003_plus<br />fbalpha2012<br />mame2010<br />mame2015<br />mame|fbneo| .zip .7z|
+|[FINALBURN NEO](System-FBNeo)|**fbneo**<br />mame2003_plus<br />fbalpha2012<br />fbalpha2019<br />mame2010<br />mame2015<br />mame|fbneo| .zip .7z|
 |MATTEL<br />INTELLIVISION|**freeintv**|intellivision| .int .bin .rom .zip .7z|
-|[MAME](System-MAME)|**mame2003_plus**<br />AdvanceMame<br />mame2000<br />mame2010<br />mame2015<br />mame<br />fbneo<br />fbalpha2012|mame| .zip .7z|
+|[MAME](System-MAME)|**mame2003_plus**<br />AdvanceMame<br />mame2000<br />mame2010<br />mame2015<br />mame<br />fbneo<br />fbalpha2012<br />fbalpha2019|mame| .zip .7z|
 |MSX|**bluemsx**<br />fmsx|msx| .dsk .mx1 .mx2 .rom .zip .7z|
 |MSX2|**bluemsx**<br />fmsx|msx2| .dsk .mx1 .mx2 .rom .zip .7z|
 |[NEC<br />PC 8800](System-PC-88)|**quasi88**|pc88| .d88 .u88|
@@ -75,7 +75,7 @@ The **bold** one is the default one.
 |SEGA 32X|**picodrive**|sega32x|.32x .7z .bin .md .smd .zip|
 |SEGA CD|**genesis_plus_gx**<br />picodrive|segacd| .bin .chd .cue .iso|
 |SEGA MEGA CD|**genesis_plus_gx**<br />picodrive|megacd| .bin .chd .cue .iso|
-|SNK<br />NEO-GEO|**fbneo**<br />mame2003<br />fbalpha2012|neogeo| .neo .7z .zip|
+|SNK<br />NEO-GEO|**fbneo**<br />mame2003<br />fbalpha2012<br />fbalpha2019|neogeo| .neo .7z .zip|
 |SNK<br />NEO-GEO CD|**neocd**<br />fbneo|neocd| .chd .cue .iso|
 |SNK<br />NEO-GEO POCKET|**beetle_ngp**<br />race|ngp| .ngp .ngc .zip .7z|
 |SNK<br />NEO-GEO POCKET COLOR|**beetle_ngp**<br />race|ngpc| .ngc .zip .7z|
