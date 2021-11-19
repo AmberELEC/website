@@ -44,7 +44,7 @@ The **bold** one is the default one.
 |[NEC<br />PC 9800](System-PC-98)|**np2kai**<br />nekop2|pc98| .d98 .zip .98d .fdi .fdd .2hd .tfd .d88 .88d .hdm .xdf .dup .hdi .thd .nhd .hdd .hdn|
 |NEC<br />PC ENGINE|**beetle_pce_fast**<br />beetle_supergrafx|pcengine| .pce .bin .zip .7z |
 |NEC<br />PC ENGINE CD|**beetle_pce_fast**<br />beetle_supergrafx|pcenginecd| .cue .ccd .chd .toc .m3u |
-|NEC<br />SUPERGRAFX|**beetle_supergrafx**<br />beetle_pce_fast|sgfx| .pce .sgx .cue .ccd .chd .zip .7z|
+|NEC<br />SUPERGRAFX|**beetle_supergrafx**|sgfx| .pce .sgx .cue .ccd .chd .zip .7z|
 |NEC<br />TURBOGRAFX 16|**beetle_pce_fast**<br />beetle_supergrafx|tg16| .pce .bin .zip .7z|
 |NEC<br />TURBOGRAFX CD|**beetle_pce_fast**<br />beetle_supergrafx|tg16cd| .cue .ccd .chd .toc .m3u |
 |NINTENDO<br />ENTERTAINMENT SYSTEM|**nestopia**<br />fceumm<br />quicknes|nes| .nes .unif .unf .zip .7z|
