@@ -6,7 +6,7 @@
 - Emulator/Core: Retroarch/EasyRPG
 - Path(s): 
   - games should be stored in `/roms/easyrpg`
-- Supported Extensions: `.zip .ldb`
+- Supported Extensions: `.zip .easyrpg .ldb`
 
 ## Games
 
