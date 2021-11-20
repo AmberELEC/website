@@ -12,7 +12,7 @@ RetroArch overrides are disabled by default. This was done because overrides can
 
 Overrides are stored in `/storage/roms/gamedata/retroarch/config`.
 
-To enable Overrides you have to start the RetroArch directly via Tools.
+To enable Overrides you have to start RetroArch directly via Tools.
 
 Main Menu -> Settings -> User Interface -> Menu Item Visibility -> Quick Menu -> Show Save Game Overrides -> On
 Back to Main Menu -> Configuration File -> Save Current Configuration
