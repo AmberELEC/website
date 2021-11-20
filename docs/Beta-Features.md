@@ -34,13 +34,13 @@ In order to add a remote to rclone you have to:
 
 ### Frequently Asked Questions
 Q: What is exactly being backed up?
-A: Saves, Screenshots, Backups.  There are a few edge cases on where this things are stored depending on the emulator that makes it a bit complex. The exact description of what is backed up is: [here](https://github.com/351ELEC/351ELEC/blob/main/packages/sysutils/rclone/cloud-sync-rules.conf)
+A: Saves, Screenshots, Backups. There are a few edge cases on where this things are stored depending on the emulator that makes it a bit complex. The exact description of what is backed up is: [here](https://github.com/351ELEC/351ELEC/blob/main/packages/sysutils/rclone/cloud-sync-rules.conf)
 
 Q: Where can I find `cloud-sync-rules.conf` on my device. I don't see it?
-A: The file is not created until Tools startup/backup is run.  However, it can be founder here: /roms/gamedata/rclone/
+A: The file is not created until Tools startup/backup is run. However, it can be found here: /roms/gamedata/rclone/
 
 Q: Can I edit it?
-A: We do not recommend editing this file, though it will work.  At a minimum, you should keep a copy of the edited file as we reserve the right to replace it on upgrade.
+A: We do not recommend editing this file, though it will work. At a minimum, you should keep a copy of the edited file as we reserve the right to replace it on upgrade.
 
 Q: Will it save the port's savedata?
 A: Maybe, not tested with all ports, if you think that some extensions can be added please let us know.
