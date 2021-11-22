@@ -2,7 +2,6 @@
 
 - [Transferring Bios](#transferring-bios)
 - [Enable Wifi](#enable-wifi)
-- [Install Drastic](#install-drastic)
 - [Update Themes](#update-themes)
 - [Scraping](#scraping)
 - [Game Options](#game-options)
@@ -20,12 +19,6 @@ Please note that if you're using an RG351V, the bios files go on the same SD car
 Wifi opens up a lot of features on 351ELEC. With wifi, you can install packages and themes, use RetroAchievements, and even play with others online. The RG351P requires an external Wifi adapter, as it doesn't have a wireless card built in.
 
 To enable Wifi, press `Start` to access the [Main Menu](Menus#main-menu), and then go into [Network Settings](Menus#network-settings). In that menu, toggle `Enable Wifi` to on, and enter your wifi network and password into `Wifi SSID` and `Wifi Key`.
-
-## Install Drastic
-
-This step is only necessary on version 20210603 (Crazy Hedgehog) and below. If you are using the beta you already have Drastic installed, and doing this will fail and may mess up your installation!
-
-Once you've [enabled wifi](#enable-wifi), you can install Drastic by pressing `Start` to access the [Main Menu](Menus#main-menu), go to [Updates & Downloads](Menus#updates--downloads), then `Packages`, and finally select `Drastic`.
 
 ## Update Themes
 

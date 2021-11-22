@@ -5,30 +5,34 @@
   <path d="M7.002 12a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 5.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995z"/>
 </svg> WARNING: You must download the correct version of 351ELEC for your device</div>
 
-## Version: 20210603 Crazy Hedgehog
+## Version: 20211122 <span style="color: #EEC448;text-shadow: -1px -1px #E944D7;">Pineapple Forest</span>
 
 ### Fresh Install
 
 To install 351ELEC, please follow the instructions on the [Installation page](Installation).
 
-<a class="btn btn-download" href="https://github.com/351ELEC/351ELEC/releases/download/20210603/351ELEC-RG351P.aarch64-20210603.img.gz">
+<a class="btn btn-download" href="https://github.com/351ELEC/351ELEC/releases/download/20211122/351ELEC-RG351P.aarch64-20211122.img.gz">
 	<img src="images/download-arrow.svg" alt="Download Arrow" style="width: 24px; height: 24px"/>
 	RG351P/M Download
 </a>
-<a class="btn btn-download" href="https://github.com/351ELEC/351ELEC/releases/download/20210603/351ELEC-RG351V.aarch64-20210603.img.gz">
+<a class="btn btn-download" href="https://github.com/351ELEC/351ELEC/releases/download/20211122/351ELEC-RG351V.aarch64-20211122.img.gz">
 	<img src="images/download-arrow.svg" alt="Download Arrow" style="width: 24px; height: 24px"/>
 	RG351V Download
+</a>
+<a class="btn btn-download" href="https://github.com/351ELEC/351ELEC/releases/download/20211122/351ELEC-RG351MP.aarch64-20211122.img.gz">
+	<img src="images/download-arrow.svg" alt="Download Arrow" style="width: 24px; height: 24px"/>
+	RG351MP Download
 </a>
 
 ### Updating from a previous version
 
 To update from a previous version of 351ELEC, download the update .tar file below for your device and place it in your `GAMES/update` folder. For more detailed instructions, please see the [Upgrade Instructions](Installation#upgrading).
 
-<a class="btn btn-download" href="https://github.com/351ELEC/351ELEC/releases/download/20210603/351ELEC-RG351P.aarch64-20210603.tar">
+<a class="btn btn-download" href="https://github.com/351ELEC/351ELEC/releases/download/20211122/351ELEC-RG351P.aarch64-20211122.tar">
 	<img src="images/download-arrow.svg" alt="Download Upgrade Arrow" style="width: 24px; height: 24px"/>
 	RG351P/M Upgrade Download
 </a>
-<a class="btn btn-download" href="https://github.com/351ELEC/351ELEC/releases/download/20210603/351ELEC-RG351V.aarch64-20210603.tar">
+<a class="btn btn-download" href="https://github.com/351ELEC/351ELEC/releases/download/20211122/351ELEC-RG351V.aarch64-20211122.tar">
 	<img src="images/download-arrow.svg" alt="Download Upgrade Arrow" style="width: 24px; height: 24px"/>
 	RG351V Upgrade Download
 </a>

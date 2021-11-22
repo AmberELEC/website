@@ -93,6 +93,10 @@ pages:
     title: Virtual Boy
     category: Consoles
     url: System-Virtual-Boy
+  - file: System-N64.md
+    title: N64
+    category: Consoles
+    url: System-N64
   - file: System-Sony-PlayStation.md
     title: Sony PlayStation
     category: Consoles

@@ -1,6 +1,10 @@
-<img src="images/351ELEC-logo.svg" id="TFOELEClogo" class="mx-auto d-block" alt="351ELEC Logo" style="width: 100%;max-width: 800px;"/>
+<img src="images/351ELEC-PF.png" id="TFOELEClogo" class="mx-auto d-block" alt="351ELEC Logo" style="width: 100%;max-width: 800px;"/>
 
-## Welcome to 351ELEC!
+# <span style="color: #EEC448; font-size: 1.5em;font-weight: bold; text-shadow: -3px 0 5px #E944D7;">Welcome to the Pineapple Forest!</span>
+
+The new stable release of 351ELEC is here, and it brings a ton of new features, improvements, and performance enhancements. You can download it from the [Download Page](Download). Make sure you download the correct version for your device.
+
+## About 351ELEC
 
 351ELEC is an open source firmware developed for the Anbernic RG351P/M/V/MP.
 
