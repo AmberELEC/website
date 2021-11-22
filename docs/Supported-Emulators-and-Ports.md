@@ -116,6 +116,7 @@ Some games/systems work almost perfectly, some others they may never work smooth
 
 |&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;System&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;|&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;Core/Emu&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;|ROM Path|Extension| 
 |---|---|---|---|
+|[Build Engine](System-Build-Engine)|**raze**|build| [.build](System-Build-Engine#how-to-create-a-build-file)|
 |[DOOM](System-Doom)|**lzdoom**<br />prboom|doom|[.doom](System-Doom#how-to-create-a-doom-file)|
 |[EASYRPG](System-EasyRPG)|**easyrpg**|easyrpg| .zip .easyrpg .ldb|
 |OPENBOR|**openbor**|openbor| .pak|
