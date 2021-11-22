@@ -145,6 +145,10 @@ pages:
     title: Wolfenstein 3D
     category: Game Engines
     url: System-Wolfenstein-3D
+  - file: System-Build-Engine.md
+    title: Build Engine
+    category: Game Engines
+    url: System-Build-Engine
   - file: PortMaster.md
     title: PortMaster
     category: Ports
