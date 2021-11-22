@@ -3,13 +3,14 @@
 * [Controls and Hot Keys](#controls-and-hot-keys)
 * [Adding Games](#adding-games)
 * [Accessing the handheld over a network](#accessing-the-handheld-over-a-network)
-* [Installing Drastic](#installing-drastic)
 * [Default Performance Settings](#default-performance-settings)
+* [How to Use Bezels](#how-to-use-bezels)
 * [ScummVM, Ports, and MS-DOS](#scummvm-ports-and-ms-dos)
 * [How to Update](#how-to-update-351elec) - Learn how to update to the newest version of 351ELEC
 * [Adding Background Music to EmulationStation](#adding-background-music-to-emulationstation)
 * [Netplay](#netplay)
 * [Backups and Indentity](#backups-and-identity) - Learn how to backup your settings
+* [Cloud Backup](#cloud-backup)
 * [Using the Movie Player](#using-the-movie-player)
 
 ## Controls and Hot Keys
@@ -68,6 +69,18 @@ Following is a list of all the Retrorun hotkeys:
 
 Game crashes are rare, but if you find that you cannot leave an emulator using the menu system, you can press **L2 + Select + Start** to kill the game process and return to EmulationStation.
 
+### Volume Hotkeys
+Unlike the RG351P, the RG351V and RG351MP have volume buttons instead of a volume wheel.
+- Volume can be changed by holding down the volume buttons.
+- As you hold longer, the speed of volume change increases.
+- `L3 + R1/L1` serve as 'backup' hotkeys for adjusting volume on all devices. They cannot be held down and must be pressed repeatedly
+
+### Brightness Hotkeys
+On devices which have volume buttons (RG351V and RG351MP), brightness can be changed by holding down the `Fn` (RG351V) or `R3` (RG351MP) buttons along with the volume buttons.
+- `Vol +` increases brightness and `Vol -` decreases.
+- As you hold longer, the speed of brightness change increases.
+- `L3 + R2/L2` serve as 'backup' hotkeys for adjusting brightness on all devices. They cannot be held down and must be pressed repeatedly.
+
 ## Adding Games
 
 Games may be added by copying them over the network (rsync, sftp), or by moving the microSD card to your PC. It is important to follow the existing directory structure or your games may not be discovered by 351ELEC.  Be sure to always properly eject the microSD or power off the handheld before removing it.
@@ -82,18 +95,6 @@ When connected to a network, the handheld listens for connections on port 22 (SS
 
 It is recommended that you change the root password or disable ssh while not in use using the Network Settings menu.  To change the root password type 'passwd' while connected to the handheld over ssh.
 
-## Installing Drastic
-
-This is only necessary on version 20210603 (Crazy Hedgehog) and below. If you are using the beta you already have Drastic installed, and doing this will fail and may mess up your installation!
-
-Due to licensing concerns, the Drastic emulator must be installed separately. To do so, you will need to connect to WIFI or Ethernet.  Once connected follow the steps below.
-* From the main interface, press Start.
-* Scroll to Updates & Downloads, and press A.
-* Scroll to Packages, and press A. 
-* Scroll to the Drastic package, and press A.
-
-Drastic will be downloaded and installed.  Restart EmulationStation when complete.
-
 ## Default Performance Settings
 
 N64, PSP, and Dreamcast emulators default to the maximum performance option. This is the best mode for most games, but if you are experiencing issues you can change the setting back to on demand performance (auto) for the system or on a game-by-game basis.  All other emulators and ports default to on demand performance.
@@ -104,6 +105,62 @@ N64, PSP, and Dreamcast emulators default to the maximum performance option. Thi
 * For game, select Advanced Game Options, and press A
 * Scroll to Enable Maximum Performance, and set to your preference
 * Press B repeatedly to back out to the main menu
+
+## How to use Bezels
+Bezel support allows filling up empty space ("black bars") that occurs in many systems that don't exactly match the screen aspect ratio.
+
+### Supported Systems
+351ELEC supports bezels for these systems:
+
+* Gameboy
+* Gameboy Color
+* Game Gear
+* Supervision
+* Pokemon Mini
+* NeoGeo Pocket
+* NeoGeo Pocket Color
+* Wonderswan 
+* Wonderswan Color
+
+### Bezel UI Overview
+Bezels are activated by choosing a folder for _Decorations_ in _Advanced System Options_ or _Advanced Game Options_. You can either use the pre-configured folder that come with the system (`DEFAULT`) or create your own folder in `/roms/bezels/` - you can use the folders in `/tmp/overlays/bezels/` as a blueprint.
+
+At the _Advanced System Options_ or _Advanced Game Options_ screen, you can also adjust _Decoration Options_.  This allows:
+
+- Overriding **System**.  This allows choosing a different *system*.  For example, gameboy color (`gbc`) instead of game boy (`gb`)
+- Overriding **Game**.  This allows specifying a specific game bezel.  Setting `NONE` will disable any game specific logic.
+- `OVERLAYS` - allows setting the overlays provided by the system.  This overlays are automatically detected from `.png` files in the `<system>/overlays` directory. 
+
+### Bezel Structure
+System bezels directly use `.png` files.  Game specific bezels use `.cfg` files.  The `.cfg` file simply contains a relative reference to the `.png` file to use.  This is done as often multiple games should reference the same `.png` bezel.
+
+If you have more than one bezel for a game you can create more than one .cfg file. They have to be named with an additional number before the .cfg part like _Tetris.1.cfg_, _Tetris.2.cfg_ etc.
+
+The structure looks as follows:
+```
+<system>.png                            #System bezel
+<system>/games/<rom name>.cfg           #Exact rom match - game specific bezel
+<system>/games/<rom name>.<number>.cfg  #Exact rom match - random game specific bazel
+<system>/overlays/<overlay name>.png    #System overlay (shadow/grid)
+```
+
+### Name matching
+The bezels will be looked for in the following order.  The first matched will be used.
+
+NOTE: The `<system name>` can be overriden in `Decoration Options` at the _Advanced System Options_ or the _Advanced Game Options_ level.  All following rules still apply.  If `<game>` override is set to none, none of the game specific options will be evaluated and only the `<system name>.png` will be checked.
+
+1. A game specific override has been set in `Decoration Options` in the UI.
+1. `<system name>/games/<full rom name>.cfg` The rom name matches exactly.  NOTE: `.cfg` is used instead of `.png`. Ex:  _Tetris (World) (rev. 1).cfg_
+1. `<system name>/games/<full rom name>.<number>.cfg` The rom name matches exactly plus a number.  This is used for multiple bezels that should be selected randomly. Ex:  _Tetris (World) (rev. 1).1.cfg_
+1. `<system name>/games/<rom name w/o parens>.cfg`.  Match the full romname without parentheses  Ex:  _Tetris.cfg_
+1. `<system name>/games/<rom name w/o parens>.<number>.cfg`.  Match the full romname without parentheses plus a number plus a number.  This is is used for multiple bezels that should be selected randomly.  Ex:  _Tetris.1.cfg_
+1. `<system name>.png`.  The system name matches the folder name in `roms`.  Ex: `gb.png`
+
+
+### Add Grids, Shadows or other overlays to a bezel
+Overlays can be added at the system level to add optional features such as shadows/grids/etc to the bezel.  Overlays will all default to on, but can be turned off in the UI
+
+For most standard-systems a shadow and grid png-file is included.
 
 ## ScummVM, Ports, and MS-DOS
 
@@ -166,6 +223,48 @@ Steps:
 8) Copy your backed up Games Partition to the SD card
 9) Insert your card and start the device
 10) During reboot it will restore identity.tar.gz and your ES set up will be restored
+
+## Cloud Backup
+
+Starting from 351ELEC vXX we introduced a tool to backup and restore your saves/states, screenshots and device backup to the cloud using rclone. Initial setup  requires the use of a commandline tool: `rclone` and should be considered an intermediate/advanced use case.
+
+rclone requires initial authorization to the cloud be done on a **computer** and not on the 351ELEC device.  This is because most clouds require OAuth/web browser based authentication not available on the device itself.  If you are unfamiliar, a common example of OAuth is: a login option with google/etc on an unassociated website - this pops up a google page to login and verify (without sending your google user/password) to the other site.
+
+Once the initial authentication is done, rclone will give you a `rclone.conf` file that can be stored on your 351ELEC device at: `/roms/gamedata/rclone/rclone.conf`
+
+After installation, menu options under `Tools` in 351ELEC will allow you to backup and restore from the cloud on demand.
+
+### Cloud Backup/Restor Installation Instructions
+
+In order to add a remote to rclone you have to:
+- [download rclone](https://rclone.org/downloads/) for your platform and extract it somewhere
+- Open a command prompt/terminal inside the rclone folder and type the following:
+    - ```
+      rclone config
+      add remote
+      ```
+    - After this, follow the instructions for your specific cloud-provieder
+    - IMPORTANT: your remote must be named 351remote (all lowercase), other names will not work.  You can rename manually in `rclone.conf` if you forget.
+    - When done, an rclone.conf file will be created. Type: `rclone config file` to display it's location
+
+- Copy/move that rclone.conf in your sd card in /roms/gamedata/rclone/rclone.conf (you may need to create the `rclone` folder).
+- Start the cloud backup or restore tool from the TOOLS section on your device
+
+### Frequently Asked Questions
+Q: What is exactly being backed up?
+A: Saves, Screenshots, Backups. There are a few edge cases on where this things are stored depending on the emulator that makes it a bit complex. The exact description of what is backed up is: [here](https://github.com/351ELEC/351ELEC/blob/main/packages/sysutils/rclone/cloud-sync-rules.conf)
+
+Q: Where can I find `cloud-sync-rules.conf` on my device. I don't see it?
+A: The file is not created until Tools startup/backup is run. However, it can be found here: /roms/gamedata/rclone/
+
+Q: Can I edit it?
+A: We do not recommend editing this file, though it will work. At a minimum, you should keep a copy of the edited file as we reserve the right to replace it on upgrade.
+
+Q: Will it save the port's savedata?
+A: Maybe, not tested with all ports, if you think that some extensions can be added please let us know.
+
+- [Rclone downloads](https://rclone.org/downloads/)
+- [cloud-sync-rules.conf](https://github.com/351ELEC/351ELEC/blob/main/packages/sysutils/rclone/cloud-sync-rules.conf)
 
 ## Using the Movie Player
 351ELEC includes a movie player that can play a variety of file formats, and use the handheld controls to skip forward, skip backwards, pause, and exit.

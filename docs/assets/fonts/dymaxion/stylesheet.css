@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'DymaxionScript';
+    src: url('DymaxionScript.eot');
+    src: url('DymaxionScript.eot?#iefix') format('embedded-opentype'),
+        url('DymaxionScript.woff2') format('woff2'),
+        url('DymaxionScript.woff') format('woff'),
+        url('DymaxionScript.ttf') format('truetype'),
+        url('DymaxionScript.svg#DymaxionScript') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

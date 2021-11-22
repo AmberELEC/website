@@ -10,9 +10,9 @@
 
 ### Video Overview
 
-While Retro Game Corps' video is for a very old version of 351ELEC, the steps in the video are still correct. Following them will get you a working version of the latest 351ELEC release.
+{% include youtube.html video="Sh5W7vw9Lqc" %}
 
-[https://www.youtube.com/watch?v=3uHuuJ3WZBY](https://www.youtube.com/watch?v=3uHuuJ3WZBY)
+[https://www.youtube.com/watch?v=Sh5W7vw9Lqc](https://www.youtube.com/watch?v=Sh5W7vw9Lqc)
 
 > (credit to [Retro Game Corps](https://www.youtube.com/channel/UCoZQiN0o7f36H7PaW4fVhFw) for creating this video)
 
