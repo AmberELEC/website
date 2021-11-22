@@ -4,6 +4,8 @@
 
 The new stable release of 351ELEC is here, and it brings a ton of new features, improvements, and performance enhancements. You can download it from the [Download Page](Download). Make sure you download the correct version for your device.
 
+If you want to know all the new cool features, take a look at the [Release Notes](https://github.com/351ELEC/351ELEC/releases/tag/20211122)!
+
 ## About 351ELEC
 
 351ELEC is an open source firmware developed for the Anbernic RG351P/M/V/MP.
