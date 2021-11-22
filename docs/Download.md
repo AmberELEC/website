@@ -36,6 +36,10 @@ To update from a previous version of 351ELEC, download the update .tar file belo
 	<img src="images/download-arrow.svg" alt="Download Upgrade Arrow" style="width: 24px; height: 24px"/>
 	RG351V Upgrade Download
 </a>
+<a class="btn btn-download" href="https://github.com/351ELEC/351ELEC/releases/download/20211122/351ELEC-RG351MP.aarch64-20211122.tar">
+	<img src="images/download-arrow.svg" alt="Download Upgrade Arrow" style="width: 24px; height: 24px"/>
+	RG351MP Upgrade Download
+</a>
 
 ### Beta
 
