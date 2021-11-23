@@ -43,11 +43,11 @@ Every hotkey is commanded by combining the SELECT button with the desired functi
 
 ** Rewind is currently disabled by default because enabling it can cause significant slowdown in games. It needs to be enabled before the hotkey will work.
 
-### Retrorun Hotkeys
+### RetroRun Hotkeys
 
-Retrorun is a separate emulator from RetroArch, with its own cores. It's included because there are some games it can play that RetroArch fails at. Retrorun is very barebones. There is no menu, there are no configuration files, and there is no controller configuration. What you see is what you get.
+Retrorun is a separate emulator from RetroArch, with its own cores. It's included because there are some games it can play that RetroArch fails at. RetroRun is very barebones. There is no menu, there are no configuration files, and there is no controller configuration. What you see is what you get.
 
-Following is a list of all the Retrorun hotkeys:
+Following is a list of all the RetroRun hotkeys:
 
 | Command | Key |
 |----|----|
