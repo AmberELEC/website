@@ -17,11 +17,11 @@ Sample directory tree:
 ├── duke3d/
 │   └── DUKE3D.GRP
 ├── sw/
-│   ├── sw
+│   ├── sw/
 |   |   └── SW.GRP
-│   ├── td
+│   ├── td/
 |   |   └── TD.GRP
-│   ├── wt
+│   ├── wt/
 |   |   └── WT.GRP
 │   ├── track02.ogg
 │   ├── track04.ogg
