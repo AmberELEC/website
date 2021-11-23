@@ -48,10 +48,10 @@ pages:
     title: Contributing to 351ELEC
     category: Contributing
     url: Contributing-to-351ELEC
-  - file: Beta-Features.md
-    title: Beta Features
+  - file: Pre-Release-Features.md
+    title: Pre-Release Features
     category: Contributing
-    url: Beta-Features
+    url: Pre-Release-Features
   - file: Supported-Emulators-and-Ports.md
     title: Full List
     category: Systems
