@@ -64,7 +64,7 @@ The **bold** one is the default one.
 |MAGNAVOX<br />ODYSSEY 2|**o2em**|odyssey| .bin .BIN .zip .7z|
 |PHILIPS<br />VIDEOPAC|**o2em**|videopac| .bin .BIN .zip .7z|
 |[PC (DOS x86)](System-MS-DOS)|**dosbox_pure**<br />dosbox_svn|pc| .dosz, disk images (iso, cue, img, ima, vhd) can be put into the .dosz|
-|[PICO-8](System-Pico-8)|**pico8**|pico-8|.png .p8|
+|[PICO-8](System-PICO-8)|**pico8**|pico-8|.png .p8|
 |[SONY<br />PLAYSTATION](System-Sony-PlayStation)|**pcsx_rearmed**<br />duckstation<br />swanstation|psx| .iso .bin .cue .img .pbp .mdf .toc .cbn .m3u .ccd .chd|
 |SEGA<br />SG-1000|**gearsystem**<br />genesis_plus_gx<br />picodrive|sg-1000|.7z .bin .sg .zip|
 |SEGA<br />SC-3000|**bluemsx**|sc-3000| .sg .bin .zip .7z|
