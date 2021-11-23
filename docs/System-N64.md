@@ -23,3 +23,7 @@ Mupen64Plus SA supports two different video plugins: Glide64mk2 and Rice. These 
 ### Control Configuration
 
 The controller configuration file for mupen64plussa is stored in `GAMES/gamedata/mupen64plussa/InputAutoCfg.ini`. This file will only exist if you've started up mupen64plussa at least once. It's a big file, but the relevant section is the last one, called `[OpenSimHardware OSH PB Controller]`. By editing this section, you can change the button assignments that Mupen uses. To find out the button codes, please see the [Buttons Reference](Advanced-Topics#buttons-reference).
+
+### Zipped Roms
+
+Mupen64Plus SA does not support zipped roms.
