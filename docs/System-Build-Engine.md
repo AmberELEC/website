@@ -15,7 +15,7 @@ Sample directory tree:
 ```
 /storage/roms/build/
 ├── duke3d/
-│   ├── DUKE3D.GRP
+│   └── DUKE3D.GRP
 ├── sw/
 │   ├── sw
 |   |   └── SW.GRP
@@ -23,8 +23,9 @@ Sample directory tree:
 |   |   └── TD.GRP
 │   ├── wt
 |   |   └── WT.GRP
-│   └── track02.ogg
-│   └── track03.ogg
+│   ├── track02.ogg
+│   ├── track04.ogg
+│   └── track...
 ├── Duke Nukem 3D.build
 ├── Shadow Warrior.build
 ├── Twin Dragon.build
