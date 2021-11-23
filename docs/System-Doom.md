@@ -3,7 +3,8 @@
 ## Overview
 
 - Emulators: 
-  - `lzdoom` (Standalone) (Default)
+  - `gzdoom` (Standalone) (Default)
+  - `lzdoom` (Standalone)
   - `prboom`
 - Path(s): 
   - doom
