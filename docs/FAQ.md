@@ -7,8 +7,8 @@
 
 ***
 
-{: #beta-cores }
-**Q:** [![link](images/link-45deg.svg)](#beta-cores) I installed the beta but the cores and emulators are the same as the current stable release.  I want to help test $MyFavoriteEmulator/$MyFavoriteCore/$SomeNewGameOrWhatever on 351ELEC!
+{: #pre-release-cores }
+**Q:** [![link](images/link-45deg.svg)](#pre-release-cores) I installed the pre-release but the cores and emulators are the same as the current stable release.  I want to help test $MyFavoriteEmulator/$MyFavoriteCore/$SomeNewGameOrWhatever on 351ELEC!
 
 **A:** This is intentional; you will only see the system improvements our team is actively developing.  By not tracking the daily movements of our upstream projects, we are allowed to focus on the 351ELEC environment.
 

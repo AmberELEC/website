@@ -1,7 +1,7 @@
 # Contributing to 351ELEC
 
 * [Reporting Bugs](#reporting-bugs)
-* [Beta Builds](#beta-builds)
+* [Pre-Release Builds](#pre-release-builds)
 * [Development / PR Builds](#development--pr-builds)
 * [Contributing Code](#contributing-code)
 * [Setting up the environment](#setting-up-the-environment)
@@ -12,26 +12,26 @@
 
 ## Reporting Bugs
 * Check you are using latest released version, only released versions are supported.  
-* If you are using a beta build, do not open an issue in [351ELEC](https://github.com/351ELEC/351ELEC).  Instead, report the findings in the `#beta-feedback` channel in [discord](https://discord.gg/R9Er7hkRMe) (Under "Community Contribution").
-* Before reporting an issue with the beta build, try reproducing the issue on the current release.  Please mention the results up front when you bring your issue to Discord.  For example: `When I try xyz in beta build ABC, something bad happens.  However, when I try xyz in in the latest release, I do not see this problem.  Is this a known issue?`.  Try and keep comments concise and constructive.
+* If you are using a pre-release build, do not open an issue in [351ELEC](https://github.com/351ELEC/351ELEC).  Instead, report the findings in the `#pre-release-feedback` channel in [discord](https://discord.gg/R9Er7hkRMe) (Under "Community Contribution").
+* Before reporting an issue with the pre-release build, try reproducing the issue on the current release.  Please mention the results up front when you bring your issue to Discord.  For example: `When I try xyz in pre-release build ABC, something bad happens.  However, when I try xyz in in the latest release, I do not see this problem.  Is this a known issue?`.  Try and keep comments concise and constructive.
 * Check the existing issues to see if your bug has already reported.  If it has been reported, do not open another bug report.  If it is not reported, use a template and fill it out completely.  Issues opened without using the templates will be closed.
 * Be patient, as we are volunteers and working on the project in our spare time.
 
-## Beta Builds
-**IMPORTANT NOTE**: Beta builds are for advanced users to test fixes or explore new functionality. 
+## Pre-Release Builds
+**IMPORTANT NOTE**: Pre-Release builds are for advanced users to test fixes or explore new functionality. 
 
-Builds are released each night when there are new commits to `main`.  Builds are scheduled at 8:00pm UTC, releasing around 8:30 PM UTC.  Users should **expect issues** and have a **backup** of their configs just in case a reflash is needed, etc.  Do **not** file issues on beta builds, use [discord](https://discord.gg/bmXtCt88Tz) (#beta-feedback).  See "[Reporting Bugs](#reporting-bugs)" above.
+Builds are released each night when there are new commits to `main`.  Builds are scheduled at 8:00pm UTC, releasing around 8:30 PM UTC.  Users should **expect issues** and have a **backup** of their configs just in case a reflash is needed, etc.  Do **not** file issues on pre-release builds, use [discord](https://discord.gg/bmXtCt88Tz) (#pre-release-feedback).  See "[Reporting Bugs](#reporting-bugs)" above.
 
-#### Finding/Installing Beta Builds
-The latest beta build can be found on the **351ELEC-beta** [releases](https://github.com/351ELEC/351ELEC-beta/releases/) page.  Builds are installed as normal (using either a `.tar` or a `.img.gz`).
+#### Finding/Installing Pre-Release Builds
+The latest pre-release build can be found on the **351ELEC-pre-release** [releases](https://github.com/351ELEC/351ELEC-pre-release/releases/) page.  Builds are installed as normal (using either a `.tar` or a `.img.gz`).
 
-### Using Beta Builds
-Beta builds should operate normally.  From the device, you can update to the latest beta build by specifying the `BETA` channel in `Updates & Downloads`. 
+### Using Pre-Release Builds
+Pre-Release builds should operate normally.  From the device, you can update to the latest pre-release build by specifying the `BETA` channel in `Updates & Downloads`. 
 
-If you would like to switch back to the current release, the `RELEASE` channel will switch back to a released version. NOTE: While the `20210603` release is still current, if you switch back to this release you will no longer have automatic updates!
+If you would like to switch back to the current release, the `RELEASE` channel will switch back to a released version.
 
 ## Development / PR Builds
-Dev and PR builds are intended primarily for developers to get the latest changes from `main` or a `PR` before the build hits 'beta'.  Use at your own risk.
+Dev and PR builds are intended primarily for developers to get the latest changes from `main` or a `PR` before the build hits 'pre-release'.  Use at your own risk.
 
 **Finding/Installing Development Builds**
 - To find the latest development build, click on the 'green checkbox'(<img src="./images/green-check.png" alt="green checkbox" width="20">) on the 351ELEC [main](https://github.com/351ELEC/351ELEC) page. Then click *Details*.

@@ -21,7 +21,3 @@ While all consoles will give the "No Gamepads Detected" error at certain times, 
 If you do open an issue with AliExpress or Amazon, please do not close the issue until your console is replaced or you get your money back. Some sellers will try to get you to close the issue preemptively, and then not follow through with the agreed fix.
 
 If you know how to solder, you may be able to replace this chip on your own. The chip you want is the GL852G.
-
-## RG351V Black Lines
-
-Some recent RG351V handhelds have shipped with a different screen that forms black lines and smears on the screen as the device heats up. Fortunately, there is a solution to this issue. It's implemented in the current [Beta build](Contributing-to-351ELEC#beta-builds), and will be incorporated into the next stable release of 351ELEC.

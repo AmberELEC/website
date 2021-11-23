@@ -41,6 +41,6 @@ To update from a previous version of 351ELEC, download the update .tar file belo
 	RG351MP Upgrade Download
 </a>
 
-### Beta
+### Pre-Release
 
-All downloads on this page are for the current stable version of 351ELEC. If you'd like to test out the latest changes and give feedback, you can download the beta version of 351ELEC. Please note that the beta is unstable and may crash and break. Because of that, you shouldn't use the beta for daily use unless you're comfortable taking that risk. For more information and instructions on how to install the beta, please see the [Beta Build Instructions](Contributing-to-351ELEC#beta-builds).
+All downloads on this page are for the current stable version of 351ELEC. If you'd like to test out the latest changes and give feedback, you can download the pre-release version of 351ELEC. Please note that the pre-release is unstable and may crash and break. Because of that, you shouldn't use the pre-release for daily use unless you're comfortable taking that risk. For more information and instructions on how to install the pre-release, please see the [Pre-Release Build Instructions](Contributing-to-351ELEC#pre-release-builds).
