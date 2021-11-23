@@ -26,4 +26,4 @@ The controller configuration file for mupen64plussa is stored in `GAMES/gamedata
 
 ### Zipped Roms
 
-Mupen64Plus SA does not support zipped roms.
+Mupen64Plus SA & RetroRun do not support zipped roms.
