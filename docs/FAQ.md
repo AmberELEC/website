@@ -166,3 +166,12 @@ The easiest way to get the brightness set up if you have this issue is to change
 **Q:** [![link](images/link-45deg.svg)](#ra-hardcore) Retroachievements Hardcoremode is not working
 
 **A:** Disable the netplay option, hardcore mode does not run with netplay. For fbneo disable patched romsets in the Options as well.
+
+***
+
+{: #cps }
+**Q:** [![link](images/link-45deg.svg)](#cps) My CPS games are missing
+
+**A:** Support for separate CPS folders was removed in Pineapple Forest. It doesn't really make sense to have separate folders for individual arcade boards when the arcade roms themselves come from an arcade romset (either MAME or fbneo). It's recommended that instead of using cps1-3 folders, you use the CPS Auto Collections that are built into ES. To activate them, place your CPS roms in the proper arcade folder, scape them, and then turn on the CPS Auto Collections in the Game Collections menu under the main menu.
+
+If you absolutely don't want to use Auto Collections and just want support for cps1-3 folders, you can add this [Capcom ES Systems Config](resources/es_systems/es_systems_capcom.cfg) to `/storage/.config/emulationstation/`. See [How to work with es_systems.cfg on 351ELEC](Advanced-Topics#how-to-work-with-es_systemscfg-on-351elec) for more information on using custom es_systems configurations.
