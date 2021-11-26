@@ -24,6 +24,10 @@ pages:
     title: Getting to Know 351ELEC
     category: Guides
     url: Getting-to-Know-351ELEC
+  - file: Collections.md
+    title: Collections
+    category: Guides
+    url: Collections
   - file: Menus.md
     title: Menus
     category: Guides

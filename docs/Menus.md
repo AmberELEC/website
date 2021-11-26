@@ -2,17 +2,15 @@
 
 Accessed by pressing the `Start` button in EmulationStation
 
-- [System Settings](#system-settings)
-- Retroachievements - A list of completed Retroachievements. Only appears if you turn on Show in Main Menu in the [Retroachievements Settings](#retroachievements-settings)
 - [Games Settings](#games-settings)
-- [Controllers Settings](#controllers-settings) - Not worth messing with
-- [UI Settings](#ui-settings)
 - [Game Collection Settings](#game-collection-settings)
+- Retroachievements - A list of completed Retroachievements. Only appears if you turn on Show in Main Menu in the [Retroachievements Settings](#retroachievements-settings)
+- [System Settings](#system-settings)
+- [UI Settings](#ui-settings)
 - [Sound Settings](#sound-settings)
 - [Network Settings](#network-settings)
 - [Scrape](#scraper)
 - [Updates & Downloads](#updates--downloads)
-- [Emulationstation Settings](#emulationstation-settings) - Not worth messing with
 - [Quit](#quit)
 
 # Quick Access
@@ -21,9 +19,9 @@ Accessed by pressing the `Select` button on the top level of the EmulationStatio
 
 **Quick Access**
 - Launch Screensaver
-- Restart EmulationStation
 
 **Quit**
+- Restart EmulationStation
 - Restart System
 - Shutdown System
 
@@ -43,23 +41,25 @@ Accessed by pression the `Select` button while in a System menu in EmulationStat
 - View Customization
 
 **Options**
-- [Game Options](#game-options)
 - [Advanced System Options](#emulator-options)
 
 ## Game Options
 
-Accessed by pressing the `X` button or from [View Options](#view-options) > Game Options while highlighting a game
+Accessed by pressing the `X` button while highlighting a game
 
 **Game Medias**
 - View Game Manual
+- View Fullscreen Video
 - View Game Achievements
 
 **Game**
 - Save Snapshots
+- Netplay Hosting/Options
+- Delete Game
 
 **Collections**
 - Add to Favorites
-- Add to {Editable Collection}
+- Add to Custom Collection..
 
 **Options**
 - Scrape
@@ -73,16 +73,19 @@ For Individual Systems: Accessed from [View Options](#view-options) > Advanced S
 For Individual Games: Accessed from [Game Options](#game-options) > Advanced Game Options
 
 - Emulator
-- Game Ratio
-- Video Mode
-- Smooth Games - Turns Bilinear Filtering on or off
+- Game Aspect Ratio
+- Bilinear Filtering
 - Rewind - Enable rewind for compatible systems. This can cause serious performance problems, and should be enabled as needed on a per system or game basis
-- Auto Save/Load
-- Shaders Set
-- Integer Scale (for most handhelds)
-- RGA Scale (for most consoles)
+- Auto Save/Load On Game Launch
+- Shader Set
+- Filter Set
+- Integer Scale (Pixel Perfect)
+- RGA Scale
 - Enable Max Performance - Forces the system to always run at full clockspeed. This can drain the battery very quickly, and should be set on individual games only when needed
+- Decoration Set
+- Decoration Options
 - Latency Reduction
+- Colorization
 
 ## System Settings
 
@@ -91,16 +94,14 @@ Accessed through [Main Menu](#main-menu) > System Settings
 **System**
 - Information - General information about the system
 - Timezone - Set the system's timezone
-- Language - Set the system language
-- UI Mode - Switch to Kiosk or Kid mode
+- Show Clock in 12-Hour Format
 
 **Hardware**
 - Brightness - Adjust the system brightness
-- Video Output - N/A
-- Audio Output - N/A
 - Enable Overclock - Enable or disable overclock on the system. Overclocking can give a slight performance boost, but can cause errors on some systems
 
 **Advanced**
+- Developer
 - [Danger Zone!](#danger-zone) - A number of advanced options including backups and config resets
 
 ### Danger Zone!
@@ -118,27 +119,29 @@ Accessed through [Main Menu](#main-menu) > [System Settings](#system-settings) >
 Accessed through [Main Menu](#main-menu) > Games Settings
 
 **Tools**
-- Update Games Lists - Refresh the list of roms and scraped data
+- Update Gamelists - Refresh the list of roms and scraped data
 
-**Default Settings** - Change the emulation defaults for the entire system. It's usually better to change these settings on a per-system basis
-- Game Ratio - 
-- Smooth Games - Turns Bilinear Filtering on or off
-- Show Retroarch Fps
-- Enable Game Splash
+**Default Global Settings** - Change the emulation defaults for the entire system. It's usually better to change these settings on a per-system basis
+- Game Aspect Ratio - 
+- Bilinear Filtering
 - Enable Max Performance - Forces the system to always run at full clockspeed. This can drain the battery very quickly, and should never be set globally
 - Rewind - Enable rewind for compatible systems. This can cause serious performance problems, and should be enabled as needed on a per system or game basis
-- Auto Save/Load
-- Shaders Set
-- Integer Scale (for most handhelds)
-- RGA Scale (for most consoles)
+- Integer Scaling (Pixel Perfect)
+- RGA Scale
+- Auto Save/Load On Game Launch
+- Incremental Savestates
+- Shader Set
+- Filter Set
+- Decoration Set
 - Latency Reduction
 - AI Game Translation
-- Per System Advanced Configuration
+
+**Settings**
+- [Per System Advanced Configuration](#emulator-options)
 
 **System Settings**
 - [Retroachievements Settings](#retroachievements-settings)
 - [Netplay Settings](#netplay-settings)
-- Diablo Server
 - Missing Bios - Scan for missing BIOS files
 
 ### Retroachievements Settings
@@ -149,15 +152,20 @@ Accessed through the [Main Menu](#main-menu) > [Games Settings](#games-settings)
 - Retroachievements - Toggle Retroachievements on or off
 - Hardcore Mode - Toggle hardcore mode on or off
 - Leaderboards
+- Challenge Indicators
+- Rich Presence
+- Badges
+- Test Unofficial Achievements
+- Unlock Sound
 - Verbose Mode
 - Automatic Screenshot
 - Username - Your username on [retroachievements.org](https://retroachievements.org/)
 - Password - Your password for [retroachievements.org](https://retroachievements.org/). Special characters can cause login issues
-- Show in Main Menu
+- Show Retroachievements Entry In Main Menu
 
 **Game Indexes**
-- Find All Games
-- Find New Games
+- Index New Games At Startup
+- Index Games
 
 ### Netplay Settings
 
@@ -170,22 +178,8 @@ Accessed through the [Main Menu](#main-menu) > [Games Settings](#games-settings)
 - Use Relay Server
 
 **Game Indexes**
-- Check Missing Indexes At Startup
-- Find All Games
-- Find New Games
-
-### Diablo Server
-
-Accessed through the [Main Menu](#main-menu) > [Games Settings](#games-settings) > Diablo Server
-
-- Server IP/Name
-- Server Password
-
-## Controllers Settings
-
-Accessed through the [Main Menu](#main-menu) > Controllers Settings
-
-Don't mess with this stuff. It's not going to get you anywhere good.
+- Index New Games At Startup
+- Index Games
 
 ## UI Settings
 
@@ -194,13 +188,16 @@ Accessed through the [Main Menu](#main-menu) > UI Settings
 **Appearence**
 - Theme Set
 - Theme Configuration
+- Language
+- UI Mode - Allows you to enter Kiosk or Kid mode to lock off some UI options
+- Retroarch Menu Driver - Change the menu style for RetroArch
+- Show Retroarch FPS
+- Enable Game Splash
 
 **Display Options**
-- Popup Notification Timeout
 - Screensaver Settings
-- Transition Style
+- List Transition Style
 - Game Launch Transition
-- Quick System Select
 - Show Clock
 - On-Screen Help
 - Show Battery Status
@@ -210,7 +207,11 @@ Accessed through the [Main Menu](#main-menu) > UI Settings
 - Show Hidden Files
 - Show Folders
 - Show '..' Parent Folder
-- Show Filenames in Lists
+- Show Region Flag
+- Show Savestate Icon
+- Show Manual Icon
+- Show Filenames Instead
+- Ignore Leading Articles When Sorting
 
 ## Game Collection Settings
 
@@ -219,6 +220,7 @@ Accessed through the [Main Menu](#main-menu) > Game Collection Settings
 **Collections To Display**
 - Systems Displayed
 - Automatic Game Collections
+- Custom Game Collections
 
 **Create Custom Collection**
 - Create New Editable Collection
@@ -244,13 +246,14 @@ Accessed through the [Main Menu](#main-menu) > Sound Settings
 **Music**
 - Frontend Music
 - Display Song Titles
+- Song Title Display Duration
 - Only Play System-Specific Music Folder
-- Play Theme Musics
+- Play System Specific Music
 - Lower Music When Playing Video
 
 **Sounds**
 - Enable Navigation Sounds
-- Enable Video Audio
+- Enable Video Preview Audio
 
 ## Network Settings
 
@@ -262,7 +265,7 @@ Accessed through the [Main Menu](#main-menu) > Network Settings
 - Show Network Indicator
 
 **Settings**
-- Enable Bluetooth
+- Hostname
 - Enable SSH
 - Enable Samba
 - Enable Wifi
@@ -273,16 +276,18 @@ Accessed through the [Main Menu](#main-menu) > Network Settings
 
 Accessed through the [Main Menu](#main-menu) > Scrape
 
-- Scrape From
+- Scraping Database
 - Image Source
 - Box Source
 - Logo Source
 - Scrape Ratings
 - Scrape Videos
 - Scrape Fanart
+- Scrape Box Backside
 - Scrape Map
+- Scrape Titleshot
+- Scrape Cartridge
 - Scrape Manual
-- Scrape Padtokey Settings
 - Username
 - Password
 
@@ -294,22 +299,15 @@ Accessed through the [Main Menu](#main-menu) > Updates & Downloads
 - Themes
 - Packages
 
-## EmulationStation Settings
-
-Accessed through the [Main Menu](#main-menu) > EmulationStation Settings
-
-Probably don't mess with this stuff
-
-- Video Mode
-- Audio Device
-- Always Show Boot Video
-- Developer
+**Software Updates**
+- Check for Updates - Whether to automatically check for updates
+- Update Channel - Whether to update to stable builds or pre-release builds
+- Start Update
 
 ## Quit
 
 Accessed through the [Main Menu](#main-menu) > Quit
 
 - Restart EmulationStation
-- Start RetroArch
 - Restart System
 - Shutdown System
