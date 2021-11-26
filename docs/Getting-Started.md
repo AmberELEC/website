@@ -4,9 +4,8 @@
 - [Enable Wifi](#enable-wifi)
 - [Update Themes](#update-themes)
 - [Scraping](#scraping)
-- [Shaders](#shaders)
-- [Bezels and Overlays](#bezels-and-overlays)
 - [Game Options](#game-options)
+- [Game Collections](#game-collections)
 - [Playing Games](#playing-games)
 - [Sleep](#sleep)
 
@@ -46,11 +45,11 @@ There are two ways to set per system settings. The easier one is to go into the 
 
 To set up the settings for a game, hover over the game and press X to access the [Game Options](Menus#game-options), and select [Advanced Game Options](Menus#emulator-options).
 
-## Shaders
+### Shaders
 
 You can change shaders in the game options. While there are many to choose from, some of them can cause pretty bad slowdowns. Some popular shaders you might want to try include `Interpolation/Pixellate.glslp` and `Interpolation/Sharp-Bilinear-2X-Prescale.glslp`.
 
-## Bezels and Overlays
+### Bezels and Overlays
 
 351ELEC now supports using Bezels directly from the ES menu. For more informations please see [How to use Bezels](Getting-to-Know-351ELEC#how-to-use-bezels).
 
