@@ -50,7 +50,7 @@ You can change shaders in the game options. While there are many to choose from,
 
 ### Bezels and Overlays
 
-Curretly, bezels and overlays have to be set in the RetroArch. Because of that, it's a little bit more complicated to set it up. If you'd like to add bezels or overlays, check out the [RetrArch Overrides](Advanced-Topics#retroarch-overrides) section.
+351ELEC now supports using Bezels directly from the ES menu. For more informations please see [How to use Bezels](Getting-to-Know-351ELEC#how-to-use-bezels).
 
 ## Playing Games
 
