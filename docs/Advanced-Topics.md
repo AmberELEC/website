@@ -32,41 +32,41 @@ The following RetroArch settings have been recommended by Vanfanel to minimize i
 
 |Button|RetroArch Ref|Mupen Ref|
 |----|----|----|
-|A|15|0|
-|B|16|1|
-|X|17|2|
-|Y|18|3|
+|A|15|P/M/V: button(0)<br />MP: button(1)|
+|B|16|P/M/V: button(1)<br />MP: button(0)|
+|X|17|P/M/V: button(2)<br />MP: button(2)|
+|Y|18|P/M/V: button(3)<br />MP: button(3)|
 | | | |
-|L1|19|4|
-|R1|20|5|
+|L1|19|P/M/V: button(4)<br />MP: button(4)|
+|R1|20|P/M/V: button(5)<br />MP: button(5)|
 | | | |
-|Start|21|6|
-|Select|22|7|
+|Start|21|P/M/V: button(6)<br /> MP: button(13)|
+|Select|22|P/M/V: button(7)<br />MP: button(12)|
 | | | |
-|L3|23|8|
-|R3 (P/M)<br>F (V)|24|9|
+|L3|23|P/M/V: button(8)<br />MP: button(14)|
+|R3 (P/M)<br>F (V)|24|P/M/V: button(9)<br />MP: button(15)|
 | | |
-|L2|25|10|
-|R2|26|11|
+|L2|25|P/M/V: button(10)<br />MP: button(6)|
+|R2|26|P/M/V: button(11)<br />MP: button(7)|
 | | | |
-|DPad U|Hat #0 up|hat(0 Up)|
-|DPad D|Hat #0 down|hat(0 Down)|
-|DPad L|Hat #0 left|hat(0 Left)|
-|DPad R|Hat #0 right|hat(0 Right)|
+|DPad U|Hat #0 up|P/M/V: hat(0 Up)<br />MP: button(8)|
+|DPad D|Hat #0 down|P/M/V: hat(0 Down)<br />MP: button(9)|
+|DPad L|Hat #0 left|P/M/V: hat(0 Left)<br />MP: button(10)|
+|DPad R|Hat #0 right|P/M/V: hat(0 Right)<br />MP: button(11)|
 | | | |
-|Left Stick U|+1|+1|
-|Left Stick D|-1|-1|
-|Left Stick L|+0|+0|
-|Left Stick R|-0|-0|
-|Left Stick<br>X Axis| |axis(0+,0-)|
-|Left Stick<br>Y Axis| |axis(1+,1-)|
+|Left Stick U|+1|P/M/V: axis(1+)<br />MP: axis(1-)|
+|Left Stick D|-1|P/M/V: axis(1-)<br />MP: axis(1+)|
+|Left Stick L|+0|P/M/V: axis(0+)<br />MP: axis(0-)|
+|Left Stick R|-0|P/M/V: axis(0-)<br />MP: axis(0+)|
+|Left Stick<br>X Axis| |P/M/V: axis(0+,0-)<br />MP: axis(0-,0+)|
+|Left Stick<br>Y Axis| |P/M/V: axis(1+,1-)<br />MP: axis(1-,1+)|
 | | |
-|Right Stick U<br>(P/M Only)|-3|-3|
-|Right Stick D<br>(P/M Only)|+3|+3|
-|Right Stick L<br>(P/M Only)|-2|-2|
-|Right Stick R<br>(P/M Only)|+2|+2|
-|Right Stick<br>X Axis<br>(P/M Only)| |axis(2+,2-)|
-|Right Stick<br>Y Axis<br>(P/M Only)| |axis(3+,3-)|
+|Right Stick U<br>(P/M/MP Only)|-3|P/M: axis(3-)<br />MP: axis(3+)|
+|Right Stick D<br>(P/M/MP Only)|+3|P/M: axis(3+)<br />MP: axis(3-)|
+|Right Stick L<br>(P/M/MP Only)|-2|P/M: axis(2-)<br />MP: axis(2+)|
+|Right Stick R<br>(P/M/MP Only)|+2|P/M: axis(2+)<br />MP: axis(2-)|
+|Right Stick<br>X Axis<br>(P/M/MP Only)| |P/M: axis(2+,2-)<br />MP: axis(2-,2+)|
+|Right Stick<br>Y Axis<br>(P/M/MP Only)| |P/M: axis(3+,3-)<br />MP: axis(3-,3+)|
 
 ## File Management
 
