@@ -20,10 +20,34 @@
 
 Mupen64Plus SA supports two different video plugins: Glide64mk2 and Rice. These plugins are included on the system as cores, and you can choose between them when you select mupen64plussa as your emulator. In general, Glide64 has better accuracy and Rice has better performance, but you may notice visual glitches or incompatibilities with either of them. It's recommended to try using Rice, and then to fall back to Glide if you have issues.
 
+### Zipped Roms
+
+Mupen64Plus SA & RetroRun do not support zipped roms.
+
 ### Control Configuration
 
 The controller configuration file for mupen64plussa is stored in `GAMES/gamedata/mupen64plussa/InputAutoCfg.ini`. This file will only exist if you've started up mupen64plussa at least once. It's a big file, but the relevant section is the last one, called `[OpenSimHardware OSH PB Controller]`. By editing this section, you can change the button assignments that Mupen uses. To find out the button codes, please see the [Buttons Reference](Advanced-Topics#buttons-reference).
 
-### Zipped Roms
+The default controller configuration is listed below, along with a couple of alternate controller configurations you can download and use. To use one of the alternate configurations, replace the `GAMES/gamedata/mupen64plussa/InputAutoCfg.ini` with one of the following ini files:
 
-Mupen64Plus SA & RetroRun do not support zipped roms.
+- [Rstick-C](resources/mupen64plussa/InputAutoCfg-Rstick-C.ini)
+- [Alt](resources/mupen64plussa/InputAutoCfg-Alt.ini)
+
+Make sure that you rename the alternate file to `InputAutoCfg.ini`.
+
+| N64 Button | Default | [Rstick-C](resources/mupen64plussa/InputAutoCfg-Rstick-C.ini) | [Alt](resources/mupen64plussa/InputAutoCfg-Alt.ini) |
+|------------|---------|-------------------|--------|
+| Dpad R     | Dpad R  | Dpad R            | Dpad R |
+| Dpad L     | Dpad L  | Dpad L            | Dpad L |
+| Dpad U     | Dpad U  | Dpad U            | Dpad U |
+| Dpad D     | Dpad D  | Dpad D            | Dpad D |
+| A          | B       | B                 | B      |
+| B          | Y       | Y                 | Y      |
+| Z Trig     | R3/Z    | L1                | L1     |
+| R Trig     | R1      | R1                | R1     |
+| L Trig     | L1      | R3/Z              | R3/Z   |
+| C-Right    | R2      | Right Stick R     | R2     |
+| C-Left     | X       | Right Stick L     | L2     |
+| C-Up       | L2      | Right Stick U     | X      |
+| C-Down     | A       | Right Stick D     | A      |
+| Start      | Start   | Start             | Start  |
