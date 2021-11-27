@@ -1,5 +1,9 @@
 # N64
 
+- [Overview](#overview)
+- [Retrorun](#retrorun)
+- [Mupen64Plus SA](#mupen64plus-sa)
+
 ## Overview
 
 - Emulators/Cores:
