@@ -17,6 +17,27 @@
 - Path(s): `/roms/n64`
 - Supported Extensions: `.z64, .n64, .v64`
 
+## Retrorun
+
+### Control Configuration
+
+| N64 Button | RG Button |
+|------------|-----------|
+| Dpad R     | Dpad R    |
+| Dpad L     | Dpad L    |
+| Dpad U     | Dpad U    |
+| Dpad D     | Dpad D    |
+| A          | B         |
+| B          | Y         |
+| Z Trig     | L2        |
+| R Trig     | R1        |
+| L Trig     | L1        |
+| C-Right    | R2+A      |
+| C-Left     | R2+Y      |
+| C-Up       | R2+X      |
+| C-Down     | R2+B      |
+| Start      | Start     |
+
 ## Mupen64Plus SA
 
 351ELEC includes the Mupen64Plus standalone emulator as mupen64plussa. In order to use it, go into the Advanced Game Options or Advanced System Options and change the Emulator to either mupen64plussa/m64p_gl64mk2 or mupen64plussa/m64p_rice.
