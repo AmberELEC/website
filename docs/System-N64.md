@@ -2,13 +2,18 @@
 
 ## Overview
 
-- Cores:
-  - `mupen64plus`
-  - `mupen64plus_next`
-  - `parallel_n64` (default)
-  - `parallel_n64_gln64`
-  - `mupen64plussa_glide64mk2`
-  - `mupen64plussa_rice`
+- Emulators/Cores:
+  - Retroarch
+    - `parallel_n64` (default)
+    - `parallel_n64_gln64`
+    - `mupen64plus`
+    - `mupen64plus_next`
+  - Retrorun
+    - `parallel_n64`
+    - `parallel_n64_gln64`
+  - Mupen64Plus Stand Alone
+    - `mupen64plussa_glide64mk2`
+    - `mupen64plussa_rice`
 - Path(s): `/roms/n64`
 - Supported Extensions: `.z64, .n64, .v64`
 
