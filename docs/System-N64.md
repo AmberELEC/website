@@ -26,7 +26,7 @@ Mupen64Plus SA & RetroRun do not support zipped roms.
 
 ### Control Configuration
 
-The controller configuration file for mupen64plussa is stored in `GAMES/gamedata/mupen64plussa/InputAutoCfg.ini`. This file will only exist if you've started up mupen64plussa at least once. It's a big file, but the relevant section is the last one, called `[OpenSimHardware OSH PB Controller]`. By editing this section, you can change the button assignments that Mupen uses. To find out the button codes, please see the [Buttons Reference](Advanced-Topics#buttons-reference).
+The controller configuration file for mupen64plussa is stored in `GAMES/gamedata/mupen64plussa/InputAutoCfg.ini`. This file will only exist if you've started up mupen64plussa at least once. It's a big file, but the relevant sections are the last two, called `[OpenSimHardware OSH PB Controller]` and `[GO-Super Gamepad]`. The former is the controller configuration for the P, M, and V, and the latter is the controller configuration for the MP. By editing this section, you can change the button assignments that Mupen uses. To find out the button codes, please see the [Buttons Reference](Advanced-Topics#buttons-reference).
 
 The default controller configuration is listed below, along with a couple of alternate controller configurations you can download and use. To use one of the alternate configurations, replace the `GAMES/gamedata/mupen64plussa/InputAutoCfg.ini` with one of the following ini files:
 
