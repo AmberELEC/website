@@ -24,7 +24,7 @@ The **bold** one is the default one.
 |ATARI 5200|**atari800**|atari5200| .rom .xfd .atr .atx .cdm .cas .bin .a52 .xex .zip .7z|
 |ATARI 7800|**prosystem**|atari7800| .a78 .bin .zip .7z|
 |ATARI LYNX|**handy**<br />beetle_lynx|atarilynx|.lnx .zip .7z|
-|ATARI ST|**hatari**<br />HATARISA|atarist|.st .msa .stx .dim .ipf .m3u .zip .7z|
+|[ATARI ST](System-Atari-ST)|**hatari**<br />HATARISA|atarist|.st .msa .stx .dim .ipf .m3u .zip .7z|
 |SAMMY<br />ATOMISWAVE|**flycast**|atomiswave| .lst .bin .dat .zip .7z|
 |[BANDAI<br />WONDERSWAN](System-Bandai-Wonderswan)|**beetle_wswan**|wonderswan| .ws .zip .7z|
 |[BANDAI<br />WONDERSWAN COLOR](System-Bandai-Wonderswan)|**beetle_wswan**|wonderswancolor| .wsc .zip .7z|

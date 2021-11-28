@@ -117,6 +117,10 @@ pages:
     title: Amstrad CPC
     category: Computers
     url: System-Amstrad-CPC
+  - file: System-Atari-ST.md
+    title: Atari ST
+    category: Computers
+    url: System-Atari-ST
   - file: System-X68000.md
     title: x68000
     category: Computers
