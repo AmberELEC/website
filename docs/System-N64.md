@@ -21,6 +21,10 @@
 - Path(s): `/roms/n64`
 - Supported Extensions: `.z64, .n64, .v64`
 
+### Zipped Roms
+
+Mupen64Plus SA & RetroRun do not support zipped roms.
+
 ## Retrorun
 
 ### Control Configuration
@@ -49,10 +53,6 @@
 ### Video Plugins
 
 Mupen64Plus SA supports two different video plugins: Glide64mk2 and Rice. These plugins are included on the system as cores, and you can choose between them when you select mupen64plussa as your emulator. In general, Glide64 has better accuracy and Rice has better performance, but you may notice visual glitches or incompatibilities with either of them. It's recommended to try using Rice, and then to fall back to Glide if you have issues.
-
-### Zipped Roms
-
-Mupen64Plus SA & RetroRun do not support zipped roms.
 
 ### Control Configuration
 
