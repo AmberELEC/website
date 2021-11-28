@@ -113,6 +113,10 @@ pages:
     title: Bandai Wonderswan
     category: Consoles
     url: System-Bandai-Wonderswan
+  - file: System-Magnavox-Odyssey2
+    title: Magnavox Odyssey²
+    category: Consoles
+    url: System-Magnavox-Odyssey
   - file: System-Amstrad-CPC.md
     title: Amstrad CPC
     category: Computers
