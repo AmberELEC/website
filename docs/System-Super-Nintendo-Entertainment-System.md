@@ -85,7 +85,7 @@ Games that support Cartridge Linking:
 	- Snes9x 2005 Plus
 	- Snes9x 2010
 - Path: `/roms/satellaview`
-- Extensions: `.bs .bsx .zip .7z`
+- Extensions: `.bs .bsx .smc .sfc .swc .fig .zip .7z`
 
 Satellaview games are not supported by the Beetle Supafaust core, and will require Snes9x.
 
