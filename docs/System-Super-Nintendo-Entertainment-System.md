@@ -55,7 +55,7 @@ These games are not supported by any core available in 351ELEC, and are not play
 - Extensions: `.st .zip .7z`
 
 
-Sufami Turbo games are not supported by the Beetle Supafaust core, and will require Snes9x. Additionally, zip or 7z compression will prevent these from being loaded.
+Sufami Turbo games are not supported by the Beetle Supafaust core, and will require Snes9x. Additionally, zip or 7z compression will prevent Cartridge Linking from being used.
 
 ### BIOS
 
