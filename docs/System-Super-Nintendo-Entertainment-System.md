@@ -57,6 +57,8 @@ These games are not supported by any core available in 351ELEC, and are not play
 
 Sufami Turbo games are not supported by the Beetle Supafaust core, and will require Snes9x. Additionally, zip or 7z compression will prevent Cartridge Linking from being used.
 
+Some Satellaview games require [SatData](#satdata) with the Time Channels to play correctly.
+
 ### BIOS
 
 For Sufami Turbo games to work, the file `STBIOS.bin` needs to be placed in the `bios` folder on the games partition. The MD5 checksum of this file is `d3a44ba7d42a74d3ac58cb9c14c6a5ca`.
@@ -104,6 +106,8 @@ The Satellaview uses the BS-X rom as a bios. Any version of the BS-X rom can be 
 
 If you aren't interested in the BS-X RPG, just choose your ROM, go through the welcome screen, setting up your name and avatar if you haven't already for this rom. Once you have control of your avatar, go up and press A to go inside the closest building. The first option in the menu is "Load Stored Data". Press A to select it, the press A on the first (and only) entry in the list, and your game will launch.
 
+If a game fails to launch, it may require [SatData](#satdata) with the Time Channels.
+
 ### BS-X
 
 Satellaview games are launched through a hub-world RPG called BS-X: The Story of the Town Whose Name Was Stolen.
@@ -131,6 +135,6 @@ Snes9x does support loading those data-packets though. If you put them into the 
 
 You may be able to find SatData that various people have created in various places online, but the easiest way to get a SatData setup that you like is to create your own. There's a tool called [SatellaWave](https://github.com/LuigiBlood/sat_wave/releases) (Windows only, but can probably be run using Wine) that you can use to generate your own SatData.
 
-A YouTuber named Cabbusses has created a four part tutorial series on using SatellaWave. There are three videos that are really helpful for learning how to use it. One covers the [basic how-to, NPCs, and joke items](https://www.youtube.com/watch?v=fIrTMKovOvo), one covers [in-game shops and game downloads](https://www.youtube.com/watch?v=fIrTMKovOvo), and the last one covers [event plazas](https://www.youtube.com/watch?v=86FVdy-NPj8).
+A YouTuber named Cabbusses has created a four part tutorial series on using SatellaWave. There are three videos that are really helpful for learning how to use it. One covers the [basic how-to, NPCs, joke items, and time channels](https://www.youtube.com/watch?v=fIrTMKovOvo), one covers [in-game shops and game downloads](https://www.youtube.com/watch?v=fIrTMKovOvo), and the last one covers [event plazas](https://www.youtube.com/watch?v=86FVdy-NPj8).
 
 Once you run an export, simply place the `.bin` files that are generated in the `/bin/satellaview` folder alongside your roms, and you should be good to go.
