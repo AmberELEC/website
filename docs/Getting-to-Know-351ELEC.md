@@ -234,7 +234,7 @@ Once the initial authentication is done, rclone will give you a `rclone.conf` fi
 
 After installation, menu options under `Tools` in 351ELEC will allow you to backup and restore from the cloud on demand.
 
-### Cloud Backup/Restor Installation Instructions
+### Cloud Backup/Restore Installation Instructions
 
 In order to add a remote to rclone you have to:
 - [download rclone](https://rclone.org/downloads/) for your platform and extract it somewhere
