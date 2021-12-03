@@ -116,12 +116,12 @@ The first time you launch each Satellaview game, you'll be prompted to enter you
 
 Overworld Controls
 
-| Button | Action                                |
-| A      | Interact (Enter buildings, talk, etc) |
-| B      | Speed Shoes* (run, if you have them)  |
-| Y      | Inventory Menu                        |
+| Button | Action                                 |
+| A      | Interact (Enter buildings, talk, etc)  |
+| B      | Sprint Shoes* (run, if you have them)  |
+| Y      | Inventory Menu                         |
 
-\* The speed shoes can only be bought if there is active [SatData](#satdata)
+\* The sprint shoes can only be bought if there is active [SatData](#satdata)
 
 The building directly above you is your home. From there you can launch games that have been downloaded into the Satellaview Memory Pack. In normal circumstances, that will only be the rom that you opened. To play it, just go into your house and choose the first menu option a couple times.
 
