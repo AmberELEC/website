@@ -226,7 +226,7 @@ Steps:
 
 ## Cloud Backup
 
-Starting from 351ELEC vXX we introduced a tool to backup and restore your saves/states, screenshots and device backup to the cloud using rclone. Initial setup  requires the use of a commandline tool: `rclone` and should be considered an intermediate/advanced use case.
+Starting from **351ELEC - 20211122 "Pineapple Forest"** we introduced a tool to backup and restore your saves/states, screenshots and device backup to the cloud using rclone. Initial setup  requires the use of a commandline tool: `rclone` and should be considered an intermediate/advanced use case.
 
 rclone requires initial authorization to the cloud be done on a **computer** and not on the 351ELEC device.  This is because most clouds require OAuth/web browser based authentication not available on the device itself.  If you are unfamiliar, a common example of OAuth is: a login option with google/etc on an unassociated website - this pops up a google page to login and verify (without sending your google user/password) to the other site.
 
