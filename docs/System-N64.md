@@ -81,3 +81,14 @@ Make sure that you rename the alternate file to `InputAutoCfg.ini`.
 | C-Up       | L2      | Right Stick U     | X      |
 | C-Down     | A       | Right Stick D     | A      |
 | Start      | Start   | Start             | Start  |
+
+### Hotkeys
+
+Mupen standalone only has a few hotkeys. They're listed below.
+
+| Hotkey          | Button Combo   |
+|-----------------|----------------|
+| Quit            | Select + Start |
+| Save State      | Select + R1    |
+| Load State      | Select + L1    |
+| Pause Emulation | Select + A     |
