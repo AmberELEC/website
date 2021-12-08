@@ -137,7 +137,7 @@ pages:
     title: PC-88
     category: Computers
     url: System-PC-88
-  - file: System-PC-88.md
+  - file: System-PC-98.md
     title: PC-98
     category: Computers
     url: System-PC-98
