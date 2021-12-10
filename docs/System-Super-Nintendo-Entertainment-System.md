@@ -35,6 +35,10 @@ If you are unsure about whether or not a game uses a specific expansion chip, yo
 
 ### MSU-1
 
+MSU-1 is a virtual SNES chip designed by Near, the creator of the bsnes and higan emulators. The chip allows the SNES to play CD quality audio and address up to 4GB of memory locations. It's primarily used for patches that replace the music with orchestral or remixed music. The most comprehensive collection of MSU-1 patches can be found on the [Zeldix forum](https://www.zeldix.net/f71-msu-1-hacks-database).
+
+To play MSU-1 games, you'll need to patch your rom, and you'll need to have a set of pcm files. You'll also need the corresponding msu file. In general, you'll want all the files to use the same naming convention. If you have the patched rom `eb_msu1.sfc`, you should have the `eb_msu1.msu` file, as well as numbered `eb_msu1-#.pcm` files.
+
 Beetle Supafaust only supports the extension `.sfc`. If your rom file uses `.smc`, please rename it to `.sfc`.
 
 ### SA-1 (Kirby Super Star, Kirby's Dream Land 3, Super Mario RPG, etc); SuperFX (Star Fox, Stunt Race FX, etc); SuperFX 2 (Doom, Super Mario World 2: Yoshi's Island, etc)
