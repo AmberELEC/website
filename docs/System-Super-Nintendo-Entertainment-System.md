@@ -3,7 +3,7 @@
 ## Paths
 - Super Nintendo: `/roms/snes`
 - Super Famicom: `/roms/sfc`
-- MSU-1: `/roms/snesmsu1`
+- [MSU-1](#msu-1): `/roms/snesmsu1`
 - Hacks: `/roms/snesh`
 - [Sufami Turbo](#sufami-turbo): `/roms/sufami`
 - [Satellaview](#satellaview-bs-x): `/roms/satellaview`
