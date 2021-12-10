@@ -33,10 +33,16 @@ The older versions of SNES are there to try if a game does not perform well (see
 
 If you are unsure about whether or not a game uses a specific expansion chip, you can view the list on [Wikipedia](https://en.wikipedia.org/wiki/List_of_Super_NES_enhancement_chips#List_of_Super_NES_games_that_use_enhancement_chips), or search [superfamicom.org](https://superfamicom.org/).
 
+### MSU-1
+
+Beetle Supafaust only supports the extension `.sfc`. If your rom file uses `.smc`, please rename it to `.sfc`.
+
 ### SA-1 (Kirby Super Star, Kirby's Dream Land 3, Super Mario RPG, etc); SuperFX (Star Fox, Stunt Race FX, etc); SuperFX 2 (Doom, Super Mario World 2: Yoshi's Island, etc)
+
 The emulation of the additional chips present in these games can be quite demanding compared to other SNES games, and may not run at full speed with the default SNES core. Beetle Supafaust or an older Snes9x core may yield better performance.
 
 ### DSP-3 (SD Gundam GX), DSP-4 (Top Gear 3000), OBC-1 (Metal Combat: Falcon's Revenge), S-RTC (Daikaijuu Monogatari II), SPC7110 (Tengai Makyou Zero), ST010 (F1 ROC II: Race of Champions)
+
 These games are not supported by the Beetle Supafaust core.
 
 ### Hayazashi Nidan Morita Shougi, Hayazashi Nidan Morita Shougi 2
