@@ -5,7 +5,6 @@
 * [Accessing the handheld over a network](#accessing-the-handheld-over-a-network)
 * [Default Performance Settings](#default-performance-settings)
 * [How to Use Bezels](#how-to-use-bezels)
-* [ScummVM, Ports, and MS-DOS](#scummvm-ports-and-ms-dos)
 * [How to Update](#how-to-update-351elec) - Learn how to update to the newest version of 351ELEC
 * [Adding Background Music to EmulationStation](#adding-background-music-to-emulationstation)
 * [Netplay](#netplay)
@@ -161,10 +160,6 @@ NOTE: The `<system name>` can be overriden in `Decoration Options` at the _Advan
 Overlays can be added at the system level to add optional features such as shadows/grids/etc to the bezel.  Overlays will all default to on, but can be turned off in the UI
 
 For most standard-systems a shadow and grid png-file is included.
-
-## ScummVM, Ports, and MS-DOS
-
-ScummVM, Ports, and MS-DOS are hidden by default in the collections menu. To enable press Start at the main menu screen. Scroll to Game Collection Settings, and press A. Select Systems Displayed, and press A. Scroll to the system you wish to enable and press A. Press B repeatedly to back out to the main menu and EmulationStation will restart automatically.
 
 ## How to Update 351ELEC
 
