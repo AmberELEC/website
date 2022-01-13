@@ -7,7 +7,6 @@
   - `dosbox_svn`
 - Path(s): pc
 - Supported Extensions: `.dosz`, disk images (iso, cue, img, ima, vhd) can be put into the .dosz
-- **MS-DOS is hidden by default:** To display it, please go to `Start > Game Collection Settings > Systems Displayed` and enable MS-DOS
 
 ## Setup
 
