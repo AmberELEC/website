@@ -8,7 +8,6 @@
   - games should be stored in `/roms/scummvm/games`
   - settings will be stored in `/roms/gamedata/scummvm`
 - Supported Extensions: `.sh .svm .scummvm`
-- **ScummVM is hidden by default:** To display it, please go to `Start > Game Collection Settings > Systems Displayed` and enable ScummVM
 
 ## Setup
 
