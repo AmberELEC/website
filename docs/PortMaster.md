@@ -5,7 +5,7 @@
 ## Installation
 
 - [Download PortMaster](https://github.com/christianhaitian/PortMaster/raw/main/PortMaster.zip)
-- Unzip PortMaster into your `GAMES/ports` directory
+- Unzip PortMaster.zip and move the Portmaster Folder into your `GAMES/ports` directory
 - Launch PortMaster by opening ports, then the PortMaster folder, and then running PortMaster
 
 ## Games and Compatibility
