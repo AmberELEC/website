@@ -57,7 +57,7 @@ Pull Request ([PR](../../pulls)) builds are very similar to development builds a
 ## Contributing Code
 First, thank you.  As a volunteer project, maintaining a project like this can be difficult.  Any contributions are greatly appreciated.  If you are contributing there are a few guidelines that need to be followed for your contribution to be accepted.
 
-* We recommend that you work in a feature branch in your own fork, and that you submit pull requests of tested changes to the main branch for integration.
+* We recommend that you work in a feature branch in your own fork, and that you submit pull requests of tested changes to the dev branch for integration.
 * Code contributions are to be licensed as GPLv2 or later and marked when possible.
 * All package contributions must be marked with the appropriate license for the package in package.mk.  If the package license is not included in the licenses directory, please include it with your pull request.
 
