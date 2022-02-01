@@ -10,8 +10,6 @@
 
 ### Video Overview
 
-{% include youtube.html video="Sh5W7vw9Lqc" %}
-
 [https://www.youtube.com/watch?v=Sh5W7vw9Lqc](https://www.youtube.com/watch?v=Sh5W7vw9Lqc)
 
 > (credit to [Retro Game Corps](https://www.youtube.com/channel/UCoZQiN0o7f36H7PaW4fVhFw) for creating this video)
