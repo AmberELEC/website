@@ -124,53 +124,13 @@ Some games/systems work almost perfectly, some others they may never work smooth
 |SOLARUS|**solarus**|solarus|.solarus|
 |[WOLFENSTEIN 3D](System-Wolfenstein-3D)|**ecwolf**|ecwolf|[.ecwolf](System-Wolfenstein-3D#how-to-create-a-ecwolf-file)|
 
-## Ports
-Some ports may be part of RetroArch as a core, but in this section is made to reflect the PORTS section in EmulationStation.
+## Homebrew
 
 | Port |  Core/Emu  | ROM Path  |  Extension | 
 |---|---|---|---|
-|2048|2048|
-|[CANNONBALL](Port-Cannonball)|cannonball|ports/cannonball/|.game .88|
-|CAVESTORY|nxengine|ports/CaveStory/|.exe|
-|COMMANDER KEEN|Commander Genius|ports/cgenius/games/keen1<br/>...<br/>ports/cgenius/games/keen9|.exe .ck|
-|DIABLO|devilutionx|ports/diablo/|diabdat.mpq|
-|DINOTHAWR|dinothawr|
-|DUKE NUKEM 3D|eduke32|ports/eduke/ |.rts .grp|
-|FLASHBACK|reminiscence| ports/reminiscence/ |.map .aba .seq lev|
 |HYDRA CASTLE LABYRINTH|hcl|
-|MR. BOOM (Bomberman Clone)|mrboom|
 |PRINCE OF PERSIA|SDLPoP|
-|TYRIAN|OpenTyrian|ports/opentyrian/|Content of [tyrian21.zip](https://github.com/opentyrian/opentyrian/wiki/Downloads#other)|
-|QUAKE|tyrquake|ports/quake/id1/|.pak|
-|RICK DANGEROUS|xrick|ports/xrick/|Content of data.zip|
-|[VVVVVV](Port-VVVVVV)|VVVVVV|ports/VVVVVV/|data.zip|
-
-If a game is not listed here you can check the [community contribution](#community-built-packages) section.
-
-However we evaluate every user port contribution, for more information check here: [Contributing Community Built Packages](Contributing-to-351ELEC#contributing-community-built-packages)
-
-### Unsupported ports
-
-While 351ELEC has a number of [official ports](#ports) and [official packages](#community-built-packages), it is possible to get some other ports running on the system. These usually take considerably more effort to get running, though, and if you run into problems it's unlikely that any 351ELEC team members will know how to help you get it running.
-
-If you'd still like to try to get these ports running, please visit the [Unsupported Ports](Unsupported-Ports) page for instructions that have been written up.
-
-## Community built packages
-
-This is an incomplete list of the community contributed packages, the full raw list can be found [here](https://github.com/351ELEC/351ELEC/blob/main/metadata/packages.cfg).
-
-|Game name|port name|Notes|
-|---|---|---|
-|Cave Story|cavestory|
-|Block Attack|blockattack|
-|Return to Castle Wolfenstein|iortcw|[Guide](https://github.com/JohnnyonFlame/handheld-iortcw/wiki/Installation---ArkOS)|
-|The Ur-Quan Masters|uqm|
-|SuperTux|supertux|
-|C-Dogs|cdogs-sdl|
-
-This packages are releases as-it-is, however you may join our [Discord](https://discord.gg/R9Er7hkRMe) to have a chance to discuss them.
-You may also request a port however your request may also be turned down so please do not be upset if this does happen.
-You can even [contribute](Contributing-to-351ELEC) and port your favorite game.
+|TYRIAN|OpenTyrian|
 
 ## Collections
 
