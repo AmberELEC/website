@@ -1,5 +1,5 @@
 # Pre-Release Features
 
-Please note that all pre-release features are subject to change without notice.
+## Aquaplus P/ece
 
-There are no pre-release features.
+A standalone Aquaplus P/ece emulator has been added. Documentation for it can be found under the [Aquaplus P/ece System Page](System-Aquaplus-Piece)
