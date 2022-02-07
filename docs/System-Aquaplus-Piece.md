@@ -14,7 +14,7 @@ The Aquaplus P/ece requires a bios file that is freely available from their webs
 | Firmware Version | Download                                    |
 |------------------|---------------------------------------------|
 | 1.20             | [https://aquaplus.jp/piece/dl/update120.exe](https://aquaplus.jp/piece/dl/update120.exe)  |
-| <b>1.18</b>      | [https://aquaplus.jp/piece/dl/update118.exe](https://aquaplus.jp/piece/dl/update118.exe)  |
+| <b>1.18</b> (recommended) | [https://aquaplus.jp/piece/dl/update118.exe](https://aquaplus.jp/piece/dl/update118.exe)  |
 | 1.14a            | [https://aquaplus.jp/piece/dl/update114a.exe](https://aquaplus.jp/piece/dl/update114a.exe) |
 | 1.14             | [https://aquaplus.jp/piece/dl/update114.exe](https://aquaplus.jp/piece/dl/update114.exe)  |
 | 1.12a            | [https://aquaplus.jp/piece/dl/update112a.exe](https://aquaplus.jp/piece/dl/update112a.exe) |
