@@ -32,7 +32,7 @@ Piemu also supports loading hard drive images, which are `pfi` files. These file
 
 ## Finding games
 
-The P/ece is an open source console, made to be community driven, and as such most of the software and games are legally available for free online. Aquaplus hosted a few game development competitions, and all of the entrants can be found on their website. In addition, Aquaplus released a few free games themselves, and various developers hosted games on their own websites.
+The P/ECE is an open source console, made to be community driven, and as such most of the software and games are legally available for free online. Aquaplus hosted a few game development competitions, and all of the entrants can be found on their website. In addition, Aquaplus released a few free games themselves, and various developers hosted games on their own websites.
 
 Below are a few places to download free P/ECE games. Many of the websites and links are older and may have fallen off the internet, so if you see a game you're interested in with a dead link, please check if the site was archived in the [Wayback Machine](https://web.archive.org/).
 
