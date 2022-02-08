@@ -12,6 +12,8 @@
 
 Below is a list of the ports and whether they're known to work, along with links to the instructions for individual games. That said, this list is likely to get out of date relatively quickly, so check out the [PortMaster Wiki Page](https://github.com/christianhaitian/arkos/wiki/PortMaster) and the [Port Installation Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#ports) for updates and installation instructions.
 
+### RG351 and RG552 Compatible
+
 | Game | Compatibility | Installation Instructions |
 |----|----|----|
 | ![2048](images/previews/2048.jpeg) 2048 | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#2048-available-through-portmaster) |
@@ -87,3 +89,10 @@ Below is a list of the ports and whether they're known to work, along with links
 | ![urqaa](images/previews/Ur-QuanMasters.jpeg) Ur-Quan Masters | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#ur-quan-masters-available-through-portmaster) |
 | ![vvvvv](images/previews/VVVVVV.jpeg) VVVVVV | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#vvvvvv-available-through-portmaster) |
 | ![wwz](images/previews/WorldWarIIGI.jpeg) World War II GI | <span class="text-success">Working</span>  | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#world-war-ii-gi-available-through-portmaster) |
+
+### RG552 only
+
+| Game | Compatibility | Installation Instructions |
+|----|----|----|
+| Star Wars Jedi Knight - Jedi Academy | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#star-wars-jedi-knight---jedi-academy-rg552-only-available-through-portmaster) |
+| Star Wars Jedi Knight II - Jedi Outcast | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#star-wars-jedi-knight-ii---jedi-outcast-rg552-only-available-through-portmaster) |
