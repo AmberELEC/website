@@ -11,6 +11,7 @@
 #   category - The category that the page should be displayed in [required]
 #   url - The url of the page (the filename without the extension) [required]
 #   hidepage - Whether the page should be hidden from the sidenav [optional]
+#   hidetopnav - Whether the page should be hidden from the top nav [optional]
 pages:
   - file: Installation.md
     title: Installation
@@ -60,6 +61,7 @@ pages:
     title: Upcoming Features
     category: Contributing
     url: Upcoming-Features
+    hidetopnav: true
   - file: Supported-Emulators-and-Ports.md
     title: Full List
     category: Systems
