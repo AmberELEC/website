@@ -12,6 +12,9 @@
 
 Below is a list of the ports and whether they're known to work, along with links to the instructions for individual games. That said, this list is likely to get out of date relatively quickly, so check out the [PortMaster Wiki Page](https://github.com/christianhaitian/arkos/wiki/PortMaster) and the [Port Installation Instructions](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#ports) for updates and installation instructions.
 
+- [RG351 and RG552 Compatible](#rg351-and-rg552-compatible)
+- [RG552 Only](#rg552-only)
+
 ### RG351 and RG552 Compatible
 
 | Game | Compatibility | Installation Instructions |
