@@ -7,7 +7,7 @@
           <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="userguidesDropdown">
             {% assign pages = site.data.nav.pages | where: "category", category.title %}
             {% for page in pages %}
-              {% unless page.hidepage %}
+              {% unless page.hidetopnav %}
                 <li>
                   <a class="dropdown-item" href="{{ page.url }}">{{ page.title }}</a>
                 </li>
