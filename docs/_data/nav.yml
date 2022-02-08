@@ -56,6 +56,10 @@ pages:
     title: Pre-Release Features
     category: Contributing
     url: Pre-Release-Features
+  - file: Upcoming-Features.md
+    title: Upcoming Features
+    category: Contributing
+    url: Upcoming-Features
   - file: Supported-Emulators-and-Ports.md
     title: Full List
     category: Systems
