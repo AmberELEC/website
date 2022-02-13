@@ -191,3 +191,75 @@ One idea  would be if we built the toolchain in the docker build and then stored
 The build scripts automatically strip debug symbols from binaries before installation. If you need to debug on device, you can use the `DEBUG` environment variable to list the packages, comma separated, that you'd like to debug. You can also set the variable to `all` or `yes`, but it is **strongly recommended that you do not do this***
 
 For example, if I wanted to debug the packages `mupenplussa-core` and `mupenplussa-ui-console` while building an RG351V image, I'd use the command `DEBUG=mupenplussa-core,mupenplussa-ui-console make docker-RG351V`.
+
+## Developing Changes to Emulation Station
+Emulation Station (ES) is a super-flexible UI used by many projects for embedded devices.  However, since it is written in C++, it is often painful for many UI developers.  Below are some tips on how to make developing changes to EmulationStation a bit easier.
+
+### Build only the **ES binary** and copy it to the device
+ This might seem obvious, but as emulationstation is just an executable.  You can build it, copy it to the 351ELEC device and run it **without** making a full 351ELEC build which saves a lot of time.
+  - **clone locally** - `git clone --recursive https://github.com/351ELEC/351elec-emulationstation`. It is suggested to put **inside** your 351ELEC/351ELEC git clone so it will be available to docker builds.
+  - **update 351ELEC `ui/351elec-emulationstation/package.mk`** to point to your clone.
+    - You can pretty much just uncomment and follow the instructions here: https://github.com/351ELEC/351ELEC/blob/dev/packages/ui/351elec-emulationstation/package.mk#L20
+    - (recommended) if you checked out 351elec-emulationstation into your 351ELEC folder and use docker to build.  You can build as follows.  **NOTE** that removing the source is needed to ensure the git source is properly re-copied:
+    ```
+    rm -rf ./sources/351elec-emulationstation/ && DOCKER_WORK_DIR=/work DEVICE=RG351V ARCH=aarch64 PACKAGE=351elec-emulationstation make docker-package-clean docker-package
+    ```
+    - It is also possible to build w/o docker and configure your own paths in package.mk.  This will be different for every user.
+  - **Copy binary to device** - the `./emulationstation` binary found in `build.351ELEC-<device>.aarch64/351elec-emulationstation-*/.install_pkg/usr/bin/` can be copied to the device (SSH, Samba, etc)
+  - To run via ssh, shutdown emulationstation with: `systemctl stop emustation` and then run emulationstation you copied.  Ex: `./emulationstation`
+
+### Build for x86_64 and run under Ubuntu directly
+The above method is recommended due to difficulty setting up all proper files to simulate a 351ELEC device - but building ES on x86_64 may have interesting/novel uses as you can run the 351ELEC ES on a x86_64 PC/VM for testing.  **Requires Linux - tested on Ubuntu 20.04**
+
+- `git clone --recursive https://github.com/351ELEC/351elec-emulationstation`
+- `cd 351elec-emulationstation`
+- Ensure you have build dependencies installed.  
+  - Follow these directions: https://github.com/351ELEC/351elec-emulationstation/blob/main/README.md#building
+
+- `cmake -DENABLE_EMUELEC=1 -DGLES2=1 -DDISABLE_KODI=1 -DENABLE_FILEMANAGER=0 -DCEC=0 -DRG552=1 .`
+  - NOTE: set `-DRG552=1` to match the specific device (`RG351P`, `RG351V`, `RG351MP`, `RG552`).  **all instructions here are in reference to 552 - so you may need to watch out below too.
+  - You can find the exact up to date options to build with here: https://github.com/351ELEC/351ELEC/blob/dev/packages/ui/351elec-emulationstation/package.mk#L35
+- `make -j$(nproc)`
+  - NOTE: `-j$(nproc)` builds with all CPU cores, you can specify something like `-j2` to build with two cores or omit `-j...`to build with one core.
+- **Setup 351ELEC files**
+  - go into `351ELEC` checkout.
+    - Make /storage and ensure your user owns it
+      - `sudo mkdir -p /storage/`
+      - `sudo chown -R $(whoami) /storage/`
+    - `echo RG552 > /storage/.config/.OS_ARCH`
+    - `mkdir -p /storage/.config/distribution/configs/`
+    - `cp packages/351elec/config/distribution/configs/distribution.conf.552 /storage/.config/distribution/configs/distribution.conf`
+    - `mkdir -p ~/.emulationstation/`
+    - `cp -r build.351ELEC-RG552.aarch64/image/system/usr/config/emulationstation/* ~/.emulationstation`
+
+    - Setup keyboard input config
+      - Put this into `~/.emulationstation/es_input.cfg`
+      ```
+      <?xml version="1.0"?>
+      <inputList>
+        <inputConfig type="keyboard" deviceName="Keyboard" deviceGUID="-1">
+                <input name="a" type="key" id="13" value="1" />
+                <input name="b" type="key" id="27" value="1" />
+                <input name="down" type="key" id="1073741905" value="1" />
+                <input name="hotkeyenable" type="key" id="1073742048" value="1" />
+                <input name="left" type="key" id="1073741904" value="1" />
+                <input name="right" type="key" id="1073741903" value="1" />
+                <input name="select" type="key" id="1073742048" value="1" />
+                <input name="start" type="key" id="32" value="1" />
+                <input name="up" type="key" id="1073741906" value="1" />
+                <input name="x" type="key" id="9" value="1" />
+                <input name="y" type="key" id="1073742049" value="1" />
+        </inputConfig>
+      </inputList>
+      ```
+    - Create some 'fake' roms.  Fee free to add your own.
+      - `mkdir -p /storage/roms/snes /storage/roms/tools`
+      - `touch /storage/roms/snes/test.smc /storage/roms/tools/test.sh`
+
+
+- **Run ES** (`./emulationstation`)
+  - Example: 
+  ```
+  export HOME=/storage
+  ./emulationstation --windowed --resolution 1920 1152 -debug
+  ```
