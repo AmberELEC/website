@@ -31,7 +31,7 @@ Pre-Release builds should operate normally.  From the device, you can update to 
 If you would like to switch back to the current release, the `RELEASE` channel will switch back to a released version.
 
 ## Development / PR Builds
-Dev and PR builds are intended primarily for developers to get the latest changes from `main` or a `PR` before the build hits 'pre-release'.  Use at your own risk.
+Dev and PR builds are intended primarily for developers to get the latest changes from `dev` or a `PR` before the build hits 'pre-release'.  Use at your own risk.
 
 **Finding/Installing Development Builds**
 - To find the latest development build, click on the 'green checkbox'(<img src="./images/green-check.png" alt="green checkbox" width="20">) on the 351ELEC [main](https://github.com/351ELEC/351ELEC) page. Then click *Details*.
