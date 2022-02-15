@@ -9,6 +9,7 @@
 * [Contributing Community Built Packages](#contributing-community-built-packages)
 * [Docker usage](#docker-usage)
 * [Debugging](#debugging)
+* [Developing Changes to Emulation Station](#developing-changes-to-emulation-station)
 
 ## Reporting Bugs
 * Check you are using latest released version, only released versions are supported.  
