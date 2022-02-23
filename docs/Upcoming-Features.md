@@ -5,6 +5,7 @@ Upcoming Features are features that are in development but have not yet been inc
 - [LaunchBox Importer](#launchbox-importer)
 - [Aquaplus P/ECE](#aquaplus-pece)
 - [Mupen64Plus SA Options](#mupen64plus-sa-options)
+- [Laserdisc Games](#laserdisc-games)
 
 ## LaunchBox Importer
 
@@ -51,3 +52,9 @@ There are now also multiple controller configurations that can be selected from 
 You can also set the controller configuration to "Custom", and the system will read the controller configuration from `GAMES/gamedata/mupen64plussa/custominput.ini`. This file only contains entries for the P/M/V layout and MP/552 layout instead of thousands of unused entries, so it should be a little less confusing to edit. The previous `InputAutoCfg.ini` file is no longer supported.
 
 If there are any other options or controller configurations you'd like to see supported, please ping `yonkuma` on the Discord server.
+
+## Laserdisc Games
+
+Laserdisc games are moving from the `daphne` folder to the `laserdisc` folder.
+
+We're switching over our emulator for Laserdisc games, which has more than doubled the playable laserdisc games. We now support Daphne and Singe formatted games. You can find a preview of the upcoming changes on the [Laserdisc System Page](System-Laserdisc)
