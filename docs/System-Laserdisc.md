@@ -60,15 +60,15 @@ Some of the data for Singe 2 games can be downloaded for free, with the requirem
 | Dragon's Lair II : Timewarp | &#10003; | &#10003; | &#10003; | Arcade       | The Leland Corporation |
 | Esh's Aurunmilla            | &#10003; |          |          | Arcade       | Funai                  |
 | Fire and Ice                |          |          | &#10003; | Fangame      | Karis                  |
-| Freedom Fighter             |          | &#10003; |          | Arcade       | Millenium Games Products|
+| Freedom Fighter             |          | &#10003; |          | Arcade     | Millenium Games Products |
 | Galaxy Ranger               | &#10003; |          |          | Arcade       | Sega                   |
 | GP World                    | &#10003; |          |          | Arcade       | Sega                   |
 | Hydrosub: 2021              |          | &#10003; |          | Action Max   | Worlds of Wonder       |
 | Interstellar                | &#10003; |          |          | Arcade       | Funai                  |
 | Last Bounty Hunter          |          | &#10003; | &#10003; | Arcade       | American Laser Games   |
+| M.A.C.H. 3                  | &#10003; |          |          | Arcade       | Mylstar/Gottlieb       |
 | Mad Dog McCree              |          | &#10003; | &#10003; | Arcade       | American Laser Games   |
 | Mad Dog McCree 2            |          | &#10003; | &#10003; | Arcade       | American Laser Games   |
-| M.A.C.H. 3                  | &#10003; |          |          | Arcade       | Mylstar/Gottlieb       |
 | Ninja Hayate                |          | &#10003; | &#10003; | Arcade       | Taito                  |
 | Platoon                     |          |          | &#10003; | Prototype    |                        |
 | Princess Mononoke           |          |          | &#10003; | Fangame      | Karis                  |
