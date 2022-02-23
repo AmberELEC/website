@@ -16,6 +16,10 @@ tipue_search_active: true
     <script src="{{ "/assets/tipuesearch/tipuesearch_set.js" | relative_url }}"></script>
     <script src="{{ "/assets/tipuesearch/tipuesearch.min.js" | relative_url }}"></script>
     {% endif %}
+
+    <link rel="stylesheet" type="text/css" href="{{ "/assets/DataTables/datatables.min.css" | relative_url}}"/>
+    <script type="text/javascript" src="{{ "/assets/DataTables/datatables.min.js" | relative_url}}"></script>
+
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <link rel="stylesheet" href="{{ 'assets/fonts/dymaxion/stylesheet.css?v=' | append: site.github.build_revision | relative_url }}">
 
@@ -67,5 +71,10 @@ tipue_search_active: true
 
       {% include footer.html path=page.path %}
     </div>
+    <script type="text/javascript">
+      $(document).ready( function () {
+          $('.datatable').DataTable();
+      } );
+    </script>
   </body>
 </html>
