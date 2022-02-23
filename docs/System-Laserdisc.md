@@ -42,7 +42,7 @@ Some of the data for Singe 2 games can be downloaded for free, with the requirem
 {: .datatable }
 | Game | Daphne | Singe 1 | Singe 2 | Release Type      | Developer                        |
 |------|:------:|:-------:|:---:|--------------|------------------------|
-| .38 Ambush Alley |    | :heavy_check_mark: |  | Action Max   | Worlds of Wonder       |
+| .38 Ambush Alley |    | ::heavy_check_mark:: |  | Action Max   | Worlds of Wonder       |
 | Altered Carbon Resleeved | | | :heavy_check_mark: | Fangame      | Mazinger4life          |
 | Asterix | | | :heavy_check_mark: | Fangame      | Nado74                 |
 | Astron Belt                              | Daphne              | Arcade       | Sega                   |
