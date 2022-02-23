@@ -40,9 +40,9 @@ Some of the data for Singe 2 games can be downloaded for free, with the requirem
 ## Gamelist
 
 {: .datatable }
-| Game                                     | Format              | Release Type | Developer              |
-|                                          | Daphne | Singe 1 | Singe 2 |       |                        |
-|------------------------------------------|--------|---------|--|--------------|------------------------|
+|                                      | Format              | |  |
+| Game                                         | Daphne | Singe 1 | Singe 2 | Release Type      | Developer                        |
+|------------------------------------------|:------:|:-------:|:---:|--------------|------------------------|
 | .38 Ambush Alley                         | Singe 1             | Action Max   | Worlds of Wonder       |
 | Altered Carbon Resleeved                 | Singe 2             | Fangame      | Mazinger4life          |
 | Asterix                                  | Singe 2             | Fangame      | Nado74                 |
