@@ -73,7 +73,11 @@ tipue_search_active: true
     </div>
     <script type="text/javascript">
       $(document).ready( function () {
-          $('.datatable').DataTable();
+          $('.datatable').DataTable( {
+            paging: false,
+            searching: false,
+            saveState: false
+          });
       } );
     </script>
   </body>
