@@ -6,19 +6,7 @@ That said, this page lists some other ports that have been known to run, and giv
 
 Feel free to add ports that you've gotten running here, or even better to put them together into a [Community Package](Contributing-to-351ELEC#contributing-community-built-packages) so that other people have an easier time installing them in the future.
 
-- [Freedom Planet](#freedom-planet)
 - [Deltarune Chapter 1 & 2](#deltarune-chapter-1--2)
-
-## Freedom Planet
-
-1. Download the [Freedom Planet PortMaster Package](https://github.com/christianhaitian/PortMaster/blob/main/Freedom%20Planet.zip) (Credit to Johnny on Flame for porting, and to Christian's [PortMaster](https://github.com/christianhaitian/arkos/wiki/PortMaster) for packaging)
-2. Unzip the file from step 1 in your 351 ports directory
-3. Download the linux gamedata for Freedom Planet
-4. Add the linux gamedata to the freedomplanet/gamedata folder created by step 2. Specific instructions can be found on the [Freedom Planet Port Master Wiki Entry](https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information#freedom-planet-available-through-portmaster)
-5. Delete the "Freedom Planet.sh" from your ports directory
-6. Download the [Freedom Planet Patch for 351ELEC](https://retrogamecorps.files.wordpress.com/2021/09/freedom_planet.zip) (Credit to Discord user Gibz for the patch, and to [Retro Game Corps](https://retrogamecorps.com/2021/09/21/guide-portmaster-on-retro-handheld-devices/) for distrobution and for the PortMaster guide)
-7. Unzip the file from step 5 into your ports directory
-8. The game should now be ready to play
 
 ## Deltarune Chapter 1 & 2
 **(BETA!!!)**
