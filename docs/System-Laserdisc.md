@@ -40,55 +40,55 @@ Some of the data for Singe 2 games can be downloaded for free, with the requirem
 ## Gamelist
 
 {: .datatable }
-| Game | Daphne | Singe 1 | Singe 2 | Release Type      | Developer                        |
-|------|:------:|:-------:|:---:|--------------|------------------------|
-| .38 Ambush Alley |    | &#10003; |  | Action Max   | Worlds of Wonder       |
-| Altered Carbon Resleeved | | | 	&#10003; | Fangame      | Mazinger4life          |
-| Asterix | | | &#10003; | Fangame      | Nado74                 |
-| Astron Belt                              | Daphne              | Arcade       | Sega                   |
-| Badlands                                 | Daphne              | Arcade       | Konami/Centuri         |
-| Bega's Battle                            | Daphne              | Arcade       | Data East              |
-| Blue Thunder                             | Singe 1             | Action Max   | Worlds of Wonder       |
-| Cliff Hanger                             | Daphne or Singe     | Arcade       | Stern Electronics      |
-| Cobra Command                            | Daphne              | Arcade       | Data East              |
-| Crime Patrol                             | Singe 1/2           | Arcade       | American Laser Games   |
-| Crime Patrol 2: Drug Wars                | Singe               | Arcade       | American Laser Games   |
-| Conan the Boy                            | Singe 1             | Fangame      | Poiu                   |
-| Daitarn 3                                | Singe 1             | Fangame      | Poiu                   |
-| Dragon Trainer                           | Singe 1             | Fangame      | Poiu                   |
-| Dragon's Lair                            | Daphne or Singe 1/2 | Arcade       | Cinematronics          |
-| Dragon's Lair II : Timewarp              | Daphne or Singe 1/2 | Arcade       | The Leland Corporation |
-| Esh's Aurunmilla                         | Daphne              | Arcade       | Funai                  |
-| Fire and Ice                             | Singe 2             | Fangame      | Karis                  |
-| Freedom Fighter                          | Singe 1             | Arcade       | Millenium Games Products|
-| Galaxy Ranger                            | Daphne              | Arcade       | Sega                   |
-| GP World                                 | Daphne              | Arcade       | Sega                   |
-| Hydrosub: 2021                           | Singe 1             | Action Max   | Worlds of Wonder       |
-| Interstellar                             | Daphne              | Arcade       | Funai                  |
-| Last Bounty Hunter                       | Singe               | Arcade       | American Laser Games   |
-| Mad Dog McCree                           | Singe               | Arcade       | American Laser Games   |
-| Mad Dog McCree 2                         | Singe               | Arcade       | American Laser Games   |
-| M.A.C.H. 3                               | Daphne              | Arcade       | Mylstar/Gottlieb       |
-| Ninja Hayate                             | Singe 1/2           | Arcade       | Taito                  |
-| Platoon                                  | Singe 2             | Prototype    |                        |
-| Princess Mononoke                        | Singe 2             | Fangame      | Karis                  |
-| Puss in Boots                            | Singe 2             | Fangame      | Poiu                   |
-| Rescue of Pops Ghostly, The              | Singe 1             | Action Max   | Worlds of Wonder       |
-| Road Blaster                             | Daphne              | Arcade       | Data East              |
-| Samurai Jack                             | Singe 1             | Arcade       | Data East              |
-| Sonic Fury                               | Singe 1             | Action Max   | Worlds of Wonder       |
-| Space Ace                                | Daphne or Singe 1/2 | Arcade       | Cinematronics          |
-| Space Pirates                            | Singe 1/2           | Arcade       | American Laser Games   |
-| Star Blazer                              | Daphne              | Arcade       | Taito                  |
-| Sucker Punch                             | Singe 2             | Fangame      | Karis                  |
-| Super Don Quixote                        | Daphne              | Arcade       | Universal              |
-| Thayer's Quest                           | Daphne              | Arcade       | RDI Video Systems      |
-| Time Gal                                 | Singe 1/2           | Arcade       | Taito                  |
-| Titan A.E.                               | Singe 2             | Fangame      | Karis                  |
-| Triad Stone/Chantze's Stone (aka Strahl) | Singe 1/2           | LaserActive  | Data East              |
-| Tron                                     | Singe               | Fangame      | Karis                  |
-| Us vs Them                               | Daphne              | Arcade       | Mylstar/Gottlieb       |
-| Who Shot Johnny Rock                     | Singe               | Arcade       | American Laser Games   |
+| Game                        | Daphne   | Singe 1  | Singe 2  | Release Type | Developer              |
+|-----------------------------|:--------:|:--------:|:--------:|--------------|------------------------|
+| .38 Ambush Alley            |          | &#10003; |          | Action Max   | Worlds of Wonder       |
+| Altered Carbon Resleeved    |          |          | &#10003; | Fangame      | Mazinger4life          |
+| Asterix                     |          |          | &#10003; | Fangame      | Nado74                 |
+| Astron Belt                 | &#10003; |          |          | Arcade       | Sega                   |
+| Badlands                    | &#10003; |          |          | Arcade       | Konami/Centuri         |
+| Bega's Battle               | &#10003; |          |          | Arcade       | Data East              |
+| Blue Thunder                |          | &#10003; |          | Action Max   | Worlds of Wonder       |
+| Cliff Hanger                | &#10003; | &#10003; |          | Arcade       | Stern Electronics      |
+| Cobra Command               | &#10003; |          |          | Arcade       | Data East              |
+| Crime Patrol                |          | &#10003; | &#10003; | Arcade       | American Laser Games   |
+| Crime Patrol 2: Drug Wars   |          | &#10003; | &#10003; | Arcade       | American Laser Games   |
+| Conan the Boy               |          | &#10003; |          | Fangame      | Poiu                   |
+| Daitarn 3                   |          | &#10003; |          | Fangame      | Poiu                   |
+| Dragon Trainer              |          | &#10003; |          | Fangame      | Poiu                   |
+| Dragon's Lair               | &#10003; | &#10003; | &#10003; | Arcade       | Cinematronics          |
+| Dragon's Lair II : Timewarp | &#10003; | &#10003; | &#10003; | Arcade       | The Leland Corporation |
+| Esh's Aurunmilla            | &#10003; |          |          | Arcade       | Funai                  |
+| Fire and Ice                |          |          | &#10003; | Fangame      | Karis                  |
+| Freedom Fighter             |          | &#10003; |          | Arcade       | Millenium Games Products|
+| Galaxy Ranger               | &#10003; |          |          | Arcade       | Sega                   |
+| GP World                    | &#10003; |          |          | Arcade       | Sega                   |
+| Hydrosub: 2021              |          | &#10003; |          | Action Max   | Worlds of Wonder       |
+| Interstellar                | &#10003; |          |          | Arcade       | Funai                  |
+| Last Bounty Hunter          |          | &#10003; | &#10003; | Arcade       | American Laser Games   |
+| Mad Dog McCree              |          | &#10003; | &#10003; | Arcade       | American Laser Games   |
+| Mad Dog McCree 2            |          | &#10003; | &#10003; | Arcade       | American Laser Games   |
+| M.A.C.H. 3                  | &#10003; |          |          | Arcade       | Mylstar/Gottlieb       |
+| Ninja Hayate                |          | &#10003; | &#10003; | Arcade       | Taito                  |
+| Platoon                     |          |          | &#10003; | Prototype    |                        |
+| Princess Mononoke           |          |          | &#10003; | Fangame      | Karis                  |
+| Puss in Boots               |          |          | &#10003; | Fangame      | Poiu                   |
+| Rescue of Pops Ghostly, The |          | &#10003; |          | Action Max   | Worlds of Wonder       |
+| Road Blaster                | &#10003; |          |          | Arcade       | Data East              |
+| Samurai Jack                |          | &#10003; |          | Arcade       | Data East              |
+| Sonic Fury                  |          | &#10003; |          | Action Max   | Worlds of Wonder       |
+| Space Ace                   | &#10003; | &#10003; | &#10003; | Arcade       | Cinematronics          |
+| Space Pirates               |          | &#10003; | &#10003; | Arcade       | American Laser Games   |
+| Star Blazer                 | &#10003; |          |          | Arcade       | Taito                  |
+| Sucker Punch                |          |          | &#10003; | Fangame      | Karis                  |
+| Super Don Quixote           | &#10003; |          |          | Arcade       | Universal              |
+| Thayer's Quest              | &#10003; |          |          | Arcade       | RDI Video Systems      |
+| Time Gal                    |          | &#10003; | &#10003; | Arcade       | Taito                  |
+| Titan A.E.                  |          |          | &#10003; | Fangame      | Karis                  |
+| Triad Stone/Chantze's Stone (aka Strahl) | | &#10003; | &#10003; | LaserActive | Data East           |
+| Tron                        |          | &#10003; | &#10003; | Fangame      | Karis                  |
+| Us vs Them                  | &#10003; |          |          | Arcade       | Mylstar/Gottlieb       |
+| Who Shot Johnny Rock        |          | &#10003; | &#10003; | Arcade       | American Laser Games   |
 
 ## Controls
 
