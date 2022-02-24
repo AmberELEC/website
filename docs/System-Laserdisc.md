@@ -84,7 +84,7 @@ All or almost all Singe 2 games have been converted to work with Hypseus Singe. 
 | Blue Thunder | | &#10003; | bluethunder.ld | Action Max | Worlds of Wonder |
 | Cliff Hanger | &#10003; | &#10003; | Daphne: cliff.daphne<br/>Singe: cliffhanger.ld or cliff.ld<br/>(Two singe versions exist)| Arcade | Stern Electronics |
 | Cobra Command | &#10003; | | cobra.daphne | Arcade | Data East |
-| Crime Patrol | | &#10003; | SD: crimepatrol.ld | Arcade | American Laser Games |
+| Crime Patrol | | &#10003; | crimepatrol.ld | Arcade | American Laser Games |
 | Crime Patrol 2: Drug Wars | | &#10003; | drugwars.ld | Arcade | American Laser Games |
 | Conan the Boy in the Future | | &#10003; | conan.ld | Fangame | Poiu |
 | Daitarn 3 | | &#10003; | daitarn.ld | Fangame | Poiu |
@@ -114,7 +114,7 @@ All or almost all Singe 2 games have been converted to work with Hypseus Singe. 
 | Sonic Fury | | &#10003; | sonicfury.ld | Action Max | Worlds of Wonder |
 | Space Ace | &#10003; | | ace.daphne | Arcade | Cinematronics |
 | Space Pirates | | &#10003; | spacepirates.ld | Arcade | American Laser Games |
-| Star Blazers | &#10003; | &#10003; | Singe: starblazers.ld | Arcade | Taito |
+| Star Blazers | | &#10003; | starblazers.ld | Arcade | Taito |
 | Sucker Punch | | &#10003; | suckerpunch.ld | Fangame | Karis |
 | Super Don Quixote | &#10003; | | sdq.daphne | Arcade | Universal |
 | Thayer's Quest | &#10003; | | tq.daphne | Arcade | RDI Video Systems |
