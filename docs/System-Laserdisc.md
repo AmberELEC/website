@@ -75,7 +75,7 @@ Some of the data for Singe 2 games can be downloaded for free, with the requirem
 | Puss in Boots               |          |          | &#10003; | Fangame      | Poiu                   |
 | Rescue of Pops Ghostly, The |          | &#10003; |          | Action Max   | Worlds of Wonder       |
 | Road Blaster                | &#10003; |          |          | Arcade       | Data East              |
-| Samurai Jack                |          | &#10003; |          | Arcade       | Data East              |
+| Samurai Jack                |          | &#10003; |          | Fangame      | Poiu                   |
 | Sonic Fury                  |          | &#10003; |          | Action Max   | Worlds of Wonder       |
 | Space Ace                   | &#10003; | &#10003; | &#10003; | Arcade       | Cinematronics          |
 | Space Pirates               |          | &#10003; | &#10003; | Arcade       | American Laser Games   |
