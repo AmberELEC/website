@@ -19,7 +19,7 @@
 
 Hypseus-Singe supports two different game formats: Daphne and Hypseus Singe (a.k.a. Singe 1). Each of these formats has different games that they support, though there is some overlap. Daphne is emulation, and uses a rom dump of the arcade machine to function. Singe is simulation, and combines video files with LUA code to simulate the machines.
 
-The Daphne format is a little more complicated, and requires a rom file that goes in the `laserdisc/roms` directory, a `.daphne` folder that contains resources for Daphne configuration, and a `sound` folder that contains shared sound files that are used across games.
+The Daphne format is a little more complicated, and requires a rom file that goes in the `laserdisc/roms` directory and a `.daphne` folder that contains resources for Daphne configuration.
 
 The Hypseus Singe format is more self-contained, and requires a `.ld` folder that contains all the resources that the game requires to run.
 
