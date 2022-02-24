@@ -4,6 +4,7 @@
 - [Setup](#setup)
   * [Daphne Games](#daphne-games)
   * [Hypseus Singe Games](#hypseus-singe-games)
+  * [Action Max Games](#action-max-games)
   * [Singe 2 Game Conversion](#singe-2-game-conversion)
 - [Controls](#controls)
 
@@ -37,6 +38,29 @@ Hypseus Singe games (a.k.a. Singe 1 games) come in a single game folder that con
 If you already have a complete game folder for hypseus singe that contains the `.m2v` and `.ogg` files required, simply add `.ld` to the end of the folder name, double check to make sure that the primary `.singe` file matches the `.ld` game folder name, and add it to the `/roms/laserdisc` folder.
 
 Since singe games are simulations rather than emulation, the code, resources, and metadata for the games are copy-left and freely available. The video and audio of the games are still copyrighted by the original rights holders and must be provided separately. The open source data for the games can be downloaded from the [hypseus_singe_data repository](https://github.com/DirtBagXon/hypseus_singe_data/releases/). It's distributed as a single package for all the available games, with each game having its own game folder. To play a game, you'll need to add your own `.m2v` video and `.ogg` audio files. If you have the original hardware, you can rip the video from the laserdisc to a `.mp4` file, and then follow the instructions in the `README.md` file found in the game folder. Once you have your game folder set up with `.m2v` and `.ogg` files, simply add `.ld` to the end of each game folder that you want to use and add it to the `/roms/laserdisc` folder.
+
+### Action Max Games
+
+While Action Max games technically follow the Hyseus Singe format, there's a little bit of extra work to get them running. Action Max games are often packaged as a single folder with a `.singe` file for each individual game. This doesn't work for 351ELEC because games are required to be one game per folder.
+
+In order to have separate game folders for each Action Max game, you'll need to duplicate the actionmax folder for each game that you want to play. Rename the duplicated folder according to the Folder Name column in the [Gamelist](#gamelist) section. You can then clean out resources for other games so that they aren't taking up space.
+
+For example, after you create a duplicate called `38ambushalley.ld`, you can then delete the following files and folders:
+
+```
+bluethunder.singe
+bluethunder.txt
+bluethunder/
+hydrosub2021.singe
+hydrosub2021.txt
+hydrosub2021/
+popsghostly.singe
+popsghostly.txt
+popsghostly/
+sonicfury.singe
+sonicfury.txt
+sonicfury/
+```
 
 ### Singe 2 Game Conversion
 
