@@ -49,7 +49,7 @@ Some of the data for Singe 2 games can be downloaded for free, with the requirem
 | Badlands                    | &#10003; |          |          | Arcade       | Konami/Centuri         |
 | Bega's Battle               | &#10003; |          |          | Arcade       | Data East              |
 | Blue Thunder                |          | &#10003; |          | Action Max   | Worlds of Wonder       |
-| Cliff Hanger                | &#10003; | &#10003; |          | Arcade       | Stern Electronics      |
+| Cliff Hanger                | &#10003; | &#10003; | &#10003; | Arcade       | Stern Electronics      |
 | Cobra Command               | &#10003; |          |          | Arcade       | Data East              |
 | Crime Patrol                |          | &#10003; | &#10003; | Arcade       | American Laser Games   |
 | Crime Patrol 2: Drug Wars   |          | &#10003; | &#10003; | Arcade       | American Laser Games   |
