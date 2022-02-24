@@ -53,7 +53,7 @@ Some of the data for Singe 2 games can be downloaded for free, with the requirem
 | Cobra Command               | &#10003; |          |          | Arcade       | Data East              |
 | Crime Patrol                |          | &#10003; | &#10003; | Arcade       | American Laser Games   |
 | Crime Patrol 2: Drug Wars   |          | &#10003; | &#10003; | Arcade       | American Laser Games   |
-| Conan the Boy               |          | &#10003; |          | Fangame      | Poiu                   |
+| Conan the Boy in the Future |          | &#10003; |          | Fangame      | Poiu                   |
 | Daitarn 3                   |          | &#10003; |          | Fangame      | Poiu                   |
 | Dragon Trainer              |          | &#10003; |          | Fangame      | Poiu                   |
 | Dragon's Lair               | &#10003; | &#10003; | &#10003; | Arcade       | Cinematronics          |
