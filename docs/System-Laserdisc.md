@@ -3,25 +3,26 @@
 - [Overview](#overview)
 - [Setup](#setup)
   * [Daphne Games](#daphne-games)
-  * [Singe Games](#singe-games)
+  * [Hypseus Singe Games](#hypseus-singe-games)
+  * [Singe 2 Game Conversion](#singe-2-game-conversion)
 - [Controls](#controls)
 
 ## Overview
 
-- This folder is for Laserdisc games. It supports Arcade Laserdisc games and games released for the Action Max home console, as well as a few Arcade VHS games that are supported by laserdisc emulators. It supports games in both Daphne and Singe formats
+- This folder is for Laserdisc games. It supports arcade and home Laserdisc games and games released for the Action Max home console. It supports games in both Daphne and Hypseus Singe (a.k.a. Singe 1) formats
 - Emulator/Core: [Hypseus-Singe](https://github.com/DirtBagXon/hypseus-singe)
 - Path: `/roms/laserdisc`
 - Extensions: `.laserdisc`, `.daphne`
 
 ## Setup
 
-Hypseus-Singe supports two different game formats: Daphne and Singe. Each of these formats has different games that they support, though there is some overlap (usually where Singe supports the HD version of a game that runs under Daphne).
+Hypseus-Singe supports two different game formats: Daphne and Hypseus Singe (a.k.a. Singe 1). Each of these formats has different games that they support, though there is some overlap. Daphne is emulation, and uses a rom dump of the arcade machine to function. Singe is simulation, and combines video files with LUA code to simulate the machines.
 
 The Daphne format is a little more complicated, and requires a rom file that goes in the `laserdisc/roms` directory, a `.daphne` folder that contains resources for Daphne configuration, and a `sound` folder that contains shared sound files that are used across games.
 
-The Singe 1 and 2 formats are more self-contained, and require a `.laserdisc` folder that contains all the resources that the game requires to run.
+The Hypseus Singe format is more self-contained, and requires a `.laserdisc` folder that contains all the resources that the game requires to run.
 
-Note: The `.daphne` and `.laserdisc` folder extensions are interchangeable.
+Note: The `.daphne` and `.laserdisc` folder extensions are currently interchangeable.
 
 ### Daphne Games
 
@@ -29,67 +30,75 @@ Note: The `.daphne` and `.laserdisc` folder extensions are interchangeable.
 - Written Guide: [https://retrogamecorps.com/2021/01/20/guide-daphne-on-the-rg351p-and-rg350-devices/](https://retrogamecorps.com/2021/01/20/guide-daphne-on-the-rg351p-and-rg350-devices/)
 > credit to [Retro Game Corps](https://www.youtube.com/channel/UCoZQiN0o7f36H7PaW4fVhFw) for creating the guides above
 
-### Singe Games
+### Hypseus Singe Games
 
-Singe games come in a single folder that contains one or more `.singe` files, a `.txt` file and `.cfg` file, various image and sound files, and a `.m2v` video and `.ogg` audio file.
+Hypseus Singe games (a.k.a. Singe 1 games) come in a single folder that contains one or more `.singe` files, a `.txt` file and `.cfg` file, various image and sound files, and a `.m2v` video and `.ogg` audio file.
 
-If you already have a complete singe folder that contains the `.m2v` and `.ogg` files required, simply add `.laserdisc` to the end of the folder name and add it to the `/roms/laserdisc` folder.
+If you already have a complete game folder for hypseus singe that contains the `.m2v` and `.ogg` files required, simply add `.laserdisc` to the end of the folder name and add it to the `/roms/laserdisc` folder.
 
-Some of the data for Singe 2 games can be downloaded for free, with the requirement that you provide your own video file. It can be downloaded from the [hypseus_singe_data repository](https://github.com/DirtBagXon/hypseus_singe_data/releases/). If you do download these data files, you'll need to provide your own `.m2v` video and `.ogg` audio files, since they are copyrighted material. The video and audio are often distributed as a single `.mp4` file that can be broken into these two separate files using ffmpeg and instructions included in the data folders. Once you have your folder set up with `.m2v` and `.ogg` files, simply add `.laserdisc` to the end of the folder name and add it to the `/roms/laserdisc` folder.
+Since singe games are simulations rather than emulation, the code, resources, and metadata for the games are copy-left and freely available. The video and audio of the games are still copyrighted by the original rights holders and must be provided separately. The open source data for the games can be downloaded from the [hypseus_singe_data repository](https://github.com/DirtBagXon/hypseus_singe_data/releases/). It's distributed as a single package for all the available games, with each game having its own game folder. To play a game, you'll need to add your own `.m2v` video and `.ogg` audio files. If you have the original hardware, you can rip the video from the laserdisc to a `.mp4` file, and then follow the instructions in the `README.md` file found in the game folder. Once you have your game folder set up with `.m2v` and `.ogg` files, simply add `.laserdisc` to the end of each game folder that you want to use and add it to the `/roms/laserdisc` folder.
+
+### Singe 2 Game Conversion
+
+While Singe 2 games are currently not supported, it is possible to convert a Singe 2 game to Hypseus Singe format. Instructions for this conversion can be found on the [Using Singe games with Hypseus Singe](https://github.com/DirtBagXon/hypseus-singe/discussions/60) discussion.
+
+All or almost all Singe 2 games have been converted to work with Hypseus Singe. Versions of the game that have undergone this conversion are usually called "xxx for hypseus singe".
 
 ## Gamelist
 
 {: .datatable }
-| Game                        | Daphne   | Singe 1  | Singe 2  | Release Type | Developer              |
-|-----------------------------|:--------:|:--------:|:--------:|--------------|------------------------|
-| .38 Ambush Alley            |          | &#10003; |          | Action Max   | Worlds of Wonder       |
-| Altered Carbon Resleeved    |          |          | &#10003; | Fangame      | Mazinger4life          |
-| Asterix                     |          |          | &#10003; | Fangame      | Nado74                 |
-| Astron Belt                 | &#10003; |          |          | Arcade       | Sega                   |
-| Badlands                    | &#10003; |          |          | Arcade       | Konami/Centuri         |
-| Bega's Battle               | &#10003; |          |          | Arcade       | Data East              |
-| Blue Thunder                |          | &#10003; |          | Action Max   | Worlds of Wonder       |
-| Cliff Hanger                | &#10003; | &#10003; | &#10003; | Arcade       | Stern Electronics      |
-| Cobra Command               | &#10003; |          |          | Arcade       | Data East              |
-| Crime Patrol                |          | &#10003; | &#10003; | Arcade       | American Laser Games   |
-| Crime Patrol 2: Drug Wars   |          | &#10003; | &#10003; | Arcade       | American Laser Games   |
-| Conan the Boy in the Future |          | &#10003; |          | Fangame      | Poiu                   |
-| Daitarn 3                   |          | &#10003; |          | Fangame      | Poiu                   |
-| Dragon Trainer              |          | &#10003; |          | Fangame      | Poiu                   |
-| Dragon's Lair               | &#10003; | &#10003; | &#10003; | Arcade       | Cinematronics          |
-| Dragon's Lair II : Timewarp | &#10003; | &#10003; | &#10003; | Arcade       | The Leland Corporation |
-| Esh's Aurunmilla            | &#10003; |          |          | Arcade       | Funai                  |
-| Fire and Ice                |          |          | &#10003; | Fangame      | Karis                  |
-| Freedom Fighter             |          | &#10003; |          | Arcade     | Millenium Games Products |
-| Galaxy Ranger               | &#10003; |          |          | Arcade       | Sega                   |
-| GP World                    | &#10003; |          |          | Arcade       | Sega                   |
-| Hydrosub: 2021              |          | &#10003; |          | Action Max   | Worlds of Wonder       |
-| Interstellar                | &#10003; |          |          | Arcade       | Funai                  |
-| Last Bounty Hunter          |          | &#10003; | &#10003; | Arcade       | American Laser Games   |
-| M.A.C.H. 3                  | &#10003; |          |          | Arcade       | Mylstar/Gottlieb       |
-| Mad Dog McCree              |          | &#10003; | &#10003; | Arcade       | American Laser Games   |
-| Mad Dog McCree 2            |          | &#10003; | &#10003; | Arcade       | American Laser Games   |
-| Ninja Hayate                |          | &#10003; | &#10003; | Arcade       | Taito                  |
-| Platoon                     |          |          | &#10003; | Prototype    |                        |
-| Princess Mononoke           |          |          | &#10003; | Fangame      | Karis                  |
-| Puss in Boots               |          |          | &#10003; | Fangame      | Poiu                   |
-| Rescue of Pops Ghostly, The |          | &#10003; |          | Action Max   | Worlds of Wonder       |
-| Road Blaster                | &#10003; |          |          | Arcade       | Data East              |
-| Samurai Jack                |          | &#10003; |          | Fangame      | Poiu                   |
-| Sonic Fury                  |          | &#10003; |          | Action Max   | Worlds of Wonder       |
-| Space Ace                   | &#10003; | &#10003; | &#10003; | Arcade       | Cinematronics          |
-| Space Pirates               |          | &#10003; | &#10003; | Arcade       | American Laser Games   |
-| Star Blazers                | &#10003; | &#10003; |          | Arcade       | Taito                  |
-| Sucker Punch                |          |          | &#10003; | Fangame      | Karis                  |
-| Super Don Quixote           | &#10003; |          |          | Arcade       | Universal              |
-| Thayer's Quest              | &#10003; |          |          | Arcade       | RDI Video Systems      |
-| Time Gal                    |          | &#10003; | &#10003; | Arcade       | Taito                  |
-| Time Traveler 3D            |          | &#10003; |          | Arcade       | Sega                   |
-| Titan A.E.                  |          |          | &#10003; | Fangame      | Karis                  |
-| Triad Stone/Chantze's Stone (aka Strahl) | | &#10003; | &#10003; | LaserActive | Data East           |
-| Tron                        |          | &#10003; | &#10003; | Fangame      | Karis                  |
-| Us vs Them                  | &#10003; |          |          | Arcade       | Mylstar/Gottlieb       |
-| Who Shot Johnny Rock        |          | &#10003; | &#10003; | Arcade       | American Laser Games   |
+| Game                        | Daphne   | Hypseus Singe | Release Type | Developer              |
+|-----------------------------|:--------:|:-------------:|--------------|------------------------|
+| .38 Ambush Alley            |          | &#10003;      | Action Max   | Worlds of Wonder       |
+| Altered Carbon              |          | &#10003;      | Fangame      | Mazinger4life          |
+| Asterix                     |          | &#10003;      | Fangame      | Nado74                 |
+| Astron Belt                 | &#10003; |               | Arcade       | Sega                   |
+| Badlands                    | &#10003; |               | Arcade       | Konami/Centuri         |
+| Bega's Battle               | &#10003; |               | Arcade       | Data East              |
+| Blue Thunder                |          | &#10003;      | Action Max   | Worlds of Wonder       |
+| Cliff Hanger                | &#10003; | &#10003;      | Arcade       | Stern Electronics      |
+| Cobra Command               | &#10003; |               | Arcade       | Data East              |
+| Crime Patrol                |          | &#10003;      | Arcade       | American Laser Games   |
+| Crime Patrol 2: Drug Wars   |          | &#10003;      | Arcade       | American Laser Games   |
+| Conan the Boy in the Future |          | &#10003;      | Fangame      | Poiu                   |
+| Daitarn 3                   |          | &#10003;      | Fangame      | Poiu                   |
+| Dragon Trainer              |          | &#10003;      | Fangame      | Poiu                   |
+| Dragon's Lair               | &#10003; |               | Arcade       | Cinematronics          |
+| Dragon's Lair II : Timewarp | &#10003; |               | Arcade       | The Leland Corporation |
+| Dragon's Lair II : Timewarp (enhanced) | | &#10003;    | Arcade       | The Leland Corporation |
+| Dragon's Lair TV Show       |          | &#10003;      | Fangame      | Poiu                   |
+| Esh's Aurunmilla            | &#10003; |               | Arcade       | Funai                  |
+| Fire and Ice                |          | &#10003;      | Fangame      | Karis                  |
+| Freedom Fighter             |          | &#10003;      | Arcade     | Millenium Games Products |
+| Galaxy Ranger               | &#10003; |               | Arcade       | Sega                   |
+| GP World                    | &#10003; |               | Arcade       | Sega                   |
+| Hydrosub: 2021              |          | &#10003;      | Action Max   | Worlds of Wonder       |
+| Interstellar                | &#10003; |               | Arcade       | Funai                  |
+| Last Bounty Hunter          |          | &#10003;      | Arcade       | American Laser Games   |
+| M.A.C.H. 3                  | &#10003; |               | Arcade       | Mylstar/Gottlieb       |
+| Mad Dog McCree              |          | &#10003;      | Arcade       | American Laser Games   |
+| Mad Dog McCree 2            |          | &#10003;      | Arcade       | American Laser Games   |
+| Ninja Hayate                |          | &#10003;      | Arcade       | Taito                  |
+| Platoon                     |          | &#10003;      | Prototype    | Poiu (Reconstruction)  |
+| Princess Mononoke           |          | &#10003;      | Fangame      | Karis                  |
+| Puss in Boots               |          | &#10003;      | Fangame      | Poiu                   |
+| Rescue of Pops Ghostly, The |          | &#10003;      | Action Max   | Worlds of Wonder       |
+| Road Blaster                | &#10003; |               | Arcade       | Data East              |
+| Samurai Jack                |          | &#10003;      | Fangame      | Poiu                   |
+| Sonic Fury                  |          | &#10003;      | Action Max   | Worlds of Wonder       |
+| Space Ace                   | &#10003; | &#10003;      | Arcade       | Cinematronics          |
+| Space Pirates               |          | &#10003;      | Arcade       | American Laser Games   |
+| Star Blazers                | &#10003; | &#10003;      | Arcade       | Taito                  |
+| Sucker Punch                |          | &#10003;      | Fangame      | Karis                  |
+| Super Don Quixote           | &#10003; |               | Arcade       | Universal              |
+| Thayer's Quest              | &#10003; |               | Arcade       | RDI Video Systems      |
+| Time Gal                    |          | &#10003;      | Arcade       | Taito                  |
+| Time Traveler 3D            |          | &#10003;      | Arcade       | Sega                   |
+| Titan AE                    |          | &#10003;      | Fangame      | Karis                  |
+| Triad Stone/Chantze's Stone (aka Strahl) | | &#10003;  | LaserActive  | Data East              |
+| Tron                        |          | &#10003;      | Fangame      | Karis                  |
+| Us vs Them                  | &#10003; |               | Arcade       | Mylstar/Gottlieb       |
+| Who Shot Johnny Rock?       |          | &#10003;      | Arcade       | American Laser Games   |
 
 ## Controls
 
