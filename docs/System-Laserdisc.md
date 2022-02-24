@@ -79,7 +79,7 @@ Some of the data for Singe 2 games can be downloaded for free, with the requirem
 | Sonic Fury                  |          | &#10003; |          | Action Max   | Worlds of Wonder       |
 | Space Ace                   | &#10003; | &#10003; | &#10003; | Arcade       | Cinematronics          |
 | Space Pirates               |          | &#10003; | &#10003; | Arcade       | American Laser Games   |
-| Star Blazer                 | &#10003; |          |          | Arcade       | Taito                  |
+| Star Blazers                | &#10003; | &#10003; |          | Arcade       | Taito                  |
 | Sucker Punch                |          |          | &#10003; | Fangame      | Karis                  |
 | Super Don Quixote           | &#10003; |          |          | Arcade       | Universal              |
 | Thayer's Quest              | &#10003; |          |          | Arcade       | RDI Video Systems      |
