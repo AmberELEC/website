@@ -84,6 +84,7 @@ Some of the data for Singe 2 games can be downloaded for free, with the requirem
 | Super Don Quixote           | &#10003; |          |          | Arcade       | Universal              |
 | Thayer's Quest              | &#10003; |          |          | Arcade       | RDI Video Systems      |
 | Time Gal                    |          | &#10003; | &#10003; | Arcade       | Taito                  |
+| Time Traveler 3D            |          | &#10003; |          | Arcade       | Sega                   |
 | Titan A.E.                  |          |          | &#10003; | Fangame      | Karis                  |
 | Triad Stone/Chantze's Stone (aka Strahl) | | &#10003; | &#10003; | LaserActive | Data East           |
 | Tron                        |          | &#10003; | &#10003; | Fangame      | Karis                  |
