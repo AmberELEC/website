@@ -37,6 +37,8 @@ Hypseus Singe games (a.k.a. Singe 1 games) come in a single game folder that con
 
 If you already have a complete game folder for hypseus singe that contains the `.m2v` and `.ogg` files required, simply add `.ld` to the end of the folder name, double check to make sure that the primary `.singe` file matches the `.ld` game folder name, and add it to the `/roms/laserdisc` folder.
 
+Some Hypseus Singe games have HD versions. It's recommended that you get the regular version instead; even the RG552 is not up to the task of running HD Singe games. Fan games also tend to be taxing, and may not play at full speed.
+
 Since singe games are simulations rather than emulation, the code, resources, and metadata for the games are copy-left and freely available. The video and audio of the games are still copyrighted by the original rights holders and must be provided separately. The open source data for the games can be downloaded from the [hypseus_singe_data repository](https://github.com/DirtBagXon/hypseus_singe_data/releases/). It's distributed as a single package for all the available games, with each game having its own game folder. To play a game, you'll need to add your own `.m2v` video and `.ogg` audio files. If you have the original hardware, you can rip the video from the laserdisc to a `.mp4` file, and then follow the instructions in the `README.md` file found in the game folder. Once you have your game folder set up with `.m2v` and `.ogg` files, simply add `.ld` to the end of each game folder that you want to use and add it to the `/roms/laserdisc` folder.
 
 ### Action Max Games
@@ -76,53 +78,53 @@ All or almost all Singe 2 games have been converted to work with Hypseus Singe. 
 | .38 Ambush Alley | | &#10003; | 38ambushalley.ld | Action Max | Worlds of Wonder |
 | Altered Carbon | | &#10003; | carbon.ld | Fangame | Mazinger4life |
 | Asterix | | &#10003; | asterix.ld | Fangame | Nado74 |
-| Astron Belt | &#10003; | | placeholder.daphne | Arcade | Sega |
-| Badlands | &#10003; | | placeholder.daphne | Arcade | Konami/Centuri |
-| Bega's Battle | &#10003; | | placeholder.daphne | Arcade | Data East |
+| Astron Belt | &#10003; | | astron.daphne | Arcade | Sega |
+| Badlands | &#10003; | | badlands.daphne | Arcade | Konami/Centuri |
+| Bega's Battle | &#10003; | | bega.daphne | Arcade | Data East |
 | Blue Thunder | | &#10003; | bluethunder.ld | Action Max | Worlds of Wonder |
 | Cliff Hanger | &#10003; | &#10003; | Daphne: cliff.daphne<br/>Singe: cliffhanger.ld or cliff.ld<br/>(Two singe versions exist)| Arcade | Stern Electronics |
-| Cobra Command | &#10003; | | placeholder.daphne | Arcade | Data East |
-| Crime Patrol | | &#10003; | SD: crimepatrol.ld<br/>HD: crimepatrol-hd.ld | Arcade | American Laser Games |
-| Crime Patrol 2: Drug Wars | | &#10003; | SD: drugwars.ld<br/>HD: drugwars-hd.ld | Arcade | American Laser Games |
+| Cobra Command | &#10003; | | cobra.daphne | Arcade | Data East |
+| Crime Patrol | | &#10003; | SD: crimepatrol.ld | Arcade | American Laser Games |
+| Crime Patrol 2: Drug Wars | | &#10003; | drugwars.ld | Arcade | American Laser Games |
 | Conan the Boy in the Future | | &#10003; | conan.ld | Fangame | Poiu |
 | Daitarn 3 | | &#10003; | daitarn.ld | Fangame | Poiu |
 | Dragon Trainer | | &#10003; | dragon.ld | Fangame | Poiu |
-| Dragon's Lair | &#10003; | | placeholder.ld | Arcade | Cinematronics |
-| Dragon's Lair II : Timewarp | &#10003; | | placeholder.ld | Arcade | The Leland Corporation |
+| Dragon's Lair | &#10003; | | lair.daphne | Arcade | Cinematronics |
+| Dragon's Lair II : Timewarp | &#10003; | | lair2.daphne | Arcade | The Leland Corporation |
 | Dragon's Lair II : Timewarp (enhanced) | | &#10003; | dl2e.ld | Arcade | The Leland Corporation |
 | Dragon's Lair TV Show | | &#10003; | dltv.ld | Fangame | Poiu |
-| Esh's Aurunmilla | &#10003; | | placeholder.daphne | Arcade | Funai |
+| Esh's Aurunmilla | &#10003; | | esh.daphne | Arcade | Funai |
 | Fire and Ice | | &#10003; | fireandice.ld | Fangame | Karis |
 | Freedom Fighter | | &#10003; | freedomfighter.ld | Arcade | Millenium Games Products |
-| Galaxy Ranger | &#10003; | | placeholder.ld | Arcade | Sega |
-| GP World | &#10003; | | placeholder.ld | Arcade | Sega |
+| Galaxy Ranger | &#10003; | | galaxyr.daphne | Arcade | Sega |
+| GP World | &#10003; | | gpworld.daphne | Arcade | Sega |
 | Hydrosub: 2021 | | &#10003; | hydrosub2021.ld | Action Max | Worlds of Wonder |
-| Interstellar | &#10003; | | placeholder.ld | Arcade | Funai |
-| Last Bounty Hunter, The | | &#10003; | SD: lbh.ld<br/>HD: lbh-hd.ld | Arcade | American Laser Games |
-| M.A.C.H. 3 | &#10003; | | placeholder.ld | Arcade       | Mylstar/Gottlieb       |
-| Mad Dog McCree | | &#10003; | SD: maddog.ld<br/>HD: maddog-hd.ld | Arcade | American Laser Games |
-| Mad Dog McCree 2 | | &#10003; | SD: maddog2.ld<br/>HD: maddog2-hd.ld | Arcade | American Laser Games |
-| Ninja Hayate | | &#10003; | SD: hayate.ld<br/>HD: hayate-hd.ld<br/>alt: hayate-psx.ld | Arcade | Taito |
+| Interstellar | &#10003; | | interstellar.daphne | Arcade | Funai |
+| Last Bounty Hunter, The | | &#10003; | lbh.ld | Arcade | American Laser Games |
+| M.A.C.H. 3 | &#10003; | | mach3.ld | Arcade       | Mylstar/Gottlieb       |
+| Mad Dog McCree | | &#10003; | maddog.ld | Arcade | American Laser Games |
+| Mad Dog McCree 2 | | &#10003; | maddog2.ld | Arcade | American Laser Games |
+| Ninja Hayate | | &#10003; | hayate.ld | Arcade | Taito |
 | Platoon | | &#10003; | platoon.ld | Prototype | Poiu (Reconstruction) |
 | Princess Mononoke | | &#10003; | mononoke.ld | Fangame | Karis |
 | Puss in Boots | | &#10003; | pussinboots.ld | Fangame | Poiu |
 | Rescue of Pops Ghostly, The | | &#10003; | popsghostly.ld | Action Max | Worlds of Wonder |
-| Road Blaster | &#10003; | | placeholder.daphne | Arcade | Data East |
+| Road Blaster | &#10003; | | rb.daphne | Arcade | Data East |
 | Samurai Jack | | &#10003; | jack.ld | Fangame | Poiu |
 | Sonic Fury | | &#10003; | sonicfury.ld | Action Max | Worlds of Wonder |
-| Space Ace | &#10003; | | placeholder.ld | Arcade | Cinematronics |
-| Space Pirates | | &#10003; | SD: spacepirates.ld<br/>HD: spacepirates-hd.ld | Arcade | American Laser Games |
+| Space Ace | &#10003; | | ace.daphne | Arcade | Cinematronics |
+| Space Pirates | | &#10003; | spacepirates.ld | Arcade | American Laser Games |
 | Star Blazers | &#10003; | &#10003; | Singe: starblazers.ld | Arcade | Taito |
 | Sucker Punch | | &#10003; | suckerpunch.ld | Fangame | Karis |
-| Super Don Quixote | &#10003; | | placeholder.daphne | Arcade | Universal |
-| Thayer's Quest | &#10003; | | placeholder.daphne | Arcade | RDI Video Systems |
-| Time Gal | | &#10003; | SD: timegal.ld<br/>HD: timegal-hd.ld | Arcade | Taito |
+| Super Don Quixote | &#10003; | | sdq.daphne | Arcade | Universal |
+| Thayer's Quest | &#10003; | | tq.daphne | Arcade | RDI Video Systems |
+| Time Gal | | &#10003; | timegal.ld | Arcade | Taito |
 | Time Traveler 3D | | &#10003; | timetraveler.ld | Arcade | Sega |
 | Titan AE | | &#10003; | titanae.ld | Fangame | Karis |
-| Triad Stone/Chantze's Stone (aka Strahl) | | &#10003; | SD: triad.ld<br/>HD: chantze-hd.ld<br/>HD alt: triad-hd.ld | LaserActive | Data East |
+| Triad Stone/Chantze's Stone (aka Strahl) | | &#10003; | triad.ld | LaserActive | Data East |
 | Tron | | &#10003; | tron.ld | Fangame | Karis |
-| Us vs Them | &#10003; | | placeholder.ld | Arcade | Mylstar/Gottlieb |
-| Who Shot Johnny Rock? | | &#10003; | SD: johnnyrock.ld<br/>HD: johnnyrock-hd.ld<br/>B&W version: johnnyrocknoir.ld | Arcade | American Laser Games |
+| Us vs Them | &#10003; | | uvt.daphne | Arcade | Mylstar/Gottlieb |
+| Who Shot Johnny Rock? | | &#10003; | johnnyrock.ld | Arcade | American Laser Games |
 
 ## Controls
 
