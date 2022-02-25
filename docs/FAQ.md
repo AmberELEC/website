@@ -182,3 +182,12 @@ The easiest way to get the brightness set up if you have this issue is to change
 **A:** Support for separate CPS folders was removed in Pineapple Forest. It doesn't really make sense to have separate folders for individual arcade boards when the arcade roms themselves come from the fbneo romset. It's recommended that instead of using cps1-3 folders, you use the [CPS Auto Collections](Collections#automatic-game-collections) that are built into ES. To activate them, place your CPS roms in the fbneo folder, scape them, and then turn on the CPS Auto Collections in the Game Collections menu under the main menu.
 
 If you absolutely don't want to use Auto Collections and just want support for cps1-3 folders, you can add this [Capcom ES Systems Config](resources/es_systems/es_systems_capcom.cfg) to `/storage/.config/emulationstation/`. See [How to work with es_systems.cfg on 351ELEC](Advanced-Topics#how-to-work-with-es_systemscfg-on-351elec) for more information on using custom es_systems configurations.
+
+***
+
+{: #fast-forward }
+**Q:** [![link](images/link-45deg.svg)](#fast-forward) I like using fast forward for grindy games like Pokemon, but fast forward isn't fast enough. Is there any way to make it faster?
+
+**A:** There are a couple of tweaks that will give small performance increases. You can try different emulator cores, as some of them use less processing power and can spend more on fast forwarding. You can also disable sound, which usually gives a few extra frames on fast forward. There are currently no ways to get really significant fast forward speedup right now.
+
+It's possible that a standalone could be implemented that could significantly improve fast forwarding, but there's no guarantee that it would work and it would take a lot of time and effort. There are currently no developers working on this problem, and it's very low on the priority list, especially since it would take a lot of work an may not succeed anyway. 351ELEC is a community project though, so if fast forwarding is really important to you and you'd like to work on it, go for it!
