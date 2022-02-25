@@ -31,6 +31,8 @@ Note: The `.daphne` and `.ld` folder extensions are currently interchangeable.
 - Written Guide: [https://retrogamecorps.com/2021/01/20/guide-daphne-on-the-rg351p-and-rg350-devices/](https://retrogamecorps.com/2021/01/20/guide-daphne-on-the-rg351p-and-rg350-devices/)
 > credit to [Retro Game Corps](https://www.youtube.com/channel/UCoZQiN0o7f36H7PaW4fVhFw) for creating the guides above
 
+The guide above is mostly accurate to Hypseus-Singe, but the `sound` directory is no longer required. For any Daphne game, you only need the rom file (usually a `.zip` file) in the `roms/laserdisc/roms` folder, and a `.daphne` folder in the `roms/laserdisc` folder.
+
 ### Hypseus Singe Games
 
 Hypseus Singe games (a.k.a. Singe 1 games) come in a single game folder that contains one or more `.singe` files, a `.txt` file and `.cfg` file, various image and sound files, and a `.m2v` video and `.ogg` audio file. It's important that the folder name match the primary `.singe` file name. For example, if the `.singe` file is called `maddog.singe`, the game folder *must* be called `maddog.ld`.
