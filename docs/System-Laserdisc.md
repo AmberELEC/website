@@ -70,9 +70,9 @@ All or almost all Singe 2 games have been converted to work with Hypseus Singe. 
 | Conan the Boy in the Future | | &#10003; | conan.ld | | Fangame | Poiu |
 | Daitarn 3 | | &#10003; | daitarn.ld | | Fangame | Poiu |
 | Dragon Trainer | | &#10003; | dragon.ld | | Fangame | Poiu |
-| Dragon's Lair | &#10003; | | lair.daphne | Directions: Move Dirk<br/>A: Sword | Arcade | Cinematronics |
-| Dragon's Lair II : Timewarp | &#10003; | | lair2.daphne | Directions: Move Dirk<br/>A: Sword | Arcade | The Leland Corporation |
-| Dragon's Lair II : Timewarp (enhanced) | | &#10003; | dl2e.ld | Directions: Move Dirk<br/>A: Sword | Arcade | The Leland Corporation |
+| Dragon's Lair | &#10003; | | lair.daphne | Directions: Move<br/>A: Sword | Arcade | Cinematronics |
+| Dragon's Lair II : Timewarp | &#10003; | | lair2.daphne | Directions: Move<br/>A: Sword | Arcade | The Leland Corporation |
+| Dragon's Lair II : Timewarp (enhanced) | | &#10003; | dl2e.ld | Directions: Move<br/>A: Sword | Arcade | The Leland Corporation |
 | Dragon's Lair TV Show | | &#10003; | dltv.ld | | Fangame | Poiu |
 | Esh's Aurunmilla | &#10003; | | esh.daphne | | Arcade | Funai |
 | Fire and Ice | | &#10003; | fireandice.ld | | Fangame | Karis |
