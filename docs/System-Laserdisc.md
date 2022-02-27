@@ -56,62 +56,62 @@ All or almost all Singe 2 games have been converted to work with Hypseus Singe. 
 ## Gamelist
 
 {: .datatable }
-| Game | Daphne | Hypseus Singe | Folder Name | Release Type | Developer |
-|------|:------:|:-------------:|-------------|--------------|-----------|
-| Altered Carbon | | &#10003; | carbon.ld | Fangame | Mazinger4life |
-| Asterix | | &#10003; | asterix.ld | Fangame | Nado74 |
-| Astron Belt | &#10003; | | astron.daphne | Arcade | Sega |
-| Badlands | &#10003; | | badlands.daphne | Arcade | Konami/Centuri |
-| Bega's Battle | &#10003; | | bega.daphne | Arcade | Data East |
-| Cliff Hanger | &#10003; | &#10003; | Daphne: cliff.daphne<br/>Singe: cliff.ld | Arcade | Stern Electronics |
-| Cobra Command | &#10003; | | cobra.daphne | Arcade | Data East |
-| Crime Patrol | | &#10003; | crimepatrol.ld | Arcade | American Laser Games |
-| Crime Patrol 2: Drug Wars | | &#10003; | drugwars.ld | Arcade | American Laser Games |
-| Conan the Boy in the Future | | &#10003; | conan.ld | Fangame | Poiu |
-| Daitarn 3 | | &#10003; | daitarn.ld | Fangame | Poiu |
-| Dragon Trainer | | &#10003; | dragon.ld | Fangame | Poiu |
-| Dragon's Lair | &#10003; | | lair.daphne | Arcade | Cinematronics |
-| Dragon's Lair II : Timewarp | &#10003; | | lair2.daphne | Arcade | The Leland Corporation |
-| Dragon's Lair II : Timewarp (enhanced) | | &#10003; | dl2e.ld | Arcade | The Leland Corporation |
-| Dragon's Lair TV Show | | &#10003; | dltv.ld | Fangame | Poiu |
-| Esh's Aurunmilla | &#10003; | | esh.daphne | Arcade | Funai |
-| Fire and Ice | | &#10003; | fireandice.ld | Fangame | Karis |
-| Freedom Fighter | | &#10003; | freedomfighter.ld | Arcade | Millenium Games Products |
-| Galaxy Ranger | &#10003; | | galaxyr.daphne | Arcade | Sega |
-| GP World | &#10003; | | gpworld.daphne | Arcade | Sega |
-| Interstellar | &#10003; | | interstellar.daphne | Arcade | Funai |
-| Last Bounty Hunter, The | | &#10003; | lbh.ld | Arcade | American Laser Games |
-| M.A.C.H. 3 | &#10003; | | mach3.ld | Arcade       | Mylstar/Gottlieb       |
-| Mad Dog McCree | | &#10003; | maddog.ld | Arcade | American Laser Games |
-| Mad Dog McCree 2 | | &#10003; | maddog2.ld | Arcade | American Laser Games |
-| Ninja Hayate | | &#10003; | hayate.ld | Arcade | Taito |
-| Platoon | | &#10003; | platoon.ld | Prototype | Poiu (Reconstruction) |
-| Princess Mononoke | | &#10003; | mononoke.ld | Fangame | Karis |
-| Puss in Boots | | &#10003; | pussinboots.ld | Fangame | Poiu |
-| Road Blaster | &#10003; | | rb.daphne | Arcade | Data East |
-| Samurai Jack | | &#10003; | jack.ld | Fangame | Poiu |
-| Space Ace | &#10003; | | ace.daphne | Arcade | Cinematronics |
-| Space Pirates | | &#10003; | spacepirates.ld | Arcade | American Laser Games |
-| Star Blazers | | &#10003; | starblazers.ld | Arcade | Taito |
-| Sucker Punch | | &#10003; | suckerpunch.ld | Fangame | Karis |
-| Super Don Quixote | &#10003; | | sdq.daphne | Arcade | Universal |
-| Thayer's Quest | &#10003; | | tq.daphne | Arcade | RDI Video Systems |
-| Time Gal | | &#10003; | timegal.ld | Arcade | Taito |
-| Time Traveler 3D | | &#10003; | timetraveler.ld | Arcade | Sega |
-| Titan AE | | &#10003; | titanae.ld | Fangame | Karis |
-| Triad Stone/Chantze's Stone (aka Strahl) | | &#10003; | triad.ld | LaserActive | Data East |
-| Tron | | &#10003; | tron.ld | Fangame | Karis |
-| Us vs Them | &#10003; | | uvt.daphne | Arcade | Mylstar/Gottlieb |
-| Who Shot Johnny Rock? | | &#10003; | johnnyrock.ld | Arcade | American Laser Games |
+| Game | Daphne | Hypseus Singe | Folder Name | Controls | Release Type | Developer |
+|------|:------:|:-------------:|-------------|----------|--------------|-----------|
+| Altered Carbon | | &#10003; | carbon.ld | | Fangame | Mazinger4life |
+| Asterix | | &#10003; | asterix.ld | | Fangame | Nado74 |
+| Astron Belt | &#10003; | | astron.daphne | | Arcade | Sega |
+| Badlands | &#10003; | | badlands.daphne | | Arcade | Konami/Centuri |
+| Bega's Battle | &#10003; | | bega.daphne | | Arcade | Data East |
+| Cliff Hanger | &#10003; | &#10003; | Daphne: cliff.daphne<br/>Singe: cliff.ld | | Arcade | Stern Electronics |
+| Cobra Command | &#10003; | | cobra.daphne | | Arcade | Data East |
+| Crime Patrol | | &#10003; | crimepatrol.ld | | Arcade | American Laser Games |
+| Crime Patrol 2: Drug Wars | | &#10003; | drugwars.ld | | Arcade | American Laser Games |
+| Conan the Boy in the Future | | &#10003; | conan.ld | | Fangame | Poiu |
+| Daitarn 3 | | &#10003; | daitarn.ld | | Fangame | Poiu |
+| Dragon Trainer | | &#10003; | dragon.ld | | Fangame | Poiu |
+| Dragon's Lair | &#10003; | | lair.daphne | Directions: Move Dirk<br/>A: Sword | Arcade | Cinematronics |
+| Dragon's Lair II : Timewarp | &#10003; | | lair2.daphne | Directions: Move Dirk<br/>A: Sword | Arcade | The Leland Corporation |
+| Dragon's Lair II : Timewarp (enhanced) | | &#10003; | dl2e.ld | Directions: Move Dirk<br/>A: Sword | Arcade | The Leland Corporation |
+| Dragon's Lair TV Show | | &#10003; | dltv.ld | | Fangame | Poiu |
+| Esh's Aurunmilla | &#10003; | | esh.daphne | | Arcade | Funai |
+| Fire and Ice | | &#10003; | fireandice.ld | | Fangame | Karis |
+| Freedom Fighter | | &#10003; | freedomfighter.ld | | Arcade | Millenium Games Products |
+| Galaxy Ranger | &#10003; | | galaxyr.daphne | | Arcade | Sega |
+| GP World | &#10003; | | gpworld.daphne | | Arcade | Sega |
+| Interstellar | &#10003; | | interstellar.daphne | | Arcade | Funai |
+| Last Bounty Hunter, The | | &#10003; | lbh.ld | | Arcade | American Laser Games |
+| M.A.C.H. 3 | &#10003; | | mach3.ld | | Arcade | Mylstar/Gottlieb       |
+| Mad Dog McCree | | &#10003; | maddog.ld | X: Shoot<br/>A: Reload | Arcade | American Laser Games |
+| Mad Dog McCree 2 | | &#10003; | maddog2.ld | X: Shoot<br/>A: Reload | Arcade | American Laser Games |
+| Ninja Hayate | | &#10003; | hayate.ld | | Arcade | Taito |
+| Platoon | | &#10003; | platoon.ld | | Prototype | Poiu (Reconstruction) |
+| Princess Mononoke | | &#10003; | mononoke.ld | | Fangame | Karis |
+| Puss in Boots | | &#10003; | pussinboots.ld | | Fangame | Poiu |
+| Road Blaster | &#10003; | | rb.daphne | | Arcade | Data East |
+| Samurai Jack | | &#10003; | jack.ld | | Fangame | Poiu |
+| Space Ace | &#10003; | | ace.daphne | | Arcade | Cinematronics |
+| Space Pirates | | &#10003; | spacepirates.ld | | Arcade | American Laser Games |
+| Star Blazers | | &#10003; | starblazers.ld | | Arcade | Taito |
+| Sucker Punch | | &#10003; | suckerpunch.ld | | Fangame | Karis |
+| Super Don Quixote | &#10003; | | sdq.daphne | | Arcade | Universal |
+| Thayer's Quest | &#10003; | | tq.daphne | | Arcade | RDI Video Systems |
+| Time Gal | | &#10003; | timegal.ld | | Arcade | Taito |
+| Time Traveler 3D | | &#10003; | timetraveler.ld | | Arcade | Sega |
+| Titan AE | | &#10003; | titanae.ld | | Fangame | Karis |
+| Triad Stone/Chantze's Stone (aka Strahl) | | &#10003; | triad.ld | | LaserActive | Data East |
+| Tron | | &#10003; | tron.ld | | Fangame | Karis |
+| Us vs Them | &#10003; | | uvt.daphne | | Arcade | Mylstar/Gottlieb |
+| Who Shot Johnny Rock? | | &#10003; | johnnyrock.ld | | Arcade | American Laser Games |
 
 ## Controls
 
-|In-Game|RG351|
-|-|-|
-|Coin|Select|
-|Start|Start|
-|Button 1|A|
-|Button 2|B|
-|Button 3|Y|
-|Pause|L2|
-|Quit|R2|
+| In-Game | Console |
+|---------|---------|
+| Coin | Select |
+| Start | Start |
+| Button 1| A |
+| Button 2| B |
+| Button 3| X |
+| Pause | L2 |
+| Quit | R2 |
