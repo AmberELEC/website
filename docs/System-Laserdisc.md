@@ -10,7 +10,7 @@
 
 ## Overview
 
-- This folder is for Laserdisc games. It supports arcade and home Laserdisc games and games released for the Action Max home console. It supports games in both Daphne and Hypseus Singe (a.k.a. Singe 1) formats
+- This emulator supports arcade and home Laserdisc games. It supports games in both Daphne and Hypseus Singe (a.k.a. Singe 1) formats
 - Emulator/Core: [Hypseus-Singe](https://github.com/DirtBagXon/hypseus-singe)
 - Path: `/roms/laserdisc`
 - Extensions: `.ld`, `.daphne`
@@ -45,26 +45,7 @@ Since singe games are simulations rather than emulation, the code, resources, an
 
 ### Action Max Games
 
-While Action Max games technically follow the Hyseus Singe format, there's a little bit of extra work to get them running. Action Max games are often packaged as a single folder with a `.singe` file for each individual game. This doesn't work for 351ELEC because games are required to be one game per folder.
-
-In order to have separate game folders for each Action Max game, you'll need to duplicate the actionmax folder for each game that you want to play. Rename the duplicated folder according to the Folder Name column in the [Gamelist](#gamelist) section. You can then clean out resources for other games so that they aren't taking up space.
-
-For example, after you create a duplicate called `38ambushalley.ld`, you can then delete the following files and folders:
-
-```
-bluethunder.singe
-bluethunder.txt
-bluethunder/
-hydrosub2021.singe
-hydrosub2021.txt
-hydrosub2021/
-popsghostly.singe
-popsghostly.txt
-popsghostly/
-sonicfury.singe
-sonicfury.txt
-sonicfury/
-```
+Action Max games are not currently supported.
 
 ### Singe 2 Game Conversion
 
@@ -77,13 +58,11 @@ All or almost all Singe 2 games have been converted to work with Hypseus Singe. 
 {: .datatable }
 | Game | Daphne | Hypseus Singe | Folder Name | Release Type | Developer |
 |------|:------:|:-------------:|-------------|--------------|-----------|
-| .38 Ambush Alley | | &#10003; | 38ambushalley.ld | Action Max | Worlds of Wonder |
 | Altered Carbon | | &#10003; | carbon.ld | Fangame | Mazinger4life |
 | Asterix | | &#10003; | asterix.ld | Fangame | Nado74 |
 | Astron Belt | &#10003; | | astron.daphne | Arcade | Sega |
 | Badlands | &#10003; | | badlands.daphne | Arcade | Konami/Centuri |
 | Bega's Battle | &#10003; | | bega.daphne | Arcade | Data East |
-| Blue Thunder | | &#10003; | bluethunder.ld | Action Max | Worlds of Wonder |
 | Cliff Hanger | &#10003; | &#10003; | Daphne: cliff.daphne<br/>Singe: cliff.ld | Arcade | Stern Electronics |
 | Cobra Command | &#10003; | | cobra.daphne | Arcade | Data East |
 | Crime Patrol | | &#10003; | crimepatrol.ld | Arcade | American Laser Games |
@@ -100,7 +79,6 @@ All or almost all Singe 2 games have been converted to work with Hypseus Singe. 
 | Freedom Fighter | | &#10003; | freedomfighter.ld | Arcade | Millenium Games Products |
 | Galaxy Ranger | &#10003; | | galaxyr.daphne | Arcade | Sega |
 | GP World | &#10003; | | gpworld.daphne | Arcade | Sega |
-| Hydrosub: 2021 | | &#10003; | hydrosub2021.ld | Action Max | Worlds of Wonder |
 | Interstellar | &#10003; | | interstellar.daphne | Arcade | Funai |
 | Last Bounty Hunter, The | | &#10003; | lbh.ld | Arcade | American Laser Games |
 | M.A.C.H. 3 | &#10003; | | mach3.ld | Arcade       | Mylstar/Gottlieb       |
@@ -110,10 +88,8 @@ All or almost all Singe 2 games have been converted to work with Hypseus Singe. 
 | Platoon | | &#10003; | platoon.ld | Prototype | Poiu (Reconstruction) |
 | Princess Mononoke | | &#10003; | mononoke.ld | Fangame | Karis |
 | Puss in Boots | | &#10003; | pussinboots.ld | Fangame | Poiu |
-| Rescue of Pops Ghostly, The | | &#10003; | popsghostly.ld | Action Max | Worlds of Wonder |
 | Road Blaster | &#10003; | | rb.daphne | Arcade | Data East |
 | Samurai Jack | | &#10003; | jack.ld | Fangame | Poiu |
-| Sonic Fury | | &#10003; | sonicfury.ld | Action Max | Worlds of Wonder |
 | Space Ace | &#10003; | | ace.daphne | Arcade | Cinematronics |
 | Space Pirates | | &#10003; | spacepirates.ld | Arcade | American Laser Games |
 | Star Blazers | | &#10003; | starblazers.ld | Arcade | Taito |
