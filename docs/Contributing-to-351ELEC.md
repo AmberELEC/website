@@ -223,6 +223,8 @@ The above method is recommended due to difficulty setting up all proper files to
 - `make -j$(nproc)`
   - NOTE: `-j$(nproc)` builds with all CPU cores, you can specify something like `-j2` to build with two cores or omit `-j...`to build with one core.
 - **Setup 351ELEC files**
+  - it may be possible to have emulation station look for files in your home directory, but I try and make it match 351elec and set home to /storage
+    - `export HOME=/storage`
   - go into `351ELEC` checkout.
     - Make /storage and ensure your user owns it
       - `sudo mkdir -p /storage/`
