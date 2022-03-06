@@ -225,15 +225,16 @@ The above method is recommended due to difficulty setting up all proper files to
 - **Setup 351ELEC files**
   - it may be possible to have emulation station look for files in your home directory, but I try and make it match 351elec and set home to /storage
     - `export HOME=/storage`
-  - go into `351ELEC` checkout.
+    - NOTE: You'll need to set `HOME` everytime you open a new terminal.  It's also possible to not set home to /storage and most files will come from the users home directory, but some things in 351ELEC are hard coded to /home.
+  - Ensure you have 351ELEC checked out next to 351elec-emulationstation (git clone https://github.com/351ELEC/351ELEC/ ../351ELEC)
     - Make /storage and ensure your user owns it
       - `sudo mkdir -p /storage/`
       - `sudo chown -R $(whoami) /storage/`
     - `echo RG552 > /storage/.config/.OS_ARCH`
     - `mkdir -p /storage/.config/distribution/configs/`
-    - `cp packages/351elec/config/distribution/configs/distribution.conf.552 /storage/.config/distribution/configs/distribution.conf`
+    - `cp ../351ELEC/packages/351elec/config/distribution/configs/distribution.conf.552 /storage/.config/distribution/configs/distribution.conf`
     - `mkdir -p ~/.emulationstation/`
-    - `cp -r build.351ELEC-RG552.aarch64/image/system/usr/config/emulationstation/* ~/.emulationstation`
+    - `cp -r ../351ELEC/packages/ui/351elec-emulationstation/config/* ~/.emulationstation`
 
     - Setup keyboard input config
       - Put this into `~/.emulationstation/es_input.cfg`
