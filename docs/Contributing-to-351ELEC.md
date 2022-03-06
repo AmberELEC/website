@@ -228,7 +228,7 @@ The above method is recommended due to difficulty setting up all proper files to
     - NOTE: You'll need to set `HOME` everytime you open a new terminal.  It's also possible to not set home to /storage and most files will come from the users home directory, but some things in 351ELEC are hard coded to /home.
   - Ensure you have 351ELEC checked out next to 351elec-emulationstation (git clone https://github.com/351ELEC/351ELEC/ ../351ELEC)
     - Make /storage and ensure your user owns it
-      - `sudo mkdir -p /storage/`
+      - `sudo mkdir -p /storage/.config`
       - `sudo chown -R $(whoami) /storage/`
     - `echo RG552 > /storage/.config/.OS_ARCH`
     - `mkdir -p /storage/.config/distribution/configs/`
@@ -237,7 +237,14 @@ The above method is recommended due to difficulty setting up all proper files to
     - `cp -r ../351ELEC/packages/ui/351elec-emulationstation/config/* ~/.emulationstation`
 
     - Setup keyboard input config
-      - Put this into `~/.emulationstation/es_input.cfg`
+      - Put this into `~/.emulationstation/es_input.cfg` 
+        - FYI: you can also map this yourself in ES if you remove es_input.cfg.  Controls below are:
+          - `Enter` = `A`
+          - `Escape` = `B`
+          - `Space` = `Start`
+          - `Left Ctl` = `Select`
+          - `Tab` = `X`
+          - `Left Shift` = `Y`
       ```
       <?xml version="1.0"?>
       <inputList>
