@@ -55,7 +55,7 @@ You can change shaders in the game options. While there are many to choose from,
 
 ## Game Collections
 
-[Game Collections](Collections) allow you to organize your games into custom categories that are easy to browse and sort through. 351ELEC has extensive support for game collections, including a number of [Automatic Game Collections](Collections#automatic-game-collections) that already exist for all sorts of useful filters, including individual arcade boards like the popular Capcom CPS boards.
+[Game Collections](Collections) allow you to organize your games into custom categories that are easy to browse and sort through. 351ELEC has extensive support for game collections, including a number of [Automatic Game Collections](Collections#automatic-game-collections) that already exist for all sorts of useful filters, including individual arcade boards like the popular Capcom CPS boards. Since Automatic Collections are based on game metadata, you must scrape your games in order for them to work properly.
 
 ## Playing Games
 
