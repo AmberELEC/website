@@ -1,14 +1,9 @@
 # Pre-Release Features
 
-- [RG552 Beta](#rg552-beta)
 - [LaunchBox Importer](#launchbox-importer)
 - [Aquaplus P/ECE](#aquaplus-pece)
 - [Mupen64Plus SA Options](#mupen64plus-sa-options)
 - [Laserdisc Games](#laserdisc-games)
-
-## RG552 Beta
-
-A beta version of 351ELECxRG552 is available from the [552 Beta Releases](https://github.com/351ELEC/552_beta/releases) page. Please use the `rg552-beta-firmware` channel on the Discord for discussion of the beta.
 
 ## LaunchBox Importer
 
