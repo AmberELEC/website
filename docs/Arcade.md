@@ -12,5 +12,5 @@ If you want a better understanding of how arcade emulation works, the MAME [Abou
 
 - [MAME](System-MAME)
 - [FBNeo](System-FBNeo)
-- [Daphne](System-Daphne)
+- [LaserDisc](System-Laserdisc)
 - [Neo Geo](System-Neo-Geo)
