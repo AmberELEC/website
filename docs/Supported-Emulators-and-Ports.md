@@ -106,7 +106,7 @@ Some games/systems work almost perfectly, some others they may never work smooth
 |NINTENDO DS|2D Games almost fully playable|**drastic**|nds| .nds .zip|
 |SEGA<br />NAOMI|Some games run well, others are unplayable|**flycast**|naomi| .lst .bin .dat .zip .7z|
 |SEGA DREAMCAST|Some games run well, others are unplayable|**flycast**|dreamcast| .cdi .gdi .chd .zip .7z|
-|SEGA SATURN|Most games are unplayable|**yabasanshiro**|saturn|.bin .cue .iso .chd .mdf|
+|SEGA SATURN|Some games run well, others are unplayable|**yabasanshiroSA**<br />yabasanshiro|saturn|.bin .cue .iso .chd .mdf|
 |[SONY PSP](System-Sony-PlayStation-Portable)|Many games run well, especially with frameskip. Some games are unplayable |**PPSSPPSDL**<br />ppsspp|psp| .cso .iso .pbp|
 |[SONY<br />PSP MINIS](System-Sony-PlayStation-Portable)|Most games are less demanding than PSP, and run well, though a few may run badly|**PPSSPPSDL**<br />ppsspp| pspminis | .iso .cso .pbp|
 
