@@ -62,8 +62,8 @@ The **bold** one is the default one.
 |[NINTENDO<br />SATELLAVIEW](System-Super-Nintendo-Entertainment-System#satellaview-bs-x)|**snes9x**<br />snes9x2002<br />snes9x2005_plus<br />snes9x2010|satellaview| .smc .sfc .swc .fig .bs .bsx .zip .7z|
 |[BANDAI<br />SUFAMI TURBO](System-Super-Nintendo-Entertainment-System#sufami-turbo)|**snes9x**|sufami| .st .zip .7z |
 |[NINTENDO<br />VIRTUAL BOY](System-Virtual-Boy)|**beetle_vb**|virtualboy| .vb .zip .7z|
-|[MAGNAVOX<br />ODYSSEY²](System-Magnavox-Odyssey2)|**o2em**|odyssey| .bin .BIN .zip .7z|
-|[PHILIPS<br />VIDEOPAC](System-Magnavox-Odyssey2)|**o2em**|videopac| .bin .BIN .zip .7z|
+|[MAGNAVOX<br />ODYSSEY²](System-Magnavox-Odyssey2)|**o2em**|odyssey| .bin .zip .7z|
+|[PHILIPS<br />VIDEOPAC](System-Magnavox-Odyssey2)|**o2em**|videopac| .bin .zip .7z|
 |[PC (DOS x86)](System-MS-DOS)|**dosbox_pure**<br />dosbox_svn|pc| .dosz, disk images (iso, cue, img, ima, vhd) can be put into the .dosz|
 |[PICO-8](System-PICO-8)|**pico8**|pico-8|.png .p8|
 |[SONY<br />PLAYSTATION](System-Sony-PlayStation)|**pcsx_rearmed**<br />duckstation<br />swanstation|psx| .iso .bin .cue .img .pbp .mdf .toc .cbn .m3u .ccd .chd|
