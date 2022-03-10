@@ -10,4 +10,4 @@ The RG351 is a retro handheld device made by Anbernic. It's a device to play old
 
 All three of these devices run on the same chipset, the rk3326, and because of that all three of them are equally good at emulation. 351 devices will generally play 8 and 16 bit consoles without trouble (Nintendo, Super Nintendo, Mastersystem, and Mega Drive/Genesis). They play handhelds up through Game Boy Advance without issue (though a few harder GBA games may have sound issues). The vast majority of PS1 games play well on 351 devices. DS games also generally play well, though games that require the touch screen can be a problem, and displaying both screens at once makes them pretty small.
 
-N64 games and Dreamcast games don't generally play well on 351 devices. Some of the easier to emulate games will run at full speed or nearly full speed, but most games will have issues and many will be unplayable. Saturn games are generally completely unplayable.
+N64 games, Dreamcast games and Saturn games don't generally play well on 351 devices. Some of the easier to emulate games will run at full speed or nearly full speed, but most games will have issues and many will be unplayable.
