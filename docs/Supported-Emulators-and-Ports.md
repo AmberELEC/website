@@ -34,7 +34,7 @@ The **bold** one is the default one.
 |COMMODORE 64|**vice_x64**|c64| .d(64, 71, 80, 81, 82, 6z, 7z, 8z) .g(64, 41, 6z, 4z) .x64 .t64 .tap .prg .p00 .crt .bin .gz .x6z .cmd .m3u .vsf .nib .nbz|
 |COMMODORE 128|**vice_x128**|c128| .d(64, 71, 80, 81, 82, 6z, 7z, 8z) .g(64, 41, 6z, 4z) .x64 .t64 .tap .prg .p00 .crt .bin .gz .x6z .cmd .m3u .vsf .nib .nbz|
 |COMMODORE VIC-20|**vice_xvic**|vic20| .20 .40 .60 .a0 .b0 .d(64, 71, 80, 81, 82, 6z, 7z, 8z) .g(64, 41, 6z, 4z) .x64 .t64 .tap .prg .p00 .crt .bin .gz .x6z .cmd .m3u .vsf .nib .nbz|
-|[LASERDISC](System-Daphne)|**hypseus-singe**|laserdisc| .daphne or .ld (folder extension)|
+|[LASERDISC](System-Laserdisc)|**hypseus-singe**|laserdisc| .daphne or .ld (folder extension)|
 |[FINALBURN NEO](System-FBNeo)|**fbneo**<br />mame2003_plus<br />fbalpha2012<br />fbalpha2019<br />mame2010<br />mame2015<br />mame|fbneo| .zip .7z|
 |MATTEL<br />INTELLIVISION|**freeintv**|intellivision| .int .bin .rom .zip .7z|
 |[MAME](System-MAME)|**mame2003_plus**<br />AdvanceMame<br />mame2000<br />mame2010<br />mame2015<br />mame<br />fbneo<br />fbalpha2012<br />fbalpha2019|mame| .zip .7z|
