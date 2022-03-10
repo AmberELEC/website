@@ -74,10 +74,10 @@ pages:
     title: FBNeo
     category: Arcade
     url: System-FBNeo
-  - file: System-Daphne.md
-    title: Daphne
+  - file: System-Laserdisc.md
+    title: LaserDisc
     category: Arcade
-    url: System-Daphne
+    url: System-Laserdisc
   - file: System-Neo-Geo.md
     title: Neo Geo
     category: Arcade
