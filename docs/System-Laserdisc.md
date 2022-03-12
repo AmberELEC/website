@@ -23,8 +23,6 @@ The Daphne format is a little more complicated, and requires a rom file that goe
 
 The Hypseus Singe format is more self-contained, and requires a `.ld` folder that contains all the resources that the game requires to run.
 
-Note: The `.daphne` and `.ld` folder extensions are currently interchangeable.
-
 ### Daphne Games
 
 - Video Tutorial: [https://youtu.be/ch3NP0tvZdA](https://youtu.be/ch3NP0tvZdA)
