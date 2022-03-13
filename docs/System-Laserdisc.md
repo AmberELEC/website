@@ -13,7 +13,7 @@
 - This emulator supports arcade and home LaserDisc games. It supports games in both Daphne and Hypseus Singe (a.k.a. Singe 1) formats
 - Emulator/Core: [Hypseus-Singe](https://github.com/DirtBagXon/hypseus-singe)
 - Path: `/roms/laserdisc`
-- Extensions: `.ld`, `.singe`, `.daphne`
+- Extensions: `.ld`, `.daphne`
 
 ## Setup
 
