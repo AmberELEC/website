@@ -103,13 +103,13 @@ Some games/systems work almost perfectly, some others they may never work smooth
 |---|---|---|---|---|
 |3DO|Only low performance|**opera**|3do|.iso .cue .bin .chd|
 |J2ME|Quite smooth playing|**freej2me**|j2me|.jar|
-|NEC<br />PC-FX|Only low performance|**beetle_pcfx**|pcfx| .img .iso .ccd .cue| .img .iso .ccd .cue|
-|[NINTENDO N64](System-N64)|Some games run well, others are unplayable|mupen64plus<br />mupen64plus_next<br />**parallel_n64**<br />parallel_n64_gln64<br />mupen64plussa_glide64mk2<br />mupen64plussa_rice|n64| .z64 .n64 .v64 .zip .7z|
-|NINTENDO DS|2D Games almost fully playable|**drastic**|nds| .nds .zip|
-|SEGA<br />NAOMI|Some games run well, others are unplayable|**flycast**|naomi| .lst .bin .dat .zip .7z|
-|SEGA DREAMCAST|Some games run well, others are unplayable|**flycast**|dreamcast| .cdi .gdi .chd .m3u|
-|[SONY PSP](System-Sony-PlayStation-Portable)|Many games run well, especially with frameskip. Some games are unplayable |**PPSSPPSDL**<br />ppsspp|psp| .cso .iso .pbp|
-|[SONY<br />PSP MINIS](System-Sony-PlayStation-Portable)|Most games are less demanding than PSP, and run well, though a few may run badly|**PPSSPPSDL**<br />ppsspp| pspminis | .iso .cso .pbp|
+|NEC<br />PC-FX|Only low performance|**beetle_pcfx**|pcfx|.chd .cue .ccd .toc|
+|[NINTENDO N64](System-N64)|Some games run well, others are unplayable|mupen64plus<br />mupen64plus_next<br />**parallel_n64**<br />parallel_n64_gln64<br />mupen64plussa_glide64mk2<br />mupen64plussa_rice|n64|.z64 .n64 .v64 .zip .7z|
+|NINTENDO DS|2D Games almost fully playable|**drastic**|nds|.nds .zip|
+|SEGA<br />NAOMI|Some games run well, others are unplayable|**flycast**|naomi|.lst .bin .dat .zip .7z|
+|SEGA DREAMCAST|Some games run well, others are unplayable|**flycast**|dreamcast|.cdi .gdi .chd .m3u|
+|[SONY PSP](System-Sony-PlayStation-Portable)|Many games run well, especially with frameskip. Some games are unplayable |**PPSSPPSDL**<br />ppsspp|psp|.cso .iso .pbp|
+|[SONY<br />PSP MINIS](System-Sony-PlayStation-Portable)|Most games are less demanding than PSP, and run well, though a few may run badly|**PPSSPPSDL**<br />ppsspp| pspminis |.iso .cso .pbp|
 
 \*Games can also run internally from the gamedata/ppsspp/psp/GAMEDATA folder, this also allows DLC and custom textures to be added.
 
