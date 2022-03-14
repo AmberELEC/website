@@ -101,7 +101,7 @@ Some games/systems work almost perfectly, some others they may never work smooth
 
 |System|Status|Core/Emu|ROM Path|Extension| 
 |---|---|---|---|---|
-|3DO|Only low performance|**opera**|3do|.iso .cue .bin .chd .7z|
+|3DO|Only low performance|**opera**|3do|.iso .cue .bin .chd|
 |J2ME|Quite smooth playing|**freej2me**|j2me|.jar|
 |NEC<br />PC-FX|Only low performance|**beetle_pcfx**|pcfx| .img .iso .ccd .cue| .img .iso .ccd .cue|
 |[NINTENDO N64](System-N64)|Some games run well, others are unplayable|mupen64plus<br />mupen64plus_next<br />**parallel_n64**<br />parallel_n64_gln64<br />mupen64plussa_glide64mk2<br />mupen64plussa_rice|n64| .z64 .n64 .v64 .zip .7z|
