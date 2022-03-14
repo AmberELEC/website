@@ -117,11 +117,11 @@ Some games/systems work almost perfectly, some others they may never work smooth
 
 |&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;System&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;|&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;Core/Emu&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;|ROM Path|Extension| 
 |---|---|---|---|
-|[Build Engine](System-Build-Engine)|**raze**|build| [.build](System-Build-Engine#how-to-create-a-build-file)|
+|[Build Engine](System-Build-Engine)|**raze**|build|[.build](System-Build-Engine#how-to-create-a-build-file)|
 |[DOOM](System-Doom)|**gzdoom**<br />lzdoom<br />prboom|doom|[.doom](System-Doom#how-to-create-a-doom-file)|
-|[EASYRPG](System-EasyRPG)|**easyrpg**|easyrpg| .zip .easyrpg .ldb|
-|OPENBOR|**openbor**|openbor| .pak|
-|[SCUMMVM](System-ScummVM)|**scummvmsa**<br />scummvm|scummvm/games| .sh .svm .scummvm |
+|[EASYRPG](System-EasyRPG)|**easyrpg**|easyrpg|.zip .easyrpg .ldb|
+|OPENBOR|**openbor**|openbor|.pak|
+|[SCUMMVM](System-ScummVM)|**scummvmsa**<br />scummvm|scummvm/games|.sh .svm .scummvm|
 |SOLARUS|**solarus**|solarus|.solarus|
 |[WOLFENSTEIN 3D](System-Wolfenstein-3D)|**ecwolf**|ecwolf|[.ecwolf](System-Wolfenstein-3D#how-to-create-a-ecwolf-file)|
 
@@ -137,12 +137,12 @@ Some games/systems work almost perfectly, some others they may never work smooth
 
 |&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;Platform&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;|&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;Core/Emu&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;|ROM Path|Extensions|
 |---|---|---|---|
-|NINTENDO<br />GAME BOY HACKS|**gambatte**<br />sameboy<br />mgba<br />tgbdual<br />gearboy<br />vbam|gbh|.gb .gbc .zip .7z|
+|NINTENDO<br />GAME BOY HACKS|**gambatte**<br />sameboy<br />mgba<br />tgbdual<br />gearboy<br />vbam|gbh|.gb .zip .7z|
 |NINTENDO<br />GAME BOY COLOR HACKS|**gambatte**<br />sameboy<br />mgba<br />tgbdual<br />gearboy<br />vbam|gbch|.gbc .gb .zip .7z|
-|NINTENDO<br />GAME BOY ADVANCE HACKS|**mgba**<br />gpsp<br />vba_next<br />vbam|gbah| 	.gba .zip .7z|
+|NINTENDO<br />GAME BOY ADVANCE HACKS|**mgba**<br />gpsp<br />vba_next<br />vbam|gbah|.gba .zip .7z|
 |NINTENDO<br />ENTARTAINMENT SYSTEM HACKS|**nestopia**<br />fceumm<br />quicknes|nesh|.nes .unif .unf .zip .7z|
-|NINTENDO<br />SUPER NINTENDO HACKS|**snes9x**<br />snes9x2010<br />snes9x2002<br />snes9x2005_plus<br />beetle_supafaust|snesh|.smc .sfc .swc .fig .bs .st .gd3 .gd7 .dx2 .bsx .zip .7z|
-|SEGA<br />GAME GEAR HACKS|**gearsystem**<br />genesis_plus_gx<br />picodrive<br />smsplus|gamegearh|.gg .bin .gg .zip .7z|
+|NINTENDO<br />SUPER NINTENDO HACKS|**snes9x**<br />snes9x2010<br />snes9x2002<br />snes9x2005_plus<br />beetle_supafaust|snesh|.smc .sfc .swc .fig .zip .7z|
+|SEGA<br />GAME GEAR HACKS|**gearsystem**<br />genesis_plus_gx<br />picodrive<br />smsplus|gamegearh|.gg .bin .zip .7z|
 |SEGA<br />GENESIS HACKS|**genesis_plus_gx**<br />genesis_plus_gx_wide<br />picodrive|genh|.gen .md .sg .smd .bin .zip .7z|
 
 ***
