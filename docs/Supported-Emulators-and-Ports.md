@@ -76,7 +76,7 @@ The **bold** one is the default one.
 |SEGA 32X|**picodrive**|sega32x|.32x .7z .bin .md .smd .zip|
 |SEGA CD|**genesis_plus_gx**<br />picodrive|segacd| .bin .chd .cue .iso|
 |SEGA MEGA CD|**genesis_plus_gx**<br />picodrive|megacd| .bin .chd .cue .iso|
-|SEGA<br />SATURN|**yabasanshiroSA**<br />yabasanshiro|saturn|.bin .cue .iso .chd .mdf|
+|SEGA<br />SATURN|**yabasanshiroSA**|saturn|.bin .cue .iso .chd .mdf|
 |SNK<br />NEO-GEO|**fbneo**<br />mame2003<br />fbalpha2012<br />fbalpha2019|neogeo| .7z .zip|
 |SNK<br />NEO-GEO CD|**neocd**<br />fbneo|neocd| .chd .cue .iso|
 |SNK<br />NEO-GEO POCKET|**beetle_ngp**<br />race|ngp| .ngp .ngc .zip .7z|
