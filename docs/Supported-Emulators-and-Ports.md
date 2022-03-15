@@ -1,4 +1,4 @@
-# Supported Emulators
+# Supported Systems
 
 This is a list of supported systems and the emulators/cores to run them, it will be updated regularly.
 
