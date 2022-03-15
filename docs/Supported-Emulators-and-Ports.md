@@ -161,10 +161,3 @@ You can check which bios you’re missing directly on your device by pressing ST
 * MICROSOFT XBOX (any)
 * ATARI JAGUAR
 * ANYTHING NEWER
-
-## Ending Notes
-You can also view this (WIP) spreadsheet with information for each core, as well as if it requires bios or not: [https://docs.google.com/spreadsheets/d/1T962LmL0ci7Hs88TZT3iMtqdvzug4tL3ayTb0uoxijQ](https://docs.google.com/spreadsheets/d/1T962LmL0ci7Hs88TZT3iMtqdvzug4tL3ayTb0uoxijQ)
-
-## Credit
-Thank you to @XargonWan, and the 351ELEC community for putting this page together.
-Thank you to EmuELEC for the sources.
