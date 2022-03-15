@@ -57,10 +57,10 @@ pages:
     title: Pre-Release Features
     category: Contributing
     url: Pre-Release-Features
-  - file: Supported-Emulators-and-Ports.md
+  - file: Supported-Systems.md
     title: Full List
     category: Systems
-    url: Supported-Emulators-and-Ports
+    url: Supported-Systems
   - file: Arcade.md
     title: Arcade
     category: Systems
@@ -194,7 +194,7 @@ categories:
   - title: FAQ
     url: FAQ
   - title: Systems
-    url: Supported-Emulators-and-Ports
+    url: Supported-Systems
     sidenav: true
   - title: Arcade
     url: Arcade
