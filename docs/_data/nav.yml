@@ -206,7 +206,6 @@ categories:
   - title: Game Engines
     parent: Systems
   - title: Ports
-    url: Supported-Emulators-and-Ports#ports
     parent: Systems
   - title: Contributing
     url: Contributing-to-351ELEC
