@@ -166,18 +166,6 @@ pages:
     title: PortMaster
     category: Ports
     url: PortMaster
-  - file: Port-Cannonball.md
-    title: Cannonball
-    category: Ports
-    url: Port-Cannonball
-  - file: Port-VVVVVV.md
-    title: VVVVVV
-    category: Ports
-    url: Port-VVVVVV
-  - file: Unsupported-Ports.md
-    title: Unsupported Ports
-    category: Ports
-    url: Unsupported-Ports
   - file: Download.md
     title: Download
     category: Download
