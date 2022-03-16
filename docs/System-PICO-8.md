@@ -8,9 +8,9 @@
 - Supported Extensions: `.png .p8`
 
 ## Required Files
-- pico8
-- pico8_dyn
+- pico8_64
 - pico8.dat
+- Pineapple Forest only: `pico8` and `pico8_dyn`
 
 ## Setup
 
