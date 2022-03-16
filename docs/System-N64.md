@@ -21,10 +21,6 @@
 - Path(s): `/roms/n64`
 - Supported Extensions: `.z64, .n64, .v64`
 
-### Zipped Roms
-
-Mupen64Plus SA & RetroRun do not support zipped roms.
-
 ## Retrorun
 
 ### Control Configuration
