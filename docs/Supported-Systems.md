@@ -121,7 +121,7 @@ Some games/systems work almost perfectly, some others they may never work smooth
 |[DOOM](System-Doom)|**gzdoom**<br />lzdoom<br />prboom|doom|[.doom](System-Doom#how-to-create-a-doom-file)|
 |[EASYRPG](System-EasyRPG)|**easyrpg**|easyrpg|.zip .easyrpg .ldb|
 |OPENBOR|**openbor**|openbor|.pak|
-|[SCUMMVM](System-ScummVM)|**scummvmsa**<br />scummvm|scummvm/games|.scummvm|
+|[SCUMMVM](System-ScummVM)|**scummvmsa**<br />scummvm|scummvm|.scummvm|
 |SOLARUS|**solarus**|solarus|.solarus|
 |[WOLFENSTEIN 3D](System-Wolfenstein-3D)|**ecwolf**|ecwolf|[.ecwolf](System-Wolfenstein-3D#how-to-create-a-ecwolf-file)|
 
