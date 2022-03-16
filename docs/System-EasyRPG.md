@@ -8,10 +8,6 @@
   - games should be stored in `/roms/easyrpg`
 - Supported Extensions: `.zip .easyrpg .ldb`
 
-## Games
-
-Games for EasyRPG cannot be zipped. You should copy the entire game folder into `/roms/easyrpg`.
-
 ## Bios
 
 If you're connected to the internet, EasyRPG will download its bios files automatically on first launch.
