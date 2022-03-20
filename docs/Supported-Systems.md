@@ -19,6 +19,7 @@ The **bold** one is the default one.
 |AMIGA CD32|**puae**<br />uae4arm|amigacd32|.iso .cue .chd .lha|
 |[AMSTRAD CPC](System-Amstrad-CPC)|**crocods**<br />cap32|amstradcpc|.dsk .sna [crocods: .kcr]<br/>[cap32: .tap .cdt .voc .m3u .zip .7z]|
 |[ARCADE](Arcade)|**mame2003_plus**<br />mame2000<br />mame2010<br />mame2015<br />mame<br />fbneo<br />fbalpha2012<br />fbalpha2019<br />AdvanceMame|arcade|.zip .7z|
+|ARDUBOY|**arduous**|arduboy|.hex|
 |ATARI 800|**atari800**|atari800|.rom .xfd .atr .atx .cdm .cas .car .bin .a52 .xex .zip .7z|
 |ATARI 2600|**stella-2014**<br />stella|atari2600|.a26 .bin .zip .7z|
 |ATARI 5200|**atari800**|atari5200|.rom .xfd .atr .atx .cdm .cas .car .bin .a52 .xex .zip .7z|
