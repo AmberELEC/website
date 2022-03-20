@@ -87,6 +87,7 @@ Below is a list of the ports and whether they're known to work, along with links
 | ![spelunky](images/previews/Spelunky.jpeg) Spelunky | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#spelunky) |
 | ![smw](images/previews/SuperMarioWar.jpeg) Super Mario War | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#super-mario-war) |
 | ![supertux](images/previews/SuperTux.jpeg) SuperTux | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#supertux) |
+| ![timespin](images/previews/Timespinner.png) Timespinner | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#timespinner) |
 | ![tomb](images/previews/TombRaider1.jpeg) Tomb Raider 1 | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#tomb-raider-1) |
 | ![under](images/previews/Undertale.jpeg) Undertale | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#undertale) |
 | ![urqaa](images/previews/Ur-QuanMasters.jpeg) Ur-Quan Masters | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#ur-quan-masters) |
