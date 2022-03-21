@@ -10,7 +10,7 @@ If you want to know all the new cool features, take a look at the [Release Notes
 
 351ELEC is an open source firmware developed for the Anbernic RG351P/M/V/MP.
 
-_Join Our Community:_ [https://discord.gg/R9Er7hkRMe](https://discord.gg/R9Er7hkRMe)
+_Join Our Community:_ [https://discord.com/invite/R9Er7hkRMe](https://discord.com/invite/R9Er7hkRMe)
 
 ### Features
 * A 64bit Firmware optimized for the RG351P/M/V/MP.
@@ -28,6 +28,6 @@ Please visit the [Installation](Installation#overview) page for installation ins
 
 ### Getting Help
 
-If you have general questions or need help, join us on Discord: [https://discord.gg/R9Er7hkRMe](https://discord.gg/R9Er7hkRMe)
+If you have general questions or need help, join us on Discord: [https://discord.com/invite/R9Er7hkRMe](https://discord.com/invite/R9Er7hkRMe)
 
 For bug reports and feature requests, use one of the templates on the issues tab.  The more information you provide, the easier it will be to assist.  Please note that issues opened without using a form will be closed.  Please do not use the issue tracker for technical support, or your issue will be closed.
