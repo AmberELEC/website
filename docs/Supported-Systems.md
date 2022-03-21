@@ -60,7 +60,7 @@ The **bold** one is the default one.
 |NINTENDO|POKÉMON MINI|**pokemini**|pokemini|.min .zip .7z|
 |NINTENDO|[SUPER NINTENDO](System-Super-Nintendo-Entertainment-System)|**snes9x**<br />snes9x2002<br />snes9x2005_plus<br />snes9x2010<br />beetle_supafaust|snes|.smc .sfc .swc .fig .zip .7z|
 |NINTENDO|[SUPER FAMICOM](System-Super-Nintendo-Entertainment-System)|**snes9x**<br />snes9x2002<br />snes9x2005_plus<br />snes9x2010<br />beetle_supafaust|sfc|.smc .sfc .swc .fig .zip .7z|
-|NINTENDO[SUPER NINTENDO MSU-1](System-Super-Nintendo-Entertainment-System)|**snes9x**<br />beetle_supafaust|snesmsu1|.smc .fig .sfc .swc .zip .7z|
+|NINTENDO|[SUPER NINTENDO MSU-1](System-Super-Nintendo-Entertainment-System)|**snes9x**<br />beetle_supafaust|snesmsu1|.smc .fig .sfc .swc .zip .7z|
 |NINTENDO|[SATELLAVIEW](System-Super-Nintendo-Entertainment-System#satellaview-bs-x)|**snes9x**<br />snes9x2002<br />snes9x2005_plus<br />snes9x2010|satellaview|.smc .sfc .swc .fig .bs .bsx .zip .7z|
 |BANDAI|[SUFAMI TURBO](System-Super-Nintendo-Entertainment-System#sufami-turbo)|**snes9x**|sufami|.st .zip .7z|
 |NINTENDO|[VIRTUAL BOY](System-Virtual-Boy)|**beetle_vb**|virtualboy|.vb .zip .7z|
