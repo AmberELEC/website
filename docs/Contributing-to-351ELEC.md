@@ -13,7 +13,7 @@
 
 ## Reporting Bugs
 * Check you are using latest released version, only released versions are supported.  
-* If you are using a pre-release build, do not open an issue in [351ELEC](https://github.com/351ELEC/351ELEC).  Instead, report the findings in the `#pre-release-feedback` channel in [discord](https://discord.gg/R9Er7hkRMe) (Under "Community Contribution").
+* If you are using a pre-release build, do not open an issue in [351ELEC](https://github.com/351ELEC/351ELEC).  Instead, report the findings in the `#pre-release-feedback` channel in [discord](https://discord.com/invite/R9Er7hkRMe) (Under "Community Contribution").
 * Before reporting an issue with the pre-release build, try reproducing the issue on the current release.  Please mention the results up front when you bring your issue to Discord.  For example: `When I try xyz in pre-release build ABC, something bad happens.  However, when I try xyz in in the latest release, I do not see this problem.  Is this a known issue?`.  Try and keep comments concise and constructive.
 * Check the existing issues to see if your bug has already reported.  If it has been reported, do not open another bug report.  If it is not reported, use a template and fill it out completely.  Issues opened without using the templates will be closed.
 * Be patient, as we are volunteers and working on the project in our spare time.
@@ -21,7 +21,7 @@
 ## Pre-Release Builds
 **IMPORTANT NOTE**: Pre-Release builds are for advanced users to test fixes or explore new functionality. 
 
-Builds are released each night when there are new commits to `main`.  Builds are scheduled at 8:00pm UTC, releasing around 8:30 PM UTC.  Users should **expect issues** and have a **backup** of their configs just in case a reflash is needed, etc.  Do **not** file issues on pre-release builds, use [discord](https://discord.gg/bmXtCt88Tz) (#pre-release-feedback).  See "[Reporting Bugs](#reporting-bugs)" above.
+Builds are released each night when there are new commits to `main`.  Builds are scheduled at 8:00pm UTC, releasing around 8:30 PM UTC.  Users should **expect issues** and have a **backup** of their configs just in case a reflash is needed, etc.  Do **not** file issues on pre-release builds, use [discord](https://discord.com/invite/R9Er7hkRMe) (#pre-release-feedback).  See "[Reporting Bugs](#reporting-bugs)" above.
 
 #### Finding/Installing Pre-Release Builds
 The latest pre-release build can be found on the **351ELEC-pre-release** [releases](https://github.com/351ELEC/351ELEC-pre-release/releases/) page.  Builds are installed as normal (using either a `.tar` or a `.img.gz`).
