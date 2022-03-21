@@ -86,6 +86,10 @@ pages:
     title: Pico-8
     category: Consoles
     url: System-PICO-8
+  - file: System-Arduboy.md
+    title: Arduboy
+    category: Consoles
+    url: System-Arduboy
   - file: System-Super-Nintendo-Entertainment-System.md
     title: Super Nintendo Entertainment System
     category: Consoles
