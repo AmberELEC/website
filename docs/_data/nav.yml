@@ -82,6 +82,14 @@ pages:
     title: Neo Geo
     category: Arcade
     url: System-Neo-Geo
+  - file: System-Atomiswave.md
+    title: Atomiswave
+    category: Arcade
+    url: System-Atomiswave
+  - file: System-Naomi.md
+    title: Naomi
+    category: Arcade
+    url: System-Naomi
   - file: System-PICO-8.md
     title: Pico-8
     category: Consoles
