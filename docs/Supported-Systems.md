@@ -91,6 +91,8 @@ The **bold** one is the default one.
 |[SHARP<br />X68000](System-X68000)|**px68k**|x68000|.dim .img .d88 .88d .hdm .dup .2hd .xdf .hdf .cmd .m3u .zip .7z|
 |SINCLAIR<br />ZX81|**81**|zx81|.tzx .p .zip .7z|
 |SINCLAIR<br />ZX SPECTRUM|**fuse**|zxspectrum|.tzx .tap .z80 .rzx .scl .trd .dsk .zip .7z|
+|SINCLAIR<br />ZX SPECTRUM|**fuse**|zxspectrum|.tzx .tap .z80 .rzx .scl .trd .dsk .zip .7z|
+|[PHILIPS<br />CDi](System-CDI)|**samecdi**|cdi|.chd|
 
 You can also view this (WIP) spreadsheet with information for each core, as well as if it requires bios or not: [https://docs.google.com/spreadsheets/d/1T962LmL0ci7Hs88TZT3iMtqdvzug4tL3ayTb0uoxijQ](https://docs.google.com/spreadsheets/d/1T962LmL0ci7Hs88TZT3iMtqdvzug4tL3ayTb0uoxijQ)
 

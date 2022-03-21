@@ -130,6 +130,10 @@ pages:
     title: Magnavox Odyssey²
     category: Consoles
     url: System-Magnavox-Odyssey2
+  - file: System-CDI.md
+    title: Philips CDi
+    category: Consoles
+    url: System-CDI
   - file: System-Amstrad-CPC.md
     title: Amstrad CPC
     category: Computers
