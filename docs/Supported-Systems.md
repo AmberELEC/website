@@ -151,13 +151,13 @@ Some games/systems work almost perfectly, some others they may never work smooth
 
 |Platform|Core/Emu|ROM Path|Extensions|
 |---|---|---|---|
-|NINTENDO<br />GAME BOY HACKS|**gambatte**<br />sameboy<br />mgba<br />tgbdual<br />gearboy<br />vbam|gbh|.gb .zip .7z|
-|NINTENDO<br />GAME BOY COLOR HACKS|**gambatte**<br />sameboy<br />mgba<br />tgbdual<br />gearboy<br />vbam|gbch|.gbc .gb .zip .7z|
-|NINTENDO<br />GAME BOY ADVANCE HACKS|**mgba**<br />gpsp<br />vbam<br />vba_next<br />beetle_gba|gbah|.gba .zip .7z|
-|NINTENDO<br />ENTARTAINMENT SYSTEM HACKS|**nestopia**<br />fceumm<br />quicknes|nesh|.nes .unif .unf .zip .7z|
-|NINTENDO<br />SUPER NINTENDO HACKS|**snes9x**<br />snes9x2010<br />snes9x2002<br />snes9x2005_plus<br />beetle_supafaust|snesh|.smc .sfc .swc .fig .zip .7z|
-|SEGA<br />GAME GEAR HACKS|**gearsystem**<br />genesis_plus_gx<br />picodrive<br />smsplus|gamegearh|.gg .bin .zip .7z|
-|SEGA<br />GENESIS HACKS|**genesis_plus_gx**<br />genesis_plus_gx_wide<br />picodrive|genh|.gen .md .sg .smd .bin .zip .7z|
+|Nintendo<br />Game Boy Hacks|**gambatte**<br />sameboy<br />mgba<br />tgbdual<br />gearboy<br />vbam|gbh|.gb .zip .7z|
+|Nintendo<br />Game Boy Color Hacks|**gambatte**<br />sameboy<br />mgba<br />tgbdual<br />gearboy<br />vbam|gbch|.gbc .gb .zip .7z|
+|Nintendo<br />Game Boy Advance Hacks|**mgba**<br />gpsp<br />vbam<br />vba_next<br />beetle_gba|gbah|.gba .zip .7z|
+|Nintendo<br />NES Hacks|**nestopia**<br />fceumm<br />quicknes|nesh|.nes .unif .unf .zip .7z|
+|Nintendo<br />Super NES|**snes9x**<br />snes9x2010<br />snes9x2002<br />snes9x2005_plus<br />beetle_supafaust|snesh|.smc .sfc .swc .fig .zip .7z|
+|Sega<br />Game Gear Hacks|**gearsystem**<br />genesis_plus_gx<br />picodrive<br />smsplus|gamegearh|.gg .bin .zip .7z|
+|Sega<br />Genesis Hacks|**genesis_plus_gx**<br />genesis_plus_gx_wide<br />picodrive|genh|.gen .md .sg .smd .bin .zip .7z|
 
 # BIOS 
 Some platforms need bios files, these should go in /storage/roms/bios.
