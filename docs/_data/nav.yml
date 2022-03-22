@@ -131,7 +131,7 @@ pages:
     category: Consoles
     url: System-Magnavox-Odyssey2
   - file: System-CDI.md
-    title: Philips CDi
+    title: Philips CD-i
     category: Consoles
     url: System-CDI
   - file: System-Amstrad-CPC.md
