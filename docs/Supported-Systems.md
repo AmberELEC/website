@@ -15,17 +15,17 @@ The **bold** one is the default one.
 
 |System|Core/Emu|ROMPath|Extension| 
 |---|---|---|---|---|
-|Commodore Amiga|**puae**<br />amiberry<br />uae4arm|amiga|.zip .uae .adf .dms .fdi .ipf .adz .lha .hdf .hdz|
-|Commodore Amiga CD32|**puae**<br />uae4arm|amigacd32|.iso .cue .chd .lha|
-|[Amstrad CPC](System-Amstrad-CPC)|**crocods**<br />cap32|amstradcpc|.dsk .sna [crocods: .kcr]<br/>[cap32: .tap .cdt .voc .m3u .zip .7z]|
+|Commodore<br/>Amiga|**puae**<br />amiberry<br />uae4arm|amiga|.zip .uae .adf .dms .fdi .ipf .adz .lha .hdf .hdz|
+|Commodore<br/>Amiga CD³²|**puae**<br />uae4arm|amigacd32|.iso .cue .chd .lha|
+|[Amstrad<br/>CPC](System-Amstrad-CPC)|**crocods**<br />cap32|amstradcpc|.dsk .sna [crocods: .kcr]<br/>[cap32: .tap .cdt .voc .m3u .zip .7z]|
 |[Arcade](Arcade)|**mame2003_plus**<br />mame2000<br />mame2010<br />mame2015<br />mame<br />fbneo<br />fbalpha2012<br />fbalpha2019<br />AdvanceMame|arcade|.zip .7z|
 |[Arduboy](System-Arduboy)|**arduous**|arduboy|.hex|
-|Atari 800|**atari800**|atari800|.rom .xfd .atr .atx .cdm .cas .car .bin .a52 .xex .zip .7z|
-|Atari 2600|**stella-2014**<br />stella|atari2600|.a26 .bin .zip .7z|
-|Atari 5200|**a5200**<br />atari800|atari5200|.rom .xfd .atr .atx .cdm .cas .car .bin .a52 .xex .zip .7z|
-|Atari 7800|**prosystem**|atari7800|.a78 .bin .zip .7z|
-|Atari Lynx|**handy**<br />beetle_lynx|atarilynx|.lnx .o .zip .7z|
-|[Atari ST](System-Atari-ST)|**hatari**<br />HATARISA|atarist|.st .msa .stx .dim .ipf .m3u .zip .7z|
+|Atari<br/>800|**atari800**|atari800|.rom .xfd .atr .atx .cdm .cas .car .bin .a52 .xex .zip .7z|
+|Atari<br/>2600|**stella-2014**<br />stella|atari2600|.a26 .bin .zip .7z|
+|Atari<br/>5200|**a5200**<br />atari800|atari5200|.rom .xfd .atr .atx .cdm .cas .car .bin .a52 .xex .zip .7z|
+|Atari<br/>7800|**prosystem**|atari7800|.a78 .bin .zip .7z|
+|Atari<br/>Lynx|**handy**<br />beetle_lynx|atarilynx|.lnx .o .zip .7z|
+|[Atari<br/>ST](System-Atari-ST)|**hatari**<br />HATARISA|atarist|.st .msa .stx .dim .ipf .m3u .zip .7z|
 |[Aquaplus P/ECE](System-Aquaplus-Piece)|**piemu**|piece|.pex .pfi|
 |[Sammy Atomiswave](System-Atomiswave)|**flycast**|atomiswave|.lst .bin .dat .zip .7z|
 |[Bandai Wonderswan](System-Bandai-Wonderswan)|**beetle_wswan**|wonderswan|.ws .zip .7z|
