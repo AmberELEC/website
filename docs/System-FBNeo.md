@@ -1,4 +1,4 @@
-# FBNeo
+# FinalBurn Neo
 
 ## Overview
 
