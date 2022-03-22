@@ -92,51 +92,51 @@ pages:
     url: System-Naomi
   - file: System-PICO-8.md
     title: Pico-8
-    category: Consoles
+    category: Consoles/Portables
     url: System-PICO-8
   - file: System-Arduboy.md
     title: Arduboy
-    category: Consoles
+    category: Consoles/Portables
     url: System-Arduboy
   - file: System-Super-Nintendo-Entertainment-System.md
     title: Nintendo Super NES
-    category: Consoles
+    category: Consoles/Portables
     url: System-Super-Nintendo-Entertainment-System
   - file: System-Game-Boy-Advance.md
     title: Nintendo Game Boy Advance
-    category: Consoles
+    category: Consoles/Portables
     url: System-Game-Boy-Advance
   - file: System-Virtual-Boy.md
     title: Nintendo Virtual Boy
-    category: Consoles
+    category: Consoles/Portables
     url: System-Virtual-Boy
   - file: System-N64.md
     title: Nintendo N64
-    category: Consoles
+    category: Consoles/Portables
     url: System-N64
   - file: System-Sony-PlayStation.md
     title: Sony PlayStation
-    category: Consoles
+    category: Consoles/Portables
     url: System-Sony-PlayStation
   - file: System-Sony-PlayStation-Portable.md
     title: Sony PlayStation Portable
-    category: Consoles
+    category: Consoles/Portables
     url: System-Sony-PlayStation-Portable
   - file: System-Bandai-Wonderswan.md
     title: Bandai Wonderswan (Color)
-    category: Consoles
+    category: Consoles/Portables
     url: System-Bandai-Wonderswan
   - file: System-Magnavox-Odyssey2.md
     title: Magnavox Odyssey²
-    category: Consoles
+    category: Consoles/Portables
     url: System-Magnavox-Odyssey2
   - file: System-Magnavox-Odyssey2.md
     title: Philips Videopac
-    category: Consoles
+    category: Consoles/Portables
     url: System-Magnavox-Odyssey2    
   - file: System-CDI.md
     title: Philips CD-i
-    category: Consoles
+    category: Consoles/Portables
     url: System-CDI
   - file: System-Amstrad-CPC.md
     title: Amstrad CPC
