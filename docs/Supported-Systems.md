@@ -15,11 +15,7 @@ The **bold** one is the default one.
 
 |Manufacturer/System&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;|Core/Emu|ROM Path|Extension| 
 |---|---|---|---|---|
-|Commodore<br/>Amiga|**puae**<br />amiberry<br />uae4arm|amiga|.zip .uae .adf .dms .fdi .ipf .adz .lha .hdf .hdz|
-|Commodore<br/>Amiga CD³²|**puae**<br />uae4arm|amigacd32|.iso .cue .chd .lha|
 |[Amstrad<br/>CPC](System-Amstrad-CPC)|**crocods**<br />cap32|amstradcpc|.dsk .sna [crocods: .kcr]<br/>[cap32: .tap .cdt .voc .m3u .zip .7z]|
-|[Arcade](Arcade)|**mame2003_plus**<br />mame2000<br />mame2010<br />mame2015<br />mame<br />fbneo<br />fbalpha2012<br />fbalpha2019<br />AdvanceMame|arcade|.zip .7z|
-|[Arduboy](System-Arduboy)|**arduous**|arduboy|.hex|
 |Atari 800|**atari800**|atari800|.rom .xfd .atr .atx .cdm .cas .car .bin .a52 .xex .zip .7z|
 |Atari<br/>2600|**stella-2014**<br />stella|atari2600|.a26 .bin .zip .7z|
 |Atari<br/>5200|**a5200**<br />atari800|atari5200|.rom .xfd .atr .atx .cdm .cas .car .bin .a52 .xex .zip .7z|
@@ -27,19 +23,20 @@ The **bold** one is the default one.
 |Atari<br/>Lynx|**handy**<br />beetle_lynx|atarilynx|.lnx .o .zip .7z|
 |[Atari ST](System-Atari-ST)|**hatari**<br />HATARISA|atarist|.st .msa .stx .dim .ipf .m3u .zip .7z|
 |[Aquaplus<br/>P/ECE](System-Aquaplus-Piece)|**piemu**|piece|.pex .pfi|
-|[Sammy<br/>Atomiswave](System-Atomiswave)|**flycast**|atomiswave|.lst .bin .dat .zip .7z|
+|[Bandai<br/>SuFami Turbo](System-Super-Nintendo-Entertainment-System#sufami-turbo)|**snes9x**|sufami|.st .zip .7z|
 |[Bandai<br/>Wonderswan](System-Bandai-Wonderswan)|**beetle_wswan**|wonderswan|.ws .zip .7z|
 |[Bandai<br/>Wonderswan Color](System-Bandai-Wonderswan)|**beetle_wswan**|wonderswancolor|.wsc .zip .7z|
-|Fairchild<br/>Channel F|**fairchaf**|channelf|.bin .chf .zip .7z|
 |Coleco<br/>ColecoVision|**bluemsx**<br />gearcoleco<br />smsplus|coleco|.bin .col .rom .zip .7z|
+|Commodore<br/>Amiga|**puae**<br />amiberry<br />uae4arm|amiga|.zip .uae .adf .dms .fdi .ipf .adz .lha .hdf .hdz|
+|Commodore<br/>Amiga CD³²|**puae**<br />uae4arm|amigacd32|.iso .cue .chd .lha|
 |Commodore<br/>C16 (PLUS/4)|**vice_xplus4**|c16|.d(64, 71, 80, 81, 82, 6z, 7z, 8z) .g(64, 41, 6z, 4z) .x64 .t64 .tap .prg .p00 .crt .bin .x6z .cmd .m3u .vsf .nib .nbz|
 |Commodore<br/>C64|**vice_x64**|c64|.d(64, 71, 80, 81, 82, 6z, 7z, 8z) .g(64, 41, 6z, 4z) .x64 .t64 .tap .prg .p00 .crt .bin .x6z .cmd .m3u .vsf .nib .nbz|
 |Commodore<br/>C128|**vice_x128**|c128|.d(64, 71, 80, 81, 82, 6z, 7z, 8z) .g(64, 41, 6z, 4z) .x64 .t64 .tap .prg .p00 .crt .bin .x6z .cmd .m3u .vsf .nib .nbz|
 |Commodore<br/>VIC-20|**vice_xvic**|vic20|.20 .40 .60 .a0 .b0 .d(64, 71, 80, 81, 82, 6z, 7z, 8z) .g(64, 41, 6z, 4z) .x64 .t64 .tap .prg .p00 .crt .bin .gz .x6z .cmd .m3u .vsf .nib .nbz|
-|[LaserDisc](System-Laserdisc)|**hypseus-singe**|laserdisc|.daphne or .ld (folder extension)|
-|[FinalBurn Neo](System-FBNeo)|**fbneo**<br />mame2003_plus<br />fbalpha2012<br />fbalpha2019<br />mame2010<br />mame2015<br />mame|fbneo|.zip .7z|
+|Fairchild<br/>Channel F|**fairchaf**|channelf|.bin .chf .zip .7z|
+|GCE<br/>Vectrex|**vecx**|vectrex|.bin .gam .vec .zip .7z|
 |Mattel<br/>Intellivision|**freeintv**|intellivision|.int .bin .rom .zip .7z|
-|[MAME](System-MAME)|**mame2003_plus**<br />AdvanceMame<br />mame2000<br />mame2010<br />mame2015<br />mame<br />fbneo<br />fbalpha2012<br />fbalpha2019|mame|.zip .7z|
+|[Microsoft<br />MS-DOS](System-MS-DOS)|**dosbox_pure**<br />dosbox_svn|pc|.com .bat .exe .dosz, disk images (iso, cue, img, ima, vhd) can be put into the .dosz|
 |Microsoft<br/>MSX|**bluemsx**<br />fmsx|msx| .dsk .mx1 .mx2 .rom .zip .7z .m3u|
 |Microsoft<br/>MSX2|**bluemsx**<br />fmsx|msx2|.dsk .mx1 .mx2 .rom .zip .7z .m3u|
 |[NEC<br/>PC-88](System-PC-88)|**quasi88**|pc88|.d88 .m3u|
@@ -61,39 +58,51 @@ The **bold** one is the default one.
 |[Nintendo<br/>Super Famicom](System-Super-Nintendo-Entertainment-System)|**snes9x**<br />snes9x2002<br />snes9x2005_plus<br />snes9x2010<br />beetle_supafaust|sfc|.smc .sfc .swc .fig .zip .7z|
 |[Nintendo<br/>Super NES MSU-1](System-Super-Nintendo-Entertainment-System)|**snes9x**<br />beetle_supafaust|snesmsu1|.smc .fig .sfc .swc .zip .7z|
 |[Nintendo<br/>Satellaview](System-Super-Nintendo-Entertainment-System#satellaview-bs-x)|**snes9x**<br />snes9x2002<br />snes9x2005_plus<br />snes9x2010|satellaview|.smc .sfc .swc .fig .bs .bsx .zip .7z|
-|[Bandai<br/>SuFami Turbo](System-Super-Nintendo-Entertainment-System#sufami-turbo)|**snes9x**|sufami|.st .zip .7z|
 |[Nintendo<br/>Virtual Boy](System-Virtual-Boy)|**beetle_vb**|virtualboy|.vb .zip .7z|
 |[Magnavox<br/>Odyssey²](System-Magnavox-Odyssey2)|**o2em**|odyssey|.bin .zip .7z|
 |[Philips<br/>Videopac](System-Magnavox-Odyssey2)|**o2em**|videopac|.bin .zip .7z|
 |[Philips<br/>CD-i](System-CDI)|**same_cdi**|cdi|.chd .iso|
-|[MS-DOS](System-MS-DOS)|**dosbox_pure**<br />dosbox_svn|pc|.com .bat .exe .dosz, disk images (iso, cue, img, ima, vhd) can be put into the .dosz|
-|[Lexaloffle<br/>Pico-8](System-PICO-8)|**pico8**|pico-8|.png .p8|
 |[Sony<br/>PlayStation](System-Sony-PlayStation)|**pcsx_rearmed**<br />duckstation<br />swanstation|psx|.bin .cue .img .pbp .mdf .toc .cbn .m3u .ccd .chd .iso|
+|Sega 32X|**picodrive**|sega32x|.32x .bin .md .smd .zip .7z|
+|Sega CD|**genesis_plus_gx**<br />picodrive|segacd|.chd .cue .iso .m3u8|
 |Sega<br/>SG-1000|**gearsystem**<br />genesis_plus_gx<br />picodrive|sg-1000|.bin .sg .zip .7z|
 |Sega<br/>SC-3000|**bluemsx**|sc-3000|.sg .bin .zip .7z|
 |Sega<br/>Game Gear|**gearsystem**<br />genesis_plus_gx<br />picodrive<br />smsplus|gamegear|.gg .bin .zip .7z|
-|Sega<br/>Master System|**gearsystem**<br />genesis_plus_gx<br />picodrive<br />smsplus|mastersystem|.sms .bin .zip .7z|
 |Sega<br/>Genesis|**genesis_plus_gx**<br />genesis_plus_gx_wide<br />picodrive|genesis|.gen .md .sg .smd .bin .zip .7z|
-|Sega<br/>Mega Drive|**genesis_plus_gx**<br />genesis_plus_gx_wide<br />picodrive|megadrive<br />megadrive-japan|.gen .bin .md .sg .smd .zip .7z|
-|Sega 32X|**picodrive**|sega32x|.32x .bin .md .smd .zip .7z|
-|Sega CD|**genesis_plus_gx**<br />picodrive|segacd|.chd .cue .iso .m3u8|
+|Sega<br/>Master System|**gearsystem**<br />genesis_plus_gx<br />picodrive<br />smsplus|mastersystem|.sms .bin .zip .7z|
 |Sega<br/>Mega-CD|**genesis_plus_gx**<br />picodrive|megacd|.chd .cue .iso .m3u|
+|Sega<br/>Mega Drive|**genesis_plus_gx**<br />genesis_plus_gx_wide<br />picodrive|megadrive<br />megadrive-japan|.gen .bin .md .sg .smd .zip .7z|
 |Sega<br/>Saturn|**yabasanshiroSA**|saturn|.cue .iso .chd|
+|Sharp<br/>X1|**x1**|x1|.dx1 .2d .2hd .tfd .d88 .88d .hdm .xdf .dup .tap .cmd .zip .7z|
+|[Sharp<br/>x68000](System-X68000)|**px68k**|x68000|.dim .img .d88 .88d .hdm .dup .2hd .xdf .hdf .cmd .m3u .zip .7z|
+|Sinclair<br/>ZX81|**81**|zx81|.tzx .p .zip .7z|
+|Sinclair<br/>ZX Spectrum|**fuse**|zxspectrum|.tzx .tap .z80 .rzx .scl .trd .dsk .zip .7z|
 |SNK<br/>Neo Geo|**fbneo**<br />mame2003_plus<br />fbalpha2012<br />fbalpha2019<br />mame2010<br />mame2015<br />mame|neogeo|.7z .zip|
 |SNK<br/>Neo Geo CD|**neocd**<br />fbneo|neocd|.chd .cue .iso|
 |SNK<br/>Neo Geo Pocket|**beetle_ngp**<br />race|ngp|.ngp .ngc .zip .7z|
 |SNK<br/>Neo Geo Pocket Color|**beetle_ngp**<br />race|ngpc|.ngc .zip .7z|
 |Watara<br/>Supervision|**potator**|supervision|.sv .zip .7z|
 |Welback Holdings<br/>Mega Duck|**sameduck**|megaduck|.bin .zip .7z|
-|Nesbox<br/>TIC-80|**tic80**|tic-80|.tic|
-|Belogic<br/>Uzebox|**uzem**|uzebox|.uze|
-|GCE<br/>Vectrex|**vecx**|vectrex|.bin .gam .vec .zip .7z|
-|Sharp<br/>X1|**x1**|x1|.dx1 .2d .2hd .tfd .d88 .88d .hdm .xdf .dup .tap .cmd .zip .7z|
-|[Sharp<br/>x68000](System-X68000)|**px68k**|x68000|.dim .img .d88 .88d .hdm .dup .2hd .xdf .hdf .cmd .m3u .zip .7z|
-|Sinclair<br/>ZX81|**81**|zx81|.tzx .p .zip .7z|
-|Sinclair<br/>ZX Spectrum|**fuse**|zxspectrum|.tzx .tap .z80 .rzx .scl .trd .dsk .zip .7z|
 
-You can also view this (WIP) spreadsheet with information for each core, as well as if it requires bios or not: [https://docs.google.com/spreadsheets/d/1T962LmL0ci7Hs88TZT3iMtqdvzug4tL3ayTb0uoxijQ](https://docs.google.com/spreadsheets/d/1T962LmL0ci7Hs88TZT3iMtqdvzug4tL3ayTb0uoxijQ)
+## Fantasy-/Open Source Consoles
+
+|System|Core/Emu|ROM Path|Extension| 
+|---|---|---|---|---|
+|[Arduboy](System-Arduboy)|**arduous**|arduboy|.hex|
+|Belogic<br/>Uzebox|**uzem**|uzebox|.uze|
+|[Lexaloffle<br/>Pico-8](System-PICO-8)|**pico8**|pico-8|.png .p8|
+|Nesbox<br/>TIC-80|**tic80**|tic-80|.tic|
+
+
+## Arcade
+
+|Manufacturer/System&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;|Core/Emu|ROM Path|Extension| 
+|---|---|---|---|---|
+|[Arcade](Arcade)|**mame2003_plus**<br />mame2000<br />mame2010<br />mame2015<br />mame<br />fbneo<br />fbalpha2012<br />fbalpha2019<br />AdvanceMame|arcade|.zip .7z|
+|[MAME](System-MAME)|**mame2003_plus**<br />AdvanceMame<br />mame2000<br />mame2010<br />mame2015<br />mame<br />fbneo<br />fbalpha2012<br />fbalpha2019|mame|.zip .7z|
+|[FinalBurn Neo](System-FBNeo)|**fbneo**<br />mame2003_plus<br />fbalpha2012<br />fbalpha2019<br />mame2010<br />mame2015<br />mame|fbneo|.zip .7z|
+|[LaserDisc](System-Laserdisc)|**hypseus-singe**|laserdisc|.daphne or .ld (folder extension)|
+|[Sammy<br/>Atomiswave](System-Atomiswave)|**flycast**|atomiswave|.lst .bin .dat .zip .7z|
 
 Please Note that MAME and FBA screen ratio are not optimized as they should have been optimized on game basis (some are 4:3, some alre 3:2 some are vertical), so we decided to leave the default options.
 
