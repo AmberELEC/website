@@ -22,7 +22,6 @@ The **bold** one is the default one.
 |Atari<br/>7800|**prosystem**|atari7800|.a78 .bin .zip .7z|
 |Atari<br/>Lynx|**handy**<br />beetle_lynx|atarilynx|.lnx .o .zip .7z|
 |[Atari ST](System-Atari-ST)|**hatari**<br />HATARISA|atarist|.st .msa .stx .dim .ipf .m3u .zip .7z|
-|[Aquaplus<br/>P/ECE](System-Aquaplus-Piece)|**piemu**|piece|.pex .pfi|
 |[Bandai<br/>SuFami Turbo](System-Super-Nintendo-Entertainment-System#sufami-turbo)|**snes9x**|sufami|.st .zip .7z|
 |[Bandai<br/>Wonderswan](System-Bandai-Wonderswan)|**beetle_wswan**|wonderswan|.ws .zip .7z|
 |[Bandai<br/>Wonderswan Color](System-Bandai-Wonderswan)|**beetle_wswan**|wonderswancolor|.wsc .zip .7z|
@@ -89,10 +88,10 @@ The **bold** one is the default one.
 |System|Core/Emu|ROM Path|Extension| 
 |---|---|---|---|---|
 |[Arduboy](System-Arduboy)|**arduous**|arduboy|.hex|
+|[Aquaplus<br/>P/ECE](System-Aquaplus-Piece)|**piemu**|piece|.pex .pfi|
 |Belogic<br/>Uzebox|**uzem**|uzebox|.uze|
 |[Lexaloffle<br/>Pico-8](System-PICO-8)|**pico8**|pico-8|.png .p8|
 |Nesbox<br/>TIC-80|**tic80**|tic-80|.tic|
-
 
 ## Arcade
 
