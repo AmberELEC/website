@@ -13,7 +13,10 @@ The bios file `cdmono1.zip` can be obtained from a modern MAME romset. It should
 
 ## ROM Sets
 
-The CDi uses chd images compatible with MAME 0.239. In order to check if your files are valid, you can check them against MAME's [CDi XML softwarelist](https://raw.githubusercontent.com/mamedev/mame/mame0239/hash/cdi.xml), or against this [CDi dat file](resources/dats/cdi.dat).
+The CDi uses chd images compatible with MAME 0.239. 
+
+- [CDi XML softwarelist](https://raw.githubusercontent.com/mamedev/mame/mame0239/hash/cdi.xml) - Only compatible with clrmamepro
+- [CDi dat file](resources/dats/cdi.dat) - For use with any rom compiler
 
 ## Digital Video Cartridge games
 
