@@ -33,3 +33,5 @@ Once you have scraped games as part of your FBNeo or MAME collections, you just 
 ### ROM Sets
 
 It's recommended that you use the current FBNeo romset for your Neo-Geo games, although you can use any rom set supported by one of the cores listed above. Please see the [Arcade](Arcade) page for more information on creating romsets.
+
+- [FBNeo Neo-Geo XML Dat](https://raw.githubusercontent.com/libretro/FBNeo/master/dats/FinalBurn%20Neo%20(ClrMame%20Pro%20XML%2C%20Neogeo%20only).dat) - A dat file for use in clrmamepro, romcenter, or another rom compiler
