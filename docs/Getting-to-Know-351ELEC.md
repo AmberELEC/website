@@ -21,7 +21,7 @@ Every hotkey is commanded by combining the SELECT button with the desired functi
 
 <img src="images/rg351p-hotkeys-351ELEC-purple.svg" alt="RG351P/M/MP graphical hotkey map" width="1000"/>
 
-| Hotkey | RG351P/M | RG351V |
+| Hotkey | RG351P/M/MP, RG552 | RG351V |
 |----|----|----|
 | RA Menu | SELECT + X,<br />L3 + R3 | SELECT + X,<br />L3 + F |
 | Quit | SELECT + START (x2) | SELECT + START (x2) |
