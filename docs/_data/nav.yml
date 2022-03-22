@@ -71,7 +71,7 @@ pages:
     category: Arcade
     url: System-MAME
   - file: System-FBNeo.md
-    title: FBNeo
+    title: FinalBurn Neo
     category: Arcade
     url: System-FBNeo
   - file: System-Laserdisc.md
