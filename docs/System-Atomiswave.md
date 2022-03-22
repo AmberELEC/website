@@ -11,3 +11,5 @@ The Atomiswave is an arcade system by Sammy based on the Sega Dreamcast hardware
 ## ROM Sets
 
 Atomiswave uses MAME roms. Currently, we recommend that you use roms compatible with the MAME .0235 romset. Please see the [Arcade](Arcade) page for more information on creating romsets.
+
+- [Atomiswave XML Dat](resources/dats/atomiswave.xml) - A dat file for use in clrmamepro, romcenter, or another rom compiler
