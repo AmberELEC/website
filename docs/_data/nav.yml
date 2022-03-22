@@ -151,7 +151,7 @@ pages:
     category: Computers
     url: System-X68000
   - file: System-MS-DOS.md
-    title: MS-DOS
+    title: Microsoft MS-DOS
     category: Computers
     url: System-MS-DOS
   - file: System-PC-88.md
