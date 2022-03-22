@@ -14,7 +14,7 @@ The **bold** one is the default core/emulator.
 ## Consoles/Portables
 
 |Manufacturer/System&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;|Core/Emu|ROM Path|Extension| 
-|---|---|---|---|---|
+|---|---|---|---|
 |Atari<br/>2600|**stella-2014**<br />stella|atari2600|.a26 .bin .zip .7z|
 |Atari<br/>5200|**a5200**<br />atari800|atari5200|.rom .xfd .atr .atx .cdm .cas .car .bin .a52 .xex .zip .7z|
 |Atari<br/>7800|**prosystem**|atari7800|.a78 .bin .zip .7z|
@@ -65,7 +65,7 @@ The **bold** one is the default core/emulator.
 
 ## Computers
 |Manufacturer/System&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;|Core/Emu|ROM Path|Extension| 
-|---|---|---|---|---|
+|---|---|---|---|
 |[Amstrad<br/>CPC](System-Amstrad-CPC)|**crocods**<br />cap32|amstradcpc|.dsk .sna [crocods: .kcr]<br/>[cap32: .tap .cdt .voc .m3u .zip .7z]|
 |Atari 800|**atari800**|atari800|.rom .xfd .atr .atx .cdm .cas .car .bin .a52 .xex .zip .7z|
 |[Atari ST](System-Atari-ST)|**hatari**<br />HATARISA|atarist|.st .msa .stx .dim .ipf .m3u .zip .7z|
@@ -90,7 +90,7 @@ The **bold** one is the default core/emulator.
 ## Fantasy-/Open Source Consoles
 
 |System|Core/Emu|ROM Path|Extension| 
-|---|---|---|---|---|
+|---|---|---|---|
 |[Arduboy](System-Arduboy)|**arduous**|arduboy|.hex|
 |[Aquaplus<br/>P/ECE](System-Aquaplus-Piece)|**piemu**|piece|.pex .pfi|
 |Belogic<br/>Uzebox|**uzem**|uzebox|.uze|
@@ -100,7 +100,7 @@ The **bold** one is the default core/emulator.
 ## Arcade
 
 |Manufacturer/System&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;|Core/Emu|ROM Path|Extension| 
-|---|---|---|---|---|
+|---|---|---|---|
 |[Arcade](Arcade)|**mame2003_plus**<br />mame2000<br />mame2010<br />mame2015<br />mame<br />fbneo<br />fbalpha2012<br />fbalpha2019<br />AdvanceMame|arcade|.zip .7z|
 |[MAME](System-MAME)|**mame2003_plus**<br />AdvanceMame<br />mame2000<br />mame2010<br />mame2015<br />mame<br />fbneo<br />fbalpha2012<br />fbalpha2019|mame|.zip .7z|
 |[FinalBurn Neo](System-FBNeo)|**fbneo**<br />mame2003_plus<br />fbalpha2012<br />fbalpha2019<br />mame2010<br />mame2015<br />mame|fbneo|.zip .7z|
@@ -114,7 +114,7 @@ These platforms, due to hardware limitation, are included and worked on, but wil
 Some games/systems work almost perfectly, some others they may never work smoothly.
 
 |System|Status|Core/Emu|ROM Path|Extension| 
-|---|---|---|---|---|
+|---|---|---|---|
 |3DO|Only low performance|**opera**|3do|.iso .cue .bin .chd|
 |J2ME|Quite smooth playing|**freej2me**|j2me|.jar|
 |NEC<br />PC-FX|Only low performance|**beetle_pcfx**|pcfx|.chd .cue .ccd .toc|
