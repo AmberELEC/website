@@ -1,4 +1,4 @@
-# Naomi
+# Sega Naomi
 
 ## Overview
 
