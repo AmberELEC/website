@@ -13,8 +13,8 @@ You will also find the correct extensions, almost all cores support .zip and .7z
 
 The **bold** one is the default one.
 
-| System | Core/Emu | ROM Path | Extension | 
-|:------------:|:------:|:--------:|----------|-----------|
+|&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;System&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;|&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;Core/Emu&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;| ROM Path | Extension | 
+|------------|------|--------|----------|-----------|
 |COMMODORE<br/>AMIGA|**puae**<br />amiberry<br />uae4arm|amiga|.zip .uae .adf .dms .fdi .ipf .adz .lha .hdf .hdz|
 |COMMODORE<br/>AMIGA CD32|**puae**<br />uae4arm|amigacd32|.iso .cue .chd .lha|
 |[AMSTRAD CPC](System-Amstrad-CPC)|**crocods**<br />cap32|amstradcpc|.dsk .sna [crocods: .kcr]<br/>[cap32: .tap .cdt .voc .m3u .zip .7z]|
