@@ -99,7 +99,7 @@ pages:
     category: Consoles
     url: System-Arduboy
   - file: System-Super-Nintendo-Entertainment-System.md
-    title: Super Nintendo Entertainment System
+    title: Super NES
     category: Consoles
     url: System-Super-Nintendo-Entertainment-System
   - file: System-Game-Boy-Advance.md
