@@ -1,4 +1,4 @@
-# N64
+# Nintendo N64
 
 - [Overview](#overview)
 - [Retrorun](#retrorun)
