@@ -35,7 +35,7 @@ The **bold** one is the default one.
 |Fairchild<br/>Channel F|**fairchaf**|channelf|.bin .chf .zip .7z|
 |GCE<br/>Vectrex|**vecx**|vectrex|.bin .gam .vec .zip .7z|
 |Mattel<br/>Intellivision|**freeintv**|intellivision|.int .bin .rom .zip .7z|
-|[Microsoft<br />MS-DOS](System-MS-DOS)|**dosbox_pure**<br />dosbox_svn|pc|.com .bat .exe .dosz, disk images (iso, cue, img, ima, vhd) can be put into the .dosz|
+|[Microsoft<br />DOS](System-MS-DOS)|**dosbox_pure**<br />dosbox_svn|pc|.com .bat .exe .dosz, disk images (iso, cue, img, ima, vhd) can be put into the .dosz|
 |Microsoft<br/>MSX|**bluemsx**<br />fmsx|msx| .dsk .mx1 .mx2 .rom .zip .7z .m3u|
 |Microsoft<br/>MSX2|**bluemsx**<br />fmsx|msx2|.dsk .mx1 .mx2 .rom .zip .7z .m3u|
 |[NEC<br/>PC-88](System-PC-88)|**quasi88**|pc88|.d88 .m3u|
