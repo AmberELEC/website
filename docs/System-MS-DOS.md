@@ -1,4 +1,4 @@
-# MS-DOS
+# Microsoft DOS
 
 ## Overview
 
