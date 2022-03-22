@@ -1,15 +1,15 @@
-# Philips CDi
+# Philips CD-i
 
 ## Overview
 
 - Core: `same_cdi`
 - Path(s): `cdi`
-- Supported Extensions: `.chd`
-- Bios: `cdmono1.zip`
+- Supported Extensions: `.chd .iso`
+- Bios: `cdimono1.zip`
 
 ## Bios
 
-The bios file `cdmono1.zip` can be obtained from a modern MAME romset. It should be put in `/roms/bios/same_cdi/bios/cdmono1.zip`. The file may also be called `cdmono1.7z`.
+The bios file `cdimono1.zip` can be obtained from a modern MAME romset. It should be put in `/roms/bios/same_cdi/bios/cdimono1.zip`. The file may also be called `cdimono1.7z`.
 
 ## ROM Sets
 
