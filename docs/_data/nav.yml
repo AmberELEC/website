@@ -79,15 +79,15 @@ pages:
     category: Arcade
     url: System-Laserdisc
   - file: System-Neo-Geo.md
-    title: Neo Geo
+    title: SNK Neo Geo
     category: Arcade
     url: System-Neo-Geo
   - file: System-Atomiswave.md
-    title: Atomiswave
+    title: Sammy Atomiswave
     category: Arcade
     url: System-Atomiswave
   - file: System-Naomi.md
-    title: Naomi
+    title: Sega Naomi
     category: Arcade
     url: System-Naomi
   - file: System-PICO-8.md
@@ -99,19 +99,19 @@ pages:
     category: Consoles
     url: System-Arduboy
   - file: System-Super-Nintendo-Entertainment-System.md
-    title: Super NES
+    title: Nintendo Super NES
     category: Consoles
     url: System-Super-Nintendo-Entertainment-System
   - file: System-Game-Boy-Advance.md
-    title: Game Boy Advance
+    title: Nintendo Game Boy Advance
     category: Consoles
     url: System-Game-Boy-Advance
   - file: System-Virtual-Boy.md
-    title: Virtual Boy
+    title: Nintendo Virtual Boy
     category: Consoles
     url: System-Virtual-Boy
   - file: System-N64.md
-    title: N64
+    title: Nintendo N64
     category: Consoles
     url: System-N64
   - file: System-Sony-PlayStation.md
@@ -143,7 +143,7 @@ pages:
     category: Computers
     url: System-Atari-ST
   - file: System-X68000.md
-    title: x68000
+    title: Sharp x68000
     category: Computers
     url: System-X68000
   - file: System-MS-DOS.md
@@ -151,11 +151,11 @@ pages:
     category: Computers
     url: System-MS-DOS
   - file: System-PC-88.md
-    title: PC-88
+    title: NEC PC-88
     category: Computers
     url: System-PC-88
   - file: System-PC-98.md
-    title: PC-98
+    title: NEC PC-98
     category: Computers
     url: System-PC-98
   - file: System-ScummVM.md
