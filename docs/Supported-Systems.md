@@ -64,7 +64,30 @@ The **bold** one is the default core/emulator.
 |Watara<br/>Supervision|**potator**|supervision|.sv .zip .7z|
 |Welback Holdings<br/>Mega Duck|**sameduck**|megaduck|.bin .zip .7z|
 
+## Computers
 
+|Manufacturer/System&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;|Core/Emu|ROM Path|Extension| 
+|---|---|---|---|
+|[Amstrad<br/>CPC](System-Amstrad-CPC)|**crocods**<br />cap32|amstradcpc|.dsk .sna [crocods: .kcr]<br/>[cap32: .tap .cdt .voc .m3u .zip .7z]|
+|Atari 800|**atari800**|atari800|.rom .xfd .atr .atx .cdm .cas .car .bin .a52 .xex .zip .7z|
+|[Atari ST](System-Atari-ST)|**hatari**<br />HATARISA|atarist|.st .msa .stx .dim .ipf .m3u .zip .7z|
+|Commodore<br/>Amiga|**puae**<br />amiberry<br />uae4arm|amiga|.zip .uae .adf .dms .fdi .ipf .adz .lha .hdf .hdz|
+|Commodore<br/>C16 (PLUS/4)|**vice_xplus4**|c16|.d(64, 71, 80, 81, 82, 6z, 7z, 8z) .g(64, 41, 6z, 4z) .x64 .t64 .tap .prg .p00 .crt .bin .x6z .cmd .m3u .vsf .nib .nbz|
+|Commodore<br/>C64|**vice_x64**|c64|.d(64, 71, 80, 81, 82, 6z, 7z, 8z) .g(64, 41, 6z, 4z) .x64 .t64 .tap .prg .p00 .crt .bin .x6z .cmd .m3u .vsf .nib .nbz|
+|Commodore<br/>C128|**vice_x128**|c128|.d(64, 71, 80, 81, 82, 6z, 7z, 8z) .g(64, 41, 6z, 4z) .x64 .t64 .tap .prg .p00 .crt .bin .x6z .cmd .m3u .vsf .nib .nbz|
+|Commodore<br/>VIC-20|**vice_xvic**|vic20|.20 .40 .60 .a0 .b0 .d(64, 71, 80, 81, 82, 6z, 7z, 8z) .g(64, 41, 6z, 4z) .x64 .t64 .tap .prg .p00 .crt .bin .gz .x6z .cmd .m3u .vsf .nib .nbz|
+|[Magnavox<br/>Odyssey²](System-Magnavox-Odyssey2)|**o2em**|odyssey|.bin .zip .7z|
+|[Microsoft<br />DOS](System-MS-DOS)|**dosbox_pure**<br />dosbox_svn|pc|.com .bat .exe .dosz, disk images (iso, cue, img, ima, vhd) can be put into the .dosz|
+|Microsoft<br/>MSX|**bluemsx**<br />fmsx|msx| .dsk .mx1 .mx2 .rom .zip .7z .m3u|
+|Microsoft<br/>MSX2|**bluemsx**<br />fmsx|msx2|.dsk .mx1 .mx2 .rom .zip .7z .m3u|
+|[NEC<br/>PC-88](System-PC-88)|**quasi88**|pc88|.d88 .m3u|
+|[NEC<br/>PC-98](System-PC-98)|**np2kai**<br />nekop2|pc98|.d98 .zip .98d .fdi .fdd .2hd .tfd .d88 .88d .hdm .xdf .dup .hdi .thd .nhd .hdd .hdn|
+|[Philips<br/>Videopac](System-Magnavox-Odyssey2)|**o2em**|videopac|.bin .zip .7z|
+|Sega<br/>SC-3000|**bluemsx**|sc-3000|.sg .bin .zip .7z|
+|Sharp<br/>X1|**x1**|x1|.dx1 .2d .2hd .tfd .d88 .88d .hdm .xdf .dup .tap .cmd .zip .7z|
+|[Sharp<br/>x68000](System-X68000)|**px68k**|x68000|.dim .img .d88 .88d .hdm .dup .2hd .xdf .hdf .cmd .m3u .zip .7z|
+|Sinclair<br/>ZX81|**81**|zx81|.tzx .p .zip .7z|
+|Sinclair<br/>ZX Spectrum|**fuse**|zxspectrum|.tzx .tap .z80 .rzx .scl .trd .dsk .zip .7z|
 
 ## Fantasy-/Open Source Consoles
 
