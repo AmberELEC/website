@@ -114,7 +114,7 @@ These platforms, due to hardware limitation, are included and worked on, but wil
 Some games/systems work almost perfectly, some others they may never work smoothly.
 
 |System|Status|Core/Emu|ROM Path|Extension| 
-|---|---|---|---|
+|---|---|---|---|---|
 |3DO|Only low performance|**opera**|3do|.iso .cue .bin .chd|
 |J2ME|Quite smooth playing|**freej2me**|j2me|.jar|
 |NEC<br />PC-FX|Only low performance|**beetle_pcfx**|pcfx|.chd .cue .ccd .toc|
