@@ -64,7 +64,7 @@ The **bold** one is the default one.
 |[Philips<br/>CD-i](System-CDI)|**same_cdi**|cdi|.chd .iso|
 |[Sony<br/>PlayStation](System-Sony-PlayStation)|**pcsx_rearmed**<br />duckstation<br />swanstation|psx|.bin .cue .img .pbp .mdf .toc .cbn .m3u .ccd .chd .iso|
 |Sega 32X|**picodrive**|sega32x|.32x .bin .md .smd .zip .7z|
-|Sega CD|**genesis_plus_gx**<br />picodrive|segacd|.chd .cue .iso .m3u8|
+|Sega CD|**genesis_plus_gx**<br />picodrive|segacd|.chd .cue .iso .m3u|
 |Sega<br/>SG-1000|**gearsystem**<br />genesis_plus_gx<br />picodrive|sg-1000|.bin .sg .zip .7z|
 |Sega<br/>SC-3000|**bluemsx**|sc-3000|.sg .bin .zip .7z|
 |Sega<br/>Game Gear|**gearsystem**<br />genesis_plus_gx<br />picodrive<br />smsplus|gamegear|.gg .bin .zip .7z|
