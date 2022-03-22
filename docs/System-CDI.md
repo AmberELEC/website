@@ -13,7 +13,7 @@ The bios file `cdimono1.zip` can be obtained from a modern MAME romset. It shoul
 
 ## ROM Sets
 
-The CDi uses chd images compatible with MAME 0.239. 
+The CD-i uses chd images compatible with MAME 0.239. 
 
 - [CDi XML softwarelist](https://raw.githubusercontent.com/mamedev/mame/mame0239/hash/cdi.xml) - Only compatible with clrmamepro
 - [CDi dat file](resources/dats/cdi.dat) - For use with any rom compiler
