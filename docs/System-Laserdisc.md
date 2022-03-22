@@ -54,7 +54,7 @@ All or almost all Singe 2 games have been converted to work with Hypseus Singe. 
 ## Gamelist
 
 {: .datatable }
-| Game | Daphne | Hypseus Singe | Folder Name | Controls | Release Type | Developer |
+| Game | Daphne | Singe | Folder Name | Controls | Release Type | Developer |
 |------|:------:|:-------------:|-------------|----------|--------------|-----------|
 | Altered Carbon | | &#10003; | carbon.ld | | Fangame | Mazinger4life |
 | Asterix | | &#10003; | asterix.ld | | Fangame | Nado74 |
