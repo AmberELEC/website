@@ -26,12 +26,12 @@ The **bold** one is the default one.
 |Atari<br/>7800|**prosystem**|atari7800|.a78 .bin .zip .7z|
 |Atari<br/>Lynx|**handy**<br />beetle_lynx|atarilynx|.lnx .o .zip .7z|
 |[Atari<br/>ST](System-Atari-ST)|**hatari**<br />HATARISA|atarist|.st .msa .stx .dim .ipf .m3u .zip .7z|
-|[Aquaplus P/ECE](System-Aquaplus-Piece)|**piemu**|piece|.pex .pfi|
-|[Sammy Atomiswave](System-Atomiswave)|**flycast**|atomiswave|.lst .bin .dat .zip .7z|
-|[Bandai Wonderswan](System-Bandai-Wonderswan)|**beetle_wswan**|wonderswan|.ws .zip .7z|
+|[Aquaplus<br/>P/ECE](System-Aquaplus-Piece)|**piemu**|piece|.pex .pfi|
+|[Sammy<br/>Atomiswave](System-Atomiswave)|**flycast**|atomiswave|.lst .bin .dat .zip .7z|
+|[Bandai<br/>Wonderswan](System-Bandai-Wonderswan)|**beetle_wswan**|wonderswan|.ws .zip .7z|
 |[Bandai<br/>Wonderswan Color](System-Bandai-Wonderswan)|**beetle_wswan**|wonderswancolor|.wsc .zip .7z|
-|Fairchild Channel F|**fairchaf**|channelf|.bin .chf .zip .7z|
-|Coleco ColecoVision|**bluemsx**<br />gearcoleco<br />smsplus|coleco|.bin .col .rom .zip .7z|
+|Fairchild<br/>Channel F|**fairchaf**|channelf|.bin .chf .zip .7z|
+|Coleco<br/>ColecoVision|**bluemsx**<br />gearcoleco<br />smsplus|coleco|.bin .col .rom .zip .7z|
 |Commodore<br/>C16 (PLUS/4)|**vice_xplus4**|c16|.d(64, 71, 80, 81, 82, 6z, 7z, 8z) .g(64, 41, 6z, 4z) .x64 .t64 .tap .prg .p00 .crt .bin .x6z .cmd .m3u .vsf .nib .nbz|
 |Commodore<br/>C64|**vice_x64**|c64|.d(64, 71, 80, 81, 82, 6z, 7z, 8z) .g(64, 41, 6z, 4z) .x64 .t64 .tap .prg .p00 .crt .bin .x6z .cmd .m3u .vsf .nib .nbz|
 |Commodore<br/>C128|**vice_x128**|c128|.d(64, 71, 80, 81, 82, 6z, 7z, 8z) .g(64, 41, 6z, 4z) .x64 .t64 .tap .prg .p00 .crt .bin .x6z .cmd .m3u .vsf .nib .nbz|
@@ -60,7 +60,7 @@ The **bold** one is the default one.
 |[Nintendo<br/>Super NES](System-Super-Nintendo-Entertainment-System)|**snes9x**<br />snes9x2002<br />snes9x2005_plus<br />snes9x2010<br />beetle_supafaust|snes|.smc .sfc .swc .fig .zip .7z|
 |[Nintendo<br/>Super Famicom](System-Super-Nintendo-Entertainment-System)|**snes9x**<br />snes9x2002<br />snes9x2005_plus<br />snes9x2010<br />beetle_supafaust|sfc|.smc .sfc .swc .fig .zip .7z|
 |[Nintendo<br/>Super NES MSU-1](System-Super-Nintendo-Entertainment-System)|**snes9x**<br />beetle_supafaust|snesmsu1|.smc .fig .sfc .swc .zip .7z|
-|[Nintendo Satellaview](System-Super-Nintendo-Entertainment-System#satellaview-bs-x)|**snes9x**<br />snes9x2002<br />snes9x2005_plus<br />snes9x2010|satellaview|.smc .sfc .swc .fig .bs .bsx .zip .7z|
+|[Nintendo<br/>Satellaview](System-Super-Nintendo-Entertainment-System#satellaview-bs-x)|**snes9x**<br />snes9x2002<br />snes9x2005_plus<br />snes9x2010|satellaview|.smc .sfc .swc .fig .bs .bsx .zip .7z|
 |[Bandai<br/>SuFami Turbo](System-Super-Nintendo-Entertainment-System#sufami-turbo)|**snes9x**|sufami|.st .zip .7z|
 |[Nintendo<br/>Virtual Boy](System-Virtual-Boy)|**beetle_vb**|virtualboy|.vb .zip .7z|
 |[Magnavox<br/>Odyssey²](System-Magnavox-Odyssey2)|**o2em**|odyssey|.bin .zip .7z|
@@ -74,7 +74,7 @@ The **bold** one is the default one.
 |Sega<br/>Game Gear|**gearsystem**<br />genesis_plus_gx<br />picodrive<br />smsplus|gamegear|.gg .bin .zip .7z|
 |Sega<br/>Master System|**gearsystem**<br />genesis_plus_gx<br />picodrive<br />smsplus|mastersystem|.sms .bin .zip .7z|
 |Sega<br/>Genesis|**genesis_plus_gx**<br />genesis_plus_gx_wide<br />picodrive|genesis|.gen .md .sg .smd .bin .zip .7z|
-|Sega Mega Drive|**genesis_plus_gx**<br />genesis_plus_gx_wide<br />picodrive|megadrive<br />megadrive-japan|.gen .bin .md .sg .smd .zip .7z|
+|Sega<br/>Mega Drive|**genesis_plus_gx**<br />genesis_plus_gx_wide<br />picodrive|megadrive<br />megadrive-japan|.gen .bin .md .sg .smd .zip .7z|
 |Sega 32X|**picodrive**|sega32x|.32x .bin .md .smd .zip .7z|
 |Sega CD|**genesis_plus_gx**<br />picodrive|segacd|.chd .cue .iso .m3u8|
 |Sega<br/>Mega-CD|**genesis_plus_gx**<br />picodrive|megacd|.chd .cue .iso .m3u|
