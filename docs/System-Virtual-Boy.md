@@ -1,4 +1,4 @@
-# Virtual Boy
+# Nintendo Virtual Boy
 
 ## Overview
 
