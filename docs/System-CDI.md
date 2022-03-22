@@ -20,4 +20,4 @@ The CDi uses chd images compatible with MAME 0.239.
 
 ## Digital Video Cartridge games
 
-The same_cdi emulator does not currently support DVC games.
+The same_cdi core does not currently support DVC games.
