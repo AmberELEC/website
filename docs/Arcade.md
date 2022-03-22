@@ -11,7 +11,7 @@ If you want a better understanding of how arcade emulation works, the MAME [Abou
 ## Emulator Specific Documentation
 
 - [MAME](System-MAME)
-- [FBNeo](System-FBNeo)
+- [FinalBurn Neo](System-FBNeo)
 - [LaserDisc](System-Laserdisc)
 - [Neo Geo](System-Neo-Geo)
 - [Atomiswave](System-Atomiswave)
