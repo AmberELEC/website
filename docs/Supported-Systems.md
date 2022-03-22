@@ -11,7 +11,7 @@ You will also find the correct extensions, almost all cores support .zip and .7z
 
 The **bold** one is the default core/emulator.
 
-## Consoles/Handhelds
+## Consoles/Portables
 
 |Manufacturer/System&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;|Core/Emu|ROM Path|Extension| 
 |---|---|---|---|---|
