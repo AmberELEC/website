@@ -1,4 +1,4 @@
-# Game Boy Advance
+# Nintendo Game Boy Advance
 
 ## Paths
 - `/roms/gba`
