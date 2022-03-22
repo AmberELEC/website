@@ -38,7 +38,7 @@ The **bold** one is the default core/emulator.
 |Nintendo<br/>Famicom Disk System|**nestopia**<br />fceumm<br />quicknes|fds|.fds .zip .7z|
 |Nintendo<br/>Game Boy|**gambatte**<br />sameboy<br />gearboy<br />tgbdual<br />mgba<br />vbam|gb<br/>gbh (for hacks)|.gb .gbc .zip .7z|
 |[Nintendo<br/>Game Boy Advance](System-Game-Boy-Advance)|**mgba**<br />beetle_gba<br />gpsp<br />vbam<br />vba_next|gba<br/>gbah (for hacks)|.gba .zip .7z|
-|Nintendo<br/>Game Boy Color|**gambatte**<br />sameboy<br />gearboy<br />tgbdual<br />mgba<br />vbam|<br/>gbch (for hacks)|.gbc .gb .zip .7z|
+|Nintendo<br/>Game Boy Color|**gambatte**<br />sameboy<br />gearboy<br />tgbdual<br />mgba<br />vbam|gbc<br/>gbch (for hacks)|.gbc .gb .zip .7z|
 |Nintendo<br/>Game & Watch|**gw**|gameandwatch|.mgw .zip .7z|
 |Nintendo<br/>Pokémon Mini|**pokemini**|pokemini|.min .zip .7z|
 |[Nintendo<br/>Super NES](System-Super-Nintendo-Entertainment-System)|**snes9x**<br />snes9x2002<br />snes9x2005_plus<br />snes9x2010<br />beetle_supafaust|snes<br/>snesh (for hacks)|.smc .sfc .swc .fig .zip .7z|
