@@ -130,6 +130,10 @@ pages:
     title: Magnavox Odyssey²
     category: Consoles
     url: System-Magnavox-Odyssey2
+  - file: System-Magnavox-Odyssey2.md
+    title: Philips Videopac
+    category: Consoles
+    url: System-Magnavox-Odyssey2    
   - file: System-CDI.md
     title: Philips CD-i
     category: Consoles
