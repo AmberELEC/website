@@ -1,4 +1,4 @@
-# Bandai Wonderswan
+# Bandai Wonderswan (Color)
 
 ## Overview
 
