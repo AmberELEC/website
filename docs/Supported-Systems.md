@@ -32,66 +32,66 @@ The **bold** one is the default one.
 |[Bandai<br/>Wonderswan Color](System-Bandai-Wonderswan)|**beetle_wswan**|wonderswancolor|.wsc .zip .7z|
 |Fairchild Channel F|**fairchaf**|channelf|.bin .chf .zip .7z|
 |Coleco ColecoVision|**bluemsx**<br />gearcoleco<br />smsplus|coleco|.bin .col .rom .zip .7z|
-|Commodore 16 (PLUS/4)|**vice_xplus4**|c16|.d(64, 71, 80, 81, 82, 6z, 7z, 8z) .g(64, 41, 6z, 4z) .x64 .t64 .tap .prg .p00 .crt .bin .x6z .cmd .m3u .vsf .nib .nbz|
-|Commodore 64|**vice_x64**|c64|.d(64, 71, 80, 81, 82, 6z, 7z, 8z) .g(64, 41, 6z, 4z) .x64 .t64 .tap .prg .p00 .crt .bin .x6z .cmd .m3u .vsf .nib .nbz|
-|Commodore 128|**vice_x128**|c128|.d(64, 71, 80, 81, 82, 6z, 7z, 8z) .g(64, 41, 6z, 4z) .x64 .t64 .tap .prg .p00 .crt .bin .x6z .cmd .m3u .vsf .nib .nbz|
-|Commodore VIC-20|**vice_xvic**|vic20|.20 .40 .60 .a0 .b0 .d(64, 71, 80, 81, 82, 6z, 7z, 8z) .g(64, 41, 6z, 4z) .x64 .t64 .tap .prg .p00 .crt .bin .gz .x6z .cmd .m3u .vsf .nib .nbz|
+|Commodore<br/>C16 (PLUS/4)|**vice_xplus4**|c16|.d(64, 71, 80, 81, 82, 6z, 7z, 8z) .g(64, 41, 6z, 4z) .x64 .t64 .tap .prg .p00 .crt .bin .x6z .cmd .m3u .vsf .nib .nbz|
+|Commodore<br/>C64|**vice_x64**|c64|.d(64, 71, 80, 81, 82, 6z, 7z, 8z) .g(64, 41, 6z, 4z) .x64 .t64 .tap .prg .p00 .crt .bin .x6z .cmd .m3u .vsf .nib .nbz|
+|Commodore<br/>C128|**vice_x128**|c128|.d(64, 71, 80, 81, 82, 6z, 7z, 8z) .g(64, 41, 6z, 4z) .x64 .t64 .tap .prg .p00 .crt .bin .x6z .cmd .m3u .vsf .nib .nbz|
+|Commodore<br/>VIC-20|**vice_xvic**|vic20|.20 .40 .60 .a0 .b0 .d(64, 71, 80, 81, 82, 6z, 7z, 8z) .g(64, 41, 6z, 4z) .x64 .t64 .tap .prg .p00 .crt .bin .gz .x6z .cmd .m3u .vsf .nib .nbz|
 |[LaserDisc](System-Laserdisc)|**hypseus-singe**|laserdisc|.daphne or .ld (folder extension)|
 |[FinalBurn Neo](System-FBNeo)|**fbneo**<br />mame2003_plus<br />fbalpha2012<br />fbalpha2019<br />mame2010<br />mame2015<br />mame|fbneo|.zip .7z|
-|Mattel Intellivision|**freeintv**|intellivision|.int .bin .rom .zip .7z|
+|Mattel<br/>Intellivision|**freeintv**|intellivision|.int .bin .rom .zip .7z|
 |[MAME](System-MAME)|**mame2003_plus**<br />AdvanceMame<br />mame2000<br />mame2010<br />mame2015<br />mame<br />fbneo<br />fbalpha2012<br />fbalpha2019|mame|.zip .7z|
-|Microsoft MSX|**bluemsx**<br />fmsx|msx| .dsk .mx1 .mx2 .rom .zip .7z .m3u|
-|Microsoft MSX2|**bluemsx**<br />fmsx|msx2|.dsk .mx1 .mx2 .rom .zip .7z .m3u|
-|[NEC PC-88](System-PC-88)|**quasi88**|pc88|.d88 .m3u|
-|[NEC PC-98](System-PC-98)|**np2kai**<br />nekop2|pc98|.d98 .zip .98d .fdi .fdd .2hd .tfd .d88 .88d .hdm .xdf .dup .hdi .thd .nhd .hdd .hdn|
-|NEC PC Engine|**beetle_pce_fast**<br />beetle_supergrafx|pcengine|.pce .bin .zip .7z|
-|NEC PC Engine CD|**beetle_pce_fast**<br />beetle_supergrafx|pcenginecd|.cue .ccd .chd .toc .m3u|
-|NEC SuperGrafx|**beetle_supergrafx**|sgfx|.pce .sgx .cue .ccd .chd .zip .7z|
-|NEC TurboGrafx-16|**beetle_pce_fast**<br />beetle_supergrafx|tg16|.pce .bin .zip .7z|
-|NEC TURBOGRAFX CD|**beetle_pce_fast**<br />beetle_supergrafx|tg16cd|.cue .ccd .chd .toc .m3u|
+|Microsoft<br/>MSX|**bluemsx**<br />fmsx|msx| .dsk .mx1 .mx2 .rom .zip .7z .m3u|
+|Microsoft<br/>MSX2|**bluemsx**<br />fmsx|msx2|.dsk .mx1 .mx2 .rom .zip .7z .m3u|
+|[NEC<br/>PC-88](System-PC-88)|**quasi88**|pc88|.d88 .m3u|
+|[NEC<br/>PC-98](System-PC-98)|**np2kai**<br />nekop2|pc98|.d98 .zip .98d .fdi .fdd .2hd .tfd .d88 .88d .hdm .xdf .dup .hdi .thd .nhd .hdd .hdn|
+|NEC<br/>PC Engine|**beetle_pce_fast**<br />beetle_supergrafx|pcengine|.pce .bin .zip .7z|
+|NEC<br/>PC Engine CD|**beetle_pce_fast**<br />beetle_supergrafx|pcenginecd|.cue .ccd .chd .toc .m3u|
+|NEC<br/>SuperGrafx|**beetle_supergrafx**|sgfx|.pce .sgx .cue .ccd .chd .zip .7z|
+|NEC<br/>TurboGrafx-16|**beetle_pce_fast**<br />beetle_supergrafx|tg16|.pce .bin .zip .7z|
+|NEC<br/>TurboGrafx CD|**beetle_pce_fast**<br />beetle_supergrafx|tg16cd|.cue .ccd .chd .toc .m3u|
 |Nintendo<br />NES|**nestopia**<br />fceumm<br />quicknes|nes|.nes .unif .unf .zip .7z|
-|Nintendo Famicom|**nestopia**<br />fceumm<br />quicknes|famicom|.nes .unif .unf .zip .7z|
+|Nintendo<br/>Famicom|**nestopia**<br />fceumm<br />quicknes|famicom|.nes .unif .unf .zip .7z|
 |Nintendo<br/>Famicom Disk System|**nestopia**<br />fceumm<br />quicknes|fds|.fds .zip .7z|
-|Nintendo Game Boy|**gambatte**<br />sameboy<br />gearboy<br />tgbdual<br />mgba<br />vbam|gb|.gb .gbc .zip .7z|
+|Nintendo<br/>Game Boy|**gambatte**<br />sameboy<br />gearboy<br />tgbdual<br />mgba<br />vbam|gb|.gb .gbc .zip .7z|
 |[Nintendo<br/>Game Boy Advance](System-Game-Boy-Advance)|**mgba**<br />beetle_gba<br />gpsp<br />vbam<br />vba_next|gba|.gba .zip .7z|
 |Nintendo<br/>Game Boy Color|**gambatte**<br />sameboy<br />gearboy<br />tgbdual<br />mgba<br />vbam|gbc|.gbc .gb .zip .7z|
-|Nintendo Game & Watch|**gw**|gameandwatch|.mgw .zip .7z|
-|Nintendo Pokémon Mini|**pokemini**|pokemini|.min .zip .7z|
+|Nintendo<br/>Game & Watch|**gw**|gameandwatch|.mgw .zip .7z|
+|Nintendo<br/>Pokémon Mini|**pokemini**|pokemini|.min .zip .7z|
 |[Nintendo<br/>Super NES](System-Super-Nintendo-Entertainment-System)|**snes9x**<br />snes9x2002<br />snes9x2005_plus<br />snes9x2010<br />beetle_supafaust|snes|.smc .sfc .swc .fig .zip .7z|
 |[Nintendo<br/>Super Famicom](System-Super-Nintendo-Entertainment-System)|**snes9x**<br />snes9x2002<br />snes9x2005_plus<br />snes9x2010<br />beetle_supafaust|sfc|.smc .sfc .swc .fig .zip .7z|
 |[Nintendo<br/>Super NES MSU-1](System-Super-Nintendo-Entertainment-System)|**snes9x**<br />beetle_supafaust|snesmsu1|.smc .fig .sfc .swc .zip .7z|
 |[Nintendo Satellaview](System-Super-Nintendo-Entertainment-System#satellaview-bs-x)|**snes9x**<br />snes9x2002<br />snes9x2005_plus<br />snes9x2010|satellaview|.smc .sfc .swc .fig .bs .bsx .zip .7z|
 |[Bandai<br/>SuFami Turbo](System-Super-Nintendo-Entertainment-System#sufami-turbo)|**snes9x**|sufami|.st .zip .7z|
-|[Nintendo Virtual Boy](System-Virtual-Boy)|**beetle_vb**|virtualboy|.vb .zip .7z|
-|[Magnavox Odyssey²](System-Magnavox-Odyssey2)|**o2em**|odyssey|.bin .zip .7z|
-|[Philips Videopac](System-Magnavox-Odyssey2)|**o2em**|videopac|.bin .zip .7z|
-|[Philips CD-i](System-CDI)|**same_cdi**|cdi|.chd .iso|
+|[Nintendo<br/>Virtual Boy](System-Virtual-Boy)|**beetle_vb**|virtualboy|.vb .zip .7z|
+|[Magnavox<br/>Odyssey²](System-Magnavox-Odyssey2)|**o2em**|odyssey|.bin .zip .7z|
+|[Philips<br/>Videopac](System-Magnavox-Odyssey2)|**o2em**|videopac|.bin .zip .7z|
+|[Philips<br/>CD-i](System-CDI)|**same_cdi**|cdi|.chd .iso|
 |[MS-DOS](System-MS-DOS)|**dosbox_pure**<br />dosbox_svn|pc|.com .bat .exe .dosz, disk images (iso, cue, img, ima, vhd) can be put into the .dosz|
-|[Lexaloffle Pico-8](System-PICO-8)|**pico8**|pico-8|.png .p8|
-|[Sony PlayStation](System-Sony-PlayStation)|**pcsx_rearmed**<br />duckstation<br />swanstation|psx|.bin .cue .img .pbp .mdf .toc .cbn .m3u .ccd .chd .iso|
-|Sega SG-1000|**gearsystem**<br />genesis_plus_gx<br />picodrive|sg-1000|.bin .sg .zip .7z|
-|Sega SC-3000|**bluemsx**|sc-3000|.sg .bin .zip .7z|
-|Sega Game Gear|**gearsystem**<br />genesis_plus_gx<br />picodrive<br />smsplus|gamegear|.gg .bin .zip .7z|
+|[Lexaloffle<br/>Pico-8](System-PICO-8)|**pico8**|pico-8|.png .p8|
+|[Sony<br/>PlayStation](System-Sony-PlayStation)|**pcsx_rearmed**<br />duckstation<br />swanstation|psx|.bin .cue .img .pbp .mdf .toc .cbn .m3u .ccd .chd .iso|
+|Sega<br/>SG-1000|**gearsystem**<br />genesis_plus_gx<br />picodrive|sg-1000|.bin .sg .zip .7z|
+|Sega<br/>SC-3000|**bluemsx**|sc-3000|.sg .bin .zip .7z|
+|Sega<br/>Game Gear|**gearsystem**<br />genesis_plus_gx<br />picodrive<br />smsplus|gamegear|.gg .bin .zip .7z|
 |Sega<br/>Master System|**gearsystem**<br />genesis_plus_gx<br />picodrive<br />smsplus|mastersystem|.sms .bin .zip .7z|
-|Sega Genesis|**genesis_plus_gx**<br />genesis_plus_gx_wide<br />picodrive|genesis|.gen .md .sg .smd .bin .zip .7z|
+|Sega<br/>Genesis|**genesis_plus_gx**<br />genesis_plus_gx_wide<br />picodrive|genesis|.gen .md .sg .smd .bin .zip .7z|
 |Sega Mega Drive|**genesis_plus_gx**<br />genesis_plus_gx_wide<br />picodrive|megadrive<br />megadrive-japan|.gen .bin .md .sg .smd .zip .7z|
 |Sega 32X|**picodrive**|sega32x|.32x .bin .md .smd .zip .7z|
 |Sega CD|**genesis_plus_gx**<br />picodrive|segacd|.chd .cue .iso .m3u8|
-|Sega Mega-CD|**genesis_plus_gx**<br />picodrive|megacd|.chd .cue .iso .m3u|
-|Sega Saturn|**yabasanshiroSA**|saturn|.cue .iso .chd|
-|SNK Neo Geo|**fbneo**<br />mame2003_plus<br />fbalpha2012<br />fbalpha2019<br />mame2010<br />mame2015<br />mame|neogeo|.7z .zip|
-|SNK Neo Geo CD|**neocd**<br />fbneo|neocd|.chd .cue .iso|
+|Sega<br/>Mega-CD|**genesis_plus_gx**<br />picodrive|megacd|.chd .cue .iso .m3u|
+|Sega<br/>Saturn|**yabasanshiroSA**|saturn|.cue .iso .chd|
+|SNK<br/>Neo Geo|**fbneo**<br />mame2003_plus<br />fbalpha2012<br />fbalpha2019<br />mame2010<br />mame2015<br />mame|neogeo|.7z .zip|
+|SNK<br/>Neo Geo CD|**neocd**<br />fbneo|neocd|.chd .cue .iso|
 |SNK<br/>Neo Geo Pocket|**beetle_ngp**<br />race|ngp|.ngp .ngc .zip .7z|
 |SNK<br/>Neo Geo Pocket Color|**beetle_ngp**<br />race|ngpc|.ngc .zip .7z|
-|Watara Supervision|**potator**|supervision|.sv .zip .7z|
+|Watara<br/>Supervision|**potator**|supervision|.sv .zip .7z|
 |Welback Holdings<br/>Mega Duck|**sameduck**|megaduck|.bin .zip .7z|
-|Nesbox TIC-80|**tic80**|tic-80|.tic|
-|Belogic Uzebox|**uzem**|uzebox|.uze|
-|GCE Vectrex|**vecx**|vectrex|.bin .gam .vec .zip .7z|
-|Sharp X1|**x1**|x1|.dx1 .2d .2hd .tfd .d88 .88d .hdm .xdf .dup .tap .cmd .zip .7z|
-|[Sharp x68000](System-X68000)|**px68k**|x68000|.dim .img .d88 .88d .hdm .dup .2hd .xdf .hdf .cmd .m3u .zip .7z|
-|Sinclair ZX81|**81**|zx81|.tzx .p .zip .7z|
-|Sinclair ZX Spectrum|**fuse**|zxspectrum|.tzx .tap .z80 .rzx .scl .trd .dsk .zip .7z|
+|Nesbox<br/>TIC-80|**tic80**|tic-80|.tic|
+|Belogic<br/>Uzebox|**uzem**|uzebox|.uze|
+|GCE<br/>Vectrex|**vecx**|vectrex|.bin .gam .vec .zip .7z|
+|Sharp<br/>X1|**x1**|x1|.dx1 .2d .2hd .tfd .d88 .88d .hdm .xdf .dup .tap .cmd .zip .7z|
+|[Sharp<br/>x68000](System-X68000)|**px68k**|x68000|.dim .img .d88 .88d .hdm .dup .2hd .xdf .hdf .cmd .m3u .zip .7z|
+|Sinclair<br/>ZX81|**81**|zx81|.tzx .p .zip .7z|
+|Sinclair<br/>ZX Spectrum|**fuse**|zxspectrum|.tzx .tap .z80 .rzx .scl .trd .dsk .zip .7z|
 
 You can also view this (WIP) spreadsheet with information for each core, as well as if it requires bios or not: [https://docs.google.com/spreadsheets/d/1T962LmL0ci7Hs88TZT3iMtqdvzug4tL3ayTb0uoxijQ](https://docs.google.com/spreadsheets/d/1T962LmL0ci7Hs88TZT3iMtqdvzug4tL3ayTb0uoxijQ)
 
