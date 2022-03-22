@@ -1,4 +1,4 @@
-# Magnavox Odyssey²
+# Magnavox Odyssey² / Philips Videopac
 
 ## Overview
 
