@@ -94,7 +94,7 @@ The **bold** one is the default core/emulator.
 |System|Core/Emu|ROM Path|Extension| 
 |---|---|---|---|
 |[Arduboy](System-Arduboy)|**arduous**|arduboy|.hex|
-|[Aquaplus<br/>P/ECE](System-Aquaplus-Piece)|**piemu**|piece|.pex .pfi|
+|[Aquaplus<br/>P/ece](System-Aquaplus-Piece)|**piemu**|piece|.pex .pfi|
 |Belogic<br/>Uzebox|**uzem**|uzebox|.uze|
 |[Lexaloffle<br/>Pico-8](System-PICO-8)|**pico8**|pico-8|.png .p8|
 |Nesbox<br/>TIC-80|**tic80**|tic-80|.tic|
