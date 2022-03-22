@@ -1,4 +1,4 @@
-# Atomiswave
+# Sammy Atomiswave
 
 ## Overview
 
