@@ -14,7 +14,7 @@ The **bold** one is the default core/emulator.
 
 - [Consoles/Portables](#consolesportables)
 - [Computers](#computers)
-- [Fantasy-/Open Source Consoles](#fantasyopen-source-consoles)
+- [Fantasy/Open Source Consoles](#fantasyopen-source-consoles)
 - [Arcade](#arcade)
 - [Game Engines](#game-engines)
 - [BIOS](#bios)
