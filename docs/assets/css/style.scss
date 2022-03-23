@@ -261,6 +261,11 @@ header .bg-dark.show, header .bg-dark.collapsing {
 
 .bad { background-color: #321b1b; }
 
+.good a[data-toggle="tooltip"],.good a[data-toggle="tooltip"]:hover,.good a[data-toggle="tooltip"]:active {
+  color: white;
+  text-decoration: underline dotted green;
+}
+
 .mixed a[data-toggle="tooltip"],.mixed a[data-toggle="tooltip"]:hover,.mixed a[data-toggle="tooltip"]:active {
   color: white;
   text-decoration: underline dotted yellow;
