@@ -280,28 +280,23 @@ h1, h2, h3, h4, h5, h6 {
   margin: 25px 0 10px 0;
 }
 
-.systemtable {
-  th:nth-child(1) {
-    width: 230px;
-    min-width: 230px;
-  }
-
-  th:nth-child(2) {
-    width: 200px;
-    min-width: 200px;
-  }
-
-  th:nth-child(3) {
-    width: 145px;
-    min-width: 200px
-  }
-
-  th:nth-child(5), th:nth-child(6) {
-    width: 50px;
-    max-width: 50px;
-  }
+.systemtable th:nth-child(1) {
+ width:220px;
+ min-width:220px
 }
-
+.systemtable th:nth-child(2) {
+ width:255px;
+ min-width:255px
+}
+.systemtable th:nth-child(3) {
+ width:165px;
+ min-width:165px;
+}
+.systemtable th:nth-child(5),
+.systemtable th:nth-child(6) {
+ width:50px;
+ min-width: 50px
+}
 table.dataTable {
-  border-collapse: collapse !important;
+ border-collapse:collapse !important
 }
