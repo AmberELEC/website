@@ -12,13 +12,26 @@ You will also find the correct extensions, almost all cores support .zip and .7z
 
 The **bold** one is the default core/emulator.
 
+- [Arcade](#arcade)
 - [Consoles/Portables](#consolesportables)
 - [Computers](#computers)
 - [Fantasy/Open Source Consoles](#fantasyopen-source-consoles)
-- [Arcade](#arcade)
 - [Game Engines](#game-engines)
 - [BIOS](#bios)
 
+## Arcade
+
+{: .systemtable }
+|Manufacturer/System&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;|Core/Emu|ROM Path|Extension|RG351|RG552|
+|---|---|---|---|---|---|
+|[Arcade](Arcade)|**mame2003_plus**<br />mame2000<br />mame2010<br />mame2015<br />mame<br />fbneo<br />fbalpha2012<br />fbalpha2019<br />AdvanceMame|arcade|.zip .7z|||
+|[MAME](System-MAME)|**mame2003_plus**<br />AdvanceMame<br />mame2000<br />mame2010<br />mame2015<br />mame<br />fbneo<br />fbalpha2012<br />fbalpha2019|mame|.zip .7z|Good: MAME2003-plus works well, other romsets are mixed|Good|
+|[FinalBurn Neo](System-FBNeo)|**fbneo**<br />mame2003_plus<br />fbalpha2012<br />fbalpha2019<br />mame2010<br />mame2015<br />mame|fbneo|.zip .7z|Good|Good|
+|[LaserDisc](System-Laserdisc)|**hypseus-singe**|laserdisc|.daphne or .ld (folder extension)|Good|Good|
+|[Sammy<br/>Atomiswave](System-Atomiswave)|**flycast**|atomiswave|.lst .bin .dat .zip .7z|Good|Good|
+|[Sega<br />Naomi](System-Naomi)|**flycast**|naomi|.lst .bin .dat .zip .7z|Mixed: Some games run well, others are unplayable|Mixed: Some games run well, others are unplayable|
+
+Please Note that MAME and FBA screen ratio are not optimized as they should have been optimized on game basis (some are 4:3, some alre 3:2 some are vertical), so we decided to leave the default options.
 
 ## Consoles/Portables
 
@@ -36,7 +49,6 @@ The **bold** one is the default core/emulator.
 |Commodore<br/>Amiga CD³²|**puae**<br />uae4arm|amigacd32|.iso .cue .chd .lha|Good|Good|
 |Fairchild<br/>Channel F|**fairchaf**|channelf|.bin .chf .zip .7z|Good|Good|
 |General Consumer Electric<br/>Vectrex|**vecx**|vectrex|.bin .gam .vec .zip .7z|Good|Good|
-|Sun Microsystems<br/>J2ME|**freej2me**|j2me|.jar|Good: Quite smooth playing|Good: Quite smooth playing|
 |Mattel<br/>Intellivision|**freeintv**|intellivision|.int .bin .rom .zip .7z|Good|Good|
 |NEC<br/>PC Engine|**beetle_pce_fast**<br />beetle_supergrafx|pcengine|.pce .bin .zip .7z|Good|Good|
 |NEC<br/>PC Engine CD|**beetle_pce_fast**<br />beetle_supergrafx|pcenginecd|.cue .ccd .chd .toc .m3u|Good|Good|
@@ -78,6 +90,7 @@ The **bold** one is the default core/emulator.
 |[Sony<br/>PlayStation](System-Sony-PlayStation)|**pcsx_rearmed**<br />duckstation<br />swanstation|psx|.bin .cue .img .pbp .mdf .toc .cbn .m3u .ccd .chd .iso|Good|Good|
 |[Sony<br />PlayStation Portable](System-Sony-PlayStation-Portable)|**PPSSPPSDL**<br />ppsspp|psp|.cso .pbp .iso|Mixed: Many games run well, especially with frameskip. Some games are unplayable|Mixed: Many games run well, especially with frameskip. Some games are unplayable|
 |[Sony<br />PSP Minis](System-Sony-PlayStation-Portable)|**PPSSPPSDL**<br />ppsspp| pspminis |.cso .pbp .iso|Mixed: Most games are less demanding than PSP, and run well, though a few may run badly|Mixed: Most games are less demanding than PSP, and run well, though a few may run badly|
+|Sun Microsystems<br/>J2ME|**freej2me**|j2me|.jar|Good: Quite smooth playing|Good: Quite smooth playing|
 |Watara<br/>Supervision|**potator**|supervision|.sv .zip .7z|Good|Good|
 |Welback Holdings<br/>Mega Duck|**sameduck**|megaduck|.bin .zip .7z|Good|Good|
 
@@ -117,20 +130,6 @@ The **bold** one is the default core/emulator.
 |Belogic<br/>Uzebox|**uzem**|uzebox|.uze|Good|Good|
 |[Lexaloffle<br/>Pico-8](System-PICO-8)|**pico8**|pico-8|.png .p8|Good|Good|
 |Nesbox<br/>TIC-80|**tic80**|tic-80|.tic|Good|Good|
-
-## Arcade
-
-{: .systemtable }
-|Manufacturer/System&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;|Core/Emu|ROM Path|Extension|RG351|RG552|
-|---|---|---|---|---|---|
-|[Arcade](Arcade)|**mame2003_plus**<br />mame2000<br />mame2010<br />mame2015<br />mame<br />fbneo<br />fbalpha2012<br />fbalpha2019<br />AdvanceMame|arcade|.zip .7z|||
-|[MAME](System-MAME)|**mame2003_plus**<br />AdvanceMame<br />mame2000<br />mame2010<br />mame2015<br />mame<br />fbneo<br />fbalpha2012<br />fbalpha2019|mame|.zip .7z|Good: MAME2003-plus works well, other romsets are mixed|Good|
-|[FinalBurn Neo](System-FBNeo)|**fbneo**<br />mame2003_plus<br />fbalpha2012<br />fbalpha2019<br />mame2010<br />mame2015<br />mame|fbneo|.zip .7z|Good|Good|
-|[LaserDisc](System-Laserdisc)|**hypseus-singe**|laserdisc|.daphne or .ld (folder extension)|Good|Good|
-|[Sammy<br/>Atomiswave](System-Atomiswave)|**flycast**|atomiswave|.lst .bin .dat .zip .7z|Good|Good|
-|[Sega<br />Naomi](System-Naomi)|**flycast**|naomi|.lst .bin .dat .zip .7z|Mixed: Some games run well, others are unplayable|Mixed: Some games run well, others are unplayable|
-
-Please Note that MAME and FBA screen ratio are not optimized as they should have been optimized on game basis (some are 4:3, some alre 3:2 some are vertical), so we decided to leave the default options.
 
 ## Game Engines
 
