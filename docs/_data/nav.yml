@@ -160,7 +160,7 @@ pages:
   - file: System-Aquaplus-Piece.md
     title: Aquaplus P/ECE
     category: Fantasy/Open Source Consoles
-    url: System-Arduboy
+    url: System-Aquaplus-Piece
   - file: System-PICO-8.md
     title: Pico-8
     category: Fantasy/Open Source Consoles
