@@ -22,7 +22,7 @@ The **bold** one is the default core/emulator.
 ## Arcade
 
 {: .systemtable }
-|Manufacturer/System<span style="display: inline-block; width: 200px;">&nbsp;</span>|Core/Emu<span style="display: inline-block; width: 200px;">&nbsp;</span>|ROM Path<span style="display: inline-block; width: 140px;">&nbsp;</span>|Extension|RG351<span style="display: inline-block; width: 50px;">&nbsp;</span>|RG552<span style="display: inline-block; width: 50px;">&nbsp;</span>|
+|Manufacturer/System<span style="display: inline-block; min-width: 210px;">&nbsp;</span>|Core/Emu<span style="display: inline-block; min-width: 200px;">&nbsp;</span>|ROM Path<span style="display: inline-block; min-width: 140px;">&nbsp;</span>|Extension|RG351<span style="display: inline-block; max-width: 50px;">&nbsp;</span>|RG552<span style="display: inline-block; max-width: 50px;">&nbsp;</span>|
 |---|---|---|---|---|---|
 |[Arcade](Arcade)|**mame2003_plus**<br />mame2000<br />mame2010<br />mame2015<br />mame<br />fbneo<br />fbalpha2012<br />fbalpha2019<br />AdvanceMame|arcade|.zip .7z|||
 |[MAME](System-MAME)|**mame2003_plus**<br />AdvanceMame<br />mame2000<br />mame2010<br />mame2015<br />mame<br />fbneo<br />fbalpha2012<br />fbalpha2019|mame|.zip .7z|Good: MAME2003-plus works well, other romsets are mixed|Good|
@@ -36,7 +36,7 @@ Please note that MAME and FinalBurn Neo screen aspect ratios are not optimized, 
 ## Consoles/Portables
 
 {: .systemtable }
-|Manufacturer/System<span style="display: inline-block; width: 200px;">&nbsp;</span>|Core/Emu<span style="display: inline-block; width: 200px;">&nbsp;</span>|ROM Path<span style="display: inline-block; width: 140px;">&nbsp;</span>|Extension|RG351<span style="display: inline-block; width: 50px;">&nbsp;</span>|RG552<span style="display: inline-block; width: 50px;">&nbsp;</span>|
+|Manufacturer/System<span style="display: inline-block; min-width: 210px;">&nbsp;</span>|Core/Emu<span style="display: inline-block; min-width: 200px;">&nbsp;</span>|ROM Path<span style="display: inline-block; min-width: 140px;">&nbsp;</span>|Extension|RG351<span style="display: inline-block; max-width: 50px;">&nbsp;</span>|RG552<span style="display: inline-block; max-width: 50px;">&nbsp;</span>|
 |---|---|---|---|---|---|
 |Atari<br/>2600|**stella-2014**<br />stella|atari2600|.a26 .bin .zip .7z|Good|Good|
 |Atari<br/>5200|**a5200**<br />atari800|atari5200|.rom .xfd .atr .atx .cdm .cas .car .bin .a52 .xex .zip .7z|Good|Good|
