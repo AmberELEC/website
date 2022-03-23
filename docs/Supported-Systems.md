@@ -29,7 +29,7 @@ The **bold** one is the default core/emulator.
 |[FinalBurn Neo](System-FBNeo)|**fbneo**<br />mame2003_plus<br />fbalpha2012<br />fbalpha2019<br />mame2010<br />mame2015<br />mame|fbneo|.zip .7z|Good|Good|
 |[LaserDisc](System-Laserdisc)|**hypseus-singe**|laserdisc|.daphne or .ld (folder extension)|Good|Good|
 |[Sammy<br/>Atomiswave](System-Atomiswave)|**flycast**|atomiswave|.lst .bin .dat .zip .7z|Good|Good|
-|[Sega<br />Naomi](System-Naomi)|**flycast**|naomi|.lst .bin .dat .zip .7z|Mixed: Some games run well, others are unplayable|Mixed: Some games run well, others are unplayable|
+|[Sega<br/>Naomi](System-Naomi)|**flycast**|naomi|.lst .bin .dat .zip .7z|Mixed: Some games run well, others are unplayable|Mixed: Some games run well, others are unplayable|
 
 Please note that MAME and FinalBurn Neo screen aspect ratios are not optimized, as they should have been optimized on game basis (some are 4:3, some are 3:2 and some are vertical), so we decided to leave the default options.
 
@@ -52,7 +52,7 @@ Please note that MAME and FinalBurn Neo screen aspect ratios are not optimized, 
 |Mattel<br/>Intellivision|**freeintv**|intellivision|.int .bin .rom .zip .7z|Good|Good|
 |NEC<br/>PC Engine|**beetle_pce_fast**<br />beetle_supergrafx|pcengine|.pce .bin .zip .7z|Good|Good|
 |NEC<br/>PC Engine CD|**beetle_pce_fast**<br />beetle_supergrafx|pcenginecd|.cue .ccd .chd .toc .m3u|Good|Good|
-|NEC<br />PC-FX|**beetle_pcfx**|pcfx|.chd .cue .ccd .toc|Bad: Only low performance|Bad: Only low performance|
+|NEC<br/>PC-FX|**beetle_pcfx**|pcfx|.chd .cue .ccd .toc|Bad: Only low performance|Bad: Only low performance|
 |NEC<br/>SuperGrafx|**beetle_supergrafx**|sgfx|.pce .sgx .cue .ccd .chd .zip .7z|Good|Good|
 |NEC<br/>TurboGrafx 16|**beetle_pce_fast**<br />beetle_supergrafx|tg16|.pce .bin .zip .7z|Good|Good|
 |NEC<br/>TurboGrafx CD|**beetle_pce_fast**<br />beetle_supergrafx|tg16cd|.cue .ccd .chd .toc .m3u|Good|Good|
@@ -62,16 +62,16 @@ Please note that MAME and FinalBurn Neo screen aspect ratios are not optimized, 
 |Nintendo<br/>Game Boy|**gambatte**<br />sameboy<br />gearboy<br />tgbdual<br />mgba<br />vbam|gb<br/>gbh (hacks)|.gb .gbc .zip .7z|Good|Good|
 |[Nintendo<br/>Game Boy Advance](System-Game-Boy-Advance)|**mgba**<br />beetle_gba<br />gpsp<br />vbam<br />vba_next|gba<br/>gbah (hacks)|.gba .zip .7z|Good|Good|
 |Nintendo<br/>Game Boy Color|**gambatte**<br />sameboy<br />gearboy<br />tgbdual<br />mgba<br />vbam|gbc<br/>gbch (hacks)|.gbc .gb .zip .7z|Good|Good|
-|[Nintendo<br />N64](System-N64)|mupen64plus<br />mupen64plus_next<br />**parallel_n64**<br />parallel_n64_gln64<br />mupen64plussa_glide64mk2<br />mupen64plussa_rice|n64|.z64 .n64 .v64 .zip .7z|Mixed: Some games run well, others are unplayable|Mixed: Some games run well, others are unplayable|
-|Nintendo<br />NDS|**drastic**|nds|.nds .zip|Mixed: 2D Games almost fully playable|Mixed: 2D Games almost fully playable|
-|Nintendo<br />NES|**nestopia**<br />fceumm<br />quicknes|nes<br/>nesh (hacks)|.nes .unif .unf .zip .7z|Good|Good|
+|[Nintendo<br/>N64](System-N64)|mupen64plus<br />mupen64plus_next<br />**parallel_n64**<br />parallel_n64_gln64<br />mupen64plussa_glide64mk2<br />mupen64plussa_rice|n64|.z64 .n64 .v64 .zip .7z|Mixed: Some games run well, others are unplayable|Mixed: Some games run well, others are unplayable|
+|Nintendo<br/>NDS|**drastic**|nds|.nds .zip|Mixed: 2D Games almost fully playable|Mixed: 2D Games almost fully playable|
+|Nintendo<br/>NES|**nestopia**<br />fceumm<br />quicknes|nes<br/>nesh (hacks)|.nes .unif .unf .zip .7z|Good|Good|
 |Nintendo<br/>Pokémon Mini|**pokemini**|pokemini|.min .zip .7z|Good|Good|
 |[Nintendo<br/>Satellaview](System-Super-Nintendo-Entertainment-System#satellaview-bs-x)|**snes9x**<br />snes9x2002<br />snes9x2005_plus<br />snes9x2010|satellaview|.smc .sfc .swc .fig .bs .bsx .zip .7z|Good|Good|
-|[Nintendo<br/>Super NES](System-Super-Nintendo-Entertainment-System)|**snes9x**<br />snes9x2002<br />snes9x2005_plus<br />snes9x2010<br />beetle_supafaust|snes<br/>snesh (hacks)|.smc .sfc .swc .fig .zip .7z|Good|Good|
 |[Nintendo<br/>Super Famicom](System-Super-Nintendo-Entertainment-System)|**snes9x**<br />snes9x2002<br />snes9x2005_plus<br />snes9x2010<br />beetle_supafaust|sfc|.smc .sfc .swc .fig .zip .7z|Good|Good|
+|[Nintendo<br/>Super NES](System-Super-Nintendo-Entertainment-System)|**snes9x**<br />snes9x2002<br />snes9x2005_plus<br />snes9x2010<br />beetle_supafaust|snes<br/>snesh (hacks)|.smc .sfc .swc .fig .zip .7z|Good|Good|
 |[Nintendo<br/>Super NES MSU-1](System-Super-Nintendo-Entertainment-System)|**snes9x**<br />beetle_supafaust|snesmsu1|.smc .fig .sfc .swc .zip .7z|Good|Good|
 |[Nintendo<br/>Virtual Boy](System-Virtual-Boy)|**beetle_vb**|virtualboy|.vb .zip .7z|Good|Good|
-|Panasonic<br />3DO|**opera**|3do|.iso .cue .bin .chd|Bad: Only low performance|Bad: Only low performance|
+|Panasonic<br/>3DO|**opera**|3do|.iso .cue .bin .chd|Bad: Only low performance|Bad: Only low performance|
 |[Philips<br/>CD-i](System-CDI)|**same_cdi**|cdi|.chd .iso|Good|Good|
 |Sega 32X|**picodrive**|sega32x|.32x .bin .md .smd .zip .7z|Good|Good|
 |Sega CD|**genesis_plus_gx**<br />picodrive|segacd|.chd .cue .iso .m3u|Good|Good|
@@ -82,14 +82,14 @@ Please note that MAME and FinalBurn Neo screen aspect ratios are not optimized, 
 |Sega<br/>Mega-CD|**genesis_plus_gx**<br />picodrive|megacd|.chd .cue .iso .m3u|Good|Good|
 |Sega<br/>Mega Drive|**genesis_plus_gx**<br />genesis_plus_gx_wide<br />picodrive|megadrive<br />megadrive-japan|.gen .bin .md .sg .smd .zip .7z|Good|Good|
 |Sega<br/>Saturn|**yabasanshiroSA**|saturn|.cue .iso .chd|Mixed: Almost any game is fully playable, but not at full speed|Good|
-|Sega<br />Dreamcast|**flycast**|dreamcast|.cdi .gdi .chd .m3u|Mixed: Some games run well, others are unplayable|Mixed: Some games run well, others are unplayable|
+|Sega<br/>Dreamcast|**flycast**|dreamcast|.cdi .gdi .chd .m3u|Mixed: Some games run well, others are unplayable|Mixed: Some games run well, others are unplayable|
 |SNK<br/>Neo Geo|**fbneo**<br />mame2003_plus<br />fbalpha2012<br />fbalpha2019<br />mame2010<br />mame2015<br />mame|neogeo|.7z .zip|Good|Good|
 |SNK<br/>Neo Geo CD|**neocd**<br />fbneo|neocd|.chd .cue .iso|Good|Good|
 |SNK<br/>Neo Geo Pocket|**beetle_ngp**<br />race|ngp|.ngp .ngc .zip .7z|Good|Good|
 |SNK<br/>Neo Geo Pocket Color|**beetle_ngp**<br />race|ngpc|.ngc .zip .7z|Good|Good|
 |[Sony<br/>PlayStation](System-Sony-PlayStation)|**pcsx_rearmed**<br />duckstation<br />swanstation|psx|.bin .cue .img .pbp .mdf .toc .cbn .m3u .ccd .chd .iso|Good|Good|
-|[Sony<br />PlayStation Portable](System-Sony-PlayStation-Portable)|**PPSSPPSDL**<br />ppsspp|psp|.cso .pbp .iso|Mixed: Many games run well, especially with frameskip. Some games are unplayable|Mixed: Many games run well, especially with frameskip. Some games are unplayable|
-|[Sony<br />PSP Minis](System-Sony-PlayStation-Portable)|**PPSSPPSDL**<br />ppsspp| pspminis |.cso .pbp .iso|Mixed: Most games are less demanding than PSP, and run well, though a few may run badly|Mixed: Most games are less demanding than PSP, and run well, though a few may run badly|
+|[Sony<br/>PSP](System-Sony-PlayStation-Portable)|**PPSSPPSDL**<br />ppsspp|psp|.cso .pbp .iso|Mixed: Many games run well, especially with frameskip. Some games are unplayable|Mixed: Many games run well, especially with frameskip. Some games are unplayable|
+|[Sony<br/>PSP Minis](System-Sony-PlayStation-Portable)|**PPSSPPSDL**<br />ppsspp| pspminis |.cso .pbp .iso|Mixed: Most games are less demanding than PSP, and run well, though a few may run badly|Mixed: Most games are less demanding than PSP, and run well, though a few may run badly|
 |Sun Microsystems<br/>J2ME|**freej2me**|j2me|.jar|Good: Quite smooth playing|Good: Quite smooth playing|
 |Watara<br/>Supervision|**potator**|supervision|.sv .zip .7z|Good|Good|
 |Welback Holdings<br/>Mega Duck|**sameduck**|megaduck|.bin .zip .7z|Good|Good|
@@ -108,7 +108,7 @@ Please note that MAME and FinalBurn Neo screen aspect ratios are not optimized, 
 |Commodore<br/>C128|**vice_x128**|c128|.d64 .d71 .d80 .d81 .d82 .g64 .g41 .x64 .t64 .tap .prg .p00 .crt .bin .d6z .d7z .d8z .g6z .g4z .x6z .cmd .m3u .vsf .nib .nbz .zip|Good|Good|
 |Commodore<br/>VIC-20|**vice_xvic**|vic20|.20 .40 .60 .a0 .b0 .d64 .d71 .d80 .d81 .d82 .g64 .g41 .x64 .t64 .tap .prg .p00 .crt .bin .gz .d6z .d7z .d8z .g6z .g4z .x6z .cmd .m3u .vsf .nib .nbz .zip|Good|Good|
 |[Magnavox<br/>Odyssey²](System-Magnavox-Odyssey2)|**o2em**|odyssey|.bin .zip .7z|Good|Good|
-|[Microsoft<br />DOS](System-MS-DOS)|**dosbox_pure**<br />dosbox_svn|pc|.com .bat .exe .dosz, disk images (iso, cue, img, ima, vhd) can be put into the .dosz|Good|Good|
+|[Microsoft<br/>DOS](System-MS-DOS)|**dosbox_pure**<br />dosbox_svn|pc|.com .bat .exe .dosz, disk images (iso, cue, img, ima, vhd) can be put into the .dosz|Good|Good|
 |Microsoft<br/>MSX|**bluemsx**<br />fmsx|msx| .dsk .mx1 .mx2 .rom .zip .7z .m3u|Good|Good|
 |Microsoft<br/>MSX2|**bluemsx**<br />fmsx|msx2|.dsk .mx1 .mx2 .rom .zip .7z .m3u|Good|Good|
 |[NEC<br/>PC-88](System-PC-88)|**quasi88**|pc88|.d88 .m3u|Good|Good|
