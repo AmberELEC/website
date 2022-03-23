@@ -76,8 +76,8 @@ The **bold** one is the default core/emulator.
 |SNK<br/>Neo Geo Pocket|**beetle_ngp**<br />race|ngp|.ngp .ngc .zip .7z|Good|Good|
 |SNK<br/>Neo Geo Pocket Color|**beetle_ngp**<br />race|ngpc|.ngc .zip .7z|Good|Good|
 |[Sony<br/>PlayStation](System-Sony-PlayStation)|**pcsx_rearmed**<br />duckstation<br />swanstation|psx|.bin .cue .img .pbp .mdf .toc .cbn .m3u .ccd .chd .iso|Good|Good|
-|[Sony<br />PlayStation Portable](System-Sony-PlayStation-Portable)|**PPSSPPSDL**<br />ppsspp|psp|.cso .iso .pbp|Mixed: Many games run well, especially with frameskip. Some games are unplayable|Mixed: Many games run well, especially with frameskip. Some games are unplayable|
-|[Sony<br />PSP Minis](System-Sony-PlayStation-Portable)|**PPSSPPSDL**<br />ppsspp| pspminis |.iso .cso .pbp|Mixed: Most games are less demanding than PSP, and run well, though a few may run badly|Mixed: Most games are less demanding than PSP, and run well, though a few may run badly|
+|[Sony<br />PlayStation Portable](System-Sony-PlayStation-Portable)|**PPSSPPSDL**<br />ppsspp|psp|.cso .pbp .iso|Mixed: Many games run well, especially with frameskip. Some games are unplayable|Mixed: Many games run well, especially with frameskip. Some games are unplayable|
+|[Sony<br />PSP Minis](System-Sony-PlayStation-Portable)|**PPSSPPSDL**<br />ppsspp| pspminis |.cso .pbp .iso|Mixed: Most games are less demanding than PSP, and run well, though a few may run badly|Mixed: Most games are less demanding than PSP, and run well, though a few may run badly|
 |Watara<br/>Supervision|**potator**|supervision|.sv .zip .7z|Good|Good|
 |Welback Holdings<br/>Mega Duck|**sameduck**|megaduck|.bin .zip .7z|Good|Good|
 
