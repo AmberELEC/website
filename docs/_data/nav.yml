@@ -58,7 +58,7 @@ pages:
     category: Contributing
     url: Pre-Release-Features
   - file: Supported-Systems.md
-    title: Full List
+    title: Supported Systems
     category: Systems
     url: Supported-Systems
   - file: Arcade.md
