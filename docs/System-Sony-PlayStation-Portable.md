@@ -1,4 +1,4 @@
-# Sony PSP
+# Sony PSP (Minis)
 
 ## BIOS
 
