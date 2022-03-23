@@ -35,8 +35,8 @@ The **bold** one is the default core/emulator.
 |Coleco<br/>ColecoVision|**bluemsx**<br />gearcoleco<br />smsplus|coleco|.bin .col .rom .zip .7z|Good|Good|
 |Commodore<br/>Amiga CD³²|**puae**<br />uae4arm|amigacd32|.iso .cue .chd .lha|Good|Good|
 |Fairchild<br/>Channel F|**fairchaf**|channelf|.bin .chf .zip .7z|Good|Good|
-|GCE<br/>Vectrex|**vecx**|vectrex|.bin .gam .vec .zip .7z|Good|Good|
-|J2ME|**freej2me**|j2me|.jar|Good: Quite smooth playing|Good: Quite smooth playing|
+|General Consumer Electric<br/>Vectrex|**vecx**|vectrex|.bin .gam .vec .zip .7z|Good|Good|
+|Sun Microsystems<br/>J2ME|**freej2me**|j2me|.jar|Good: Quite smooth playing|Good: Quite smooth playing|
 |Mattel<br/>Intellivision|**freeintv**|intellivision|.int .bin .rom .zip .7z|Good|Good|
 |NEC<br/>PC Engine|**beetle_pce_fast**<br />beetle_supergrafx|pcengine|.pce .bin .zip .7z|Good|Good|
 |NEC<br/>PC Engine CD|**beetle_pce_fast**<br />beetle_supergrafx|pcenginecd|.cue .ccd .chd .toc .m3u|Good|Good|
