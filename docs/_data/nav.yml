@@ -65,7 +65,6 @@ pages:
     title: Arcade
     category: Systems
     url: Arcade
-    hidepage: true
   - file: System-MAME.md
     title: MAME
     category: Arcade
@@ -221,7 +220,7 @@ categories:
     url: Supported-Systems
     sidenav: true
   - title: Arcade
-    url: Arcade
+    url: Supported-Systems#arcade
     parent: Systems
   - title: Consoles/Portables
     url: Supported-Systems#consolesportables
