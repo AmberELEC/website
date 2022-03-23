@@ -66,10 +66,10 @@ Please note that MAME and FinalBurn Neo screen aspect ratios are not optimized, 
 |Nintendo<br />NDS|**drastic**|nds|.nds .zip|Mixed: 2D Games almost fully playable|Mixed: 2D Games almost fully playable|
 |Nintendo<br />NES|**nestopia**<br />fceumm<br />quicknes|nes<br/>nesh (hacks)|.nes .unif .unf .zip .7z|Good|Good|
 |Nintendo<br/>Pokémon Mini|**pokemini**|pokemini|.min .zip .7z|Good|Good|
+|[Nintendo<br/>Satellaview](System-Super-Nintendo-Entertainment-System#satellaview-bs-x)|**snes9x**<br />snes9x2002<br />snes9x2005_plus<br />snes9x2010|satellaview|.smc .sfc .swc .fig .bs .bsx .zip .7z|Good|Good|
 |[Nintendo<br/>Super NES](System-Super-Nintendo-Entertainment-System)|**snes9x**<br />snes9x2002<br />snes9x2005_plus<br />snes9x2010<br />beetle_supafaust|snes<br/>snesh (hacks)|.smc .sfc .swc .fig .zip .7z|Good|Good|
 |[Nintendo<br/>Super Famicom](System-Super-Nintendo-Entertainment-System)|**snes9x**<br />snes9x2002<br />snes9x2005_plus<br />snes9x2010<br />beetle_supafaust|sfc|.smc .sfc .swc .fig .zip .7z|Good|Good|
 |[Nintendo<br/>Super NES MSU-1](System-Super-Nintendo-Entertainment-System)|**snes9x**<br />beetle_supafaust|snesmsu1|.smc .fig .sfc .swc .zip .7z|Good|Good|
-|[Nintendo<br/>Satellaview](System-Super-Nintendo-Entertainment-System#satellaview-bs-x)|**snes9x**<br />snes9x2002<br />snes9x2005_plus<br />snes9x2010|satellaview|.smc .sfc .swc .fig .bs .bsx .zip .7z|Good|Good|
 |[Nintendo<br/>Virtual Boy](System-Virtual-Boy)|**beetle_vb**|virtualboy|.vb .zip .7z|Good|Good|
 |Panasonic<br />3DO|**opera**|3do|.iso .cue .bin .chd|Bad: Only low performance|Bad: Only low performance|
 |[Philips<br/>CD-i](System-CDI)|**same_cdi**|cdi|.chd .iso|Good|Good|
