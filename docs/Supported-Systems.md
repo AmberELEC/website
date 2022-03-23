@@ -37,7 +37,7 @@ Please note that MAME and FinalBurn Neo screen aspect ratios are not optimized, 
 
 {: .systemtable }
 |Manufacturer/System&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;|Core/Emu|ROM Path|Extension|RG351|RG552|
-|---|---|---|----------------------|---|---|
+|---|---|---|---|---|---|
 |Atari<br/>2600|**stella-2014**<br />stella|atari2600|.a26 .bin .zip .7z|Good|Good|
 |Atari<br/>5200|**a5200**<br />atari800|atari5200|.rom .xfd .atr .atx .cdm .cas .car .bin .a52 .xex .zip .7z|Good|Good|
 |Atari<br/>7800|**prosystem**|atari7800|.a78 .bin .zip .7z|Good|Good|
