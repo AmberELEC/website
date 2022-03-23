@@ -115,8 +115,8 @@ The **bold** one is the default core/emulator.
 {: .systemtable }
 |Manufacturer/System&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;|Core/Emu|ROM Path|Extension|RG351|RG552|
 |---|---|---|---|---|---|
-|[Arcade](Arcade)|**mame2003_plus**<br />mame2000<br />mame2010<br />mame2015<br />mame<br />fbneo<br />fbalpha2012<br />fbalpha2019<br />AdvanceMame|arcade|.zip .7z|Good|Good|
-|[MAME](System-MAME)|**mame2003_plus**<br />AdvanceMame<br />mame2000<br />mame2010<br />mame2015<br />mame<br />fbneo<br />fbalpha2012<br />fbalpha2019|mame|.zip .7z|Good|Good|
+|[Arcade](Arcade)|**mame2003_plus**<br />mame2000<br />mame2010<br />mame2015<br />mame<br />fbneo<br />fbalpha2012<br />fbalpha2019<br />AdvanceMame|arcade|.zip .7z|||
+|[MAME](System-MAME)|**mame2003_plus**<br />AdvanceMame<br />mame2000<br />mame2010<br />mame2015<br />mame<br />fbneo<br />fbalpha2012<br />fbalpha2019|mame|.zip .7z|Good: MAME2003-plus works well, other romsets are mixed|Good|
 |[FinalBurn Neo](System-FBNeo)|**fbneo**<br />mame2003_plus<br />fbalpha2012<br />fbalpha2019<br />mame2010<br />mame2015<br />mame|fbneo|.zip .7z|Good|Good|
 |[LaserDisc](System-Laserdisc)|**hypseus-singe**|laserdisc|.daphne or .ld (folder extension)|Good|Good|
 |[Sammy<br/>Atomiswave](System-Atomiswave)|**flycast**|atomiswave|.lst .bin .dat .zip .7z|Good|Good|
@@ -127,15 +127,15 @@ Please Note that MAME and FBA screen ratio are not optimized as they should have
 ## Game Engines
 
 {: .systemtable }
-|System|Core/Emu|ROM Path|Extension| 
-|---|---|---|---|
-|[Build Engine](System-Build-Engine)|**raze**|build|[.build](System-Build-Engine#how-to-create-a-build-file)|
-|[Doom](System-Doom)|**gzdoom**<br />lzdoom<br />prboom|doom|[.doom](System-Doom#how-to-create-a-doom-file)|
-|[EasyRPG](System-EasyRPG)|**easyrpg**|easyrpg|.zip .easyrpg .ldb|
-|OpenBOR|**openbor**|openbor|.pak|
-|[ScummVM](System-ScummVM)|**scummvmsa**<br />scummvm|scummvm|.scummvm|
-|Solarus|**solarus**|solarus|.solarus|
-|[Wolfenstein 3D](System-Wolfenstein-3D)|**ecwolf**|ecwolf|[.ecwolf](System-Wolfenstein-3D#how-to-create-a-ecwolf-file)|
+|System|Core/Emu|ROM Path|Extension|RG351|RG552|
+|---|---|---|---|---|---|
+|[Build Engine](System-Build-Engine)|**raze**|build|[.build](System-Build-Engine#how-to-create-a-build-file)|||
+|[Doom](System-Doom)|**gzdoom**<br />lzdoom<br />prboom|doom|[.doom](System-Doom#how-to-create-a-doom-file)|||
+|[EasyRPG](System-EasyRPG)|**easyrpg**|easyrpg|.zip .easyrpg .ldb|||
+|OpenBOR|**openbor**|openbor|.pak|||
+|[ScummVM](System-ScummVM)|**scummvmsa**<br />scummvm|scummvm|.scummvm|||
+|Solarus|**solarus**|solarus|.solarus|||
+|[Wolfenstein 3D](System-Wolfenstein-3D)|**ecwolf**|ecwolf|[.ecwolf](System-Wolfenstein-3D#how-to-create-a-ecwolf-file)|||
 
 # BIOS 
 Some platforms need bios files, these should go in /storage/roms/bios.
