@@ -107,7 +107,7 @@ The **bold** one is the default core/emulator.
 |Sinclair<br/>ZX81|**81**|zx81|.tzx .p .zip .7z|Good|Good|
 |Sinclair<br/>ZX Spectrum|**fuse**|zxspectrum|.tzx .tap .z80 .rzx .scl .trd .dsk .zip .7z|Good|Good|
 
-## Fantasy-/Open Source Consoles
+## Fantasy/Open Source Consoles
 
 {: .systemtable }
 |System|Core/Emu|ROM Path|Extension|RG351|RG552|
