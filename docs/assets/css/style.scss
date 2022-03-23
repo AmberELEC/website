@@ -279,12 +279,3 @@ header .bg-dark.show, header .bg-dark.collapsing {
 h1, h2, h3, h4, h5, h6 {
   margin: 25px 0 10px 0;
 }
-
-.systemtables {
-    th:nth-child(5) {
-      max-width: 50px;
-    }
-    th:nth-child(6) {
-      max-width: 50px;
-  }
-}
