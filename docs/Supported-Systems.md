@@ -22,7 +22,7 @@ The **bold** one is the default core/emulator.
 ## Arcade
 
 {: .systemtable }
-|Manufacturer/System<span style="display: inline-block; min-width: 210px;">&nbsp;</span>|Core/Emu<span style="display: inline-block; min-width: 200px;">&nbsp;</span>|ROM Path<span style="display: inline-block; min-width: 140px;">&nbsp;</span>|Extension|RG351<span style="display: inline-block; max-width: 50px;">&nbsp;</span>|RG552<span style="display: inline-block; max-width: 50px;">&nbsp;</span>|
+|Manufacturer/System|Core/Emu|ROM Path|Extension|RG351|RG552|
 |---|---|---|---|---|---|
 |[Arcade](Arcade)|**mame2003_plus**<br />mame2000<br />mame2010<br />mame2015<br />mame<br />fbneo<br />fbalpha2012<br />fbalpha2019<br />AdvanceMame|arcade|.zip .7z|||
 |[MAME](System-MAME)|**mame2003_plus**<br />AdvanceMame<br />mame2000<br />mame2010<br />mame2015<br />mame<br />fbneo<br />fbalpha2012<br />fbalpha2019|mame|.zip .7z|Good: MAME2003-plus works well, other romsets are mixed|Good|
@@ -36,7 +36,7 @@ Please note that MAME and FinalBurn Neo screen aspect ratios are not optimized, 
 ## Consoles/Portables
 
 {: .systemtable }
-|Manufacturer/System<span style="display: inline-block; min-width: 210px;">&nbsp;</span>|Core/Emu<span style="display: inline-block; min-width: 200px;">&nbsp;</span>|ROM Path<span style="display: inline-block; min-width: 140px;">&nbsp;</span>|Extension|RG351<span style="display: inline-block; max-width: 50px;">&nbsp;</span>|RG552<span style="display: inline-block; max-width: 50px;">&nbsp;</span>|
+|Manufacturer/System|Core/Emu|ROM Path|Extension|RG351|RG552|
 |---|---|---|---|---|---|
 |Atari<br/>2600|**stella-2014**<br />stella|atari2600|.a26 .bin .zip .7z|Good|Good|
 |Atari<br/>5200|**a5200**<br />atari800|atari5200|.rom .xfd .atr .atx .cdm .cas .car .bin .a52 .xex .zip .7z|Good|Good|
@@ -97,7 +97,7 @@ Please note that MAME and FinalBurn Neo screen aspect ratios are not optimized, 
 ## Computers
 
 {: .systemtable }
-|Manufacturer/System<span style="display: inline-block; width: 200px;">&nbsp;</span>|Core/Emu<span style="display: inline-block; width: 200px;">&nbsp;</span>|ROM Path<span style="display: inline-block; width: 140px;">&nbsp;</span>|Extension|RG351<span style="display: inline-block; width: 50px;">&nbsp;</span>|RG552<span style="display: inline-block; width: 50px;">&nbsp;</span>|
+|Manufacturer/System|Core/Emu|ROM Path|Extension|RG351|RG552|
 |---|---|---|---|---|---|
 |[Amstrad<br/>CPC](System-Amstrad-CPC)|**crocods**<br />cap32|amstradcpc|.dsk .sna [crocods: .kcr]<br/>[cap32: .tap .cdt .voc .m3u .zip .7z]|Good|Good|
 |Atari 800|**atari800**|atari800|.rom .xfd .atr .atx .cdm .cas .car .bin .a52 .xex .zip .7z|Good|Good|
@@ -123,7 +123,7 @@ Please note that MAME and FinalBurn Neo screen aspect ratios are not optimized, 
 ## Fantasy/Open Source Consoles
 
 {: .systemtable }
-|Manufacturer/System<span style="display: inline-block; width: 200px;">&nbsp;</span>|Core/Emu<span style="display: inline-block; width: 200px;">&nbsp;</span>|ROM Path<span style="display: inline-block; width: 140px;">&nbsp;</span>|Extension|RG351<span style="display: inline-block; width: 50px;">&nbsp;</span>|RG552<span style="display: inline-block; width: 50px;">&nbsp;</span>|
+|Manufacturer/System|Core/Emu|ROM Path|Extension|RG351|RG552|
 |---|---|---|---|---|---|
 |[Arduboy](System-Arduboy)|**arduous**|arduboy|.hex|Good|Good|
 |[Aquaplus<br/>P/ECE](System-Aquaplus-Piece)|**piemu**|piece|.pex .pfi|Good|Good|
@@ -134,7 +134,7 @@ Please note that MAME and FinalBurn Neo screen aspect ratios are not optimized, 
 ## Game Engines
 
 {: .systemtable }
-|Manufacturer/System<span style="display: inline-block; width: 200px;">&nbsp;</span>|Core/Emu<span style="display: inline-block; width: 200px;">&nbsp;</span>|ROM Path<span style="display: inline-block; width: 140px;">&nbsp;</span>|Extension|RG351<span style="display: inline-block; width: 50px;">&nbsp;</span>|RG552<span style="display: inline-block; width: 50px;">&nbsp;</span>|
+|Manufacturer/System|Core/Emu|ROM Path|Extension|RG351|RG552|
 |---|---|---|---|---|---|
 |[Build Engine](System-Build-Engine)|**raze**|build|[.build](System-Build-Engine#how-to-create-a-build-file)|||
 |[Doom](System-Doom)|**gzdoom**<br />lzdoom<br />prboom|doom|[.doom](System-Doom#how-to-create-a-doom-file)|||
