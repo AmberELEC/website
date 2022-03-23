@@ -279,3 +279,29 @@ header .bg-dark.show, header .bg-dark.collapsing {
 h1, h2, h3, h4, h5, h6 {
   margin: 25px 0 10px 0;
 }
+
+.systemtable {
+  th:nth-child(1) {
+    width: 230px;
+    min-width: 230px;
+  }
+
+  th:nth-child(2) {
+    width: 200px;
+    min-width: 200px;
+  }
+
+  th:nth-child(3) {
+    width: 145px;
+    min-width: 200px
+  }
+
+  th:nth-child(5), th:nth-child(6) {
+    width: 50px;
+    max-width: 50px;
+  }
+}
+
+table.dataTable {
+  border-collapse: collapse !important;
+}
