@@ -14,6 +14,7 @@ The **bold** one is the default core/emulator.
 
 ## Consoles/Portables
 
+{: .systemtable }
 |Manufacturer/System&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;|Core/Emu|ROM Path|Extension| 
 |---|---|---|---|
 |Atari<br/>2600|**stella-2014**<br />stella|atari2600|.a26 .bin .zip .7z|
@@ -66,6 +67,7 @@ The **bold** one is the default core/emulator.
 
 ## Computers
 
+{: .systemtable }
 |Manufacturer/System&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;|Core/Emu|ROM Path|Extension| 
 |---|---|---|---|
 |[Amstrad<br/>CPC](System-Amstrad-CPC)|**crocods**<br />cap32|amstradcpc|.dsk .sna [crocods: .kcr]<br/>[cap32: .tap .cdt .voc .m3u .zip .7z]|
@@ -91,6 +93,7 @@ The **bold** one is the default core/emulator.
 
 ## Fantasy-/Open Source Consoles
 
+{: .systemtable }
 |System|Core/Emu|ROM Path|Extension| 
 |---|---|---|---|
 |[Arduboy](System-Arduboy)|**arduous**|arduboy|.hex|
@@ -101,6 +104,7 @@ The **bold** one is the default core/emulator.
 
 ## Arcade
 
+{: .systemtable }
 |Manufacturer/System&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;|Core/Emu|ROM Path|Extension| 
 |---|---|---|---|
 |[Arcade](Arcade)|**mame2003_plus**<br />mame2000<br />mame2010<br />mame2015<br />mame<br />fbneo<br />fbalpha2012<br />fbalpha2019<br />AdvanceMame|arcade|.zip .7z|
@@ -115,6 +119,7 @@ Please Note that MAME and FBA screen ratio are not optimized as they should have
 These platforms, due to hardware limitation, are included and worked on, but will never work perfectly.
 Some games/systems work almost perfectly, some others they may never work smoothly.
 
+{: .systemtable }
 |System|Status|Core/Emu|ROM Path|Extension| 
 |---|---|---|---|---|
 |Panasonic<br />3DO|Only low performance|**opera**|3do|.iso .cue .bin .chd|
@@ -129,6 +134,7 @@ Some games/systems work almost perfectly, some others they may never work smooth
 
 ## Game Engines
 
+{: .systemtable }
 |System|Core/Emu|ROM Path|Extension| 
 |---|---|---|---|
 |[Build Engine](System-Build-Engine)|**raze**|build|[.build](System-Build-Engine#how-to-create-a-build-file)|

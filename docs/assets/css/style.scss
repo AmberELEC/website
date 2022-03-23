@@ -254,3 +254,19 @@ header .bg-dark.show, header .bg-dark.collapsing {
 .nav-search .input-group-text, .nav-search .form-control {
   border-color: black;
 }
+
+.good { background-color: #1b321b; }
+
+.mixed { background-color: #32321b; }
+
+.bad { background-color: #321b1b; }
+
+.mixed a[data-toggle="tooltip"],.mixed a[data-toggle="tooltip"]:hover,.mixed a[data-toggle="tooltip"]:active {
+  color: white;
+  text-decoration: underline dotted yellow;
+}
+
+.bad a[data-toggle="tooltip"],.bad a[data-toggle="tooltip"]:hover,.bad a[data-toggle="tooltip"]:active {
+  color: white;
+  text-decoration: underline dotted red;
+}
