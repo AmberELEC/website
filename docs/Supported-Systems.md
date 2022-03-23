@@ -56,13 +56,14 @@ Please note that MAME and FinalBurn Neo screen aspect ratios are not optimized, 
 |NEC<br/>SuperGrafx|**beetle_supergrafx**|sgfx|.pce .sgx .cue .ccd .chd .zip .7z|Good|Good|
 |NEC<br/>TurboGrafx-16|**beetle_pce_fast**<br />beetle_supergrafx|tg16|.pce .bin .zip .7z|Good|Good|
 |NEC<br/>TurboGrafx CD|**beetle_pce_fast**<br />beetle_supergrafx|tg16cd|.cue .ccd .chd .toc .m3u|Good|Good|
-|Nintendo<br />NES|**nestopia**<br />fceumm<br />quicknes|nes<br/>nesh (hacks)|.nes .unif .unf .zip .7z|Good|Good|
 |Nintendo<br/>Famicom|**nestopia**<br />fceumm<br />quicknes|famicom|.nes .unif .unf .zip .7z|Good|Good|
 |Nintendo<br/>Famicom Disk System|**nestopia**<br />fceumm<br />quicknes|fds|.fds .zip .7z|Good|Good|
 |Nintendo<br/>Game Boy|**gambatte**<br />sameboy<br />gearboy<br />tgbdual<br />mgba<br />vbam|gb<br/>gbh (hacks)|.gb .gbc .zip .7z|Good|Good|
 |[Nintendo<br/>Game Boy Advance](System-Game-Boy-Advance)|**mgba**<br />beetle_gba<br />gpsp<br />vbam<br />vba_next|gba<br/>gbah (hacks)|.gba .zip .7z|Good|Good|
 |Nintendo<br/>Game Boy Color|**gambatte**<br />sameboy<br />gearboy<br />tgbdual<br />mgba<br />vbam|gbc<br/>gbch (hacks)|.gbc .gb .zip .7z|Good|Good|
 |Nintendo<br/>Game & Watch|**gw**|gameandwatch|.mgw .zip .7z|Good|Good|
+|[Nintendo<br />N64](System-N64)|mupen64plus<br />mupen64plus_next<br />**parallel_n64**<br />parallel_n64_gln64<br />mupen64plussa_glide64mk2<br />mupen64plussa_rice|n64|.z64 .n64 .v64 .zip .7z|Mixed: Some games run well, others are unplayable|Mixed: Some games run well, others are unplayable|
+|Nintendo<br />NES|**nestopia**<br />fceumm<br />quicknes|nes<br/>nesh (hacks)|.nes .unif .unf .zip .7z|Good|Good|
 |Nintendo<br/>Pokémon Mini|**pokemini**|pokemini|.min .zip .7z|Good|Good|
 |[Nintendo<br/>Super NES](System-Super-Nintendo-Entertainment-System)|**snes9x**<br />snes9x2002<br />snes9x2005_plus<br />snes9x2010<br />beetle_supafaust|snes<br/>snesh (hacks)|.smc .sfc .swc .fig .zip .7z|Good|Good|
 |[Nintendo<br/>Super Famicom](System-Super-Nintendo-Entertainment-System)|**snes9x**<br />snes9x2002<br />snes9x2005_plus<br />snes9x2010<br />beetle_supafaust|sfc|.smc .sfc .swc .fig .zip .7z|Good|Good|
@@ -70,7 +71,6 @@ Please note that MAME and FinalBurn Neo screen aspect ratios are not optimized, 
 |[Nintendo<br/>Satellaview](System-Super-Nintendo-Entertainment-System#satellaview-bs-x)|**snes9x**<br />snes9x2002<br />snes9x2005_plus<br />snes9x2010|satellaview|.smc .sfc .swc .fig .bs .bsx .zip .7z|Good|Good|
 |[Nintendo<br/>Virtual Boy](System-Virtual-Boy)|**beetle_vb**|virtualboy|.vb .zip .7z|Good|Good|
 |Nintendo<br />NDS|**drastic**|nds|.nds .zip|Mixed: 2D Games almost fully playable|Mixed: 2D Games almost fully playable|
-|[Nintendo<br />N64](System-N64)|mupen64plus<br />mupen64plus_next<br />**parallel_n64**<br />parallel_n64_gln64<br />mupen64plussa_glide64mk2<br />mupen64plussa_rice|n64|.z64 .n64 .v64 .zip .7z|Mixed: Some games run well, others are unplayable|Mixed: Some games run well, others are unplayable|
 |Panasonic<br />3DO|**opera**|3do|.iso .cue .bin .chd|Bad: Only low performance|Bad: Only low performance|
 |[Philips<br/>CD-i](System-CDI)|**same_cdi**|cdi|.chd .iso|Good|Good|
 |Sega 32X|**picodrive**|sega32x|.32x .bin .md .smd .zip .7z|Good|Good|
