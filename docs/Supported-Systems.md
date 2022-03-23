@@ -68,8 +68,8 @@ The **bold** one is the default core/emulator.
 ## Computers
 
 {: .systemtable }
-|Manufacturer/System&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;|Core/Emu|ROM Path|Extension| 
-|---|---|---|---|
+|Manufacturer/System&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;|Core/Emu|ROM Path|Extension|RG351|RG552|
+|---|---|---|---|---|---|
 |[Amstrad<br/>CPC](System-Amstrad-CPC)|**crocods**<br />cap32|amstradcpc|.dsk .sna [crocods: .kcr]<br/>[cap32: .tap .cdt .voc .m3u .zip .7z]|Good|Good|
 |Atari 800|**atari800**|atari800|.rom .xfd .atr .atx .cdm .cas .car .bin .a52 .xex .zip .7z|Good|Good|
 |[Atari ST](System-Atari-ST)|**hatari**<br />HATARISA|atarist|.st .msa .stx .dim .ipf .m3u .zip .7z|Good|Good|
@@ -94,8 +94,8 @@ The **bold** one is the default core/emulator.
 ## Fantasy-/Open Source Consoles
 
 {: .systemtable }
-|System|Core/Emu|ROM Path|Extension| 
-|---|---|---|---|
+|System|Core/Emu|ROM Path|Extension|RG351|RG552|
+|---|---|---|---|---|---|
 |[Arduboy](System-Arduboy)|**arduous**|arduboy|.hex|Good|Good|
 |[Aquaplus<br/>P/ECE](System-Aquaplus-Piece)|**piemu**|piece|.pex .pfi|Good|Good|
 |Belogic<br/>Uzebox|**uzem**|uzebox|.uze|Good|Good|
@@ -105,8 +105,8 @@ The **bold** one is the default core/emulator.
 ## Arcade
 
 {: .systemtable }
-|Manufacturer/System&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;|Core/Emu|ROM Path|Extension| 
-|---|---|---|---|
+|Manufacturer/System&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;|Core/Emu|ROM Path|Extension|RG351|RG552|
+|---|---|---|---|---|---|
 |[Arcade](Arcade)|**mame2003_plus**<br />mame2000<br />mame2010<br />mame2015<br />mame<br />fbneo<br />fbalpha2012<br />fbalpha2019<br />AdvanceMame|arcade|.zip .7z|Good|Good|
 |[MAME](System-MAME)|**mame2003_plus**<br />AdvanceMame<br />mame2000<br />mame2010<br />mame2015<br />mame<br />fbneo<br />fbalpha2012<br />fbalpha2019|mame|.zip .7z|Good|Good|
 |[FinalBurn Neo](System-FBNeo)|**fbneo**<br />mame2003_plus<br />fbalpha2012<br />fbalpha2019<br />mame2010<br />mame2015<br />mame|fbneo|.zip .7z|Good|Good|
