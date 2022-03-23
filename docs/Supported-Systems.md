@@ -12,6 +12,14 @@ You will also find the correct extensions, almost all cores support .zip and .7z
 
 The **bold** one is the default core/emulator.
 
+- [Consoles/Portables](#consolesportables)
+- [Computers](#computers)
+- [Fantasy-/Open Source Consoles](#fantasy-open-source-consoles)
+- [Arcade](#arcade)
+- [Game Engines](#game-engines)
+- [BIOS](#bios)
+
+
 ## Consoles/Portables
 
 {: .systemtable }
