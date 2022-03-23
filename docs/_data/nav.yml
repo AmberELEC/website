@@ -221,19 +221,19 @@ categories:
     sidenav: true
   - title: Arcade
     url: Supported-Systems#arcade
-    parent: Systems
+    parent: Supported-Systems
   - title: Consoles/Portables
     url: Supported-Systems#consolesportables
-    parent: Systems
+    parent: Supported-Systems
   - title: Computers
     url: Supported-Systems#computers
-    parent: Systems
+    parent: Supported-Systems
   - title: Fantasy/Open Source Consoles
     url: Supported-Systems#fantasyopen-source-consoles
-    parent: Systems
+    parent: Supported-Systems
   - title: Game Engines
     url: Supported-Systems#game-engines
-    parent: Systems
+    parent: Supported-Systems
   - title: Ports
     parent: Systems
   - title: Contributing
