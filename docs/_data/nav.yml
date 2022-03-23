@@ -224,10 +224,13 @@ categories:
     url: Arcade
     parent: Systems
   - title: Consoles/Portables
+    url: Supported-Systems#consolesportables
     parent: Systems
   - title: Computers
+    url: Supported-Systems#computers
     parent: Systems
   - title: Fantasy/Open Source Consoles
+    url: Supported-Systems#fantasyopen-source-consoles
     parent: Systems
   - title: Game Engines
     url: Supported-Systems#game-engines
