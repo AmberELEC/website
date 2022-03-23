@@ -69,7 +69,7 @@ The **bold** one is the default core/emulator.
 |Sega<br/>Master System|**gearsystem**<br />genesis_plus_gx<br />picodrive<br />smsplus|mastersystem|.sms .bin .zip .7z|Good|Good|
 |Sega<br/>Mega-CD|**genesis_plus_gx**<br />picodrive|megacd|.chd .cue .iso .m3u|Good|Good|
 |Sega<br/>Mega Drive|**genesis_plus_gx**<br />genesis_plus_gx_wide<br />picodrive|megadrive<br />megadrive-japan|.gen .bin .md .sg .smd .zip .7z|Good|Good|
-|Sega<br/>Saturn|**yabasanshiroSA**|saturn|.cue .iso .chd|Good|Good|
+|Sega<br/>Saturn|**yabasanshiroSA**|saturn|.cue .iso .chd|Mixed: Almost any game is fully playable, but not at full speed|Good|
 |Sega<br />Dreamcast|**flycast**|dreamcast|.cdi .gdi .chd .m3u|Mixed: Some games run well, others are unplayable|Mixed: Some games run well, others are unplayable|
 |SNK<br/>Neo Geo|**fbneo**<br />mame2003_plus<br />fbalpha2012<br />fbalpha2019<br />mame2010<br />mame2015<br />mame|neogeo|.7z .zip|Good|Good|
 |SNK<br/>Neo Geo CD|**neocd**<br />fbneo|neocd|.chd .cue .iso|Good|Good|
