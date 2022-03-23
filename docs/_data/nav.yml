@@ -62,7 +62,7 @@ pages:
     category: Systems
     url: Supported-Systems
   - file: Arcade.md
-    title: Arcade2
+    title: Arcade
     category: Arcade
     url: Arcade
   - file: System-MAME.md
