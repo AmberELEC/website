@@ -21,7 +21,7 @@ The **bold** one is the default core/emulator.
 
 ## Arcade
 
-<div class="systemtable arcade">
+<div class="systemtables">
 {: .systemtable }
 |Manufacturer/System|Core/Emu|ROM Path|Extension|RG351|RG552|
 |---|---|---|---|---|---|
