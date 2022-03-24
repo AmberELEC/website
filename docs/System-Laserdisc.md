@@ -3,7 +3,7 @@
 - [Overview](#overview)
 - [Setup](#setup)
   * [Daphne Games](#daphne-games)
-  * [Hypseus Singe Games](#hypseus-singe-games)
+  * [Singe Games](#singe-games)
   * [Action Max Games](#action-max-games)
   * [Singe 2 Game Conversion](#singe-2-game-conversion)
 - [Controls](#controls)
