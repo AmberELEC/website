@@ -10,18 +10,18 @@
 
 ## Overview
 
-- This emulator supports arcade and home LaserDisc games. It supports games in both Daphne and Hypseus Singe (a.k.a. Singe 1) formats
+- This emulator supports arcade and home LaserDisc games. It supports both Daphne games and Singe games
 - Emulator/Core: [Hypseus-Singe](https://github.com/DirtBagXon/hypseus-singe)
 - Path: `/roms/laserdisc`
 - Extensions: `.ld`, `.daphne`
 
 ## Setup
 
-Hypseus-Singe supports two different game formats: Daphne and Hypseus Singe (a.k.a. Singe 1). Each of these formats has different games that they support, though there is some overlap. Daphne is emulation, and uses a rom dump of the arcade machine to function. Singe is simulation, and combines video files with LUA code to simulate the machines.
+Hypseus-Singe supports two different game formats: Daphne and Singe. Each of these formats has different games that they support. Daphne is emulation, and uses a rom dump of the arcade machine to function. Singe is simulation, and combines video files with LUA code to simulate the machines.
 
-The Daphne format is a little more complicated, and requires a rom file that goes in the `laserdisc/roms` directory and a `.daphne` folder that contains resources for Daphne configuration.
+The Daphne format is a little more complicated to use, and requires a rom file that goes in the `laserdisc/roms` directory and a `.daphne` folder that contains resources for Daphne configuration.
 
-The Hypseus Singe format is more self-contained, and requires a `.ld` folder that contains all the resources that the game requires to run.
+The Singe format is more self-contained, and requires a `.ld` folder that contains all the resources that the game requires to run.
 
 ### Daphne Games
 
@@ -31,13 +31,15 @@ The Hypseus Singe format is more self-contained, and requires a `.ld` folder tha
 
 The guide above is mostly accurate to Hypseus-Singe, but the `sound` directory is no longer required. For any Daphne game, you only need the rom file (usually a `.zip` file) in the `roms/laserdisc/roms` folder, and a `.daphne` folder in the `roms/laserdisc` folder.
 
-### Hypseus Singe Games
+### Singe Games
 
-Hypseus Singe games (a.k.a. Singe 1 games) come in a single game folder that contains one or more `.singe` files, a `.txt` file and `.cfg` file, various image and sound files, and a `.m2v` video and `.ogg` audio file. It's important that the folder name match the primary `.singe` file name. For example, if the `.singe` file is called `maddog.singe`, the game folder *must* be called `maddog.ld`.
+Hypseus-Singe supports games in the Singe 1 format. The game folders need to be set up in a specific way, so it's easiest to use roms that were built specifically to be used with Hypseus Singe. DirtBagXon, the creator of Hypseus Singe, curates Singe folders that are built specifically for the emulator.
+
+Singe games come in a single game folder that contains one or more `.singe` files, a `.txt` file and `.cfg` file, various image and sound files, and a `.m2v` video and `.ogg` audio file. It's important that the folder name match the primary `.singe` file name. For example, if the `.singe` file is called `maddog.singe`, the game folder *must* be called `maddog.ld`.
 
 If you already have a complete game folder for hypseus singe that contains the `.m2v` and `.ogg` files required, simply add `.ld` to the end of the folder name, double check to make sure that the primary `.singe` file matches the `.ld` game folder name, and add it to the `/roms/laserdisc` folder.
 
-Some Hypseus Singe games have HD versions. It's recommended that you get the regular version instead; even the RG552 is not up to the task of running HD Singe games. Fan games also tend to be taxing, and may not play at full speed.
+Some Singe games have HD versions. It's recommended that you get the regular version instead; even the RG552 is not up to the task of running HD Singe games. Fan games also tend to be taxing, and may not play at full speed.
 
 Since singe games are simulations rather than emulation, the code, resources, and metadata for the games are copy-left and freely available. The video and audio of the games are still copyrighted by the original rights holders and must be provided separately. The open source data for the games can be downloaded from the [hypseus_singe_data repository](https://github.com/DirtBagXon/hypseus_singe_data/releases/). It's distributed as a single package for all the available games, with each game having its own game folder. To play a game, you'll need to add your own `.m2v` video and `.ogg` audio files. If you have the original hardware, you can rip the video from the laserdisc to a `.mp4` file, and then follow the instructions in the `README.md` file found in the game folder. Once you have your game folder set up with `.m2v` and `.ogg` files, simply add `.ld` to the end of each game folder that you want to use and add it to the `/roms/laserdisc` folder.
 
@@ -47,7 +49,7 @@ Action Max games are not currently supported.
 
 ### Singe 2 Game Conversion
 
-While Singe 2 games are currently not supported, it is possible to convert a Singe 2 game to Hypseus Singe format. Instructions for this conversion can be found on the [Using Singe games with Hypseus Singe](https://github.com/DirtBagXon/hypseus-singe/discussions/60) discussion.
+While Singe 2 games are currently not supported, it is possible to convert a Singe 2 game to Singe 1 format. Instructions for this conversion can be found on the [Using Singe games with Hypseus Singe](https://github.com/DirtBagXon/hypseus-singe/discussions/60) discussion.
 
 All or almost all Singe 2 games have been converted to work with Hypseus Singe. Versions of the game that have undergone this conversion are usually called "xxx for hypseus singe".
 
