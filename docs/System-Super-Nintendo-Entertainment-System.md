@@ -67,8 +67,6 @@ These games are not supported by any core available in 351ELEC, and are not play
 
 Sufami Turbo games are not supported by the Beetle Supafaust core, and will require Snes9x. Additionally, zip or 7z compression will prevent Cartridge Linking from being used.
 
-Some Satellaview games require [SatData](#satdata) with the Time Channels to play correctly.
-
 ### BIOS
 
 For Sufami Turbo games to work, the file `STBIOS.bin` needs to be placed in the `bios` folder on the games partition. The MD5 checksum of this file is `d3a44ba7d42a74d3ac58cb9c14c6a5ca`.
@@ -100,6 +98,8 @@ Games that support Cartridge Linking:
 - Extensions: `.bs .bsx .smc .sfc .swc .fig .zip .7z`
 
 Satellaview games are not supported by the Beetle Supafaust core, and will require Snes9x.
+
+Some Satellaview games require [SatData](#satdata) with the Time Channels to play correctly.
 
 ### BIOS
 
