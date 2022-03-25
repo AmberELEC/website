@@ -1,4 +1,4 @@
-# Super Nintendo Entertainment System
+# Nintendo Super NES / Super Famicom
 
 ## Paths
 - Super Nintendo: `/roms/snes`
