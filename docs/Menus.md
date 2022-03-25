@@ -192,7 +192,6 @@ Accessed through the [Main Menu](#main-menu) > UI Settings
 - UI Mode - Allows you to enter Kiosk or Kid mode to lock off some UI options
 - Retroarch Menu Driver - Change the menu style for RetroArch
 - Show Retroarch FPS
-- Enable Game Splash
 
 **Display Options**
 - Screensaver Settings
