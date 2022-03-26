@@ -23,4 +23,4 @@ The CD-i uses chd images compatible with MAME 0.239.
 
 ## Digital Video Cartridge games
 
-The same_cdi core does not currently support DVC (Digital Video Cartridge) games.
+The same_cdi core does currently not support DVC (Digital Video Cartridge) games.
