@@ -12,7 +12,7 @@
 The bios file `cdimono1.zip` or `cdimono1.7z` can be obtained from a modern MAME romset.
 It should be put in this folder `/roms/bios/same_cdi/bios/`.
 
-The file should contain `zx405037p__cdi_servo_2.1__b43t__llek9215.mc68hc705c8a_withtestrom.7201` and `zx405042p__cdi_slave_2.0__b43t__zzmk9213.mc68hc705c8a_withtestrom.7206`, if not you got an old (unsupported) version of `cdimono1.zip`.
+The file should contain `zx405037p__cdi_servo_2.1__b43t__llek9215.mc68hc705c8a_withtestrom.7201` and `zx405042p__cdi_slave_2.0__b43t__zzmk9213.mc68hc705c8a_withtestrom.7206`, if not you got an old (unsupported) version of `cdimono1.zip` or `cdimono1.7z`.
 
 ## ROM Sets
 
