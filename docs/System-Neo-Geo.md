@@ -10,6 +10,7 @@ Neo Geo ROMs are unique in that there is no difference between arcade and home c
 
 - [Automatic Collection Overview](#automatic-collection-overview)
 - [System Overview](#system-overview)
+- [BIOS](#bios)
 
 ## Automatic Collection Overview
 
@@ -35,3 +36,14 @@ Once you have scraped games as part of your FBNeo or MAME collections, you just 
 It's recommended that you use the current FBNeo romset for your Neo Geo games, although you can use any rom set supported by one of the cores listed above. Please see the [Arcade](Arcade) page for more information on creating romsets.
 
 - [FBNeo Neo Geo XML Dat](https://raw.githubusercontent.com/libretro/FBNeo/master/dats/FinalBurn%20Neo%20(ClrMame%20Pro%20XML%2C%20Neogeo%20only).dat) - A dat file for use in clrmamepro, romcenter, or another rom compiler
+
+## BIOS
+
+| BIOS | sha1 |
+| neogeo.zip | cdbde4e73d49ed3a682b99f66c231eb3dfd90dc7 |
+
+The fbneo bios set for Neo-Geo contains many BIOSes that can be selected from the RetroArch menu. You can select it by going to `Quick Menu` > `Options` > `Neo-Geo mode`. The `MVS` options are the arcade versions of the game, the `AES` options are the home version of the game, and the `Unibios` is a unified bios that will let you select the version and system options.
+
+The control scheme for the `Unibios` can be found on the [Unibios How It Works page](http://unibios.free.fr/howitworks.html).
+
+The BIOS selection will persist across startups without having to save an override.
