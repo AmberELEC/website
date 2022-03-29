@@ -5,20 +5,20 @@
 |Arcade||[MAME](System-MAME)|Arcade|N/A||Year|Good: MAME2003-plus works well, other romsets are mixed|Good|**mame2003_plus**<br />AdvanceMame<br />mame2000<br />mame2010<br />mame2015<br />mame<br />fbneo<br />fbalpha2012<br />fbalpha2019|mame|.zip .7z|
 |Arcade||[FinalBurn Neo](System-FBNeo)|Arcade|N/A||Year|Good|Good|**fbneo**<br />mame2003_plus<br />fbalpha2012<br />fbalpha2019<br />mame2010<br />mame2015<br />mame|fbneo|.zip .7z|
 |Arcade||[LaserDisc](System-Laserdisc)|Arcade|N/A||Year|Good|Good|**hypseus-singe**|laserdisc|.daphne or .ld (folder extension)|
-|Arcade|Sammy|[Atomiswave](System-Atomiswave)|Arcade|Dreamcast||Year|Good|Good|**flycast**|atomiswave|.lst .bin .dat .zip .7z|
-|Arcade|Sega|[Naomi](System-Naomi)|Arcade|Dreamcast||Year|Mixed: Some games run well, others are unplayable|Mixed: Some games run well, others are unplayable|**flycast**|naomi|.lst .bin .dat .zip .7z|
-|Console|Atari|2600|Console|2600||Year|Good|Good|**stella-2014**<br />stella|atari2600|.a26 .bin .zip .7z|
-|Console|Atari|5200|Console|5200||Year|Good|Good|**a5200**<br />atari800|atari5200|.rom .xfd .atr .atx .cdm .cas .car .bin .a52 .xex .zip .7z|
-|Console|Atari|7800|Console|7800||Year|Good|Good|**prosystem**|atari7800|.a78 .bin .zip .7z|
-|Console|Atari|Lynx|Handheld|Lynx||Year|Good|Good|**handy**<br />beetle_lynx|atarilynx|.lnx .o .zip .7z|
-|Console|Bandai|[SuFami Turbo](System-Super-Nintendo-Entertainment-System#sufami-turbo)|Console Addon|Super Famicom||Year|Good|Good|**snes9x**|sufami|.st .zip .7z|
-|Console|Bandai|[Wonderswan](System-Bandai-Wonderswan)|Handheld|Wonderswan||Year|Good|Good|**beetle_wswan**|wonderswan|.ws .zip .7z|
-|Console|Bandai|[Wonderswan Color](System-Bandai-Wonderswan)|Handheld|Wonderswan||Year|Good|Good|**beetle_wswan**|wonderswancolor|.wsc .zip .7z|
-|Console|Coleco|ColecoVision|Console|ColecoVision||Year|Good|Good|**bluemsx**<br />gearcoleco<br />smsplus|coleco|.bin .col .rom .zip .7z|
-|Console|Commodore|Amiga CD³²|Console|Amiga CD³²||Year|Good|Good|**puae**<br />uae4arm|amigacd32|.iso .cue .chd .lha|
-|Console|Fairchild|Channel F|Console|Channel F||Year|Good|Good|**fairchaf**|channelf|.bin .chf .zip .7z|
-|Console|Mattel|Intellivision|Console|Intellivision||Year|Good|Good|**freeintv**|intellivision|.int .bin .rom .zip .7z|
-|Console|Milton Bradley|Vectrex|Console|Vectrex||Year|Good|Good|**vecx**|vectrex|.bin .gam .vec .zip .7z|
+|Arcade|Sammy|[Atomiswave](System-Atomiswave)|Arcade|Dreamcast||2003|Good|Good|**flycast**|atomiswave|.lst .bin .dat .zip .7z|
+|Arcade|Sega|[Naomi](System-Naomi)|Arcade|Dreamcast||1998|Mixed: Some games run well, others are unplayable|Mixed: Some games run well, others are unplayable|**flycast**|naomi|.lst .bin .dat .zip .7z|
+|Console|Atari|2600|Console|2600||1977|Good|Good|**stella-2014**<br />stella|atari2600|.a26 .bin .zip .7z|
+|Console|Atari|5200|Console|5200||1982|Good|Good|**a5200**<br />atari800|atari5200|.rom .xfd .atr .atx .cdm .cas .car .bin .a52 .xex .zip .7z|
+|Console|Atari|7800|Console|7800||1986|Good|Good|**prosystem**|atari7800|.a78 .bin .zip .7z|
+|Console|Atari|Lynx|Handheld|Lynx||1989|Good|Good|**handy**<br />beetle_lynx|atarilynx|.lnx .o .zip .7z|
+|Console|Bandai|[SuFami Turbo](System-Super-Nintendo-Entertainment-System#sufami-turbo)|Console Addon|Super Famicom||1996|Good|Good|**snes9x**|sufami|.st .zip .7z|
+|Console|Bandai|[Wonderswan](System-Bandai-Wonderswan)|Handheld|Wonderswan||1999|Good|Good|**beetle_wswan**|wonderswan|.ws .zip .7z|
+|Console|Bandai|[Wonderswan Color](System-Bandai-Wonderswan)|Handheld|Wonderswan||2000|Good|Good|**beetle_wswan**|wonderswancolor|.wsc .zip .7z|
+|Console|Coleco|ColecoVision|Console|ColecoVision||1982|Good|Good|**bluemsx**<br />gearcoleco<br />smsplus|coleco|.bin .col .rom .zip .7z|
+|Console|Commodore|Amiga CD³²|Console|Amiga CD³²||1993|Good|Good|**puae**<br />uae4arm|amigacd32|.iso .cue .chd .lha|
+|Console|Fairchild|Channel F|Console|Channel F||1976|Good|Good|**fairchaf**|channelf|.bin .chf .zip .7z|
+|Console|Mattel|Intellivision|Console|Intellivision||1979|Good|Good|**freeintv**|intellivision|.int .bin .rom .zip .7z|
+|Console|Milton Bradley|Vectrex|Console|Vectrex||1982|Good|Good|**vecx**|vectrex|.bin .gam .vec .zip .7z|
 |Console|NEC|PC Engine|Console|PC Engine||Year|Good|Good|**beetle_pce_fast**<br />beetle_supergrafx|pcengine|.pce .bin .zip .7z|
 |Console|NEC|PC Engine CD|Console Addon|PC Engine||Year|Good|Good|**beetle_pce_fast**<br />beetle_supergrafx|pcenginecd|.cue .ccd .chd .toc .m3u|
 |Console|NEC|PC-FX|Console|PC-FX||Year|Bad: Only low performance|Bad: Only low performance|**beetle_pcfx**|pcfx|.chd .cue .ccd .toc|
