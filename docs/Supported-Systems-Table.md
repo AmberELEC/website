@@ -1,10 +1,10 @@
 {: .datatable }
 |Category|Manufacturer|System|Type|Base System||Year|RG351|RG552|Core/Emu|ROM Path|Extension|
 |---|---|---|---|---|---|---|---|
-|Arcade||[Arcade](Arcade)|Arcade|N/A||Year|||**mame2003_plus**<br />mame2000<br />mame2010<br />mame2015<br />mame<br />fbneo<br />fbalpha2012<br />fbalpha2019<br />AdvanceMame|arcade|.zip .7z|
-|Arcade||[MAME](System-MAME)|Arcade|N/A||Year|Good: MAME2003-plus works well, other romsets are mixed|Good|**mame2003_plus**<br />AdvanceMame<br />mame2000<br />mame2010<br />mame2015<br />mame<br />fbneo<br />fbalpha2012<br />fbalpha2019|mame|.zip .7z|
-|Arcade||[FinalBurn Neo](System-FBNeo)|Arcade|N/A||Year|Good|Good|**fbneo**<br />mame2003_plus<br />fbalpha2012<br />fbalpha2019<br />mame2010<br />mame2015<br />mame|fbneo|.zip .7z|
-|Arcade||[LaserDisc](System-Laserdisc)|Arcade|N/A||Year|Good|Good|**hypseus-singe**|laserdisc|.daphne or .ld (folder extension)|
+|Arcade||[Arcade](Arcade)|Arcade|N/A||N/A|||**mame2003_plus**<br />mame2000<br />mame2010<br />mame2015<br />mame<br />fbneo<br />fbalpha2012<br />fbalpha2019<br />AdvanceMame|arcade|.zip .7z|
+|Arcade||[MAME](System-MAME)|Arcade|N/A||N/A|Good: MAME2003-plus works well, other romsets are mixed|Good|**mame2003_plus**<br />AdvanceMame<br />mame2000<br />mame2010<br />mame2015<br />mame<br />fbneo<br />fbalpha2012<br />fbalpha2019|mame|.zip .7z|
+|Arcade||[FinalBurn Neo](System-FBNeo)|Arcade|N/A||N/A|Good|Good|**fbneo**<br />mame2003_plus<br />fbalpha2012<br />fbalpha2019<br />mame2010<br />mame2015<br />mame|fbneo|.zip .7z|
+|Arcade||[LaserDisc](System-Laserdisc)|Arcade|N/A||1983|Good|Good|**hypseus-singe**|laserdisc|.daphne or .ld (folder extension)|
 |Arcade|Sammy|[Atomiswave](System-Atomiswave)|Arcade|Dreamcast||2003|Good|Good|**flycast**|atomiswave|.lst .bin .dat .zip .7z|
 |Arcade|Sega|[Naomi](System-Naomi)|Arcade|Dreamcast||1998|Mixed: Some games run well, others are unplayable|Mixed: Some games run well, others are unplayable|**flycast**|naomi|.lst .bin .dat .zip .7z|
 |Console|Atari|2600|Console|2600||1977|Good|Good|**stella-2014**<br />stella|atari2600|.a26 .bin .zip .7z|
@@ -52,8 +52,8 @@
 |Console|Sega|Mega Drive|Console|Mega Drive||1988|Good|Good|**genesis_plus_gx**<br />genesis_plus_gx_wide<br />picodrive|megadrive<br />megadrive-japan|.gen .bin .md .sg .smd .zip .7z|
 |Console|Sega|Saturn|Console|Saturn||1994|Mixed: Almost any game is fully playable, but not at full speed|Good|**yabasanshiroSA**|saturn|.cue .iso .chd|
 |Console|Sega|Dreamcast|Console|Dreamcast||1998|Mixed: Some games run well, others are unplayable|Mixed: Some games run well, others are unplayable|**flycast**|dreamcast|.cdi .gdi .chd .m3u|
-|Console|SNK|Neo Geo|Console|Neo Geo||Year|Good|Good|**fbneo**<br />mame2003_plus<br />fbalpha2012<br />fbalpha2019<br />mame2010<br />mame2015<br />mame|neogeo|.7z .zip|
-|Console|SNK|Neo Geo CD|Console|Neo Geo||1991|Good|Good|**neocd**<br />fbneo|neocd|.chd .cue .iso|
+|Console|SNK|Neo Geo|Console|Neo Geo||1991|Good|Good|**fbneo**<br />mame2003_plus<br />fbalpha2012<br />fbalpha2019<br />mame2010<br />mame2015<br />mame|neogeo|.7z .zip|
+|Console|SNK|Neo Geo CD|Console|Neo Geo||1994|Good|Good|**neocd**<br />fbneo|neocd|.chd .cue .iso|
 |Console|SNK|Neo Geo Pocket|Handheld|Neo Geo Pocket||1998|Good|Good|**beetle_ngp**<br />race|ngp|.ngp .ngc .zip .7z|
 |Console|SNK|Neo Geo Pocket Color|Handheld|Neo Geo Pocket||1999|Good|Good|**beetle_ngp**<br />race|ngpc|.ngc .zip .7z|
 |Console|Sony|[PlayStation](System-Sony-PlayStation)|Console|PlayStation||1994|Good|Good|**pcsx_rearmed**<br />duckstation<br />swanstation|psx|.bin .cue .img .pbp .mdf .toc .cbn .m3u .ccd .chd .iso|
