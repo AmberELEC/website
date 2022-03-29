@@ -15,18 +15,28 @@
 > (credit to [Retro Game Corps](https://www.youtube.com/channel/UCoZQiN0o7f36H7PaW4fVhFw) for creating this video)
 
 ### Installation Overview
-* Download the latest img.gz image from [https://github.com/351ELEC/351ELEC/releases/latest](https://github.com/351ELEC/351ELEC/releases/latest).
-* Unzip the .img.gz file so that you have a .img file.
+
+#### Step 1: Download
+
+Download the latest img.gz image from [https://github.com/351ELEC/351ELEC/releases/latest](https://github.com/351ELEC/351ELEC/releases/latest).
+
+#### Step 2: Unzip
+
+Unzip the .img.gz file so that you have a .img file. Skipping this step can lead to a corrupted install.
+
+#### Step 3: Flash
+
 * Open your favorite image writer (we will use [balenaEtcher](https://www.balena.io/etcher/) as an example).
 * Click on "select image" and select the image you've just downloaded.
 * Click on "select drive" and choose your target MicroSD card.
 * Click on "flash", make yourself a coffee, wait a bit and you're set!
-Pop your MicroSD card into your RG351P/M/V/MP, 351ELEC should create your games partition and reboot. You're good to go.
+
+#### Step 4: Initialize
+
+Put your MicroSD card into slot 1 of your your retro device. If your device has a second SD slot, please leave it empty during initialization. 351ELEC should create your games partition and reboot. It's normal for this process to take a minute or two.  After setting up for the first time, subsequent boots will be faster.
 
 ### Notes
-* **Initialization**: As previously mentioned, 351ELEC will expand the storage and games partitions on first boot and then reboot to configure the firmware.
-It's normal for this process to take a minute or two.  After setting up for the first time, subsequent boots will be much faster.
-* **RG351V/MP Second SD Card**: RG351V/MP users may use a large MicroSD in the first socket, or a smaller MicroSD with a larger card in the second socket. The second card must have a single partition or whole card formatted with exFAT or ext4. FAT filesystems are not supported as it lacks support for filesystem features in use by 351ELEC. NTFS is not currently supported and may be added in a future release.
+* **RG351V/MP/RG552 Second SD Card**: RG351V/MP users may use a large MicroSD in the first socket, or a smaller MicroSD with a larger card in the second socket. The second card must have a single partition or whole card formatted with exFAT or ext4. FAT filesystems are not supported as it lacks support for filesystem features in use by 351ELEC. NTFS is not currently supported and may be added in a future release. This card should be left out of the console on first initialization.
 
 ## Applications
 
