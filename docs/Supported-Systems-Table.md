@@ -1,4 +1,4 @@
-{: .systemtable }
+{: .systemtable.datatable }
 |Category|Manufacturer|System|Type|Base System|Core/Emu|ROM Path|Extension|RG351|RG552|
 |---|---|---|---|---|---|---|---|
 |Arcade||[Arcade](Arcade)|Arcade|N/A|**mame2003_plus**<br />mame2000<br />mame2010<br />mame2015<br />mame<br />fbneo<br />fbalpha2012<br />fbalpha2019<br />AdvanceMame|arcade|.zip .7z|||
