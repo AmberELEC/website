@@ -19,3 +19,5 @@ The default DOS emulator is now DOSBox Pure.  The process of adding games that y
 - Press Start, select Games Settings, and then Update Games Lists.
 - Once you are back in EmulationStation press Start and select Scrape to scape your game metadata.
 - Play!
+
+*WARNING:* Windows defaults to hiding file extensions. Please make sure that you turn off "hide file extensions" in Windows to make sure that it isn't leaving a hidden `.zip` at the end of your `.dosz` file.
