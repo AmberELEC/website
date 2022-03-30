@@ -117,6 +117,8 @@
   $(document).ready( function () {
   	  $.fn.dataTable.enum('category', ['Arcade','Console','Computer','Fastasy/OS','Engine']);
 
+  	  var groupColumn = 0;
+
       $('.giantsystemtable').DataTable( {
         paging: false,
         searching: true,
@@ -125,7 +127,7 @@
         lengthChange: false,
         columnDefs: [
         	{
-        		targets: 0,
+        		targets: groupColumn,
         		type: 'enum-category'
         	},
         	{
@@ -134,11 +136,37 @@
         	}
         ],
         order: [
-        	[0, "asc"],
+        	[groupColumn, "asc"],
         	[5, "asc"],
         	[6, "asc"]
-        ]
+        ],
+        drawCallback: function (settings) {
+            var api = this.api();
+            var rows = api.rows( {page:'current'} ).nodes();
+            var last=null;
+ 
+            api.column(groupColumn, {page:'current'} ).data().each( function ( group, i ) {
+                if ( last !== group ) {
+                    $(rows).eq( i ).before(
+                        '<tr class="group"><td colspan="5">'+group+'</td></tr>'
+                    );
+ 
+                    last = group;
+                }
+            } );
+        }
       });
+
+	// Order by the grouping
+	$('.giantsystemtable tbody').on( 'click', 'tr.group', function () {
+		var currentOrder = table.order()[0];
+		if ( currentOrder[0] === groupColumn && currentOrder[1] === 'asc' ) {
+		    table.order( [ groupColumn, 'desc' ] ).draw();
+		}
+		else {
+		    table.order( [ groupColumn, 'asc' ] ).draw();
+		}
+	} );
 
       // RG351 and RG552 performance columns for mastersystemtable
       $(".giantsystemtable").each(function(t,a){var i=this;$(this).find("th:contains('RG351'),th:contains('RG552')").each(function(t,a){var e=$(this).index()+1;$(i).find("tbody tr").each(function(t,a){var i=$(this).find(`td:nth-child(${e})`),n=i.text();if(n){var c=n.split(":",2),o=c[0].trim(),h=c[1];$(i).addClass(o.toLowerCase()),h?(h=h.trim(),$(i).html($(`<a href="#" data-toggle="tooltip" data-placement="top" data-trigger="click hover focus" onclick="event.preventDefault()" title="${h}">${o}</a>`))):$(i).text(o)}})})});
