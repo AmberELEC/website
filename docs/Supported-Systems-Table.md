@@ -1,4 +1,4 @@
-{: .datatable }
+{: .mastersystemtable }
 |Category|Manufacturer|System|Type|Base System||Year|RG351|RG552|Core/Emu|ROM Path|Extension|
 |---|---|---|---|---|---|---|---|
 |Arcade||[Arcade](Arcade)|Arcade|N/A||N/A|||**mame2003_plus**<br />mame2000<br />mame2010<br />mame2015<br />mame<br />fbneo<br />fbalpha2012<br />fbalpha2019<br />AdvanceMame|arcade|.zip .7z|
@@ -94,3 +94,20 @@
 |Engine||[ScummVM](System-ScummVM)|Game Engine|Scumm||1987|||**scummvmsa**<br />scummvm|scummvm|.scummvm|
 |Engine||Solarus|Game Engine|Solarus||2021|||**solarus**|solarus|.solarus|
 |Engine||[Wolfenstein 3D](System-Wolfenstein-3D)|Game Engine|Wolfenstein 3D||1992|||**ecwolf**|ecwolf|[.ecwolf](System-Wolfenstein-3D#how-to-create-a-ecwolf-file)|
+
+    <script type="text/javascript">
+      $(document).ready( function () {
+          $('.mastersystemtable').DataTable( {
+            paging: false,
+            searching: true,
+            saveState: true,
+            info: false,
+            lengthChange: false
+          });
+
+          // RG351 and RG552 performance columns for mastersystemtable
+          $(".mastersystemtable").each(function(t,a){var i=this;$(this).find("th:contains('RG351'),th:contains('RG552')").each(function(t,a){var e=$(this).index()+1;$(i).find("tbody tr").each(function(t,a){var i=$(this).find(`td:nth-child(${e})`),n=i.text();if(n){var c=n.split(":",2),o=c[0].trim(),h=c[1];$(i).addClass(o.toLowerCase()),h?(h=h.trim(),$(i).html($(`<a href="#" data-toggle="tooltip" data-placement="top" data-trigger="click hover focus" onclick="event.preventDefault()" title="${h}">${o}</a>`))):$(i).text(o)}})})});
+
+          $('[data-toggle="tooltip"]').tooltip();
+      } );
+    </script>
