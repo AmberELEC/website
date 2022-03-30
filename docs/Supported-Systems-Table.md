@@ -1,8 +1,7 @@
 {: .giantsystemtable }
 |Category|Manufacturer|System|Type|Base System|Base Manufacturer|Year|RG351|RG552|Core/Emu|ROM Path|Extension|
 |---|---|---|---|---|---|---|---|
-|Arcade|Various|[Arcade](Arcade)|Arcade|Arcade|Various|N/A|||**mame2003_plus**<br />mame2000<br />mame2010<br />mame2015<br />mame<br />fbneo<br />fbalpha2012<br />fbalpha2019<br />AdvanceMame|arcade|.zip .7z|
-|Arcade|Various|[MAME](System-MAME)|Arcade|Arcade|Various|N/A|Good: MAME2003-plus works well, other romsets are mixed|Good|**mame2003_plus**<br />AdvanceMame<br />mame2000<br />mame2010<br />mame2015<br />mame<br />fbneo<br />fbalpha2012<br />fbalpha2019|mame|.zip .7z|
+|Arcade|Various|[MAME](System-MAME)|Arcade|Arcade|Various|N/A|Good: MAME2003-plus works well, other romsets are mixed|Good|**mame2003_plus**<br />AdvanceMame<br />mame2000<br />mame2010<br />mame2015<br />mame<br />fbneo<br />fbalpha2012<br />fbalpha2019|mame<br/>arcade|.zip .7z|
 |Arcade|Various|[FinalBurn Neo](System-FBNeo)|Arcade|Arcade|Various|N/A|Good|Good|**fbneo**<br />mame2003_plus<br />fbalpha2012<br />fbalpha2019<br />mame2010<br />mame2015<br />mame|fbneo|.zip .7z|
 |Arcade|Various|[LaserDisc](System-Laserdisc)|Arcade|Arcade|Various|1983|Good|Good|**hypseus-singe**|laserdisc|.daphne or .ld (folder extension)|
 |Arcade|Sammy|[Atomiswave](System-Atomiswave)|Arcade|Dreamcast|Sega|2003|Good|Good|**flycast**|atomiswave|.lst .bin .dat .zip .7z|
@@ -148,8 +147,12 @@
  
             api.column(groupColumn, {page:'current'} ).data().each( function ( group, i ) {
                 if ( last !== group ) {
+                	var displayGroup = group;
+                	if (group == 'Arcade') {
+                		displayGroup = '<a href="Arcade">Arcade</a>';
+                	}
                     $(rows).eq( i ).before(
-                        '<tr class="group"><td colspan="999">'+group+'</td></tr>'
+                        '<tr class="group"><td colspan="999">'+displayGroup+'</td></tr>'
                     );
  
                     last = group;
