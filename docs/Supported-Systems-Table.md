@@ -118,6 +118,7 @@
   	  $.fn.dataTable.enum('category', ['Arcade','Console','Computer','Fastasy/OS','Engine']);
 
   	  var groupColumn = 0;
+  	  var visibleColumns = 9;
 
       $('.giantsystemtable').DataTable( {
         paging: false,
@@ -149,7 +150,7 @@
             api.column(groupColumn, {page:'current'} ).data().each( function ( group, i ) {
                 if ( last !== group ) {
                     $(rows).eq( i ).before(
-                        '<tr class="group"><td colspan="5">'+group+'</td></tr>'
+                        '<tr class="group"><td colspan="'+visibleColumns+'">'+group+'</td></tr>'
                     );
  
                     last = group;
