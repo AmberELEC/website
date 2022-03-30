@@ -139,7 +139,7 @@
         		targets: coreColumn,
         		render: function (data, type, row) {
         			var cores = data.split(/<br ?\/?>/);
-        			var defaultIndex = cores.findIndex(s => s.contains("<strong>"));
+        			var defaultIndex = cores.findIndex(s => s.includes("<strong>"));
         			cores.unshift(cores.splice(defaultIndex, 1)[0]);
         			debugger;
         			return data;
