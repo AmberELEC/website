@@ -128,7 +128,8 @@
         columnDefs: [
         	{
         		targets: groupColumn,
-        		type: 'enum-category'
+        		type: 'enum-category',
+        		visible: false
         	},
         	{
         		targets: [4,5],
