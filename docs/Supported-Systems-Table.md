@@ -117,6 +117,7 @@
   	  $.fn.dataTable.enum('category', ['Arcade','Console','Computer','Fastasy/OS','Engine']);
 
   	  var groupColumn = 0;
+  	  var coreColumn = 9;
 
       var table = $('.giantsystemtable').DataTable( {
         paging: false,
@@ -133,6 +134,13 @@
         	{
         		targets: [4,5],
         		visible: false
+        	},
+        	{
+        		targets: coreColumn,
+        		render: function (data, type, row) {
+        			var cores = data.split(/<br ?\/?>/);
+        			debugger;
+        		}
         	}
         ],
         order: [
