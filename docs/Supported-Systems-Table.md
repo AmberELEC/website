@@ -141,6 +141,11 @@
         			var cores = data.split(/<br ?\/?>/);
         			var defaultIndex = cores.findIndex(s => s.includes("<strong>"));
         			cores.unshift(cores.splice(defaultIndex, 1)[0]);
+        			var html = '<ul class="list-group list-group-flush">';
+        			cores.forEach(function (item) {
+        				debugger;
+        			});
+        			html += '</ul>';
         			debugger;
         			return data;
         		}
