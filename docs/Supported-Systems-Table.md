@@ -105,14 +105,14 @@
         lengthChange: false,
         columnDefs: [
         	{
-        		targets: [1,5,6],
+        		targets: [0,4,5],
         		visible: false
         	}
         ],
         order: [
-        	[1, "asc"],
-        	[6, "asc"],
-        	[7, "asc"]
+        	[0, "asc"],
+        	[5, "asc"],
+        	[6, "asc"]
         ]
       });
 
