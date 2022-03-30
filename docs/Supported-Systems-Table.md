@@ -82,11 +82,11 @@
 |Computer|Sharp|[x68000](System-X68000)|Computer|X68000|Sharp|1987|Good|Good|**px68k**|x68000|.dim .img .d88 .88d .hdm .dup .2hd .xdf .hdf .cmd .m3u .zip .7z|
 |Computer|Sinclair|ZX81|Computer|ZX81|Sinclair|1981|Good|Good|**81**|zx81|.tzx .p .zip .7z|
 |Computer|Sinclair|ZX Spectrum|Computer|ZX Spectrum|Sinclair|1982|Good|Good|**fuse**|zxspectrum|.tzx .tap .z80 .rzx .scl .trd .dsk .zip .7z|
-|Fantasy/<br/>Open Source|Aquaplus|[P/ECE](System-Aquaplus-Piece)|OS Handheld|P/ECE|Aquaplus|2001|Good|Good|**piemu**|piece|.pex .pfi|
-|Fantasy/<br/>Open Source|Arduboy|[Arduboy](System-Arduboy)|OS Handheld|Arduboy|Arduboy|2016|Good|Good|**arduous**|arduboy|.hex|
-|Fantasy/<br/>Open Source|Belogic|Uzebox|OS Console|Uzebox|Belogic|2008|Good|Good|**uzem**|uzebox|.uze|
-|Fantasy/<br/>Open Source|Lexaloffle|[Pico-8](System-PICO-8)|Fantasy Console|Pico-8|Lexaloffle|2015|Good|Good|**pico8**|pico-8|.png .p8|
-|Fantasy/<br/>Open Source|Nesbox|TIC-80|Fantasy Console|TIC-80|Nesbox|2017|Good|Good|**tic80**|tic-80|.tic|
+|Fastasy/OS|Aquaplus|[P/ECE](System-Aquaplus-Piece)|OS Handheld|P/ECE|Aquaplus|2001|Good|Good|**piemu**|piece|.pex .pfi|
+|Fastasy/OS|Arduboy|[Arduboy](System-Arduboy)|OS Handheld|Arduboy|Arduboy|2016|Good|Good|**arduous**|arduboy|.hex|
+|Fastasy/OS|Belogic|Uzebox|OS Console|Uzebox|Belogic|2008|Good|Good|**uzem**|uzebox|.uze|
+|Fastasy/OS|Lexaloffle|[Pico-8](System-PICO-8)|Fantasy Console|Pico-8|Lexaloffle|2015|Good|Good|**pico8**|pico-8|.png .p8|
+|Fastasy/OS|Nesbox|TIC-80|Fantasy Console|TIC-80|Nesbox|2017|Good|Good|**tic80**|tic-80|.tic|
 |Engine|Ken Silverman|[Build Engine](System-Build-Engine)|Game Engine|Build Engine|Ken Silverman|1995|||**raze**|build|[.build](System-Build-Engine#how-to-create-a-build-file)|
 |Engine|id Software|[Doom](System-Doom)|Game Engine|Doom|id Software|1993|||**gzdoom**<br />lzdoom<br />prboom|doom|[.doom](System-Doom#how-to-create-a-doom-file)|
 |Engine|EasyRPG|[EasyRPG](System-EasyRPG)|Game Engine|RPG Maker 2000/2003|ASCII Corporation|2000|||**easyrpg**|easyrpg|.zip .easyrpg .ldb|
@@ -115,7 +115,7 @@
 	})(jQuery);
 
   $(document).ready( function () {
-  	  $.fn.dataTable.enum('category', ['Arcade','Console','Computer','Fantasy/<br/>Open Source','Engine']);
+  	  $.fn.dataTable.enum('category', ['Arcade','Console','Computer','Fastasy/OS','Engine']);
 
       $('.giantsystemtable').DataTable( {
         paging: false,
