@@ -120,7 +120,7 @@
   	  var groupColumn = 0;
   	  var visibleColumns = 9;
 
-      $('.giantsystemtable').DataTable( {
+      var table = $('.giantsystemtable').DataTable( {
         paging: false,
         searching: true,
         saveState: true,
