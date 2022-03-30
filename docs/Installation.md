@@ -16,6 +16,10 @@
 
 ### Installation Overview
 
+#### Step 0: Charge Your Console!
+
+These consoles can act really strangly at low charge. Please charge your console to 100% before you install 351Elec.
+
 #### Step 1: Download
 
 Download the latest img.gz image from [https://github.com/351ELEC/351ELEC/releases/latest](https://github.com/351ELEC/351ELEC/releases/latest).
