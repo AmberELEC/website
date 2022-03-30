@@ -102,7 +102,18 @@
         searching: true,
         saveState: true,
         info: false,
-        lengthChange: false
+        lengthChange: false,
+        columnDefs: [
+        	{
+        		targets: [1,5,6],
+        		visible: false
+        	}
+        ],
+        order: [
+        	[1, "asc"],
+        	[6, "asc"],
+        	[7, "asc"]
+        ]
       });
 
       // RG351 and RG552 performance columns for mastersystemtable
