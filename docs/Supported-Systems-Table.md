@@ -143,11 +143,10 @@
         			cores.unshift(cores.splice(defaultIndex, 1)[0]);
         			var html = '<ul class="list-group list-group-flush">';
         			cores.forEach(function (item) {
-        				debugger;
+        				html += '<li class="list-group-item">'+item+'</li>';
         			});
         			html += '</ul>';
-        			debugger;
-        			return data;
+        			return html;
         		}
         	}
         ],
