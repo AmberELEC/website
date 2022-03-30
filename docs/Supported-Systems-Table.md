@@ -96,7 +96,27 @@
 |Engine|id Software|[Wolfenstein 3D](System-Wolfenstein-3D)|Game Engine|Wolfenstein 3D|id Software|1992|||**ecwolf**|ecwolf|[.ecwolf](System-Wolfenstein-3D#how-to-create-a-ecwolf-file)|
 
 <script type="text/javascript">
+	(function ($) {
+		// Using form $.fn.dataTable.enum breaks at least YuiCompressor since enum is
+		// a reserved word in JavaScript
+		$.fn.dataTable['enum'] = function ( enumName, arr ) {
+		    var name = 'enum-' + enumName;
+		    var lookup = window.Map ? new Map() : {};
+		 
+		    for ( var i=0, ien=arr.length ; i<ien ; i++ ) {
+		        lookup[ arr[i] ] = i;
+		    }
+		 
+		    // Add sorting method
+		    $.fn.dataTable.ext.type.order[ name+'-pre' ] = function ( d ) {
+		        return lookup[ d ];
+		    };
+		};
+	})(jQuery);
+
   $(document).ready( function () {
+  	  $.fn.dataTable.enum('category', ['Arcade','Console','Computer','Fantasy/<br/>Open Source','Engine']);
+
       $('.giantsystemtable').DataTable( {
         paging: false,
         searching: true,
@@ -105,7 +125,11 @@
         lengthChange: false,
         columnDefs: [
         	{
-        		targets: [0,4,5],
+        		targets: 0,
+        		type: 'enum-category'
+        	},
+        	{
+        		targets: [4,5],
         		visible: false
         	}
         ],
