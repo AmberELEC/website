@@ -40,7 +40,7 @@
 |Console|byuu|[Super NES MSU-1](System-Super-Nintendo-Entertainment-System)|Console Addon (Fantasy)|Super Famicom|Nintendo|2012|Good|Good|**snes9x**<br />beetle_supafaust|snesmsu1|.smc .fig .sfc .swc .zip .7z|
 |Console|Nintendo|[Virtual Boy](System-Virtual-Boy)|Console|Virtual Boy|Nintendo|1995|Good|Good|**beetle_vb**|virtualboy|.vb .zip .7z|
 |Console|Panasonic|3DO|Console|3DO|Panasonic|1993|Bad: Only low performance|Bad: Only low performance|**opera**|3do|.iso .cue .bin .chd|
-|Console|Philips|[CD-i](System-CDI)|Console|CD-i|Philips|1990|Good|Good|**same_cdi**|cdi|.chd .iso|
+|Console|Philips|[CD-i](System-CDI)|Console|CD-i|Philips|1990|Mixed|Good|**same_cdi**|cdi|.chd .iso|
 |Console|Sega|32X|Console Addon|Mega Drive|Sega|1994|Good|Good|**picodrive**|sega32x|.32x .bin .md .smd .zip .7z|
 |Console|Sega|Sega CD|Console Addon|Mega Drive|Sega|1992|Good|Good|**genesis_plus_gx**<br />picodrive|segacd|.chd .cue .iso .m3u|
 |Console|Sega|SG-1000|Console|SG-1000|Sega|1983|Good|Good|**gearsystem**<br />genesis_plus_gx<br />picodrive|sg-1000|.bin .sg .zip .7z|
