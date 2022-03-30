@@ -140,6 +140,7 @@
         		render: function (data, type, row) {
         			var cores = data.split(/<br ?\/?>/);
         			debugger;
+        			return data;
         		}
         	}
         ],
