@@ -132,7 +132,7 @@
         		visible: false
         	},
         	{
-        		targets: [4,5],
+        		targets: [3,4,5],
         		visible: false
         	},
         	{
@@ -142,7 +142,6 @@
         			var defaultIndex = cores.findIndex(s => s.includes("<strong>"));
         			var defaultCore = cores.splice(defaultIndex, 1)[0];
         			// cores.unshift(cores.splice(defaultIndex, 1)[0]);
-        			debugger;
         			var html = '<div class="panel-group">';
         			html += '<div class="panel panel-default">';
         			html += '<div class="panel-heading">';
