@@ -152,7 +152,7 @@
         			html += '</button>'
         			html += '</h4>'
         			html += '</div>';
-        			html += '<div id="cores-'+meta.row+'" class="panel-collapse collapse">';
+        			html += '<div id="cores-'+meta.row+'" class="panel collapse">';
         			html += '<ul class="list-group list-group-flush">';
         			cores.forEach(function (item) {
         				html += '<li class="list-group-item">'+item+'</li>';
