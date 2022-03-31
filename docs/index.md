@@ -1,14 +1,14 @@
-<img src="images/351ELEC-PF.png" id="TFOELEClogo" class="mx-auto d-block" alt="351ELEC Logo" style="width: 100%;max-width: 800px;"/>
+<img src="images/401-logo.png" id="TFOELEClogo" class="mx-auto d-block" alt="PineappleELEC Logo" style="width: 100%;max-width: 800px;"/>
 
-# <span style="color: #EEC448; font-size: 1.5em;font-weight: bold; text-shadow: -3px 0 5px #E944D7;">Welcome to the Pineapple Forest!</span>
+# <span style="color: #d3a723; font-size: 1.5em;font-weight: bold;">Fill your life with Pineapple</span>
 
-The new stable release of 351ELEC is here, and it brings a ton of new features, improvements, and performance enhancements. You can download it from the [Download Page](Download). Make sure you download the correct version for your device.
+Our Italian devs love Hawaiian Pizza so much, we've decided to become PineappleELEC! We've also added support for installing on the [AnanasBoy](images/ananasboy.jpeg), the open source gaming hardware powered by a pineapple battery! You can download it from the [Download Page](Download). Make sure you download the correct version for your device.
 
 If you want to know all the new cool features, take a look at the [Release Notes](https://github.com/351ELEC/351ELEC/releases/tag/20211122)!
 
-## About 351ELEC
+## About PineappleELEC
 
-351ELEC is an open source firmware developed for the Anbernic RG351P/M/V/MP and RG552.
+PineappleELEC is an open source firmware developed for the Anbernic RG351P/M/V/MP, RG552, and the AnnasBoy open source hardware.
 
 _Join Our Community:_ [https://discord.com/invite/R9Er7hkRMe](https://discord.com/invite/R9Er7hkRMe)
 

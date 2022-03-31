@@ -13,7 +13,7 @@ Piemu **does not currently support saved games**. This is a limitation of the em
 
 The Aquaplus P/ECE requires a bios file that is freely available from their website. It's strongly recommended that you use version 1.18, as there are many games that do a version check and only recognize 1.1x versions.
 
-To get the bios file, download one of the following software packages. These packages are released as a self-extracting lzh file, so you can either run the exe (if you're on Windows), or you can change the name to update\*.lzh and unzip it wherever you'd like. The BIOS will be in a folder called `update`, and is named `all.bin`. Add this file to your 351ELEC bios folder.
+To get the bios file, download one of the following software packages. These packages are released as a self-extracting lzh file, so you can either run the exe (if you're on Windows), or you can change the name to update\*.lzh and unzip it wherever you'd like. The BIOS will be in a folder called `update`, and is named `all.bin`. Add this file to your PineappleELEC bios folder.
 
 | Firmware Version | Download                                    |
 |------------------|---------------------------------------------|

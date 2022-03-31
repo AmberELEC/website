@@ -7,7 +7,7 @@
 
 ## LaunchBox Importer
 
-You can now export from LaunchBox to 351ELEC. This allows you to transfer entire LaunchBox playlists, including games, metadata, and media, to your console.
+You can now export from LaunchBox to PineappleELEC. This allows you to transfer entire LaunchBox playlists, including games, metadata, and media, to your console.
 
 Overview:
 * Generate the LaunchBox folder with the "Export to Android"-Tool in Launchbox

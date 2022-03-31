@@ -105,6 +105,10 @@ pages:
     title: Nintendo N64
     category: Consoles/Portables
     url: System-N64
+  - file: System-PizzaBox.md
+    title: Domina PizzaBox
+    category: Consoles/Portables
+    url: System-PizzaBox
   - file: System-Sony-PlayStation.md
     title: Sony PlayStation
     category: Consoles/Portables

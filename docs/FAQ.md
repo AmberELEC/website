@@ -3,14 +3,14 @@
 {: #next-release }
 **Q:** [![link](images/link-45deg.svg)](#next-release) When is the next release?  Why are you still on an old version of RetroArch/$MyFavoriteEmulator/$MyFavoriteCore?
 
-**A:** 351ELEC is developed to be a curated, stable firmware.  We update RetroArch, libretro cores and standalone emulators at the time we compose a new release.  As a small team, we are mostly focused on improvements to the environment (fixes, implementing new features, expanding supported systems), and we only release when those features are ready.  You can expect us to skip multiple RetroArch updates at a time; most of the core improvements do not actually benefit our device and so it is unnecessary for us to iterate so quickly or burden our users with constant updates that only fix one or two games out of tens of thousands of supported titles.
+**A:** PineappleELEC is developed to be a curated, stable firmware.  We update RetroArch, libretro cores and standalone emulators at the time we compose a new release.  As a small team, we are mostly focused on improvements to the environment (fixes, implementing new features, expanding supported systems), and we only release when those features are ready.  You can expect us to skip multiple RetroArch updates at a time; most of the core improvements do not actually benefit our device and so it is unnecessary for us to iterate so quickly or burden our users with constant updates that only fix one or two games out of tens of thousands of supported titles.
 
 ***
 
 {: #pre-release-cores }
-**Q:** [![link](images/link-45deg.svg)](#pre-release-cores) I installed the pre-release but the cores and emulators are the same as the current stable release.  I want to help test $MyFavoriteEmulator/$MyFavoriteCore/$SomeNewGameOrWhatever on 351ELEC!
+**Q:** [![link](images/link-45deg.svg)](#pre-release-cores) I installed the pre-release but the cores and emulators are the same as the current stable release.  I want to help test $MyFavoriteEmulator/$MyFavoriteCore/$SomeNewGameOrWhatever on PineappleELEC!
 
-**A:** This is intentional; you will only see the system improvements our team is actively developing.  By not tracking the daily movements of our upstream projects, we are allowed to focus on the 351ELEC environment.
+**A:** This is intentional; you will only see the system improvements our team is actively developing.  By not tracking the daily movements of our upstream projects, we are allowed to focus on the PineappleELEC environment.
 
 ***
 
@@ -44,21 +44,21 @@
 ***
 
 {: #games-partition }
-**Q:** [![link](images/link-45deg.svg)](#games-partition) I flashed 351ELEC but I have no GAMES partition.
+**Q:** [![link](images/link-45deg.svg)](#games-partition) I flashed PineappleELEC but I have no GAMES partition.
 
 **A:** That partition is created during initialization at the first boot, so insert your microSD card inside your RG351 device and boot it.  It will do some work, reboot and launch EmulationStation.  Now you can shut the device down, eject the card and work with the GAMES partition on your computer.
 
 ***
 
 {: #initialization }
-**Q:** [![link](images/link-45deg.svg)](#initialization) I flashed 351ELEC but it won't initialize, or initialization takes forever.
+**Q:** [![link](images/link-45deg.svg)](#initialization) I flashed PineappleELEC but it won't initialize, or initialization takes forever.
 
 **A:** The most likely cause of this is using the wrong image for your device. Please make sure that you're using the RG351P/M image for a P or M device, and the RG351V image for a V device. Other possible causes include corrupted flashes (some computers seem incapable of producing a good flash), or a corrupted/bad/fake MicroSD card. Most of the SD cards that these systems come with are low quality and fail quickly. See the [Installation](Installation#initialization-never-finishestakes-forever) page for more info on this issue.
 
 ***
 
 {: #windows-partition }
-**Q:** [![link](images/link-45deg.svg)](#windows-partition) 351ELEC initialized my card, but I still cannot see the GAMES partition on my Windows 8 (or older) computer.
+**Q:** [![link](images/link-45deg.svg)](#windows-partition) PineappleELEC initialized my card, but I still cannot see the GAMES partition on my Windows 8 (or older) computer.
 
 **A:** Open 'Disk Management', identify which storage device is your SD card, then assign the last partition a drive letter.  This isn't necessary on Windows 10.
 
@@ -163,9 +163,9 @@ The easiest way to get the brightness set up if you have this issue is to change
 {: #custom-scripts }
 **Q:** [![link](images/link-45deg.svg)](#custom-scripts) Can I run custom scripts? If so, how?
 
-**A:** Reference the directory `~/.config/distribution/modules` via Secure Shell or by navigating the SD card itself. The files there are Bash shell scripts (see [The Shell Scripting Tutorial website](https://www.shellscript.sh/) for a primer). Note that the Tools directory is fixed and will be written over on reboot. This is to protect system integrity and basic 351ELEC functions. Your custom scripts can be placed in the `/roms/ports` folder.  Make sure to set the executable mode flag (`chmod +x` or similar) before running it.
+**A:** Reference the directory `~/.config/distribution/modules` via Secure Shell or by navigating the SD card itself. The files there are Bash shell scripts (see [The Shell Scripting Tutorial website](https://www.shellscript.sh/) for a primer). Note that the Tools directory is fixed and will be written over on reboot. This is to protect system integrity and basic PineappleELEC functions. Your custom scripts can be placed in the `/roms/ports` folder.  Make sure to set the executable mode flag (`chmod +x` or similar) before running it.
 
-351ELEC is like a console.  Everything, except games (your GAMES partition/ROMs), are locked down to prevent corruption from an errant reset or power off, which these devices are unfortunately prone to.
+PineappleELEC is like a console.  Everything, except games (your GAMES partition/ROMs), are locked down to prevent corruption from an errant reset or power off, which these devices are unfortunately prone to.
 
 ***
 
@@ -181,7 +181,7 @@ The easiest way to get the brightness set up if you have this issue is to change
 
 **A:** Support for separate CPS folders was removed in Pineapple Forest. It doesn't really make sense to have separate folders for individual arcade boards when the arcade roms themselves come from the fbneo romset. It's recommended that instead of using cps1-3 folders, you use the [CPS Auto Collections](Collections#automatic-game-collections) that are built into ES. To activate them, place your CPS roms in the fbneo folder, scape them, and then turn on the CPS Auto Collections in the Game Collections menu under the main menu.
 
-If you absolutely don't want to use Auto Collections and just want support for cps1-3 folders, you can add this [Capcom ES Systems Config](resources/es_systems/es_systems_capcom.cfg) to `/storage/.config/emulationstation/`. See [How to work with es_systems.cfg on 351ELEC](Advanced-Topics#how-to-work-with-es_systemscfg-on-351elec) for more information on using custom es_systems configurations.
+If you absolutely don't want to use Auto Collections and just want support for cps1-3 folders, you can add this [Capcom ES Systems Config](resources/es_systems/es_systems_capcom.cfg) to `/storage/.config/emulationstation/`. See [How to work with es_systems.cfg on PineappleELEC](Advanced-Topics#how-to-work-with-es_systemscfg-on-pineappleelec) for more information on using custom es_systems configurations.
 
 ***
 
@@ -190,4 +190,4 @@ If you absolutely don't want to use Auto Collections and just want support for c
 
 **A:** There are a couple of tweaks that will give small performance increases. You can try different emulator cores, as some of them use less processing power and can spend more on fast forwarding. You can also disable sound, which usually gives a few extra frames on fast forward. There are currently no ways to get really significant fast forward speedup right now.
 
-It's possible that a standalone could be implemented that could significantly improve fast forwarding, but there's no guarantee that it would work and it would take a lot of time and effort. There are currently no developers working on this problem, and it's very low on the priority list, especially since it would take a lot of work an may not succeed anyway. 351ELEC is a community project though, so if fast forwarding is really important to you and you'd like to work on it, go for it!
+It's possible that a standalone could be implemented that could significantly improve fast forwarding, but there's no guarantee that it would work and it would take a lot of time and effort. There are currently no developers working on this problem, and it's very low on the priority list, especially since it would take a lot of work an may not succeed anyway. PineappleELEC is a community project though, so if fast forwarding is really important to you and you'd like to work on it, go for it!

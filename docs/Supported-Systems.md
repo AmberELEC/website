@@ -47,6 +47,7 @@ Please note that MAME and FinalBurn Neo screen aspect ratios are not optimized, 
 |[Bandai<br/>Wonderswan Color](System-Bandai-Wonderswan)|**beetle_wswan**|wonderswancolor|.wsc .zip .7z|Good|Good|
 |Coleco<br/>ColecoVision|**bluemsx**<br />gearcoleco<br />smsplus|coleco|.bin .col .rom .zip .7z|Good|Good|
 |Commodore<br/>Amiga CD³²|**puae**<br />uae4arm|amigacd32|.iso .cue .chd .lha|Good|Good|
+|[Domina<br/>PizzaBox](System-PizzaBox)|**cornicone**<br />supreme-fx|pizza|.za|Good|Good|
 |Fairchild<br/>Channel F|**fairchaf**|channelf|.bin .chf .zip .7z|Good|Good|
 |Mattel<br/>Intellivision|**freeintv**|intellivision|.int .bin .rom .zip .7z|Good|Good|
 |Milton Bradley<br/>Vectrex|**vecx**|vectrex|.bin .gam .vec .zip .7z|Good|Good|

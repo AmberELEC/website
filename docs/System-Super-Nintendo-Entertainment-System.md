@@ -50,7 +50,7 @@ The emulation of the additional chips present in these games can be quite demand
 These games are not supported by the Beetle Supafaust core.
 
 ### Hayazashi Nidan Morita Shougi, Hayazashi Nidan Morita Shougi 2
-These games are not supported by any core available in 351ELEC, and are not playable.
+These games are not supported by any core available in PineappleELEC, and are not playable.
 
 ## Sufami Turbo
 

@@ -11,13 +11,13 @@
 
 ## Transferring Bios
 
-While we recommend sourcing your own rom files, the simplest way to have a fully functioning handheld is to copy the bios files from the stock OS. You can find these bios files by plugging your stock SD card into your computer (probably with a USB adapter) and looking in the `GAMES` partition for the `bios` folder. After you've installed 351ELEC, you can simply drop these files into 351ELEC's bios folder.
+While we recommend sourcing your own rom files, the simplest way to have a fully functioning handheld is to copy the bios files from the stock OS. You can find these bios files by plugging your stock SD card into your computer (probably with a USB adapter) and looking in the `GAMES` partition for the `bios` folder. After you've installed PineappleELEC, you can simply drop these files into PineappleELEC's bios folder.
 
 Please note that if you're using an RG351V, the bios files go on the same SD card that you store your roms on. This means if you use two SD cards, the bios files should go on SD2.
 
 ## Enable Wifi
 
-Wifi opens up a lot of features on 351ELEC. With wifi, you can install packages and themes, use RetroAchievements, and even play with others online. The RG351P requires an external Wifi adapter, as it doesn't have a wireless card built in.
+Wifi opens up a lot of features on PineappleELEC. With wifi, you can install packages and themes, use RetroAchievements, and even play with others online. The RG351P requires an external Wifi adapter, as it doesn't have a wireless card built in.
 
 To enable Wifi, press `Start` to access the [Main Menu](Menus#main-menu), and then go into [Network Settings](Menus#network-settings). In that menu, toggle `Enable Wifi` to on, and enter your wifi network and password into `Wifi SSID` and `Wifi Key`.
 
@@ -35,7 +35,7 @@ To scrape games, you need a [wireless connection](#enable-wifi), and you'll also
 
 ## Game Options
 
-351ELEC has a bunch of emulator settings that can be set directly from [EmulationStation](Glossary). They can be set for entire systems, or for single games. While 351ELEC tries to have good default settings, how games look is always a matter of personal preference, so it's good to experiment and learn what works for you.
+PineappleELEC has a bunch of emulator settings that can be set directly from [EmulationStation](Glossary). They can be set for entire systems, or for single games. While PineappleELEC tries to have good default settings, how games look is always a matter of personal preference, so it's good to experiment and learn what works for you.
 
 ### Per System
 
@@ -51,11 +51,11 @@ You can change shaders in the game options. While there are many to choose from,
 
 ### Bezels and Overlays
 
-351ELEC now supports using Bezels directly from the ES menu. For more informations please see [How to use Bezels](Getting-to-Know-351ELEC#how-to-use-bezels).
+PineappleELEC now supports using Bezels directly from the ES menu. For more informations please see [How to use Bezels](Getting-to-Know-351ELEC#how-to-use-bezels).
 
 ## Game Collections
 
-[Game Collections](Collections) allow you to organize your games into custom categories that are easy to browse and sort through. 351ELEC has extensive support for game collections, including a number of [Automatic Game Collections](Collections#automatic-game-collections) that already exist for all sorts of useful filters, including individual arcade boards like the popular Capcom CPS boards. Since Automatic Collections are based on game metadata, you must scrape your games in order for them to work properly.
+[Game Collections](Collections) allow you to organize your games into custom categories that are easy to browse and sort through. PineappleELEC has extensive support for game collections, including a number of [Automatic Game Collections](Collections#automatic-game-collections) that already exist for all sorts of useful filters, including individual arcade boards like the popular Capcom CPS boards. Since Automatic Collections are based on game metadata, you must scrape your games in order for them to work properly.
 
 ## Playing Games
 

@@ -13,7 +13,7 @@
 ## Setup
 
 ### Introduction
-351ELEC supports the Doom engine trough lzdoom (standalone).
+PineappleELEC supports the Doom engine trough lzdoom (standalone).
 It's possible to load mods and keep them in your gamelist beside your main Doom, Doom 2, SIGIL, Heretic and Hexen wads.
 The system recognizes all the `.doom` files that can be placed in `/roms/doom` but it needs the original (not shareware) versions of the main games placed in `/roms/doom/*.wad`, the mods instead must be put into `/roms/doom/mods/*.wad, *.ipk3`.
 However this is a standard that we are using, no one is forcing you to use this method unless you're sharing the .doom and the shareable mod files with the community (see each mod's licence about sharing).

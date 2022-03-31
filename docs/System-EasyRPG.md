@@ -21,4 +21,4 @@ If you don't have an internet connection, please follow these instructions.
 5. Unzip the two 7z files using [7zip](https://www.7-zip.org/) or another archive program that can extract 7zip files
 6. Create a folder called `rtp`
 7. Rename the folder `rpg2000_rtp_installer` to `2000`, and the folder `rpg2003_rtp_installer` to `2003` and put them inside the `rtp` folder
-8. Copy the `rtp` folder into your 351ELEC bios folder (`/storage/roms/bios`, or `GAMES/bios`)
+8. Copy the `rtp` folder into your PineappleELEC bios folder (`/storage/roms/bios`, or `GAMES/bios`)
