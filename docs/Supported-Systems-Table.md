@@ -137,7 +137,7 @@
         	},
         	{
         		targets: coreColumn,
-        		render: function (data, type, row) {
+        		render: function (data, type, row, meta) {
         			var cores = data.split(/<br ?\/?>/);
         			var defaultIndex = cores.findIndex(s => s.includes("<strong>"));
         			var defaultCore = cores.splice(defaultIndex, 1)[0];
