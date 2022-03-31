@@ -140,7 +140,7 @@
         		render: function (data, type, row) {
         			var cores = data.split(/<br ?\/?>/);
         			var defaultIndex = cores.findIndex(s => s.includes("<strong>"));
-        			var default = cores.splice(defaultIndex, 1)[0];
+        			var defaultCore = cores.splice(defaultIndex, 1)[0];
         			// cores.unshift(cores.splice(defaultIndex, 1)[0]);
         			debugger;
         			var html = '<div class="panel-group">';
@@ -148,7 +148,7 @@
         			html += '<div class="panel-heading">';
         			html += '<h4 class="panel-title">';
         			html += '<a data-toggle="collapse" href="#cores-">';
-        			html += default;
+        			html += defaultCore;
         			html += '</a>'
         			html += '</h4>'
         			html += '</div>';
