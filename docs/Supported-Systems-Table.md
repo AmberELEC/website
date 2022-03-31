@@ -146,10 +146,8 @@
         			var html = '<div class="panel-group">';
         			html += '<div class="panel panel-default">';
         			html += '<div class="panel-heading">';
-        			html += '<h4 class="panel-title">';
-        			html += '<a data-toggle="collapse" href="#cores-'+meta.row+'">';
+        			html += '<h4 class="panel-title" data-toggle="collapse" data-target="#cores-'+meta.row+'">';
         			html += defaultCore;
-        			html += '</a>'
         			html += '</h4>'
         			html += '</div>';
         			html += '<div id="cores-'+meta.row+'" class="panel-collapse collapse">';
