@@ -127,7 +127,7 @@
         lengthChange: false,
         buttons: [
         	'colvis'
-        ]
+        ],
         columnDefs: [
         	{
         		targets: groupColumn,
