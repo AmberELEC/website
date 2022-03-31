@@ -147,11 +147,12 @@
         			html += '<div class="panel panel-default">';
         			html += '<div class="panel-heading">';
         			html += '<h4 class="panel-title">';
-        			html += '<a data-toggle="collapse" href="#cores-">';
+        			html += '<a data-toggle="collapse" href="#cores-'+meta.row+'">';
         			html += defaultCore;
         			html += '</a>'
         			html += '</h4>'
         			html += '</div>';
+        			html += '<div id="cores-'+meta.row+'" class="panel-collapse collapse">';
         			html += '<ul class="list-group list-group-flush">';
         			cores.forEach(function (item) {
         				html += '<li class="list-group-item">'+item+'</li>';
