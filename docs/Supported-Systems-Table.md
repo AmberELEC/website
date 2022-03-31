@@ -125,6 +125,9 @@
         saveState: true,
         info: false,
         lengthChange: false,
+        buttons: [
+        	'colvis'
+        ]
         columnDefs: [
         	{
         		targets: groupColumn,
