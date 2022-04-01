@@ -83,8 +83,8 @@ While Chrome OS is a Linux distribution, the usual image writers don't work on i
 ### Installation Steps
 
 * Download the latest img.gz image from [https://github.com/351ELEC/351ELEC/releases/latest](https://github.com/351ELEC/351ELEC/releases/latest). Make sure you get the right image for your device.
-* Unzip the .img.gz image. You should have a file called something like `AmberElec-RG351P.aarch64-YYYYMMDD.img`
-* Append .bin to the end of the .img file. The filename should now be similar to `AmberElec-RG351P.aarch64-YYYYMMDD.img.bin`
+* Unzip the .img.gz image. You should have a file called something like `351ELEC-RG351P.aarch64-YYYYMMDD.img`
+* Append .bin to the end of the .img file. The filename should now be similar to `351ELEC-RG351P.aarch64-YYYYMMDD.img.bin`
 * Run the Chromebook Recovery Utility application. Click the settings button in the upper right, and select "Use Local Image"
 * Select your Micro SD card as the target, and continue through the process. The card will be flashed, and you'll be ready to put it into your console to initialize.
 
