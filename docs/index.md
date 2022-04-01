@@ -2,7 +2,7 @@
 
 # <span style="color: #ecb21f; font-size: 1.5em;font-weight: bold;">Preserved in golden Amber</span>
 
-We're happy to announce that 351ELEC is now AmberELEC.
+We're happy to announce that AmberElec is now AmberELEC.
 
 You can download it from the [Download Page](Download). Make sure you download the correct version for your device.
 

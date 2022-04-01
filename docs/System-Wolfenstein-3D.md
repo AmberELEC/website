@@ -11,7 +11,7 @@
 ## Setup
 
 ### Introduction
-351ELEC supports the Wolfenstein 3D engine trough ecwolf (standalone).
+AmberElec supports the Wolfenstein 3D engine trough ecwolf (standalone).
 
 Savefiles will be put into `/roms/gamedata/ecwolf/*.zds`
 

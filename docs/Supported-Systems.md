@@ -6,7 +6,7 @@ This page represents the state of the current development branch, some systems/e
 Note that because of lack of time, not all of these systems have been thoroughly tested, help is always appreciated if you want to test them and report back!
 
 Every system needs to have the correct folder structure inside the base path (the base ROM path is `/storage/roms`), for example Super NES needs ROMs inside `/storage/roms/snes`.
-This path is actually a second partition on your SD card, for more information on how to add your games please refer to this article: [Adding Games](Getting-to-Know-351ELEC#adding-games)
+This path is actually a second partition on your SD card, for more information on how to add your games please refer to this article: [Adding Games](Getting-to-Know-AmberElec#adding-games)
 
 You will also find the correct extensions, almost all cores support .zip and .7z files as well as those listed.
 

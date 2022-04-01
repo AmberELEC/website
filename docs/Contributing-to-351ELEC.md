@@ -1,4 +1,4 @@
-# Contributing to 351ELEC
+# Contributing to AmberElec
 
 * [Reporting Bugs](#reporting-bugs)
 * [Pre-Release Builds](#pre-release-builds)
@@ -13,7 +13,7 @@
 
 ## Reporting Bugs
 * Check you are using latest released version, only released versions are supported.  
-* If you are using a pre-release build, do not open an issue in [351ELEC](https://github.com/351ELEC/351ELEC).  Instead, report the findings in the `#pre-release-feedback` channel on [Discord](https://discord.com/invite/R9Er7hkRMe) (Under "Community Contribution").
+* If you are using a pre-release build, do not open an issue in [AmberElec](https://github.com/AmberElec/AmberElec).  Instead, report the findings in the `#pre-release-feedback` channel on [Discord](https://discord.com/invite/R9Er7hkRMe) (Under "Community Contribution").
 * Before reporting an issue with the pre-release build, try reproducing the issue on the current release.  Please mention the results up front when you bring your issue to Discord.  For example: `When I try xyz in pre-release build ABC, something bad happens.  However, when I try xyz in in the latest release, I do not see this problem.  Is this a known issue?`.  Try and keep comments concise and constructive.
 * Check the existing issues to see if your bug has already reported.  If it has been reported, do not open another bug report.  If it is not reported, use a template and fill it out completely.  Issues opened without using the templates will be closed.
 * Be patient, as we are volunteers and working on the project in our spare time.
@@ -24,7 +24,7 @@
 Builds are released each night when there are new commits to `main`.  Builds are scheduled at 8:00pm UTC, releasing around 8:30 PM UTC.  Users should **expect issues** and have a **backup** of their configs just in case a reflash is needed, etc.  Do **not** file issues on pre-release builds, use [Discord](https://discord.com/invite/R9Er7hkRMe) (#pre-release-feedback).  See "[Reporting Bugs](#reporting-bugs)" above.
 
 #### Finding/Installing Pre-Release Builds
-The latest pre-release build can be found on the **351ELEC-pre-release** [releases](https://github.com/351ELEC/351ELEC-pre-release/releases/) page.  Builds are installed as normal (using either a `.tar` or a `.img.gz`).
+The latest pre-release build can be found on the **AmberElec-pre-release** [releases](https://github.com/AmberElec/AmberElec-pre-release/releases/) page.  Builds are installed as normal (using either a `.tar` or a `.img.gz`).
 
 ### Using Pre-Release Builds
 Pre-Release builds should operate normally.  From the device, you can update to the latest pre-release build by specifying the `BETA` channel in `Updates & Downloads`. 
@@ -35,7 +35,7 @@ If you would like to switch back to the current release, the `RELEASE` channel w
 Dev and PR builds are intended primarily for developers to get the latest changes from `dev` or a `PR` before the build hits 'pre-release'.  Use at your own risk.
 
 **Finding/Installing Development Builds**
-- To find the latest development build, click on the 'green checkbox'(<img src="./images/green-check.png" alt="green checkbox" width="20">) on the 351ELEC [main](https://github.com/351ELEC/351ELEC) page. Then click *Details*.
+- To find the latest development build, click on the 'green checkbox'(<img src="./images/green-check.png" alt="green checkbox" width="20">) on the AmberElec [main](https://github.com/AmberElec/AmberElec) page. Then click *Details*.
 
   Ex: <img src="./images/green-check-details.png" alt="green checkbox" width="300">.
   
@@ -63,27 +63,27 @@ First, thank you.  As a volunteer project, maintaining a project like this can b
 * All package contributions must be marked with the appropriate license for the package in package.mk.  If the package license is not included in the licenses directory, please include it with your pull request.
 
 ## Setting up the environment
-There is an available virtual machine created by Christian Haitian that's good do ports for 351ELEC, more info [here](https://forum.odroid.com/viewtopic.php?p=306185#p306185).
+There is an available virtual machine created by Christian Haitian that's good do ports for AmberElec, more info [here](https://forum.odroid.com/viewtopic.php?p=306185#p306185).
 
-Moreover, in order to locally build 351ELEC from sources it's possible to use a docker, more info [here](Contributing-to-351ELEC#docker-usage).
+Moreover, in order to locally build AmberElec from sources it's possible to use a docker, more info [here](Contributing-to-AmberElec#docker-usage).
 
 ## Building Your Contribution
 When you are ready to test your package you can use the 'build' script located in the scripts folder.  If your world environment is not up-to-date, the script will build all of the package dependencies before building the package.
 
 ### Example:
 ```
-351ELEC$ ./scripts/build packages/games/libretro/dosbox-pure
+AmberElec$ ./scripts/build packages/games/libretro/dosbox-pure
 ```
 
 To install the package into the image root, use the 'install' command.
 
 ### Example:
 ```
-351ELEC$ ./scripts/install packages/games/libretro/dosbox-pure
+AmberElec$ ./scripts/install packages/games/libretro/dosbox-pure
 ```
 > Before submitting a contribution it should build and install properly in your test environment.
 ## Contributing Community Built Packages
-351ELEC will have support for a community package repository starting with v1.0.7.  Contributing a package is simple, but there are a few requirements.  Please note that all packages should be submitted as pull requests to the repository.
+AmberElec will have support for a community package repository starting with v1.0.7.  Contributing a package is simple, but there are a few requirements.  Please note that all packages should be submitted as pull requests to the repository.
 
 ### Community Catalog Schema
 The community catalog is stored in this repository at /metadata/packages.cfg.  It is a plain pipe delimited text file which uses the following schema.
@@ -160,7 +160,7 @@ xmlstarlet ed -L -P -d "/systemList/system[name='myapplication']" $CFG
 
 ## Docker usage
 
-Building with Docker simplifies the build process as any dependencies are contained within the Docker image.  In order to make docker builds easy to use and keep automation in the project unified, I've updated the Makefile to help building via docker.  This would mean more or less any system with make installed (technically `gmake`) and Docker along with a few system utilities (`id`, `pwd`) would be able to build 351ELEC.
+Building with Docker simplifies the build process as any dependencies are contained within the Docker image.  In order to make docker builds easy to use and keep automation in the project unified, I've updated the Makefile to help building via docker.  This would mean more or less any system with make installed (technically `gmake`) and Docker along with a few system utilities (`id`, `pwd`) would be able to build AmberElec.
 
 All make commands are available via docker, by prepending `docker-`. For example, `make RG351V` becomes `make docker-RG351V` and `make clean` becomes `make docker-clean`.  This enables existing and new commands added to the Makefile to be easily used via docker without affecting existing behavior.  Credit to the batocera team for the idea of how this could work: (https://github.com/batocera-linux/batocera.linux/pull/1434/files) and @dhwz  for pointing out their Docker integration.
 
@@ -170,9 +170,9 @@ All make commands are available via docker, by prepending `docker-`. For example
 
 Example building with docker:
 ```
-git clone https://github.com/351ELEC/351ELEC.git 351ELEC  
+git clone https://github.com/AmberElec/AmberElec.git AmberElec  
 
-cd 351ELEC
+cd AmberElec
 make docker-image-pull  # not required - but will ensure the latest image is pulled in
 make docker-clean
 make docker-world
@@ -197,44 +197,44 @@ For example, if I wanted to debug the packages `mupenplussa-core` and `mupenplus
 Emulation Station (ES) is a super-flexible UI used by many projects for embedded devices.  However, since it is written in C++, it is often painful for many UI developers.  Below are some tips on how to make developing changes to EmulationStation a bit easier.
 
 ### Build only the **ES binary** and copy it to the device
- This might seem obvious, but as emulationstation is just an executable.  You can build it, copy it to the 351ELEC device and run it **without** making a full 351ELEC build which saves a lot of time.
-  - **clone locally** - `git clone --recursive https://github.com/351ELEC/351elec-emulationstation`. It is suggested to put **inside** your 351ELEC/351ELEC git clone so it will be available to docker builds.
-  - **update 351ELEC `ui/351elec-emulationstation/package.mk`** to point to your clone.
-    - You can pretty much just uncomment and follow the instructions here: https://github.com/351ELEC/351ELEC/blob/dev/packages/ui/351elec-emulationstation/package.mk#L20
-    - (recommended) if you checked out 351elec-emulationstation into your 351ELEC folder and use docker to build.  You can build as follows.  **NOTE** that removing the source is needed to ensure the git source is properly re-copied:
+ This might seem obvious, but as emulationstation is just an executable.  You can build it, copy it to the AmberElec device and run it **without** making a full AmberElec build which saves a lot of time.
+  - **clone locally** - `git clone --recursive https://github.com/AmberElec/AmberElec-emulationstation`. It is suggested to put **inside** your AmberElec/AmberElec git clone so it will be available to docker builds.
+  - **update AmberElec `ui/AmberElec-emulationstation/package.mk`** to point to your clone.
+    - You can pretty much just uncomment and follow the instructions here: https://github.com/AmberElec/AmberElec/blob/dev/packages/ui/AmberElec-emulationstation/package.mk#L20
+    - (recommended) if you checked out AmberElec-emulationstation into your AmberElec folder and use docker to build.  You can build as follows.  **NOTE** that removing the source is needed to ensure the git source is properly re-copied:
     ```
-    rm -rf ./sources/351elec-emulationstation/ && DOCKER_WORK_DIR=/work DEVICE=RG351V ARCH=aarch64 PACKAGE=351elec-emulationstation make docker-package-clean docker-package
+    rm -rf ./sources/AmberElec-emulationstation/ && DOCKER_WORK_DIR=/work DEVICE=RG351V ARCH=aarch64 PACKAGE=AmberElec-emulationstation make docker-package-clean docker-package
     ```
     - It is also possible to build w/o docker and configure your own paths in package.mk.  This will be different for every user.
-  - **Copy binary to device** - the `./emulationstation` binary found in `build.351ELEC-<device>.aarch64/351elec-emulationstation-*/.install_pkg/usr/bin/` can be copied to the device (SSH, Samba, etc)
+  - **Copy binary to device** - the `./emulationstation` binary found in `build.AmberElec-<device>.aarch64/AmberElec-emulationstation-*/.install_pkg/usr/bin/` can be copied to the device (SSH, Samba, etc)
   - To run via ssh, shutdown emulationstation with: `systemctl stop emustation` and then run emulationstation you copied.  Ex: `./emulationstation`
 
 ### Build for x86_64 and run under Ubuntu directly
-The above method is recommended due to difficulty setting up all proper files to simulate a 351ELEC device - but building ES on x86_64 may have interesting/novel uses as you can run the 351ELEC ES on a x86_64 PC/VM for testing.  **Requires Linux - tested on Ubuntu 20.04**
+The above method is recommended due to difficulty setting up all proper files to simulate a AmberElec device - but building ES on x86_64 may have interesting/novel uses as you can run the AmberElec ES on a x86_64 PC/VM for testing.  **Requires Linux - tested on Ubuntu 20.04**
 
-- `git clone --recursive https://github.com/351ELEC/351elec-emulationstation`
-- `cd 351elec-emulationstation`
+- `git clone --recursive https://github.com/AmberElec/AmberElec-emulationstation`
+- `cd AmberElec-emulationstation`
 - Ensure you have build dependencies installed.  
-  - Follow these directions: https://github.com/351ELEC/351elec-emulationstation/blob/main/README.md#building
+  - Follow these directions: https://github.com/AmberElec/AmberElec-emulationstation/blob/main/README.md#building
 
 - `cmake -DENABLE_EMUELEC=1 -DGLES2=1 -DDISABLE_KODI=1 -DENABLE_FILEMANAGER=0 -DCEC=0 -DRG552=1 .`
   - NOTE: set `-DRG552=1` to match the specific device (`RG351P`, `RG351V`, `RG351MP`, `RG552`).  **all instructions here are in reference to 552 - so you may need to watch out below too.
-  - You can find the exact up to date options to build with here: https://github.com/351ELEC/351ELEC/blob/dev/packages/ui/351elec-emulationstation/package.mk#L35
+  - You can find the exact up to date options to build with here: https://github.com/AmberElec/AmberElec/blob/dev/packages/ui/AmberElec-emulationstation/package.mk#L35
 - `make -j$(nproc)`
   - NOTE: `-j$(nproc)` builds with all CPU cores, you can specify something like `-j2` to build with two cores or omit `-j...`to build with one core.
-- **Setup 351ELEC files**
-  - it may be possible to have emulation station look for files in your home directory, but I try and make it match 351elec and set home to /storage
+- **Setup AmberElec files**
+  - it may be possible to have emulation station look for files in your home directory, but I try and make it match AmberElec and set home to /storage
     - `export HOME=/storage`
-    - NOTE: You'll need to set `HOME` everytime you open a new terminal.  It's also possible to not set home to /storage and most files will come from the users home directory, but some things in 351ELEC are hard coded to /home.
-  - Ensure you have 351ELEC checked out next to 351elec-emulationstation (git clone https://github.com/351ELEC/351ELEC/ ../351ELEC)
+    - NOTE: You'll need to set `HOME` everytime you open a new terminal.  It's also possible to not set home to /storage and most files will come from the users home directory, but some things in AmberElec are hard coded to /home.
+  - Ensure you have AmberElec checked out next to AmberElec-emulationstation (git clone https://github.com/AmberElec/AmberElec/ ../AmberElec)
     - Make /storage and ensure your user owns it
       - `sudo mkdir -p /storage/.config`
       - `sudo chown -R $(whoami) /storage/`
     - `echo RG552 > /storage/.config/.OS_ARCH`
     - `mkdir -p /storage/.config/distribution/configs/`
-    - `cp ../351ELEC/packages/351elec/config/distribution/configs/distribution.conf.552 /storage/.config/distribution/configs/distribution.conf`
+    - `cp ../AmberElec/packages/AmberElec/config/distribution/configs/distribution.conf.552 /storage/.config/distribution/configs/distribution.conf`
     - `mkdir -p ~/.emulationstation/`
-    - `cp -r ../351ELEC/packages/ui/351elec-emulationstation/config/* ~/.emulationstation`
+    - `cp -r ../AmberElec/packages/ui/AmberElec-emulationstation/config/* ~/.emulationstation`
 
     - Setup keyboard input config
       - Put this into `~/.emulationstation/es_input.cfg` 
