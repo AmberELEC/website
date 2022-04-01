@@ -13,7 +13,7 @@
 
 ## Reporting Bugs
 * Check you are using latest released version, only released versions are supported.  
-* If you are using a pre-release build, do not open an issue in [AmberElec](https://github.com/AmberElec/AmberElec).  Instead, report the findings in the `#pre-release-feedback` channel on [Discord](https://discord.com/invite/R9Er7hkRMe) (Under "Community Contribution").
+* If you are using a pre-release build, do not open an issue in [AmberElec](https://github.com/351ELEC/351ELEC).  Instead, report the findings in the `#pre-release-feedback` channel on [Discord](https://discord.com/invite/R9Er7hkRMe) (Under "Community Contribution").
 * Before reporting an issue with the pre-release build, try reproducing the issue on the current release.  Please mention the results up front when you bring your issue to Discord.  For example: `When I try xyz in pre-release build ABC, something bad happens.  However, when I try xyz in in the latest release, I do not see this problem.  Is this a known issue?`.  Try and keep comments concise and constructive.
 * Check the existing issues to see if your bug has already reported.  If it has been reported, do not open another bug report.  If it is not reported, use a template and fill it out completely.  Issues opened without using the templates will be closed.
 * Be patient, as we are volunteers and working on the project in our spare time.
@@ -24,7 +24,7 @@
 Builds are released each night when there are new commits to `main`.  Builds are scheduled at 8:00pm UTC, releasing around 8:30 PM UTC.  Users should **expect issues** and have a **backup** of their configs just in case a reflash is needed, etc.  Do **not** file issues on pre-release builds, use [Discord](https://discord.com/invite/R9Er7hkRMe) (#pre-release-feedback).  See "[Reporting Bugs](#reporting-bugs)" above.
 
 #### Finding/Installing Pre-Release Builds
-The latest pre-release build can be found on the **AmberElec-pre-release** [releases](https://github.com/AmberElec/AmberElec-pre-release/releases/) page.  Builds are installed as normal (using either a `.tar` or a `.img.gz`).
+The latest pre-release build can be found on the **AmberElec-pre-release** [releases](https://github.com/351ELEC/351ELEC-pre-release/releases/) page.  Builds are installed as normal (using either a `.tar` or a `.img.gz`).
 
 ### Using Pre-Release Builds
 Pre-Release builds should operate normally.  From the device, you can update to the latest pre-release build by specifying the `BETA` channel in `Updates & Downloads`. 
@@ -35,7 +35,7 @@ If you would like to switch back to the current release, the `RELEASE` channel w
 Dev and PR builds are intended primarily for developers to get the latest changes from `dev` or a `PR` before the build hits 'pre-release'.  Use at your own risk.
 
 **Finding/Installing Development Builds**
-- To find the latest development build, click on the 'green checkbox'(<img src="./images/green-check.png" alt="green checkbox" width="20">) on the AmberElec [main](https://github.com/AmberElec/AmberElec) page. Then click *Details*.
+- To find the latest development build, click on the 'green checkbox'(<img src="./images/green-check.png" alt="green checkbox" width="20">) on the AmberElec [main](https://github.com/351ELEC/351ELEC) page. Then click *Details*.
 
   Ex: <img src="./images/green-check-details.png" alt="green checkbox" width="300">.
   
@@ -170,7 +170,7 @@ All make commands are available via docker, by prepending `docker-`. For example
 
 Example building with docker:
 ```
-git clone https://github.com/AmberElec/AmberElec.git AmberElec  
+git clone https://github.com/351ELEC/351ELEC.git AmberElec  
 
 cd AmberElec
 make docker-image-pull  # not required - but will ensure the latest image is pulled in
@@ -198,9 +198,9 @@ Emulation Station (ES) is a super-flexible UI used by many projects for embedded
 
 ### Build only the **ES binary** and copy it to the device
  This might seem obvious, but as emulationstation is just an executable.  You can build it, copy it to the AmberElec device and run it **without** making a full AmberElec build which saves a lot of time.
-  - **clone locally** - `git clone --recursive https://github.com/AmberElec/AmberElec-emulationstation`. It is suggested to put **inside** your AmberElec/AmberElec git clone so it will be available to docker builds.
+  - **clone locally** - `git clone --recursive https://github.com/351ELEC/351ELEC-emulationstation`. It is suggested to put **inside** your AmberElec/AmberElec git clone so it will be available to docker builds.
   - **update AmberElec `ui/AmberElec-emulationstation/package.mk`** to point to your clone.
-    - You can pretty much just uncomment and follow the instructions here: https://github.com/AmberElec/AmberElec/blob/dev/packages/ui/AmberElec-emulationstation/package.mk#L20
+    - You can pretty much just uncomment and follow the instructions here: https://github.com/351ELEC/351ELEC/blob/dev/packages/ui/AmberElec-emulationstation/package.mk#L20
     - (recommended) if you checked out AmberElec-emulationstation into your AmberElec folder and use docker to build.  You can build as follows.  **NOTE** that removing the source is needed to ensure the git source is properly re-copied:
     ```
     rm -rf ./sources/AmberElec-emulationstation/ && DOCKER_WORK_DIR=/work DEVICE=RG351V ARCH=aarch64 PACKAGE=AmberElec-emulationstation make docker-package-clean docker-package
@@ -212,21 +212,21 @@ Emulation Station (ES) is a super-flexible UI used by many projects for embedded
 ### Build for x86_64 and run under Ubuntu directly
 The above method is recommended due to difficulty setting up all proper files to simulate a AmberElec device - but building ES on x86_64 may have interesting/novel uses as you can run the AmberElec ES on a x86_64 PC/VM for testing.  **Requires Linux - tested on Ubuntu 20.04**
 
-- `git clone --recursive https://github.com/AmberElec/AmberElec-emulationstation`
+- `git clone --recursive https://github.com/351ELEC/351ELEC-emulationstation`
 - `cd AmberElec-emulationstation`
 - Ensure you have build dependencies installed.  
-  - Follow these directions: https://github.com/AmberElec/AmberElec-emulationstation/blob/main/README.md#building
+  - Follow these directions: https://github.com/351ELEC/351ELEC-emulationstation/blob/main/README.md#building
 
 - `cmake -DENABLE_EMUELEC=1 -DGLES2=1 -DDISABLE_KODI=1 -DENABLE_FILEMANAGER=0 -DCEC=0 -DRG552=1 .`
   - NOTE: set `-DRG552=1` to match the specific device (`RG351P`, `RG351V`, `RG351MP`, `RG552`).  **all instructions here are in reference to 552 - so you may need to watch out below too.
-  - You can find the exact up to date options to build with here: https://github.com/AmberElec/AmberElec/blob/dev/packages/ui/AmberElec-emulationstation/package.mk#L35
+  - You can find the exact up to date options to build with here: https://github.com/351ELEC/351ELEC/blob/dev/packages/ui/AmberElec-emulationstation/package.mk#L35
 - `make -j$(nproc)`
   - NOTE: `-j$(nproc)` builds with all CPU cores, you can specify something like `-j2` to build with two cores or omit `-j...`to build with one core.
 - **Setup AmberElec files**
   - it may be possible to have emulation station look for files in your home directory, but I try and make it match AmberElec and set home to /storage
     - `export HOME=/storage`
     - NOTE: You'll need to set `HOME` everytime you open a new terminal.  It's also possible to not set home to /storage and most files will come from the users home directory, but some things in AmberElec are hard coded to /home.
-  - Ensure you have AmberElec checked out next to AmberElec-emulationstation (git clone https://github.com/AmberElec/AmberElec/ ../AmberElec)
+  - Ensure you have AmberElec checked out next to AmberElec-emulationstation (git clone https://github.com/351ELEC/351ELEC/ ../AmberElec)
     - Make /storage and ensure your user owns it
       - `sudo mkdir -p /storage/.config`
       - `sudo chown -R $(whoami) /storage/`

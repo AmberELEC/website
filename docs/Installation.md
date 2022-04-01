@@ -22,7 +22,7 @@ These consoles can act really strangly at low charge. Please charge your console
 
 #### Step 1: Download
 
-Download the latest img.gz image from [https://github.com/AmberElec/AmberElec/releases/latest](https://github.com/AmberElec/AmberElec/releases/latest).
+Download the latest img.gz image from [https://github.com/351ELEC/351ELEC/releases/latest](https://github.com/351ELEC/351ELEC/releases/latest).
 
 #### Step 2: Unzip
 
@@ -82,7 +82,7 @@ While Chrome OS is a Linux distribution, the usual image writers don't work on i
 
 ### Installation Steps
 
-* Download the latest img.gz image from [https://github.com/AmberElec/AmberElec/releases/latest](https://github.com/AmberElec/AmberElec/releases/latest). Make sure you get the right image for your device.
+* Download the latest img.gz image from [https://github.com/351ELEC/351ELEC/releases/latest](https://github.com/351ELEC/351ELEC/releases/latest). Make sure you get the right image for your device.
 * Unzip the .img.gz image. You should have a file called something like `AmberElec-RG351P.aarch64-YYYYMMDD.img`
 * Append .bin to the end of the .img file. The filename should now be similar to `AmberElec-RG351P.aarch64-YYYYMMDD.img.bin`
 * Run the Chromebook Recovery Utility application. Click the settings button in the upper right, and select "Use Local Image"
@@ -92,7 +92,7 @@ While Chrome OS is a Linux distribution, the usual image writers don't work on i
 
 To upgrade from a previous release:
 
-* Download the latest `.tar` package from [the project's GitHub repo](https://github.com/AmberElec/AmberElec/releases/latest).  Make sure you get the right image for your device.
+* Download the latest `.tar` package from [the project's GitHub repo](https://github.com/351ELEC/351ELEC/releases/latest).  Make sure you get the right image for your device.
 * Move the `.tar` package file to the `update` directory on your GAMES partition (this can be done any way you like, easiest would be to just insert your microSD card back into your computer and copy it with your file manager).
 * Reboot your device.  AmberElec will notice the presence of the file, check it for completeness and apply the update.
 
