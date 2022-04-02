@@ -68,6 +68,7 @@ b, strong {
 .container {
   max-width: 90%;
   max-width: 3456px;
+  margin: 0 auto 10px auto; 
 }
 
 .navbar {
@@ -299,4 +300,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 table.dataTable {
  border-collapse:collapse !important
+}
+
+footer.text-center {
+  margin-top: 10px;
 }
