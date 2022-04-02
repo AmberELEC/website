@@ -1,8 +1,8 @@
-<img src="images/transparent_amber_elec_horiz.svg" id="TFOELEClogo" class="mx-auto d-block" alt="AmberElec Logo" style="width: 100%;max-width: 800px;margin: 75px 0 125px 0;"/>
+<img src="images/transparent_amber_elec_horiz.svg" id="TFOELEClogo" class="mx-auto d-block" alt="AmberELEC Logo" style="width: 100%;max-width: 800px;margin: 75px 0 125px 0;"/>
 
 # <span style="color: #ecb21f; font-size: 1.5em;font-weight: bold;">Preserved in golden Amber</span>
 
-We're happy to announce that 351Elec is now AmberELEC.
+We're happy to announce that 351ELEC is now AmberELEC.
 
 You can download it from the [Download Page](Download). Make sure you download the correct version for your device.
 
@@ -10,7 +10,7 @@ If you want to know all the new cool features, take a look at the [Release Notes
 
 ## About AmberELEC
 
-AmberElec is an open source firmware developed for the Anbernic RG351P/M/V/MP and RG552.
+AmberELEC is an open source firmware developed for the Anbernic RG351P/M/V/MP and RG552.
 
 _Join Our Community:_ [https://discord.com/invite/R9Er7hkRMe](https://discord.com/invite/R9Er7hkRMe)
 

@@ -12,8 +12,8 @@
 		<romcenter plugin="arcade.dll"/>
 		<version>20220321-184721</version>
 		<date>20220321-184721</date>
-		<author>yonkuma, AmberElec</author>
-		<url>AmberElec.de</url>
+		<author>yonkuma, AmberELEC</author>
+		<url>AmberELEC.de</url>
 	</header>
 
 <!--
@@ -122,12 +122,12 @@
 	<game name="archeon">
 		<!--
 		Origin: TOSEC
-		<rom name="Archeon CD-i Quiz (1994)(Dutch Electronic Publishers)(NL)(en-nl)[!].iso" size="50450400" crc="faf8d75e" md5="aeb904381861901873823ce585560ffa"/>
-		<rom name="Archeon CD-i Quiz (1994)(Dutch Electronic Publishers)(NL)(en-nl)[!].cue" size="156" crc="d80bd62b" md5="7be8d61e3b337d5afaf4cd67269eafde"/>
+		<rom name="Archeon CD-i Quiz (1994)(Dutch ELECtronic Publishers)(NL)(en-nl)[!].iso" size="50450400" crc="faf8d75e" md5="aeb904381861901873823ce585560ffa"/>
+		<rom name="Archeon CD-i Quiz (1994)(Dutch ELECtronic Publishers)(NL)(en-nl)[!].cue" size="156" crc="d80bd62b" md5="7be8d61e3b337d5afaf4cd67269eafde"/>
 		-->
 		<description>Archeon CD-i Quiz (Ned)</description>
 		<year>1994</year>
-		<manufacturer>Dutch Electronic Publishers</manufacturer>
+		<manufacturer>Dutch ELECtronic Publishers</manufacturer>
 		<disk name="archeon cd-i quiz (1994)(dutch electronic publishers)(nl)(en-nl).chd" sha1="f85cfe8b15a86c163b5ccce9312640035d2f37cf"/>
 	</game>
 
@@ -783,10 +783,10 @@
 	<game name="jigsaw">
 		<!--
 		Origin: TOSEC
-		<rom name="Jigsaw - The Ultimate Electronic Challenge (1992)(Philips)(US)[!].iso" size="320471760" crc="8e747b9d" md5="691335249e4676b5309847aeacfcf63a"/>
-		<rom name="Jigsaw - The Ultimate Electronic Challenge (1992)(Philips)(US)[!].cue" size="154" crc="5894dcf9" md5="dd65249127322944a532ea758363052a"/>
+		<rom name="Jigsaw - The Ultimate ELECtronic Challenge (1992)(Philips)(US)[!].iso" size="320471760" crc="8e747b9d" md5="691335249e4676b5309847aeacfcf63a"/>
+		<rom name="Jigsaw - The Ultimate ELECtronic Challenge (1992)(Philips)(US)[!].cue" size="154" crc="5894dcf9" md5="dd65249127322944a532ea758363052a"/>
 		-->
-		<description>Jigsaw - The Ultimate Electronic Challenge (USA)</description>
+		<description>Jigsaw - The Ultimate ELECtronic Challenge (USA)</description>
 		<year>1992</year>
 		<manufacturer>Philips</manufacturer>
 		<disk name="jigsaw - the ultimate electronic challenge (1992)(philips)(us).chd" sha1="5798df3e0978d371b087ab810c73d9c83d522713"/>
@@ -4361,12 +4361,12 @@
 	<game name="pleasure">
 		<!--
 		Origin: TOSEC
-		<rom name="Pleasure of Sex, The - The Interactive Encyclopedia of Sex (1995)(Telstar Electronic Studios)(US).iso" size="452113200" crc="3a8e80c9" md5="ffa824afc34ee0515a3207baeaf07ced"/>
-		<rom name="Pleasure of Sex, The - The Interactive Encyclopedia of Sex (1995)(Telstar Electronic Studios)(US).cue" size="186" crc="89f8e1d5" md5="9490aaa5f0c8ae6a47af6bbade6e899b"/>
+		<rom name="Pleasure of Sex, The - The Interactive Encyclopedia of Sex (1995)(Telstar ELECtronic Studios)(US).iso" size="452113200" crc="3a8e80c9" md5="ffa824afc34ee0515a3207baeaf07ced"/>
+		<rom name="Pleasure of Sex, The - The Interactive Encyclopedia of Sex (1995)(Telstar ELECtronic Studios)(US).cue" size="186" crc="89f8e1d5" md5="9490aaa5f0c8ae6a47af6bbade6e899b"/>
 		-->
 		<description>The Pleasure of Sex - The Interactive Encyclopedia of Sex (USA)</description>
 		<year>1995</year>
-		<manufacturer>Telstar Electronic Studios</manufacturer>
+		<manufacturer>Telstar ELECtronic Studios</manufacturer>
 		<disk name="pleasure of sex, the - the interactive encyclopedia of sex (1995)(telstar electronic studios)(us).chd" sha1="0ddcd431e70d844f80c6da4087d5e04f555ef1cf"/>
 	</game>
 

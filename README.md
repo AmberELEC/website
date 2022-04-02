@@ -1,1 +1,1 @@
-This is the official repository for the AmberElec website.
+This is the official repository for the AmberELEC website.

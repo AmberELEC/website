@@ -18,7 +18,7 @@
 
 #### Step 0: Charge Your Console!
 
-These consoles can act really strangly at low charge. Please charge your console to 100% before you install AmberElec.
+These consoles can act really strangly at low charge. Please charge your console to 100% before you install AmberELEC.
 
 #### Step 1: Download
 
@@ -37,14 +37,14 @@ Unzip the .img.gz file so that you have a .img file. Skipping this step can lead
 
 #### Step 4: Initialize
 
-Put your MicroSD card into slot 1 of your your retro device. If your device has a second SD slot, please leave it empty during initialization. AmberElec should create your games partition and reboot. It's normal for this process to take a minute or two.  After setting up for the first time, subsequent boots will be faster.
+Put your MicroSD card into slot 1 of your your retro device. If your device has a second SD slot, please leave it empty during initialization. AmberELEC should create your games partition and reboot. It's normal for this process to take a minute or two.  After setting up for the first time, subsequent boots will be faster.
 
 #### (Optional) Step 5: Second SD
 
-If you're using a system that supports a second SD card and you want to use a second SD card for your games, now is the time to set it up. Format the card as ExFAT or ext4. Don't put anything on the card yet. Turn your console off, put the game SD card in the second slot, and turn it back on. During bootup, AmberElec will create the folder structure for your second SD card. Now you can transfer games to and from your second SD card using your preferred method.
+If you're using a system that supports a second SD card and you want to use a second SD card for your games, now is the time to set it up. Format the card as ExFAT or ext4. Don't put anything on the card yet. Turn your console off, put the game SD card in the second slot, and turn it back on. During bootup, AmberELEC will create the folder structure for your second SD card. Now you can transfer games to and from your second SD card using your preferred method.
 
 #### Notes
-* **RG351V/MP/RG552 Second SD Card**: RG351V/MP users may use a large MicroSD in the first socket, or a smaller MicroSD with a larger card in the second socket. The second card must have a single partition or whole card formatted with exFAT or ext4. FAT filesystems are not supported as it lacks support for filesystem features in use by AmberElec. NTFS is not currently supported and may be added in a future release. This card should be left out of the console on first initialization.
+* **RG351V/MP/RG552 Second SD Card**: RG351V/MP users may use a large MicroSD in the first socket, or a smaller MicroSD with a larger card in the second socket. The second card must have a single partition or whole card formatted with exFAT or ext4. FAT filesystems are not supported as it lacks support for filesystem features in use by AmberELEC. NTFS is not currently supported and may be added in a future release. This card should be left out of the console on first initialization.
 
 ## Applications
 
@@ -94,7 +94,7 @@ To upgrade from a previous release:
 
 * Download the latest `.tar` package from [the project's GitHub repo](https://github.com/351ELEC/351ELEC/releases/latest).  Make sure you get the right image for your device.
 * Move the `.tar` package file to the `update` directory on your GAMES partition (this can be done any way you like, easiest would be to just insert your microSD card back into your computer and copy it with your file manager).
-* Reboot your device.  AmberElec will notice the presence of the file, check it for completeness and apply the update.
+* Reboot your device.  AmberELEC will notice the presence of the file, check it for completeness and apply the update.
 
 ## Issues
 
