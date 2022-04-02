@@ -63,7 +63,7 @@ All or almost all Singe 2 games have been converted to work with Hypseus Singe. 
 | Astron Belt | &#10003; | | astron.daphne | | Arcade | Sega |
 | Badlands | &#10003; | | badlands.daphne | | Arcade | Konami/Centuri |
 | Bega's Battle | &#10003; | | bega.daphne | | Arcade | Data East |
-| Cliff Hanger | &#10003; | &#10003; | Daphne: cliff.daphne<br/>Singe: cliff.ld | | Arcade | Stern Electronics |
+| Cliff Hanger | &#10003; | &#10003; | Daphne: cliff.daphne<br/>Singe: cliff.ld | | Arcade | Stern ELECtronics |
 | Cobra Command | &#10003; | | cobra.daphne | | Arcade | Data East |
 | Crime Patrol | | &#10003; | crimepatrol.ld | | Arcade | American Laser Games |
 | Crime Patrol 2: Drug Wars | | &#10003; | drugwars.ld | | Arcade | American Laser Games |

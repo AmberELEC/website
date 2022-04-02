@@ -2,7 +2,7 @@
 
 ## Core Availability
 
-There are two cores provided by 351ELEC for PlayStation emulation: 
+There are two cores provided by AmberELEC for PlayStation emulation: 
 
 * PCSX ReARMed
 * DuckStation(/SwanStation)
@@ -12,7 +12,7 @@ PCSX ReARMed is our default core for performance reasons.  DuckStation(/SwanStat
 ## Issues
 ### Controls and Rumble Not Working in Games
 
-Early PlayStation games do not recognize the DualShock controller and will not accept input, so in recent builds we have configured the Standard controller as the default.  This allows most games to work without having to change the configuration, but means analog sticks and rumble will be disabled.  Users who have upgraded from earlier builds of 351ELEC may have non-functioning controls when trying to start some games.
+Early PlayStation games do not recognize the DualShock controller and will not accept input, so in recent builds we have configured the Standard controller as the default.  This allows most games to work without having to change the configuration, but means analog sticks and rumble will be disabled.  Users who have upgraded from earlier builds of AmberELEC may have non-functioning controls when trying to start some games.
 
 To change the attached virtual controller:
 
@@ -20,4 +20,4 @@ RetroArch Quick Menu (SELECT+X) > Controls > Port 1 Controls > Change 'Device Ty
 
 ### Poor Performance
 
-RK3326 CPU is not powerful enough to run all PlayStation games at full speed all the time.  You will see some stuttering and skipping in demanding games like Gran Turismo, Ape Escape and others.  Other games will appear to run flawlessly.  This will continue to be the case unless there is some significant optimization in the emulators themselves; 351ELEC team has no control over this.
+RK3326 CPU is not powerful enough to run all PlayStation games at full speed all the time.  You will see some stuttering and skipping in demanding games like Gran Turismo, Ape Escape and others.  Other games will appear to run flawlessly.  This will continue to be the case unless there is some significant optimization in the emulators themselves; AmberELEC team has no control over this.

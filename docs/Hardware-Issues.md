@@ -1,6 +1,6 @@
 # Hardware Issues
 
-While these issues are not specific to 351ELEC, there are a few issues with the RG351 hardware that come up a lot during support.
+While these issues are not specific to AmberELEC, there are a few issues with the RG351 hardware that come up a lot during support.
 
 ## Low Battery
 

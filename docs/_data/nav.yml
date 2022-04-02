@@ -21,10 +21,10 @@ pages:
     title: Getting Started
     category: Guides
     url: Getting-Started
-  - file: Getting-to-Know-351ELEC.md
-    title: Getting to Know 351ELEC
+  - file: Getting-to-Know-AmberELEC.md
+    title: Getting to Know AmberELEC
     category: Guides
-    url: Getting-to-Know-351ELEC
+    url: Getting-to-Know-AmberELEC
   - file: Collections.md
     title: Collections
     category: Guides
@@ -49,10 +49,10 @@ pages:
     title: FAQ
     category: FAQ
     url: FAQ
-  - file: Contributing-to-351ELEC.md
-    title: Contributing to 351ELEC
+  - file: Contributing-to-AmberELEC.md
+    title: Contributing to AmberELEC
     category: Contributing
-    url: Contributing-to-351ELEC
+    url: Contributing-to-AmberELEC
   - file: Pre-Release-Features.md
     title: Pre-Release Features
     category: Contributing
@@ -211,7 +211,7 @@ categories:
   - title: Installation
     url: Installation
   - title: Guides
-    url: Getting-to-Know-351ELEC
+    url: Getting-to-Know-AmberELEC
     topnavpages: true
     sidenav: true
   - title: FAQ
@@ -237,7 +237,7 @@ categories:
   - title: Ports
     parent: Systems
   - title: Contributing
-    url: Contributing-to-351ELEC
+    url: Contributing-to-AmberELEC
     topnavpages: true
     sidenav: true
   - title: Download

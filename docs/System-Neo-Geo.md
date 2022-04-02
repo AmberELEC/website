@@ -1,6 +1,6 @@
 # SNK Neo Geo
 
-Because Neo Geo is both an arcade chipset and a home console system, there are two ways to set up your Neo Geo collection on 351ELEC. You can either treat it as a console system, where the roms are contained in their own folder, or you can use a dynamic collection that finds Neo Geo games in your FBNeo or MAME romsets.
+Because Neo Geo is both an arcade chipset and a home console system, there are two ways to set up your Neo Geo collection on AmberELEC. You can either treat it as a console system, where the roms are contained in their own folder, or you can use a dynamic collection that finds Neo Geo games in your FBNeo or MAME romsets.
 
 If you are curating a larger arcade collection, it's easier to set up Neo Geo as an Automatic Collection. In this case you probably already have Neo Geo games as a part of your FBNeo collection, and separating them into their own folder can be annoying. It also has the advantage of being able to use roms from either the FBNeo or MAME romset as desired and running them in the correct emulator without extra configuration.
 

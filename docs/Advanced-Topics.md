@@ -4,7 +4,7 @@
 * [Minimizing Input Lag](#minimizing-input-lag)
 * [Buttons reference](#buttons-reference)
 * [File Management](#file-management)
-* [How to work with es_systems.cfg on 351ELEC](#how-to-work-with-es_systemscfg-on-351elec)
+* [How to work with es_systems.cfg on AmberELEC](#how-to-work-with-es_systemscfg-on-AmberELEC)
 
 ## RetroArch Overrides
 
@@ -70,7 +70,7 @@ The following RetroArch settings have been recommended by Vanfanel to minimize i
 
 ## File Management
 
-351ELEC includes a basic file manager called Dingux Commander.  This file manager allows you to manipulate files that are local or on a connected thumb drive.
+AmberELEC includes a basic file manager called Dingux Commander.  This file manager allows you to manipulate files that are local or on a connected thumb drive.
 
 ### File Manager Button Configuration
 
@@ -83,9 +83,9 @@ The following RetroArch settings have been recommended by Vanfanel to minimize i
 | L1: | Top of file selection |
 | L2: | Bottom of file selection |
 
-## How to work with es_systems.cfg on 351ELEC
+## How to work with es_systems.cfg on AmberELEC
 
-In 351ELEC there is a global `es_systems.cfg` file that is located in `/usr/config/emulationstation/es_systems.cfg`. This file can not be altered to make sure that future updates can still add new features to the system. However, there is still the possibility to add your own extensions. You can create your own extensions to the standard `es_systems.cfg`.
+In AmberELEC there is a global `es_systems.cfg` file that is located in `/usr/config/emulationstation/es_systems.cfg`. This file can not be altered to make sure that future updates can still add new features to the system. However, there is still the possibility to add your own extensions. You can create your own extensions to the standard `es_systems.cfg`.
 
 ### Adding systems config extensions
 

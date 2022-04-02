@@ -7,7 +7,7 @@
 
 ## LaunchBox Importer
 
-You can now export from LaunchBox to 351ELEC. This allows you to transfer entire LaunchBox playlists, including games, metadata, and media, to your console.
+You can now export from LaunchBox to AmberELEC. This allows you to transfer entire LaunchBox playlists, including games, metadata, and media, to your console.
 
 Overview:
 * Generate the LaunchBox folder with the "Export to Android"-Tool in Launchbox
@@ -15,7 +15,7 @@ Overview:
 * Update Gamelists  in the ES Menu
 
 You can even use the Workflow for Android like this to make it more comfortable:
-* Connect the device to your Windows PC using SMP (//351elec) and chose the rom folder
+* Connect the device to your Windows PC using SMP (//AmberELEC) and chose the rom folder
 
 Step-by-step for Windows running LaunchBox:
 * Select the ROMs you want to export (for convenience, you can create a playlist for this). You can choose ROMs for multiple systems at once if you like.

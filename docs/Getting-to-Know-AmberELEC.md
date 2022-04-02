@@ -1,11 +1,11 @@
-# Getting to Know 351ELEC
+# Getting to Know AmberELEC
 
 * [Controls and Hot Keys](#controls-and-hot-keys)
 * [Adding Games](#adding-games)
 * [Accessing the handheld over a network](#accessing-the-handheld-over-a-network)
 * [Default Performance Settings](#default-performance-settings)
 * [How to Use Bezels](#how-to-use-bezels)
-* [How to Update](#how-to-update-351elec) - Learn how to update to the newest version of 351ELEC
+* [How to Update](#how-to-update-AmberELEC) - Learn how to update to the newest version of AmberELEC
 * [Adding Background Music to EmulationStation](#adding-background-music-to-emulationstation)
 * [Netplay](#netplay)
 * [Backups and Indentity](#backups-and-identity) - Learn how to backup your settings
@@ -14,12 +14,12 @@
 
 ## Controls and Hot Keys
 
-EmulationStation Controls are active when you're in 351ELEC's rom selection menu, and RetroArch Hotkeys are active while you're playing (most) games.
+EmulationStation Controls are active when you're in AmberELEC's rom selection menu, and RetroArch Hotkeys are active while you're playing (most) games.
 
 ### RetroArch Hotkeys
 Every hotkey is commanded by combining the SELECT button with the desired function key as shown in the image below. For example, to do a savestate the hotkey is SELECT + R1. Brightness is an exception; it uses L3. The hotkeys for the 351V are the same as the ones for the P and M, with the exception that R3 on the P/M is the F (function) button on the V instead.
 
-<img src="images/rg351p-hotkeys-351ELEC-purple.svg" alt="RG351P/M/MP graphical hotkey map" width="1000"/>
+<img src="images/rg351p-hotkeys-AmberELEC-purple.svg" alt="RG351P/M/MP graphical hotkey map" width="1000"/>
 
 | Hotkey | RG351P/M/MP, RG552 | RG351V |
 |----|----|----|
@@ -82,15 +82,15 @@ On devices which have volume buttons (RG351V and RG351MP), brightness can be cha
 
 ## Adding Games
 
-Games may be added by copying them over the network (rsync, sftp), or by moving the microSD card to your PC. It is important to follow the existing directory structure or your games may not be discovered by 351ELEC.  Be sure to always properly eject the microSD or power off the handheld before removing it.
+Games may be added by copying them over the network (rsync, sftp), or by moving the microSD card to your PC. It is important to follow the existing directory structure or your games may not be discovered by AmberELEC.  Be sure to always properly eject the microSD or power off the handheld before removing it.
 
 ## Accessing the handheld over a network
 
-When connected to a network, the handheld listens for connections on port 22 (SSH).  If your local network supports DHCP naming the host should appear on your network as '351ELEC'.
+When connected to a network, the handheld listens for connections on port 22 (SSH).  If your local network supports DHCP naming the host should appear on your network as 'AmberELEC'.
 
 | Username | Password |
 |----|----|
-| root | 351elec |
+| root | AmberELEC |
 
 It is recommended that you change the root password or disable ssh while not in use using the Network Settings menu.  To change the root password type 'passwd' while connected to the handheld over ssh.
 
@@ -109,7 +109,7 @@ N64, PSP, and Dreamcast emulators default to the maximum performance option. Thi
 Bezel support allows filling up empty space ("black bars") that occurs in many systems that don't exactly match the screen aspect ratio.
 
 ### Supported Systems
-351ELEC supports bezels for these systems:
+AmberELEC supports bezels for these systems:
 
 * Gameboy
 * Gameboy Color
@@ -161,11 +161,11 @@ Overlays can be added at the system level to add optional features such as shado
 
 For most standard-systems a shadow and grid png-file is included.
 
-## How to Update 351ELEC
+## How to Update AmberELEC
 
 *NOTE*: OTA updates are returning in the next stable release.
 
-To perform an update, download the .tar file from the latest version of 351ELEC.  Place the .tar in your games partition in the "update" folder, creating it if necessary.  Insert your SD card back into your device and turn it on.  When the update completes your device will reboot.
+To perform an update, download the .tar file from the latest version of AmberELEC.  Place the .tar in your games partition in the "update" folder, creating it if necessary.  Insert your SD card back into your device and turn it on.  When the update completes your device will reboot.
 
 Alternately, you can scp the .tar file to ~/.update and reboot the handheld to perform an offline update as well.
 
@@ -173,7 +173,7 @@ Alternately, you can scp the .tar file to ~/.update and reboot the handheld to p
 
 EmulationStation will playback any `.flac`, `.ogg` or `.mp3` files (and maybe others?) from the `/storage/roms/bgm` directory.  Simply add them, enable background music from EmulationStation's Main Menu > Sound Settings, and ensure the System Volume is not muted.
 
-351ELEC Discord user [Aaron Mealey](https://aaronmealey.bandcamp.com/) composed [a nice background droning piece for his RG351 device and uploaded it to his Bandcamp page](https://aaronmealey.bandcamp.com/track/sitting-waiting) to share with others.  Thanks, Aaron!
+AmberELEC Discord user [Aaron Mealey](https://aaronmealey.bandcamp.com/) composed [a nice background droning piece for his RG351 device and uploaded it to his Bandcamp page](https://aaronmealey.bandcamp.com/track/sitting-waiting) to share with others.  Thanks, Aaron!
 
 EmulationStation adds one second long fades to the beginning and end of each track; they are fast and simple, and can sound really bad.  Take that into account when processing your own tracks with an audio editor (for example, you can avoid hearing them by padding your audio with one second of silence on either end as desired).
 
@@ -181,9 +181,9 @@ When compressing audio, `.ogg` creates significantly smaller and better sounding
 
 ## Netplay
 
-351ELEC enables you to use retroarch's Netplay, for more information please visit the [RetroArch Netplay Section](https://www.retroarch.com/?page=netplay).
+AmberELEC enables you to use retroarch's Netplay, for more information please visit the [RetroArch Netplay Section](https://www.retroarch.com/?page=netplay).
 
-Please note that the players must have the same version of 351ELEC or in any case the same rom and the same core.
+Please note that the players must have the same version of AmberELEC or in any case the same rom and the same core.
 Unfortunately you cannot use it to trade Pokémon, more info [here](https://docs.libretro.com/guides/netplay-faq/).
 
 Link to the [online lobby](http://lobby.libretro.com/).
@@ -221,13 +221,13 @@ Steps:
 
 ## Cloud Backup
 
-Starting from **351ELEC - 20211122 "Pineapple Forest"** we introduced a tool to backup and restore your saves/states, screenshots and device backup to the cloud using rclone. Initial setup  requires the use of a commandline tool: `rclone` and should be considered an intermediate/advanced use case.
+Starting from **AmberELEC - 20211122 "Pineapple Forest"** we introduced a tool to backup and restore your saves/states, screenshots and device backup to the cloud using rclone. Initial setup  requires the use of a commandline tool: `rclone` and should be considered an intermediate/advanced use case.
 
-rclone requires initial authorization to the cloud be done on a **computer** and not on the 351ELEC device.  This is because most clouds require OAuth/web browser based authentication not available on the device itself.  If you are unfamiliar, a common example of OAuth is: a login option with google/etc on an unassociated website - this pops up a google page to login and verify (without sending your google user/password) to the other site.
+rclone requires initial authorization to the cloud be done on a **computer** and not on the AmberELEC device.  This is because most clouds require OAuth/web browser based authentication not available on the device itself.  If you are unfamiliar, a common example of OAuth is: a login option with google/etc on an unassociated website - this pops up a google page to login and verify (without sending your google user/password) to the other site.
 
-Once the initial authentication is done, rclone will give you a `rclone.conf` file that can be stored on your 351ELEC device at: `/roms/gamedata/rclone/rclone.conf`
+Once the initial authentication is done, rclone will give you a `rclone.conf` file that can be stored on your AmberELEC device at: `/roms/gamedata/rclone/rclone.conf`
 
-After installation, menu options under `Tools` in 351ELEC will allow you to backup and restore from the cloud on demand.
+After installation, menu options under `Tools` in AmberELEC will allow you to backup and restore from the cloud on demand.
 
 ### Cloud Backup/Restore Installation Instructions
 
@@ -262,7 +262,7 @@ A: Maybe, not tested with all ports, if you think that some extensions can be ad
 - [cloud-sync-rules.conf](https://github.com/351ELEC/351ELEC/blob/main/packages/sysutils/rclone/cloud-sync-rules.conf)
 
 ## Using the Movie Player
-351ELEC includes a movie player that can play a variety of file formats, and use the handheld controls to skip forward, skip backwards, pause, and exit.
+AmberELEC includes a movie player that can play a variety of file formats, and use the handheld controls to skip forward, skip backwards, pause, and exit.
 
 ### Movie Path
 If the path is not created by default, it is ok to create it as below.  The directory name is case sensitive.

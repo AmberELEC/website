@@ -170,7 +170,7 @@ code.highlighter-rouge {
   @extend .btn;
   @extend .btn-dark;
 
-  background-color: rgba(107, 34, 16, 1);
+  background-color: #844b1f;
   border: none;
   border-radius: 0;
   font-family: Helvetica, Arial, sans-serif;
@@ -181,7 +181,7 @@ code.highlighter-rouge {
   &:hover {
     @extend .btn-dark:hover;
     border: none;
-    background-color: rgba(235, 50, 35, 1);
+    background-color: #d49429;
   }
 
   &::before {
@@ -208,7 +208,7 @@ a.nav-link.nav-download {
   justify-content: center;
   height: 100%;
   width: 100%;
-  background-image: linear-gradient(180deg, #930000, transparent);
+  background-image: linear-gradient(180deg, #ffbf00, transparent);
 }
 
 header .bg-dark.show, header .bg-dark.collapsing {
