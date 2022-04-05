@@ -90,7 +90,7 @@ When connected to a network, the handheld listens for connections on port 22 (SS
 
 | Username | Password |
 |----|----|
-| root | AmberELEC |
+| root | 351elec |
 
 It is recommended that you change the root password or disable ssh while not in use using the Network Settings menu.  To change the root password type 'passwd' while connected to the handheld over ssh.
 
