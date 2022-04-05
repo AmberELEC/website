@@ -129,6 +129,26 @@ pages:
     title: Philips CD-i
     category: Consoles/Portables
     url: System-CDI
+  - file: System-BitCorp-Gamate.md
+    title: BitCorp Gamate
+    category: Consoles/Portables
+    url: System-BitCorp-Gamate
+  - file: System-Entex-AdventureVision.md
+    title: Entex Adventure Vision
+    category: Consoles/Portables
+    url: System-Entex-AdventureVision
+  - file: System-Epoch-GamePocketComputer.md
+    title: Epoch Game Pocket Computer
+    category: Consoles/Portables
+    url: System-Epoch-GamePocketComputer
+  - file: System-Hartung-GameMaster.md
+    title: Hartung Game Master
+    category: Consoles/Portables
+    url: System-Hartung-GameMaster
+  - file: System-TimeTop-GameKing.md
+    title: TimeTop GameKing
+    category: Consoles/Portables
+    url: System-TimeTop-GameKing
   - file: System-Amstrad-CPC.md
     title: Amstrad CPC
     category: Computers

@@ -45,14 +45,14 @@ Please note that MAME and FinalBurn Neo screen aspect ratios are not optimized, 
 |[Bandai<br/>SuFami Turbo](System-Super-Nintendo-Entertainment-System#sufami-turbo)|**snes9x**|sufami|.st .zip .7z|Good|Good|
 |[Bandai<br/>Wonderswan](System-Bandai-Wonderswan)|**beetle_wswan**|wonderswan|.ws .zip .7z|Good|Good|
 |[Bandai<br/>Wonderswan Color](System-Bandai-Wonderswan)|**beetle_wswan**|wonderswancolor|.wsc .zip .7z|Good|Good|
-|Bit Corp<br />Gamate|**mame**|gamate|.bin .zip .7z|Good|Good|
+|[Bit Corp<br />Gamate](System-BitCorp-Gamate)|**mame**|gamate|.bin .zip .7z|Good|Good|
 |Casio<br />PV-1000|**mame**|pv1000|.bin .zip .7z|Good|Good|
 |Coleco<br/>ColecoVision|**bluemsx**<br />gearcoleco<br />smsplus|coleco|.bin .col .rom .zip .7z|Good|Good|
 |Commodore<br/>Amiga CD³²|**puae**<br />uae4arm|amigacd32|.iso .cue .chd .lha|Good|Good|
-|Entex<br />Adventure Vision|**mame**|advision|.bin .zip .7z|Good|Good|
-|Epoch<br />Game Pocket Computer|**mame**|gamepocketcomputer|.bin .zip .7z|Good|Good|
+|[Entex<br />Adventure Vision](System-Entex-AdventureVision)|**mame**|advision|.bin .zip .7z|Good|Good|
+|[Epoch<br />Game Pocket Computer](System-Epoch-GamePocketComputer)|**mame**|gamepocketcomputer|.bin .zip .7z|Good|Good|
 |Fairchild<br/>Channel F|**fairchaf**|channelf|.bin .chf .zip .7z|Good|Good|
-|Hartung<br />Game Master|**mame**|gamemaster|.bin .zip .7z|Good|Good|
+|[Hartung<br />Game Master](System-Hartung-GameMaster)|**mame**|gamemaster|.bin .zip .7z|Good|Good|
 |Mattel<br/>Intellivision|**freeintv**|intellivision|.int .bin .rom .zip .7z|Good|Good|
 |Milton Bradley<br/>Vectrex|**vecx**|vectrex|.bin .gam .vec .zip .7z|Good|Good|
 |NEC<br/>PC Engine|**beetle_pce_fast**<br />beetle_supergrafx|pcengine|.pce .bin .zip .7z|Good|Good|
@@ -96,7 +96,7 @@ Please note that MAME and FinalBurn Neo screen aspect ratios are not optimized, 
 |[Sony<br/>PSP](System-Sony-PlayStation-Portable)|**PPSSPPSDL**<br />ppsspp|psp|.cso .pbp .iso|Mixed: Many games run well, especially with frameskip. Some games are unplayable|Mixed: Many games run well, especially with frameskip. Some games are unplayable|
 |[Sony<br/>PSP Minis](System-Sony-PlayStation-Portable)|**PPSSPPSDL**<br />ppsspp| pspminis |.cso .pbp .iso|Mixed: Most games are less demanding than PSP, and run well, though a few may run badly|Mixed: Most games are less demanding than PSP, and run well, though a few may run badly|
 |Sun Microsystems<br/>J2ME|**freej2me**|j2me|.jar|Good: Quite smooth playing|Good: Quite smooth playing|
-|TimeTop<br />GameKing|**mame**|gameking|.bin .gk .zip .7z|Mixed|Good|
+|[TimeTop<br />GameKing](System-TimeTop-GameKing)|**mame**|gameking|.bin .gk .zip .7z|Mixed|Good|
 |Watara<br/>Supervision|**potator**|supervision|.sv .zip .7z|Good|Good|
 |Welback Holdings<br/>Mega Duck|**sameduck**|megaduck|.bin .zip .7z|Good|Good|
 
