@@ -1,6 +1,6 @@
 theme: jekyll-theme-hacker
 title: AmberELEC
-github.repository_url: https://github.com/351ELEC/351ELEC
+github.repository_url: https://github.com/AmberELEC/AmberELEC
 
 sass:
   sass_dir: assets/css
