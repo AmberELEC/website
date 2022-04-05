@@ -24,7 +24,7 @@
 Builds are released each night when there are new commits to `main`.  Builds are scheduled at 8:00pm UTC, releasing around 8:30 PM UTC.  Users should **expect issues** and have a **backup** of their configs just in case a reflash is needed, etc.  Do **not** file issues on pre-release builds, use [Discord](https://discord.com/invite/R9Er7hkRMe) (#pre-release-feedback).  See "[Reporting Bugs](#reporting-bugs)" above.
 
 #### Finding/Installing Pre-Release Builds
-The latest pre-release build can be found on the **AmberELEC-pre-release** [releases](https://github.com/AmberELEC/AmberELEC-pre-release/releases/) page.  Builds are installed as normal (using either a `.tar` or a `.img.gz`).
+The latest pre-release build can be found on the **AmberELEC-pre-release** [releases](https://github.com/AmberELEC/AmberELEC-prerelease/releases/) page.  Builds are installed as normal (using either a `.tar` or a `.img.gz`).
 
 ### Using Pre-Release Builds
 Pre-Release builds should operate normally.  From the device, you can update to the latest pre-release build by specifying the `BETA` channel in `Updates & Downloads`. 
