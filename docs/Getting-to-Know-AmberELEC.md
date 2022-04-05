@@ -247,7 +247,7 @@ In order to add a remote to rclone you have to:
 
 ### Frequently Asked Questions
 Q: What is exactly being backed up?
-A: Saves, Screenshots, Backups. There are a few edge cases on where this things are stored depending on the emulator that makes it a bit complex. The exact description of what is backed up is: [here](https://github.com/351ELEC/351ELEC/blob/main/packages/sysutils/rclone/cloud-sync-rules.conf)
+A: Saves, Screenshots, Backups. There are a few edge cases on where this things are stored depending on the emulator that makes it a bit complex. The exact description of what is backed up is: [here](https://github.com/AmberELEC/AmberELEC/blob/main/packages/sysutils/rclone/cloud-sync-rules.conf)
 
 Q: Where can I find `cloud-sync-rules.conf` on my device. I don't see it?
 A: The file is not created until Tools startup/backup is run. However, it can be found here: /roms/gamedata/rclone/
@@ -259,7 +259,7 @@ Q: Will it save the port's savedata?
 A: Maybe, not tested with all ports, if you think that some extensions can be added please let us know.
 
 - [Rclone downloads](https://rclone.org/downloads/)
-- [cloud-sync-rules.conf](https://github.com/351ELEC/351ELEC/blob/main/packages/sysutils/rclone/cloud-sync-rules.conf)
+- [cloud-sync-rules.conf](https://github.com/AmberELEC/AmberELEC/blob/main/packages/sysutils/rclone/cloud-sync-rules.conf)
 
 ## Using the Movie Player
 AmberELEC includes a movie player that can play a variety of file formats, and use the handheld controls to skip forward, skip backwards, pause, and exit.
