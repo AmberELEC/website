@@ -6,7 +6,7 @@ We're happy to announce that 351ELEC is now AmberELEC.
 
 You can download it from the [Download Page](Download). Make sure you download the correct version for your device.
 
-If you want to know all the new cool features, take a look at the [Release Notes](https://github.com/351ELEC/351ELEC/releases/tag/20211122)!
+If you want to know all the new cool features, take a look at the [Release Notes](https://github.com/AmberELEC/AmberELEC/releases/tag/20211122)!
 
 ## About AmberELEC
 
