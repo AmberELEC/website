@@ -1,6 +1,25 @@
 # Sony PlayStation
 
-## Core Availability
+- [Overview](#overview)
+- [Extensions](#extensions)
+- [Cores](#cores)
+- [Issues](#issues)
+
+## Overview
+
+- Cores:
+  - `pcsx_rearmed` (default)
+  - `duckstation`
+  - `swanstation`
+- Paths:
+  - `/roms/psx`
+- Supported Extensions: `.chd .m3u .cue+.bin .cue+.img .cue+.iso .pbp .mdf .toc .cbn .ccd`
+
+## Extensions
+
+There are a lot of extensions that are supported, and often multiple types are required together in order for emulation to work. Our recommended format for PlayStation roms is `.chd`, CHD files are compressed, so they take up less space, but unlike other compressed formats (such as `.pbp`), they still work with achievements.
+
+## Cores
 
 There are two cores provided by AmberELEC for PlayStation emulation: 
 
