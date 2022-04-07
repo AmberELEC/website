@@ -1,12 +1,18 @@
 # Sony PSP (Minis)
 
-## BIOS
+## Overview
 
-WIP
+- Cores:
+  - `PPSSPPSDL` (standalone) (default)
+  - `PPSSPP`
+- Paths:
+  - `/roms/psp`
+  - '/roms/pspminis`
+- Supported Extensions: `.cso .pbp .iso`
 
-## Emulator Availability
+## PSP Minis
 
-PPSSPP (libretro Core) and PPSSPPSDL (standalone)
+PSP Minis are downloadable games for the PSP.
 
 ## Community Maintained Game Compatibility Table
 
