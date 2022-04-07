@@ -12,7 +12,7 @@
 
 ## PSP Minis
 
-PSP Minis are downloadable games for the PSP.
+PSP Minis are downloadable games for the PSP. A seperate folder is provided for convenience so that they don't clutter up your PSP library.
 
 ## Community Maintained Game Compatibility Table
 
