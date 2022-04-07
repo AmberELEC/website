@@ -13,11 +13,33 @@
   - `swanstation`
 - Paths:
   - `/roms/psx`
-- Supported Extensions: `.chd .m3u .cue+.bin .cue+.img .cue+.iso .pbp .mdf .toc .cbn .ccd`
+- Supported Extensions: `.chd .m3u .cue+.bin .cue+.img .cue+.iso .pbp .mdf .toc .cbn .cue+.ccd`
 
 ## Extensions
 
+### Base rom file
+
 There are a lot of extensions that are supported, and often multiple types are required together in order for emulation to work. Our recommended format for PlayStation roms is `.chd`, CHD files are compressed, so they take up less space, but unlike other compressed formats (such as `.pbp`), they still work with achievements.
+
+The most common format for PlayStation roms is `.cue+.bin`. These can be converted to `.chd` if desired, but will work just fine with AmberELEC. Please note that the `.cue` file is required, and the rom is incomplete without it. AmberELEC hides `.bin` files to prevent duplicate entries with the `.cue` file, so the game will not show up or play without a `.cue` file. If you have a `.bin` file without a `.cue` file, it's recommended that you delete it and source a complete rom (since the rom may be broken in other ways), but you can also use the [DuckStation Cue Maker](https://www.duckstation.org/cue-maker/) to make a `.cue` file that matches your `.bin`.
+
+### Playlists for multidisk games (m3u)
+
+AmberELEC also supports `.m3u` files, which are playlists that contain multiple disks. Using `.m3u` files, you can make it so that multidisk games only have one entry in your game list.
+
+`.m3u` files are a plaintext playlist. They simply contain a list of all disks for a game. For example, if you have Final Fantasy VII in `.cue+.bin` format, an m3u will look something like this:
+
+```
+Final Fantasy VII [US] (Disk 1).cue
+Final Fantasy VII [US] (Disk 2).cue
+Final Fantasy VII [US] (Disk 3).cue
+```
+
+The entries in the m3u file should match the file names for your game. For any format that requires a `.cue` file, the m3u should list the `.cue` files. For roms in other formats, such as `.chd`, the file would list the `.chd` files instead.
+
+AmberELEC has an automatic m3u generator for PlayStation in the Tools section. Depending on how your files are named, you may need to adjust the m3u files it creates.
+
+You can create m3u files for single disk games as well, and the m3u generator will generate m3u files for those games too. Having an m3u file for all your games means that you can hide all the other extensions (`.cue`, `.chd`, etc.) and have a clean list of games. If you don't want to do this but still want to use m3u files for your multidisk games, you can hide the disks individually so that only the m3u shows in your games list.
 
 ## Cores
 
