@@ -1,6 +1,7 @@
 # Sony PlayStation
 
 - [Overview](#overview)
+- [BIOS](#bios)
 - [Extensions](#extensions)
 - [Cores](#cores)
 - [Issues](#issues)
@@ -14,6 +15,26 @@
 - Paths:
   - `/roms/psx`
 - Supported Extensions: `.chd .m3u .cue+.bin .cue+.img .cue+.iso .pbp .mdf .toc .cbn .cue+.ccd`
+
+## BIOS
+
+PCSX-ReARMed requires one of the following BIOSes:
+
+| BIOS             | md5                              |
+| PSXONPSP660.bin  | c53ca5908936d412331790f4426c6c33 |
+| scph101.bin      | 6E3735FF4C7DC899EE98981385F6F3D0 |
+| scph7001.bin     | 1e68c231d0896b7eadcad1d7d8e76129 |
+| scph5501.bin     | 490f666e1afb15b7362b406ed1cea246 |
+| scph1001.bin     | 924e392ed05558ffdb115408c263dccf |
+
+The following bioses are required for other emulators:
+
+| BIOS             | md5                              |
+| scph5500.bin     | 8dd7d5296a650fac7319bce665a6a53c |
+| scph5501.bin     | 490f666e1afb15b7362b406ed1cea246 |
+| scph5502.bin     | 32736f17079d0b2b7024407c39bd3050 |
+
+**Warning:** There is currently a bug in PCSX-ReARMed that will make it crash if the BIOS file `ps1_rom.bin` is present. Please see the  [PCSX-ReARMed crash FAQ](FAQ#pcsx-rearmed-crash) for more information.
 
 ## Extensions
 
