@@ -40,9 +40,9 @@ The following bioses are required for other emulators:
 
 ### Base rom file
 
-There are a lot of extensions that are supported, and often multiple types are required together in order for emulation to work. Our recommended format for PlayStation roms is `.chd`, CHD files are compressed, so they take up less space, but unlike other compressed formats (such as `.pbp`), they still work with achievements.
+There are a lot of extensions that are supported, and often multiple types are required together in order for emulation to work. Our recommended format for PlayStation roms is `.chd`. CHD files are compressed, so they take up less space, but unlike other compressed formats (such as `.pbp`), they still work with achievements. Instructions for converting to `.chd` format can be found on the [CD and DVD ROMs](Disk-Roms#converting-to-chd) page.
 
-The most common format for PlayStation roms is `.cue+.bin`. These can be converted to `.chd` if desired, but will work just fine with AmberELEC. Please note that the `.cue` file is required, and the rom is incomplete without it. `.cue+.bin` games should always be launched by their `.cue` file, otherwise the game may be missing some audio. If you have a `.bin` file without a `.cue` file, it's recommended that you delete it and source a complete rom (since the rom may be broken in other ways), but you can also use the [DuckStation Cue Maker](https://www.duckstation.org/cue-maker/) to make a `.cue` file that matches your `.bin`.
+The most common format for PlayStation roms is `.cue+.bin`. These [can be converted to](Disk-Roms#converting-to-chd) `.chd` if desired, but will work just fine with AmberELEC. Please note that the `.cue` file is required, and the rom is incomplete without it. `.cue+.bin` games should always be launched by their `.cue` file, otherwise the game may be missing some audio. If you have a `.bin` file without a `.cue` file, it's recommended that you delete it and source a complete rom (since the rom may be broken in other ways), but you can also use the [DuckStation Cue Maker](https://www.duckstation.org/cue-maker/) to make a `.cue` file that matches your `.bin`.
 
 ### Playlists for multidisk games (m3u)
 
