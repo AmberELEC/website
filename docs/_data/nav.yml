@@ -41,6 +41,10 @@ pages:
     title: Hardware Issues
     category: Guides
     url: Hardware-Issues
+  - file: Disk-Roms.md
+    title: CD and DVD ROMs
+    category: Guides
+    url: Disk-Roms
   - file: Glossary.md
     title: Glossary
     category: Guides
