@@ -43,6 +43,6 @@ Final Fantasy VII [US] (Disk 3).cue
 
 The entries in the m3u file should match the file names for your game. For any format that requires a `.cue` file, the m3u should list the `.cue` files. For roms in other formats, such as `.chd`, the file would list the `.chd` files instead.
 
-AmberELEC has an automatic m3u generator for PlayStation in the Tools section. Depending on how your files are named, you may need to adjust the m3u files it creates.
+AmberELEC has an automatic m3u generator for PlayStation in the Tools section called `PSX - Create m3u files`. Depending on how your files are named, you may need to adjust the m3u files it creates.
 
 You can create m3u files for single disk games as well, and the m3u generator will generate m3u files for those games too. Having an m3u file for all your games means that you can hide all the other extensions (`.cue`, `.chd`, etc.) and have a clean list of games. If you don't want to do this but still want to use m3u files for your multidisk games, you can hide the disks individually so that only the m3u shows in your games list.
