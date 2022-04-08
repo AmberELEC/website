@@ -97,6 +97,10 @@ pages:
     title: Atari 5200
     category: Consoles/Portables
     url: System-Atari-5200
+  - file: System-Atari-7800.md
+    title: Atari 7800
+    category: Consoles/Portables
+    url: System-Atari-7800
   - file: System-Bandai-Wonderswan.md
     title: Bandai Wonderswan (Color)
     category: Consoles/Portables
