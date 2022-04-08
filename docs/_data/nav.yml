@@ -93,46 +93,10 @@ pages:
     title: Sega Naomi
     category: Arcade
     url: System-Naomi
-  - file: System-Super-Nintendo-Entertainment-System.md
-    title: Nintendo Super NES
-    category: Consoles/Portables
-    url: System-Super-Nintendo-Entertainment-System
-  - file: System-Game-Boy-Advance.md
-    title: Nintendo Game Boy Advance
-    category: Consoles/Portables
-    url: System-Game-Boy-Advance
-  - file: System-Virtual-Boy.md
-    title: Nintendo Virtual Boy
-    category: Consoles/Portables
-    url: System-Virtual-Boy
-  - file: System-N64.md
-    title: Nintendo N64
-    category: Consoles/Portables
-    url: System-N64
-  - file: System-Sony-PlayStation.md
-    title: Sony PlayStation
-    category: Consoles/Portables
-    url: System-Sony-PlayStation
-  - file: System-Sony-PlayStation-Portable.md
-    title: Sony PSP (Minis)
-    category: Consoles/Portables
-    url: System-Sony-PlayStation-Portable
   - file: System-Bandai-Wonderswan.md
     title: Bandai Wonderswan (Color)
     category: Consoles/Portables
     url: System-Bandai-Wonderswan
-  - file: System-Magnavox-Odyssey2.md
-    title: Magnavox Odyssey²
-    category: Consoles/Portables
-    url: System-Magnavox-Odyssey2
-  - file: System-Magnavox-Odyssey2.md
-    title: Philips Videopac
-    category: Consoles/Portables
-    url: System-Magnavox-Odyssey2    
-  - file: System-CDI.md
-    title: Philips CD-i
-    category: Consoles/Portables
-    url: System-CDI
   - file: System-BitCorp-Gamate.md
     title: BitCorp Gamate
     category: Consoles/Portables
@@ -149,6 +113,38 @@ pages:
     title: Hartung Game Master
     category: Consoles/Portables
     url: System-Hartung-GameMaster
+  - file: System-Magnavox-Odyssey2.md
+    title: Philips Videopac
+    category: Consoles/Portables
+    url: System-Magnavox-Odyssey2
+  - file: System-Game-Boy-Advance.md
+    title: Nintendo Game Boy Advance
+    category: Consoles/Portables
+    url: System-Game-Boy-Advance
+  - file: System-N64.md
+    title: Nintendo N64
+    category: Consoles/Portables
+    url: System-N64
+  - file: System-Super-Nintendo-Entertainment-System.md
+    title: Nintendo Super NES
+    category: Consoles/Portables
+    url: System-Super-Nintendo-Entertainment-System
+  - file: System-Virtual-Boy.md
+    title: Nintendo Virtual Boy
+    category: Consoles/Portables
+    url: System-Virtual-Boy
+  - file: System-CDI.md
+    title: Philips CD-i
+    category: Consoles/Portables
+    url: System-CDI
+  - file: System-Sony-PlayStation.md
+    title: Sony PlayStation
+    category: Consoles/Portables
+    url: System-Sony-PlayStation
+  - file: System-Sony-PlayStation-Portable.md
+    title: Sony PSP (Minis)
+    category: Consoles/Portables
+    url: System-Sony-PlayStation-Portable
   - file: System-TimeTop-GameKing.md
     title: TimeTop GameKing
     category: Consoles/Portables
