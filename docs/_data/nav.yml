@@ -114,7 +114,7 @@ pages:
     category: Consoles/Portables
     url: System-Hartung-GameMaster
   - file: System-Magnavox-Odyssey2.md
-    title: Philips Videopac
+    title: Magnavox Odyssey²
     category: Consoles/Portables
     url: System-Magnavox-Odyssey2
   - file: System-Game-Boy-Advance.md
@@ -137,6 +137,10 @@ pages:
     title: Philips CD-i
     category: Consoles/Portables
     url: System-CDI
+  - file: System-Magnavox-Odyssey2.md
+    title: Philips Videopac
+    category: Consoles/Portables
+    url: System-Magnavox-Odyssey2
   - file: System-Sony-PlayStation.md
     title: Sony PlayStation
     category: Consoles/Portables
