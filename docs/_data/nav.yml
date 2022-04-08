@@ -145,6 +145,10 @@ pages:
     title: NEC PC Engine
     category: Consoles/Portables
     url: System-NEC-PCEngine
+  - file: System-NEC-PCFX.md
+    title: NEC PC-FX
+    category: Consoles/Portables
+    url: System-NEC-PCFX
   - file: System-Game-Boy-Advance.md
     title: Nintendo Game Boy Advance
     category: Consoles/Portables
