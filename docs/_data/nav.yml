@@ -93,6 +93,10 @@ pages:
     title: Sega Naomi
     category: Arcade
     url: System-Naomi
+  - file: System-Atari-5200.md
+    title: Atari 5200
+    category: Consoles/Portables
+    url: System-Atari-5200
   - file: System-Bandai-Wonderswan.md
     title: Bandai Wonderswan (Color)
     category: Consoles/Portables
