@@ -64,9 +64,9 @@ Please note that MAME and FinalBurn Neo screen aspect ratios are not optimized, 
 |[Nintendo<br/>Famicom](System-Nintendo-Famicom)|**nestopia**<br />fceumm<br />quicknes|famicom|.nes .unif .unf .zip .7z|Good|Good|
 |[Nintendo<br/>Famicom Disk System](System-Nintendo-Famicom#famicom-disk-system-fds-overview)|**nestopia**<br />fceumm<br />quicknes|fds|.fds .zip .7z|Good|Good|
 |Nintendo<br/>Game & Watch|**gw**|gameandwatch|.mgw .zip .7z|Good|Good|
-|Nintendo<br/>Game Boy|**gambatte**<br />sameboy<br />gearboy<br />tgbdual<br />mgba<br />vbam|gb<br/>gbh (hacks)|.gb .gbc .zip .7z|Good|Good|
+|[Nintendo<br/>Game Boy](System-Nintendo-GameBoy)|**gambatte**<br />sameboy<br />gearboy<br />tgbdual<br />mgba<br />vbam|gb<br/>gbh (hacks)|.gb .gbc .zip .7z|Good|Good|
 |[Nintendo<br/>Game Boy Advance](System-Game-Boy-Advance)|**mgba**<br />beetle_gba<br />gpsp<br />vbam<br />vba_next|gba<br/>gbah (hacks)|.gba .zip .7z|Good|Good|
-|Nintendo<br/>Game Boy Color|**gambatte**<br />sameboy<br />gearboy<br />tgbdual<br />mgba<br />vbam|gbc<br/>gbch (hacks)|.gbc .gb .zip .7z|Good|Good|
+|[Nintendo<br/>Game Boy Color](System-Nintendo-GameBoy#gbc-overview)|**gambatte**<br />sameboy<br />gearboy<br />tgbdual<br />mgba<br />vbam|gbc<br/>gbch (hacks)|.gbc .gb .zip .7z|Good|Good|
 |[Nintendo<br/>N64](System-N64)|mupen64plus<br />mupen64plus_next<br />**parallel_n64**<br />parallel_n64_gln64<br />mupen64plussa_glide64mk2<br />mupen64plussa_rice|n64|.z64 .n64 .v64 .zip .7z|Mixed: Some games run well, others are unplayable|Mixed: Some games run well, others are unplayable|
 |Nintendo<br/>NDS|**drastic**|nds|.nds .zip|Mixed: 2D Games almost fully playable|Mixed: 2D Games almost fully playable|
 |[Nintendo<br/>NES](System-Nintendo-Famicom)|**nestopia**<br />fceumm<br />quicknes|nes<br/>nesh (hacks)|.nes .unif .unf .zip .7z|Good|Good|
