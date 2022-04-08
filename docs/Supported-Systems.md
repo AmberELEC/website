@@ -55,12 +55,12 @@ Please note that MAME and FinalBurn Neo screen aspect ratios are not optimized, 
 |[Hartung<br />Game Master](System-Hartung-GameMaster)|**mame**|gamemaster|.bin .zip .7z|Good|Good|
 |[Mattel<br/>Intellivision](System-Mattel-Intellivision)|**freeintv**|intellivision|.int .bin .rom .zip .7z|Good|Good|
 |Milton Bradley<br/>Vectrex|**vecx**|vectrex|.bin .gam .vec .zip .7z|Good|Good|
-|NEC<br/>PC Engine|**beetle_pce_fast**<br />beetle_supergrafx|pcengine|.pce .bin .zip .7z|Good|Good|
-|NEC<br/>PC Engine CD|**beetle_pce_fast**<br />beetle_supergrafx|pcenginecd|.cue .ccd .chd .toc .m3u|Good|Good|
+|[NEC<br/>PC Engine](System-NEC-PCEngine)|**beetle_pce_fast**<br />beetle_supergrafx|pcengine|.pce .bin .zip .7z|Good|Good|
+|[NEC<br/>PC Engine CD](System-NEC-PCEngine#cd-addon-overview)|**beetle_pce_fast**<br />beetle_supergrafx|pcenginecd|.cue .ccd .chd .toc .m3u|Good|Good|
 |NEC<br/>PC-FX|**beetle_pcfx**|pcfx|.chd .cue .ccd .toc|Bad: Only low performance|Bad: Only low performance|
-|NEC<br/>SuperGrafx|**beetle_supergrafx**|sgfx|.pce .sgx .cue .ccd .chd .zip .7z|Good|Good|
-|NEC<br/>TurboGrafx 16|**beetle_pce_fast**<br />beetle_supergrafx|tg16|.pce .bin .zip .7z|Good|Good|
-|NEC<br/>TurboGrafx CD|**beetle_pce_fast**<br />beetle_supergrafx|tg16cd|.cue .ccd .chd .toc .m3u|Good|Good|
+|[NEC<br/>SuperGrafx](System-NEC-PCEngine#supergrafx-overview)|**beetle_supergrafx**|sgfx|.pce .sgx .cue .ccd .chd .zip .7z|Good|Good|
+|[NEC<br/>TurboGrafx 16](System-NEC-PCEngine)|**beetle_pce_fast**<br />beetle_supergrafx|tg16|.pce .bin .zip .7z|Good|Good|
+|[NEC<br/>TurboGrafx CD](System-NEC-PCEngine#cd-addon-overview)|**beetle_pce_fast**<br />beetle_supergrafx|tg16cd|.cue .ccd .chd .toc .m3u|Good|Good|
 |Nintendo<br/>Famicom|**nestopia**<br />fceumm<br />quicknes|famicom|.nes .unif .unf .zip .7z|Good|Good|
 |Nintendo<br/>Famicom Disk System|**nestopia**<br />fceumm<br />quicknes|fds|.fds .zip .7z|Good|Good|
 |Nintendo<br/>Game & Watch|**gw**|gameandwatch|.mgw .zip .7z|Good|Good|
