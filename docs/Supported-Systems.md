@@ -53,7 +53,7 @@ Please note that MAME and FinalBurn Neo screen aspect ratios are not optimized, 
 |[Epoch<br />Game Pocket Computer](System-Epoch-GamePocketComputer)|**mame**|gamepocketcomputer|.bin .zip .7z|Good|Good|
 |Fairchild<br/>Channel F|**fairchaf**|channelf|.bin .chf .zip .7z|Good|Good|
 |[Hartung<br />Game Master](System-Hartung-GameMaster)|**mame**|gamemaster|.bin .zip .7z|Good|Good|
-|Mattel<br/>Intellivision|**freeintv**|intellivision|.int .bin .rom .zip .7z|Good|Good|
+|[Mattel<br/>Intellivision](System-Mattel-Intellivision)|**freeintv**|intellivision|.int .bin .rom .zip .7z|Good|Good|
 |Milton Bradley<br/>Vectrex|**vecx**|vectrex|.bin .gam .vec .zip .7z|Good|Good|
 |NEC<br/>PC Engine|**beetle_pce_fast**<br />beetle_supergrafx|pcengine|.pce .bin .zip .7z|Good|Good|
 |NEC<br/>PC Engine CD|**beetle_pce_fast**<br />beetle_supergrafx|pcenginecd|.cue .ccd .chd .toc .m3u|Good|Good|
