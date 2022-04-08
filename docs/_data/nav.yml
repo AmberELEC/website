@@ -165,6 +165,10 @@ pages:
     title: Nintendo N64
     category: Consoles/Portables
     url: System-N64
+  - file: System-Nintendo-PokemonMini.md
+    title: Nintendo Pokémon Mini
+    category: Consoles/Portables
+    url: System-Nintendo-PokemonMini
   - file: System-Super-Nintendo-Entertainment-System.md
     title: Nintendo Super NES
     category: Consoles/Portables
