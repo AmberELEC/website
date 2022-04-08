@@ -149,6 +149,10 @@ pages:
     title: NEC PC-FX
     category: Consoles/Portables
     url: System-NEC-PCFX
+  - file: System-Nintendo-GameBoy.md
+    title: Nintendo Game Boy (Color)
+    category: Consoles/Portables
+    url: System-Nintendo-GameBoy
   - file: System-Game-Boy-Advance.md
     title: Nintendo Game Boy Advance
     category: Consoles/Portables
