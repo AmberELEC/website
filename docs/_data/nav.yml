@@ -141,6 +141,10 @@ pages:
     title: Mattel Intellivision
     category: Consoles/Portables
     url: System-Mattel-Intellivision
+  - file: System-NEC-PCEngine.md
+    title: NEC PC Engine
+    category: Consoles/Portables
+    url: System-NEC-PCEngine
   - file: System-Game-Boy-Advance.md
     title: Nintendo Game Boy Advance
     category: Consoles/Portables
