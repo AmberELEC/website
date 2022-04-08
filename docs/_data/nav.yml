@@ -137,6 +137,10 @@ pages:
     title: Magnavox Odyssey²
     category: Consoles/Portables
     url: System-Magnavox-Odyssey2
+  - file: System-Mattel-Intellivision.md
+    title: Mattel Intellivision
+    category: Consoles/Portables
+    url: System-Mattel-Intellivision
   - file: System-Game-Boy-Advance.md
     title: Nintendo Game Boy Advance
     category: Consoles/Portables
