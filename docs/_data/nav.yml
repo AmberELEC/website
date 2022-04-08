@@ -153,6 +153,10 @@ pages:
     title: Nintendo Game Boy Advance
     category: Consoles/Portables
     url: System-Game-Boy-Advance
+  - file: System-Nintendo-Famicom.md
+    title: Nintendo NES/Famicom
+    category: Consoles/Portables
+    url: System-Nintendo-Famicom
   - file: System-N64.md
     title: Nintendo N64
     category: Consoles/Portables
