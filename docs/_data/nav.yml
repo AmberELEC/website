@@ -101,6 +101,10 @@ pages:
     title: Atari 7800
     category: Consoles/Portables
     url: System-Atari-7800
+  - file: System-Atari-Lynx.md
+    title: Atari Lynx
+    category: Consoles/Portables
+    url: System-Atari-Lynx
   - file: System-Bandai-Wonderswan.md
     title: Bandai Wonderswan (Color)
     category: Consoles/Portables
