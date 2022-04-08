@@ -105,6 +105,10 @@ pages:
     title: Atari Lynx
     category: Consoles/Portables
     url: System-Atari-Lynx
+  - file: System-Coleco-ColecoVision.md
+    title: Coleco ColecoVision
+    category: Consoles/Portables
+    url: System-Coleco-ColecoVision
   - file: System-Bandai-Wonderswan.md
     title: Bandai Wonderswan (Color)
     category: Consoles/Portables
