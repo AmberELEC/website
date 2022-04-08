@@ -47,7 +47,7 @@ Please note that MAME and FinalBurn Neo screen aspect ratios are not optimized, 
 |[Bandai<br/>Wonderswan Color](System-Bandai-Wonderswan)|**beetle_wswan**|wonderswancolor|.wsc .zip .7z|Good|Good|
 |[Bit Corp<br />Gamate](System-BitCorp-Gamate)|**mame**|gamate|.bin .zip .7z|Good|Good|
 |Casio<br />PV-1000|**mame**|pv1000|.bin .zip .7z|Good|Good|
-|[Coleco<br/>ColecoVision](#System-Coleco-ColecoVision)|**bluemsx**<br />gearcoleco<br />smsplus|coleco|.bin .col .rom .zip .7z|Good|Good|
+|[Coleco<br/>ColecoVision](System-Coleco-ColecoVision)|**bluemsx**<br />gearcoleco<br />smsplus|coleco|.bin .col .rom .zip .7z|Good|Good|
 |Commodore<br/>Amiga CD³²|**puae**<br />uae4arm|amigacd32|.iso .cue .chd .lha|Good|Good|
 |[Entex<br />Adventure Vision](System-Entex-AdventureVision)|**mame**|advision|.bin .zip .7z|Good|Good|
 |[Epoch<br />Game Pocket Computer](System-Epoch-GamePocketComputer)|**mame**|gamepocketcomputer|.bin .zip .7z|Good|Good|
