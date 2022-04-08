@@ -177,6 +177,10 @@ pages:
     title: Nintendo Virtual Boy
     category: Consoles/Portables
     url: System-Virtual-Boy
+  - file: System-Panasonic-3DO.md
+    title: Panasonic 3DO
+    category: Consoles/Portables
+    url: System-Panasonic-3DO
   - file: System-CDI.md
     title: Philips CD-i
     category: Consoles/Portables
