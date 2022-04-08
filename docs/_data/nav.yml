@@ -109,6 +109,10 @@ pages:
     title: Coleco ColecoVision
     category: Consoles/Portables
     url: System-Coleco-ColecoVision
+  - file: System-Commodore-AmigaCD32.md
+    title: Commodore Amiga CD³²
+    category: Consoles/Portables
+    url: System-Commodore-AmigaCD32
   - file: System-Bandai-Wonderswan.md
     title: Bandai Wonderswan (Color)
     category: Consoles/Portables
