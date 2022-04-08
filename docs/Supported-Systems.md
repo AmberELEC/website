@@ -41,7 +41,7 @@ Please note that MAME and FinalBurn Neo screen aspect ratios are not optimized, 
 |Atari<br/>2600|**stella-2014**<br />stella|atari2600|.a26 .bin .zip .7z|Good|Good|
 |[Atari<br/>5200](System-Atari-5200)|**a5200**<br />atari800|atari5200|.rom .xfd .atr .atx .cdm .cas .car .bin .a52 .xex .zip .7z|Good|Good|
 |[Atari<br/>7800](System-Atari-7800)|**prosystem**<br />mame|atari7800|.a78 .bin .zip .7z|Good|Good|
-|Atari<br/>Lynx|**handy**<br />beetle_lynx|atarilynx|.lnx .o .zip .7z|Good|Good|
+|[Atari<br/>Lynx](System-Atari-Lynx)|**handy**<br />beetle_lynx|atarilynx|.lnx .o .zip .7z|Good|Good|
 |[Bandai<br/>SuFami Turbo](System-Super-Nintendo-Entertainment-System#sufami-turbo)|**snes9x**|sufami|.st .zip .7z|Good|Good|
 |[Bandai<br/>Wonderswan](System-Bandai-Wonderswan)|**beetle_wswan**|wonderswan|.ws .zip .7z|Good|Good|
 |[Bandai<br/>Wonderswan Color](System-Bandai-Wonderswan)|**beetle_wswan**|wonderswancolor|.wsc .zip .7z|Good|Good|
