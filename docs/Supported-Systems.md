@@ -78,14 +78,14 @@ Please note that MAME and FinalBurn Neo screen aspect ratios are not optimized, 
 |[Nintendo<br/>Virtual Boy](System-Virtual-Boy)|**beetle_vb**|virtualboy|.vb .zip .7z|Good|Good|
 |[Panasonic<br/>3DO](System-Panasonic-3DO)|**opera**|3do|.iso .cue .bin .chd|Bad: Only low performance|Bad: Only low performance|
 |[Philips<br/>CD-i](System-CDI)|**same_cdi**|cdi|.chd .iso|Mixed|Good|
-|[Sega 32X](System-Sega-Megadrive#32x-overview)|**picodrive**|sega32x|.32x .bin .md .smd .zip .7z|Good|Good|
-|[Sega CD](System-Sega-Megadrive#cd-overview)|**genesis_plus_gx**<br />picodrive|segacd|.chd .cue .iso .m3u|Good|Good|
+|[Sega 32X](System-Sega-MegaDrive#32x-overview)|**picodrive**|sega32x|.32x .bin .md .smd .zip .7z|Good|Good|
+|[Sega CD](System-Sega-MegaDrive#cd-overview)|**genesis_plus_gx**<br />picodrive|segacd|.chd .cue .iso .m3u|Good|Good|
 |[Sega<br/>SG-1000](System-Sega-SG1000)|**gearsystem**<br />genesis_plus_gx<br />picodrive|sg-1000|.bin .sg .zip .7z|Good|Good|
 |[Sega<br/>Game Gear](System-Sega-GameGear)|**gearsystem**<br />genesis_plus_gx<br />picodrive<br />smsplus|gamegear<br/>gamegearh (hacks)|.gg .bin .zip .7z|Good|Good|
-|[Sega<br/>Genesis](System-Sega-Megadrive)|**genesis_plus_gx**<br />genesis_plus_gx_wide<br />picodrive|genesis<br/>genh (hacks)|.gen .md .sg .smd .bin .zip .7z|Good|Good|
+|[Sega<br/>Genesis](System-Sega-MegaDrive)|**genesis_plus_gx**<br />genesis_plus_gx_wide<br />picodrive|genesis<br/>genh (hacks)|.gen .md .sg .smd .bin .zip .7z|Good|Good|
 |[Sega<br/>Master System](System-Sega-MasterSystem)|**gearsystem**<br />genesis_plus_gx<br />picodrive<br />smsplus|mastersystem|.sms .bin .zip .7z|Good|Good|
-|[Sega<br/>Mega-CD](System-Sega-Megadrive#cd-overview)|**genesis_plus_gx**<br />picodrive|megacd|.chd .cue .iso .m3u|Good|Good|
-|[Sega<br/>Mega Drive](System-Sega-Megadrive)|**genesis_plus_gx**<br />genesis_plus_gx_wide<br />picodrive|megadrive<br />megadrive-japan|.gen .bin .md .sg .smd .zip .7z|Good|Good|
+|[Sega<br/>Mega-CD](System-Sega-MegaDrive#cd-overview)|**genesis_plus_gx**<br />picodrive|megacd|.chd .cue .iso .m3u|Good|Good|
+|[Sega<br/>Mega Drive](System-Sega-MegaDrive)|**genesis_plus_gx**<br />genesis_plus_gx_wide<br />picodrive|megadrive<br />megadrive-japan|.gen .bin .md .sg .smd .zip .7z|Good|Good|
 |Sega<br/>Saturn|**yabasanshiroSA**|saturn|.cue .iso .chd|Mixed: Almost any game is fully playable, but not at full speed|Good|
 |Sega<br/>Dreamcast|**flycast**|dreamcast|.cdi .gdi .chd .m3u|Mixed: Some games run well, others are unplayable|Mixed: Some games run well, others are unplayable|
 |SNK<br/>Neo Geo|**fbneo**<br />mame2003_plus<br />fbalpha2012<br />fbalpha2019<br />mame2010<br />mame2015<br />mame|neogeo|.7z .zip|Good|Good|
