@@ -25,7 +25,7 @@ Log files can be very helpful to debugging. AmberELEC writes log files to a temp
 
 Log files are stored in `/tmp/logs`. The most helpful log files you'll find are `exec.log` and `es_log.txt`. The files `es_launch_stdout.log` and `es_log_stderr.log` may also be helpful.
 
-You can copy the files to your computer using SFTP or SCP, or read them from the device using SSH (see [Accessing the Handheld Over a Network](Getting-to-Know-AmberELEC#accessing-the-handheld-over-a-network)). You can also read them directly on the device using 351Files, but the log files are generally long and contain a lot of useless information, so this is usually useful only when there is no other option.
+You can copy the files to your computer using SFTP or SCP, or read them from the device using SSH (see [Accessing the Handheld Over a Network](Getting-to-Know-AmberELEC#accessing-the-handheld-over-a-network)). You can also access them as a Windows Share by pressing `win+r` on your keyboard and typing `\\<IP>\logs`. If you don't know your device's IP address, you can find it by pressing start on the device and going into `Network Settings`. Finally, you can read them directly on the device using 351Files, but the log files are generally long and contain a lot of useless information, so this is usually useful only when there is no other option.
 
 When looking through the logs, the quickest way to find what you're looking for is usually to do a search on one of the words from the title of the game you were trying to play. This helps you get directly to the relevant section of the log.
 
