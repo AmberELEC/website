@@ -233,6 +233,10 @@ pages:
     title: SNK Neo Geo
     category: Consoles/Portables
     url: System-Neo-Geo
+  - file: System-SNK-NeoGeoCD.md
+    title: SNK Neo Geo CD
+    category: Consoles/Portables
+    url: System-SNK-NeoGeoCD
   - file: System-TimeTop-GameKing.md
     title: TimeTop GameKing
     category: Consoles/Portables

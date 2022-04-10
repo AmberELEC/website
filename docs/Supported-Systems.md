@@ -89,7 +89,7 @@ Please note that MAME and FinalBurn Neo screen aspect ratios are not optimized, 
 |[Sega<br/>Saturn](System-Sega-Saturn)|**yabasanshiroSA**|saturn|.cue .iso .chd|Mixed: Almost any game is fully playable, but not at full speed|Good|
 |[Sega<br/>Dreamcast](System-Sega-Dreamcast)|**flycast**|dreamcast|.cdi .gdi .chd .m3u|Mixed: Some games run well, others are unplayable|Mixed: Some games run well, others are unplayable|
 |[SNK<br/>Neo Geo](System-Neo-Geo)|**fbneo**<br />mame2003_plus<br />fbalpha2012<br />fbalpha2019<br />mame2010<br />mame2015<br />mame|neogeo|.7z .zip|Good|Good|
-|SNK<br/>Neo Geo CD|**neocd**<br />fbneo|neocd|.chd .cue .iso|Good|Good|
+|[SNK<br/>Neo Geo CD](System-SNK-NeoGeoCD)|**neocd**<br />fbneo|neocd|.chd .cue .iso|Good|Good|
 |SNK<br/>Neo Geo Pocket|**beetle_ngp**<br />race|ngp|.ngp .ngc .zip .7z|Good|Good|
 |SNK<br/>Neo Geo Pocket Color|**beetle_ngp**<br />race|ngpc|.ngc .zip .7z|Good|Good|
 |[Sony<br/>PlayStation](System-Sony-PlayStation)|**pcsx_rearmed**<br />duckstation<br />swanstation|psx|.bin .cue .img .pbp .mdf .toc .cbn .m3u .ccd .chd .iso|Good|Good|
