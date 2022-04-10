@@ -95,7 +95,6 @@ Please note that MAME and FinalBurn Neo screen aspect ratios are not optimized, 
 |[Sony<br/>PlayStation](System-Sony-PlayStation)|**pcsx_rearmed**<br />duckstation<br />swanstation|psx|.bin .cue .img .pbp .mdf .toc .cbn .m3u .ccd .chd .iso|Good|Good|
 |[Sony<br/>PSP](System-Sony-PlayStation-Portable)|**PPSSPPSDL**<br />ppsspp|psp|.cso .pbp .iso|Mixed: Many games run well, especially with frameskip. Some games are unplayable|Mixed: Many games run well, especially with frameskip. Some games are unplayable|
 |[Sony<br/>PSP Minis](System-Sony-PlayStation-Portable)|**PPSSPPSDL**<br />ppsspp| pspminis |.cso .pbp .iso|Mixed: Most games are less demanding than PSP, and run well, though a few may run badly|Mixed: Most games are less demanding than PSP, and run well, though a few may run badly|
-|Sun Microsystems<br/>J2ME|**freej2me**|j2me|.jar|Good: Quite smooth playing|Good: Quite smooth playing|
 |[TimeTop<br />GameKing](System-TimeTop-GameKing)|**mame**|gameking|.bin .gk .zip .7z|Mixed|Good|
 |Watara<br/>Supervision|**potator**|supervision|.sv .zip .7z|Good|Good|
 |Welback Holdings<br/>Mega Duck|**sameduck**|megaduck|.bin .zip .7z|Good|Good|
@@ -148,6 +147,7 @@ Please note that MAME and FinalBurn Neo screen aspect ratios are not optimized, 
 |OpenBOR|**openbor**|openbor|.pak|||
 |[ScummVM](System-ScummVM)|**scummvmsa**<br />scummvm|scummvm|.scummvm|||
 |Solarus|**solarus**|solarus|.solarus|||
+|[Sun Microsystems<br/>J2ME](System-Sun-J2ME)|**freej2me**|j2me|.jar|Good: Quite smooth playing|Good: Quite smooth playing|
 |[Wolfenstein 3D](System-Wolfenstein-3D)|**ecwolf**|ecwolf|[.ecwolf](System-Wolfenstein-3D#how-to-create-a-ecwolf-file)|||
 
 # BIOS 
