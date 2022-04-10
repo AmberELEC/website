@@ -201,6 +201,10 @@ pages:
     title: Sega 32X
     category: Consoles/Portables
     url: System-Sega-MegaDrive#32x-overview
+  - file: System-Sega-Dreamcast.md
+    title: Sega Dreamcast
+    category: Consoles/Portables
+    url: System-Sega-Dreamcast
   - file: System-Sega-GameGear.md
     title: Sega Game Gear
     category: Consoles/Portables
@@ -217,10 +221,18 @@ pages:
     title: Sega Mega Drive/Genesis
     category: Consoles/Portables
     url: System-Sega-MegaDrive
+  - file: System-Sega-Saturn.md
+    title: Sega Saturn
+    category: Consoles/Portables
+    url: System-Sega-Saturn
   - file: System-Sega-SG1000.md
     title: Sega SG-1000
     category: Consoles/Portables
     url: System-Sega-SG1000
+  - file: System-Neo-Geo.md
+    title: SNK Neo Geo
+    category: Consoles/Portables
+    url: System-Neo-Geo
   - file: System-TimeTop-GameKing.md
     title: TimeTop GameKing
     category: Consoles/Portables
