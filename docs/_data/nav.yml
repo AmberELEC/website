@@ -197,6 +197,30 @@ pages:
     title: Sony PSP (Minis)
     category: Consoles/Portables
     url: System-Sony-PlayStation-Portable
+  - file: System-Sega-MegaDrive.md
+    title: Sega 32X
+    category: Consoles/Portables
+    url: System-Sega-MegaDrive#32x-overview
+  - file: System-Sega-GameGear.md
+    title: Sega Game Gear
+    category: Consoles/Portables
+    url: System-Sega-GameGear
+  - file: System-Sega-MasterSystem.md
+    title: Sega Master System
+    category: Consoles/Portables
+    url: System-Sega-MasterSystem
+  - file: System-Sega-MegaDrive.md
+    title: Sega CD/Mega-CD
+    category: Consoles/Portables
+    url: System-Sega-MegaDrive#mega-cd-overview
+  - file: System-Sega-MegaDrive.md
+    title: Sega Mega Drive/Genesis
+    category: Consoles/Portables
+    url: System-Sega-MegaDrive
+  - file: System-Sega-SG1000.md
+    title: Sega SG-1000
+    category: Consoles/Portables
+    url: System-Sega-SG1000
   - file: System-TimeTop-GameKing.md
     title: TimeTop GameKing
     category: Consoles/Portables
