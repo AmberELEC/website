@@ -21,6 +21,8 @@ The **bold** one is the default core/emulator.
 
 ## Arcade
 
+Arcade emulation is complicated! Please see the [Arcade Emulation Overview](Arcade) for help getting started
+
 {: .systemtable }
 |Manufacturer/System|Core/Emu|ROM Path|Extension|RG351|RG552|
 |---|---|---|---|---|---|
