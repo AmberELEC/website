@@ -37,6 +37,8 @@ For arcade emulators, a game is represented by a zip file. That zip file contain
 
 Many arcade games used shared components, either because they shared a common arcade board design, or because they were a new version of an already existing game. Because of this, there are many roms that are used by multiple games. Storing a rom in every game zip that needs it causes the size of the collection to rise. Because of this, MAME and other arcade emulators have built a system where it doesn't matter if a rom is located in a particular zip, just that the rom is found somewhere inside a collection. This allows games to be stored more compactly, and with less information duplication. It also makes arcade emulation more difficult to understand than some console emulation.
 
+TLDR; an arcade rom is an image from a single physical arcade chip, and each arcade game contains many roms.
+
 ### Understanding Romsets
 
 Each version of MAME or FBNeo/FBAlpha contains a list of all the games it can play and all the roms that game needs to be played. When we say something about the "MAME 0.241 romset", the "MAME 2003-plus romset", or the "FBNeo romset", we're talking about the full set of roms needed to play all the games that can be played using that emulator.
@@ -44,6 +46,8 @@ Each version of MAME or FBNeo/FBAlpha contains a list of all the games it can pl
 If you don't want to use a full set of roms, you can create your own romset that only contains some of the games in the full romset. In fact, you can create a romset that contains just the roms needed to play a single game.
 
 One popular type of romset is 1G1R, or "One Game One Rom". This is a set that only contains one version of each game so that your list isn't cluttered up by clones and different game versions. These romsets still need to work with the emulator you're running, so the easiest way to get a 1G1R romset is to start with a full romset and use a [romset management tool](#romset-management-tools) and a parent/clone dat to filter it down.
+
+TLDR; any collection of roms is a "romset". Romsets are emulator specific.
 
 ### Dat Files
 
@@ -55,6 +59,8 @@ While dat files are most useful for managing the complexity of arcade romsets, o
 
 While there are a number of different formats for dat files, the most compatible and useful one these days is the parent/clone XML file.
 
+TLDR; dat files list games and the roms they need to run.
+
 ### Romset Types
 
 Because arcade romsets are so complex, people have come up with three organization types for storing roms. These types are non-merged, merged, and split.
@@ -62,6 +68,8 @@ Because arcade romsets are so complex, people have come up with three organizati
 - **Non-Merged**: Non-Merged romsets are romsets where games each have their own zip, and all of the duplicate rom files are included in each game zip. This means that there aren't parent dependencies for roms. This romset is ideal for a small curated collection, but takes up more space than the other two types. There are different levels of Non-Merged: Full non-merged (each rom zip contains everything needed to run, including bios and sample files), regular non-merged which exclude sample and bios files, and various levels in between.
 - **Merged**: Merged romsets are romsets where parents and children are stored together in a single zip file. This is the most common format for roms to be stored in, since it takes up the least amount of space and is able to represent collections with the fewest number of zip files. It's important to know that there are also rom packages for "devices", which are common arcade chipsets, that are not included with a merged rom. Because of this, merged roms often won't launch on their own. If you have a merged rom that won't launch, please check to make sure that you have all necessary bios and device zips for the rom, as well as any sample files it may need. Merged roms aren't ideal for ES systems because there isn't an easy way to choose which rom version to launch from a merged rom. It may be ideal for a 1G1R (one game one rom) romset.
 - **Split**: Split romsets are romsets where each game has its own zip file, but children only contain the files that are different from their parents. This can be ideal for an ES system that assumes that one file is one game because it will take up less space than a non-merged set, but you will need to be careful that all dependencies are present.
+
+TLDR; use non-merged if you don't want every game in the full romset, split if you want every version of every game
 
 ### Romset Management Tools
 
