@@ -43,6 +43,8 @@ One popular type of romset is 1G1R, or "One Game One Rom". This is a set that on
 
 Dat files are files that are used to list and organize romsets. Each version of each emulator has its own dat file, which is a specification of the full romset for that emulator. Parent/clone (P/C) dat files are dat files that contain parent-child relationships between games, and thus can be used to generate a 1G1R romset.
 
+Dat files for individual emulators and romsets can be found on their respective [Emulator Specific Documentation](#emulator-specific-documentation).
+
 While dat files are most useful for managing the complexity of arcade romsets, once you've learned to work with them you can use them for console systems as well. [Dat-o-matic](https://datomatic.no-intro.org) is a website that contains no-intro dats for all different systems, in all different formats. Any P/C XML dat from there can be used to filter a console's games down to a 1G1R romset using clrmamepro or Rom Center.
 
 While there are a number of different formats for dat files, the most compatible and useful one these days is the parent/clone XML file.
