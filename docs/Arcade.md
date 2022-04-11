@@ -3,6 +3,12 @@
 - [Overview](#overview)
 - [Emulator Specific Documentation](#emulator-specific-documentation)
 - [Romsets](#romsets)
+  - [Understanding Roms](#understanding-roms)
+  - [Understanding Romsets](#understanding-romsets)
+  - [Dat Files](#dat-files)
+  - [Romset Types](#romset-types)
+  - [Romset Management Tools](#romset-management-tools)
+  - [Merged Romset Workarounds](#merged-romset-workarounds)
 
 ## Overview
 
@@ -37,7 +43,7 @@ Each version of MAME or FBNeo/FBAlpha contains a list of all the games it can pl
 
 If you don't want to use a full set of roms, you can create your own romset that only contains some of the games in the full romset. In fact, you can create a romset that contains just the roms needed to play a single game.
 
-One popular type of romset is 1G1R, or "One Game One Rom". This is a set that only contains one version of each game so that your list isn't cluttered up by clones and different game versions. These romsets still need to work with the emulator you're running, so the easiest way to get a 1G1R romset is to start with a full romset and use a [romset management tool](#romset-management) and a parent/clone dat to filter it down.
+One popular type of romset is 1G1R, or "One Game One Rom". This is a set that only contains one version of each game so that your list isn't cluttered up by clones and different game versions. These romsets still need to work with the emulator you're running, so the easiest way to get a 1G1R romset is to start with a full romset and use a [romset management tool](#romset-management-tools) and a parent/clone dat to filter it down.
 
 ### Dat Files
 
@@ -57,7 +63,7 @@ Because arcade romsets are so complex, people have come up with three organizati
 - **Merged**: Merged romsets are romsets where parents and children are stored together in a single zip file. This is the most common format for roms to be stored in, since it takes up the least amount of space and is able to represent collections with the fewest number of zip files. It's important to know that there are also rom packages for "devices", which are common arcade chipsets, that are not included with a merged rom. Because of this, merged roms often won't launch on their own. If you have a merged rom that won't launch, please check to make sure that you have all necessary bios and device zips for the rom, as well as any sample files it may need. Merged roms aren't ideal for ES systems because there isn't an easy way to choose which rom version to launch from a merged rom. It may be ideal for a 1G1R (one game one rom) romset.
 - **Split**: Split romsets are romsets where each game has its own zip file, but children only contain the files that are different from their parents. This can be ideal for an ES system that assumes that one file is one game because it will take up less space than a non-merged set, but you will need to be careful that all dependencies are present.
 
-### Romset management
+### Romset Management Tools
 
 Building ROM Sets can be complicated. There are a number of tools available to make building ROM Sets easier.
 
