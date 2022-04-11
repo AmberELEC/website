@@ -4,9 +4,22 @@
 @import 'bootstrap/bootstrap';
 @import "{{ site.theme }}";
 
+$color-amber: #FFBF00;
+$color-amber-mid: #D49429;
+$color-amber-dark: #844B1F;
+$color-console-green: #B4E853;
+$color-vivid-sky-blue: #42CAFD;
+$color-cadet-blue: #66B3BA;
+$color-pale-pink: #F0D2D1;
+
+a {
+  color: $color-vivid-sky-blue;
+}
+
 header {
   background: none;
   padding: 60px 0 20px 0;
+  border-bottom: 1px dashed $color-amber;
 }
 
 header h1 {
@@ -84,7 +97,7 @@ b, strong {
 }
 
 code.highlighter-rouge {
-  color: #ff9ba2;
+  color: $color-pale-pink;
 }
 
 .btn {
@@ -171,7 +184,7 @@ code.highlighter-rouge {
   @extend .btn;
   @extend .btn-dark;
 
-  background-color: #844b1f;
+  background-color: $color-amber-dark;
   border: none;
   border-radius: 0;
   font-family: Helvetica, Arial, sans-serif;
@@ -182,7 +195,7 @@ code.highlighter-rouge {
   &:hover {
     @extend .btn-dark:hover;
     border: none;
-    background-color: #d49429;
+    background-color: $color-amber-mid;
   }
 
   &::before {
@@ -209,7 +222,7 @@ a.nav-link.nav-download {
   justify-content: center;
   height: 100%;
   width: 100%;
-  background-image: linear-gradient(180deg, #ffbf00, transparent);
+  background-image: linear-gradient(180deg, $color-amber, transparent);
 }
 
 header .bg-dark.show, header .bg-dark.collapsing {
