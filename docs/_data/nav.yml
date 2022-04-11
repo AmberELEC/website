@@ -41,6 +41,10 @@ pages:
     title: Hardware Issues
     category: Guides
     url: Hardware-Issues
+  - file: Arcade.md
+    title: Arcade Emulation
+    category: Guides
+    url: Arcade
   - file: Disk-Roms.md
     title: CD and DVD ROMs
     category: Guides
@@ -65,10 +69,6 @@ pages:
     title: Supported Systems
     category: Systems
     url: Supported-Systems
-  - file: Arcade.md
-    title: Arcade
-    category: Arcade
-    url: Arcade
   - file: System-MAME.md
     title: MAME
     category: Arcade
