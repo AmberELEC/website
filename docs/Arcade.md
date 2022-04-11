@@ -69,6 +69,7 @@ Building ROM Sets can be complicated. There are a number of tools available to m
 
 - [Romcenter](https://www.romcenter.com/) - Romcenter is a GUI driven tool for curating ROM sets. It allows you to load in XML dat files and rebuild your collection into your preferred romset structure. It is a little simpler to get started with than clrmamepro
 - [clrmamepro](https://mamedev.emulab.it/clrmamepro/) - clrmamepro is the standard tool for managing ROM sets. It is very powerful, but also a bit hard to get started with
+- [JRomManager](https://github.com/optyfr/JRomManager) - A rom manager written entirely in Java. Can be used on OSX and Linux
 - [ROMLister](https://www.waste.org/~winkles/ROMLister/) - ROMLister is a tool to filter ROM sets based on a wide variety of ROM metadata
 
 ### Merged Romset Workarounds
