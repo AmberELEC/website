@@ -2,7 +2,7 @@
 
 - [Overview](#overview)
 - [Emulator Specific Documentation](#emulator-specific-documentation)
-- [Romsets](#romsets)
+- [Arcade Emulation Primer](#primer)
   - [Understanding Roms](#understanding-roms)
   - [Understanding Romsets](#understanding-romsets)
   - [Dat Files](#dat-files)
@@ -16,7 +16,7 @@ Arcade emulation is more complicated than most other emulation. For most other e
 
 The short version is that you should use "Non-Merged" romsets that are built for the specific version of the emulator that you're going to run them on.
 
-If you want a better understanding of how arcade emulation works, the MAME [About ROMs and Sets](https://docs.mamedev.org/usingmame/aboutromsets.html) documentation explains the subject in detail. Specifically, the [Parents, Clones, Splitting, and Merging](https://docs.mamedev.org/usingmame/aboutromsets.html#parents-clones-splitting-and-merging) section should explain why you want to use "Non-Merged" romsets.
+If you want a better understanding of how arcade emulation works, read the below [Arcade Emulation Primer](#primer), then check out the MAME [About ROMs and Sets](https://docs.mamedev.org/usingmame/aboutromsets.html) documentation. Specifically, the [Parents, Clones, Splitting, and Merging](https://docs.mamedev.org/usingmame/aboutromsets.html#parents-clones-splitting-and-merging) section should explain why you want to use "Non-Merged" romsets.
   
 ## Emulator Specific Documentation
 
@@ -27,7 +27,7 @@ If you want a better understanding of how arcade emulation works, the MAME [Abou
 - [Atomiswave](System-Atomiswave)
 - [Naomi](System-Naomi)
 
-## Romsets
+## Primer
 
 ### Understanding Roms
 
