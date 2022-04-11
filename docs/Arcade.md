@@ -62,3 +62,11 @@ Building ROM Sets can be complicated. There are a number of tools available to m
 - [Romcenter](https://www.romcenter.com/) - Romcenter is a GUI driven tool for curating ROM sets. It allows you to load in XML dat files and rebuild your collection into your preferred romset structure. It is a little simpler to get started with than clrmamepro
 - [clrmamepro](https://mamedev.emulab.it/clrmamepro/) - clrmamepro is the standard tool for managing ROM sets. It is very powerful, but also a bit hard to get started with
 - [ROMLister](https://www.waste.org/~winkles/ROMLister/) - ROMLister is a tool to filter ROM sets based on a wide variety of ROM metadata
+
+### Merged Romset Workarounds
+
+Merged romsets can cause issues with frontends that treat one file as one game because a single zip file can contain multiple versions of a game. That said, there are a couple workarounds that you can use if you want to have your collection in this romset type.
+
+The game that's launched is based on the name of the zip file. Because of this, if you want ES to launch a child rom instead of the parent rom, you can rename the merged zip file to match the child rom's name instead of the parent rom's name.
+
+In addition, if you want to be able to launch multiple of the versions, you can add dummy files to your directory with the zip name of the rom that you want to be able to launch. Please see [this libretro thread](https://forums.libretro.com/t/how-to-play-clones-of-merged-mame-roms/35695/21) for more details.
