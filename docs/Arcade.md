@@ -41,7 +41,7 @@ TLDR; an arcade rom is an image from a single physical arcade chip, and each arc
 
 ### Understanding Romsets
 
-Each version of MAME or FBNeo/FBAlpha contains a list of all the games it can play and all the roms that game needs to be played. When we say something about the "MAME 0.241 romset", the "MAME 2003-plus romset", or the "FBNeo romset", we're talking about the full set of roms needed to play all the games that can be played using that emulator.
+Each version of MAME or FBNeo/FBAlpha contains a list of all the games it can play and all the roms that game needs to be played. When we say something about the "MAME 0.242 romset", the "MAME 2003-plus romset", or the "FBNeo romset", we're talking about the full set of roms needed to play all the games that can be played using that emulator.
 
 If you don't want to use a full set of roms, you can create your own romset that only contains some of the games in the full romset. In fact, you can create a romset that contains just the roms needed to play a single game.
 
