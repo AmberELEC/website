@@ -26,8 +26,7 @@ Arcade emulation is complicated! Please see the [Arcade Emulation Overview](Arca
 {: .systemtable }
 |Manufacturer/System|Core/Emu|ROM Path|Extension|RG351|RG552|
 |---|---|---|---|---|---|
-|[Arcade](Arcade)|**mame2003_plus**<br />mame2000<br />mame2010<br />mame2015<br />mame<br />fbneo<br />fbalpha2012<br />fbalpha2019<br />AdvanceMame|arcade|.zip .7z|||
-|[MAME](System-MAME)|**mame2003_plus**<br />AdvanceMame<br />mame2000<br />mame2010<br />mame2015<br />mame<br />fbneo<br />fbalpha2012<br />fbalpha2019|mame|.zip .7z|Good: MAME2003-plus works well, other romsets are mixed|Good|
+|[MAME](System-MAME)|**mame2003_plus**<br />AdvanceMame<br />mame2000<br />mame2010<br />mame2015<br />mame<br />fbneo<br />fbalpha2012<br />fbalpha2019|mame<br />arcade|.zip .7z|Good: MAME2003-plus works well, other romsets are mixed|Good|
 |[FinalBurn Neo](System-FBNeo)|**fbneo**<br />mame2003_plus<br />fbalpha2012<br />fbalpha2019<br />mame2010<br />mame2015<br />mame|fbneo|.zip .7z|Good|Good|
 |[LaserDisc](System-Laserdisc)|**hypseus-singe**|laserdisc|.daphne or .ld (folder extension)|Good|Good|
 |[Sammy<br/>Atomiswave](System-Atomiswave)|**flycast**|atomiswave|.lst .bin .dat .zip .7z|Good|Good|
