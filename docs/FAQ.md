@@ -176,6 +176,13 @@ AmberELEC is like a console.  Everything, except games (your GAMES partition/ROM
 
 ***
 
+{: #kiosk }
+**Q:** [![link](images/link-45deg.svg)](#kiosk) I'm stuck in kiosk mode. How do I get out?
+
+**A:** Press start, select "Unlock UI Mode", and then press A A A B A.
+
+***
+
 {: #cps }
 **Q:** [![link](images/link-45deg.svg)](#cps) My CPS games are missing
 
