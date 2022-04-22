@@ -1,6 +1,6 @@
 # Sun Microsystems J2ME
 
-## NES Overview
+## Overview
 
 - Core: `freej2me`
 - Path: `j2me`
