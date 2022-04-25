@@ -72,13 +72,13 @@ Game crashes are rare, but if you find that you cannot leave an emulator using t
 Unlike the RG351P, the RG351V and RG351MP have volume buttons instead of a volume wheel.
 - Volume can be changed by holding down the volume buttons.
 - As you hold longer, the speed of volume change increases.
-- `L3 + R1/L1` serve as 'backup' hotkeys for adjusting volume on all devices. They cannot be held down and must be pressed repeatedly
+- `L3 + R2/L2` serve as 'backup' hotkeys for adjusting volume on all devices. They cannot be held down and must be pressed repeatedly
 
 ### Brightness Hotkeys
 On devices which have volume buttons (RG351V and RG351MP), brightness can be changed by holding down the `Fn` (RG351V) or `R3` (RG351MP) buttons along with the volume buttons.
 - `Vol +` increases brightness and `Vol -` decreases.
 - As you hold longer, the speed of brightness change increases.
-- `L3 + R2/L2` serve as 'backup' hotkeys for adjusting brightness on all devices. They cannot be held down and must be pressed repeatedly.
+- `L3 + R1/L1` serve as 'backup' hotkeys for adjusting brightness on all devices. They cannot be held down and must be pressed repeatedly.
 
 ## Adding Games
 
