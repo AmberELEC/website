@@ -1,5 +1,18 @@
 # Transferring files to/from your RG Device
 
+- [Direct transfer (SD Card onto your Computer)](#direct-transfer-sd-card-onto-your-computer)
+  - [Windows PC](#windows-pc)
+  - [Mac OS X](#mac-os-x)
+  - [Linux](#linux)
+- [Network transfer (Via WIFI or OTG Network adapters)](#network-transfer-via-wifi-or-otg-network-adapters)
+  - [Windows PC – Samba (Easiest)](#windows-pc--samba-easiest)
+  - [Windows PC – SFTP (Harder)](#windows-pc--sftp-harder)
+    - [Installing FileZilla](#installing-filezilla)
+    - [Using FileZilla](#using-filezilla)
+  - [MacOS X – Samba (Easiest)](#macos-x--samba-easiest)
+  - [MacOS X – Filezilla (harder)](#macos-x--filezilla-harder)
+  - [Android – AndFTP (harder)](#android--andftp-harder)
+
 ## Direct transfer (SD Card onto your Computer)
 
 This is by far the easiest method. First off, make sure your RG Device is turned off fully (Check the LED indicator, if it’s off, your device is off). 
