@@ -154,8 +154,8 @@ Installation process is [simple and covered everywhere](https://www.youtube.com/
 
 First thing’s first, you need to install [andFTP](https://play.google.com/store/apps/details?id=lysesoft.andftp) and then:
 
-| ![link](images/transferring-files/22-step-1.png) Step 1 : Press the (+) button on top | ![link](images/transferring-files/23-step-2.png) Step 2 : Fill in the credentials as seen above (password can be either 351elec or amberelec ) | ![link](images/transferring-files/24-step-3.png) Step 3 : Press the save button, give it a name if requested. |
-| ![link](images/transferring-files/25-step-4.png) Step 4 : Find your profile you set up and click on it | ![link](images/transferring-files/26-step-5.png) Step 5 : move your files! |
+| ![link](images/transferring-files/22-step-1.png)<br/>Step 1 : Press the (+) button on top | ![link](images/transferring-files/23-step-2.png)<br/>Step 2 : Fill in the credentials as seen above (password can be either 351elec or amberelec ) | ![link](images/transferring-files/24-step-3.png)<br/>Step 3 : Press the save button, give it a name if requested. |
+| ![link](images/transferring-files/25-step-4.png)<br/>Step 4 : Find your profile you set up and click on it | ![link](images/transferring-files/26-step-5.png)<br/>Step 5 : move your files! |
 
 ![link](images/transferring-files/27-andftp-diagram.png)
 
