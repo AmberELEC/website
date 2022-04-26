@@ -84,7 +84,7 @@ Head on over to [Ninite](https://ninite.com/) and choose ![FileZilla](images/tra
 Open filezilla, and you should be greeted with this screen. While it may be a bit intimidating, don’t worry, it’ll become second nature soon enough.
 First, let’s set the settnigs so we can connect to our RG device! On top of the window you will see a field called "`Host`", "`Username`", "`Password`" and "`Port`". Their values are as follows:
 
-* Host : sftp://<YOUR IP ADDRESS>
+* Host : `sftp://<YOUR IP ADDRESS>`
 	* Example : `sftp://192.168.1.81`
 	* Username : root
 	* Password : `351elec` OR `amberelec`
