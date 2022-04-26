@@ -318,3 +318,26 @@ table.dataTable {
 footer .text-center {
   margin-top: 10px;
 }
+
+#main_content .notebox {
+    color: black;
+    background: white;
+    padding: 0px;
+    border: 1px white solid;
+    margin: 0px;
+    display: inline-block;
+
+    h1 {
+      background: blue;
+      color: white;
+      font-weight: bold;
+      font-size: 24px;
+      padding: 5px;
+      margin: 0px;
+      text-align: center;
+    }
+
+    p {
+      margin: 10px;
+    }
+}
