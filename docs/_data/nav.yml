@@ -41,6 +41,10 @@ pages:
     title: Advanced Topics
     category: Guides
     url: Advanced-Topics
+  - file: Troubleshooting.md
+    title: Troubleshooting
+    category: Guides
+    url: Troubleshooting
   - file: Hardware-Issues.md
     title: Hardware Issues
     category: Guides

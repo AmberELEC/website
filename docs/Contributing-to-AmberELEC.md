@@ -1,7 +1,6 @@
 # Contributing to AmberELEC
 
 * [Reporting Bugs](#reporting-bugs)
-* [Collecting Log Files](#collecting-log-files)
 * [Pre-Release Builds](#pre-release-builds)
 * [Development / PR Builds](#development--pr-builds)
 * [Contributing Code](#contributing-code)
@@ -18,20 +17,6 @@
 * Before reporting an issue with the pre-release build, try reproducing the issue on the current release.  Please mention the results up front when you bring your issue to Discord.  For example: `When I try xyz in pre-release build ABC, something bad happens.  However, when I try xyz in in the latest release, I do not see this problem.  Is this a known issue?`.  Try and keep comments concise and constructive.
 * Check the existing issues to see if your bug has already reported.  If it has been reported, do not open another bug report.  If it is not reported, use a template and fill it out completely.  Issues opened without using the templates will be closed.
 * Be patient, as we are volunteers and working on the project in our spare time.
-
-## Collecting Log Files
-
-Log files can be very helpful to debugging. AmberELEC writes log files to a temporary directory, so you'll need to collect the logs for an event before shutting down your console.
-
-Log files are stored in `/tmp/logs`. The most helpful log files you'll find are `exec.log` and `es_log.txt`. The files `es_launch_stdout.log` and `es_log_stderr.log` may also be helpful.
-
-You can copy the files to your computer using SFTP or SCP, or read them from the device using SSH (see [Accessing the Handheld Over a Network](Getting-to-Know-AmberELEC#accessing-the-handheld-over-a-network)). You can also access them as a Windows Share by pressing `win+r` on your keyboard and typing `\\<IP>\logs`. If you don't know your device's IP address, you can find it by pressing start on the device and going into `Network Settings`. Finally, you can read them directly on the device using 351Files, but the log files are generally long and contain a lot of useless information, so this is usually useful only when there is no other option.
-
-When looking through the logs, the quickest way to find what you're looking for is usually to do a search on one of the words from the title of the game you were trying to play. This helps you get directly to the relevant section of the log.
-
-Since the log files are cleared on every console shutdown, the easiest way to get a log file that's relatively free from unnecessary information is to turn off your console, turn it back on, and do nothing other than triggering the issue before collecting the log. Playing multiple games can add a lot of content to the log files.
-
-The easiest way to share a log file, especially if you don't understand it well enough to parse through it, it to paste the entire file into [pastebin](https://pastebin.com/) and share that. If you are able to locate the problem, sharing a few relevant lines on the Discord may also work, though you may still be asked to provide additional context.
 
 ## Pre-Release Builds
 **IMPORTANT NOTE**: Pre-Release builds are for advanced users to test fixes or explore new functionality. 
