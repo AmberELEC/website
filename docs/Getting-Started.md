@@ -15,6 +15,8 @@ While we recommend sourcing your own rom files, the simplest way to have a fully
 
 Please note that if you're using an RG351V, the bios files go on the same SD card that you store your roms on. This means if you use two SD cards, the bios files should go on SD2.
 
+For more information on transferring files (including BIOS files), please see [Transferring files to/from your RG Device](Transferring-Files).
+
 ## Enable Wifi
 
 Wifi opens up a lot of features on AmberELEC. With wifi, you can install packages and themes, use RetroAchievements, and even play with others online. The RG351P requires an external Wifi adapter, as it doesn't have a wireless card built in.
