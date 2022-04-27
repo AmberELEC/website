@@ -117,7 +117,7 @@ Head on over to [Ninite](https://ninite.com/) and choose ![FileZilla](images/tra
 #### Using FileZilla
 
 {:refdef: .clearfix}
-{: .float-end }
+{: .float-end.filezilla-image }
 ![link](images/transferring-files/12-filezilla-1.png)
 
 Open filezilla, and you should be greeted with this screen. While it may be a bit intimidating, don’t worry, it’ll become second nature soon enough.
