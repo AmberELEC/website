@@ -329,13 +329,35 @@ footer .text-center {
     max-width: 500px;
 
     h1 {
-      background: blue;
+      background: $color-vivid-sky-blue;
       color: white;
       font-weight: bolder;
       font-size: 18px;
       padding: 5px;
       margin: 0px;
       text-align: center;
+    }
+
+    p {
+      margin: 10px;
+    }
+}
+
+#main_content .protip {
+    color: black;
+    background: $color-amber-dark;
+    padding: 0px;
+    border: 4px $color-vivid-sky-blue solid;
+    margin: 0px;
+    display: inline-block;
+
+    h1 {
+      background: $color-vivid-sky-blue;
+      color: white;
+      font-weight: bolder;
+      font-size: 18px;
+      padding: 5px;
+      margin: 0px;
     }
 
     p {

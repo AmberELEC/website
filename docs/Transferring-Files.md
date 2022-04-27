@@ -116,6 +116,10 @@ Head on over to [Ninite](https://ninite.com/) and choose ![FileZilla](images/tra
 
 #### Using FileZilla
 
+{:refdef: .clearfix}
+{: .float-end }
+![link](images/transferring-files/12-filezilla-1.png)
+
 Open filezilla, and you should be greeted with this screen. While it may be a bit intimidating, don’t worry, it’ll become second nature soon enough.
 First, let’s set the settnigs so we can connect to our RG device! On top of the window you will see a field called "`Host`", "`Username`", "`Password`" and "`Port`". Their values are as follows:
 
@@ -125,14 +129,14 @@ First, let’s set the settnigs so we can connect to our RG device! On top of th
 	* Password : `351elec` OR `amberelec`
 		* This will depend on when you flashed your firmware. If you’re here from the 351Elec days, try that password first
 	* Port : (optional) 22
-
-![link](images/transferring-files/12-filezilla-1.png)
+{: refdef }
 
 Now press the "`Quickconnect`" button on the far right, and if everything went well you should see this:
 
 ![link](images/transferring-files/13-filezilla-2.png)
 
 Note : The files on the left side are your computer’s files. The files on the right are that of the RG.
+
 With that in mind, also keep in mind the location you’re at. Normally you start at `/storage` (Look at "Remote Site") and don’t need to go outside that folder, but if you do, here are some paths to important folders you might need:
 
 * `/tmp/logs` – This is where you find logs of whatever application you just ran. These are useful for trouble shooting and finding issues with your games.
