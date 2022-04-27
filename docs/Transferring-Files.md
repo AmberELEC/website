@@ -36,10 +36,10 @@ Once you insert the SD card, you should hear a little jingle and it should appea
 {: refdef }
 
 {:refdef: .clearfix}
-Move your files around, once you’re done, **make sure you remove your card safely from your computer (should be an icon on your system tray)**, and reinsert it onto your RG device.
-
 {: .float-end }
 ![link](images/transferring-files/2-safely-remove.png)
+
+Move your files around, once you’re done, **make sure you remove your card safely from your computer (should be an icon on your system tray)**, and reinsert it onto your RG device.
 {: refdef }
 
 ### Mac OS X
