@@ -91,7 +91,6 @@ Before we begin on this journey, we need to make sure that:
 On a Windows PC, this process is simple, first make sure that in the "Network Settings" Screen ( see above) Samba is enabled. Once enabled, go back to your PC and Press the `Windows Key` on your keyboard and the "`R`" key. A window called "Run" should appear.
 
 Now, remember that IP Address we got above? This is where we will need it!
-{: refdef }
 
 In the "Run" window, type in:
 * `\\192.168.1.81\roms` -- For your ROMS folders
@@ -100,6 +99,7 @@ In the "Run" window, type in:
 * `\\192.168.1.81\config` -- For your config files for emulators, games, etc…
 **(Replace the example IP with yours, don’t forget!!)**
 Press OK and you should see a window with all your files! Remember these are transferred in real time!
+{: refdef }
 
 ### Windows PC – SFTP (Harder)
 
