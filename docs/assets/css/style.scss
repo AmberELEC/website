@@ -344,8 +344,8 @@ footer .text-center {
 }
 
 #main_content .protip, .protip {
-    color: black;
-    background: saturate(darken($color-amber-mid, 10%), 90%);
+    color: white;
+    background: saturate($color-amber-dark, 30%);
     padding: 0px;
     border-width: 0 16px 0 0;
     border-style: solid;
