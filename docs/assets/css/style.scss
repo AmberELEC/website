@@ -347,7 +347,9 @@ footer .text-center {
     color: black;
     background: $color-amber-mid;
     padding: 0px;
-    border: 0 0 0 4px $color-vivid-sky-blue solid;
+    border-width: 0 4px 0 0;
+    border-style: solid;
+    border-color: $color-vivid-sky-blue;
     margin: 0px;
     display: inline-block;
 
