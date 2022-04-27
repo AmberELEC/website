@@ -345,11 +345,11 @@ footer .text-center {
 
 #main_content .protip {
     color: black;
-    background: $color-amber-mid;
+    background: saturate($color-amber-mid, 30%);
     padding: 0px;
     border-width: 0 8px 0 0;
     border-style: solid;
-    border-color: $color-vivid-sky-blue;
+    border-color: desaturate(darken($color-vivid-sky-blue, 30%), 30%);
     margin: 10px;
     padding: 10px;
     display: inline-block;
