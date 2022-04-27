@@ -17,13 +17,14 @@
 
 This is by far the easiest method. First off, make sure your RG Device is turned off fully (Check the LED indicator, if it’s off, your device is off). 
 
-Remove the SD card with the files you want to access and insert it onto a Memory Card reader on your computer of choice.
-
 {: .notebox }
 > # Does your RG device have two SD card slots?
 >
 > If you want to access your game files, get your 2nd SD Card (the rightmost one!), OS Files usually go on the 1st SD card (The one on the left!)
 
+Remove the SD card with the files you want to access and insert it onto a Memory Card reader on your computer of choice.
+
+{: .clearfix }
 ### Windows PC
 
 Once you insert the SD card, you should hear a little jingle and it should appear under My Computer (or "This PC"). Usually labeled "`AMBRELC`" for your OS files, and "`STORAGE`" for your roms, bioses files, etc.

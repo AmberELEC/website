@@ -326,12 +326,14 @@ footer .text-center {
     border: 1px white solid;
     margin: 0px;
     display: inline-block;
+    float: right;
+    max-width: 500px;
 
     h1 {
       background: blue;
       color: white;
-      font-weight: bold;
-      font-size: 24px;
+      font-weight: bolder;
+      font-size: 18px;
       padding: 5px;
       margin: 0px;
       text-align: center;
