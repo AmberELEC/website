@@ -111,7 +111,7 @@ This process will require a 3rd party application. If you already have FileZilla
 {: .float-end }
 ![link](images/transferring-files/11-ninite-download.png)
 
-Head on over to [Ninite](https://ninite.com/) and choose ![FileZilla](images/transferring-files/10-filezilla-icon.png). Then scroll down and click the "Get your Ninite" button. It will download an application that will then download and install the latest version of Filezilla for you.
+You can download FileZilla from the [FileZilla Website](https://filezilla-project.org/). Under `Quick download links`, click on `Download FileZilla Client`. Alternately, you can download it from [Ninite](https://ninite.com/). Choose ![FileZilla](images/transferring-files/10-filezilla-icon.png). Then scroll down and click the "Get your Ninite" button. It will download an application that will then download and install the latest version of Filezilla for you.
 {: refdef }
 
 #### Using FileZilla
