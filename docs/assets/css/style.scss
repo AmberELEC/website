@@ -330,7 +330,7 @@ footer .text-center {
 
     h1 {
       background: $color-vivid-sky-blue;
-      color: white;
+      color: black;
       font-weight: bolder;
       font-size: 18px;
       padding: 5px;
@@ -345,14 +345,13 @@ footer .text-center {
 
 #main_content .protip {
     color: black;
-    background: $color-amber-dark;
+    background: $color-amber;
     padding: 0px;
     border: 4px $color-vivid-sky-blue solid;
     margin: 0px;
     display: inline-block;
 
     h1 {
-      background: $color-vivid-sky-blue;
       color: white;
       font-weight: bolder;
       font-size: 18px;
