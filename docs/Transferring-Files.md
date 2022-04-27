@@ -158,6 +158,8 @@ Much like the Samba method above, these transfers are in real time! Wait for the
 
 ### MacOS X – Samba (Easiest)
 
+{:refdef: .clearfix}
+{: .float-end }
 ![link](images/transferring-files/15-osx-go.png)
 
 From your finder menu, select "Go" -> "Connect to Server…". You should see this screen:
@@ -176,12 +178,14 @@ And press OK. And a new window should appear:
 
 ![link](images/transferring-files/21-finder.png)
 
+Use it to move files around like you would on your PC.
+{: refdef }
+
 {: .protip }
 > # Protip
 >
 > Make sure to see above about SD card files and OSX, you need to run the "Run Remove ._ files" Tool after you’re done. And make sure to eject your RG device once you’re done! Your OS might misbehave if waiting/timing out with the RG.
 
-Use it to move files around like you would on your PC.
 
 ### MacOS X – Filezilla (harder)
 
