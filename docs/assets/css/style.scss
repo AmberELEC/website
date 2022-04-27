@@ -329,8 +329,8 @@ footer .text-center {
     max-width: 500px;
 
     h1 {
-      background: $color-vivid-sky-blue;
-      color: black;
+      background: color.scale($color-vivid-sky-blue, $saturation: -30%);
+      color: white;
       font-weight: bolder;
       font-size: 18px;
       padding: 5px;
