@@ -28,13 +28,19 @@ Remove the SD card with the files you want to access and insert it onto a Memory
 
 ### Windows PC
 
-Once you insert the SD card, you should hear a little jingle and it should appear under My Computer (or "This PC"). Usually labeled "`AMBRELC`" for your OS files, and "`STORAGE`" for your roms, bioses files, etc.
-
+{:refdef: .clearfix}
+{: .float-end }
 ![link](images/transferring-files/1-this-pc.png)
 
+Once you insert the SD card, you should hear a little jingle and it should appear under My Computer (or "This PC"). Usually labeled "`AMBRELC`" for your OS files, and "`STORAGE`" for your roms, bioses files, etc.
+{: refdef }
+
+{:refdef: .clearfix}
 Move your files around, once you’re done, **make sure you remove your card safely from your computer (should be an icon on your system tray)**, and reinsert it onto your RG device.
 
+{: .float-end }
 ![link](images/transferring-files/2-safely-remove.png)
+{: refdef }
 
 ### Mac OS X
 
