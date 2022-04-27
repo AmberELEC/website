@@ -345,7 +345,7 @@ footer .text-center {
 
 #main_content .protip {
     color: black;
-    background: darken(saturate($color-amber-mid, 90%), 30%);
+    background: saturate(darken($color-amber-mid, 30%), 30%);
     padding: 0px;
     border-width: 0 16px 0 0;
     border-style: solid;
