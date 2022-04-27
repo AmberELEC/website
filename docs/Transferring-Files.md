@@ -44,10 +44,12 @@ Move your files around, once you’re done, **make sure you remove your card saf
 
 ### Mac OS X
 
-When you insert your SD Card, it should show as an icon on your desktop. The process after this is simple, move files around, and when you are done, **make sure to "eject" your SD card by dragging it to your waste bin (When dragging, your waste bin should develop an eject button)**.
+{:refdef: .clearfix}
+{: .float-end }
+![link](images/transferring-files/3-sd-card.png) ![link](images/transferring-files/4-eject.png)
 
-![link](images/transferring-files/3-sd-card.png)
-![link](images/transferring-files/4-eject.png)
+When you insert your SD Card, it should show as an icon on your desktop. The process after this is simple, move files around, and when you are done, **make sure to "eject" your SD card by dragging it to your waste bin (When dragging, your waste bin should develop an eject button)**.
+{: refdef }
 
 Because of OSX and its inner-workings, you have one more step to do once your device boots. In the main menu of your RG device, navigate to the tools section and select "`Run Remove ._ files`"
 
