@@ -13,11 +13,11 @@
   - [MacOS X – Filezilla (harder)](#macos-x--filezilla-harder)
   - [Android – AndFTP (harder)](#android--andftp-harder)
 
-{:refdef: .clearfix }
 ## Direct transfer (SD Card onto your Computer)
 
 This is by far the easiest method. First off, make sure your RG Device is turned off fully (Check the LED indicator, if it’s off, your device is off). 
 
+{:refdef: .clearfix }
 {: .notebox.float-md-end }
 > # Does your RG device have two SD card slots?
 >
@@ -60,11 +60,18 @@ This will remove some residual files OSX creates and avoids issues running your 
 
 ### Linux
 
-With Linux things are a bit more complicated. Depending on your install or distro, inserting your SD card might be detected by your Window Manager, and should be fairly user friendly, or not shown completely and you’ll have to [mount it yourself](https://www.techwalla.com/articles/how-to-mount-an-sd-card-in-linux).  Just remember to **unmount / eject it once you’re done moving files**, and in a terminal (for good measure) run "sync" and only eject your SD Card once it is done. This is to ensure any pending file operations are done.
-
+{:refdef: .clearfix}
+{: .float-md-end }
 ![link](images/transferring-files/7-device-notifier.png)
 
+With Linux things are a bit more complicated. Depending on your install or distro, inserting your SD card might be detected by your Window Manager, and should be fairly user friendly, or not shown completely and you’ll have to [mount it yourself](https://www.techwalla.com/articles/how-to-mount-an-sd-card-in-linux).  Just remember to **unmount / eject it once you’re done moving files**, and in a terminal (for good measure) run "sync" and only eject your SD Card once it is done. This is to ensure any pending file operations are done.
+{: refdef }
+
 ## Network transfer (Via WIFI or OTG Network adapters)
+
+{:refdef: .clearfix}
+{: .float-end }
+![link](images/transferring-files/8-network-settings.png)
 
 Before we begin on this journey, we need to make sure that:
 
@@ -73,16 +80,18 @@ Before we begin on this journey, we need to make sure that:
 	1. In order to figure this out, in the console selection screen, press START
 	2. Navigate to "Network Settings"
 	3. First item should be your IP Address (Example : `192.168.1.81`)
-
-![link](images/transferring-files/8-network-settings.png)
+{: refdef }
 
 ### Windows PC – Samba (Easiest)
 
-On a Windows PC, this process is simple, first make sure that in the "Network Settings" Screen ( see above) Samba is enabled. Once enabled, go back to your PC and Press the `Windows Key` on your keyboard and the "`R`" key. A window called "Run" should appear.
-
+{:refdef: .clearfix}
+{: .float-end }
 ![link](images/transferring-files/9-windows-run.png)
 
+On a Windows PC, this process is simple, first make sure that in the "Network Settings" Screen ( see above) Samba is enabled. Once enabled, go back to your PC and Press the `Windows Key` on your keyboard and the "`R`" key. A window called "Run" should appear.
+
 Now, remember that IP Address we got above? This is where we will need it!
+{: refdef }
 
 In the "Run" window, type in:
 * `\\192.168.1.81\roms` -- For your ROMS folders
@@ -98,9 +107,12 @@ This process will require a 3rd party application. If you already have FileZilla
 
 #### Installing FileZilla
 
-Head on over to [Ninite](https://ninite.com/) and choose ![FileZilla](images/transferring-files/10-filezilla-icon.png). Then scroll down and click the "Get your Ninite" button. It will download an application that will then download and install the latest version of Filezilla for you.
-
+{:refdef: .clearfix}
+{: .float-end }
 ![link](images/transferring-files/11-ninite-download.png)
+
+Head on over to [Ninite](https://ninite.com/) and choose ![FileZilla](images/transferring-files/10-filezilla-icon.png). Then scroll down and click the "Get your Ninite" button. It will download an application that will then download and install the latest version of Filezilla for you.
+{: refdef }
 
 #### Using FileZilla
 
