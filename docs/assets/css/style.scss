@@ -319,7 +319,7 @@ footer .text-center {
   margin-top: 10px;
 }
 
-#main_content .notebox {
+#main_content .notebox, .notebox {
     color: black;
     background: white;
     padding: 0px;
@@ -343,7 +343,7 @@ footer .text-center {
     }
 }
 
-#main_content .protip {
+#main_content .protip, .protip {
     color: black;
     background: saturate(darken($color-amber-mid, 10%), 90%);
     padding: 0px;
