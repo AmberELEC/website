@@ -64,13 +64,6 @@
 
 ***
 
-{: #drastic }
-**Q:** [![link](images/link-45deg.svg)](#drastic) I don't have the DS Emulator, Drastic.
-
-**A:** Install it from **EmulationStation Main Menu > Updates & Downloads > Packages**.
-
-***
-
 {: #brightness }
 **Q:** [![link](images/link-45deg.svg)](#brightness) Why is my brightness stuck at 100%?
 
