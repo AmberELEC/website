@@ -27,7 +27,7 @@ Accessed by pressing the `Select` button on the top level of the EmulationStatio
 
 # View Options
 
-Accessed by pression the `Select` button while in a System menu in EmulationStation
+Accessed by pressing the `Select` button while in a System menu in EmulationStation
 
 **Navigation**
 - Filter Games By Text
@@ -185,7 +185,7 @@ Accessed through the [Main Menu](#main-menu) > [Games Settings](#games-settings)
 
 Accessed through the [Main Menu](#main-menu) > UI Settings
 
-**Appearence**
+**Appearance**
 - Theme Set
 - Theme Configuration
 - Language
