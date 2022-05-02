@@ -39,7 +39,7 @@ Please note that MAME and FinalBurn Neo screen aspect ratios are not optimized, 
 {: .systemtable }
 |Manufacturer/System|Core/Emu|ROM Path|Extension|RG351|RG552|
 |---|---|---|---|---|---|
-|Atari<br/>2600|**stella-2014**<br />stella|atari2600|.a26 .bin .zip .7z|Good|Good|
+|[Atari<br/>2600](System-Atari-2600)|**stella-2014**<br />stella|atari2600|.a26 .bin .zip .7z|Good|Good|
 |[Atari<br/>5200](System-Atari-5200)|**a5200**<br />atari800|atari5200|.rom .xfd .atr .atx .cdm .cas .car .bin .a52 .xex .zip .7z|Good|Good|
 |[Atari<br/>7800](System-Atari-7800)|**prosystem**<br />mame|atari7800|.a78 .bin .zip .7z|Good|Good|
 |[Atari<br/>Lynx](System-Atari-Lynx)|**handy**<br />beetle_lynx|atarilynx|.lnx .o .zip .7z|Good|Good|
@@ -47,15 +47,15 @@ Please note that MAME and FinalBurn Neo screen aspect ratios are not optimized, 
 |[Bandai<br/>Wonderswan](System-Bandai-Wonderswan)|**beetle_wswan**|wonderswan|.ws .zip .7z|Good|Good|
 |[Bandai<br/>Wonderswan Color](System-Bandai-Wonderswan)|**beetle_wswan**|wonderswancolor|.wsc .zip .7z|Good|Good|
 |[Bit Corp<br />Gamate](System-BitCorp-Gamate)|**mame**|gamate|.bin .zip .7z|Good|Good|
-|Casio<br />PV-1000|**mame**|pv1000|.bin .zip .7z|Good|Good|
+|[Casio<br />PV-1000](System-Casio-PV1000)|**mame**|pv1000|.bin .zip .7z|Good|Good|
 |[Coleco<br/>ColecoVision](System-Coleco-ColecoVision)|**bluemsx**<br />gearcoleco<br />smsplus|coleco|.bin .col .rom .zip .7z|Good|Good|
 |[Commodore<br/>Amiga CD³²](System-Commodore-AmigaCD32)|**puae**<br />uae4arm|amigacd32|.iso .cue .chd .lha|Good|Good|
 |[Entex<br />Adventure Vision](System-Entex-AdventureVision)|**mame**|advision|.bin .zip .7z|Good|Good|
 |[Epoch<br />Game Pocket Computer](System-Epoch-GamePocketComputer)|**mame**|gamepocketcomputer|.bin .zip .7z|Good|Good|
-|Fairchild<br/>Channel F|**fairchaf**|channelf|.bin .chf .zip .7z|Good|Good|
+|[Fairchild<br/>Channel F](System-Fairchild-ChannelF)|**fairchaf**|channelf|.bin .chf .zip .7z|Good|Good|
 |[Hartung<br />Game Master](System-Hartung-GameMaster)|**mame**|gamemaster|.bin .zip .7z|Good|Good|
 |[Mattel<br/>Intellivision](System-Mattel-Intellivision)|**freeintv**|intellivision|.int .bin .rom .zip .7z|Good|Good|
-|Milton Bradley<br/>Vectrex|**vecx**|vectrex|.bin .gam .vec .zip .7z|Good|Good|
+|[Milton Bradley<br/>Vectrex](System-MiltonBradley-Vectrex)|**vecx**|vectrex|.bin .gam .vec .zip .7z|Good|Good|
 |[NEC<br/>PC Engine](System-NEC-PCEngine)|**beetle_pce_fast**<br />beetle_supergrafx|pcengine|.pce .bin .zip .7z|Good|Good|
 |[NEC<br/>PC Engine CD](System-NEC-PCEngine#cd-addon-overview)|**beetle_pce_fast**<br />beetle_supergrafx|pcenginecd|.cue .ccd .chd .toc .m3u|Good|Good|
 |[NEC<br/>PC-FX](System-NEC-PCFX)|**beetle_pcfx**|pcfx|.chd .cue .ccd .toc|Bad: Only low performance|Bad: Only low performance|
@@ -64,12 +64,12 @@ Please note that MAME and FinalBurn Neo screen aspect ratios are not optimized, 
 |[NEC<br/>TurboGrafx CD](System-NEC-PCEngine#cd-addon-overview)|**beetle_pce_fast**<br />beetle_supergrafx|tg16cd|.cue .ccd .chd .toc .m3u|Good|Good|
 |[Nintendo<br/>Famicom](System-Nintendo-Famicom)|**nestopia**<br />fceumm<br />quicknes|famicom|.nes .unif .unf .zip .7z|Good|Good|
 |[Nintendo<br/>Famicom Disk System](System-Nintendo-Famicom#famicom-disk-system-fds-overview)|**nestopia**<br />fceumm<br />quicknes|fds|.fds .zip .7z|Good|Good|
-|Nintendo<br/>Game & Watch|**gw**|gameandwatch|.mgw .zip .7z|Good|Good|
+|[Nintendo<br/>Game & Watch](System-Nintendo-GameAndWatch)|**gw**|gameandwatch|.mgw .zip .7z|Good|Good|
 |[Nintendo<br/>Game Boy](System-Nintendo-GameBoy)|**gambatte**<br />sameboy<br />gearboy<br />tgbdual<br />mgba<br />vbam|gb<br/>gbh (hacks)|.gb .gbc .zip .7z|Good|Good|
 |[Nintendo<br/>Game Boy Advance](System-Game-Boy-Advance)|**mgba**<br />beetle_gba<br />gpsp<br />vbam<br />vba_next|gba<br/>gbah (hacks)|.gba .zip .7z|Good|Good|
 |[Nintendo<br/>Game Boy Color](System-Nintendo-GameBoy#gbc-overview)|**gambatte**<br />sameboy<br />gearboy<br />tgbdual<br />mgba<br />vbam|gbc<br/>gbch (hacks)|.gbc .gb .zip .7z|Good|Good|
 |[Nintendo<br/>N64](System-N64)|mupen64plus<br />mupen64plus_next<br />**parallel_n64**<br />parallel_n64_gln64<br />mupen64plussa_glide64mk2<br />mupen64plussa_rice|n64|.z64 .n64 .v64 .zip .7z|Mixed: Some games run well, others are unplayable|Mixed: Some games run well, others are unplayable|
-|Nintendo<br/>NDS|**drastic**|nds|.nds .zip|Mixed: 2D Games almost fully playable|Mixed: 2D Games almost fully playable|
+|[Nintendo<br/>NDS](System-Nintendo-NDS)|**drastic**|nds|.nds .zip|Mixed: 2D Games almost fully playable|Mixed: 2D Games almost fully playable|
 |[Nintendo<br/>NES](System-Nintendo-Famicom)|**nestopia**<br />fceumm<br />quicknes|nes<br/>nesh (hacks)|.nes .unif .unf .zip .7z|Good|Good|
 |[Nintendo<br/>Pokémon Mini](System-Nintendo-PokemonMini)|**pokemini**|pokemini|.min .zip .7z|Good|Good|
 |[Nintendo<br/>Satellaview](System-Super-Nintendo-Entertainment-System#satellaview-bs-x)|**snes9x**<br />snes9x2002<br />snes9x2005_plus<br />snes9x2010|satellaview|.smc .sfc .swc .fig .bs .bsx .zip .7z|Good|Good|
@@ -91,14 +91,14 @@ Please note that MAME and FinalBurn Neo screen aspect ratios are not optimized, 
 |[Sega<br/>Dreamcast](System-Sega-Dreamcast)|**flycast**|dreamcast|.cdi .gdi .chd .m3u|Mixed: Some games run well, others are unplayable|Mixed: Some games run well, others are unplayable|
 |[SNK<br/>Neo Geo](System-Neo-Geo)|**fbneo**<br />mame2003_plus<br />fbalpha2012<br />fbalpha2019<br />mame2010<br />mame2015<br />mame|neogeo|.7z .zip|Good|Good|
 |[SNK<br/>Neo Geo CD](System-SNK-NeoGeoCD)|**neocd**<br />fbneo|neocd|.chd .cue .iso|Good|Good|
-|SNK<br/>Neo Geo Pocket|**beetle_ngp**<br />race|ngp|.ngp .ngc .zip .7z|Good|Good|
-|SNK<br/>Neo Geo Pocket Color|**beetle_ngp**<br />race|ngpc|.ngc .zip .7z|Good|Good|
+|[SNK<br/>Neo Geo Pocket](System-SNK-NeoGeoPocket)|**beetle_ngp**<br />race|ngp|.ngp .ngc .zip .7z|Good|Good|
+|[SNK<br/>Neo Geo Pocket Color](System-SNK-NeoGeoPocket)|**beetle_ngp**<br />race|ngpc|.ngc .zip .7z|Good|Good|
 |[Sony<br/>PlayStation](System-Sony-PlayStation)|**pcsx_rearmed**<br />duckstation<br />swanstation|psx|.bin .cue .img .pbp .mdf .toc .cbn .m3u .ccd .chd .iso|Good|Good|
 |[Sony<br/>PSP](System-Sony-PlayStation-Portable)|**PPSSPPSDL**<br />ppsspp|psp|.cso .pbp .iso|Mixed: Many games run well, especially with frameskip. Some games are unplayable|Mixed: Many games run well, especially with frameskip. Some games are unplayable|
 |[Sony<br/>PSP Minis](System-Sony-PlayStation-Portable)|**PPSSPPSDL**<br />ppsspp| pspminis |.cso .pbp .iso|Mixed: Most games are less demanding than PSP, and run well, though a few may run badly|Mixed: Most games are less demanding than PSP, and run well, though a few may run badly|
 |[TimeTop<br />GameKing](System-TimeTop-GameKing)|**mame**|gameking|.bin .gk .zip .7z|Mixed|Good|
-|Watara<br/>Supervision|**potator**|supervision|.sv .zip .7z|Good|Good|
-|Welback Holdings<br/>Mega Duck|**sameduck**|megaduck|.bin .zip .7z|Good|Good|
+|[Watara<br/>Supervision](System-Watara-Supervision)|**potator**|supervision|.sv .zip .7z|Good|Good|
+|[Welback Holdings<br/>Mega Duck](System-WelbackHoldings-MegaDuck)|**sameduck**|megaduck|.bin .zip .7z|Good|Good|
 
 ## Computers
 

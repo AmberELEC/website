@@ -101,6 +101,10 @@ pages:
     title: Sega Naomi
     category: Arcade
     url: System-Naomi
+  - file: System-Atari-2600.md
+    title: Atari 2600
+    category: Consoles/Portables
+    url: System-Atari-2600
   - file: System-Atari-5200.md
     title: Atari 5200
     category: Consoles/Portables
@@ -113,6 +117,10 @@ pages:
     title: Atari Lynx
     category: Consoles/Portables
     url: System-Atari-Lynx
+  - file: System-Casio-PV1000.md
+    title: Casio PV-1000
+    category: Consoles/Portables
+    url: System-Casio-PV1000
   - file: System-Coleco-ColecoVision.md
     title: Coleco ColecoVision
     category: Consoles/Portables
@@ -137,6 +145,10 @@ pages:
     title: Epoch Game Pocket Computer
     category: Consoles/Portables
     url: System-Epoch-GamePocketComputer
+  - file: System-Fairchild-ChannelF.md
+    title: Fairchild Channel F
+    category: Consoles/Portables
+    url: System-Fairchild-ChannelF
   - file: System-Hartung-GameMaster.md
     title: Hartung Game Master
     category: Consoles/Portables
@@ -149,6 +161,10 @@ pages:
     title: Mattel Intellivision
     category: Consoles/Portables
     url: System-Mattel-Intellivision
+  - file: System-MiltonBradley-Vectrex.md
+    title: Milton Bradley Vectrex
+    category: Consoles/Portables
+    url: System-MiltonBradley-Vectrex
   - file: System-NEC-PCEngine.md
     title: NEC PC Engine
     category: Consoles/Portables
@@ -157,6 +173,10 @@ pages:
     title: NEC PC-FX
     category: Consoles/Portables
     url: System-NEC-PCFX
+  - file: System-Nintendo-GameAndWatch.md
+    title: Nintendo Game & Watch
+    category: Consoles/Portables
+    url: System-Nintendo-GameAndWatch
   - file: System-Nintendo-GameBoy.md
     title: Nintendo Game Boy (Color)
     category: Consoles/Portables
@@ -165,6 +185,10 @@ pages:
     title: Nintendo Game Boy Advance
     category: Consoles/Portables
     url: System-Game-Boy-Advance
+  - file: System-Nintendo-NDS.md
+    title: Nintendo NDS
+    category: Consoles/Portables
+    url: System-Nintendo-NDS
   - file: System-Nintendo-Famicom.md
     title: Nintendo NES/Famicom
     category: Consoles/Portables
@@ -245,10 +269,22 @@ pages:
     title: SNK Neo Geo CD
     category: Consoles/Portables
     url: System-SNK-NeoGeoCD
+  - file: System-SNK-NeoGeoPocket.md
+    title: SNK Neo Geo Pocket (Color)
+    category: Consoles/Portables
+    url: System-SNK-NeoGeoPocket
   - file: System-TimeTop-GameKing.md
     title: TimeTop GameKing
     category: Consoles/Portables
     url: System-TimeTop-GameKing
+  - file: System-Watara-Supervision.md
+    title: Watara Supervision
+    category: Consoles/Portables
+    url: System-Watara-Supervision
+  - file: System-WelbackHoldings-MegaDuck.md
+    title: Welback Holdings Mega Duck
+    category: Consoles/Portables
+    url: System-WelbackHoldings-MegaDuck
   - file: System-Amstrad-CPC.md
     title: Amstrad CPC
     category: Computers
