@@ -5,7 +5,7 @@
 - Core: `freej2me`
 - Path: `j2me`
 - Supported Extension: `.jar`
-- Website: [freej2me](https://github.com/hex007/freej2me)
+- Documentation: [freej2me](https://github.com/hex007/freej2me)
 
 ## BIOS
 

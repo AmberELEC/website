@@ -5,6 +5,7 @@
 - Core: `yabasanshiroSA` (default)
 - Path: `saturn`
 - Supported Extensions: `.cue .iso .chd`
+- Bios: [Optional](#bios)
 
 ## BIOS
 

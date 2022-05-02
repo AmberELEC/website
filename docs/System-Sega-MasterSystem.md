@@ -9,6 +9,7 @@
   - `smsplus`
 - Path: `mastersystem`
 - Supported Extensions: `.sms .bin .zip .7z`
+- Bios: [Optional](#bios)
 - Libretro Documentation:
   - [Gearsystem](https://docs.libretro.com/library/gearsystem/)
   - [Genesis Plus GX](https://docs.libretro.com/library/genesis_plus_gx/)

@@ -20,6 +20,7 @@ The Sega Mega Drive was released as the Genesis in North America. It has a CD ad
   - `genesis`
   - `genh` (hacks)
 - Supported Extensions: `.gen .bin .md .sg .smd .zip .7z`
+- Bios: [Optional](#optional)
 - Libretro Documentation:
   - [Genesis Plus GX](https://docs.libretro.com/library/genesis_plus_gx/)
   - [PicoDrive](https://docs.libretro.com/library/picodrive/)
@@ -33,6 +34,7 @@ The Sega Mega Drive was released as the Genesis in North America. It has a CD ad
   - `megacd`
   - `segacd`
 - Supported Extensions: `.chd .cue .iso .m3u`
+- Bios: [Required](#bios)
 - Libretro Documentation:
   - [Genesis Plus GX](https://docs.libretro.com/library/genesis_plus_gx/)
   - [PicoDrive](https://docs.libretro.com/library/picodrive/)
@@ -44,6 +46,7 @@ The Sega Mega Drive was released as the Genesis in North America. It has a CD ad
 - Paths:
   - `sega32x`
 - Supported Extensions: `.32x .bin .md .smd .zip .7z`
+- Bios: None
 - Libretro Documentation:
   - [PicoDrive](https://docs.libretro.com/library/picodrive/)
 

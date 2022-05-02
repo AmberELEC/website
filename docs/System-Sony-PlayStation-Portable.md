@@ -7,7 +7,7 @@
   - `PPSSPP`
 - Paths:
   - `/roms/psp`
-  - '/roms/pspminis`
+  - `/roms/pspminis`
 - Supported Extensions: `.cso .pbp .iso`
 
 ## PSP Minis

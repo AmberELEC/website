@@ -15,6 +15,7 @@
 - Paths:
   - `/roms/psx`
 - Supported Extensions: `.chd .m3u .cue+.bin .ccd+.img .iso .pbp .mds+.mdf .toc+.bin`
+- Bios: [Required](#bios)
 
 ## BIOS
 

@@ -6,6 +6,7 @@
   - `beetle_vb` (default)
 - Path(s): `virtualboy`
 - Supported Extensions: `.vb .zip .7z`
+- Bios: None
 
 ## Playing in 3D
 

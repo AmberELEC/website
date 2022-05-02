@@ -5,6 +5,7 @@
 - Core: `opera` (default)
 - Path: `3do`
 - Supported Extensions: `.iso .cue .bin .chd`
+- Bios: [Required + Optional](#bios)
 - Libretro Documentation: [Opera](https://docs.libretro.com/library/opera/)
 
 ## BIOS

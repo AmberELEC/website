@@ -17,6 +17,7 @@ The NES was originally released as the Family Computer, or Famicom in Japan. It 
   - `nes`
   - `nesh` (Convenience folder for romhacks)
 - Supported Extensions: `.nes .unif .unf .zip .7z`
+- Bios: None
 - Libretro Documentation:
   - [Nestopia](https://docs.libretro.com/library/nestopia_ue/)
   - [FCEUmm](https://docs.libretro.com/library/fceumm/)
@@ -30,6 +31,7 @@ The NES was originally released as the Family Computer, or Famicom in Japan. It 
   - `quicknes`
 - Path: `fds`
 - Supported Extensions: `.fds .zip .7z`
+- Bios: [Required](#bios)
 - Libretro Documentation:
   - [Nestopia](https://docs.libretro.com/library/nestopia_ue/)
   - [FCEUmm](https://docs.libretro.com/library/fceumm/)

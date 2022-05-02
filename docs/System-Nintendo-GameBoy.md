@@ -17,6 +17,7 @@
   - `gb`
   - `gbh` (Convenience folder for romhacks)
 - Supported Extensions: `.gb .gbc .zip .7z`
+- Bios: [Optional](#bios)
 - Libretro Documentation:
   - [Gambatte](https://docs.libretro.com/library/gambatte/)
   - [SameBoy](https://docs.libretro.com/library/sameboy/)
@@ -38,6 +39,7 @@
   - `gbc`
   - `gbch` (Convenience folder for romhacks)
 - Supported Extensions: `.gbc .gb .zip .7z`
+- Bios: [Optional](#bios)
 - Libretro Documentation:
   - [Gambatte](https://docs.libretro.com/library/gambatte/)
   - [SameBoy](https://docs.libretro.com/library/sameboy/)

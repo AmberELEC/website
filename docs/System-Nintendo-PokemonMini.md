@@ -5,6 +5,7 @@
 - Core: `pokemini` (default)
 - Path: `pokemini`
 - Supported Extensions: `.min .zip .7z`
+- Bios: [Optional](#bios)
 - Libretro Documentation: [PokeMini](https://docs.libretro.com/library/pokemini/)
 
 ## BIOS

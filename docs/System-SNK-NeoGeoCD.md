@@ -11,6 +11,7 @@
   - `fbneo`
 - Path: `neocd`
 - Supported Extensions: `.chd .cue .iso`
+- Bios: [Required + Optional](#bios)
 - Libretro Documentation:
   - [NeoCD](https://github.com/libretro/neocd_libretro/blob/master/README.md)
   - [FinalBurn Neo](https://docs.libretro.com/library/fbneo/)

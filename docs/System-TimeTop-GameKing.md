@@ -5,7 +5,7 @@
 - Core: `mame`
 - Path(s): gameking
 - Supported Extensions: `.bin .zip .7z`
-- BIOS: `gameking.zip`
+- BIOS: [Required](#bios)
 
 ## BIOS
 

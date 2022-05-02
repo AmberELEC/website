@@ -13,6 +13,7 @@
     - `flycast`
 - Path: `dreamcast`
 - Supported Extensions: `.cdi .gdi .chd .m3u`
+- Bios: [Required](#bios)
 - Libretro Documentation:
   - [Flycast](https://docs.libretro.com/library/flycast/)
 
