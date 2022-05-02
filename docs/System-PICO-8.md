@@ -43,7 +43,7 @@ After doing the above you will be able to (1) start your Pico-8 games directly f
 
 ## Controls
 
-| PICO-*       | Console        |
+| PICO-8       | Console        |
 |--------------|----------------|
 | X            | B              |
 | O / Z        | A              |
