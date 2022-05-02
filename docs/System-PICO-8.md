@@ -4,6 +4,7 @@
 - [Required Files](#required-files)
 - [Setup](#setup)
 - [Controls](#controls)
+  - [Quitting PICO-8](#quitting-pico-8)
 - [Splore](#splore)
 
 ## Overview
