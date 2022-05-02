@@ -10,6 +10,8 @@
 - Supported Extensions:
   - wonderswan: `.ws .zip .7z`
   - wonderswancolor: `.wsc .zip .7z`
+- Bios: None
+- Documentation: [Beetle Cygne](https://docs.libretro.com/library/beetle_cygne)
 
 ## Display Rotation
 

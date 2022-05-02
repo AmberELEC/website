@@ -5,6 +5,7 @@
 - Core: `beetle_pcfx` (default)
 - Path: `pcfx`
 - Supported Extensions: `.chd .cue .ccd .toc`
+- Bios: [Required](#bios)
 - Libretro Documentation:
   - [Beetle PC-FX](https://docs.libretro.com/library/beetle_pc_fx/)
 

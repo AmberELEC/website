@@ -19,6 +19,7 @@ The NEC PC Engine also goes by the name NEC TurboGrafx-16 in North America. Ther
 - Libretro Documentation:
   - [Beetle PCE FAST](https://docs.libretro.com/library/beetle_pce_fast/)
   - [Beetle SuperGrafx](https://docs.libretro.com/library/beetle_sgx/)
+- Bios: None
 
 ## CD Addon Overview
 
@@ -32,6 +33,7 @@ The NEC PC Engine also goes by the name NEC TurboGrafx-16 in North America. Ther
 - Libretro Documentation:
   - [Beetle PCE FAST](https://docs.libretro.com/library/beetle_pce_fast/)
   - [Beetle SuperGrafx](https://docs.libretro.com/library/beetle_sgx/)
+- Bios: [Required + Optional](#bios)
 
 ## SuperGrafx Overview
 
@@ -40,10 +42,13 @@ The NEC PC Engine also goes by the name NEC TurboGrafx-16 in North America. Ther
 - Supported Extensions: `.pce .sgx .cue .ccd .chd .zip .7z`
 - Libretro Documentation:
   - [Beetle SuperGrafx](https://docs.libretro.com/library/beetle_sgx/)
+- Bios: None
 
 The SuperGrafx was an enhanced version of the PC Engine that was released two years after the original PC Engine release. It could play any regular PC Engine game, and additionally there were five exclusive games that couldn't run on the regular PC Engine, and two games with SuperGrafx specific enhancements.
 
 ## BIOS
+
+Only `syscard3.pce` is required, but the others are also recommended for compatibility.
 
 | BIOS          | md5                              |
 | syscard3.pce  | 38179df8f4ac870017db21ebcbf53114 |

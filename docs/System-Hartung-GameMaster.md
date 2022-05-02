@@ -5,7 +5,7 @@
 - Core: `mame`
 - Path(s): gamemaster
 - Supported Extensions: `.bin .zip .7z`
-- BIOS: `gmaster.zip`
+- Bios: [Required](#bios)
 
 ## BIOS
 

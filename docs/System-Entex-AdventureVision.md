@@ -5,7 +5,7 @@
 - Core: `mame`
 - Path(s): advision
 - Supported Extensions: `.bin .zip .7z`
-- BIOS: `advision.zip`
+- BIOS: [Required](#bios)
 
 ## BIOS
 

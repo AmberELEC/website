@@ -8,6 +8,7 @@
   - `smsplus`
 - Path: `coleco`
 - Supported Extensions: `.bin .col .rom .zip .7z`
+- Bios: [Required](#bios)
 - Libretro Documentation:
   - [blueMSX](https://docs.libretro.com/library/bluemsx/)
   - [GearColeco](https://docs.libretro.com/library/gearcoleco/)

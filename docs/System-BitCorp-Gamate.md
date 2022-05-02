@@ -5,7 +5,7 @@
 - Core: `mame`
 - Path(s): gamate
 - Supported Extensions: `.bin .zip .7z`
-- BIOS: `gamate.zip`
+- Bios: [Required](#bios)
 
 ## BIOS
 

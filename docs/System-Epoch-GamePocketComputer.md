@@ -5,7 +5,7 @@
 - Core: `mame`
 - Path(s): gamepocketcomputer
 - Supported Extensions: `.bin .zip .7z`
-- BIOS: `gamepock.zip`
+- BIOS: [Required](#bios)
 
 ## BIOS
 

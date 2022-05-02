@@ -7,6 +7,10 @@
   - `beetle_lynx`
 - Path: `atarilynx`
 - Supported Extensions: `.lnx .o .zip .7z`
+- Bios: [Required](#bios)
+- Documentation:
+  - [Handy](https://docs.libretro.com/library/handy/)
+  - [Beetle Lynx](https://docs.libretro.com/library/beetle_lynx/)
 
 ## BIOS
 

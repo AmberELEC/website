@@ -20,6 +20,7 @@
     - `mupen64plussa_rice`
 - Path(s): `/roms/n64`
 - Supported Extensions: `.z64, .n64, .v64`
+- Bios: None
 
 ## Retrorun
 

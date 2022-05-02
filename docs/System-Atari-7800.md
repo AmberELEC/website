@@ -7,6 +7,9 @@
   - `mame`
 - Path: `atari7800`
 - Supported Extensions: `.a78 .bin .zip .7z`
+- Bios: [Required](#bios)
+- Documentation:
+  - [ProSystem](https://docs.libretro.com/library/prosystem/)
 
 ## BIOS
 

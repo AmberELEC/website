@@ -7,9 +7,10 @@
   - `uae4arm`
 - Path: `amigacd32`
 - Supported Extensions: `.iso .cue .chd .lha`
+- Bios: [Recommended](#bios)
 - Libretro Documentation:
   - [PUAE](https://docs.libretro.com/library/puae/)
-  - [uae4arm](https://github.com/libretro/uae4arm-libretro/blob/master/README.md)
+  - [uae4arm](https://github.com/Chips-fr/uae4arm-rpi#readme)
 
 ## BIOS
 

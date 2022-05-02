@@ -5,7 +5,7 @@
 - Core: `freeintv`
 - Path: `intellivision`
 - Supported Extensions: `.int .bin .rom .zip .7z`
-- Libretro Documentation: [FreeIntv](https://docs.libretro.com/library/freeintv/)
+- Documentation: [FreeIntv](https://docs.libretro.com/library/freeintv/)
 
 ## BIOS
 

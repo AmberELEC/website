@@ -8,6 +8,10 @@
   - `atari800`
 - Path: `atari5200`
 - Supported Extensions: `.rom .xfd .atr .atx .cdm .cas .car .bin .a52 .xex .zip .7z`
+- Bios: [Required](#bios)
+- Documentation:
+  - [a5200](https://github.com/libretro/a5200#readme)
+  - [atari800](https://docs.libretro.com/library/atari800/)
 
 ## BIOS
 

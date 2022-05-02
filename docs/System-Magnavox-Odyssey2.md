@@ -7,6 +7,8 @@
   - `/roms/odyssey`
   - `/roms/videopac`
 - Supported Extensions: `.bin .BIN .zip .7z`
+- Bios: [Required](#bios)
+- Documentation: [O2EM](https://docs.libretro.com/library/o2em/)
 
 ## BIOS
 
