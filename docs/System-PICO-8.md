@@ -1,5 +1,11 @@
 # Pico-8
 
+- [Overview](#overview)
+- [Required Files](#required-files)
+- [Setup](#setup)
+- [Controls](#controls)
+- [Splore](#splore)
+
 ## Overview
 
 - A native emulator for the fantasy console [Pico-8](https://www.lexaloffle.com/pico-8.php)
@@ -36,13 +42,22 @@ After doing the above you will be able to (1) start your Pico-8 games directly f
 
 ## Controls
 
-|In-Game|RG351|
-|-|-|
-|X|B|
-|O / Z|A|
-|Start / Menu|Select|
+| PICO-*       | Console        |
+|--------------|----------------|
+| X            | B              |
+| O / Z        | A              |
+| Start / Menu | Select / Start |
 
-## Additional Notes
+### Quitting PICO-8
+
 - To quit PICO-8 and go back to ES:
   - if you started your game directly from ES then press the select button and choose shutdown from the menu
   - if you started PICO-8 through "Start PICO-8" then highlight a game in the splore menu, press the Select button, choose "Options" then choose "Shutdown PICO-8"
+
+## Splore
+
+PICO-8 has an online BBS system called Splore that allows you to find games inside of PICO-8. Using Splore requires an internet connection.
+
+You can launch Splore from the Tools menu of AmberELEC. To do so, go into `Tools` and select `Run Pico-8`.
+
+If you'd like to run Splore from inside the Pico-8 games menu, you can do so by creating an empty `.p8` file. For example, create an empty text file on Windows, rename it to `splore.p8`, and add it to `/roms/pico-8`. You can then launch Splore by starting that rom file.
