@@ -292,7 +292,7 @@ pages:
   - file: System-Atari-800.md
     title: Atari 800
     category: Computers
-    url: System-Atari-800
+    url: systems/System-Atari-800
   - file: System-Atari-ST.md
     title: Atari ST
     category: Computers
