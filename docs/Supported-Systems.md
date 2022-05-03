@@ -145,9 +145,9 @@ Please note that MAME and FinalBurn Neo screen aspect ratios are not optimized, 
 |[Build Engine](System-Build-Engine)|**raze**|build|[.build](System-Build-Engine#how-to-create-a-build-file)|||
 |[Doom](System-Doom)|**gzdoom**<br />lzdoom<br />prboom|doom|[.doom](System-Doom#how-to-create-a-doom-file)|||
 |[EasyRPG](System-EasyRPG)|**easyrpg**|easyrpg|.zip .easyrpg .ldb|||
-|OpenBOR|**openbor**|openbor|.pak|||
+|[OpenBOR](System-OpenBOR)|**openbor**|openbor|.pak|||
 |[ScummVM](System-ScummVM)|**scummvmsa**<br />scummvm|scummvm|.scummvm|||
-|Solarus|**solarus**|solarus|.solarus|||
+|[Solarus](System-Solarus)|**solarus**|solarus|.solarus|||
 |[Sun Microsystems<br/>J2ME](System-Sun-J2ME)|**freej2me**|j2me|.jar|Good: Quite smooth playing|Good: Quite smooth playing|
 |[Wolfenstein 3D](System-Wolfenstein-3D)|**ecwolf**|ecwolf|[.ecwolf](System-Wolfenstein-3D#how-to-create-a-ecwolf-file)|||
 
