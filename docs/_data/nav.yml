@@ -16,55 +16,55 @@ pages:
   - file: Installation.md
     title: Installation
     category: Installation
-    url: Installation
+    url: /Installation
   - file: Getting-Started.md
     title: Getting Started
     category: Guides
-    url: Getting-Started
+    url: /Getting-Started
   - file: Getting-to-Know-AmberELEC.md
     title: Getting to Know AmberELEC
     category: Guides
-    url: Getting-to-Know-AmberELEC
+    url: /Getting-to-Know-AmberELEC
   - file: Transferring-Files.md
     title: Transferring Files
     category: Guides
-    url: Transferring-Files
+    url: /Transferring-Files
   - file: Collections.md
     title: Collections
     category: Guides
-    url: Collections
+    url: /Collections
   - file: Menus.md
     title: Menus
     category: Guides
-    url: Menus
+    url: /Menus
   - file: Advanced-Topics.md
     title: Advanced Topics
     category: Guides
-    url: Advanced-Topics
+    url: /Advanced-Topics
   - file: Troubleshooting.md
     title: Troubleshooting
     category: Guides
-    url: Troubleshooting
+    url: /Troubleshooting
   - file: Hardware-Issues.md
     title: Hardware Issues
     category: Guides
-    url: Hardware-Issues
+    url: /Hardware-Issues
   - file: Arcade.md
     title: Arcade Emulation
     category: Guides
-    url: Arcade
+    url: /Arcade
   - file: Disk-Roms.md
     title: CD and DVD ROMs
     category: Guides
-    url: Disk-Roms
+    url: /Disk-Roms
   - file: Glossary.md
     title: Glossary
     category: Guides
-    url: Glossary
+    url: /Glossary
   - file: FAQ.md
     title: FAQ
     category: FAQ
-    url: FAQ
+    url: /FAQ
   - file: Contributing-to-AmberELEC.md
     title: Contributing to AmberELEC
     category: Contributing
@@ -72,223 +72,223 @@ pages:
   - file: Pre-Release-Features.md
     title: Pre-Release Features
     category: Contributing
-    url: Pre-Release-Features
+    url: /Pre-Release-Features
   - file: Supported-Systems.md
     title: Supported Systems
     category: Systems
-    url: Supported-Systems
+    url: /Supported-Systems
   - file: System-MAME.md
     title: MAME
     category: Arcade
-    url: System-MAME
+    url: /System-MAME
   - file: System-FBNeo.md
     title: FinalBurn Neo
     category: Arcade
-    url: System-FBNeo
+    url: /System-FBNeo
   - file: System-Laserdisc.md
     title: LaserDisc
     category: Arcade
-    url: System-Laserdisc
+    url: /System-Laserdisc
   - file: System-Neo-Geo.md
     title: SNK Neo Geo
     category: Arcade
-    url: System-Neo-Geo
+    url: /System-Neo-Geo
   - file: System-Atomiswave.md
     title: Sammy Atomiswave
     category: Arcade
-    url: System-Atomiswave
+    url: /System-Atomiswave
   - file: System-Naomi.md
     title: Sega Naomi
     category: Arcade
-    url: System-Naomi
+    url: /System-Naomi
   - file: System-Atari-2600.md
     title: Atari 2600
     category: Consoles/Portables
-    url: System-Atari-2600
+    url: /System-Atari-2600
   - file: System-Atari-5200.md
     title: Atari 5200
     category: Consoles/Portables
-    url: System-Atari-5200
+    url: /System-Atari-5200
   - file: System-Atari-7800.md
     title: Atari 7800
     category: Consoles/Portables
-    url: System-Atari-7800
+    url: /System-Atari-7800
   - file: System-Atari-Lynx.md
     title: Atari Lynx
     category: Consoles/Portables
-    url: System-Atari-Lynx
+    url: /System-Atari-Lynx
   - file: System-Casio-PV1000.md
     title: Casio PV-1000
     category: Consoles/Portables
-    url: System-Casio-PV1000
+    url: /System-Casio-PV1000
   - file: System-Coleco-ColecoVision.md
     title: Coleco ColecoVision
     category: Consoles/Portables
-    url: System-Coleco-ColecoVision
+    url: /System-Coleco-ColecoVision
   - file: System-Commodore-AmigaCD32.md
     title: Commodore Amiga CD³²
     category: Consoles/Portables
-    url: System-Commodore-AmigaCD32
+    url: /System-Commodore-AmigaCD32
   - file: System-Bandai-Wonderswan.md
     title: Bandai Wonderswan (Color)
     category: Consoles/Portables
-    url: System-Bandai-Wonderswan
+    url: /System-Bandai-Wonderswan
   - file: System-BitCorp-Gamate.md
     title: BitCorp Gamate
     category: Consoles/Portables
-    url: System-BitCorp-Gamate
+    url: /System-BitCorp-Gamate
   - file: System-Entex-AdventureVision.md
     title: Entex Adventure Vision
     category: Consoles/Portables
-    url: System-Entex-AdventureVision
+    url: /System-Entex-AdventureVision
   - file: System-Epoch-GamePocketComputer.md
     title: Epoch Game Pocket Computer
     category: Consoles/Portables
-    url: System-Epoch-GamePocketComputer
+    url: /System-Epoch-GamePocketComputer
   - file: System-Fairchild-ChannelF.md
     title: Fairchild Channel F
     category: Consoles/Portables
-    url: System-Fairchild-ChannelF
+    url: /System-Fairchild-ChannelF
   - file: System-Hartung-GameMaster.md
     title: Hartung Game Master
     category: Consoles/Portables
-    url: System-Hartung-GameMaster
+    url: /System-Hartung-GameMaster
   - file: System-Magnavox-Odyssey2.md
     title: Magnavox Odyssey²
     category: Consoles/Portables
-    url: System-Magnavox-Odyssey2
+    url: /System-Magnavox-Odyssey2
   - file: System-Mattel-Intellivision.md
     title: Mattel Intellivision
     category: Consoles/Portables
-    url: System-Mattel-Intellivision
+    url: /System-Mattel-Intellivision
   - file: System-MiltonBradley-Vectrex.md
     title: Milton Bradley Vectrex
     category: Consoles/Portables
-    url: System-MiltonBradley-Vectrex
+    url: /System-MiltonBradley-Vectrex
   - file: System-NEC-PCEngine.md
     title: NEC PC Engine
     category: Consoles/Portables
-    url: System-NEC-PCEngine
+    url: /System-NEC-PCEngine
   - file: System-NEC-PCFX.md
     title: NEC PC-FX
     category: Consoles/Portables
-    url: System-NEC-PCFX
+    url: /System-NEC-PCFX
   - file: System-Nintendo-GameAndWatch.md
     title: Nintendo Game & Watch
     category: Consoles/Portables
-    url: System-Nintendo-GameAndWatch
+    url: /System-Nintendo-GameAndWatch
   - file: System-Nintendo-GameBoy.md
     title: Nintendo Game Boy (Color)
     category: Consoles/Portables
-    url: System-Nintendo-GameBoy
+    url: /System-Nintendo-GameBoy
   - file: System-Game-Boy-Advance.md
     title: Nintendo Game Boy Advance
     category: Consoles/Portables
-    url: System-Game-Boy-Advance
+    url: /System-Game-Boy-Advance
   - file: System-Nintendo-NDS.md
     title: Nintendo NDS
     category: Consoles/Portables
-    url: System-Nintendo-NDS
+    url: /System-Nintendo-NDS
   - file: System-Nintendo-Famicom.md
     title: Nintendo NES/Famicom
     category: Consoles/Portables
-    url: System-Nintendo-Famicom
+    url: /System-Nintendo-Famicom
   - file: System-N64.md
     title: Nintendo N64
     category: Consoles/Portables
-    url: System-N64
+    url: /System-N64
   - file: System-Nintendo-PokemonMini.md
     title: Nintendo Pokémon Mini
     category: Consoles/Portables
-    url: System-Nintendo-PokemonMini
+    url: /System-Nintendo-PokemonMini
   - file: System-Super-Nintendo-Entertainment-System.md
     title: Nintendo Super NES
     category: Consoles/Portables
-    url: System-Super-Nintendo-Entertainment-System
+    url: /System-Super-Nintendo-Entertainment-System
   - file: System-Virtual-Boy.md
     title: Nintendo Virtual Boy
     category: Consoles/Portables
-    url: System-Virtual-Boy
+    url: /System-Virtual-Boy
   - file: System-Panasonic-3DO.md
     title: Panasonic 3DO
     category: Consoles/Portables
-    url: System-Panasonic-3DO
+    url: /System-Panasonic-3DO
   - file: System-CDI.md
     title: Philips CD-i
     category: Consoles/Portables
-    url: System-CDI
+    url: /System-CDI
   - file: System-Magnavox-Odyssey2.md
     title: Philips Videopac
     category: Consoles/Portables
-    url: System-Magnavox-Odyssey2
+    url: /System-Magnavox-Odyssey2
   - file: System-Sony-PlayStation.md
     title: Sony PlayStation
     category: Consoles/Portables
-    url: System-Sony-PlayStation
+    url: /System-Sony-PlayStation
   - file: System-Sony-PlayStation-Portable.md
     title: Sony PSP (Minis)
     category: Consoles/Portables
-    url: System-Sony-PlayStation-Portable
+    url: /System-Sony-PlayStation-Portable
   - file: System-Sega-MegaDrive.md
     title: Sega 32X
     category: Consoles/Portables
-    url: System-Sega-MegaDrive#32x-overview
+    url: /System-Sega-MegaDrive#32x-overview
   - file: System-Sega-Dreamcast.md
     title: Sega Dreamcast
     category: Consoles/Portables
-    url: System-Sega-Dreamcast
+    url: /System-Sega-Dreamcast
   - file: System-Sega-GameGear.md
     title: Sega Game Gear
     category: Consoles/Portables
-    url: System-Sega-GameGear
+    url: /System-Sega-GameGear
   - file: System-Sega-MasterSystem.md
     title: Sega Master System
     category: Consoles/Portables
-    url: System-Sega-MasterSystem
+    url: /System-Sega-MasterSystem
   - file: System-Sega-MegaDrive.md
     title: Sega CD/Mega-CD
     category: Consoles/Portables
-    url: System-Sega-MegaDrive#cd-overview
+    url: /System-Sega-MegaDrive#cd-overview
   - file: System-Sega-MegaDrive.md
     title: Sega Mega Drive/Genesis
     category: Consoles/Portables
-    url: System-Sega-MegaDrive
+    url: /System-Sega-MegaDrive
   - file: System-Sega-Saturn.md
     title: Sega Saturn
     category: Consoles/Portables
-    url: System-Sega-Saturn
+    url: /System-Sega-Saturn
   - file: System-Sega-SG1000.md
     title: Sega SG-1000
     category: Consoles/Portables
-    url: System-Sega-SG1000
+    url: /System-Sega-SG1000
   - file: System-Neo-Geo.md
     title: SNK Neo Geo
     category: Consoles/Portables
-    url: System-Neo-Geo
+    url: /System-Neo-Geo
   - file: System-SNK-NeoGeoCD.md
     title: SNK Neo Geo CD
     category: Consoles/Portables
-    url: System-SNK-NeoGeoCD
+    url: /System-SNK-NeoGeoCD
   - file: System-SNK-NeoGeoPocket.md
     title: SNK Neo Geo Pocket (Color)
     category: Consoles/Portables
-    url: System-SNK-NeoGeoPocket
+    url: /System-SNK-NeoGeoPocket
   - file: System-TimeTop-GameKing.md
     title: TimeTop GameKing
     category: Consoles/Portables
-    url: System-TimeTop-GameKing
+    url: /System-TimeTop-GameKing
   - file: System-Watara-Supervision.md
     title: Watara Supervision
     category: Consoles/Portables
-    url: System-Watara-Supervision
+    url: /System-Watara-Supervision
   - file: System-WelbackHoldings-MegaDuck.md
     title: Welback Holdings Mega Duck
     category: Consoles/Portables
-    url: System-WelbackHoldings-MegaDuck
+    url: /System-WelbackHoldings-MegaDuck
   - file: System-Amstrad-CPC.md
     title: Amstrad CPC
     category: Computers
-    url: System-Amstrad-CPC
+    url: /System-Amstrad-CPC
   - file: System-Atari-800.md
     title: Atari 800
     category: Computers
@@ -296,123 +296,123 @@ pages:
   - file: System-Atari-ST.md
     title: Atari ST
     category: Computers
-    url: System-Atari-ST
+    url: /System-Atari-ST
   - file: System-Commodore-Amiga.md
     title: Commodore Amiga
     category: Computers
-    url: System-Commodore-Amiga
+    url: /System-Commodore-Amiga
   - file: System-Commodore-C16.md
     title: Commodore C16
     category: Computers
-    url: System-Commodore-C16
+    url: /System-Commodore-C16
   - file: System-Commodore-C64.md
     title: Commodore C64
     category: Computers
-    url: System-Commodore-C64
+    url: /System-Commodore-C64
   - file: System-Commodore-C128.md
     title: Commodore C128
     category: Computers
-    url: System-Commodore-C128
+    url: /System-Commodore-C128
   - file: System-Commodore-VIC20.md
     title: Commodore VIC-20
     category: Computers
-    url: System-Commodore-VIC20
+    url: /System-Commodore-VIC20
   - file: System-MS-DOS.md
     title: Microsoft DOS
     category: Computers
-    url: System-MS-DOS
+    url: /System-MS-DOS
   - file: System-Microsoft-MSX.md
     title: Microsoft MSX/MSX2
     category: Computers
-    url: System-Microsoft-MSX
+    url: /System-Microsoft-MSX
   - file: System-PC-88.md
     title: NEC PC-88
     category: Computers
-    url: System-PC-88
+    url: /System-PC-88
   - file: System-PC-98.md
     title: NEC PC-98
     category: Computers
-    url: System-PC-98
+    url: /System-PC-98
   - file: System-Sega-SC3000.md
     title: Sega SC3000
     category: Computers
-    url: System-Sega-SC3000
+    url: /System-Sega-SC3000
   - file: System-Sharp-X1.md
     title: Sharp X1
     category: Computers
-    url: System-Sharp-X1
+    url: /System-Sharp-X1
   - file: System-X68000.md
     title: Sharp x68000
     category: Computers
-    url: System-X68000
+    url: /System-X68000
   - file: System-Sinclair-ZXSpectrum.md
     title: Sinclair ZX Spectrum
     category: Computers
-    url: System-Sinclair-ZXSpectrum
+    url: /System-Sinclair-ZXSpectrum
   - file: System-Sinclair-ZX81.md
     title: Sinclair ZX81
     category: Computers
-    url: System-Sinclair-ZX81
+    url: /System-Sinclair-ZX81
   - file: System-Arduboy.md
     title: Arduboy
     category: Fantasy/Open Source Consoles
-    url: System-Arduboy
+    url: /System-Arduboy
   - file: System-Aquaplus-Piece.md
     title: Aquaplus P/ECE
     category: Fantasy/Open Source Consoles
-    url: System-Aquaplus-Piece
+    url: /System-Aquaplus-Piece
   - file: System-Belogic-Uzebox.md
     title: Belogic Uzebox
     category: Fantasy/Open Source Consoles
-    url: System-Belogic-Uzebox
+    url: /System-Belogic-Uzebox
   - file: System-PICO-8.md
     title: Lexaloffle Pico-8
     category: Fantasy/Open Source Consoles
-    url: System-PICO-8
+    url: /System-PICO-8
   - file: System-Nesbox-TIC80.md
     title: Nesbox TIC-80
     category: Fantasy/Open Source Consoles
-    url: System-Nesbox-TIC80
+    url: /System-Nesbox-TIC80
   - file: System-Build-Engine.md
     title: Build Engine
     category: Game Engines
-    url: System-Build-Engine
+    url: /System-Build-Engine
   - file: System-Doom.md
     title: Doom
     category: Game Engines
-    url: System-Doom
+    url: /System-Doom
   - file: System-EasyRPG.md
     title: EasyRPG
     category: Game Engines
-    url: System-EasyRPG
+    url: /System-EasyRPG
   - file: System-OpenBOR.md
     title: OpenBOR
     category: Game Engines
-    url: System-OpenBOR
+    url: /System-OpenBOR
   - file: System-ScummVM.md
     title: ScummVM
     category: Game Engines
-    url: System-ScummVM
+    url: /System-ScummVM
   - file: System-Solarus.md
     title: Solarus
     category: Game Engines
-    url: System-Solarus
+    url: /System-Solarus
   - file: System-Sun-J2ME.md
     title: Sun J2ME
     category: Game Engines
-    url: System-Sun-J2ME
+    url: /System-Sun-J2ME
   - file: System-Wolfenstein-3D.md
     title: Wolfenstein 3D
     category: Game Engines
-    url: System-Wolfenstein-3D
+    url: /System-Wolfenstein-3D
   - file: PortMaster.md
     title: PortMaster
     category: Ports
-    url: PortMaster
+    url: /PortMaster
   - file: Download.md
     title: Download
     category: Download
-    url: Download
+    url: /Download
 
 # Array: categories
 # An array of category objects that pages are organized into
@@ -429,36 +429,36 @@ pages:
 #     note: Nesting categories more than one level is not currently supported
 categories:
   - title: Installation
-    url: Installation
+    url: /Installation
   - title: Guides
-    url: Getting-to-Know-AmberELEC
+    url: /Getting-to-Know-AmberELEC
     topnavpages: true
     sidenav: true
   - title: FAQ
-    url: FAQ
+    url: /FAQ
   - title: Systems
-    url: Supported-Systems
+    url: /Supported-Systems
     sidenav: true
   - title: Arcade
-    url: Supported-Systems#arcade
+    url: /Supported-Systems#arcade
     parent: Systems
   - title: Consoles/Portables
-    url: Supported-Systems#consolesportables
+    url: /Supported-Systems#consolesportables
     parent: Systems
   - title: Computers
-    url: Supported-Systems#computers
+    url: /Supported-Systems#computers
     parent: Systems
   - title: Fantasy/Open Source Consoles
-    url: Supported-Systems#fantasyopen-source-consoles
+    url: /Supported-Systems#fantasyopen-source-consoles
     parent: Systems
   - title: Game Engines
-    url: Supported-Systems#game-engines
+    url: /Supported-Systems#game-engines
     parent: Systems
   - title: Ports
     parent: Systems
   - title: Contributing
-    url: Contributing-to-AmberELEC
+    url: /Contributing-to-AmberELEC
     topnavpages: true
     sidenav: true
   - title: Download
-    url: Download
+    url: /Download
