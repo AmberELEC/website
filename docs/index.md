@@ -1,4 +1,4 @@
-<img src="images/transparent_amber_elec_horiz.svg" id="TFOELEClogo" class="mx-auto d-block" alt="AmberELEC Logo" style="width: 100%;max-width: 800px;margin: 75px 0 125px 0;"/>
+<img src="/images/transparent_amber_elec_horiz.svg" id="TFOELEClogo" class="mx-auto d-block" alt="AmberELEC Logo" style="width: 100%;max-width: 800px;margin: 75px 0 125px 0;"/>
 
 # <span style="color: #FFBF00; font-size: 1.5em;font-weight: bold;">Preserved in golden Amber</span>
 

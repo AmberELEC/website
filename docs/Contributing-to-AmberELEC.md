@@ -37,11 +37,11 @@ Dev and PR builds are intended primarily for developers to get the latest change
 **Finding/Installing Development Builds**
 - To find the latest development build, click on the 'green checkbox'(<img src="./images/green-check.png" alt="green checkbox" width="20">) on the AmberELEC [main](https://github.com/AmberELEC/AmberELEC) page. Then click *Details*.
 
-  Ex: <img src="./images/green-check-details.png" alt="green checkbox" width="300">.
+  Ex: <img src="/images/green-check-details.png" alt="green checkbox" width="300">.
   
  - On the following page, find the "Artifacts" link on the upper right.  Click and select the zip file for the RG351P or RG351V.
    
-   Ex: <img src="./images/artifacts.png" alt="Artifacts" width="300">.
+   Ex: <img src="/images/artifacts.png" alt="Artifacts" width="300">.
    - NOTE: Currently `.zip` files are provided due to technical limitations with Github Actions. Both the `.tar` and `.img.gz` are inside the zip file.  In the future, separate zips for .tar and `.img.gz` may be provided.
 - Unzip the zip file and then use `.tar` or `.img.gz` inside as normal to update.
 

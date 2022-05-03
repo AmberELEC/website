@@ -19,7 +19,7 @@ EmulationStation Controls are active when you're in AmberELEC's rom selection me
 ### RetroArch Hotkeys
 Every hotkey is commanded by combining the SELECT button with the desired function key as shown in the image below. For example, to do a savestate the hotkey is SELECT + R1. Brightness is an exception; it uses L3. The hotkeys for the 351V are the same as the ones for the P and M, with the exception that R3 on the P/M is the F (function) button on the V instead.
 
-<img src="images/rg351p-hotkeys-AmberELEC-purple.svg" alt="RG351P/M/MP graphical hotkey map" width="1000"/>
+<img src="/images/rg351p-hotkeys-AmberELEC-purple.svg" alt="RG351P/M/MP graphical hotkey map" width="1000"/>
 
 | Hotkey | RG351P/M/MP, RG552 | RG351V |
 |----|----|----|
