@@ -68,7 +68,7 @@ pages:
   - file: Contributing-to-AmberELEC.md
     title: Contributing to AmberELEC
     category: Contributing
-    url: Contributing-to-AmberELEC
+    url: /Contributing-to-AmberELEC
   - file: Pre-Release-Features.md
     title: Pre-Release Features
     category: Contributing
@@ -292,7 +292,7 @@ pages:
   - file: System-Atari-800.md
     title: Atari 800
     category: Computers
-    url: systems/System-Atari-800
+    url: /systems/System-Atari-800
   - file: System-Atari-ST.md
     title: Atari ST
     category: Computers
