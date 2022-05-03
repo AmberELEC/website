@@ -1,5 +1,35 @@
 # Nintendo Super NES / Super Famicom
 
+- [SNES Overview](#snes-overview)
+- [Paths](#paths)
+- [BIOS](#bios)
+- [MSU-1](#msu-1)
+- [Sufami Turbo](#sufami-turbo)
+- [Satellaview](#satellaview-bs-x)
+- [Specific Game Info](#specific-game-info)
+
+## SNES Overview
+
+- Cores:
+  - `snes9x` (default)
+  - `snes9x2002`
+  - `snse9x2005_plus`
+  - `snse9x2010`
+  - `beetle_supafaust`
+- Paths:
+  - `sfc`
+  - `snes`
+  - `snesh` (Convenience folder for romhacks)
+- Supported Extensions: `.smc .sfc .swc .fig .zip .7z`
+- Bios: None
+- Libretro Documentation:
+  - [Snes9x](https://docs.libretro.com/library/snes9x/)
+  - [Snes9x 2002](https://docs.libretro.com/library/snes9x_2002/)
+  - [Snes9x 2005 Plus](https://docs.libretro.com/library/snes9x_2005_plus/)
+  - [Snes9x 2010](https://docs.libretro.com/library/snes9x_2010/)
+  - [Snes9x 2010](https://docs.libretro.com/library/snes9x_2010/)
+  - [Beetle Supafaust](https://github.com/libretro/supafaust#readme)
+
 ## Paths
 - Super Nintendo: `/roms/snes`
 - Super Famicom: `/roms/sfc`
@@ -10,15 +40,19 @@
 
 The only difference between snes, sfc, snesmsu1, and snesh is how they are displayed in EmulationStation (e.g. for theming purposes). They support the same extensions, can use the same cores, and are scraped the same way.
 
-## Supported Extensions
-.smc, .sfc, .swc, .fig, .gd3, .gd7, .dx2 (Super Nintendo), .bs, .bsx (Satellaview), .st (Sufami Turbo), .zip, .7z
+## BIOS
 
-## BIOSes needed
 Ordinary SNES games do not use a BIOS.
 
-For Sufami Turbo games to work, the file `STBIOS.bin` needs to be placed in the `bios` folder on the games partition. The MD5 checksum of this file is `d3a44ba7d42a74d3ac58cb9c14c6a5ca`.
+For Sufami Turbo games to work, the file `STBIOS.bin` needs to be placed in the `bios` folder on the games partition.
+
+| BIOS       | MD5                              |
+| STBIOS.bin | d3a44ba7d42a74d3ac58cb9c14c6a5ca |
 
 For Satellaview/BS-X games, the file `BS-X.bin` needs to be placed in the `bios` folder on the games partition. The MD5 checksum of this file is `fed4d8242cfbed61343d53d48432aced`, patched versions also work (e.g. the English translation).
+
+| BIOS       | MD5                              |
+| BS-X.bin   | fed4d8242cfbed61343d53d48432aced |
 
 ## Cores
 Snes9x is the default core, these cores are also available:
@@ -29,28 +63,13 @@ Snes9x is the default core, these cores are also available:
 
 The older versions of SNES are there to try if a game does not perform well (see below), however as they are oudated, they may have graphical glitches or other inaccuracies. They may not support all expansion chips, and do not work with MSU-1.
 
-## Specific game info
-
-If you are unsure about whether or not a game uses a specific expansion chip, you can view the list on [Wikipedia](https://en.wikipedia.org/wiki/List_of_Super_NES_enhancement_chips#List_of_Super_NES_games_that_use_enhancement_chips), or search [superfamicom.org](https://superfamicom.org/).
-
-### MSU-1
+## MSU-1
 
 MSU-1 is a virtual SNES chip designed by Near, the creator of the bsnes and higan emulators. The chip allows the SNES to play CD quality audio and address up to 4GB of memory locations. It's primarily used for patches that replace the music with orchestral or remixed music. The most comprehensive collection of MSU-1 patches can be found on the [Zeldix forum](https://www.zeldix.net/f71-msu-1-hacks-database).
 
 To play MSU-1 games, you'll need to patch your rom, and you'll need to have a set of pcm files. You'll also need the corresponding msu file. In general, you'll want all the files to use the same naming convention. If you have the patched rom `eb_msu1.sfc`, you should have the `eb_msu1.msu` file, as well as numbered `eb_msu1-#.pcm` files.
 
 Beetle Supafaust only supports the extension `.sfc`. If your rom file uses `.smc`, please rename it to `.sfc`.
-
-### SA-1 (Kirby Super Star, Kirby's Dream Land 3, Super Mario RPG, etc); SuperFX (Star Fox, Stunt Race FX, etc); SuperFX 2 (Doom, Super Mario World 2: Yoshi's Island, etc)
-
-The emulation of the additional chips present in these games can be quite demanding compared to other SNES games, and may not run at full speed with the default SNES core. Beetle Supafaust or an older Snes9x core may yield better performance.
-
-### DSP-3 (SD Gundam GX), DSP-4 (Top Gear 3000), OBC-1 (Metal Combat: Falcon's Revenge), S-RTC (Daikaijuu Monogatari II), SPC7110 (Tengai Makyou Zero), ST010 (F1 ROC II: Race of Champions)
-
-These games are not supported by the Beetle Supafaust core.
-
-### Hayazashi Nidan Morita Shougi, Hayazashi Nidan Morita Shougi 2
-These games are not supported by any core available in AmberELEC, and are not playable.
 
 ## Sufami Turbo
 
@@ -148,3 +167,18 @@ You may be able to find SatData that various people have created in various plac
 A YouTuber named Cabbusses has created a four part tutorial series on using SatellaWave. There are three videos that are really helpful for learning how to use it. One covers the [basic how-to, NPCs, joke items, and time channels](https://www.youtube.com/watch?v=fIrTMKovOvo), one covers [in-game shops and game downloads](https://www.youtube.com/watch?v=fIrTMKovOvo), and the last one covers [event plazas](https://www.youtube.com/watch?v=86FVdy-NPj8).
 
 Once you run an export, simply place the `.bin` files that are generated in the `/bin/satellaview` folder alongside your roms, and you should be good to go.
+
+## Specific game info
+
+If you are unsure about whether or not a game uses a specific expansion chip, you can view the list on [Wikipedia](https://en.wikipedia.org/wiki/List_of_Super_NES_enhancement_chips#List_of_Super_NES_games_that_use_enhancement_chips), or search [superfamicom.org](https://superfamicom.org/).
+
+### SA-1 (Kirby Super Star, Kirby's Dream Land 3, Super Mario RPG, etc); SuperFX (Star Fox, Stunt Race FX, etc); SuperFX 2 (Doom, Super Mario World 2: Yoshi's Island, etc)
+
+The emulation of the additional chips present in these games can be quite demanding compared to other SNES games, and may not run at full speed with the default SNES core. Beetle Supafaust or an older Snes9x core may yield better performance.
+
+### DSP-3 (SD Gundam GX), DSP-4 (Top Gear 3000), OBC-1 (Metal Combat: Falcon's Revenge), S-RTC (Daikaijuu Monogatari II), SPC7110 (Tengai Makyou Zero), ST010 (F1 ROC II: Race of Champions)
+
+These games are not supported by the Beetle Supafaust core.
+
+### Hayazashi Nidan Morita Shougi, Hayazashi Nidan Morita Shougi 2
+These games are not supported by any core available in AmberELEC, and are not playable.
