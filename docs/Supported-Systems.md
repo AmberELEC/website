@@ -133,9 +133,9 @@ Please note that MAME and FinalBurn Neo screen aspect ratios are not optimized, 
 |---|---|---|---|---|---|
 |[Aquaplus<br/>P/ECE](System-Aquaplus-Piece)|**piemu**|piece|.pex .pfi|Good|Good|
 |[Arduboy](System-Arduboy)|**arduous**|arduboy|.hex|Good|Good|
-|Belogic<br/>Uzebox|**uzem**|uzebox|.uze|Good|Good|
+|[Belogic<br/>Uzebox](System-Belogic-Uzebox)|**uzem**|uzebox|.uze|Good|Good|
 |[Lexaloffle<br/>Pico-8](System-PICO-8)|**pico8**|pico-8|.png .p8|Good|Good|
-|Nesbox<br/>TIC-80|**tic80**|tic-80|.tic|Good|Good|
+|[Nesbox<br/>TIC-80](System-Nesbox-TIC80)|**tic80**|tic-80|.tic|Good|Good|
 
 ## Game Engines
 

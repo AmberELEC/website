@@ -361,10 +361,18 @@ pages:
     title: Aquaplus P/ECE
     category: Fantasy/Open Source Consoles
     url: System-Aquaplus-Piece
+  - file: System-Belogic-Uzebox.md
+    title: Belogic Uzebox
+    category: Fantasy/Open Source Consoles
+    url: System-Belogic-Uzebox
   - file: System-PICO-8.md
-    title: Pico-8
+    title: Lexaloffle Pico-8
     category: Fantasy/Open Source Consoles
     url: System-PICO-8
+  - file: System-Nesbox-TIC80.md
+    title: Nesbox TIC-80
+    category: Fantasy/Open Source Consoles
+    url: System-Nesbox-TIC80
   - file: System-Build-Engine.md
     title: Build Engine
     category: Game Engines
