@@ -54,6 +54,7 @@ Please note that MAME and FinalBurn Neo screen aspect ratios are not optimized, 
 |[Epoch<br />Game Pocket Computer](System-Epoch-GamePocketComputer)|**mame**|gamepocketcomputer|.bin .zip .7z|Good|Good|
 |[Fairchild<br/>Channel F](System-Fairchild-ChannelF)|**fairchaf**|channelf|.bin .chf .zip .7z|Good|Good|
 |[Hartung<br />Game Master](System-Hartung-GameMaster)|**mame**|gamemaster|.bin .zip .7z|Good|Good|
+|[Magnavox<br/>Odyssey²](System-Magnavox-Odyssey2)|**o2em**|odyssey|.bin .zip .7z|Good|Good|
 |[Mattel<br/>Intellivision](System-Mattel-Intellivision)|**freeintv**|intellivision|.int .bin .rom .zip .7z|Good|Good|
 |[Milton Bradley<br/>Vectrex](System-MiltonBradley-Vectrex)|**vecx**|vectrex|.bin .gam .vec .zip .7z|Good|Good|
 |[NEC<br/>PC Engine](System-NEC-PCEngine)|**beetle_pce_fast**<br />beetle_supergrafx|pcengine|.pce .bin .zip .7z|Good|Good|
@@ -106,25 +107,24 @@ Please note that MAME and FinalBurn Neo screen aspect ratios are not optimized, 
 |Manufacturer/System|Core/Emu|ROM Path|Extension|RG351|RG552|
 |---|---|---|---|---|---|
 |[Amstrad<br/>CPC](System-Amstrad-CPC)|**crocods**<br />cap32|amstradcpc|.dsk .sna [crocods: .kcr]<br/>[cap32: .tap .cdt .voc .m3u .zip .7z]|Good|Good|
-|Atari 800|**atari800**|atari800|.rom .xfd .atr .atx .cdm .cas .car .bin .a52 .xex .zip .7z|Good|Good|
+|[Atari 800](System-Atari-800)|**atari800**|atari800|.rom .xfd .atr .atx .cdm .cas .car .bin .a52 .xex .zip .7z|Good|Good|
 |[Atari ST](System-Atari-ST)|**hatari**<br />HATARISA|atarist|.st .msa .stx .dim .ipf .m3u .zip .7z|Good|Good|
-|Commodore<br/>Amiga|**puae**<br />amiberry<br />uae4arm|amiga|.zip .uae .adf .dms .fdi .ipf .adz .lha .hdf .hdz|Good|Good|
-|Commodore<br/>C16|**vice_xplus4**|c16|.d64 .d71 .d80 .d81 .d82 .g64 .g41 .x64 .t64 .tap .prg .p00 .crt .bin .d6z .d7z .d8z .g6z .g4z .x6z .cmd .m3u .vsf .nib .nbz .zip|Good|Good|
-|Commodore<br/>C64|**vice_x64**|c64|.d64 .d71 .d80 .d81 .d82 .g64 .g41 .x64 .t64 .tap .prg .p00 .crt .bin .d6z .d7z .d8z .g6z .g4z .x6z .cmd .m3u .vsf .nib .nbz .zip|Good|Good|
-|Commodore<br/>C128|**vice_x128**|c128|.d64 .d71 .d80 .d81 .d82 .g64 .g41 .x64 .t64 .tap .prg .p00 .crt .bin .d6z .d7z .d8z .g6z .g4z .x6z .cmd .m3u .vsf .nib .nbz .zip|Good|Good|
-|Commodore<br/>VIC-20|**vice_xvic**|vic20|.20 .40 .60 .a0 .b0 .d64 .d71 .d80 .d81 .d82 .g64 .g41 .x64 .t64 .tap .prg .p00 .crt .bin .gz .d6z .d7z .d8z .g6z .g4z .x6z .cmd .m3u .vsf .nib .nbz .zip|Good|Good|
-|[Magnavox<br/>Odyssey²](System-Magnavox-Odyssey2)|**o2em**|odyssey|.bin .zip .7z|Good|Good|
+|[Commodore<br/>Amiga](System-Commodore-Amiga)|**puae**<br />amiberry<br />uae4arm|amiga|.zip .uae .adf .dms .fdi .ipf .adz .lha .hdf .hdz|Good|Good|
+|[Commodore<br/>C16](System-Commodore-C16)|**vice_xplus4**|c16|.d64 .d71 .d80 .d81 .d82 .g64 .g41 .x64 .t64 .tap .prg .p00 .crt .bin .d6z .d7z .d8z .g6z .g4z .x6z .cmd .m3u .vsf .nib .nbz .zip|Good|Good|
+|[Commodore<br/>C64](System-Commodore-C64)|**vice_x64**|c64|.d64 .d71 .d80 .d81 .d82 .g64 .g41 .x64 .t64 .tap .prg .p00 .crt .bin .d6z .d7z .d8z .g6z .g4z .x6z .cmd .m3u .vsf .nib .nbz .zip|Good|Good|
+|[Commodore<br/>C128](System-Commodore-C128)|**vice_x128**|c128|.d64 .d71 .d80 .d81 .d82 .g64 .g41 .x64 .t64 .tap .prg .p00 .crt .bin .d6z .d7z .d8z .g6z .g4z .x6z .cmd .m3u .vsf .nib .nbz .zip|Good|Good|
+|[Commodore<br/>VIC-20](System-Commodore-VIC20)|**vice_xvic**|vic20|.20 .40 .60 .a0 .b0 .d64 .d71 .d80 .d81 .d82 .g64 .g41 .x64 .t64 .tap .prg .p00 .crt .bin .gz .d6z .d7z .d8z .g6z .g4z .x6z .cmd .m3u .vsf .nib .nbz .zip|Good|Good|
 |[Microsoft<br/>DOS](System-MS-DOS)|**dosbox_pure**<br />dosbox_svn|pc|.com .bat .exe .dosz, disk images (iso, cue, img, ima, vhd) can be put into the .dosz|Good|Good|
-|Microsoft<br/>MSX|**bluemsx**<br />fmsx|msx| .dsk .mx1 .mx2 .rom .zip .7z .m3u|Good|Good|
-|Microsoft<br/>MSX2|**bluemsx**<br />fmsx|msx2|.dsk .mx1 .mx2 .rom .zip .7z .m3u|Good|Good|
+|[Microsoft<br/>MSX](System-Microsoft-MSX)|**bluemsx**<br />fmsx|msx| .dsk .mx1 .mx2 .rom .zip .7z .m3u|Good|Good|
+|[Microsoft<br/>MSX2](System-Microsoft-MSX)|**bluemsx**<br />fmsx|msx2|.dsk .mx1 .mx2 .rom .zip .7z .m3u|Good|Good|
 |[NEC<br/>PC-88](System-PC-88)|**quasi88**|pc88|.d88 .m3u|Good|Good|
 |[NEC<br/>PC-98](System-PC-98)|**np2kai**<br />nekop2|pc98|.d98 .zip .98d .fdi .fdd .2hd .tfd .d88 .88d .hdm .xdf .dup .hdi .thd .nhd .hdd .hdn|Mixed: Not powerful enough for some games|Good|
 |[Philips<br/>Videopac](System-Magnavox-Odyssey2)|**o2em**|videopac|.bin .zip .7z|Good|Good|
-|Sega<br/>SC-3000|**bluemsx**|sc-3000|.sg .bin .zip .7z|Good|Good|
-|Sharp<br/>X1|**x1**|x1|.dx1 .2d .2hd .tfd .d88 .88d .hdm .xdf .dup .tap .cmd .zip .7z|Good|Good|
+|[Sega<br/>SC-3000](System-Sega-SC3000)|**bluemsx**|sc-3000|.sg .bin .zip .7z|Good|Good|
+|[Sharp<br/>X1](System-Sharp-X1)|**x1**|x1|.dx1 .2d .2hd .tfd .d88 .88d .hdm .xdf .dup .tap .cmd .zip .7z|Good|Good|
 |[Sharp<br/>x68000](System-X68000)|**px68k**|x68000|.dim .img .d88 .88d .hdm .dup .2hd .xdf .hdf .cmd .m3u .zip .7z|Good|Good|
-|Sinclair<br/>ZX81|**81**|zx81|.tzx .p .zip .7z|Good|Good|
-|Sinclair<br/>ZX Spectrum|**fuse**|zxspectrum|.tzx .tap .z80 .rzx .scl .trd .dsk .zip .7z|Good|Good|
+|[Sinclair<br/>ZX81](System-Sinclair-ZX81)|**81**|zx81|.tzx .p .zip .7z|Good|Good|
+|[Sinclair<br/>ZX Spectrum](System-Sinclair-ZXSpectrum)|**fuse**|zxspectrum|.tzx .tap .z80 .rzx .scl .trd .dsk .zip .7z|Good|Good|
 
 ## Fantasy/Open Source Consoles
 

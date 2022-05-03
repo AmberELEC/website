@@ -1,15 +1,18 @@
-# Commodore Amiga CD³²
+# Commodore Amiga
+
 
 ## Overview
 
 - Cores:
   - `puae` (default)
+  - `amiberry` (standalone)
   - `uae4arm` (standalone)
-- Path: `amigacd32`
-- Supported Extensions: `.iso .cue .chd .lha`
-- Bios: [Recommended](#bios)
+- Path: `amiga`
+- Supported Extensions: `.zip .uae .adf .dms .fdi .ipf .adz .lha .hdf .hdz`
+- Bios: [Required](#bios)
 - Documentation:
   - [PUAE](https://docs.libretro.com/library/puae/)
+  - [Amiberry](https://github.com/midwan/amiberry#readme)
   - [uae4arm](https://github.com/Chips-fr/uae4arm-rpi#readme)
 
 ## BIOS

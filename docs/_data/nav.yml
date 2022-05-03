@@ -289,18 +289,42 @@ pages:
     title: Amstrad CPC
     category: Computers
     url: System-Amstrad-CPC
+  - file: System-Atari-800.md
+    title: Atari 800
+    category: Computers
+    url: System-Atari-800
   - file: System-Atari-ST.md
     title: Atari ST
     category: Computers
     url: System-Atari-ST
-  - file: System-X68000.md
-    title: Sharp x68000
+  - file: System-Commodore-Amiga.md
+    title: Commodore Amiga
     category: Computers
-    url: System-X68000
+    url: System-Commodore-Amiga
+  - file: System-Commodore-C16.md
+    title: Commodore C16
+    category: Computers
+    url: System-Commodore-C16
+  - file: System-Commodore-C64.md
+    title: Commodore C64
+    category: Computers
+    url: System-Commodore-C64
+  - file: System-Commodore-C128.md
+    title: Commodore C128
+    category: Computers
+    url: System-Commodore-C128
+  - file: System-Commodore-VIC20.md
+    title: Commodore VIC-20
+    category: Computers
+    url: System-Commodore-VIC20
   - file: System-MS-DOS.md
     title: Microsoft DOS
     category: Computers
     url: System-MS-DOS
+  - file: System-Microsoft-MSX.md
+    title: Microsoft MSX/MSX2
+    category: Computers
+    url: System-Microsoft-MSX
   - file: System-PC-88.md
     title: NEC PC-88
     category: Computers
@@ -309,6 +333,26 @@ pages:
     title: NEC PC-98
     category: Computers
     url: System-PC-98
+  - file: System-Sega-SC3000.md
+    title: Sega SC3000
+    category: Computers
+    url: System-Sega-SC3000
+  - file: System-Sharp-X1.md
+    title: Sharp X1
+    category: Computers
+    url: System-Sharp-X1
+  - file: System-X68000.md
+    title: Sharp x68000
+    category: Computers
+    url: System-X68000
+  - file: System-Sinclair-ZXSpectrum.md
+    title: Sinclair ZX Spectrum
+    category: Computers
+    url: System-Sinclair-ZXSpectrum
+  - file: System-Sinclair-ZX81.md
+    title: Sinclair ZX81
+    category: Computers
+    url: System-Sinclair-ZX81
   - file: System-Arduboy.md
     title: Arduboy
     category: Fantasy/Open Source Consoles
