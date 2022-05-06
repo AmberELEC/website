@@ -312,7 +312,7 @@ pages:
   - file: /systems/commodore-c128.md
     title: Commodore C128
     category: Computers
-    url: /systems-commodore-c128
+    url: /systems/commodore-c128
   - file: /systems/commodore-vic-20.md
     title: Commodore VIC-20
     category: Computers
