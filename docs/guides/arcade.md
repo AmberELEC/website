@@ -20,12 +20,12 @@ If you want a better understanding of how arcade emulation works, read the below
   
 ## Emulator Specific Documentation
 
-- [MAME](System-MAME)
-- [FinalBurn Neo](System-FBNeo)
-- [LaserDisc](System-Laserdisc)
-- [Neo Geo](System-Neo-Geo)
-- [Atomiswave](System-Atomiswave)
-- [Naomi](System-Naomi)
+- [MAME](/systems/mame)
+- [FinalBurn Neo](/systems/fbneo)
+- [LaserDisc](/systems/laserdisc)
+- [Neo Geo](/systems/snk-neo-geo)
+- [Atomiswave](/systems/sammy-atomiswave)
+- [Naomi](/systems/sega-naomi)
 
 ## Primer
 

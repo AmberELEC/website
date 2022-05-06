@@ -9,7 +9,7 @@
             {% for page in pages %}
               {% unless page.hidetopnav %}
                 <li>
-                  <a class="dropdown-item" href="{{ page.url }}">{{ page.title }}</a>
+                  <a class="dropdown-item" href="{{ page.url | relative_url }}">{{ page.title }}</a>
                 </li>
               {% endunless %}
             {% endfor %}
@@ -17,7 +17,7 @@
         </li>
       {% else %}
         <li class="nav-item">
-          <a class="nav-link nav-{{ category.title | downcase }}" href="{{ category.url }}">{{ category.title }}</a>
+          <a class="nav-link nav-{{ category.title | downcase }}" href="{{ category.url | relative_url }}">{{ category.title }}</a>
         </li>
       {% endif %}
     {% endunless %}

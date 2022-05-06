@@ -39,13 +39,13 @@ On the device
 
 ## Aquaplus P/ECE
 
-A standalone Aquaplus P/ECE emulator has been added. Documentation for it can be found under the [Aquaplus P/ECE System Page](System-Aquaplus-Piece)
+A standalone Aquaplus P/ECE emulator has been added. Documentation for it can be found under the [Aquaplus P/ECE System Page](/systems/aquaplus-piece)
 
 ## Mupen64Plus SA Options
 
 Mupen64Plus SA now supports 4:3 aspect resolution for the RG351P/M and the RG552, and this has been made the default. Fullscreen display is still available for those who want it.
 
-There are now also multiple controller configurations that can be selected from the ES configuration menu. The Default controller configuration is now the "Alt" control configuration listed in the [Mupen Control Configuration Section](System-N64#control-configuration-1), and the "RStick-C" configuration found there is also available. The previous default controller configuration is no longer available because it was insane.
+There are now also multiple controller configurations that can be selected from the ES configuration menu. The Default controller configuration is now the "Alt" control configuration listed in the [Mupen Control Configuration Section](/systems/nintendo-n64#control-configuration-1), and the "RStick-C" configuration found there is also available. The previous default controller configuration is no longer available because it was insane.
 
 You can also set the controller configuration to "Custom", and the system will read the controller configuration from `GAMES/gamedata/mupen64plussa/custominput.ini`. This file only contains entries for the P/M/V layout and MP/552 layout instead of thousands of unused entries, so it should be a little less confusing to edit. The previous `InputAutoCfg.ini` file is no longer supported.
 
@@ -55,4 +55,4 @@ If there are any other options or controller configurations you'd like to see su
 
 Laserdisc games are moving from the `daphne` folder to the `laserdisc` folder.
 
-We're switching over our emulator for Laserdisc games, which has more than doubled the playable laserdisc games. We now support Daphne and Singe formatted games. You can find a preview of the upcoming changes on the [Laserdisc System Page](System-Laserdisc)
+We're switching over our emulator for Laserdisc games, which has more than doubled the playable laserdisc games. We now support Daphne and Singe formatted games. You can find a preview of the upcoming changes on the [Laserdisc System Page](/systems/laserdisc)

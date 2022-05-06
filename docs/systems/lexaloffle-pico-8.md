@@ -1,4 +1,4 @@
-# Pico-8
+# Lexaloffle Pico-8
 
 - [Overview](#overview)
 - [Required Files](#required-files)

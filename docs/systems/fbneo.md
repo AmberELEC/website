@@ -19,4 +19,4 @@ We currently only recommend the current FBNeo ROMset for use. FBNeo titles tend 
 
 [FBNeo Dat Files](https://github.com/libretro/FBNeo/tree/master/dats/)
 
-Please see the [Arcade](Arcade) page for more information on creating romsets.
+Please see the [Arcade](/guides/arcade) page for more information on creating romsets.

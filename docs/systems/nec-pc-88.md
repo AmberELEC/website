@@ -1,4 +1,4 @@
-# PC-88
+# NEC PC-88
 
 ## BIOS
 While this core technically supports loading ROMs from the top level of the BIOS folder, this causes a conflict with MSX emulation also requiring a file named "disk.rom" there, so you should create a `quasi88` subfolder inside `/roms/bios` and put them there instead.

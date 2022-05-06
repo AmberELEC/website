@@ -35,19 +35,19 @@ The following bioses are required for other emulators:
 | scph5501.bin     | 490f666e1afb15b7362b406ed1cea246 |
 | scph5502.bin     | 32736f17079d0b2b7024407c39bd3050 |
 
-**Warning:** There is currently a bug in PCSX-ReARMed that will make it crash if the BIOS file `ps1_rom.bin` is present. Please see the  [PCSX-ReARMed crash FAQ](FAQ#pcsx-rearmed-crash) for more information.
+**Warning:** There is currently a bug in PCSX-ReARMed that will make it crash if the BIOS file `ps1_rom.bin` is present. Please see the  [PCSX-ReARMed crash FAQ](/faq#pcsx-rearmed-crash) for more information.
 
 ## Extensions
 
 ### Base rom file
 
-There are a lot of extensions that are supported, and often multiple types are required together in order for emulation to work. Our recommended format for PlayStation roms is `.chd`. CHD files are compressed, so they take up less space, but unlike other compressed formats (such as `.pbp`), they still work with achievements. Instructions for converting to `.chd` format can be found on the [CD and DVD ROMs](Disk-Roms#converting-to-chd) page.
+There are a lot of extensions that are supported, and often multiple types are required together in order for emulation to work. Our recommended format for PlayStation roms is `.chd`. CHD files are compressed, so they take up less space, but unlike other compressed formats (such as `.pbp`), they still work with achievements. Instructions for converting to `.chd` format can be found on the [CD and DVD ROMs](/guides/disk-roms#converting-to-chd) page.
 
-The most common format for PlayStation roms is `.cue+.bin`. These [can be converted to](Disk-Roms#converting-to-chd) `.chd` if desired, but will work just fine with AmberELEC. Please note that the `.cue` file is required, and the rom is incomplete without it. `.cue+.bin` games should always be launched by their `.cue` file, otherwise the game may be missing some audio. If you have a `.bin` file without a `.cue` file, it's recommended that you delete it and source a complete rom (since the rom may be broken in other ways), but you can also use the [DuckStation Cue Maker](https://www.duckstation.org/cue-maker/) to make a `.cue` file that matches your `.bin`.
+The most common format for PlayStation roms is `.cue+.bin`. These [can be converted to](/guides/disk-roms#converting-to-chd) `.chd` if desired, but will work just fine with AmberELEC. Please note that the `.cue` file is required, and the rom is incomplete without it. `.cue+.bin` games should always be launched by their `.cue` file, otherwise the game may be missing some audio. If you have a `.bin` file without a `.cue` file, it's recommended that you delete it and source a complete rom (since the rom may be broken in other ways), but you can also use the [DuckStation Cue Maker](https://www.duckstation.org/cue-maker/) to make a `.cue` file that matches your `.bin`.
 
 ### Playlists for multidisk games (m3u)
 
-PlayStation has support for `.m3u` files, which are playlists that can contain multiple disks. Using `.m3u` files, you can make it so that multidisk games only have one entry in your game list. For full information about m3u files, please see [CD and DVD ROMs: Multidisk Playlists](Disk-Roms.md#multidisk-playlists-m3u-files).
+PlayStation has support for `.m3u` files, which are playlists that can contain multiple disks. Using `.m3u` files, you can make it so that multidisk games only have one entry in your game list. For full information about m3u files, please see [CD and DVD ROMs: Multidisk Playlists](/guides/disk-roms.md#multidisk-playlists-m3u-files).
 
 AmberELEC can generate m3u files for all your PlayStation games automaticcally. To do this, go to the Tools section, and launch `PSX - Create m3u files`. If your games are named in an unusual fashion, the m3u files may need to be adjusted afterwards.
 

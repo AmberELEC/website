@@ -17,7 +17,7 @@
 {: #playstation-controls }
 **Q:** [![link](/images/link-45deg.svg)](#playstation-controls) Controls and/or rumble are not working on PlayStation.
 
-**A:** [Solution](System-Sony-PlayStation#controls-and-rumble-not-working-in-games).
+**A:** [Solution](/systems/sony-playstation#controls-and-rumble-not-working-in-games).
 
 ***
 
@@ -53,7 +53,7 @@
 {: #initialization }
 **Q:** [![link](/images/link-45deg.svg)](#initialization) I flashed AmberELEC but it won't initialize, or initialization takes forever.
 
-**A:** The most likely cause of this is using the wrong image for your device. Please make sure that you're using the RG351P/M image for a P or M device, and the RG351V image for a V device. Other possible causes include corrupted flashes (some computers seem incapable of producing a good flash), or a corrupted/bad/fake MicroSD card. Most of the SD cards that these systems come with are low quality and fail quickly. See the [Installation](Installation#initialization-never-finishestakes-forever) page for more info on this issue.
+**A:** The most likely cause of this is using the wrong image for your device. Please make sure that you're using the RG351P/M image for a P or M device, and the RG351V image for a V device. Other possible causes include corrupted flashes (some computers seem incapable of producing a good flash), or a corrupted/bad/fake MicroSD card. Most of the SD cards that these systems come with are low quality and fail quickly. See the [Installation](/installation#initialization-never-finishestakes-forever) page for more info on this issue.
 
 ***
 
@@ -69,7 +69,7 @@
 
 **A:** Anbernic uses a wide variety of screens, some of which reach max brightness at 35%. If you have one of these screens, you'll have to turn the brightness down a lot to see any change in the actual brightness of the screen. Also because of this, our brightness step size is set to 1% so that people with these screens can have a decent range of brightness options. You'll just need to get past that top 65%, and then the brightness hotkey should work fine.
 
-The easiest way to get the brightness set up if you have this issue is to change the brightness to 30% in the [ES System Settings Menu](Menus#system-settings). From there you should be able to adjust the brightness to your desired level pretty easily.
+The easiest way to get the brightness set up if you have this issue is to change the brightness to 30% in the [ES System Settings Menu](/guides/menus#system-settings). From there you should be able to adjust the brightness to your desired level pretty easily.
 
 ***
 
@@ -78,8 +78,8 @@ The easiest way to get the brightness set up if you have this issue is to change
 
 **A:** You have many options to do that depending on the system you're playing, but generally those are the main ways:
 - **NATIVELY**: Saving from inside the game if it's supported, varies depending on the game/system.
-- **SAVESTATE**: Saving a save state SELECT+R1 (load with SELECT+L2), you can check all the hotkeys [here](Getting-to-Know-AmberELEC#controls-and-hotkeys), however I would not rely on 100% on this solution: a good idea is to use the save state AND the native saves (see above).
-- **AUTO SAVE**: Enabling auto save/load game inside the system/game options, that will save the game when you quit and reload it when you open it the next time. Please be aware that if you force quit (turn off, reset, [kill the game process](Getting-to-Know-AmberELEC#killing-the-game-process)) will not save your game. The best way is to use the [correct hotkey](Getting-to-Know-AmberELEC#retroarch-hotkeys) to quit.
+- **SAVESTATE**: Saving a save state SELECT+R1 (load with SELECT+L2), you can check all the hotkeys [here](/guides/getting-to-know-amberelec#controls-and-hotkeys), however I would not rely on 100% on this solution: a good idea is to use the save state AND the native saves (see above).
+- **AUTO SAVE**: Enabling auto save/load game inside the system/game options, that will save the game when you quit and reload it when you open it the next time. Please be aware that if you force quit (turn off, reset, [kill the game process](/guides/getting-to-know-amberelec#killing-the-game-process)) will not save your game. The best way is to use the [correct hotkey](/guides/getting-to-know-amberelec#retroarch-hotkeys) to quit.
 
 ***
 
@@ -93,7 +93,7 @@ The easiest way to get the brightness set up if you have this issue is to change
 {: #reflash-backup }
 **Q:** [![link](/images/link-45deg.svg)](#reflash-backup) Is it possible to backup before re-flashing?
 
-**A:** Yes, take a look [here](Getting-to-Know-AmberELEC#backups-and-identity).
+**A:** Yes, take a look [here](/guides/getting-to-know-amberelec#backups-and-identity).
 
 ***
 
@@ -121,7 +121,7 @@ The easiest way to get the brightness set up if you have this issue is to change
 {: #anberports }
 **Q:** [![link](/images/link-45deg.svg)](#anberports) I installed Anberports and have a problem with one of the ports.
 
-**A:** Anberports is now considered abandoned. Please use [PortMaster](PortMaster) instead.
+**A:** Anberports is now considered abandoned. Please use [PortMaster](/portmaster) instead.
 
 ***
 
@@ -179,9 +179,9 @@ AmberELEC is like a console.  Everything, except games (your GAMES partition/ROM
 {: #cps }
 **Q:** [![link](/images/link-45deg.svg)](#cps) My CPS games are missing
 
-**A:** Support for separate CPS folders was removed in Pineapple Forest. It doesn't really make sense to have separate folders for individual arcade boards when the arcade roms themselves come from the fbneo romset. It's recommended that instead of using cps1-3 folders, you use the [CPS Auto Collections](Collections#automatic-game-collections) that are built into ES. To activate them, place your CPS roms in the fbneo folder, scape them, and then turn on the CPS Auto Collections in the Game Collections menu under the main menu.
+**A:** Support for separate CPS folders was removed in Pineapple Forest. It doesn't really make sense to have separate folders for individual arcade boards when the arcade roms themselves come from the fbneo romset. It's recommended that instead of using cps1-3 folders, you use the [CPS Auto Collections](/guides/collections#automatic-game-collections) that are built into ES. To activate them, place your CPS roms in the fbneo folder, scape them, and then turn on the CPS Auto Collections in the Game Collections menu under the main menu.
 
-If you absolutely don't want to use Auto Collections and just want support for cps1-3 folders, you can add this [Capcom ES Systems Config](resources/es_systems/es_systems_capcom.cfg) to `/storage/.config/emulationstation/`. See [How to work with es_systems.cfg on AmberELEC](Advanced-Topics#how-to-work-with-es_systemscfg-on-AmberELEC) for more information on using custom es_systems configurations.
+If you absolutely don't want to use Auto Collections and just want support for cps1-3 folders, you can add this [Capcom ES Systems Config](/resources/es_systems/es_systems_capcom.cfg) to `/storage/.config/emulationstation/`. See [How to work with es_systems.cfg on AmberELEC](/guides/advanced-topics#how-to-work-with-es_systemscfg-on-AmberELEC) for more information on using custom es_systems configurations.
 
 ***
 
