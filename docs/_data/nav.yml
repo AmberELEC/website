@@ -128,7 +128,7 @@ pages:
   - file: /systems/casio-pv-1000.md
     title: Casio PV-1000
     category: Consoles/Portables
-    url: /system/casio-pv-1000
+    url: /systems/casio-pv-1000
   - file: /systems/coleco-colecovision.md
     title: Coleco ColecoVision
     category: Consoles/Portables
@@ -140,7 +140,7 @@ pages:
   - file: /systems/entex-adventure-vision.md
     title: Entex Adventure Vision
     category: Consoles/Portables
-    url: /system/entex-adventure-vision
+    url: /systems/entex-adventure-vision
   - file: /systems/epoch-game-pocket-computer.md
     title: Epoch Game Pocket Computer
     category: Consoles/Portables
@@ -149,7 +149,7 @@ pages:
     title: Fairchild Channel F
     category: Consoles/Portables
     url: /systems/fairchild-channel-f
-  - file: /system/hartung-game-master.md
+  - file: /systems/hartung-game-master.md
     title: Hartung Game Master
     category: Consoles/Portables
     url: /systems/hartung-game-master
@@ -293,7 +293,7 @@ pages:
     title: Atari 800
     category: Computers
     url: /systems/atari-800
-  - file: /system/atari-st.md
+  - file: /systems/atari-st.md
     title: Atari ST
     category: Computers
     url: /systems/atari-st
@@ -376,7 +376,7 @@ pages:
   - file: /systems/build-engine.md
     title: Build Engine
     category: Game Engines
-    url: /system/build-engine
+    url: /systems/build-engine
   - file: /systems/doom.md
     title: Doom
     category: Game Engines
