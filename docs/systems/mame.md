@@ -26,4 +26,4 @@ Recommended emulators and ROM Sets
 
 Other emulator versions/romsets are included in case they have slightly better compatibility or performance, but are not recommended unless you want to get really into arcade emulation.
 
-Please see the [Arcade](Arcade) page for more information on creating romsets.
+Please see the [Arcade](/guides/arcade) page for more information on creating romsets.

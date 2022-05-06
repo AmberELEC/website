@@ -65,7 +65,7 @@ First, thank you.  As a volunteer project, maintaining a project like this can b
 ## Setting up the environment
 There is an available virtual machine created by Christian Haitian that's good do ports for AmberELEC, more info [here](https://forum.odroid.com/viewtopic.php?p=306185#p306185).
 
-Moreover, in order to locally build AmberELEC from sources it's possible to use a docker, more info [here](Contributing-to-AmberELEC#docker-usage).
+Moreover, in order to locally build AmberELEC from sources it's possible to use a docker, more info [here](/contributing/contributing-to-amberelec#docker-usage).
 
 ## Building Your Contribution
 When you are ready to test your package you can use the 'build' script located in the scripts folder.  If your world environment is not up-to-date, the script will build all of the package dependencies before building the package.

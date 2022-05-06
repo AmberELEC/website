@@ -9,7 +9,7 @@
 
 ### Fresh Install
 
-To install AmberELEC, please follow the instructions on the [Installation page](Installation).
+To install AmberELEC, please follow the instructions on the [Installation page](/installation).
 
 <a class="btn btn-download" href="https://github.com/AmberELEC/AmberELEC/releases/download/20211122/351ELEC-RG351P.aarch64-20211122.img.gz">
 	<img src="/images/download-arrow.svg" alt="Download Arrow" style="width: 24px; height: 24px"/>
@@ -26,7 +26,7 @@ To install AmberELEC, please follow the instructions on the [Installation page](
 
 ### Updating from a previous version
 
-To update from a previous version of AmberELEC, download the update .tar file below for your device and place it in your `GAMES/update` folder. For more detailed instructions, please see the [Upgrade Instructions](Installation#upgrading).
+To update from a previous version of AmberELEC, download the update .tar file below for your device and place it in your `GAMES/update` folder. For more detailed instructions, please see the [Upgrade Instructions](/installation#upgrading).
 
 <a class="btn btn-download" href="https://github.com/AmberELEC/AmberELEC/releases/download/20211122/351ELEC-RG351P.aarch64-20211122.tar">
 	<img src="/images/download-arrow.svg" alt="Download Upgrade Arrow" style="width: 24px; height: 24px"/>
@@ -43,4 +43,4 @@ To update from a previous version of AmberELEC, download the update .tar file be
 
 ### Pre-Release
 
-All downloads on this page are for the current stable version of AmberELEC. If you'd like to test out the latest changes and give feedback, you can download the pre-release version of AmberELEC. Please note that the pre-release is unstable and may crash and break. Because of that, you shouldn't use the pre-release for daily use unless you're comfortable taking that risk. For more information and instructions on how to install the pre-release, please see the [Pre-Release Build Instructions](Contributing-to-AmberELEC#pre-release-builds).
+All downloads on this page are for the current stable version of AmberELEC. If you'd like to test out the latest changes and give feedback, you can download the pre-release version of AmberELEC. Please note that the pre-release is unstable and may crash and break. Because of that, you shouldn't use the pre-release for daily use unless you're comfortable taking that risk. For more information and instructions on how to install the pre-release, please see the [Pre-Release Build Instructions](/contributing/contributing-to-amberelec#pre-release-builds).

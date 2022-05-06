@@ -21,7 +21,7 @@ The Bandai Wonderswan was made so that games could be created in either portrait
 
 While there's no way to hold the RG351V sideways that isn't awkward, it's possible to set up the RG351M, P, and MP to play in portrait orientation (although getting a good experience is a little bit complicated). By default, portrait games are set up so that  you rotate the console counter-clockwise, and the L and R buttons are the arrow keys and D-Pad down and left are A and B.
 
-There's a more comfortable configuration that you can use to play vertically, but you'll have to [turn on Overrides](Advanced-Topics#retroarch-overrides).
+There's a more comfortable configuration that you can use to play vertically, but you'll have to [turn on Overrides](/guides/advanced-topics#retroarch-overrides).
 
 Once you've turned on overrides, follow the following instructions:
 

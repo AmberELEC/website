@@ -3,7 +3,7 @@
   {% for page in pages %}
     {% unless page.hidepage %}
       <li>
-        <a href="{{ page.url }}">{{ page.title }}</a>
+        <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
       </li>
     {% endunless %}
   {% endfor %}
@@ -11,7 +11,7 @@
   {% for subcategory in subcategories %}
     <li>
       {% if subcategory.url %}
-        <a href="{{ subcategory.url }}">{{ subcategory.title }}</a>
+        <a href="{{ subcategory.url | relative_url }}">{{ subcategory.title }}</a>
       {% else %}
         {{ subcategory.title }}
       {% endif %}

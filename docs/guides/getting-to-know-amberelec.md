@@ -84,7 +84,7 @@ On devices which have volume buttons (RG351V and RG351MP), brightness can be cha
 
 Games may be added by copying them over the network (rsync, sftp), or by moving the microSD card to your PC. It is important to follow the existing directory structure or your games may not be discovered by AmberELEC.  Be sure to always properly eject the microSD or power off the handheld before removing it.
 
-For more infurmation on how to transfer files (including games) to your device, please see [Transferring files to/from your RG Device](Transferring-Files).
+For more infurmation on how to transfer files (including games) to your device, please see [Transferring files to/from your RG Device](transferring-files).
 
 ## Accessing the handheld over a network
 
