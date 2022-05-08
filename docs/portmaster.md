@@ -55,11 +55,11 @@ Below is a list of the ports and whether they're known to work, along with links
 | ![nam](/images/previews/NAM.jpeg) NAM | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#nam) |
 | ![nkaruga](/images/previews/nKaruga.jpeg) nKaruga | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#nkaruga) |
 | ![openclaw](/images/previews/claw.jpg) OpenClaw (Captain Claw) | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#openclaw) |
-| ![openxcom](/images/previews/OpenXcom.jpg) OpenXcom | | |
 | ![jazz](/images/previews/OpenJazz.jpeg) OpenJazz (Jazz Jackrabbit) | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#openjazz) |
 | ![openmf](/images/previews/OpenOMF.png) OpenOMF - One Must Fall 2097 Remake Project | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#openomf) |
 | ![openttd](/images/previews/openttd.png) OpenTTD | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#openttd) |
 | ![opentyrian](/images/previews/OpenTyrian.jpeg) OpenTyrian | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#opentyrian) |
+| ![openxcom](/images/previews/OpenXcom.jpg) OpenXcom | | |
 | ![owlboy](/images/previews/Owlboy.jpg) Owlboy | <span class="text-success">Working</span>  | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#owlboy) |
 | ![prehistoryk](/images/previews/Prehistorik2.png) Prehistorik 2 | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#prehistorik-2) |
 | ![quake](/images/previews/Quake.jpeg) Quake | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#quake-1) |
