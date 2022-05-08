@@ -43,6 +43,7 @@ Below is a list of the ports and whether they're known to work, along with links
 | ![ftb](/images/previews/FadetoBlackGL.png) Fade to Black GL | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#f2bgl-fade-to-black) |
 | ![heroes](/images/previews/FreeHeroesofMightandMagicII.png) Free Heroes of Might and Magic II | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#free-heroes-of-might-and-magic-ii) |
 | ![freedomplanet](/images/previews/FreedomPlanet.png) Freedom Planet | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#freedom-planet) |
+| ![freedroidrpg](/images/previews/freedroidrpg.jpg) FreedroidRPG | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#freedroidrpg) |
 | ![heart](/images/previews/HeartofDarkness.png) Heart of Darkness | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#heart-of-darkness) |
 | ![turrican](/images/previews/Hurrican.jpeg) Hurrican (Turrican) | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#hurrican-turrican) |
 | ![hydra](/images/previews/HydraCastleLabyrinth.png) Hydra Castle Labyrinth | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#hydra-castle-labyrinth) |
@@ -54,6 +55,7 @@ Below is a list of the ports and whether they're known to work, along with links
 | ![nam](/images/previews/NAM.jpeg) NAM | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#nam) |
 | ![nkaruga](/images/previews/nKaruga.jpeg) nKaruga | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#nkaruga) |
 | ![openclaw](/images/previews/claw.jpg) OpenClaw (Captain Claw) | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#openclaw) |
+| ![openxcom](/images/previews/OpenXcom.jpg) OpenXcom | | |
 | ![jazz](/images/previews/OpenJazz.jpeg) OpenJazz (Jazz Jackrabbit) | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#openjazz) |
 | ![openmf](/images/previews/OpenOMF.png) OpenOMF - One Must Fall 2097 Remake Project | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#openomf) |
 | ![openttd](/images/previews/openttd.png) OpenTTD | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#openttd) |
