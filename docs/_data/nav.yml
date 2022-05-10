@@ -58,7 +58,7 @@ pages:
     category: Guides
     url: /guides/disk-roms
   - file: /guides/recommended-tools.md
-    title: Glossary
+    title: Recommended Tools
     category: Guides
     url: /guides/recommended-tools
   - file: /guides/glossary.md
