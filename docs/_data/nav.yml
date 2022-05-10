@@ -57,6 +57,10 @@ pages:
     title: CD and DVD ROMs
     category: Guides
     url: /guides/disk-roms
+  - file: /guides/recommended-tools.md
+    title: Glossary
+    category: Guides
+    url: /guides/recommended-tools
   - file: /guides/glossary.md
     title: Glossary
     category: Guides
