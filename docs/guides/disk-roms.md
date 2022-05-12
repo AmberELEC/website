@@ -7,7 +7,7 @@
 
 ## Overview
 
-CD-ROM and DVD-ROM based rom files can be a bit confusing. When CD-ROM burners first became publicly avaialable, many different companies made their own software for ripping and burning disks, and there were many proprietary formats created for storing that data. Because of that, there is no set standard for storing CD or DVD-ROM info. While the emulation community has settled on a few common formats, they aren't always the same between different software catalogers (e.g. no-intro, TOSEC), and sometimes are different across game systems in even a single catalog.
+CD-ROM and DVD-ROM based rom files can be a bit confusing. When CD-ROM burners first became publicly available, many different companies made their own software for ripping and burning disks, and there were many proprietary formats created for storing that data. Because of that, there is no set standard for storing CD or DVD-ROM info. While the emulation community has settled on a few common formats, they aren't always the same between different software catalogers (e.g. no-intro, TOSEC), and sometimes are different across game systems in even a single catalog.
 
 There are currently two types of ROM storage formats: compressed and uncompressed. Compressed ROMs offer two advantages: they require only one file to represent a disk, and they take up less hard drive space. Uncompressed roms tend to require at least two files, sometimes more, because they separate out data and track listings.
 
