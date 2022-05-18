@@ -50,7 +50,12 @@ Following is a list of all the RetroRun hotkeys:
 
 | Command | Key |
 |----|----|
+| Show Info | L3 + R3 | L3 + F |
 | Quit | SELECT + START |
+| Pause | SELECT + A | SELECT + A |
+| Screenshot | SELECT + B | SELECT + B |
+| FPS | SELECT + Y | SELECT + Y |
+| Fast Forward | SELECT + R2 | SELECT + R2 |
 | Kill Process | L2 + Select + Start |
 
 ### EmulationStation Controls
