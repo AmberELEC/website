@@ -37,7 +37,7 @@ Unzip the .img.gz file so that you have a .img file. Skipping this step can lead
 
 #### Step 4: Initialize
 
-Put your MicroSD card into slot 1 of your your retro device. If your device has a second SD slot, please leave it empty during initialization. AmberELEC should create your games partition and reboot. It's normal for this process to take a minute or two.  After setting up for the first time, subsequent boots will be faster.
+Put your MicroSD card into slot 1 of your retro device. If your device has a second SD slot, please leave it empty during initialization. AmberELEC should create your games partition and reboot. It's normal for this process to take a minute or two.  After setting up for the first time, subsequent boots will be faster.
 
 #### (Optional) Step 5: Second SD
 
