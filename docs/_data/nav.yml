@@ -117,6 +117,10 @@ pages:
     title: Atari 7800
     category: Consoles/Portables
     url: /systems/atari-7800
+  - file: /systems/atari-jaguar.md
+    title: Atari Jaguar
+    category: Consoles/Portables
+    url: /systems/atari-jaguar
   - file: /systems/atari-lynx.md
     title: Atari Lynx
     category: Consoles/Portables
