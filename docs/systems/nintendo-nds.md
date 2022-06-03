@@ -16,6 +16,7 @@
 | B                  | B                         |
 | X                  | X                         |
 | Y                  | Y                         |
+| Select             | Select                    |
 | Start              | Start                     |
 | R1                 | R Button                  |
 | R2                 | Toggle single screen mode |
