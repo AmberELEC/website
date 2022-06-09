@@ -57,12 +57,12 @@ The controller configuration file for mupen64plussa is stored in `GAMES/gamedata
 
 The default controller configuration is listed below, along with a couple of alternate controller configurations you can download and use. To use one of the alternate configurations, replace the `GAMES/gamedata/mupen64plussa/InputAutoCfg.ini` with one of the following ini files:
 
-- [Rstick-C](resources/mupen64plussa/InputAutoCfg-Rstick-C.ini)
-- [Alt](resources/mupen64plussa/InputAutoCfg-Alt.ini)
+- [Rstick-C](/resources/mupen64plussa/InputAutoCfg-Rstick-C.ini)
+- [Alt](/resources/mupen64plussa/InputAutoCfg-Alt.ini)
 
 Make sure that you rename the alternate file to `InputAutoCfg.ini`.
 
-| N64 Button | Default | [Rstick-C](resources/mupen64plussa/InputAutoCfg-Rstick-C.ini) | [Alt](resources/mupen64plussa/InputAutoCfg-Alt.ini) |
+| N64 Button | Default | [Rstick-C](/resources/mupen64plussa/InputAutoCfg-Rstick-C.ini) | [Alt](/resources/mupen64plussa/InputAutoCfg-Alt.ini) |
 |------------|---------|-------------------|--------|
 | Dpad R     | Dpad R  | Dpad R            | Dpad R |
 | Dpad L     | Dpad L  | Dpad L            | Dpad L |
