@@ -22,7 +22,7 @@ These consoles can act really strangly at low charge. Please charge your console
 
 #### Step 1: Download
 
-Download the latest img.gz image from [https://github.com/AmberELEC/AmberELEC/releases/latest](https://github.com/AmberELEC/AmberELEC/releases/latest).
+Download the latest img.gz image from [https://github.com/AmberELEC/AmberELEC/releases/latest](https://github.com/AmberELEC/AmberELEC/releases/latest) (or see the [Prerelease Instructions](https://amberelec.org/contributing/contributing-to-amberelec#pre-release-builds) to download the prerelease).
 
 #### Step 2: Unzip
 
