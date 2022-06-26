@@ -8,7 +8,7 @@ Sanshiro Tower, the latest AmberELEC release, includes a ton of new features. Su
 
 You can download it from the [Download Page](/download). Make sure you download the correct version for your device.
 
-If you want to know all the new cool features, take a look at the [Release Notes](https://github.com/AmberELEC/AmberELEC/releases/tag/20211122)!
+If you want to know all the new cool features, take a look at the [Release Notes](https://github.com/AmberELEC/AmberELEC/releases/tag/20220627)!
 
 ## About AmberELEC
 
