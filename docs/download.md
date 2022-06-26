@@ -11,19 +11,19 @@
 
 To install AmberELEC, please follow the instructions on the [Installation page](/installation).
 
-<a class="btn btn-download" href="https://github.com/AmberELEC/AmberELEC/releases/download/20220627/351ELEC-RG351P.aarch64-20220627.img.gz">
+<a class="btn btn-download" href="https://github.com/AmberELEC/AmberELEC/releases/download/20220627/AmberELEC-RG351P.aarch64-20220627.img.gz">
 	<img src="/images/download-arrow.svg" alt="Download Arrow" style="width: 24px; height: 24px"/>
 	RG351P/M Download
 </a>
-<a class="btn btn-download" href="https://github.com/AmberELEC/AmberELEC/releases/download/20220627/351ELEC-RG351V.aarch64-20220627.img.gz">
+<a class="btn btn-download" href="https://github.com/AmberELEC/AmberELEC/releases/download/20220627/AmberELEC-RG351V.aarch64-20220627.img.gz">
 	<img src="/images/download-arrow.svg" alt="Download Arrow" style="width: 24px; height: 24px"/>
 	RG351V Download
 </a>
-<a class="btn btn-download" href="https://github.com/AmberELEC/AmberELEC/releases/download/20220627/351ELEC-RG351MP.aarch64-20220627.img.gz">
+<a class="btn btn-download" href="https://github.com/AmberELEC/AmberELEC/releases/download/20220627/AmberELEC-RG351MP.aarch64-20220627.img.gz">
 	<img src="/images/download-arrow.svg" alt="Download Arrow" style="width: 24px; height: 24px"/>
 	RG351MP Download
 </a>
-<a class="btn btn-download" href="https://github.com/AmberELEC/AmberELEC/releases/download/20220627/351ELEC-RG552.aarch64-20220627.img.gz">
+<a class="btn btn-download" href="https://github.com/AmberELEC/AmberELEC/releases/download/20220627/AmberELEC-RG552.aarch64-20220627.img.gz">
 	<img src="/images/download-arrow.svg" alt="Download Arrow" style="width: 24px; height: 24px"/>
 	RG552 Download
 </a>
@@ -32,19 +32,19 @@ To install AmberELEC, please follow the instructions on the [Installation page](
 
 To update from a previous version of AmberELEC, download the update .tar file below for your device and place it in your `GAMES/update` folder. For more detailed instructions, please see the [Upgrade Instructions](/installation#upgrading).
 
-<a class="btn btn-download" href="https://github.com/AmberELEC/AmberELEC/releases/download/20220627/351ELEC-RG351P.aarch64-20220627.tar">
+<a class="btn btn-download" href="https://github.com/AmberELEC/AmberELEC/releases/download/20220627/AmberELEC-RG351P.aarch64-20220627.tar">
 	<img src="/images/download-arrow.svg" alt="Download Upgrade Arrow" style="width: 24px; height: 24px"/>
 	RG351P/M Upgrade Download
 </a>
-<a class="btn btn-download" href="https://github.com/AmberELEC/AmberELEC/releases/download/20220627/351ELEC-RG351V.aarch64-20220627.tar">
+<a class="btn btn-download" href="https://github.com/AmberELEC/AmberELEC/releases/download/20220627/AmberELEC-RG351V.aarch64-20220627.tar">
 	<img src="/images/download-arrow.svg" alt="Download Upgrade Arrow" style="width: 24px; height: 24px"/>
 	RG351V Upgrade Download
 </a>
-<a class="btn btn-download" href="https://github.com/AmberELEC/AmberELEC/releases/download/20220627/351ELEC-RG351MP.aarch64-20220627.tar">
+<a class="btn btn-download" href="https://github.com/AmberELEC/AmberELEC/releases/download/20220627/AmberELEC-RG351MP.aarch64-20220627.tar">
 	<img src="/images/download-arrow.svg" alt="Download Upgrade Arrow" style="width: 24px; height: 24px"/>
 	RG351MP Upgrade Download
 </a>
-<a class="btn btn-download" href="https://github.com/AmberELEC/AmberELEC/releases/download/20220627/351ELEC-RG552.aarch64-20220627.tar">
+<a class="btn btn-download" href="https://github.com/AmberELEC/AmberELEC/releases/download/20220627/AmberELEC-RG552.aarch64-20220627.tar">
 	<img src="/images/download-arrow.svg" alt="Download Upgrade Arrow" style="width: 24px; height: 24px"/>
 	RG552 Upgrade Download
 </a>
