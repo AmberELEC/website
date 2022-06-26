@@ -47,37 +47,39 @@
 
 AmberELEC includes the Mupen64Plus standalone emulator as mupen64plussa. In order to use it, go into the Advanced Game Options or Advanced System Options and change the Emulator to either mupen64plussa/m64p_gl64mk2 or mupen64plussa/m64p_rice.
 
+### Mupen64Plus SA Options
+
+Mupen64Plus SA now supports 4:3 aspect resolution for the RG351P/M and the RG552, and this has been made the default. Fullscreen display is still available for those who want it.
+
 ### Video Plugins
 
 Mupen64Plus SA supports two different video plugins: Glide64mk2 and Rice. These plugins are included on the system as cores, and you can choose between them when you select mupen64plussa as your emulator. In general, Glide64 has better accuracy and Rice has better performance, but you may notice visual glitches or incompatibilities with either of them. It's recommended to try using Rice, and then to fall back to Glide if you have issues.
 
 ### Control Configuration
 
-The controller configuration file for mupen64plussa is stored in `GAMES/gamedata/mupen64plussa/InputAutoCfg.ini`. This file will only exist if you've started up mupen64plussa at least once. It's a big file, but the relevant sections are the last two, called `[OpenSimHardware OSH PB Controller]` and `[GO-Super Gamepad]`. The former is the controller configuration for the P, M, and V, and the latter is the controller configuration for the MP. By editing this section, you can change the button assignments that Mupen uses. To find out the button codes, please see the [Buttons Reference](/guides/advanced-topics#buttons-reference).
+There are now multiple controller configurations that can be selected from the ES configuration menu.
 
-The default controller configuration is listed below, along with a couple of alternate controller configurations you can download and use. To use one of the alternate configurations, replace the `GAMES/gamedata/mupen64plussa/InputAutoCfg.ini` with one of the following ini files:
+| N64 Button | Default | Rstick-C          |
+|------------|---------|-------------------|
+| Dpad R     | Dpad R  | Dpad R            |
+| Dpad L     | Dpad L  | Dpad L            |
+| Dpad U     | Dpad U  | Dpad U            |
+| Dpad D     | Dpad D  | Dpad D            |
+| A          | B       | B                 |
+| B          | Y       | Y                 |
+| Z Trig     | L1      | L1                |
+| R Trig     | R1      | R1                |
+| L Trig     | R3/Z    | R3/Z              |
+| C-Right    | R2      | Right Stick R     |
+| C-Left     | L2      | Right Stick L     |
+| C-Up       | X       | Right Stick U     |
+| C-Down     | A       | Right Stick D     |
+| Start      | Start   | Start             |
 
-- [Rstick-C](/resources/mupen64plussa/InputAutoCfg-Rstick-C.ini)
-- [Alt](/resources/mupen64plussa/InputAutoCfg-Alt.ini)
+You can also set the controller configuration to "Custom", and the system will read the controller configuration from `GAMES/gamedata/mupen64plussa/custominput.ini`. This file only contains entries for the P/M/V layout and MP/552 layout instead of thousands of unused entries, so it should be a little less confusing to edit. The previous `InputAutoCfg.ini` file is no longer supported. If you don't see a `custominput.ini` file, please launch MupenPlusSA once and it should auto generate.
 
-Make sure that you rename the alternate file to `InputAutoCfg.ini`.
+The `[OpenSimHardware OSH PB Controller]` section is the controller configuration for the P, M, and V, and the `[GO-Super Gamepad]` section is the controller configuration for the MP an 552. By editing this section, you can change the button assignments that Mupen uses. To find out the button codes, please see the [Buttons Reference](/guides/advanced-topics#buttons-reference).
 
-| N64 Button | Default | [Rstick-C](/resources/mupen64plussa/InputAutoCfg-Rstick-C.ini) | [Alt](/resources/mupen64plussa/InputAutoCfg-Alt.ini) |
-|------------|---------|-------------------|--------|
-| Dpad R     | Dpad R  | Dpad R            | Dpad R |
-| Dpad L     | Dpad L  | Dpad L            | Dpad L |
-| Dpad U     | Dpad U  | Dpad U            | Dpad U |
-| Dpad D     | Dpad D  | Dpad D            | Dpad D |
-| A          | B       | B                 | B      |
-| B          | Y       | Y                 | Y      |
-| Z Trig     | R3/Z    | L1                | L1     |
-| R Trig     | R1      | R1                | R1     |
-| L Trig     | L1      | R3/Z              | R3/Z   |
-| C-Right    | R2      | Right Stick R     | R2     |
-| C-Left     | X       | Right Stick L     | L2     |
-| C-Up       | L2      | Right Stick U     | X      |
-| C-Down     | A       | Right Stick D     | A      |
-| Start      | Start   | Start             | Start  |
 
 ### Hotkeys
 

@@ -6,6 +6,7 @@
 * [Default Performance Settings](#default-performance-settings)
 * [How to Use Bezels](#how-to-use-bezels)
 * [How to Update](#how-to-update-AmberELEC) - Learn how to update to the newest version of AmberELEC
+* [LaunchBox Importer](#launchbox-importer)
 * [Adding Background Music to EmulationStation](#adding-background-music-to-emulationstation)
 * [Netplay](#netplay)
 * [Backups and Indentity](#backups-and-identity) - Learn how to backup your settings
@@ -175,6 +176,38 @@ For most standard-systems a shadow and grid png-file is included.
 To perform an update, download the .tar file from the latest version of AmberELEC.  Place the .tar in your games partition in the "update" folder, creating it if necessary.  Insert your SD card back into your device and turn it on.  When the update completes your device will reboot.
 
 Alternately, you can scp the .tar file to ~/.update and reboot the handheld to perform an offline update as well.
+
+## LaunchBox Importer
+
+You can now export from LaunchBox to AmberELEC. This allows you to transfer entire LaunchBox playlists, including games, metadata, and media, to your console.
+
+Overview:
+* Generate the LaunchBox folder with the "Export to Android"-Tool in Launchbox
+* Put it in the /roms (the GAMES partition) folder next to all the systems
+* Update Gamelists  in the ES Menu
+
+You can even use the Workflow for Android like this to make it more comfortable:
+* Connect the device to your Windows PC using SMP (//AmberELEC) and chose the rom folder
+
+Step-by-step for Windows running LaunchBox:
+* Select the ROMs you want to export (for convenience, you can create a playlist for this). You can choose ROMs for multiple systems at once if you like.
+* Highlight all the ROMs you want to export
+* Choose
+    - Tools
+    - Export to Android
+    - Next
+    - Export the selected games only
+    - Next
+    - Next
+    - Next
+  - Copy the files over to Your Device via USB (Yes, USB-Export is correct, this will bring up a general file-browser)
+    - Browse
+    - Select the ROM folder of your device (using the network share) and press OK
+    - Next
+    - Wait for the data to be copied over
+
+On the device
+* Enter the ES Menu and Update Gamelists
 
 ## Adding Background Music to EmulationStation
 
