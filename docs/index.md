@@ -4,7 +4,7 @@
 
 We're happy to announce that 351ELEC is now AmberELEC.
 
-Sanshiro Tower, the latest AmberELEC release, includes a ton of new features. Support for the RG552 is now part of the stable release. New emulators include Yabasanshiro Standalone, which gives Saturn compatibility a huge boost, Hypseus-Singe, which adds support for Singe games, Same_CDi, which makes CDi playable on the RG552 for the first time. There are also brand new systems supported, like the Bit Corp Gamate, Aquaplus P/ece, Arduboy, Adventurevision, and more. We also have new cores for other systems that boost performance for different games, and new options that make tweaking your emulation preferences even easier.
+Sanshiro Tower, the latest AmberELEC release, includes a ton of new features. Support for the RG552 is now part of the stable release. New emulators include Yabasanshiro Standalone, which gives Saturn compatibility a huge boost, and Hypseus-Singe, which adds support for Singe games, Same_CDi, which makes CDi playable on the RG552 for the first time. There are also brand new systems supported, like the Bit Corp Gamate, Aquaplus P/ece, Arduboy, Adventurevision, and more. We also have new cores for other systems that boost performance for different games, and new options that make tweaking your emulation preferences even easier.
 
 You can download it from the [Download Page](/download). Make sure you download the correct version for your device.
 
