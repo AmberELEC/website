@@ -5,7 +5,7 @@
   <path d="M7.002 12a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 5.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995z"/>
 </svg> WARNING: You must download the correct version of AmberELEC for your device</div>
 
-## Version: 20211122 <span style="color: #FFFFFF;text-shadow: -2px -3px #A1A1A1;">Sanshiro Tower</span>
+## Version: 20211122 <span style="color: #FFFFFF;text-shadow: -3px -2px #A1A1A1;">Sanshiro Tower</span>
 
 ### Fresh Install
 
