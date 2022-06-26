@@ -1,8 +1,10 @@
-<img src="/images/transparent_amber_elec_horiz.svg" id="TFOELEClogo" class="mx-auto d-block" alt="AmberELEC Logo" style="width: 100%;max-width: 800px;margin: 75px 0 125px 0;"/>
+<img src="/images/AmberELEC-ST.png" id="TFOELEClogo" class="mx-auto d-block" alt="AmberELEC Logo" style="width: 100%;max-width: 800px;margin: 75px 0 125px 0;"/>
 
-# <span style="color: #FFBF00; font-size: 1.5em;font-weight: bold;">Preserved in golden Amber</span>
+# <span style="color: #FFFFFF; font-size: 1.5em;font-weight: bold;text-shadow: -3px -2px #A1A1A1;">Ascend the Sanshiro Tower</span>
 
 We're happy to announce that 351ELEC is now AmberELEC.
+
+Sanshiro Tower, the latest AmberELEC release, includes a ton of new features. Support for the RG552 is now part of the stable release. New emulators include Yabasanshiro Standalone, which gives Saturn compatibility a huge boost, and Hypseus-Singe, which adds support for Singe games, Same_CDi, which makes CDi playable on the RG552 for the first time. There are also brand new systems supported, like the Bit Corp Gamate, Aquaplus P/ece, Arduboy, Adventurevision, and more. We also have new cores for other systems that boost performance for different games, and new options that make tweaking your emulation preferences even easier.
 
 You can download it from the [Download Page](/download). Make sure you download the correct version for your device.
 
