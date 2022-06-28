@@ -78,7 +78,7 @@ There are now multiple controller configurations that can be selected from the E
 
 You can also set the controller configuration to "Custom", and the system will read the controller configuration from `GAMES/gamedata/mupen64plussa/custominput.ini`. This file only contains entries for the P/M/V layout and MP/552 layout instead of thousands of unused entries, so it should be a little less confusing to edit. The previous `InputAutoCfg.ini` file is no longer supported. If you don't see a `custominput.ini` file, please launch MupenPlusSA once and it should auto generate.
 
-The `[OpenSimHardware OSH PB Controller]` section is the controller configuration for the P, M, and V, and the `[GO-Super Gamepad]` section is the controller configuration for the MP an 552. By editing this section, you can change the button assignments that Mupen uses. To find out the button codes, please see the [Buttons Reference](/guides/advanced-topics#buttons-reference).
+The `[OpenSimHardware OSH PB Controller]` section is the controller configuration for the P, M, and V, and the `[GO-Super Gamepad]` section is the controller configuration for the MP and 552. By editing this section, you can change the button assignments that Mupen uses. To find out the button codes, please see the [Buttons Reference](/guides/advanced-topics#buttons-reference).
 
 
 ### Hotkeys
