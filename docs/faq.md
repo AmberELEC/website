@@ -62,6 +62,13 @@
 
 **A:** Open 'Disk Management', identify which storage device is your SD card, then assign the last partition a drive letter.  This isn't necessary on Windows 10.
 
+Detailed instructions:
+- On your windows PC press the ⊞ Windows key on your keyboard and the R key at the same time, then:
+- type "diskmgmt.msc"
+- Look for a Disk with the amount of space you SD card has (Example : if you have a 32gb Card, look for a Disk with 32gb)
+- Look for the rightmost partition, right click it and select "Change drive letter and Paths.."
+- Follow the wizard, give it a drive letter and it should be fixed.
+
 ***
 
 {: #brightness }
