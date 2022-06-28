@@ -100,6 +100,9 @@ When connected to a network, the handheld listens for connections on port 22 (SS
 |----|----|
 | root | amberelec |
 
+{: .notebox.w-100.my-2 }
+> **Note:** If you updated AmberELEC from 351ELEC without reflashing, your password may still be `351elec`. Please try that if `amberelec` doesn't work.
+
 It is recommended that you change the root password or disable ssh while not in use using the Network Settings menu.  To change the root password type 'passwd' while connected to the handheld over ssh.
 
 ## Default Performance Settings

@@ -326,7 +326,6 @@ footer .text-center {
     border: 1px white solid;
     margin: 0px;
     display: inline-block;
-    max-width: 500px;
 
     h1 {
       background: desaturate(darken($color-vivid-sky-blue, 30%), 30%);
@@ -336,6 +335,15 @@ footer .text-center {
       padding: 5px;
       margin: 0px;
       text-align: center;
+    }
+
+    strong {
+      text-shadow: none;
+    }
+
+    code {
+      background: #F5F5F5;
+      color: #C00B13;
     }
 
     p {
@@ -361,6 +369,10 @@ footer .text-center {
       margin-top: 0;
     }
 
+}
+
+.mw-500px {
+  max-width: 500px;
 }
 
 .filezilla-image {
