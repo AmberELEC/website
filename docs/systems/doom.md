@@ -63,6 +63,7 @@ Please note that the names are case sensitive.
 ### Limitations
 - Some mods can run very slow, sorry for Castlevania fans.
 - Tough the shareware version of doom can be played with lzdoom it doesn't allow to load the mods, so you need a retail verson.
+- PRBoom currently only runs IWADS and not mods. If you want to run mods, please try gzdoom or lzdoom.
 
 ### Sharing (your) mods
 If you created some .doom files and you want to share them with the community you are very welcome.
