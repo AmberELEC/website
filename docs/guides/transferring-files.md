@@ -18,7 +18,7 @@
 This is by far the easiest method. First off, make sure your RG Device is turned off fully (Check the LED indicator, if it’s off, your device is off). 
 
 {:refdef: .clearfix }
-{: .notebox.float-md-end }
+{: .notebox.mw-500px.float-md-end }
 > # Does your RG device have two SD card slots?
 >
 > If you want to access your game files, get your 2nd SD Card (the rightmost one!), OS Files usually go on the 1st SD card (The one on the left!)
