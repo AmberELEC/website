@@ -14,7 +14,7 @@ The Entex Adventure Vision requires the BIOS file `advision.zip` from the curren
 | BIOS          | md5                              |
 | advision.zip  | 1c08606408029751fd30ac91d2bf30d5 |
 
-{: .avcautionsticker }
+{: .note.avsticker-theme }
 > # CAUTION
 >
 > This exciting game uses the latest Entex Electronics technology, and a slight amount of flicker may be noticed during game play. This is normal and to be expected.

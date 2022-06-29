@@ -18,7 +18,7 @@
 This is by far the easiest method. First off, make sure your RG Device is turned off fully (Check the LED indicator, if it’s off, your device is off). 
 
 {:refdef: .clearfix }
-{: .notebox.mw-500px.float-md-end }
+{: .note.teal-theme.mw-500px.float-md-end }
 > # Does your RG device have two SD card slots?
 >
 > If you want to access your game files, get your 2nd SD Card (the rightmost one!), OS Files usually go on the 1st SD card (The one on the left!)
@@ -143,7 +143,7 @@ With that in mind, also keep in mind the location you’re at. Normally you star
 * `/tmp/logs` – This is where you find logs of whatever application you just ran. These are useful for trouble shooting and finding issues with your games.
 * `/storage/roms` – Where your rom files are at (And your ports, and homebrew, etc..)
 
-{: .protip }
+{: .note.protip-theme }
 > # Protip
 >
 > You can drag files from outside FileZilla *into* FileZilla. Just make sure to drop them on the right side if you want to upload files to your RG device!
@@ -182,7 +182,7 @@ And press OK. And a new window should appear:
 Use it to move files around like you would on your PC.
 {: refdef }
 
-{: .protip }
+{: .note.protip-theme }
 > # Protip
 >
 > Make sure to see above about SD card files and OSX, you need to run the "Run Remove ._ files" Tool after you’re done. And make sure to eject your RG device once you’re done! Your OS might misbehave if waiting/timing out with the RG.

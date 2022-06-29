@@ -43,8 +43,9 @@ Put your MicroSD card into slot 1 of your retro device. If your device has a sec
 
 If you're using a system that supports a second SD card and you want to use a second SD card for your games, now is the time to set it up. Format the card as ExFAT or ext4. Don't put anything on the card yet. Turn your console off, put the game SD card in the second slot, and turn it back on. During bootup, AmberELEC will create the folder structure for your second SD card. Now you can transfer games to and from your second SD card using your preferred method.
 
-#### Notes
-* **RG351V/MP/RG552 Second SD Card**: RG351V/MP users may use a large MicroSD in the first socket, or a smaller MicroSD with a larger card in the second socket. The second card must have a single partition or whole card formatted with exFAT or ext4. FAT filesystems are not supported as it lacks support for filesystem features in use by AmberELEC. NTFS is not currently supported and may be added in a future release. This card should be left out of the console on first initialization.
+{: .note }
+> # Note
+> **RG351V/MP/RG552 Second SD Card**: RG351V/MP users may use a large MicroSD in the first socket, or a smaller MicroSD with a larger card in the second socket. The second card must have a single partition or whole card formatted with exFAT or ext4. FAT filesystems are not supported as it lacks support for filesystem features in use by AmberELEC. NTFS is not currently supported and may be added in a future release. This card should be left out of the console on first initialization.
 
 ## Applications
 
