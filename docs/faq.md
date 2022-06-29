@@ -172,7 +172,7 @@ AmberELEC is like a console.  Everything, except games (your GAMES partition/ROM
 {: #ra-hardcore }
 **Q:** [![link](/images/link-45deg.svg)](#ra-hardcore) Retroachievements Hardcoremode is not working
 
-**A:** Disable the netplay option, hardcore mode does not run with netplay. For fbneo disable patched romsets in the Options as well.
+**A:** Retroachievements don't work on spectator mode. For fbneo disable patched romsets in the Options as well.
 
 ***
 
