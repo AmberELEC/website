@@ -16,7 +16,7 @@
     - `mupen64plussa_glide64mk2`
     - `mupen64plussa_rice`
 - Path(s): `/roms/n64`
-- Supported Extensions: `.z64, .n64, .v64`
+- Supported Extensions: `.z64, .n64, .v64 .zip .7z`
 - Bios: None
 
 ## Retrorun
