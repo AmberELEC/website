@@ -9,7 +9,7 @@
 * [LaunchBox Importer](#launchbox-importer)
 * [Adding Background Music to EmulationStation](#adding-background-music-to-emulationstation)
 * [Netplay](#netplay)
-* [Backups and Indentity](#backups-and-identity) - Learn how to backup your settings
+* [Backups and Identity](#backups-and-identity) - Learn how to backup your settings
 * [Cloud Backup](#cloud-backup)
 * [Using the Movie Player](#using-the-movie-player)
 
