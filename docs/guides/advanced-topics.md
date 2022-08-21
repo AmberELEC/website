@@ -4,7 +4,7 @@
 * [Minimizing Input Lag](#minimizing-input-lag)
 * [Buttons reference](#buttons-reference)
 * [File Management](#file-management)
-* [How to work with es_systems.cfg on AmberELEC](#how-to-work-with-es_systemscfg-on-AmberELEC)
+* [How to work with es_systems.cfg on AmberELEC](#how-to-work-with-es_systemscfg-on-amberelec)
 
 ## RetroArch Overrides
 
