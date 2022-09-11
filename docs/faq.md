@@ -153,13 +153,6 @@ The easiest way to get the brightness set up if you have this issue is to change
 
 ***
 
-{: #pcsx-rearmed-crash }
-**Q:** [![link](/images/link-45deg.svg)](#pcsx-rearmed-crash) PCSX-ReARMed crashes when I try to start a game! How do I fix it?
-
-**A:** Please check your `/roms/bios` folder for a file called `ps1_rom.bin`. If you find it, remove it and PCSX-ReARMed should start working again.
-
-***
-
 {: #custom-scripts }
 **Q:** [![link](/images/link-45deg.svg)](#custom-scripts) Can I run custom scripts? If so, how?
 
