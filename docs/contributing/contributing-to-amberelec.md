@@ -245,6 +245,7 @@ The above method is recommended due to difficulty setting up all proper files to
           - `Left Ctl` = `Select`
           - `Tab` = `X`
           - `Left Shift` = `Y`
+
 ```xml
       <?xml version="1.0"?>
       <inputList>
@@ -263,6 +264,7 @@ The above method is recommended due to difficulty setting up all proper files to
         </inputConfig>
       </inputList>
 ```
+
     - Create some 'fake' roms.  Fee free to add your own.
       - `mkdir -p /storage/roms/snes /storage/roms/tools`
       - `touch /storage/roms/snes/test.smc /storage/roms/tools/test.sh`
