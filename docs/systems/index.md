@@ -29,8 +29,8 @@ Arcade emulation is complicated! Please see the [Arcade Emulation Overview](/gui
 |[MAME](mame)|**mame2003_plus**<br />AdvanceMame<br />mame2000<br />mame2010<br />mame2015<br />mame<br />fbneo<br />fbalpha2012<br />fbalpha2019|mame<br />arcade|.zip .7z|Good: MAME2003-plus works well, other romsets are mixed|Good|
 |[FinalBurn Neo](fbneo)|**fbneo**<br />mame2003_plus<br />fbalpha2012<br />fbalpha2019<br />mame2010<br />mame2015<br />mame|fbneo|.zip .7z|Good|Good|
 |[LaserDisc](laserdisc)|**hypseus-singe**|laserdisc|.daphne or .ld (folder extension)|Good|Good|
-|[Sammy<br/>Atomiswave](sammy-atomiswave)|**flycast**|atomiswave|.lst .bin .dat .zip .7z|Good|Good|
-|[Sega<br/>Naomi](sega-naomi)|**flycast**|naomi|.lst .bin .dat .zip .7z|Mixed: Some games run well, others are unplayable|Mixed: Some games run well, others are unplayable|
+|[Sammy<br/>Atomiswave](sammy-atomiswave)|**flycast**<br />flycast2021|atomiswave|.lst .bin .dat .zip .7z|Good|Good|
+|[Sega<br/>Naomi](sega-naomi)|**flycast**<br />flycast2021|naomi|.lst .bin .dat .zip .7z|Mixed: Some games run well, others are unplayable|Mixed: Some games run well, others are unplayable|
 
 Please note that MAME and FinalBurn Neo screen aspect ratios are not optimized, as they should have been optimized on game basis (some are 4:3, some are 3:2 and some are vertical), so we decided to leave the default options.
 
@@ -90,7 +90,7 @@ Please note that MAME and FinalBurn Neo screen aspect ratios are not optimized, 
 |[Sega<br/>Mega-CD](sega-mega-drive#cd-overview)|**genesis_plus_gx**<br />picodrive|megacd|.chd .cue .iso .m3u|Good|Good|
 |[Sega<br/>Mega Drive](sega-mega-drive)|**genesis_plus_gx**<br />genesis_plus_gx_wide<br />picodrive|megadrive<br />megadrive-japan|.gen .bin .md .sg .smd .zip .7z|Good|Good|
 |[Sega<br/>Saturn](sega-saturn)|**yabasanshiroSA**|saturn|.cue .iso .chd|Mixed: Almost any game is fully playable, but not at full speed|Good|
-|[Sega<br/>Dreamcast](sega-dreamcast)|**flycast**|dreamcast|.cdi .gdi .chd .m3u|Mixed: Some games run well, others are unplayable|Mixed: Some games run well, others are unplayable|
+|[Sega<br/>Dreamcast](sega-dreamcast)|**flycast**<br />flycast2021|dreamcast|.cdi .gdi .chd .m3u|Mixed: Some games run well, others are unplayable|Mixed: Some games run well, others are unplayable|
 |[SNK<br/>Neo Geo](snk-neo-geo)|**fbneo**<br />mame2003_plus<br />fbalpha2012<br />fbalpha2019<br />mame2010<br />mame2015<br />mame|neogeo|.7z .zip|Good|Good|
 |[SNK<br/>Neo Geo CD](snk-neo-geo-cd)|**neocd**<br />fbneo|neocd|.chd .cue .iso|Good|Good|
 |[SNK<br/>Neo Geo Pocket](snk-neo-geo-pocket)|**beetle_ngp**<br />race|ngp|.ngp .ngc .zip .7z|Good|Good|
