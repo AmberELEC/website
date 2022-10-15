@@ -51,7 +51,7 @@ Below is a list of the ports and whether they're known to work, along with links
 | ![iconoclasts](/images/previews/Iconoclasts.jpg) Iconoclasts | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#iconoclasts)<br />[RGC Youtube Tutorial](https://www.youtube.com/watch?v=navwk8rGNTw) |
 | ![invaders](/images/previews/SpaceInvaderC.jpg) Invaders (Space Invaders Arcade) | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#invaders) |
 | ![malcostam](/images/previews/MalditaCastilla.png) Maldita Castilla | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#maldita-castilla) |
-| ![meritous](/images/previews/Meritous.jpg) Meritous | <span class="text-success">Working</span> | [PortMaster Instructions]() |
+| ![meritous](/images/previews/Meritous.jpg) Meritous | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#meritous) |
 | ![moonlight](/images/previews/Moonlight.png) Moonlight | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#moonlight-nvidia-gamestreaming-app) |
 | ![mr boom](/images/previews/MrBoom.png) Mr. Boom | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#mr-boom) |
 | ![nam](/images/previews/NAM.jpeg) NAM | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#nam) |
