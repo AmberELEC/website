@@ -61,7 +61,7 @@ Below is a list of the ports and whether they're known to work, along with links
 | ![openmf](/images/previews/OpenOMF.png) OpenOMF - One Must Fall 2097 Remake Project | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#openomf) |
 | ![openttd](/images/previews/openttd.png) OpenTTD | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#openttd) |
 | ![opentyrian](/images/previews/OpenTyrian.jpeg) OpenTyrian | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#opentyrian) |
-| ![openxcom](/images/previews/OpenXcom.jpg) OpenXcom | | |
+| ![openxcom](/images/previews/OpenXcom.jpg) OpenXcom | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#openxcom) |
 | ![owlboy](/images/previews/Owlboy.jpg) Owlboy | <span class="text-success">Working</span>  | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#owlboy) |
 | ![prehistoryk](/images/previews/Prehistorik2.png) Prehistorik 2 | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#prehistorik-2) |
 | ![quake](/images/previews/Quake.jpeg) Quake | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#quake-1) |
