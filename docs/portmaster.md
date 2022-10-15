@@ -45,11 +45,13 @@ Below is a list of the ports and whether they're known to work, along with links
 | ![freedomplanet](/images/previews/FreedomPlanet.png) Freedom Planet | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#freedom-planet) |
 | ![freedroidrpg](/images/previews/freedroidrpg.jpg) FreedroidRPG | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#freedroidrpg) |
 | ![heart](/images/previews/HeartofDarkness.png) Heart of Darkness | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#heart-of-darkness) |
+| ![hocoslam](/images/previews/Hocoslamfy.png) Hocoslamfy | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#hocoslamfy) |
 | ![turrican](/images/previews/Hurrican.jpeg) Hurrican (Turrican) | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#hurrican-turrican) |
 | ![hydra](/images/previews/HydraCastleLabyrinth.png) Hydra Castle Labyrinth | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#hydra-castle-labyrinth) |
 | ![iconoclasts](/images/previews/Iconoclasts.jpg) Iconoclasts | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#iconoclasts)<br />[RGC Youtube Tutorial](https://www.youtube.com/watch?v=navwk8rGNTw) |
 | ![invaders](/images/previews/SpaceInvaderC.jpg) Invaders (Space Invaders Arcade) | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#invaders) |
 | ![malcostam](/images/previews/MalditaCastilla.png) Maldita Castilla | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#maldita-castilla) |
+| ![meritous](/images/previews/Meritous.jpg) Meritous | <span class="text-success">Working</span> | [PortMaster Instructions]() |
 | ![moonlight](/images/previews/Moonlight.png) Moonlight | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#moonlight-nvidia-gamestreaming-app) |
 | ![mr boom](/images/previews/MrBoom.png) Mr. Boom | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#mr-boom) |
 | ![nam](/images/previews/NAM.jpeg) NAM | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#nam) |
