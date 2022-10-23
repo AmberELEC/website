@@ -50,7 +50,7 @@ Please note that MAME and FinalBurn Neo screen aspect ratios are not optimized, 
 |[Bit Corp<br />Gamate](bit-corp-gamate)|**mame**|gamate|.bin .zip .7z|Good|Good|
 |[Casio<br />PV-1000](casio-pv-1000)|**mame**|pv1000|.bin .zip .7z|Good|Good|
 |[Coleco<br/>ColecoVision](coleco-colecovision)|**bluemsx**<br />gearcoleco<br />smsplus|coleco|.bin .col .rom .zip .7z|Good|Good|
-|[Commodore<br/>Amiga CD³²](commodore-amiga-cd32)|**puae**<br />uae4arm|amigacd32|.iso .cue .chd .lha|Good|Good|
+|[Commodore<br/>Amiga CD³²](commodore-amiga-cd32)|**puae2021**<br />puae<br />uae4arm|amigacd32|.iso .cue .chd .lha|Good|Good|
 |[Entex<br />Adventure Vision](entex-adventure-vision)|**mame**|advision|.bin .zip .7z|Good|Good|
 |[Epoch<br />Game Pocket Computer](epoch-game-pocket-computer)|**mame**|gamepocketcomputer|.bin .zip .7z|Good|Good|
 |[Fairchild<br/>Channel F](fairchild-channel-f)|**fairchaf**|channelf|.bin .chf .zip .7z|Good|Good|
@@ -110,7 +110,7 @@ Please note that MAME and FinalBurn Neo screen aspect ratios are not optimized, 
 |[Amstrad<br/>CPC](amstrad-cpc)|**crocods**<br />cap32|amstradcpc|.dsk .sna [crocods: .kcr]<br/>[cap32: .tap .cdt .voc .m3u .zip .7z]|Good|Good|
 |[Atari 800](atari-800)|**atari800**|atari800|.rom .xfd .atr .atx .cdm .cas .car .bin .a52 .xex .zip .7z|Good|Good|
 |[Atari ST](atari-st)|**hatari**<br />HATARISA|atarist|.st .msa .stx .dim .ipf .m3u .zip .7z|Good|Good|
-|[Commodore<br/>Amiga](commodore-amiga)|**puae**<br />amiberry<br />uae4arm|amiga|.zip .uae .adf .dms .fdi .ipf .adz .lha .hdf .hdz|Good|Good|
+|[Commodore<br/>Amiga](commodore-amiga)|**puae2021**<br />puae<br />amiberry<br />uae4arm|amiga|.zip .uae .adf .dms .fdi .ipf .adz .lha .hdf .hdz|Good|Good|
 |[Commodore<br/>C16](commodore-c16)|**vice_xplus4**|c16|.d64 .d71 .d80 .d81 .d82 .g64 .g41 .x64 .t64 .tap .prg .p00 .crt .bin .d6z .d7z .d8z .g6z .g4z .x6z .cmd .m3u .vsf .nib .nbz .zip|Good|Good|
 |[Commodore<br/>C64](commodore-c64)|**vice_x64**|c64|.d64 .d71 .d80 .d81 .d82 .g64 .g41 .x64 .t64 .tap .prg .p00 .crt .bin .d6z .d7z .d8z .g6z .g4z .x6z .cmd .m3u .vsf .nib .nbz .zip|Good|Good|
 |[Commodore<br/>C128](commodore-c128)|**vice_x128**|c128|.d64 .d71 .d80 .d81 .d82 .g64 .g41 .x64 .t64 .tap .prg .p00 .crt .bin .d6z .d7z .d8z .g6z .g4z .x6z .cmd .m3u .vsf .nib .nbz .zip|Good|Good|
