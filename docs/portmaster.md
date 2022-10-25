@@ -46,8 +46,8 @@ Below is a list of the ports and whether they're known to work, along with links
 | ![freedomplanet](/images/previews/FreedomPlanet.png) Freedom Planet | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#freedom-planet) |
 | ![freedroidrpg](/images/previews/freedroidrpg.jpg) FreedroidRPG | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#freedroidrpg) |
 | ![heart](/images/previews/HeartofDarkness.png) Heart of Darkness | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#heart-of-darkness) |
-| ![hexahop](/images/previews/hexahop.png) Hex-a-Hop | <span class="text-success">Working</span> | [PortMaster Instructions]( |
-| ![hocoslam](/images/previews/Hocoslamfy.png) Hocoslamfy | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#hex-a-hop) |
+| ![hexahop](/images/previews/hexahop.png) Hex-a-Hop | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#hex-a-hop) |
+| ![hocoslam](/images/previews/Hocoslamfy.png) Hocoslamfy | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#hocoslamfy) |
 | ![turrican](/images/previews/Hurrican.jpeg) Hurrican (Turrican) | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#hurrican-turrican) |
 | ![hydra](/images/previews/HydraCastleLabyrinth.png) Hydra Castle Labyrinth | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#hydra-castle-labyrinth) |
 | ![iconoclasts](/images/previews/Iconoclasts.jpg) Iconoclasts | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#iconoclasts)<br />[RGC Youtube Tutorial](https://www.youtube.com/watch?v=navwk8rGNTw) |
