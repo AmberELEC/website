@@ -20,6 +20,7 @@ Below is a list of the ports and whether they're known to work, along with links
 | Game | Compatibility | Installation Instructions |
 |----|----|----|
 | ![2048](/images/previews/2048.jpeg) 2048 | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#2048) |
+| ![abes](/images/previews/Abes.png) Abe's Amazing Adventure! | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#abes-amazing-adventure) |
 | ![abuse](/images/previews/Abuse.jpeg) Abuse | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#abuse) |
 | ![aleph](/images/previews/AlephOne.jpg) Aleph One (Marathon) | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#aleph-one-marathonmarathon-2marathon-infinity) |
 | ![AM2R](/images/previews/AM2R.jpeg) AM2R | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#am2r) |
@@ -85,7 +86,7 @@ Below is a list of the ports and whether they're known to work, along with links
 | ![skijump3](/images/previews/SkiJump3.jpg) SkiJump 3 | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#ski-jump-3) |
 | ![sonic](/images/previews/Sonic1.jpeg) Sonic 1 | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#sonic-1) |
 | ![sonic2](/images/previews/Sonic2.jpeg) Sonic 2 | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#sonic-2) |
-| ![sonicmania]() Sonic Mania | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#sonic-mania) |
+| ![sonicmania](/images/previews/Sonic_Mania.png) Sonic Mania | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#sonic-mania) |
 | ![cd](/images/previews/SonicCD.jpeg) Sonic CD | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#sonic-cd) |
 | ![srb2](/images/previews/SRB2.jpg) Sonic Robo Blast 2 | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#srb2-sonic-robo-blast-2) |
 | ![srb2kart](/images/previews/SRB2Kart.jpg) SRB2Kart (Sonic Robo Blast 2 Kart) | <span class="text-success">Working</span> | [PortMaster Instructions](https://github.com/christianhaitian/PortMaster/wiki#srb2kart-sonic-robo-blast-2-kart) |
