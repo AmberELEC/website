@@ -132,6 +132,13 @@ The easiest way to get the brightness set up if you have this issue is to change
 
 ***
 
+{: #boot-logo }
+**Q:** [![link](/images/link-45deg.svg)](#boot-logo) Can I change the boot logo for AmberELEC?
+
+**A:** The boot logo for AmberELEC can't be changed, and this is not a feature that we have any plans to support in the future.
+
+***
+
 {: #broken-hardware }
 **Q:** [![link](/images/link-45deg.svg)](#broken-hardware) I have a hardware problem (physically broken part).
 
