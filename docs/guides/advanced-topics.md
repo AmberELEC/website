@@ -2,6 +2,7 @@
 
 * [RetroArch Overrides](#retroarch-overrides)
 * [Minimizing Input Lag](#minimizing-input-lag)
+* [Installing Custom Themes](#installing-custom-themes)
 * [Buttons reference](#buttons-reference)
 * [File Management](#file-management)
 * [How to work with es_systems.cfg on AmberELEC](#how-to-work-with-es_systemscfg-on-amberelec)
