@@ -28,6 +28,12 @@ The following RetroArch settings have been recommended by Vanfanel to minimize i
 - `RetroArch Main Menu` > `Settings` > `Audio` > `Output`, set `Audio Latency (ms)` to 32
 - `RetroArch Main Menu` > `Settings` > `Audio` > `Synchronization`, set `Synchronization` to on (should be on by default)
 
+## Installing Custom Themes
+
+Before installing custom themes, it's strongly advised that you check out the [theme downloader](/guides/getting-started#update-themes) and make sure that there isn't already a theme that suits your preferences. Most EmulationStation themes aren't built with these devices in mind, and aren't compatible with their resolutions. You may need to make adjustments to the theme's XML to make it compatible with your device.
+
+To install a custom theme, you'll need to add it to `/storage/.config/emulationstation/themes`. This area is usually easiest to access using SSH or SFTP. For more information, please see the [Transferring Files](/guides/transferring-files) guide. Drop the theme folder into that folder. You should now be able to select the custom theme from the [UI Settings](/guides/menus#ui-settings) menu.
+
 ## Buttons reference
 
 |Button|RetroArch Ref|Mupen Ref|
