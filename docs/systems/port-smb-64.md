@@ -21,6 +21,7 @@ exit $ret_error
 ```
 
 3) Copy the file `/storage/.config/SDL-GameControllerDB/gamecontrollerdb.txt` to `/storage/roms/ports/sm64/controller/gamecontrollerdb.txt`
+
 4) Open the file `/storage/roms/ports/sm64/controller/gamecontrollerdb.txt` that you just copied over. Find the section with the header `# AmberELEC extra gamepads`. You'll need to replace that section with the following code:
 
 ```
