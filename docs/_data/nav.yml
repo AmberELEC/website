@@ -417,6 +417,10 @@ pages:
     title: PortMaster
     category: Ports
     url: /portmaster
+  - file: /systems/port-smb-64.md
+    title: Super Mario 64
+    category: Ports
+    url: /systems/port-smb-64
   - file: /download.md
     title: Download
     category: Download
