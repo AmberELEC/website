@@ -4,7 +4,7 @@
 
 To install the port of Super Mario 64, please do the following steps:
 
-1) Follow the Retro Game Corps guide to building and installing the Super Mario 64 port: https://retrogamecorps.com/2020/12/28/guide-super-mario-64-port-on-rg351p/#Controls
+1) Follow the Retro Game Corps Guide: [Super Mario 64 Port On Retro Handhelds](https://retrogamecorps.com/2020/12/28/guide-super-mario-64-port-on-rg351p)
 
 2) Modify the `smb64.sh` launcher file. This can be found in your `Ports` folder under ROMs. It should look like this:
 
