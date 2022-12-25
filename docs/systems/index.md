@@ -58,12 +58,12 @@ Please note that MAME and FinalBurn Neo screen aspect ratios are not optimized, 
 |[Magnavox<br/>Odyssey²](magnavox-odyssey2)|**o2em**|odyssey|.bin .zip .7z|Good|Good|
 |[Mattel<br/>Intellivision](mattel-intellivision)|**freeintv**|intellivision|.int .bin .rom .zip .7z|Good|Good|
 |[Milton Bradley<br/>Vectrex](milton-bradley-vectrex)|**vecx**|vectrex|.bin .gam .vec .zip .7z|Good|Good|
-|[NEC<br/>PC Engine](nec-pc-engine)|**beetle_pce_fast**<br />beetle_supergrafx|pcengine|.pce .bin .zip .7z|Good|Good|
-|[NEC<br/>PC Engine CD](nec-pc-engine#cd-addon-overview)|**beetle_pce_fast**<br />beetle_supergrafx|pcenginecd|.cue .ccd .chd .toc .m3u|Good|Good|
+|[NEC<br/>PC Engine](nec-pc-engine)|**beetle_pce_fast**<br />beetle_pce<br />beetle_supergrafx|pcengine|.pce .bin .zip .7z|Good|Good|
+|[NEC<br/>PC Engine CD](nec-pc-engine#cd-addon-overview)|**beetle_pce_fast**<br />beetle_pce<br />beetle_supergrafx|pcenginecd|.cue .ccd .chd .toc .m3u|Good|Good|
 |[NEC<br/>PC-FX](nec-pc-fx)|**beetle_pcfx**|pcfx|.chd .cue .ccd .toc|Bad: Only low performance|Bad: Only low performance|
-|[NEC<br/>SuperGrafx](nec-pc-engine#supergrafx-overview)|**beetle_supergrafx**|sgfx|.pce .sgx .cue .ccd .chd .zip .7z|Good|Good|
-|[NEC<br/>TurboGrafx 16](nec-pc-engine)|**beetle_pce_fast**<br />beetle_supergrafx|tg16|.pce .bin .zip .7z|Good|Good|
-|[NEC<br/>TurboGrafx CD](nec-pc-engine#cd-addon-overview)|**beetle_pce_fast**<br />beetle_supergrafx|tg16cd|.cue .ccd .chd .toc .m3u|Good|Good|
+|[NEC<br/>SuperGrafx](nec-pc-engine#supergrafx-overview)|**beetle_supergrafx**<br />beetle_pce|sgfx|.pce .sgx .cue .ccd .chd .zip .7z|Good|Good|
+|[NEC<br/>TurboGrafx 16](nec-pc-engine)|**beetle_pce_fast**<br />beetle_pce<br />beetle_supergrafx|tg16|.pce .bin .zip .7z|Good|Good|
+|[NEC<br/>TurboGrafx CD](nec-pc-engine#cd-addon-overview)|**beetle_pce_fast**<br />beetle_pce<br />beetle_supergrafx|tg16cd|.cue .ccd .chd .toc .m3u|Good|Good|
 |[Nintendo<br/>Famicom](nintendo-famicom)|**nestopia**<br />fceumm<br />quicknes|famicom|.nes .unif .unf .zip .7z|Good|Good|
 |[Nintendo<br/>Famicom Disk System](nintendo-famicom#famicom-disk-system-fds-overview)|**nestopia**<br />fceumm<br />quicknes|fds|.fds .zip .7z|Good|Good|
 |[Nintendo<br/>Game & Watch](nintendo-game-and-watch)|**gw**|gameandwatch|.mgw .zip .7z|Good|Good|
