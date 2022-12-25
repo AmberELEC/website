@@ -24,7 +24,6 @@
 2. Un-zip that file and copy the following files to `/roms/pico-8`:
    - pico8_64
    - pico8.dat
-   - If you're on Pineapple Forest, please also copy `pico8` and `pico8_dyn`. These files can be deleted after the next stable update.
 3. Add any manually downloaded Pico-8 carts (aka .png or .p8 files) to `/roms/pico-8` 
    - There are 2 options for this depending on how you prefer things to work
    - If you prefer to start games directly from EmulationStation and don't need to see them in splore:
