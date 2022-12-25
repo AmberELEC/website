@@ -53,6 +53,7 @@ Please note that MAME and FinalBurn Neo screen aspect ratios are not optimized, 
 |[Commodore<br/>Amiga CD³²](commodore-amiga-cd32)|**puae2021**<br />puae<br />uae4arm|amigacd32|.iso .cue .chd .lha|Good|Good|
 |[Entex<br />Adventure Vision](entex-adventure-vision)|**mame**|advision|.bin .zip .7z|Good|Good|
 |[Epoch<br />Game Pocket Computer](epoch-game-pocket-computer)|**mame**|gamepocketcomputer|.bin .zip .7z|Good|Good|
+|[Epoch<br />Super Cassette Vision]|**emuscv**|scv|.bin .rom .0 .zip .7z|Good|Good|
 |[Fairchild<br/>Channel F](fairchild-channel-f)|**fairchaf**|channelf|.bin .chf .zip .7z|Good|Good|
 |[Hartung<br />Game Master](hartung-game-master)|**mame**|gamemaster|.bin .zip .7z|Good|Good|
 |[Magnavox<br/>Odyssey²](magnavox-odyssey2)|**o2em**|odyssey|.bin .zip .7z|Good|Good|
@@ -136,7 +137,9 @@ Please note that MAME and FinalBurn Neo screen aspect ratios are not optimized, 
 |[Arduboy](arduboy)|**arduous**|arduboy|.hex|Good|Good|
 |[Belogic<br/>Uzebox](belogic-uzebox)|**uzem**|uzebox|.uze|Good|Good|
 |[Lexaloffle<br/>Pico-8](lexaloffle-pico-8)|**pico8**|pico-8|.png .p8|Good|Good|
+|[LowRes NX|**lowresnx**|lowresnx|.nx|Good|Good|
 |[Nesbox<br/>TIC-80](nesbox-tic-80)|**tic80**|tic-80|.tic|Good|Good|
+|[WASM-4]|**wasm4**|wasm4|.wasm|Good|Good|
 
 ## Game Engines
 
