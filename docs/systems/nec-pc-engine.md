@@ -11,6 +11,7 @@ The NEC PC Engine also goes by the name NEC TurboGrafx-16 in North America. Ther
 
 - Cores:
   - `beetle_pce_fast` (default)
+  - `beetle_pce`
   - `beetle_supergrafx`
 - Paths:
   - `pcengine`
@@ -25,6 +26,7 @@ The NEC PC Engine also goes by the name NEC TurboGrafx-16 in North America. Ther
 
 - Cores:
   - `beetle_pce_fast` (default)
+  - `beetle_pce`
   - `beetle_supergrafx`
 - Paths:
   - `pcenginecd`
@@ -37,7 +39,9 @@ The NEC PC Engine also goes by the name NEC TurboGrafx-16 in North America. Ther
 
 ## SuperGrafx Overview
 
-- Core: `beetle_supergrafx` (default)
+- Cores:
+  - `beetle_supergrafx` (default)
+  - `beetle_pce`
 - Paths: `sgfx`
 - Supported Extensions: `.pce .sgx .cue .ccd .chd .zip .7z`
 - Libretro Documentation:
