@@ -154,6 +154,7 @@ Please note that MAME and FinalBurn Neo screen aspect ratios are not optimized, 
 |[Solarus](solarus)|**solarus**|solarus|.solarus|||
 |[Sun Microsystems<br/>J2ME](sun-j2me)|**freej2me**|j2me|.jar|Good: Quite smooth playing|Good: Quite smooth playing|
 |[Wolfenstein 3D](wolfenstein-3d)|**ecwolf**|ecwolf|[.ecwolf](wolfenstein-3d#how-to-create-a-ecwolf-file)|||
+|Infocom<br/>Z-Machine|**mojozork**|zmachine|.dat .z1 .z3 .zip .7z|||
 
 # BIOS 
 Some platforms need bios files, these should go in /storage/roms/bios.
