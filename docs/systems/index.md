@@ -108,7 +108,7 @@ Please note that MAME and FinalBurn Neo screen aspect ratios are not optimized, 
 {: .systemtable }
 |Manufacturer/System|Core/Emu|ROM Path|Extension|RG351|RG552|
 |---|---|---|---|---|---|
-|[Amstrad<br/>CPC](amstrad-cpc)|**crocods**<br />cap32|amstradcpc|.dsk .sna [crocods: .kcr]<br/>[cap32: .tap .cdt .voc .m3u .zip .7z]|Good|Good|
+|[Amstrad<br/>CPC](amstrad-cpc)|**crocods**<br />cap32<br />ep128emu|amstradcpc|.dsk .sna [crocods: .kcr]<br/>[cap32: .tap .cdt .voc .m3u .zip .7z]|Good|Good|
 |[Atari 800](atari-800)|**atari800**|atari800|.rom .xfd .atr .atx .cdm .cas .car .bin .a52 .xex .zip .7z|Good|Good|
 |[Atari ST](atari-st)|**hatari**<br />HATARISA|atarist|.st .msa .stx .dim .ipf .m3u .zip .7z|Good|Good|
 |[Commodore<br/>Amiga](commodore-amiga)|**puae2021**<br />puae<br />amiberry<br />uae4arm|amiga|.zip .uae .adf .dms .fdi .ipf .adz .lha .hdf .hdz|Good|Good|
@@ -116,6 +116,7 @@ Please note that MAME and FinalBurn Neo screen aspect ratios are not optimized, 
 |[Commodore<br/>C64](commodore-c64)|**vice_x64**|c64|.d64 .d71 .d80 .d81 .d82 .g64 .g41 .x64 .t64 .tap .prg .p00 .crt .bin .d6z .d7z .d8z .g6z .g4z .x6z .cmd .m3u .vsf .nib .nbz .zip|Good|Good|
 |[Commodore<br/>C128](commodore-c128)|**vice_x128**|c128|.d64 .d71 .d80 .d81 .d82 .g64 .g41 .x64 .t64 .tap .prg .p00 .crt .bin .d6z .d7z .d8z .g6z .g4z .x6z .cmd .m3u .vsf .nib .nbz .zip|Good|Good|
 |[Commodore<br/>VIC-20](commodore-vic-20)|**vice_xvic**|vic20|.20 .40 .60 .a0 .b0 .d64 .d71 .d80 .d81 .d82 .g64 .g41 .x64 .t64 .tap .prg .p00 .crt .bin .gz .d6z .d7z .d8z .g6z .g4z .x6z .cmd .m3u .vsf .nib .nbz .zip|Good|Good|
+|Enterprise 64/128|**ep128emu**|ep64-128|.img .dsk .tap .dtf .com .trn .128 .zip .7z|Good|Good|
 |[Microsoft<br/>DOS](microsoft-dos)|**dosbox_pure**<br />dosbox_svn|pc|.com .bat .exe .dosz, disk images (iso, cue, img, ima, vhd) can be put into the .dosz|Good|Good|
 |[Microsoft<br/>MSX](microsoft-msx)|**bluemsx**<br />fmsx|msx| .dsk .mx1 .mx2 .rom .zip .7z .m3u|Good|Good|
 |[Microsoft<br/>MSX2](microsoft-msx)|**bluemsx**<br />fmsx|msx2|.dsk .mx1 .mx2 .rom .zip .7z .m3u|Good|Good|
@@ -126,7 +127,8 @@ Please note that MAME and FinalBurn Neo screen aspect ratios are not optimized, 
 |[Sharp<br/>X1](sharp-x1)|**x1**|x1|.dx1 .2d .2hd .tfd .d88 .88d .hdm .xdf .dup .tap .cmd .zip .7z|Good|Good|
 |[Sharp<br/>x68000](sharp-x68000)|**px68k**|x68000|.dim .img .d88 .88d .hdm .dup .2hd .xdf .hdf .cmd .m3u .zip .7z|Good|Good|
 |[Sinclair<br/>ZX81](sinclair-zx81)|**81**|zx81|.tzx .p .zip .7z|Good|Good|
-|[Sinclair<br/>ZX Spectrum](sinclair-zx-spectrum)|**fuse**|zxspectrum|.tzx .tap .z80 .rzx .scl .trd .dsk .zip .7z|Good|Good|
+|[Sinclair<br/>ZX Spectrum](sinclair-zx-spectrum)|**fuse**<br />ep128emu|zxspectrum|.tzx .tap .z80 .rzx .scl .trd .dsk .zip .7z|Good|Good|
+|Videoton TVC|**ep128emu**|tvc|.img .dsk .cas .tvcwav .zip .7z|Good|Good|
 
 ## Fantasy/Open Source Consoles
 
