@@ -9,6 +9,7 @@
   - `fbalpha2019`
   - `mame2010`
   - `mame2015`
+  - `mame2016`
   - `mame`
 - Path(s): `fbneo`
 - Supported Extensions: `.zip .7z`
