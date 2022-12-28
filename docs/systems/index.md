@@ -117,7 +117,7 @@ Please note that MAME and FinalBurn Neo screen aspect ratios are not optimized, 
 |[Commodore<br/>C128](commodore-c128)|**vice_x128**|c128|.d64 .d71 .d80 .d81 .d82 .g64 .g41 .x64 .t64 .tap .prg .p00 .crt .bin .d6z .d7z .d8z .g6z .g4z .x6z .cmd .m3u .vsf .nib .nbz .zip|Good|Good|
 |[Commodore<br/>VIC-20](commodore-vic-20)|**vice_xvic**|vic20|.20 .40 .60 .a0 .b0 .d64 .d71 .d80 .d81 .d82 .g64 .g41 .x64 .t64 .tap .prg .p00 .crt .bin .gz .d6z .d7z .d8z .g6z .g4z .x6z .cmd .m3u .vsf .nib .nbz .zip|Good|Good|
 |Enterprise 64/128|**ep128emu**|ep64-128|.img .dsk .tap .dtf .com .trn .128 .zip .7z|Good|Good|
-|[Microsoft<br/>DOS](microsoft-dos)|**dosbox_pure**<br />dosbox_svn|pc|.com .bat .exe .dosz, disk images (iso, cue, img, ima, vhd) can be put into the .dosz|Good|Good|
+|[Microsoft<br/>DOS](microsoft-dos)|**dosbox_pure**<br />dosbox_core|pc|.com .bat .exe .dosz, disk images (iso, cue, img, ima, vhd) can be put into the .dosz|Good|Good|
 |[Microsoft<br/>MSX](microsoft-msx)|**bluemsx**<br />fmsx|msx| .dsk .mx1 .mx2 .rom .zip .7z .m3u|Good|Good|
 |[Microsoft<br/>MSX2](microsoft-msx)|**bluemsx**<br />fmsx|msx2|.dsk .mx1 .mx2 .rom .zip .7z .m3u|Good|Good|
 |[NEC<br/>PC-88](nec-pc-88)|**quasi88**|pc88|.d88 .m3u|Good|Good|
