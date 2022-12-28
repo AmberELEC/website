@@ -4,7 +4,7 @@
 
 - Cores:
   - `dosbox_pure` (default)
-  - `dosbox_svn`
+  - `dosbox_core`
 - Path(s): pc
 - Supported Extensions: `.dosz`, disk images (iso, cue, img, ima, vhd) can be put into the .dosz
 
