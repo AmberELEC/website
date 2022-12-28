@@ -8,6 +8,7 @@
   - `mame2000`
   - `mame2010`
   - `mame2015`
+  - `mame2016`
   - `mame`
   - `fbneo`
   - `fbalpha2012`
