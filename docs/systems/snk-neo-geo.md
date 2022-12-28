@@ -27,6 +27,7 @@ Once you have scraped games as part of your FBNeo or MAME collections, you just 
   - `fbalpha2019`
   - `mame2010`
   - `mame2015`
+  - `mame2016`
   - `mame`
 - Path: `neogeo`
 - Supported Extensions: `.zip .7z`
