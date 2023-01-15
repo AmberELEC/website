@@ -7,7 +7,6 @@
 $color-amber: #FFBF00;
 $color-amber-mid: #D49429;
 $color-amber-dark: #844B1F;
-$color-console-green: #B4E853;
 $color-vivid-sky-blue: #42CAFD;
 $color-cadet-blue: #66B3BA;
 $color-pale-pink: #F0D2D1;
@@ -40,6 +39,10 @@ header ul li {
   flex-grow: 1;
 }
 
+header ul li:before {
+  content: none;
+}
+
 header .navbar-nav > li {
   border: 1px solid #222;
   text-align: center;
@@ -60,9 +63,38 @@ header .navbar-brand {
   margin-right: 3rem;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  color: $color-amber-mid;
+}
+
 h3 {
-  color: #D0EC9C;
+  color: $color-amber;
   font-size: calc(1.1rem + .6vw);
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  list-style-image: none;
+}
+
+ul li:before {
+  content: ">>";
+  color: $color-amber-mid;
+  font-size: 1em;
+  display: inline-block;
+  position: relative;
+  width: 2em;
+  top: -1px;
+  left: 6px;
+  margin-left: -2em;
+  -webkit-transform: scale(1.25, 1.15);
+  -moz-transform: scale(1.25, 1.15);
+  -ms-transform: scale(1.25, 1.15);
+  -o-transform: scale(1.25, 1.15);
+  transform: scale(1.25, 1.15);
 }
 
 thead, tbody, tfoot, tr, td, th {
@@ -71,11 +103,11 @@ thead, tbody, tfoot, tr, td, th {
 }
 
 thead {
-  color: #b5e853;
+  color: $color-amber-mid;
 }
 
 b, strong {
-    text-shadow: 0px 0px 0px white, 0 0 1em white, 0 0 1em #b5e853;
+    text-shadow: 0px 0px 0px white, 0 0 1em white, 0 0 1em $color-amber-mid;
 }
 
 .container {
@@ -135,6 +167,16 @@ code.highlighter-rouge {
   color: #000;
   background-color: #f9fafb;
   border-color: #f9fafb;
+}
+
+.btn-newpage {
+  border: #444 1px solid;
+  background-color: #333; 
+}
+
+.btn-newpage:hover {
+  border: #555 1px solid;
+  background-color: #444; 
 }
 
 .btn-download {
@@ -246,11 +288,11 @@ header .bg-dark.show, header .bg-dark.collapsing {
 }
 
 .tipue_search_content_title {
-  color: #b5e853;
+  color: $color-amber-mid;
 }
 
 .tipue_search_content_title a {
-  color: #b5e853;
+  color: $color-amber-mid;
 }
 
 .tipue_search_content_text {
@@ -258,7 +300,7 @@ header .bg-dark.show, header .bg-dark.collapsing {
 }
 
 .tipue_search_content_bold {
-  color: #b5e853;
+  color: $color-amber-mid;
 }
 
 @media (min-width: 992px) {
@@ -339,7 +381,7 @@ footer .text-center {
 .source {
   font-size: 14px;
   font-style: italic;
-  color: $color-console-green;
+  color: $color-amber-mid;
 }
 
 #main_content .note, .note {

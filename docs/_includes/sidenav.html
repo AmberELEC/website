@@ -2,20 +2,11 @@
   {% assign pages = site.data.nav.pages | where: "category", include.category.title %}
   {% for page in pages %}
     {% unless page.hidepage %}
-      <li>
-        <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
-      </li>
+      <li><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
     {% endunless %}
   {% endfor %}
   {% assign subcategories = site.data.nav.categories | where: "parent", include.category.title %}
   {% for subcategory in subcategories %}
-    <li>
-      {% if subcategory.url %}
-        <a href="{{ subcategory.url | relative_url }}">{{ subcategory.title }}</a>
-      {% else %}
-        {{ subcategory.title }}
-      {% endif %}
-      {% include sidenav.html category=subcategory %}
-    </li>
+    <li>{% if subcategory.url %}<a href="{{ subcategory.url | relative_url }}">{{ subcategory.title }}</a>{% else %}{{ subcategory.title }}{% endif %}{% include sidenav.html category=subcategory %}</li>
   {% endfor %}
 </ul>
