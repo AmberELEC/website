@@ -38,3 +38,7 @@ You'll need the BASS and BASSMIDI libraries and the MT32 roms.
 #### MT32 roms
 
 The MT32 roms are copyrighted material and cannot be shared. Like other BIOS files, you'll need to source them on your own. You'll need to add `MT32_CONTROL.ROM` and `MT32_PCM.ROM` to your BIOS folder.
+
+| BIOS             | md5                              |
+| MT32_CONTROL.ROM | 5626206284b22c2734f3e9efefcd2675 |
+| MT32_PCM.ROM     | 89e42e386e82e0cacb4a2704a03706ca |
