@@ -10,6 +10,7 @@ $color-amber-dark: #844B1F;
 $color-vivid-sky-blue: #42CAFD;
 $color-cadet-blue: #66B3BA;
 $color-pale-pink: #F0D2D1;
+$color-bright-purple: #f1a1ff;
 
 a {
   color: $color-vivid-sky-blue;
@@ -497,5 +498,33 @@ footer .text-center {
       margin-top: -10px;
       margin-bottom: 10px;
     }
+  }
+}
+
+.rg552only {
+  color: $color-bright-purple;
+  font-style: normal;
+  font-weight: bold;
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted white;
+
+  &:after {
+    content: "RG552 Only";
+    color: white;
+    padding: 2px;
+    visibility: hidden;
+    display:none;
+    position: absolute;
+    text-align: center;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 2px;
+    z-index: 1;
+  }
+
+  &:hover:after {
+    display: block;
+    visibility: visible;
   }
 }
