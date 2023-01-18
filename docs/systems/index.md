@@ -10,7 +10,7 @@ This path is actually a second partition on your SD card, for more information o
 
 You will also find the correct extensions, almost all cores support .zip and .7z files as well as those listed.
 
-The **bold** one is the default core/emulator.
+The **bold** one is the default core/emulator. Cores that are *light purple*{: .rg552only } are only available on the RG552.
 
 - [Arcade](#arcade)
 - [Consoles/Portables](#consolesportables)
@@ -65,20 +65,20 @@ Please note that MAME and FinalBurn Neo screen aspect ratios are not optimized, 
 |[NEC<br/>SuperGrafx](nec-pc-engine#supergrafx-overview)|**beetle_supergrafx**<br />beetle_pce|sgfx|.pce .sgx .cue .ccd .chd .zip .7z|Good|Good|
 |[NEC<br/>TurboGrafx 16](nec-pc-engine)|**beetle_pce_fast**<br />beetle_pce<br />beetle_supergrafx|tg16|.pce .bin .zip .7z|Good|Good|
 |[NEC<br/>TurboGrafx CD](nec-pc-engine#cd-addon-overview)|**beetle_pce_fast**<br />beetle_pce<br />beetle_supergrafx|tg16cd|.cue .ccd .chd .toc .m3u|Good|Good|
-|[Nintendo<br/>Famicom](nintendo-famicom)|**nestopia**<br />fceumm<br />quicknes<br />mesen (RG552 only)|famicom|.nes .unif .unf .zip .7z|Good|Good|
-|[Nintendo<br/>Famicom Disk System](nintendo-famicom#famicom-disk-system-fds-overview)|**nestopia**<br />fceumm<br />quicknes<br />mesen (RG552 only)|fds|.fds .zip .7z|Good|Good|
+|[Nintendo<br/>Famicom](nintendo-famicom)|**nestopia**<br />fceumm<br />quicknes<br />*mesen*{: .rg552only }|famicom|.nes .unif .unf .zip .7z|Good|Good|
+|[Nintendo<br/>Famicom Disk System](nintendo-famicom#famicom-disk-system-fds-overview)|**nestopia**<br />fceumm<br />quicknes<br />*mesen*{: .rg552only }|fds|.fds .zip .7z|Good|Good|
 |[Nintendo<br/>Game & Watch](nintendo-game-and-watch)|**gw**|gameandwatch|.mgw .zip .7z|Good|Good|
-|[Nintendo<br/>Game Boy](nintendo-gb)|**gambatte**<br />sameboy<br />gearboy<br />tgbdual<br />mgba<br />vbam<br />bsnes (RG552 only)<br />mesen-s (RG552 only)|gb<br/>gbh (hacks)|.gb .gbc .zip .7z|Good|Good|
+|[Nintendo<br/>Game Boy](nintendo-gb)|**gambatte**<br />sameboy<br />gearboy<br />tgbdual<br />mgba<br />vbam<br />*bsnes*{: .rg552only }<br />*mesen-s*{: .rg552only }|gb<br/>gbh (hacks)|.gb .gbc .zip .7z|Good|Good|
 |[Nintendo<br/>Game Boy Advance](nintendo-gba)|**mgba**<br />beetle_gba<br />gpsp<br />vbam<br />vba_next|gba<br/>gbah (hacks)|.gba .zip .7z|Good|Good|
-|[Nintendo<br/>Game Boy Color](nintendo-gb#gbc-overview)|**gambatte**<br />sameboy<br />gearboy<br />tgbdual<br />mgba<br />vbam<br />bsnes (RG552 only)<br />mesen-s (RG552 only)|gbc<br/>gbch (hacks)|.gbc .gb .zip .7z|Good|Good|
+|[Nintendo<br/>Game Boy Color](nintendo-gb#gbc-overview)|**gambatte**<br />sameboy<br />gearboy<br />tgbdual<br />mgba<br />vbam<br />*bsnes*{: .rg552only }<br />*mesen-s*{: .rg552only }|gbc<br/>gbch (hacks)|.gbc .gb .zip .7z|Good|Good|
 |[Nintendo<br/>N64](nintendo-n64)|mupen64plus_next<br />**parallel_n64**<br />mupen64plussa_glide64mk2<br />mupen64plussa_rice|n64|.z64 .n64 .v64 .zip .7z|Mixed: Some games run well, others are unplayable|Mixed: Some games run well, others are unplayable|
 |[Nintendo<br/>NDS](nintendo-nds)|**drastic**|nds|.nds .zip|Mixed: 2D Games almost fully playable|Mixed: 2D Games almost fully playable|
-|[Nintendo<br/>NES](nintendo-famicom)|**nestopia**<br />fceumm<br />quicknes<br />mesen (RG552 only)|nes<br/>nesh (hacks)|.nes .unif .unf .zip .7z|Good|Good|
+|[Nintendo<br/>NES](nintendo-famicom)|**nestopia**<br />fceumm<br />quicknes<br />*mesen*{: .rg552only }|nes<br/>nesh (hacks)|.nes .unif .unf .zip .7z|Good|Good|
 |[Nintendo<br/>Pokémon Mini](nintendo-pokemon-mini)|**pokemini**|pokemini|.min .zip .7z|Good|Good|
-|[Nintendo<br/>Satellaview](nintendo-sfc#satellaview-bs-x)|**snes9x**<br />snes9x2002<br />snes9x2005_plus<br />snes9x2010<br />beetle_snes (RG552 only)<br />bsnes (RG552 only)<br />bsnes2014_balanced (RG552 only)<br />bsnes2014_performance (RG552 only)<br />bsnes_mercury_balanced (RG552 only)<br />bsnes_mercury_performance (RG552 only)<br />mesen-s (RG552 only)|satellaview|.smc .sfc .swc .fig .bs .bsx .zip .7z|Good|Good|
-|[Nintendo<br/>Super Famicom](nintendo-sfc)|**snes9x**<br />snes9x2002<br />snes9x2005_plus<br />snes9x2010<br />beetle_supafaust<br />beetle_snes (RG552 only)<br />bsnes (RG552 only)<br />bsnes2014_balanced (RG552 only)<br />bsnes2014_performance (RG552 only)<br />bsnes_mercury_balanced (RG552 only)<br />bsnes_mercury_performance (RG552 only)<br />mesen-s (RG552 only)|sfc|.smc .sfc .swc .fig .zip .7z|Good|Good|
-|[Nintendo<br/>Super NES](nintendo-sfc)|**snes9x**<br />snes9x2002<br />snes9x2005_plus<br />snes9x2010<br />beetle_supafaust<br />beetle_snes (RG552 only)<br />bsnes (RG552 only)<br />bsnes2014_balanced (RG552 only)<br />bsnes2014_performance (RG552 only)<br />bsnes_mercury_balanced (RG552 only)<br />bsnes_mercury_performance (RG552 only)<br />mesen-s (RG552 only)|snes<br/>snesh (hacks)|.smc .sfc .swc .fig .zip .7z|Good|Good|
-|[Nintendo<br/>Super NES MSU-1](nintendo-sfc)|**snes9x**<br />beetle_supafaust<br />bsnes (RG552 only)<br />mesen-s (RG552 only)|snesmsu1|.smc .fig .sfc .swc .zip .7z|Good|Good|
+|[Nintendo<br/>Satellaview](nintendo-sfc#satellaview-bs-x)|**snes9x**<br />snes9x2002<br />snes9x2005_plus<br />snes9x2010<br />*beetle_snes*{: .rg552only }<br />*bsnes*{: .rg552only }<br />*bsnes2014_balanced*{: .rg552only }<br />*bsnes2014_performance*{: .rg552only }<br />*bsnes_mercury_balanced*{: .rg552only }<br />*bsnes_mercury_performance*{: .rg552only }<br />*mesen-s*{: .rg552only }|satellaview|.smc .sfc .swc .fig .bs .bsx .zip .7z|Good|Good|
+|[Nintendo<br/>Super Famicom](nintendo-sfc)|**snes9x**<br />snes9x2002<br />snes9x2005_plus<br />snes9x2010<br />beetle_supafaust<br /> *beetle_snes*{: .rg552only } <br /> *bsnes*{: .rg552only }<br /> *bsnes2014_balanced*{: .rg552only } <br /> *bsnes2014_performance*{: .rg552only } <br /> *bsnes_mercury_balanced*{: .rg552only } <br /> *bsnes_mercury_performance*{: .rg552only } <br /> *mesen-s*{: .rg552only }|sfc|.smc .sfc .swc .fig .zip .7z|Good|Good|
+|[Nintendo<br/>Super NES](nintendo-sfc)|**snes9x**<br />snes9x2002<br />snes9x2005_plus<br />snes9x2010<br />beetle_supafaust<br />*beetle_snes*{: .rg552only }<br />*bsnes*{: .rg552only }<br />*bsnes2014_balanced*{: .rg552only }<br />*bsnes2014_performance*{: .rg552only }<br />*bsnes_mercury_balanced*{: .rg552only }<br />*bsnes_mercury_performance*{: .rg552only }<br />*mesen-s*{: .rg552only }|snes<br/>snesh (hacks)|.smc .sfc .swc .fig .zip .7z|Good|Good|
+|[Nintendo<br/>Super NES MSU-1](nintendo-sfc)|**snes9x**<br />beetle_supafaust<br />*bsnes*{: .rg552only }<br />*mesen-s*{: .rg552only }|snesmsu1|.smc .fig .sfc .swc .zip .7z|Good|Good|
 |[Nintendo<br/>Virtual Boy](nintendo-virtual-boy)|**beetle_vb**|virtualboy|.vb .zip .7z|Good|Good|
 |[Panasonic<br/>3DO](panasonic-3do)|**opera**|3do|.iso .cue .bin .chd|Bad: Only low performance|Bad: Only low performance|
 |[Philips<br/>CD-i](philips-cd-i)|**same_cdi**|cdi|.chd .iso|Mixed|Good|
