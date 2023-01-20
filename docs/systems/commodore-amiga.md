@@ -6,8 +6,8 @@
 - Cores:
   - `puae2021` (default)
   - `puae`
+  - `uae4arm`
   - `amiberry` (standalone)
-  - `uae4arm` (standalone)
 - Path: `amiga`
 - Supported Extensions: `.zip .uae .adf .dms .fdi .ipf .adz .lha .hdf .hdz`
 - Bios: [Required](#bios)
