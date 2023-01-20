@@ -3,8 +3,9 @@
 ## Overview
 
 - Cores:
-  - `CrocoDS` (default)
+  - `crocods` (default)
   - `cap32` (Caprice32)
+  - `ep128emu`
 - Path(s): amstradcpc
 - Supported Extensions:
   - Both cores: `.dsk .sna`
