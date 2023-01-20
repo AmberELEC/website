@@ -4,7 +4,8 @@
 ## Overview
 
 - Cores:
-  - `puae` (default)
+  - `puae2021` (default)
+  - `puae`
   - `amiberry` (standalone)
   - `uae4arm` (standalone)
 - Path: `amiga`
