@@ -12,7 +12,7 @@
   - [MacOS X – Samba (Easiest)](#macos-x--samba-easiest)
   - [MacOS X – Filezilla (harder)](#macos-x--filezilla-harder)
   - [Android – AndFTP (harder)](#android--andftp-harder)
-  - [Linux PC – SCP](#linux--SCP)
+  - [Linux PC – SCP](#linux-pc--scp)
 
 ## Direct transfer (SD Card onto your Computer)
 
@@ -193,17 +193,6 @@ Use it to move files around like you would on your PC.
 
 Installation process is [simple and covered everywhere](https://www.youtube.com/watch?v=n80yyrnvKcA) and you can see above on [how to use Filezilla](#using-filezilla).
 
-### Linux PC – SCP
-
-The Command line tool `scp` works very well to transfer to and from your RG device
-For Example: `scp psx_rom.bin root@192.168.1.81:/storage/roms/psx/`
-	* Rom : `psx_rom.bin` This is the rom name/location on your current pc
-	* Username : `root`
-	* RG IP : `192.168.1.81`
-	* RG Location : `/storage/roms/psx/` This is where the file will be placed on the RG device
-Note: You can use standard command line wildcards to expand what you are transfering.  If you plan to transfer directories and the files within them, make sure to use the -r option (recursive)
-Run 'man scp` from the command line for more info on the `scp` command.
-
 ### Android – AndFTP (harder)
 
 #### Installing and setting up AndFTP
@@ -216,3 +205,15 @@ First thing’s first, you need to install [andFTP](https://play.google.com/stor
 ![AndFTP Labeled Diagram](/images/transferring-files/27-andftp-diagram.png)
 
 Here’s a simple diagram on how to use AndFTP.
+
+
+### Linux PC – SCP
+
+The Command line tool `scp` works very well to transfer to and from your RG device
+* For Example: `scp psx_rom.bin root@192.168.1.81:/storage/roms/psx/`
+	* Rom : `psx_rom.bin` This is the rom name/location on your current pc
+	* Username : `root`
+	* RG IP : `192.168.1.81`
+	* RG Location : `/storage/roms/psx/` This is where the file will be placed on the RG device
+Note: You can use standard command line wildcards to expand what you are transfering.  If you plan to transfer directories and the files within them, make sure to use the -r option (recursive)
+Run `man scp` from the command line for more info on the `scp` command.
