@@ -6,7 +6,7 @@ The Panda Conspiracy has come to AmberELEC, and it brings with it a cabal of new
 
 You can download it from the [Download Page](/download). Make sure you download the correct version for your device.
 
-If you want to know all the new cool features, take a look at the [Release Notes](https://github.com/AmberELEC/AmberELEC/releases/tag/20230130)!
+If you want to know all the new cool features, take a look at the [Release Notes](https://github.com/AmberELEC/AmberELEC/releases/tag/20230131)!
 
 ## About AmberELEC
 
