@@ -188,7 +188,7 @@ Overview:
 * Update Gamelists in the ES Menu
 
 You can even use the Workflow for Android like this to make it more comfortable:
-* Connect the device to your Windows PC using SMB (\\AmberELEC) and choose the rom folder
+* Connect the device to your Windows PC using SMB (\\\\AmberELEC) and choose the rom folder
 
 Step-by-step for Windows running LaunchBox:
 * Select the ROMs you want to export (for convenience, you can create a playlist for this). You can choose ROMs for multiple systems at once if you like.
