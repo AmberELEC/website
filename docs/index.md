@@ -2,7 +2,7 @@
 
 # <span style="color: #FFFFFF; font-size: 1.5em;font-weight: bold;text-shadow: -2px -1px #e08da2;">Enlist in the Panda Conspiracy</span>
 
-The Panda Conspiracy has come to AmberELEC, and it brings with it a cabal of new cores and emulators. There are new high accuracy emulators for systems that can handle them, including the Mednafen Beetle cores, bsnes, and Mesen. There are new fantasy consoles to explore like Wasm4, LosRes NX, and Chip-8, as well as built in support for PICO-8 games. There's now support for the Super Cassette Vision, the TVC, the Enterprise 64/128 and the Z-Machine engine. ScummVM has improved support for finding and loading games, and AmberELEC is more stable than ever. All of that comes with the usual emulator upgrades. New features and options are around every corner. Come join the conspiracy!
+The Panda Conspiracy has come to AmberELEC, and it brings with it a cabal of new cores and emulators. There are new high accuracy emulators for the RG552, including the several bsnes cores and the mesen cores. There are new fantasy consoles to explore like WASM-4, LowRes NX, and CHIP-8, as well as built in support for PICO-8 games. There's now support for the Super Cassette Vision, the Videoton TVC, the Enterprise 64/128 and the Z-Machine engine. ScummVM has improved support for finding and loading games, and AmberELEC is more stable than ever. All of that comes with the usual emulator upgrades. New features and options are around every corner. Come join the conspiracy!
 
 You can download it from the [Download Page](/download). Make sure you download the correct version for your device.
 
