@@ -174,8 +174,6 @@ For most standard-systems a shadow and grid png-file is included.
 
 ## How to Update AmberELEC
 
-*NOTE*: OTA updates are returning in the next stable release.
-
 To perform an update, download the .tar file from the latest version of AmberELEC.  Place the .tar in your games partition in the "update" folder, creating it if necessary.  Insert your SD card back into your device and turn it on.  When the update completes your device will reboot.
 
 Alternately, you can scp the .tar file to ~/.update and reboot the handheld to perform an offline update as well.
@@ -312,7 +310,7 @@ If the path is not created by default, it is ok to create it as below.  The dire
 * /storage/roms/mplayer
 
 ### Supported Formats
-* .mp4 .MP4 .mkv .MKV .avi .AVI .mov .MOV .wmv .WMV .m3u .M3U .mpg .MPG .ytb .YTB .twi .TWI
+* .mp4 .mkv .avi .mov .wmv .m3u .mpg
 
 ### Control Keys
 
