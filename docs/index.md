@@ -1,14 +1,12 @@
-<img src="/images/AmberELEC-ST.png" id="TFOELEClogo" class="mx-auto d-block" alt="AmberELEC Logo" style="width: 100%;max-width: 800px;margin: 75px 0 125px 0;"/>
+<img src="images/AmberELEC-PC.png" id="TFOELEClogo" class="mx-auto d-block" alt="AmberELEC Panda Conspiracy Logo" style="width: 100%;max-width: 800px;margin: 75px 0 75px 0;"/>
 
-# <span style="color: #FFFFFF; font-size: 1.5em;font-weight: bold;text-shadow: -3px -2px #A1A1A1;">Ascend the Sanshiro Tower</span>
+# <span style="color: #FFFFFF; font-size: 1.5em;font-weight: bold;text-shadow: -2px -1px #e08da2;">Enlist in the Panda Conspiracy</span>
 
-We're happy to announce that 351ELEC is now AmberELEC.
-
-Sanshiro Tower, the latest AmberELEC release, includes a ton of new features. Support for the RG552 is now part of the stable release. New emulators include Yabasanshiro Standalone, which gives Saturn compatibility a huge boost, and Hypseus-Singe, which adds support for Singe games, Same_CDi, which makes CDi playable on the RG552 for the first time. There are also brand new systems supported, like the Bit Corp Gamate, Aquaplus P/ece, Arduboy, Adventurevision, and more. We also have new cores for other systems that boost performance for different games, and new options that make tweaking your emulation preferences even easier.
+The Panda Conspiracy has come to AmberELEC, and it brings with it a cabal of new cores and emulators. There are new high accuracy emulators for the RG552, including several bsnes cores and mesen cores. There are new fantasy consoles to explore like WASM-4, LowRes NX, and CHIP-8, as well as built in support for PICO-8 games. There's now support for the Epoch Super Cassette Vision, the Videoton TVC, the Enterprise 64/128 and the Z-Machine engine. ScummVM has improved support for finding and loading games, and AmberELEC is more stable than ever. All of that comes with the usual emulator upgrades. New features and options are around every corner. Come join the conspiracy!
 
 You can download it from the [Download Page](/download). Make sure you download the correct version for your device.
 
-If you want to know all the new cool features, take a look at the [Release Notes](https://github.com/AmberELEC/AmberELEC/releases/tag/20220627)!
+If you want to know all the new cool features, take a look at the [Release Notes](https://github.com/AmberELEC/AmberELEC/releases/tag/20230131)!
 
 ## About AmberELEC
 
@@ -23,7 +21,7 @@ _Join Our Community:_ [https://discord.com/invite/R9Er7hkRMe](https://discord.co
 * Pre-configured optimized defaults allowing you to pick up and play.
 * Integrated scraper for getting images, videos, manuals and maps.
 * Native support for [RetroAchievements](https://retroachievements.org/) on supported emulators.
-* Package manager to install and update games and themes made by our community.
+* Package manager to install and update themes made by our community.
 * An exFAT games partition easily accessible from Linux, Windows and MacOS.
 
 ### Installation
