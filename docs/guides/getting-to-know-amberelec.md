@@ -5,7 +5,7 @@
 * [Accessing the handheld over a network](#accessing-the-handheld-over-a-network)
 * [Default Performance Settings](#default-performance-settings)
 * [How to Use Bezels](#how-to-use-bezels)
-* [How to Update](#how-to-update-AmberELEC) - Learn how to update to the newest version of AmberELEC
+* [How to Update](#how-to-update-amberelec) - Learn how to update to the newest version of AmberELEC
 * [LaunchBox Importer](#launchbox-importer)
 * [Adding Background Music to EmulationStation](#adding-background-music-to-emulationstation)
 * [Netplay](#netplay)
