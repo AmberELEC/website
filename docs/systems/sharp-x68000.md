@@ -10,9 +10,9 @@
 
 ## ROMs
 
-The recommended extension for playing Sharp X68000 is `.hdf`. This is the harddisk image for the game, and is usually labeled as "HD". Using an HD image means that you don't have to worry about swapping between disks, and the loading time is also reduced.
+The recommended extension for playing Sharp X68000 is `.hdf`. This is the harddisk image for the game, and is usually labeled as "HD". Using an HD image means that you don't have to worry about swapping between disks, and the loading time is also reduced. Unfortunately, many games do not have an HD install version, so if you play a lot of X68000 games, you're likely to run into some that are FD only.
 
-If you're using an FD (floppy disk) image, the most common one is `.hdm`, though all FD images work similarly. If you're using FD images and you're game has more than one disk, it's recommended that you create an m3u file (see [Multidisk Playlists](https://amberelec.org/guides/disk-roms#multidisk-playlists-m3u-files)). Some games require multiple disks to be inserted at once, and an m3u file will always load the first two disks listed, so disk management will be much easier.
+If you're using an FD (floppy disk) image, the most common one is `.hdm`, though all FD images work similarly. If you're using FD images and the game has more than one disk, it's recommended that you create an m3u file (see [Multidisk Playlists](https://amberelec.org/guides/disk-roms#multidisk-playlists-m3u-files)). Some games require multiple disks to be inserted at once, and an m3u file will always load the first two disks listed, so disk management will be much easier.
 
 ## Changing Disks
 
