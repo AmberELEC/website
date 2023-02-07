@@ -3,7 +3,8 @@
 ## Overview
 
 - Cores:
-  - `puae` (default)
+  - `puae2021` (default)
+  - `puae`
   - `uae4arm` (standalone)
 - Path: `amigacd32`
 - Supported Extensions: `.iso .cue .chd .lha`
