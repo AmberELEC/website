@@ -57,10 +57,10 @@ tipue_search_active: true
 
       {% if rootcategory and rootcategory.sidenav %}
         <div class="row">
-          <nav class="col-12 col-lg-3">
+          <nav class="col-12 col-lg-3 sidenav">
             {% include sidenav.html category=rootcategory %}
           </nav>
-          <section class="col-12 col-lg-9">
+          <section id="main_content" class="col-12 col-lg-9">
             {{ content }}
           </section>
         </div>

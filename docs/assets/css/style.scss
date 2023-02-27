@@ -87,7 +87,8 @@ ul li {
   list-style-image: none;
 }
 
-ul li:not(.nav-item,[role=navigation]):before {
+#main_content ul li:not(.nav-item,[role=navigation]):before,
+.sidenav ul li:before {
   content: ">>";
   color: $color-amber-mid;
   font-size: 1em;
