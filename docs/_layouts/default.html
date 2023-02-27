@@ -60,12 +60,12 @@ tipue_search_active: true
           <nav class="col-12 col-lg-3 sidenav">
             {% include sidenav.html category=rootcategory %}
           </nav>
-          <section id="main_content" class="col-12 col-lg-9">
+          <section class="col-12 col-lg-9 contentarea">
             {{ content }}
           </section>
         </div>
       {% else %}
-        <section id="main_content">
+        <section id="main_content" class="contentarea">
           {{ content }}
         </section>
       {% endif %}
