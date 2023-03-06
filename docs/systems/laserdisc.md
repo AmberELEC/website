@@ -113,5 +113,7 @@ All or almost all Singe 2 games have been converted to work with Hypseus Singe. 
 | Button 1| A |
 | Button 2| B |
 | Button 3| X |
+| Test | L1 |
 | Pause | L2 |
-| Quit | R2 |
+| Console | R2 |
+| Service | R1 |
