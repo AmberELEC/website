@@ -71,7 +71,7 @@ There ara many image writers that work fine on Windows. [Win32 Disk Imager](http
 
 #### OSX
 
-There's not a lot of experience from people flashing on Mac, but you may have success with the [rpi-imager](https://github.com/raspberrypi/rpi-imager).
+The [balenaEtcher](https://www.balena.io/etcher/) for OS X shoudl work fine. You may have success with the [rpi-imager](https://github.com/raspberrypi/rpi-imager).
 
 #### Linux
 
