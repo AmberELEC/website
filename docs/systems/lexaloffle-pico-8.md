@@ -36,7 +36,7 @@ If you want to launch Splore from EmulationStation, create an empty file called 
 
 If you want to hide the `bbs` and `backup` folders, you can use "Edit Folder Metadata" from the "favorite" menu and enable "Hidden".
 
-Additionally you can rename your carts to use the `.png` extension for cleaner names in EmulationStation, however carts without a `p8` extension won't be visible in the Splore file browser.
+Additionally you can rename your carts to use the `.png` or `.p8` extension for cleaner names in EmulationStation, however carts without `p8` in the file extension won't be visible in the Splore file browser.
 
 ## Controls
 
