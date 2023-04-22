@@ -16,7 +16,7 @@
 
 ## Setup
 
-To run Pico-8 carts using the Fake-08 emulator, simply put any `.p8` files in `/roms/pico-8`.
+To run Pico-8 carts using the Fake-08 emulator, simply put `.p8` (not `.p8.png`) files in `/roms/pico-8`.
 
 Using Fake-08 won't provide access to Splore (online game catalog) and may have compatibility issues with some games.
 
