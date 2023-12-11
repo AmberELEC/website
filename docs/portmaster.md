@@ -11,4 +11,4 @@
 
 ## Games and Compatibility
 
-For a full list of supported Ports check out the [PortMaster Wiki Page](https://portmaster.games/wiki.html).
+For a full list of supported Ports check out the [PortMaster Wiki Page]([https://portmaster.games/wiki.html](https://portmaster.games/games.html)).
