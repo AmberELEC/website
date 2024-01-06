@@ -139,7 +139,7 @@ Please note that MAME and FinalBurn Neo screen aspect ratios are not optimized, 
 |[Arduboy](arduboy)|**arduous**|arduboy|.hex|Good|Good|
 |[Belogic<br/>Uzebox](belogic-uzebox)|**uzem**|uzebox|.uze|Good|Good|
 |CHIP-8|**jaxe**|chip-8|.ch8 .sc8 .xo8|Good|Good|
-|[Lexaloffle<br/>Pico-8](lexaloffle-pico-8)|**pico8**|pico-8|.png .p8|Good|Good|
+|[Lexaloffle<br/>Pico-8](lexaloffle-pico-8)|**fake08**<br />pico8|pico-8|.png .p8|Good|Good|
 |LowRes NX|**lowresnx**|lowresnx|.nx|Good|Good|
 |[Nesbox<br/>TIC-80](nesbox-tic-80)|**tic80**|tic-80|.tic|Good|Good|
 |WASM-4|**wasm4**|wasm4|.wasm|Good|Good|
