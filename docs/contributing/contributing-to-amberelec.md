@@ -35,7 +35,7 @@ If you would like to switch back to the current release, the `RELEASE` channel w
 Dev and PR builds are intended primarily for developers to get the latest changes from `dev` or a `PR` before the build hits 'pre-release'.  Use at your own risk.
 
 **Finding/Installing Development Builds**
-- To find the latest development build, click on the 'green checkbox'(<img src="./images/green-check.png" alt="green checkbox" width="20">) on the AmberELEC [main](https://github.com/AmberELEC/AmberELEC) page. Then click *Details*.
+- To find the latest development build, click on the 'green checkbox'(<img src="/images/green-check.png" alt="green checkbox" width="20">) on the AmberELEC [main](https://github.com/AmberELEC/AmberELEC) page. Then click *Details*.
 
   Ex: <img src="/images/green-check-details.png" alt="green checkbox" width="300">.
   
