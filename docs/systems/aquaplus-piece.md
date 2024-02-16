@@ -1,4 +1,4 @@
-# [Upcoming Feature] Aquaplus P/ECE
+# Aquaplus P/ECE
 
 ## Overview
 
