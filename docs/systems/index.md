@@ -142,8 +142,8 @@ Please note that MAME and FinalBurn Neo screen aspect ratios are not optimized, 
 |[Lexaloffle<br/>Pico-8](lexaloffle-pico-8)|**fake08**<br />pico8|pico-8|.png .p8|Good|Good|
 |LowRes NX|**lowresnx**|lowresnx|.nx|Good|Good|
 |[Nesbox<br/>TIC-80](nesbox-tic-80)|**tic80**|tic-80|.tic|Good|Good|
-|WASM-4|**wasm4**|wasm4|.wasm|Good|Good|
 |Vircon32|**vircon32**|vircon32|.v32|Good|Good|
+|WASM-4|**wasm4**|wasm4|.wasm|Good|Good|
 
 ## Game Engines
 
