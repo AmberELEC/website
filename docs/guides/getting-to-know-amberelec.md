@@ -238,7 +238,6 @@ It backs up your current EmulationStation settings for menu selections, network 
 
 Specifically the following files: 
 - /storage/.config/distribution/configs/distribution.conf
-- core and game specific configs from /storage/.config/distribution/configs/emuoptions.conf
 - EmulationStation config from - /storage/.config/emulationstation/es_settings.cfg
 - root password from /storage/.cache/shadow
 - user ssh keys from /storage/.ssh
