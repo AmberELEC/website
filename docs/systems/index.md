@@ -71,7 +71,7 @@ Please note that MAME and FinalBurn Neo screen aspect ratios are not optimized, 
 |[Nintendo<br/>Game Boy](nintendo-gb)|**gambatte**<br />sameboy<br />gearboy<br />tgbdual<br />mgba<br />vbam<br />*bsnes*{: .rg552only }<br />*mesen-s*{: .rg552only }|gb<br/>gbh (hacks)|.gb .gbc .zip .7z|Good|Good|
 |[Nintendo<br/>Game Boy Advance](nintendo-gba)|**mgba**<br />beetle_gba<br />gpsp<br />vbam<br />vba_next|gba<br/>gbah (hacks)|.gba .zip .7z|Good|Good|
 |[Nintendo<br/>Game Boy Color](nintendo-gb#gbc-overview)|**gambatte**<br />sameboy<br />gearboy<br />tgbdual<br />mgba<br />vbam<br />*bsnes*{: .rg552only }<br />*mesen-s*{: .rg552only }|gbc<br/>gbch (hacks)|.gbc .gb .zip .7z|Good|Good|
-|[Nintendo<br/>N64](nintendo-n64)|mupen64plus_next<br />**parallel_n64**<br />mupen64plussa_glide64mk2<br />mupen64plussa_rice|n64|.z64 .n64 .v64 .zip .7z|Mixed: Some games run well, others are unplayable|Mixed: Some games run well, others are unplayable|
+|[Nintendo<br/>N64](nintendo-n64)|mupen64plus_next<br />parallel_n64<br />mupen64plussa_glide64mk2<br />**mupen64plussa_rice**|n64|.z64 .n64 .v64 .zip .7z|Mixed: Some games run well, others are unplayable|Mixed: Some games run well, others are unplayable|
 |[Nintendo<br/>NDS](nintendo-nds)|**drastic**|nds|.nds .zip|Mixed: 2D Games almost fully playable|Mixed: 2D Games almost fully playable|
 |[Nintendo<br/>NES](nintendo-famicom)|**nestopia**<br />fceumm<br />quicknes<br />*mesen*{: .rg552only }|nes<br/>nesh (hacks)|.nes .unif .unf .zip .7z|Good|Good|
 |[Nintendo<br/>Pokémon Mini](nintendo-pokemon-mini)|**pokemini**|pokemini|.min .zip .7z|Good|Good|
