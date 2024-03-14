@@ -3,7 +3,7 @@
 ## Overview
 
 - Emulators: 
-  - `gzdoom` (Standalone) (Default)
+  - `gzdoom` (Standalone) (default)
   - `lzdoom` (Standalone)
   - `prboom`
 - Path(s): 
@@ -51,22 +51,25 @@ ulsimpdm.wad<br>
 The file is simple and self explaining:
 
 ```
-IWAD=/storage/roms/doom/iwads/doom.wad
-MOD=/storage/roms/doom/mods/ulsimpdm.wad
+IWAD=iwads/doom.wad
+MOD=mods/batman/batman.wad
+MOD=mods/batman/batman.pk3
+DEH=mods/batman/batman.deh
+DEH=mods/batman/weapons.deh
+CONF=mods/batman/batman.ini
+SAVE=mods/batman
 -- end --
 ```
 
-`IWAD` is the main base game file, in this case is `doom.wad`.
-`MOD` is obviously the mod is loaded.
-Please note that the names are case sensitive.
+- `IWAD` is the main base game file, in this case is `doom.wad`.
+- `MOD` (optional) one or more .wad or .pk3 files for the mod.
+- `DEH` (optional) one or more .deh files for the mod.
+- `CONF` (optional) an .ini file if the mod needs an alternate configuration
+- `SAVE` (optional) a folder where the saves will be stored for this mod
+
+Please note that the names are case sensitive. Pathes can be absolute or relative to the roms folder ```/storage/roms/doom/```.
 
 ### Limitations
 - Some mods can run very slow, sorry for Castlevania fans.
 - Tough the shareware version of doom can be played with lzdoom it doesn't allow to load the mods, so you need a retail verson.
 - PRBoom currently only runs IWADS and not mods. If you want to run mods, please try gzdoom or lzdoom.
-
-### Sharing (your) mods
-If you created some .doom files and you want to share them with the community you are very welcome.
-Actually the .doom repo is here.
-You can even share the mod files if the licence allows it.
-It's forbidden to share the copyrighted .wad files such as the retail version of doom.wad
