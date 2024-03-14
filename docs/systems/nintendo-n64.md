@@ -8,13 +8,13 @@
 
 - Emulators/Cores:
   - Retroarch
-    - `parallel_n64` (default)
+    - `parallel_n64`
     - `mupen64plus_next`
   - Retrorun
     - `parallel_n64`
   - Mupen64Plus Stand Alone
     - `mupen64plussa_glide64mk2`
-    - `mupen64plussa_rice`
+    - `mupen64plussa_rice` (default)
 - Path(s): `/roms/n64`
 - Supported Extensions: `.z64, .n64, .v64 .zip .7z`
 - Bios: None
