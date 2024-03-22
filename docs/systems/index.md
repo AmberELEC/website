@@ -96,7 +96,7 @@ Please note that MAME and FinalBurn Neo screen aspect ratios are not optimized, 
 |[SNK<br/>Neo Geo CD](snk-neo-geo-cd)|**neocd**<br />fbneo|neocd|.chd .cue .iso|Good|Good|
 |[SNK<br/>Neo Geo Pocket](snk-neo-geo-pocket)|**beetle_ngp**<br />race|ngp|.ngp .ngc .zip .7z|Good|Good|
 |[SNK<br/>Neo Geo Pocket Color](snk-neo-geo-pocket)|**beetle_ngp**<br />race|ngpc|.ngc .zip .7z|Good|Good|
-|[Sony<br/>PlayStation](sony-playstation)|**pcsx_rearmed**<br />duckstation<br />swanstation|psx|.bin .cue .img .pbp .mdf .toc .cbn .m3u .ccd .chd .iso|Good|Good|
+|[Sony<br/>PlayStation](sony-playstation)|**pcsx_rearmed2023**<br />pcsx_rearmed<br />duckstation<br />swanstation|psx|.bin .cue .img .pbp .mdf .toc .cbn .m3u .ccd .chd .iso|Good|Good|
 |[Sony<br/>PSP](sony-psp)|**PPSSPPSDL**<br />ppsspp|psp|.chd .cso .pbp .iso|Mixed: Many games run well, especially with frameskip. Some games are unplayable|Mixed: Many games run well, especially with frameskip. Some games are unplayable|
 |[Sony<br/>PSP Minis](sony-psp)|**PPSSPPSDL**<br />ppsspp| pspminis |.chd .cso .pbp .iso|Mixed: Most games are less demanding than PSP, and run well, though a few may run badly|Mixed: Most games are less demanding than PSP, and run well, though a few may run badly|
 |[TimeTop<br />GameKing](timetop-gameking)|**mame**|gameking|.bin .gk .zip .7z|Mixed|Good|
