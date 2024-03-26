@@ -41,7 +41,7 @@ Put your MicroSD card into slot 1 of your retro device. If your device has a sec
 
 #### (Optional) Step 5: Second SD
 
-If you're using a system that supports a second SD card and you want to use a second SD card for your games, now is the time to set it up. Format the card as ExFAT or ext4. Don't put anything on the card yet. Turn your console off, put the game SD card in the second slot, and turn it back on. During bootup, AmberELEC will create the folder structure for your second SD card. Now you can transfer games to and from your second SD card using your preferred method.
+If you're using a system that supports a second SD card and you want to use a second SD card for your games, now is the time to set it up. Format the card as exFAT or ext4. Don't put anything on the card yet. Turn your console off, put the game SD card in the second slot, and turn it back on. During bootup, AmberELEC will create the folder structure for your second SD card. Now you can transfer games to and from your second SD card using your preferred method.
 
 {: .note }
 > # Note
@@ -84,8 +84,8 @@ While Chrome OS is a Linux distribution, the usual image writers don't work on i
 ### Installation Steps
 
 * Download the latest img.gz image from [https://github.com/AmberELEC/AmberELEC/releases/latest](https://github.com/AmberELEC/AmberELEC/releases/latest). Make sure you get the right image for your device.
-* Unzip the .img.gz image. You should have a file called something like `351ELEC-RG351P.aarch64-YYYYMMDD.img`
-* Append .bin to the end of the .img file. The filename should now be similar to `351ELEC-RG351P.aarch64-YYYYMMDD.img.bin`
+* Unzip the .img.gz image. You should have a file called something like `AmberELEC-RG351P.aarch64-YYYYMMDD.img`
+* Append .bin to the end of the .img file. The filename should now be similar to `AmberELEC-RG351P.aarch64-YYYYMMDD.img.bin`
 * Run the Chromebook Recovery Utility application. Click the settings button in the upper right, and select "Use Local Image"
 * Select your Micro SD card as the target, and continue through the process. The card will be flashed, and you'll be ready to put it into your console to initialize.
 
