@@ -120,7 +120,7 @@ Please note that MAME and FinalBurn Neo screen aspect ratios are not optimized, 
 |[Microsoft<br/>DOS](microsoft-dos)|**dosbox_pure**<br />dosbox_core|pc|.com .bat .exe .dosz, disk images (iso, cue, img, ima, vhd) can be put into the .dosz|Good|Good|
 |[Microsoft<br/>MSX](microsoft-msx)|**bluemsx**<br />fmsx|msx| .dsk .mx1 .mx2 .rom .zip .7z .m3u|Good|Good|
 |[Microsoft<br/>MSX2](microsoft-msx)|**bluemsx**<br />fmsx|msx2|.dsk .mx1 .mx2 .rom .zip .7z .m3u|Good|Good|
-|[NEC<br/>PC-88](nec-pc-88)|**quasi88**|pc88|.d88 .m3u|Good|Good|
+|[NEC<br/>PC-88](nec-pc-88)|**quasi88**|pc88|.d88 .u88 .m3u|Good|Good|
 |[NEC<br/>PC-98](nec-pc-98)|**np2kai**<br />nekop2|pc98|.d98 .zip .98d .fdi .fdd .2hd .tfd .d88 .88d .hdm .xdf .dup .hdi .thd .nhd .hdd .hdn|Mixed: Not powerful enough for some games|Good|
 |[Philips<br/>Videopac](magnavox-odyssey2)|**o2em**|videopac|.bin .zip .7z|Good|Good|
 |[Sega<br/>SC-3000](sega-sc-3000)|**bluemsx**|sc-3000|.sg .bin .zip .7z|Good|Good|
