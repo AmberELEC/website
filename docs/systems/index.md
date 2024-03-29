@@ -128,7 +128,8 @@ Please note that MAME and FinalBurn Neo screen aspect ratios are not optimized, 
 |[Sharp<br/>x68000](sharp-x68000)|**px68k**|x68000|.dim .img .d88 .88d .hdm .dup .2hd .xdf .hdf .cmd .m3u .zip .7z|Good|Good|
 |[Sinclair<br/>ZX81](sinclair-zx81)|**81**|zx81|.tzx .p .t81 .zip .7z|Good|Good|
 |[Sinclair<br/>ZX Spectrum](sinclair-zx-spectrum)|**fuse**<br />ep128emu|zxspectrum|.tzx .tap .z80 .rzx .scl .trd .dsk .zip .7z|Good|Good|
-|Videoton TVC|**ep128emu**|tvc|.img .dsk .cas .tvcwav .zip .7z|Good|Good|
+|Thomson<br/>MO/TO|**theodore**|thomson|.fd .sap .k7 .m7 .m5 .rom .zip .7z|Good|Good|
+|Videoton<br/>TVC|**ep128emu**|tvc|.img .dsk .cas .tvcwav .zip .7z|Good|Good|
 
 ## Fantasy/Open Source Consoles
 
