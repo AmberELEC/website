@@ -92,7 +92,7 @@ Please note that MAME and FinalBurn Neo screen aspect ratios are not optimized, 
 |[Sega<br/>Mega Drive](sega-mega-drive)|**genesis_plus_gx**<br />genesis_plus_gx_wide<br />picodrive|megadrive<br />megadrive-japan|.gen .bin .md .sg .smd .zip .7z|Good|Good|
 |[Sega<br/>Saturn](sega-saturn)|**yabasanshiroSA**|saturn|.cue .iso .chd|Mixed: Almost any game is fully playable, but not at full speed|Good|
 |[Sega<br/>Dreamcast](sega-dreamcast)|**flycast**<br />flycast2021|dreamcast|.cdi .gdi .chd .m3u|Mixed: Some games run well, others are unplayable|Mixed: Some games run well, others are unplayable|
-|[SNK<br/>Neo Geo](snk-neo-geo)|**fbneo**<br />mame2003_plus<br />fbalpha2012<br />fbalpha2019<br />mame2010<br />mame2015<br />mame2016<br />mame|neogeo|.7z .zip|Good|Good|
+|[SNK<br/>Neo Geo](snk-neo-geo)|**fbneo**<br />*geolith*{: .rg552only }<br />mame2003_plus<br />fbalpha2012<br />fbalpha2019<br />mame2010<br />mame2015<br />mame2016<br />mame|neogeo|.7z .zip<br />*.neo*{: .rg552only }|Good|Good|
 |[SNK<br/>Neo Geo CD](snk-neo-geo-cd)|**neocd**<br />fbneo|neocd|.chd .cue .iso|Good|Good|
 |[SNK<br/>Neo Geo Pocket](snk-neo-geo-pocket)|**beetle_ngp**<br />race|ngp|.ngp .ngc .zip .7z|Good|Good|
 |[SNK<br/>Neo Geo Pocket Color](snk-neo-geo-pocket)|**beetle_ngp**<br />race|ngpc|.ngc .zip .7z|Good|Good|
