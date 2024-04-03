@@ -27,7 +27,7 @@ Builds are released each night when there are new commits to `main`.  Builds are
 The latest pre-release build can be found on the **AmberELEC-pre-release** [releases](https://github.com/AmberELEC/AmberELEC-prerelease/releases/) page.  Builds are installed as normal (using either a `.tar` or a `.img.gz`).
 
 ### Using Pre-Release Builds
-Pre-Release builds should operate normally.  From the device, you can update to the latest pre-release build by specifying the `BETA` channel in `Updates & Downloads`. 
+Pre-Release builds should operate normally.  From the device, you can update to the latest pre-release build by specifying the `PRERELEASE` channel in `Updates & Downloads`. 
 
 If you would like to switch back to the current release, the `RELEASE` channel will switch back to a released version.
 
