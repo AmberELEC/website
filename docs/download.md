@@ -51,4 +51,4 @@ To update from a previous version of AmberELEC, download the update .tar file be
 
 ### Pre-Release
 
-All downloads on this page are for the current stable version of AmberELEC. If you'd like to test out the latest changes and give feedback, you can download the pre-release version of AmberELEC. Please note that the pre-release is unstable and may crash and break. Because of that, you shouldn't use the pre-release for daily use unless you're comfortable taking that risk. For more information and instructions on how to install the pre-release, please see the [Pre-Release Build Instructions](/contributing/contributing-to-amberelec#pre-release-builds).
+All downloads on this page are for the current stable version of AmberELEC. If you'd like to test out the latest changes and give feedback, you can download the pre-release version of AmberELEC. For more information and instructions on how to install the pre-release, please see the [Pre-Release Build Instructions](/contributing/contributing-to-amberelec#pre-release-builds).
