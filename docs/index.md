@@ -12,7 +12,7 @@ If you want to know all the new cool features, take a look at the [Release Notes
 
 AmberELEC is an open source firmware developed for the Anbernic RG351P/M/V/MP and RG552.
 
-_Join Our Community:_ [https://discord.com/invite/R9Er7hkRMe](https://discord.com/invite/R9Er7hkRMe)
+_Join Our Community:_ [https://discord.gg/W9F9xxRseu](https://discord.gg/W9F9xxRseu)
 
 ### Features
 * A 64bit Firmware optimized for the RG351P/M/V/MP and RG552.
