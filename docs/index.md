@@ -30,6 +30,6 @@ Please visit the [Installation](/installation#overview) page for installation in
 
 ### Getting Help
 
-If you have general questions or need help, join us on Discord: [https://discord.com/invite/R9Er7hkRMe](https://discord.com/invite/R9Er7hkRMe)
+If you have general questions or need help, join us on Discord: [https://discord.gg/W9F9xxRseu](https://discord.gg/W9F9xxRseu)
 
 For bug reports and feature requests, use one of the templates on the issues tab.  The more information you provide, the easier it will be to assist.  Please note that issues opened without using a form will be closed.  Please do not use the issue tracker for technical support, or your issue will be closed.
