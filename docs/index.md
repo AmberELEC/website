@@ -1,4 +1,4 @@
-<img src="images/AmberELEC-PC.png" id="TFOELEClogo" class="mx-auto d-block" alt="AmberELEC Panda Conspiracy Logo" style="width: 100%;max-width: 800px;margin: 75px 0 75px 0;"/>
+<img src="images/AmberELEC-PC.png" id="TFOELEClogo" class="mx-auto d-block" alt="AmberELEC Panda Conspiracy Logo" style="width: 100%;max-width: 800px;margin: 75px 0 75px 0;"/> 
 
 # <span style="color: #FFFFFF; font-size: 1.5em;font-weight: bold;text-shadow: -2px -1px #e08da2;">Enlist in the Panda Conspiracy</span>
 
