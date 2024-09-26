@@ -115,7 +115,7 @@ The first package added to the repository may be used as an example to help dete
 
 | Package | Repository |
 |----|----|
-| Drastic | [https://github.com/351ELEC/packages](https://github.com/351ELEC/packages) |
+| Drastic | [https://github.com/AmberELEC/AmberELEC/tree/dev/packages/games/emulators/drastic](https://github.com/AmberELEC/AmberELEC/tree/dev/packages/games/emulators/drastic) |
 
 ### Installing and Uninstalling
 Your package is expected to integrate with the rest of the system and require minimal user intervention, unless additional data/packs are required for operation.
