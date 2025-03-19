@@ -71,5 +71,5 @@ Please note that the names are case sensitive. Pathes can be absolute or relativ
 
 ### Limitations
 - Some mods can run very slow, sorry for Castlevania fans.
-- Tough the shareware version of doom can be played with lzdoom it doesn't allow to load the mods, so you need a retail verson.
+- Tough the shareware version of doom can be played with lzdoom it doesn't allow to load the mods, so you need a retail version.
 - PRBoom currently only runs IWADS and not mods. If you want to run mods, please try gzdoom or lzdoom.
