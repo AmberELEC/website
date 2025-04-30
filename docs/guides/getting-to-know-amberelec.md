@@ -45,7 +45,7 @@ Every hotkey is commanded by combining the SELECT button with the desired functi
 
 ### RetroRun Hotkeys
 
-RetroRun is an alternative front-end to RetroArch, designed for performance. It is used in conbination with certain cores to run better or offer more stable performance compared to RetroArch.
+RetroRun is an alternative front-end to RetroArch, designed for performance. It is used in combination with certain cores to run better or offer more stable performance compared to RetroArch.
 Unlike RetroArch, RetroRun has a minimalist interface and supports basic menu functionality, but it lacks many of the advanced features found in RetroArch, such as extensive configuration options, shaders, overlays, and core settings. Its goal is to provide a lightweight, fast-launching environment for running specific emulators with minimal overhead. It can be configured via ES menu or via the internal Menu.
 
 Following is a list of all the RetroRun hotkeys:
