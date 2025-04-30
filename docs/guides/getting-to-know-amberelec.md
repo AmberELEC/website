@@ -45,18 +45,23 @@ Every hotkey is commanded by combining the SELECT button with the desired functi
 
 ### RetroRun Hotkeys
 
-Retrorun is a separate emulator from RetroArch, with its own cores. It's included because there are some games it can play that RetroArch fails at. RetroRun is very barebones. There is no menu, there are no configuration files, and there is no controller configuration. What you see is what you get.
+RetroRun is an alternative front-end to RetroArch, designed for performance. It is used in conbination with certain cores to run better or offer more stable performance compared to RetroArch.
+Unlike RetroArch, RetroRun has a minimalist interface and supports basic menu functionality, but it lacks many of the advanced features found in RetroArch, such as extensive configuration options, shaders, overlays, and core settings. Its goal is to provide a lightweight, fast-launching environment for running specific emulators with minimal overhead. It can be configured via ES menu or via the internal Menu.
 
 Following is a list of all the RetroRun hotkeys:
 
 | Command | Key |
 |----|----|
-| Show Info | L3 + R3 | L3 + F |
-| Quit | SELECT + START |
+| RR Menu | L3 + R3 | L3 + F |
+| Quit | SELECT + START (x2) | SELECT + START (x2) |
 | Pause | SELECT + A | SELECT + A |
 | Screenshot | SELECT + B | SELECT + B |
 | FPS | SELECT + Y | SELECT + Y |
+| Save State | SELECT + R1 | SELECT + R1 |
+| Load State | SELECT + L1 | SELECT + L1 |
 | Fast Forward | SELECT + R2 | SELECT + R2 |
+| Save State Slot + | SELECT + Up | SELECT + Up |
+| Save State Slot - | SELECT + Down | SELECT + Down |
 | Kill Process | L2 + Select + Start |
 
 ### EmulationStation Controls
