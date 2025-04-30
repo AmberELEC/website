@@ -51,6 +51,7 @@ Following is a list of all the RetroRun hotkeys:
 
 | Command | Key |
 |----|----|
+| RR Menu | SELECT + X,<br />L3 + R3 | SELECT + X,<br />L3 + F |
 | Show Info | L3 + R3 | L3 + F |
 | Quit | SELECT + START |
 | Pause | SELECT + A | SELECT + A |
